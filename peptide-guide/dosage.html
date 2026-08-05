@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dosage Calculator — Peptide Guide</title>
+  <meta name="description" content="Interactive peptide dosage calculator with common protocols, reconstitution guidance, and unit conversion for U-100 insulin syringes.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <div class="nav-brand-icon">PG</div>
+      Peptide Guide
+    </a>
+    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="half-life.html">Half-Life</a>
+      <a href="dosage.html" class="active">Dosage Calculator</a>
+      <a href="terminology.html">Terminology</a>
+      <a href="vendors.html">Vendors</a>
+      <a href="regulation.html">Regulation</a>
+      <a href="bac-water.html">BAC Water Tests</a>
+      <a href="resources.html">Resources</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-content">
+  <h1>💉 Dosage Calculator & Protocols</h1>
+  <p>Calculate injection units based on peptide mass, BAC water volume, and desired dose. Includes common protocols and reconstitution guidance.</p>
+
+  <div class="disclaimer">
+    <strong>⚠ Disclaimer:</strong> Dosage schedules are based on clinical trials or anecdotal community protocols. This calculator is for educational purposes only. Always consult a healthcare professional.
+  </div>
+
+  <!-- Calculator -->
+  <div class="calc-container" style="margin-bottom:48px">
+    <h2 style="font-size:1.3rem;margin-bottom:24px">🧮 Reconstitution Calculator</h2>
+    <p style="font-size:0.82rem;color:var(--text-muted);margin-bottom:20px">Based on 1cc/mL U-100 insulin syringe (100 Units = 1mL, 1 Unit = 0.01mL)</p>
+
+    <div class="calc-row">
+      <div class="calc-field">
+        <label>Peptide Amount in Vial</label>
+        <input type="number" id="vialMg" placeholder="10" min="1" step="0.1" value="10">
+      </div>
+      <div class="calc-field">
+        <label>Unit</label>
+        <select id="vialUnit"><option value="mg" selected>mg</option><option value="mcg">mcg</option></select>
+      </div>
+    </div>
+
+    <div class="calc-row">
+      <div class="calc-field">
+        <label>BAC Water to Add</label>
+        <input type="number" id="bacMl" placeholder="2" min="0.1" step="0.1" value="2">
+      </div>
+      <div class="calc-field">
+        <label>Unit</label>
+        <select id="bacUnit"><option value="mL" selected>mL</option></select>
+      </div>
+    </div>
+
+    <div class="calc-row">
+      <div class="calc-field">
+        <label>Your Desired Dose</label>
+        <input type="number" id="desiredDose" placeholder="250" min="0.01" step="0.01" value="250">
+      </div>
+      <div class="calc-field">
+        <label>Dose Unit</label>
+        <select id="doseUnit"><option value="mcg" selected>mcg</option><option value="mg">mg</option><option value="IU">IU</option></select>
+      </div>
+    </div>
+
+    <div class="calc-result" id="calcResult">
+      <div class="calc-result-label">Draw On Syringe</div>
+      <div class="calc-result-value" id="resultUnits">—</div>
+      <div class="calc-result-desc" id="resultDesc">Enter values above to calculate</div>
+    </div>
+
+    <div style="margin-top:20px;padding:16px;background:var(--bg-tertiary);border-radius:var(--radius);font-size:0.8rem;color:var(--text-muted)">
+      <strong>💡 Tips:</strong><br>
+      • Use <strong>1mL BAC</strong> for high doses (Tirzepatide, Retatrutide) to avoid large injection volumes.<br>
+      • Use <strong>2–3mL BAC</strong> for micro-doses (CJC-1295, Ipamorelin) for easier measuring.<br>
+      • Peptide vial mass in mg × 1,000 = total mcg in the vial.
+    </div>
+  </div>
+
+  <!-- Reconstitution Reference -->
+  <h2 style="font-size:1.3rem;margin-bottom:16px">📊 Reconstitution Reference</h2>
+
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:20px;margin-bottom:48px">
+    <div class="card">
+      <h3>10mg Vial (10,000mcg)</h3>
+      <div class="table-wrap" style="margin-top:12px">
+        <table>
+          <thead><tr><th>BAC Volume</th><th>Concentration</th><th>mcg/10U</th><th>mcg/1U</th></tr></thead>
+          <tbody>
+            <tr><td>1mL</td><td>10mg/mL</td><td>1,000mcg</td><td>100mcg</td></tr>
+            <tr><td>2mL</td><td>5mg/mL</td><td>500mcg</td><td>50mcg</td></tr>
+            <tr><td>3mL</td><td>3.33mg/mL</td><td>~333mcg</td><td>~33.3mcg</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.78rem;color:var(--text-muted);margin-top:12px">Example: 250mcg BPC-157 → 2.5 Units (1mL BAC) or 5 Units (2mL BAC)</p>
+    </div>
+    <div class="card">
+      <h3>20mg Vial (20,000mcg)</h3>
+      <div class="table-wrap" style="margin-top:12px">
+        <table>
+          <thead><tr><th>BAC Volume</th><th>Concentration</th><th>mcg/10U</th><th>mcg/1U</th></tr></thead>
+          <tbody>
+            <tr><td>1mL</td><td>20mg/mL</td><td>2,000mcg</td><td>200mcg</td></tr>
+            <tr><td>2mL</td><td>10mg/mL</td><td>1,000mcg</td><td>100mcg</td></tr>
+            <tr><td>3mL</td><td>6.66mg/mL</td><td>~666mcg</td><td>~66.6mcg</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p style="font-size:0.78rem;color:var(--text-muted);margin-top:12px">Example: 5mg Tirzepatide → 25 Units (1mL BAC) or 50 Units (2mL BAC)</p>
+    </div>
+  </div>
+
+  <!-- Common Dosage Table -->
+  <h2 style="font-size:1.3rem;margin-bottom:16px">📋 Common Dosage & Protocols</h2>
+  <div class="filter-bar">
+    <span class="filter-bar-label">SEARCH:</span>
+    <input type="text" class="filter-input" id="dosageSearch" placeholder="Search compounds...">
+  </div>
+  <div class="table-wrap">
+    <table id="dosageTable">
+      <thead>
+        <tr><th>Compound</th><th>Category</th><th>Common Dosage</th><th>Description</th></tr>
+      </thead>
+      <tbody id="dosageBody"></tbody>
+    </table>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div><h4>About This Data</h4><p>Dosage information compiled from clinical trials and community protocols. Not medical advice.</p></div>
+    <div><h4>Quick Links</h4><div class="footer-links"><a href="half-life.html">Half-Life</a><a href="dosage.html">Calculator</a><a href="terminology.html">Terms</a><a href="vendors.html">Vendors</a></div></div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 Peptide Guide — Educational Purposes Only</span><span>Not Medical Advice</span></div>
+</footer>
+
+<script>
+// Dosage data from spreadsheet
+const dosageData = [
+  {compound:"5-AMINO-1MQ",category:"Metabolic & Weight",dose:"50 to 150 mg orally daily",desc:"A small molecule NNMT inhibitor that increases cellular energy metabolism and fat loss."},
+  {compound:"ADAMAX",category:"Cognitive",dose:"100 to 200 mcg daily",desc:"A highly enhanced derivative of Semax used for cognitive enhancement and neuroprotection."},
+  {compound:"AHK-CU",category:"Cosmetic",dose:"Varies (typically applied topically)",desc:"A copper peptide heavily utilized in cosmetic formulations to stimulate hair growth."},
+  {compound:"AICAR",category:"Metabolic & Endurance",dose:"10 to 50 mg daily",desc:"An AMPK activator that mimics the effects of exercise and boosts cellular energy."},
+  {compound:"AOD9604",category:"Metabolic & Weight",dose:"250 to 500 mcg daily",desc:"A derivative of the human growth hormone fragment 176-191 designed specifically for lipolysis."},
+  {compound:"ARA290 (Cibinetide)",category:"Healing & Recovery",dose:"4 mg daily",desc:"An erythropoietin derivative researched for repairing nerve damage and reducing neuropathic pain."},
+  {compound:"BPC157",category:"Healing & Recovery",dose:"250 to 500 mcg injected twice daily",desc:"A synthetic peptide from gastric juice that accelerates healing of tendons, ligaments, and muscle."},
+  {compound:"BPC/TB Blends",category:"Healing & Recovery",dose:"Varies based on blend ratio",desc:"Pre-mixed combinations of BPC-157 and TB-500 targeting holistic tissue repair and inflammation."},
+  {compound:"Cagrilintide",category:"Metabolic & Weight",dose:"0.3 to 4.5 mg injected once weekly",desc:"A long-acting amylin analogue researched alongside GLP-1s for enhanced weight management."},
+  {compound:"Cartalax",category:"Anti-aging & Joint",dose:"10 to 20 mg daily (short courses)",desc:"A synthesized peptide bioregulator designed to support cartilage, bone, and joint function."},
+  {compound:"Cerebrolysin",category:"Cognitive & Neuro",dose:"5 to 10 ml IV/IM daily",desc:"A porcine-derived neuropeptide preparation used for neuroprotection and recovery from brain trauma."},
+  {compound:"CJC 1295 (without DAC)",category:"Growth Hormone",dose:"100 to 200 mcg injected 1–3x daily",desc:"A GHRH analog that amplifies the body's natural pulsatile release of growth hormone."},
+  {compound:"DSIP",category:"Sleep",dose:"100 to 200 mcg before bed",desc:"Delta Sleep-Inducing Peptide; a neuropeptide studied for regulating and promoting deep sleep."},
+  {compound:"Eloralintide",category:"Gastrointestinal",dose:"Varies by research protocol",desc:"A GLP-2 analog researched for supporting gastrointestinal health and mucosal healing."},
+  {compound:"Epithalon",category:"Anti-aging",dose:"5 to 10 mg daily (short 10–20 day courses)",desc:"A synthetic pineal gland bioregulator that activates telomerase and extends cellular lifespan."},
+  {compound:"GHK-Cu",category:"Cosmetic & Healing",dose:"1 to 2 mg daily",desc:"A naturally occurring copper peptide highly effective in skin remodeling, collagen synthesis, and tissue repair."},
+  {compound:"GHRP-6",category:"Growth Hormone",dose:"100 to 300 mcg injected 1–3x daily",desc:"A potent growth hormone secretagogue known for profoundly stimulating appetite."},
+  {compound:"GLOW",category:"Cosmetic & Healing",dose:"Varies based on blend ratio",desc:"A synergistic blend of BPC-157 and GHK-Cu focused on rapid tissue healing and skin improvement."},
+  {compound:"Glutathione",category:"Antioxidant",dose:"200 to 600 mg IM/IV weekly",desc:"The body's master antioxidant, essential for cellular defense and liver detoxification."},
+  {compound:"HCG",category:"Hormonal",dose:"250 to 500 IU injected 2–3x weekly",desc:"Human Chorionic Gonadotropin; used to stimulate testosterone production and maintain fertility."},
+  {compound:"Humanin",category:"Anti-aging & Neuro",dose:"Varies by research protocol",desc:"A mitochondrial-derived peptide studied for protecting against oxidative stress and cognitive decline."},
+  {compound:"IGF-1 LR3",category:"Growth & Muscle",dose:"20 to 50 mcg daily",desc:"A modified, longer-acting version of Insulin-like Growth Factor 1 for muscle growth and recovery."},
+  {compound:"Ipamorelin",category:"Growth Hormone",dose:"200 to 300 mcg injected 1–2x daily",desc:"A selective secretagogue that stimulates natural growth hormone release without spiking cortisol."},
+  {compound:"Kisspeptin-10",category:"Hormonal",dose:"100 to 200 mcg daily",desc:"A neuropeptide that stimulates the release of GnRH, regulating testosterone and fertility."},
+  {compound:"KLOW",category:"Healing & Immunity",dose:"Varies based on blend ratio",desc:"A formulated blend of TB-500, BPC-157, and KPV for comprehensive healing and anti-inflammatory action."},
+  {compound:"KPV",category:"Anti-inflammatory",dose:"200 to 500 mcg daily",desc:"A naturally occurring tripeptide derived from alpha-MSH with potent anti-inflammatory and gut-healing properties."},
+  {compound:"Lemon Bottle",category:"Cosmetic",dose:"Varies per target area",desc:"An injectable lipolysis solution with Riboflavin, Bromelain, and Lecithin to dissolve localized fat."},
+  {compound:"Melanotan I",category:"Cosmetic",dose:"1 to 2 mg daily",desc:"A peptide that stimulates melanin production for skin tanning, with lower side effects than Melanotan II."},
+  {compound:"Melanotan II",category:"Cosmetic & Lifestyle",dose:"250 to 500 mcg injected once daily (loading)",desc:"A synthetic hormone analog that stimulates melanin production for tanning and enhances libido."},
+  {compound:"MOTS-c (Human)",category:"Metabolic",dose:"5 to 10 mg injected once weekly",desc:"A mitochondrial-derived peptide that promotes metabolic homeostasis and enhances insulin sensitivity."},
+  {compound:"NAD+",category:"Anti-aging & Energy",dose:"Varies (frequently IV or SC)",desc:"A critical coenzyme for cellular metabolism, mitochondrial function, and longevity pathways."},
+  {compound:"Oxytocin Acetate",category:"Neuromodulator",dose:"Varies (often SC or intranasal)",desc:"The 'love hormone,' researched for reducing anxiety, promoting social bonding, and enhancing intimacy."},
+  {compound:"PE-22-28",category:"Cognitive & Mood",dose:"400 mcg daily",desc:"A synthetic peptide acting as a TREK-1 channel antagonist, studied for rapid-acting antidepressant effects."},
+  {compound:"Pinealon",category:"Cognitive & Neuro",dose:"1 to 2 mg daily (short courses)",desc:"A short peptide bioregulator that normalizes the functional activity of brain cells."},
+  {compound:"PT141 (Bremelanotide)",category:"Sexual Health",dose:"1 to 2 mg injected as needed",desc:"A derivative of Melanotan II utilized to treat sexual dysfunction and boost libido in men and women."},
+  {compound:"Retatrutide",category:"Metabolic & Weight",dose:"1 to 12 mg injected once weekly (titrated)",desc:"A triple receptor agonist (GLP-1, GIP, Glucagon) showing profound weight loss in clinical trials."},
+  {compound:"Selank",category:"Cognitive & Mood",dose:"250 to 500 mcg daily",desc:"A Tuftsin analog developed for its pronounced anxiolytic (anti-anxiety) and nootropic effects."},
+  {compound:"Semaglutide",category:"Metabolic & Weight",dose:"0.25 to 2.4 mg injected once weekly (titrated)",desc:"A GLP-1 receptor agonist for weight management and blood sugar control by suppressing appetite."},
+  {compound:"Semax",category:"Cognitive & Nootropic",dose:"250 to 1000 mcg daily",desc:"An ACTH analog widely used to enhance focus, memory, and support neurological recovery."},
+  {compound:"Sermorelin Acetate",category:"Growth Hormone",dose:"100 to 300 mcg daily",desc:"A classic GHRH analog utilized to stimulate the pituitary gland into secreting natural growth hormone."},
+  {compound:"SS-31 (Elamipretide)",category:"Anti-aging",dose:"2 to 4 mg daily",desc:"A peptide that targets the inner mitochondrial membrane to restore energy production and reduce oxidative stress."},
+  {compound:"TB500",category:"Healing & Recovery",dose:"2 to 2.5 mg injected twice weekly",desc:"A synthetic protein fraction that promotes new blood vessel formation and reduces inflammation."},
+  {compound:"Tesamorelin",category:"Growth Hormone",dose:"1 to 2 mg injected daily",desc:"A GHRH analog highly specific to reducing visceral adipose tissue (stubborn belly fat)."},
+  {compound:"Thymalin/Thymulin",category:"Immunity",dose:"10 mg daily (short 10-day courses)",desc:"A thymic peptide bioregulator used to restore immune system function and regulate T-cell production."},
+  {compound:"Thymosin alpha 1",category:"Immunity",dose:"1 to 1.5 mg injected twice weekly",desc:"An endogenous immune modulator widely used to support the immune system and combat infections."},
+  {compound:"Tirzepatide",category:"Metabolic & Weight",dose:"2.5 to 15 mg injected once weekly (titrated)",desc:"A dual GIP/GLP-1 receptor agonist that yields significant weight loss and regulates blood glucose."}
+];
+
+// Render dosage table
+function renderDosageTable(data) {
+  document.getElementById('dosageBody').innerHTML = data.map(d => `
+    <tr>
+      <td>${d.compound}</td>
+      <td><span class="badge badge-accent">${d.category}</span></td>
+      <td>${d.dose}</td>
+      <td>${d.desc}</td>
+    </tr>
+  `).join('');
+}
+renderDosageTable(dosageData);
+
+document.getElementById('dosageSearch').addEventListener('input', function(e) {
+  const q = e.target.value.toLowerCase();
+  renderDosageTable(dosageData.filter(d => d.compound.toLowerCase().includes(q) || d.category.toLowerCase().includes(q) || d.desc.toLowerCase().includes(q)));
+});
+
+// Calculator logic
+function updateCalc() {
+  const vialVal = parseFloat(document.getElementById('vialMg').value) || 0;
+  const vialUnit = document.getElementById('vialUnit').value;
+  const bacMl = parseFloat(document.getElementById('bacMl').value) || 0;
+  const doseVal = parseFloat(document.getElementById('desiredDose').value) || 0;
+  const doseUnit = document.getElementById('doseUnit').value;
+
+  const vialMcg = vialUnit === 'mg' ? vialVal * 1000 : vialVal;
+  let doseMcg = doseVal;
+  if (doseUnit === 'mg') doseMcg = doseVal * 1000;
+  if (doseUnit === 'IU') doseMcg = doseVal; // IU treated as mcg equivalent for calculation
+
+  const resultUnitsEl = document.getElementById('resultUnits');
+  const resultDescEl = document.getElementById('resultDesc');
+
+  if (vialMcg <= 0 || bacMl <= 0 || doseMcg <= 0) {
+    resultUnitsEl.textContent = '—';
+    resultDescEl.textContent = 'Enter all values above to calculate';
+    return;
+  }
+
+  const concentration = vialMcg / bacMl; // mcg per mL
+  const volumeMl = doseMcg / concentration; // mL needed
+  const units = volumeMl * 100; // Convert to U-100 units
+
+  resultUnitsEl.textContent = units.toFixed(1) + ' Units';
+  resultDescEl.textContent = `Volume: ${volumeMl.toFixed(3)} mL | Concentration: ${concentration.toFixed(1)} mcg/mL | Each unit delivers ${(concentration/100).toFixed(1)} mcg`;
+}
+
+['vialMg','vialUnit','bacMl','desiredDose','doseUnit'].forEach(id => {
+  document.getElementById(id).addEventListener('input', updateCalc);
+  document.getElementById(id).addEventListener('change', updateCalc);
+});
+updateCalc();
+</script>
+</body>
+</html>

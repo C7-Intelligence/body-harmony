@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Terminology & Slang — Peptide Guide</title>
+  <meta name="description" content="Complete glossary of peptide acronyms, community slang, bodybuilding terms, and scientific abbreviations.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <div class="nav-brand-icon">PG</div>
+      Peptide Guide
+    </a>
+    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="half-life.html">Half-Life</a>
+      <a href="dosage.html">Dosage Calculator</a>
+      <a href="terminology.html" class="active">Terminology</a>
+      <a href="vendors.html">Vendors</a>
+      <a href="regulation.html">Regulation</a>
+      <a href="bac-water.html">BAC Water Tests</a>
+      <a href="resources.html">Resources</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-content">
+  <h1>📖 Terminology & Slang</h1>
+  <p>Breakdown of common slang terms, acronyms, and nicknames used within the bodybuilding, fitness, biohacking, and peptide communities.</p>
+
+  <div class="filter-bar">
+    <span class="filter-bar-label">SEARCH:</span>
+    <input type="text" class="filter-input" id="termSearch" placeholder="Search all terms...">
+    <span class="filter-bar-label" style="margin-left:16px">SECTION:</span>
+    <button class="filter-tag active" data-section="all">All</button>
+    <button class="filter-tag" data-section="slang">Community Slang</button>
+    <button class="filter-tag" data-section="aas">AAS Terms</button>
+    <button class="filter-tag" data-section="peptides">Peptide & GH Terms</button>
+    <button class="filter-tag" data-section="abbrev">Abbreviations</button>
+    <button class="filter-tag" data-section="chemistry">Chemistry / Synthesis</button>
+  </div>
+
+  <div class="glossary-grid" id="glossaryGrid"></div>
+
+  <div class="empty-state" id="emptyState">
+    <div class="empty-state-icon">🔍</div>
+    <h3>No terms match your search</h3>
+    <p>Try a different search term or section filter.</p>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div><h4>About</h4><p>Terminology compiled from community sources. For educational purposes only.</p></div>
+    <div><h4>Quick Links</h4><div class="footer-links"><a href="half-life.html">Half-Life</a><a href="dosage.html">Calculator</a><a href="vendors.html">Vendors</a><a href="regulation.html">Regulation</a></div></div>
+  </div>
+  <div class="footer-bottom"><span>© 2026 Peptide Guide — Educational Purposes Only</span><span>Not Medical Advice</span></div>
+</footer>
+
+<script>
+const terms = [
+  // Community Slang
+  {term:"BAC / BAC Water",meaning:"Bacteriostatic water; sterile water with benzyl alcohol used to reconstitute and preserve peptides.",section:"slang"},
+  {term:"Blast and Cruise",meaning:"Running high doses for a period (Blast) followed by a low maintenance dose instead of coming off entirely (Cruise).",section:"slang"},
+  {term:"BUD",meaning:"Beyond-Use Date. The date after which a reconstituted peptide should be discarded due to degradation or contamination risk.",section:"slang"},
+  {term:"Cycle",meaning:"A planned period (e.g., 12–16 weeks) where a user takes specific doses of performance-enhancing drugs.",section:"slang"},
+  {term:"Dart / Harpoon",meaning:"Slang for the syringe and needle used for injections.",section:"slang"},
+  {term:"Gear / Juice / Sauce / Oils",meaning:"Catch-all slang for anabolic steroids or performance-enhancing drugs.",section:"slang"},
+  {term:"Gyno",meaning:"Short for gynecomastia; breast tissue development in men from excess estrogen conversion from steroid use.",section:"slang"},
+  {term:"Natty / Fake Natty",meaning:"'Natty' means natural athlete who doesn't use drugs. 'Fake Natty' uses gear but claims natural.",section:"slang"},
+  {term:"PCT",meaning:"Post Cycle Therapy. Medications taken after a steroid cycle to restart natural testosterone production.",section:"slang"},
+  {term:"Pin / Pinning",meaning:"The act of administering an intramuscular or subcutaneous injection.",section:"slang"},
+  {term:"Recon",meaning:"Short for reconstitution; mixing lyophilized peptide powder with liquid.",section:"slang"},
+  {term:"RUO",meaning:"Research Use Only. Legal disclaimer stating product is not intended for human consumption.",section:"slang"},
+  {term:"UGL",meaning:"Underground Lab. An unlicensed, unregulated laboratory manufacturing illicit gear and peptides.",section:"slang"},
+  {term:"Vitamin S",meaning:"A discreet, tongue-in-cheek nickname for steroids.",section:"slang"},
+
+  // AAS Terms
+  {term:"Dbol",meaning:"Dianabol (Methandrostenolone). A very popular, fast-acting oral steroid.",section:"aas"},
+  {term:"Deca",meaning:"Deca-Durabolin (Nandrolone Decanoate). Injectable steroid known for joint lubrication and mass building.",section:"aas"},
+  {term:"EQ",meaning:"Equipoise (Boldenone Undecylenate). A veterinary steroid originally developed for horses.",section:"aas"},
+  {term:"Halo",meaning:"Halotestin (Fluoxymesterone). Highly toxic oral steroid used pre-competition for aggression and hardness.",section:"aas"},
+  {term:"Mast",meaning:"Masteron (Drostanolone). Used for hardening muscles during cutting phase.",section:"aas"},
+  {term:"NPP",meaning:"Nandrolone Phenylpropionate. A faster-acting, shorter-ester version of Deca.",section:"aas"},
+  {term:"Sust",meaning:"Sustanon 250. A patented blend of four different testosterone esters.",section:"aas"},
+  {term:"Test (E, C, P)",meaning:"Testosterone. Letters refer to attached ester (Enanthate, Cypionate, Propionate) dictating release time.",section:"aas"},
+  {term:"Tren",meaning:"Trenbolone. Highly potent veterinary steroid. Nicknamed 'Trenbologna sandwiches' or 'The Devil's Nectar.'",section:"aas"},
+  {term:"Var",meaning:"Anavar (Oxandrolone). Mild oral steroid favored for cutting; sometimes used by female athletes.",section:"aas"},
+  {term:"Winnie / Winny",meaning:"Winstrol (Stanozolol). Oral or injectable steroid used for cutting and drying out muscles pre-show.",section:"aas"},
+
+  // Peptide & GH Terms
+  {term:"BAC",meaning:"Bacteriostatic Water. Sterile water with benzyl alcohol for reconstituting and preserving peptides.",section:"peptides"},
+  {term:"DHT",meaning:"Dihydrotestosterone. Androgenic hormone and testosterone metabolite responsible for male sex characteristics.",section:"peptides"},
+  {term:"FSH",meaning:"Follicle Stimulating Hormone. Plays a significant role in sexual development and reproduction.",section:"peptides"},
+  {term:"G-Comp / Secretagogues",meaning:"Peptides stimulating the pituitary to release natural growth hormone (e.g., Ipamorelin, CJC-1295, GHRP-6).",section:"peptides"},
+  {term:"GHRF",meaning:"Growth Hormone Releasing Factor. Peptide hormone stimulating growth hormone release from the pituitary.",section:"peptides"},
+  {term:"GHRP",meaning:"Growth Hormone Releasing Peptide. Class of synthetic peptides stimulating growth hormone release.",section:"peptides"},
+  {term:"GIP",meaning:"Gastric Inhibitory Polypeptide. Hormone involved in insulin secretion.",section:"peptides"},
+  {term:"GLP",meaning:"Glucagon-like Peptide. Stimulates insulin secretion and inhibits glucagon release; often used in weight loss.",section:"peptides"},
+  {term:"HGH / GH",meaning:"Human Growth Hormone. Peptide hormone stimulating growth, cell reproduction, and regeneration.",section:"peptides"},
+  {term:"HRT",meaning:"Hormone Replacement Therapy. Treats symptoms of hormone imbalance by supplementing hormones.",section:"peptides"},
+  {term:"IGF-1 / LR3",meaning:"Insulin-like Growth Factor 1. Peptide hormone used for localized muscle growth and recovery.",section:"peptides"},
+  {term:"Melanotan / MT2",meaning:"Melanotan II. 'Barbie Drug' — artificially darkens skin (tanning) and increases libido.",section:"peptides"},
+  {term:"MOQ",meaning:"Minimum Order Quantity. Lowest quantity a supplier is willing to sell.",section:"peptides"},
+  {term:"Peps",meaning:"General shorthand for peptides.",section:"peptides"},
+  {term:"PIP",meaning:"Post-Injection Pain. Pain at injection site following substance administration.",section:"peptides"},
+  {term:"Sema / Oz / Ozy",meaning:"Semaglutide (Ozempic/Wegovy). Popular GLP-1 agonist for weight loss and cutting.",section:"peptides"},
+  {term:"Slin",meaning:"Insulin. Used by advanced bodybuilders to shuttle nutrients into muscles — extremely high, lethal risks.",section:"peptides"},
+  {term:"TB / TB-500",meaning:"Thymosin Beta-4. Healing peptide often stacked with BPC-157 for injury recovery.",section:"peptides"},
+  {term:"Tirz",meaning:"Tirzepatide (Mounjaro/Zepbound). Dual-agonist (GLP-1/GIP) weight-loss peptide.",section:"peptides"},
+  {term:"TRT",meaning:"Testosterone Replacement Therapy. Treats low testosterone conditions.",section:"peptides"},
+  {term:"UGL",meaning:"Underground Lab. Unlicensed, unregulated illicit laboratory manufacturing gear and peptides.",section:"peptides"},
+  {term:"Wolverine Peptide",meaning:"Nickname for BPC-157 (Body Protecting Compound 157), famous for rapid tendon and tissue healing.",section:"peptides"},
+
+  // Abbreviations
+  {term:"ACTH",meaning:"Adrenocorticotropic hormone",section:"abbrev"},
+  {term:"ANP",meaning:"Atrial natriuretic peptide",section:"abbrev"},
+  {term:"BNP",meaning:"Brain natriuretic peptide",section:"abbrev"},
+  {term:"CGRP",meaning:"Calcitonin-gene related peptide",section:"abbrev"},
+  {term:"CNP",meaning:"C-type Natriuretic Peptide",section:"abbrev"},
+  {term:"CRF",meaning:"Corticotropin releasing factor",section:"abbrev"},
+  {term:"EGF",meaning:"Epidermal growth factor",section:"abbrev"},
+  {term:"FGF",meaning:"Fibroblast Growth Factor",section:"abbrev"},
+  {term:"FSH",meaning:"Follicle Stimulating Hormone",section:"abbrev"},
+  {term:"GHRF",meaning:"Growth Hormone Releasing Factor",section:"abbrev"},
+  {term:"GHRP",meaning:"Growth Hormone Releasing Peptide",section:"abbrev"},
+  {term:"GIP",meaning:"Gastric Inhibitory Polypeptide",section:"abbrev"},
+  {term:"GLP",meaning:"Glucagon-like Peptide",section:"abbrev"},
+
+  // Chemistry / Synthesis
+  {term:"Boc",meaning:"tert-Butoxycarbonyl — protecting group in peptide synthesis",section:"chemistry"},
+  {term:"DCM",meaning:"Dichloromethane — common solvent for peptide synthesis",section:"chemistry"},
+  {term:"DIEA / DIPEA",meaning:"N,N-Diisopropylethylamine — base used in peptide coupling",section:"chemistry"},
+  {term:"DMF",meaning:"N,N-Dimethylformamide — solvent for peptide synthesis",section:"chemistry"},
+  {term:"Fmoc",meaning:"9-Fluorenylmethoxycarbonyl — base-labile protecting group",section:"chemistry"},
+  {term:"HATU",meaning:"Coupling reagent for peptide synthesis",section:"chemistry"},
+  {term:"HBTU",meaning:"Coupling reagent for peptide synthesis",section:"chemistry"},
+  {term:"HOBt",meaning:"1-Hydroxybenzotriazole — additive to prevent racemization",section:"chemistry"},
+  {term:"HPLC",meaning:"High Performance Liquid Chromatography — verifies peptide purity",section:"chemistry"},
+  {term:"NMR",meaning:"Nuclear Magnetic Resonance — structural analysis technique",section:"chemistry"},
+  {term:"PEG",meaning:"Poly(ethyleneglycol) — used for pegylation to extend half-life",section:"chemistry"},
+  {term:"TFA",meaning:"Trifluoroacetic acid — used for deprotection in peptide synthesis",section:"chemistry"},
+  {term:"Trt",meaning:"Trityl — protecting group in peptide synthesis",section:"chemistry"},
+  {term:"Z",meaning:"Benzyloxycarbonyl — protecting group in peptide synthesis",section:"chemistry"}
+];
+
+let activeSection = 'all';
+
+function renderTerms(filtered) {
+  const grid = document.getElementById('glossaryGrid');
+  const empty = document.getElementById('emptyState');
+  if (filtered.length === 0) {
+    grid.innerHTML = '';
+    empty.classList.add('show');
+    return;
+  }
+  empty.classList.remove('show');
+  grid.innerHTML = filtered.map(t => `
+    <div class="glossary-card">
+      <h4>${t.term} <span class="category-badge">${t.section}</span></h4>
+      <p>${t.meaning}</p>
+    </div>
+  `).join('');
+}
+
+function applyFilters() {
+  const query = document.getElementById('termSearch').value.toLowerCase();
+  let filtered = terms;
+  if (activeSection !== 'all') {
+    filtered = filtered.filter(t => t.section === activeSection);
+  }
+  if (query) {
+    filtered = filtered.filter(t => t.term.toLowerCase().includes(query) || t.meaning.toLowerCase().includes(query));
+  }
+  renderTerms(filtered);
+}
+
+document.getElementById('termSearch').addEventListener('input', applyFilters);
+
+document.querySelectorAll('[data-section]').forEach(btn => {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('[data-section]').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    activeSection = this.dataset.section;
+    applyFilters();
+  });
+});
+
+// Initial render
+renderTerms(terms);
+</script>
+</body>
+</html>

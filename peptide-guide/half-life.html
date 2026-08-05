@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Half-Life Reference — Peptide Guide</title>
+  <meta name="description" content="Plasma half-life vs biological effect duration for 35+ peptides. Understand the difference between how long a peptide stays in your blood vs how long its effects last.">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧬</text></svg>">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-brand">
+      <div class="nav-brand-icon">PG</div>
+      Peptide Guide
+    </a>
+    <button class="mobile-menu-btn" aria-label="Menu">☰</button>
+    <div class="nav-links">
+      <a href="index.html">Home</a>
+      <a href="half-life.html" class="active">Half-Life</a>
+      <a href="dosage.html">Dosage Calculator</a>
+      <a href="terminology.html">Terminology</a>
+      <a href="vendors.html">Vendors</a>
+      <a href="regulation.html">Regulation</a>
+      <a href="bac-water.html">BAC Water Tests</a>
+      <a href="resources.html">Resources</a>
+    </div>
+  </div>
+</nav>
+
+<div class="page-content">
+  <h1>⏱️ Half-Life Reference</h1>
+  <p>Compare plasma half-life (time to clear from blood) with biological effect duration (how long therapeutic effects persist).</p>
+
+  <div class="disclaimer">
+    <strong>Key Insight:</strong> For many peptides, there is a distinct difference between <strong>plasma half-life</strong> (the time it takes for half the intact peptide to clear from the bloodstream) and <strong>biological effect half-life</strong> (how long effects persist). Direct receptor agonists like Semaglutide have effects that closely match their plasma profile, while bioregulators like BPC-157 and Epithalon act as "molecular switches" — their effects last days to weeks after they've cleared.
+  </div>
+
+  <div class="filter-bar">
+    <span class="filter-bar-label">SEARCH:</span>
+    <input type="text" class="filter-input" id="halfLifeSearch" placeholder="Search peptides...">
+    <span class="filter-bar-label" style="margin-left:16px">SORT:</span>
+    <button class="filter-tag active" data-sort="name">Name</button>
+    <button class="filter-tag" data-sort="plasma">Plasma Half-Life</button>
+    <button class="filter-tag" data-sort="effect">Effect Duration</button>
+  </div>
+
+  <div class="table-wrap">
+    <table id="halfLifeTable">
+      <thead>
+        <tr>
+          <th>Peptide / Compound</th>
+          <th>Plasma Half-Life</th>
+          <th>Biological Effect Duration</th>
+          <th>Mechanism of Extended Action</th>
+        </tr>
+      </thead>
+      <tbody id="halfLifeBody"></tbody>
+    </table>
+  </div>
+
+  <div style="margin-top:48px">
+    <h2 style="font-size:1.3rem;margin-bottom:16px">Understanding the Difference</h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon" style="background:var(--blue-soft)">🎯</div>
+        <h3>Direct Receptor Agonists</h3>
+        <p>Semaglutide, Tirzepatide, Retatrutide: Their biological effect highly correlates with plasma half-life. They're engineered to stay in the blood a long time to keep receptors constantly active.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon" style="background:var(--green-soft)">🔬</div>
+        <h3>Bioregulators & Signaling Peptides</h3>
+        <p>BPC-157, GHK-Cu, Epithalon, Selank: They exit the bloodstream incredibly fast but act as "molecular switches." Once they flip the switch (altering gene expression, releasing growth factors), the body stays in that altered state for hours, days, or even weeks.</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="footer">
+  <div class="footer-inner">
+    <div>
+      <h4>About This Data</h4>
+      <p>Half-life data is compiled from published pharmacokinetic studies, clinical trial data, and community consensus. Biological effect duration is approximate and can vary significantly between individuals.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <div class="footer-links">
+        <a href="half-life.html">Half-Life Data</a>
+        <a href="dosage.html">Dosage Calculator</a>
+        <a href="terminology.html">Terminology</a>
+        <a href="vendors.html">Vendors</a>
+        <a href="regulation.html">Regulation</a>
+        <a href="bac-water.html">BAC Water Tests</a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Peptide Guide — For Educational Purposes Only</span>
+    <span>Not FDA-Approved Medical Advice</span>
+  </div>
+</footer>
+
+<script>
+const halfLifeData = [
+  {name:"5-AMINO-1MQ",plasma:"4 – 8 hours",effect:"12 – 24 hours",mechanism:"Intracellular NNMT enzyme inhibition"},
+  {name:"ADAMAX",plasma:"~2 hours",effect:"4 – 12 hours",mechanism:"Prolonged neurotrophic (BDNF) signaling"},
+  {name:"AHK-Cu / GHK-Cu",plasma:"< 1 hour",effect:"Days",mechanism:"Remodeling of tissue, gene expression modification"},
+  {name:"AICAR",plasma:"24 – 48 hours",effect:"Days",mechanism:"Long-term AMPK activation and metabolic shifts"},
+  {name:"AOD9604",plasma:"~2.5 hours",effect:"4 – 6 hours",mechanism:"Lipolytic signaling cascade activation"},
+  {name:"ARA290 (Cibinetide)",plasma:"~2 minutes",effect:"12 – 24 hours",mechanism:"Persistent activation of innate repair receptor (IRR)"},
+  {name:"BPC157",plasma:"4 – 6 hours",effect:"Up to 24+ hours",mechanism:"Nitric oxide pathway modulation, growth factor upregulation"},
+  {name:"Cagrilintide",plasma:"7 – 8 days",effect:"7 – 8 days",mechanism:"Long-acting amylin analogue (matches plasma profile)"},
+  {name:"Cartalax / Pinealon",plasma:"< 1 hour",effect:"Days to weeks",mechanism:"Short peptide interaction with DNA/epigenetic regulation"},
+  {name:"Cerebrolysin",plasma:"4 – 8 hours",effect:"24 – 48 hours",mechanism:"Neuroprotective cascades and neurogenesis"},
+  {name:"CJC 1295 (without DAC)",plasma:"~30 minutes",effect:"2 – 4 hours",mechanism:"Pulse-like stimulation of pituitary growth hormone"},
+  {name:"DSIP",plasma:"10 – 15 minutes",effect:"4 – 8 hours",mechanism:"Stabilization of GABAergic and sleep-wake pathways"},
+  {name:"Eloralintide",plasma:"~14 days",effect:"~14 days",mechanism:"Chemically modified for ultra-long GLP-1 receptor activation"},
+  {name:"Epithalon / Thymalin",plasma:"< 1 hour",effect:"Weeks to Months",mechanism:"Telomerase activation and pineal gland restoration"},
+  {name:"GHRP-6 / Ipamorelin",plasma:"20 mins – 2 hours",effect:"3 – 5 hours",mechanism:"Triggers growth hormone release pulses"},
+  {name:"Glutathione",plasma:"~10 minutes (IV)",effect:"24 – 72 hours",mechanism:"Replenishment of intracellular antioxidant stores"},
+  {name:"HCG",plasma:"24 – 36 hours",effect:"48 – 72 hours",mechanism:"Continued stimulation of Leydig cells / progesterone"},
+  {name:"Humanin",plasma:"< 1 hour",effect:"6 – 12 hours",mechanism:"Mitochondrial protection and anti-apoptotic signaling"},
+  {name:"IGF-1 LR3",plasma:"20 – 30 hours",effect:"24 – 48 hours",mechanism:"Reduced binding to IGFBPs allows extended receptor binding"},
+  {name:"Kisspeptin-10",plasma:"~2 minutes",effect:"1 – 2 hours",mechanism:"Rapid pulse induction of LH/FSH secretion"},
+  {name:"KPV",plasma:"10 – 30 minutes",effect:"4 – 12 hours",mechanism:"Intracellular NF-κB inhibition (anti-inflammatory)"},
+  {name:"Melanotan I & II",plasma:"1 – 2 hours",effect:"24 – 72 hours",mechanism:"Melanin production continues long after clearing"},
+  {name:"MOTS-c (Human)",plasma:"10 – 15 minutes",effect:"4 – 24 hours",mechanism:"Translocation to nucleus to alter metabolic gene expression"},
+  {name:"NAD+",plasma:"45 min – 2 hours",effect:"24 – 48 hours",mechanism:"Boosts intracellular NAD+/NADH ratios and sirtuin activity"},
+  {name:"Oxytocin Acetate",plasma:"1 – 5 minutes",effect:"1 – 3 hours",mechanism:"Triggers immediate neurological and uterine signaling"},
+  {name:"PE-22-28",plasma:"~1.5 hours",effect:"6 – 12 hours",mechanism:"TREK-1 channel inhibition, mediating antidepressant effect"},
+  {name:"PT141 (Bremelanotide)",plasma:"~2.7 hours",effect:"6 – 24 hours",mechanism:"Prolonged melanocortin receptor (MC3/MC4) activation"},
+  {name:"Retatrutide",plasma:"~6 days",effect:"~6 days",mechanism:"Long-acting triple agonist (GLP-1/GIP/Glucagon)"},
+  {name:"Selank / Semax",plasma:"2 – 5 minutes",effect:"4 – 24 hours",mechanism:"Regulatory effects on enkephalins and BDNF synthesis"},
+  {name:"Semaglutide",plasma:"~7 days",effect:"~7 days",mechanism:"Long-acting GLP-1 receptor agonist (matches plasma profile)"},
+  {name:"Sermorelin Acetate",plasma:"10 – 20 minutes",effect:"1 – 2 hours",mechanism:"Triggers acute growth hormone secretion"},
+  {name:"SS-31 (Elamipretide)",plasma:"1 – 3 hours",effect:"12 – 24 hours",mechanism:"Cardiolipin binding, optimizing mitochondrial structure"},
+  {name:"TB500 (Thymosin B4)",plasma:"< 10 minutes",effect:"Days",mechanism:"Actin-sequestering, cell migration, and tissue repair upregulation"},
+  {name:"Tesamorelin",plasma:"20 – 30 minutes",effect:"2 – 4 hours",mechanism:"Pituitary stimulation of growth hormone pulses"},
+  {name:"Thymosin alpha 1",plasma:"~2 hours",effect:"24 – 48 hours",mechanism:"T-cell modulation and immune system signaling cascades"},
+  {name:"Tirzepatide",plasma:"~5 days",effect:"~5 days",mechanism:"Dual GLP-1/GIP agonist (matches plasma profile)"}
+];
+
+function renderTable(data) {
+  const tbody = document.getElementById('halfLifeBody');
+  tbody.innerHTML = data.map(d => `
+    <tr>
+      <td>${d.name}</td>
+      <td>${d.plasma}</td>
+      <td>${d.effect}</td>
+      <td>${d.mechanism}</td>
+    </tr>
+  `).join('');
+}
+
+let currentSort = 'name';
+let currentData = [...halfLifeData];
+
+function sortData(key) {
+  if (key === 'name') {
+    currentData.sort((a,b) => a.name.localeCompare(b.name));
+  } else if (key === 'plasma') {
+    currentData.sort((a,b) => {
+      const aNum = parseFloat(a.plasma) || 999;
+      const bNum = parseFloat(b.plasma) || 999;
+      return aNum - bNum;
+    });
+  } else if (key === 'effect') {
+    currentData.sort((a,b) => {
+      const getMaxDays = (s) => {
+        if (s.includes('Weeks')) return 21;
+        if (s.includes('Months')) return 60;
+        if (s.includes('Days')) return parseFloat(s) || 7;
+        const match = s.match(/(\d+)/);
+        return match ? parseInt(match[1]) : 0;
+      };
+      return getMaxDays(a.effect) - getMaxDays(b.effect);
+    });
+  }
+  renderTable(currentData);
+}
+
+document.getElementById('halfLifeSearch').addEventListener('input', function(e) {
+  const query = e.target.value.toLowerCase();
+  currentData = halfLifeData.filter(d => d.name.toLowerCase().includes(query));
+  sortData(currentSort);
+});
+
+document.querySelectorAll('[data-sort]').forEach(btn => {
+  btn.addEventListener('click', function() {
+    document.querySelectorAll('[data-sort]').forEach(b => b.classList.remove('active'));
+    this.classList.add('active');
+    currentSort = this.dataset.sort;
+    sortData(currentSort);
+  });
+});
+
+// Initial render
+sortData('name');
+</script>
+</body>
+</html>
