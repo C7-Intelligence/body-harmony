@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-06T21:46Z",
+ "generated": "2026-10-06T21:48Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-06T21:46Z",
+   "checked": "2026-10-06T21:48Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-06T21:46Z"
+   "lastOk": "2026-10-06T21:48Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-06T21:46Z",
+   "checked": "2026-10-06T21:48Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-06T21:46Z"
+   "lastOk": "2026-10-06T21:48Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-06T21:46Z",
+   "checked": "2026-10-06T21:48Z",
    "ok": true,
-   "new": 2,
+   "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-06T21:46Z"
+   "lastOk": "2026-10-06T21:48Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-06T21:46Z",
+   "checked": "2026-10-06T21:48Z",
    "ok": true,
-   "new": 37,
+   "new": 28,
    "seen": 48,
-   "lastOk": "2026-10-06T21:46Z"
+   "lastOk": "2026-10-06T21:48Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-06T21:46Z",
+   "checked": "2026-10-06T21:48Z",
    "ok": true,
-   "new": 16,
-   "seen": 20,
-   "lastOk": "2026-10-06T21:46Z"
+   "new": 3,
+   "seen": 6,
+   "lastOk": "2026-10-06T21:48Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-06T21:46Z",
+   "checked": "2026-10-06T21:48Z",
    "ok": true,
    "new": 3,
    "seen": 3,
-   "lastOk": "2026-10-06T21:46Z"
+   "lastOk": "2026-10-06T21:48Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-06T21:46Z",
+   "checked": "2026-10-06T21:48Z",
    "ok": true,
-   "new": 205,
-   "seen": 205,
-   "lastOk": "2026-10-06T21:46Z"
+   "new": 70,
+   "seen": 188,
+   "lastOk": "2026-10-06T21:48Z"
   }
  ],
  "items": [
@@ -107,20 +107,6 @@ window.FEED={
    "d": "2026-10-06",
    "s": "fierce",
    "x": "In three deals each worth $2 billion or more, AstraZeneca is investing in Summit Therapeutics with a focus on ivonescimab, Novo bought a preclinical GLP-1/GIP drug from Hengrui Pharma, while Merck & Co. got a preclinical RAS(ON) inhibitor from China's SciBrunch. And more."
-  },
-  {
-   "t": "Agency Information Collection Activities; Court-Ordered Refunds Under the International Emergency Economic Powers Act Worksheet",
-   "l": "https://www.federalregister.gov/documents/2026/10/05/2026-20228/agency-information-collection-activities-court-ordered-refunds-under-the-international-emergency",
-   "d": "2026-10-05",
-   "s": "fr-cbp",
-   "x": "The Department of Homeland Security, U.S. Customs and Border Protection (CBP) will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). The…"
-  },
-  {
-   "t": "Tele-Vision: How Recent FDA and SEC Actions Forecast a Sharper Focus on Telehealth Prescribing Models - ArentFox Schiff",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQ0dFUVpHY3MzcmlaTTgtYzJsbmtnd0ZLQlN0RGhhZEY0MDBVNmJSZ2FlTlotbTQxX3ZHZUZISml5NDI3enFKNzZoUTNvVEhTejJVVXoyX2VGUHhzbWI3NGVDOTc2emFQZWg0QUxqNTdwNzdDQ3BoUGNYYjVyZ2dXellWRXRrbkRIVDZBdHo5WkJfcmZBRUZzYnB3enJ6Q3VhQV9qUDRxZVNGdnNoRDNfV1U4Y2FENEdZcEd3?oc=5",
-   "d": "2026-10-05",
-   "s": "gnews",
-   "x": "Tele-Vision: How Recent FDA and SEC Actions Forecast a Sharper Focus on Telehealth Prescribing Models ArentFox Schiff"
   },
   {
    "t": "hims faces legal action as fda restricts compounded weight-loss drugs - www.polskieradio.pl",
@@ -163,20 +149,6 @@ window.FEED={
    "d": "2026-10-01",
    "s": "fr-fda",
    "x": "The Food and Drug Administration (FDA or Agency) is requesting that any consumer organizations interested in participating in the selection of voting and/or nonvoting consumer representatives to serve on its advisory committees or panels notify FDA in writing. FDA is also…"
-  },
-  {
-   "t": "Agency Information Collection Activities; Revision; Entry Summary",
-   "l": "https://www.federalregister.gov/documents/2026/10/01/2026-20171/agency-information-collection-activities-revision-entry-summary",
-   "d": "2026-10-01",
-   "s": "fr-cbp",
-   "x": "The Department of Homeland Security, U.S. Customs and Border Protection (CBP) will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). The…"
-  },
-  {
-   "t": "Agency Information Collection Activities; Revision; Entry",
-   "l": "https://www.federalregister.gov/documents/2026/10/01/2026-20170/agency-information-collection-activities-revision-entry",
-   "d": "2026-10-01",
-   "s": "fr-cbp",
-   "x": "The Department of Homeland Security, U.S. Customs and Border Protection (CBP) will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). The…"
   },
   {
    "t": "Health Care Weekly: CMS Probes PBM Vertical Integration, Specialty Drug Pricing; FDA Issues Warning Letter Amid GLP-1 Compounding Crackdown; UNH Texas Unit Received $24.4 Million in Medicare…",
@@ -305,20 +277,6 @@ window.FEED={
    "s": "curated",
    "p": "Partnership for Safe Medicines",
    "x": "Reports five FDA warning letters to peptide sellers (secondary source)."
-  },
-  {
-   "t": "$elling $kinny: How a weight-loss startup kept shipping risky diet drugs while patients landed in the hospital - KING5.com",
-   "l": "https://news.google.com/rss/articles/CBMiowJBVV95cUxPazFCM3dVbkVoRDhMWlpQajlwTl8tT1Z6ZHFjYW1FSV9COUMwQnpMMkZzLXZCODBYbmhTbWZkd2UtMGk0RGpQYkxxTzRpR2Q4V2YxdU4tbHhHcVZvZE12N3NVTmdHYlhzcXJ3d2hlV3V0X0JreUdfS1BoNWNfVUJBUkhsSDhTMkJ1b2JOYVB4ZWN5Sko1b0tsVU1nZjZaTHJtUEpPMnlEWWpoZ2xSODRPSVJqWS16SHk0VGE1T0hrbEU0YWNKT3ZfNzk5RXlxNEJiTlJ6eWRrdzZ6SUs0eXdscV9KcUMwUG9pU20tNFp5WlBSZGVEMy1fOFhCLU9qUHVyMTFQbTZYR0REbUxSelBiWEQ5NlFEcThxR29SLVBDWVBLVXM?oc=5",
-   "d": "2026-09-03",
-   "s": "gnews",
-   "x": "$elling $kinny: How a weight-loss startup kept shipping risky diet drugs while patients landed in the hospital KING5.com"
-  },
-  {
-   "t": "Heightened Import Disclosures for Supply Chain Visibility",
-   "l": "https://www.federalregister.gov/documents/2026/09/02/2026-17926/heightened-import-disclosures-for-supply-chain-visibility",
-   "d": "2026-09-02",
-   "s": "fr-cbp",
-   "x": "U.S. Customs and Border Protection (CBP) is considering amending its regulations to give CBP greater visibility into the supply chains of goods imported into the United States. CBP is seeking comments on new requirements enhancing visibility into the parties involved in the…"
   },
   {
    "t": "Agency Information Collection Activities; Proposed Collection; Comment Request; Registration of Human Drug Compounding Outsourcing Facilities Under the Federal Food, Drug, and Cosmetic Act and…",
@@ -528,13 +486,6 @@ window.FEED={
    "x": "FDA PCAC Recommends Six Peptides for the 503A Bulks List: What Compounding Pharmacies Need to Know Buchanan Ingersoll & Rooney PC"
   },
   {
-   "t": "Agency Information Collection Activities; Revision; Cargo Manifest/Declaration, Stow Plan, Container Status Messages and Importer Security Filing",
-   "l": "https://www.federalregister.gov/documents/2026/08/03/2026-15609/agency-information-collection-activities-revision-cargo-manifestdeclaration-stow-plan-container",
-   "d": "2026-08-03",
-   "s": "fr-cbp",
-   "x": "The Department of Homeland Security, U.S. Customs and Border Protection (CBP) will be submitting the following information collection request to the Office of Management and Budget (OMB) for review and approval in accordance with the Paperwork Reduction Act of 1995 (PRA). The…"
-  },
-  {
    "t": "FDA panel backs 6 peptides despite its own scientists’ objections - MassLive.com",
    "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS2hvYzJPQkl5cjhfUE9RNUdMYndPNGxySXgza3BFY003SnFUaWZWN2tNS0Nuay1XZnp6MzVidU5lRUF6eWIxWEh4MTVZZy1NZTQwUkhhQnQzY1JRekNaMTJZTGlyYnl2UVA1LUZ0VTZVZVB2NlRBejA5TDNCWE01bFhoQTBLS2kyQXFYVFM4VG1wc1lwZFd6bzdKSnpJZWo3d3lQTDRQcWk1OE3SAb8BQVVfeXFMTnZGRVBYNUx4VG1kM0I4Qnl6cEhtX0FxWDFWZDFxX05WajRzWnhJUTJSeWwtMUFFZTVFRkJfTF8zVjZwbmxTcW03TnZQdGVWcTZhSUNvNFExVWpxUEdmZmJxWG8xZ056QmpUc1JDVVRoazNTUW51V1dMNEltSWRSeDAwcDR0eFIweEJFMlBOcmM0b0JhMjNEcGYtd1VBSzRUQ1hvZ05sNHdsYkNoZTMzeXVac1ljbUdaajQyZHFYbUU?oc=5",
    "d": "2026-08-03",
@@ -563,298 +514,11 @@ window.FEED={
    "x": "The (Pep)Tides Turn: FDA Panel Recommends Six of Seven for Compounding ArentFox Schiff"
   },
   {
-   "t": "‘It’s a peptide wild west’: how RFK Jr is clearing way for a market of untested drugs - The Guardian",
-   "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxOOEE5cVRSdnpyXy1qbmZqYkxYaVA3djl1eDEtZUlwM0VMZnN2eUdiaDdCREd0Qy1fWlhyV0ljY3NacmdvQ1RVclRtTlpfcFdDVm1VVm8xbkYwcmI5Ykt4UWp5N0twZ1dUU0NtWW1yRjR2X05KTTdYSEhTR0YzS2R6UTM0dTBDaGdIVEFhVUItQkptRmlmRDE5TG9CWWp1dw?oc=5",
-   "d": "2026-07-31",
-   "s": "gnews",
-   "x": "‘It’s a peptide wild west’: how RFK Jr is clearing way for a market of untested drugs The Guardian"
-  },
-  {
-   "t": "FDA Advisory Committee Recommends Several Peptides for Compounding… - Kelley Drye & Warren LLP",
-   "l": "https://news.google.com/rss/articles/CBMiowJBVV95cUxQaDdJWGNaNHNoVW9NdWRJemVBM2NFRWtzNGxHVTU5VThBTGRTckJxdVBuNDBfQzNEbm1TQ2NfZ1VheVg5WVVXQnNjZUxHaHVIVEE4SVg1dVMwSHpLU1A3TkM2ZHFmRXM5WFBhcnlmbmh1ZUgyV3o0M1dUNmNGMzdvWlpkRXlFdHBLNGl5ZjZsTHpORzE4bzRvX3BSYlFoM0VLYl9iSEtGWW56T2o4V2Nnam1FZlhxZzVRaWpVWVdfZzJqUWFlbGFlR2RnenN2aFNmZGY0UlpKd2I4dVZ2VmJ0eEtjUlhTejY2dklpWnhKWVlTR1c1S0E3WkVnbDd0Z09aT1hsMkZtbHdEaGlPTE9WUS10VUVPaHlCejZzTk5oM2ZTOXc?oc=5",
-   "d": "2026-07-30",
-   "s": "gnews",
-   "x": "FDA Advisory Committee Recommends Several Peptides for Compounding… Kelley Drye & Warren LLP"
-  },
-  {
-   "t": "FDA’s Advisory Committee Votes on Peptides: What It Does and Doesn’t Do | Mintz - Health Care Viewpoints - JD Supra",
-   "l": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNWmkxZHUyM2ljRC1qb2R6YnJpWVRRd09MZnFVWmtnSjM5R1BCUXZ2QV9pb0R5VjdvaDVaWFVxbXd3NGtGTGhfTDhkanJaaHVlNGc5SkdrSjMwc3loaFRJRHA0X2tGcmFlMGRLcnJvR0ZFbTdiODhKOXVIWVhZUjJabjln?oc=5",
-   "d": "2026-07-30",
-   "s": "gnews",
-   "x": "FDA’s Advisory Committee Votes on Peptides: What It Does and Doesn’t Do | Mintz - Health Care Viewpoints JD Supra"
-  },
-  {
    "t": "Product-Specific Guidances; Revised Draft Guidances for Industry; Availability",
    "l": "https://www.federalregister.gov/documents/2026/07/29/2026-15285/product-specific-guidances-revised-draft-guidances-for-industry-availability",
    "d": "2026-07-29",
    "s": "fr-fda",
    "x": "The Food and Drug Administration (FDA or Agency) is announcing the availability of additional revised draft product-specific guidances. The draft guidances provide product-specific recommendations on, among other things, the design of bioequivalence (BE) studies to support…"
-  },
-  {
-   "t": "What to Know About the 6 Peptides Backed by an FDA Advisory Panel - Verywell Health",
-   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9lVVFBTE9SS0xNajlQNFlUUVhUY2FScEJ6a3JncmU1NlR4MnFoY2NOSGRvZkZrSlRaSGNfWlAtUVhUaExVT083S2N6OWhBR0U2dTFsdF9ZRmJONXduMkVYUnRlVkxsVU9DR0xZMDZUeUQxd0hTcDlTVHB4S1FyUU0?oc=5",
-   "d": "2026-07-29",
-   "s": "gnews",
-   "x": "What to Know About the 6 Peptides Backed by an FDA Advisory Panel Verywell Health"
-  },
-  {
-   "t": "What the Peptide Vote Actually Changes at My Counter (Hint: Not Much, Yet) - Pharmacy Times",
-   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOMzF0cjBxY3VFRjg1aXZuSlE0cHk3YWdQV2hkZlg4MV9jeEYwb2htWkoySEJpQnloYlZoX0FNd3ZGaXV1ZVNpRmVCOG8yb09pZ0JFN2pNVXdOYWNOZm5JT3ZVVEVYcHQwc3Ayc2RtaHU1UGhsWUNBNjlQU3BudFMxOHFDdm05WVpMcmhFV010emFsaU1qSjJZeC1Ra1lRM1dZWTBFYU5YNnJaQQ?oc=5",
-   "d": "2026-07-29",
-   "s": "gnews",
-   "x": "What the Peptide Vote Actually Changes at My Counter (Hint: Not Much, Yet) Pharmacy Times"
-  },
-  {
-   "t": "The FDA may make peptides more available. Minnesota pharmacies are getting ready. - Star Tribune",
-   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdHc4TjFSdVRXRzd5N0V5SGZJZS1XN0FqZmNhRHptSXgyTWx3aUNRMXN5enoyQzdacnYxYmIxckY0Q2NTUURtdjhOSUR0STJEb3pCb2xTQ2Q4TVB6c3ZUM0dUUExHQzhkbldVS25BV3FJY05lVUZWd28wZHZ3Q1RZN3RiSk04VTNZT0ZUYU1IZnZTNktRdVpaTUJJNzdNUkk?oc=5",
-   "d": "2026-07-29",
-   "s": "gnews",
-   "x": "The FDA may make peptides more available. Minnesota pharmacies are getting ready. Star Tribune"
-  },
-  {
-   "t": "FDA Expert Panel Backs Compounding of Six Peptides - Medscape",
-   "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxPVmphRG9HRVh1eWVRSzlyNUhnWlFFTlNpcFFZd1JUeFcwMTZPRlhYUTVmaXdqOUotUFZiTTVCbTZEcFhhdXlBX1owTXFpVGFaMWNnNnFRdXZLRzBfMkIzMEYwd1p1dXJmRWxlT1E1MUh2NDZPR05MWm9CcTktSzVXOFduM0hWU1dIX0FxQnFMa1p5WmhYSnhWdVhHVDVuQQ?oc=5",
-   "d": "2026-07-28",
-   "s": "gnews",
-   "x": "FDA Expert Panel Backs Compounding of Six Peptides Medscape"
-  },
-  {
-   "t": "Bulk-list bound? PCAC backs majority of peptides in two-day public meeting - McDermott Will & Schulte",
-   "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOMmN5SGhhVUw4cDJZVzBFRU1aejJhYXJSbGo3bHRoV3dTMWhaRXJqRlB1TEV2UjdablNlb3VtZUR3WGdTVy1VMWw4UlJGQ2Vzd3JIYnczSmtES002bmxPY1FLc0d0QzVCQUxwTVJQSGUxVjh0T2tCelNKWTlTNDJpU2lORjZxWjJ4NjJPMVU4aXFxa1JMeldrTWxrNHBxalVRX1VmZ2JFTlVaVC1EeVVsNVNn?oc=5",
-   "d": "2026-07-28",
-   "s": "gnews",
-   "x": "Bulk-list bound? PCAC backs majority of peptides in two-day public meeting McDermott Will & Schulte"
-  },
-  {
-   "t": "FDA Panel Votes To Ease Restrictions on 6 Peptides—But Experts Still Have Major Concerns - Health.com",
-   "l": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1jYW5wREtGNjhnZVZQSnNLMldULThnV0pwSy0xcUVSNHh0M04wMDNmUS1fMXFOeW1MR2hzWGRzS1hQSHo2cE5QR0RHLW9oa1J2eGhTVXpOWGVaVko5NDd5eUtVdF9uNU1qbzlHMnlJWGQ?oc=5",
-   "d": "2026-07-28",
-   "s": "gnews",
-   "x": "FDA Panel Votes To Ease Restrictions on 6 Peptides—But Experts Still Have Major Concerns Health.com"
-  },
-  {
-   "t": "Millions could gain easier access to popular peptides after FDA panel vote - Fox News",
-   "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQenpQejhGTTBuYUdoaVFiZmtMRzY1SjBBZVZ3M2lsY0FzZ2c5SGI1X2FQTm8yUHc1clB6OUhiX2dBX1ZFRnhoMEpHZy1aVGdSRFNFMjE2SDF2c3BhaGNvem9Zb2thaWlrQy1ROVVNR24xeDZCMmdsZlJKTmNzenNnaXJTS2hNTUhBVWJEcjV2Z09ZRVlneVlGeExYeUvSAaIBQVVfeXFMTVd5WEZkamFBZXFZMHBHU29mdXBDYnI4bTdSNTBEREtEMjAyRXdzNkMzQzVWWC0zak9nd0lZN29MellPaV9UdVhSZHJZWEJYQzdtaTV0a3JxVVF6VGlDRXdtR1h3SVF6SE1mRHVvLTVrdEpXYnNKNmZnZld0UEpvSGhGMnRqdlJ4RUtHSm5ZenN2UnZkazdlVmJqaFUweGItSGxn?oc=5",
-   "d": "2026-07-28",
-   "s": "gnews",
-   "x": "Millions could gain easier access to popular peptides after FDA panel vote Fox News"
-  },
-  {
-   "t": "An FDA Advisory Panel Voted to Ease Restrictions on 6 Controversial Peptides—Here’s What That Means - Allure",
-   "l": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nNHh2SUFyOERBcUcwc253bFlaVHlaN0ljeDE4SDVvOExMWGoyTHFaaFdkWlJKUUwzTWlHTDUySlZ0eV8tZkw4TEx0SjBMQUhQdWFGRWx2Z3ZiVHl6QWlha0dZZzZJZw?oc=5",
-   "d": "2026-07-28",
-   "s": "gnews",
-   "x": "An FDA Advisory Panel Voted to Ease Restrictions on 6 Controversial Peptides—Here’s What That Means Allure"
-  },
-  {
-   "t": "F.D.A. Panel’s Vote on Peptides Raises Concerns About a Prescribing Boom - The New York Times",
-   "l": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNbmU5VFlrM2ljR01TeDJZVXZjelRadVVYd1hjRGd1bmhVWDBpdjF6SmY0MnBxNVFPZlo3aHdXcDhwR3F1NGFrOXlLRDZLaFkxaUNGVlYxM0VfOFpsNHFpNWRoczBhaTRtNHZMVFZaZE5DRjU0Wld0NnVOTjFXVXZ6bA?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "F.D.A. Panel’s Vote on Peptides Raises Concerns About a Prescribing Boom The New York Times"
-  },
-  {
-   "t": "Inside the Peptide Boom: US FDA Panel Votes to Expand Access to Six Popular Peptides - The Dermatology Digest",
-   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQRkFwVUdLTWd5YXhUVXR1UGVwQ1lGU3Zqdk1Sd1VCMks3M2h2bzRlQ2QxT2EtNU00eVRiMUp0b1VHcjJfMnFRWE9KWEZydFJmbzlyaWhFUVZCekFhTnJMN09seVRsMk9paG9fanE3dnFIOHYyTzZNUHBaNGw0UnZQdXFmVTVyMHVKOFR4S2ZuMFRhazYwaXhzZzZSUHRJeWRLdHB3WW9BcnJXQTQ?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "Inside the Peptide Boom: US FDA Panel Votes to Expand Access to Six Popular Peptides The Dermatology Digest"
-  },
-  {
-   "t": "FDA Panel Backs Two Peptides For Compounding, Rejects One - U.S. News & World Report",
-   "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOc2w2T3dsMTBNNThDbnhraVZMcnpIWXdfQzBfZkpiZTRuY3lrbE1SVkpoQmM1c0F1bkxZRWZIa19HbzYxYmxjaGJMRjItT0VaRGtGSXZPcXJlWl92cEhQQ191Q2RqQlBHaHpOcWZCYWt1ZGRRdnpwSnBlRG0yUE5tX1gwUTZsTEloRVBWM0R3R3I4NFBldHA5T1Z2SzRTeTJYQTBCcldHYjVGdmh4NHJldmNDQnlPWVU?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "FDA Panel Backs Two Peptides For Compounding, Rejects One U.S. News & World Report"
-  },
-  {
-   "t": "FDA Panel Backs Six Popular Peptides for Pharmacy Use, but They Are Not Approved Yet - NCHStats",
-   "l": "https://news.google.com/rss/articles/CBMieEFVX3lxTE84Zlo4TXQyMWhpeEUyYXpDekNiT0xpVVEzSkwwMHZzZU5OVGRJVVRMekhXSS1KZm9WZmRuRzJWQjQzUU84aWRxS0xXZF9fRkY4bnFaQzFrdFFlUHhDUUNULWdZQWZjWmxhOXNhNnBMYlZNVTh6VWFMZA?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "FDA Panel Backs Six Popular Peptides for Pharmacy Use, but They Are Not Approved Yet NCHStats"
-  },
-  {
-   "t": "Enhanced Applauds FDA Advisory Committee's Landmark Vote to Expand Legal Compounding Pathway for Peptides - Yahoo Finance",
-   "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPODRSOWhnNUpTV0ZCV2JQQ25fek43ZnZhSXJDR0J2ZHN0cVo5c3A0RVpBN1Z2N0J2Ri0zYmd6WFlKWkNvU2x5UkEtYS1Vd1FCRmF2Umk1R3FsVWxOWW1iM2dselhpYkFvbXJidXBJUEhGU1dsY205TURkUkpuXzd1VkxrMlh3Z0NZYjRqZVBUWUY3NDNKMDhvWDJpSTgzcDhDNUlTSA?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "Enhanced Applauds FDA Advisory Committee's Landmark Vote to Expand Legal Compounding Pathway for Peptides Yahoo Finance"
-  },
-  {
-   "t": "July 27, 2026: FDA peptide panel narrowly votes to add unapproved drugs to compounding list - Partnership for Safe Medicines",
-   "l": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5USFF3ZHVYTVNsV0I0VlA0a25JZHU5aDZKLV9ScTQxT1M4V1ZnRDZDVnY1d1lCdU9ZTHBYTHlIYnZDSlI4TXRJSE52ckNTazdiRExobjVnTS1JbHNwSG10NnU3TmRrdw?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "July 27, 2026: FDA peptide panel narrowly votes to add unapproved drugs to compounding list Partnership for Safe Medicines"
-  },
-  {
-   "t": "FDA peptide panel raises questions about future dietary supplement pathway - NutraIngredients.com",
-   "l": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMm5hWDJ4Ql9ZbUxicno2UXptRU5rSUlnLTNiNWpiZUMwYjJGQlZNbkRaLXZrMWtFdHBXZXlUaG8xbzZmRjRyLU1TaHh3dHZtQWRBbmY3UDA2QkMwOFdtWTdEVElBOFZKUTVjU2xyV0NKLWM5RXRhdWVfNmZDdlJieURHcFRMQmp1NTJhZmdzWmVHZGxVNkRLODZmb2h0MjcxNzN0UjBkRmZOaE5ZTWFBMFhVUVFUMkRYT2t6UGJSeW9vNmt3dnc?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "FDA peptide panel raises questions about future dietary supplement pathway NutraIngredients.com"
-  },
-  {
-   "t": "FDA panel backs six peptides for pharmacy compounding - Manufacturing Chemist",
-   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOcDM1RUhMdkJQREhyMXJiTDBkYTB4b0dsc1MwWWJZRVh5bnBZX21QNGlxczhtVzVEcVJsS3p3WXRVRDd6eXM5OUxHUjNCWWNYMnQtWW5jd1VYcmNEdldscXNfUXVZT0V0MEV2X0pGVnhQN3A1NGxISXczdk5mREdiTlpJV2ZxTjZWLUxHWGVVQQ?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "FDA panel backs six peptides for pharmacy compounding Manufacturing Chemist"
-  },
-  {
-   "t": "FDA advisers vote to add 6 peptides to compounding list - KVUE",
-   "l": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOREEzQnhwUTY3b2tSRWxMcmJSdElRc0x3a1Z1U05XckJKSldqbVdNNTQxVkhjZFdYelRHMFRiTXhiYmF1NUhxaXh5Q1FmZ2VYMTFEWjRVeElNZFNnR0dCZnNfSmR3b2JfemlCdkNzX3Q4VDZ2d3kwZWdwNjZqWE5jZHJuWUpQSWVrb3h0NnYwM3N6YXpUQW1sVk1veTl3QnVVbHg1VEI1X1JCajZ6QkxfWFNZVm9qaWY3N0VuNXo0OENPbkktaFVqYkh1Z0hTdEhk?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "FDA advisers vote to add 6 peptides to compounding list KVUE"
-  },
-  {
-   "t": "FDA warns on compounded GLP-1 weight loss drugs - Quartz",
-   "l": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1oRkRyOFc0ZTdMbms2ckJGNGVndlp2TGZNWnowcVhKcUR0RWt3aWx0dDNMT3R5bTlBeDM3Rkh1TnR4MkYtQWVOZjEwd19rQjBjaVhGVG1XUnZCZmg0MHZJR0U3WFkyOE91QlFGUTNWcw?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "FDA warns on compounded GLP-1 weight loss drugs Quartz"
-  },
-  {
-   "t": "Compounded GLP-1 drugs creating concern among doctors and FDA - NewsNation",
-   "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxONGhDbXNzcmpXY3Y4bG96NVl3NDFyMEJ2blJTVTM4ekhfVmVHaDVaQW9wcUpFekYwNmxtcDQwWFJKaXZvbndmX0hfQjIyeERzb0x3MlIyVS00Mk5ieHMwemZvUVJxdUx0bFc2X2RhYkN1dUlpa1RfSEl3ZTlidWhocm1XbDRLTmpFTk1vMExxRnFKcWhf0gGaAUFVX3lxTE5wQVU3LXNHX3pLNXFUZzYyVGF6blhiQkNldElFQXBYY0V6MHBWd1MwMTc5RjlrM1VlNUNCZlV2WjdVWlhhTFQyNTExMHJPWFRHUnNySERYOGE3NFJ0cW5VRTZkcUc1UWJVUk1BTGlPUDEwU0taM1lOcFR2WFFXY2F6S2Q0SzNwTVlZbGtYMWNCenU0Qng0MENXenc?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "Compounded GLP-1 drugs creating concern among doctors and FDA NewsNation"
-  },
-  {
-   "t": "Compounded GLP-1 drugs creating concern among doctors and FDA - WANE 15",
-   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZUlMcTBtVWotWExYRUlNWUpCRU1tRWZqQ1Q5SFp6b3hLSEtxVW9CVU5jNDVWZTdKZ0d2S2c3LVRrOTdpWGxwU1BFcFhKQy1CMzNKOE1sM2dnSjg4Z0NrNi1LczFZSVRGcVJZME9zWjdHaU9pZ19GZHdVTDZjSU5BUDhaWHd1SElMZmVYNGVOYlRPQWRQck05ZkJBSFUweDA0Zi1KMXpjNFNaY2xfVmZr0gGkAUFVX3lxTFBZQTdBQzhVVFhIOG9aeWNHbUg5LS1WdmVnaW1VZ2FfWWlZR3kxY2UzbmJwNENEZU5TLW16aWdXdy1iVmJ4U1BTNWJkMFplMlFlUE45cWFKcU4tTzR3ZDJaemkxYjJheEp2UzNZa2dvb0dHeG9hZVpvNHlNVGFpcGVqMlp1MzZOWkUwS25sSUJxenMyUFRNM1lCNXc1U0VfaW9LUXBj?oc=5",
-   "d": "2026-07-27",
-   "s": "gnews",
-   "x": "Compounded GLP-1 drugs creating concern among doctors and FDA WANE 15"
-  },
-  {
-   "t": "FDA Panel Votes to Loosen Restrictions for Four Peptides - Pharmaceutical Executive",
-   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5SWEFSb1hfUTBpS1o4bWpjcERWaFhxdHVIcHN0UWdqU29yYmdHN2NYVC1VOEZiRlJHU2lBdVdUdVR6UjVJS01QM2RpYWpDZTZzM09PZU8yTzV1dE1CbWdhaGMyS2ExMFZzYkwybS14bm14UVhfRGEtQTRhNkNNLUE?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "FDA Panel Votes to Loosen Restrictions for Four Peptides Pharmaceutical Executive"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
-  },
-  {
-   "t": "FDA panel gives nod to six controversial peptides - The Washington Post",
-   "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZFAxQV83NXU4SDV0UmFhcUxEOVRKZWNJTkxQaktxbmRUU2VEYzNNN0N3WFAzeHBmNWt0ZFVQRHhUTDgycFVlTGFRblUyaV9paGJUOTdKVzdVbVNGeDRKRHVydThTUUFybHVYOFRIcFFOZUN6Vmd3YzJNSzdrUVVTNGxBSGRZNFlvUHlwdm11eGhWSDlCd2tZdE9pZUM?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "FDA panel gives nod to six controversial peptides The Washington Post"
-  },
-  {
-   "t": "FDA Panel Finds a Peptide It Doesn't Like - MedPage Today",
-   "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTE51UG5wLUZ1TXJlX3VFODdCS09zdDJoVE5mSUwweDJwNmpBZTI2TWZaS2tmWEFra3JLd3FiLWJQRnk5MThpZjR4aVdwcHJjdnMxUmJTbG5XTzR1azdZWjVoVVR2aGEwLU5XcVF0N0RSaG1fdDA?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "FDA Panel Finds a Peptide It Doesn't Like MedPage Today"
-  },
-  {
-   "t": "FDA panel votes to ease peptide restrictions over scientists' objections - Quartz",
-   "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOdTVzY0o1SFdpRWtwUkRqRm5KX1poVzQxYXlMV0luRnRkY0NCUVd6MjNTWXdXajF6ZVcyem1NVW5sVjh1NF9xNWJUbXNmbkdfRklaYjV3WXFobWM0WXlsdDlYWUhmVTA3MlJuUXpZel95RWt0QmNoN3AzR3pWclFXN0pwdUVzTHpXR3Br?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "FDA panel votes to ease peptide restrictions over scientists' objections Quartz"
-  },
-  {
-   "t": "FDA Panel Wants to Expand Access for These 6 Peptides - U.S. News & World Report",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWFd0SUsxM1hmbldOZTBLTnpWa2dNb21uRG84U05rY3dqNFZObTVGRTVxa1RFajlVN3Y1LVZ5akVIUGlHRTAwMG4yWXgyMEJYRHFVbHY5Zkg2NDY1UnNXZ0VZQXJjREc0S01VbHBJaDVHVGlEU3dVaGpoblVCVldpTUtVSkhaTlNDbGNQckhoVkxhM0EzZjQxTTlfc2IyaUw0bzhQWFVVdk4wWnljT3c?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "FDA Panel Wants to Expand Access for These 6 Peptides U.S. News & World Report"
-  },
-  {
-   "t": "FDA panel backs easier access to peptides - NPR",
-   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVEo5TXZWZHRReEU1bEF6X2wybWFjaVRMWmtaNXB5Z29VNlIycFlaQXF1dEc2d0E0R05zcXlOb0tZS2NYQlFrUmRJTEsyVF8zTF9WUEtPZlk5ek1xRXdTRFVSbEFwTlRuOTk5bjIxZFQ4Y3JkdWdlcy1KLU9XR2lrYkJqdGsxMHJoSFJtd3FfYw?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "FDA panel backs easier access to peptides NPR"
-  },
-  {
-   "t": "Compounding Panel Backs Peptides for the 503A Bulks List, Against FDA Reviewers’ Recommendations - Specialty Pharmacy Continuum",
-   "l": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQa2x5RVNTX2RCWGJrSE1HT01reExKc004eWpIWWhmOHk2c29XTGlrU1g5c09wN0VXSGRkczFnN3d6RE5heHJHLTc3UHVIZ0gya09IUzU5anJFOGo3QTMwbTZIZ1pQLUdYeWFpUjJYeGtCWVl1enRIYTZjdWdMYjlJVGFIZGJtamp3N1l6OXN5UjNHeU92UWs1SHZGeDh1Y2pkR3A5LUlwTHp4N1E5VW9tcTlra2dVY1pHMDRUR3hsY01tMG1BeVdOOVA2WGZ5Y1ZJSmYtbmZvUV9DWlZxenFNcHZoTDVfZ2tKVEpscUE1dnlBYjRneDlBaHVVaWxCTjQ?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "Compounding Panel Backs Peptides for the 503A Bulks List, Against FDA Reviewers’ Recommendations Specialty Pharmacy Continuum"
-  },
-  {
-   "t": "Peptide Compounding Vote Raises New Questions for Drug Developers - PharmTech.com",
-   "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVFdKX3h0SmQ5UWNmQ1dXSkxHN3BnSUx3dHJDZVZXOFY2aHIzbTVicjB5a09FZ05YYzZyNkxTSWNRdmNsSVpwZUZfcHA4MVNXMDRtUjZIcXVrNE1tQjBtaU8yQkVfWVRBekhDYVljRmxmRGFnTXhDU3pkOGNnM0tUTXV6RUZDaXpWaFR6bXY5M2stdw?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "Peptide Compounding Vote Raises New Questions for Drug Developers PharmTech.com"
-  },
-  {
-   "t": "RFK Jr. promised to stop the ‘aggressive suppression’ of these controversial drugs. He’s making progress. - Politico",
-   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTk5XLV95YlZDSlg2MnBMTkN4MmhxTVBpXzJuTlFfZzMtR3VwNmx6Rktzak5HaEdGUkdmcGctNFJDRWw4ZG92bWtLWDlHLWt6dFRkanRUaDl6dkUtdGxybVVURC1SYVdOM2MyNjJGcHhId0pTejJaTWVLTzc5c1BWN3d2S2FZcGs0bjVVU3ZETmtOam8?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "RFK Jr. promised to stop the ‘aggressive suppression’ of these controversial drugs. He’s making progress. Politico"
-  },
-  {
-   "t": "Peptides Are Popular and Controversial. Now They Have the Votes. - WSJ",
-   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNTFBkLXNKalBDSGY4bk8zRzRHbDFITWt3enM4SEwyWTBFQmQxYXpPSVBWeDA3QUlNRGZzMjVkU2hWMHc5amdMMDVpZTBuSzBDUjZQU0k2XzJiUTF6WjA2NFBqRE1qM3BJTHJpVWRiYUtUYzl6a1FNNk5yaFhOM3VGS2FMQnFEbm9KTUpZejRUNHl3WHc3Vlc0eFVDbGR3azFRck1mQmdXVnNDeS1YX1FYVE5sWm1OR0JhaEEzVTd3?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "Peptides Are Popular and Controversial. Now They Have the Votes. WSJ"
-  },
-  {
-   "t": "FDA Votes in Favor of Peptides After Lengthy Deliberation - Drug Topics",
-   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQYUxNMWlKcXViSklTV0JDazlYdjEwdEhwZWZZNEhQU2ZyY1RNOTJFWE5qaWhKc1BIdWdGRjg3RnN4eXlnLXhJS2RIU1BtNlZBaUN4SkVsb3pLc0ZwbHpOV2pXRkpvblNzZ21nR1NCemNXR1FMc3kwV2VROXpUci16R240MURJbTQ3alpwZm1VMXo4YjQ?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "FDA Votes in Favor of Peptides After Lengthy Deliberation Drug Topics"
-  },
-  {
-   "t": "FDA Votes to Reduce Restrictions on Four Peptides | PharmExec - Pharmaceutical Executive",
-   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBIMEpGYkR4UHdSNHhmSUc2OVB2RHlfQ19sTzhhZTBYODVfb2huSlJUVk9CZVF0MGlsQUJHVzZUQ2NyVGphN0d1T05OTVhEeTRqTGtydHJpN1oxdVZvekhqakxJWkFwZjV5SWZJeE9xSGVxcXpsSXpLcHF2R3k1ck0?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "FDA Votes to Reduce Restrictions on Four Peptides | PharmExec Pharmaceutical Executive"
-  },
-  {
-   "t": "Peptide adcomm Day 2: Emideltide voted down in panel's 1st pushback - Fierce Pharma",
-   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQQ3Z0UWxHNTlSbVZKLUNlcV9yOEtlVHhTQ2ZCSDBSbXNxbmg0SjlpVXlNQVZGR2twTWc2ZmtHX1JQVkE5VnFKTXA0R3p6NzNKT09yelAtWkllLUdya1VCT1lJT005dTRhM0s5RzBtZ0h3aFNucWdHZzB6MmpTSTBqTUFndTFTcHhzaTJUOGtlZXJKc0hQV0RaVVpzeFVwMHlfRWtSLU1pOWlRZw?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "Peptide adcomm Day 2: Emideltide voted down in panel's 1st pushback Fierce Pharma"
-  },
-  {
-   "t": "FDA Advisory Panel Votes to Loosen Rules on BPC-157, TB-500, and MOTS-C Despite Agency Scientists' Opposition - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNUFZrM2hpdXdFeEdLUER6SzlLUmdXVTU0SHV6clQ3XzNORjdpSjdHRFNuMEFucmJKRmY2VzBkVkd5dlVkaGJQZlRhVXd4RmttazNlTUoxQU1DV1hJcTdYU2lCazZOUjRJSHY4c3ZVQ3JrMElTNkliTFpYSWJqNjZrelh3cDEwRTNQZ0lyNzdmQnZrTzdrNUtqaUpjZWhFOXpmdzVN?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "FDA Advisory Panel Votes to Loosen Rules on BPC-157, TB-500, and MOTS-C Despite Agency Scientists' Opposition Medical Daily"
-  },
-  {
-   "t": "FDA advisers weigh relaxing rules on three more peptides to widen access - Yahoo",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWVB0YUg1NXY1YUF6VVhhal9wM3NZRkYyUUZFT3ZrTHFJUXczamwyQzVsd085SWNIZHFoZmZJdmZoSmZ1bjM1eDJhYWUxS1E4V1lsZGRIOERUODRHTldGYzFSRDhIYVQycE5KTEI2bFJGZDM3djFGdnA2WVkzYkViT21GaW4zUDM2UHI3TTJqaF9DbTFReWlB?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "FDA advisers weigh relaxing rules on three more peptides to widen access Yahoo"
-  },
-  {
-   "t": "Updated: FDA adcomm backs popular wellness peptides, despite staff concerns - Endpoints News",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPV3JLdWlOcVpucnRvY3FuX0lzUlpaOHdzb0QySTQ1eVZHWFFTQmJURWpIVGJ5cXRWSWdxWndWMGtSVTVROFJzQ0xZS293ekpSREFhYVhYdGRZcXhlRGJWR29iU05KNWN0OV9fcUhsSHJMcUtOVTVxb3lkUFhVa0JPN3Z2UFBYWl9pNldLMjJxUG1iZ1pKak5CSjBFSHprNUxxTnhuXzl5V3hlWnZTYUE?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "Updated: FDA adcomm backs popular wellness peptides, despite staff concerns Endpoints News"
-  },
-  {
-   "t": "‘Pandora’s box’: FDA peptide votes could open the door to more unproven drugs - NBC News",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOb1FKUVVqSElzNURGSGdfNExyTU01UFhvb25HckUwRllJbHZCWHhuejBJMmltOEcxTjNPLUk3aTFVNFhyZUxxZW5HbHoyNVNXQlRocjdjWlZUVTk2MDJMSy1pZi1HejRnRVNzUmpiNGd0NHpoNGx2QXVDMlVuanV5dlBWQ0ZqX1ZKWTcxWElvUVBWRno0YmUyZ1Z3bFpoakQxdGtpMmFrcWw3ejIyM2c?oc=5",
-   "d": "2026-07-24",
-   "s": "gnews",
-   "x": "‘Pandora’s box’: FDA peptide votes could open the door to more unproven drugs NBC News"
   },
   {
    "t": "Advisory Committee; Peripheral and Central Nervous System Drugs Advisory Committee; Termination and Reestablishment",
@@ -864,277 +528,123 @@ window.FEED={
    "x": "The Food and Drug Administration (FDA) is announcing the termination and reestablishment of the Peripheral and Central Nervous System Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Peripheral and Central Nervous System Drugs Advisory…"
   },
   {
-   "t": "WATCH: FDA advisory panel narrowly backs use of several peptides favored by RFK Jr. - PBS",
-   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeHFHdlRzNDVHLU45N1JsTWFVcGZDbUdrblNZNGpQZWg5LUdhWllWaTk5b1lzandRNE1yejhpMVB1OXBhckRCVTZzMk1veU03djluMG9oUWZnblBxSWpBUEcxLXRRTmNZYzFnbDdUYm02eTZtZXI3V2NkUGlMUGxDaFAwcHIyUlRKaXh5dDc2Yk1VSEh6Smc?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "WATCH: FDA advisory panel narrowly backs use of several peptides favored by RFK Jr. PBS"
+   "t": "List of Bulk Drug Substances for Which There Is a Clinical Need Under Section 503B of the Federal Food, Drug, and Cosmetic Act; Extension of Comment Period",
+   "l": "https://www.federalregister.gov/documents/2026/06/26/2026-12937/list-of-bulk-drug-substances-for-which-there-is-a-clinical-need-under-section-503b-of-the-federal",
+   "d": "2026-06-26",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA or the Agency) is extending the comment period for the notice entitled \"List of Bulk Drug Substances for Which There Is a Clinical Need Under Section 503B of the Federal Food, Drug, and Cosmetic Act\" that appeared in the Federal Register of…"
   },
   {
-   "t": "In win for RFK Jr., FDA advisory panel narrowly votes to allow compounding of unapproved peptides - STAT",
-   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTE5jMzNoMjJNRk5UMWpyQUFqa3dHcFp1bzVBcnFmNU1iZVBJSHhaU01NYk9aMHFIMlhNeDBlVHp2NUZ0aUs1QTI0M2JsLVlZU0JNWXY1X3hLb3BDT21XQjRHekZWWmlwdlliMUs3RVoxM1JtQjRyUktBOG1iX2FDT2V0U0NmMmZNendjSEhOOVJhdjVNQjlmVw?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "In win for RFK Jr., FDA advisory panel narrowly votes to allow compounding of unapproved peptides STAT"
+   "t": "Indefinite Suspension of the De Minimis Exemption for Merchandise Arriving Through All Modes Other Than the International Postal Network",
+   "l": "https://www.federalregister.gov/documents/2026/06/24/2026-12670/indefinite-suspension-of-the-de-minimis-exemption-for-merchandise-arriving-through-all-modes-other",
+   "d": "2026-06-24",
+   "s": "fr-cbp",
+   "x": "This document amends the U.S. Customs and Border Protection (CBP) regulations to implement an indefinite suspension of the de minimis administrative exemption for imports valued at $800 or less arriving via all modes other than through the international postal network. This…"
   },
   {
-   "t": "FDA panel votes to place popular peptide BPC-157 on compounding list - Reuters",
-   "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQd1RUYzFodUREVENuRkxmajZiWXBrTUVOcUZzTzk1cFE1d3kyeTI5VFZuWU5XSVhRUThGUGEtbUtybDN1TUtoSzlkNncxRUtxMFVpVlluSVBhM1hac3g3bVJXMmtaV1N2clk1RVhxNWJ2NVhOMlVVUU1FeGNDWnhFbTIyclduek16dTBzMUZGeWx5cXAtZHFYMVE2M0Mwa29sTnJ1a1R4SF9qY04wQ1A5U3RicldvalR0OXNnQXBSX3ozdmp4U2gxOHpQS3hIUk0?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA panel votes to place popular peptide BPC-157 on compounding list Reuters"
+   "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process",
+   "l": "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
+   "d": "2026-06-24",
+   "s": "fr-cbp",
+   "x": "This document amends the U.S. Customs and Border Protection (CBP) regulations to implement an indefinite suspension of the de minimis administrative exemption for imports valued at $800 or less arriving through the international postal network. This document also establishes a…"
   },
   {
-   "t": "FDA advisory committee votes to add popular peptide BPC-157 to drug compounding list - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNb1ZrSmNEUDE3TzBuLWJJUjlJSHEzSl9nMndEYlFzRE5Oam14MGdNWldGMzhCZ3VLcW1hVHJOWl84UFFydWdvMnBaczFZWEF4TngwMklfb1BHaGJab0tMMjBUZ1Z6OE9PS09KU2NienBtUG92b2IydkduWkpPQm5yN3VGZ0ZyNkJEWFhzTFFLQ0dUbGRzQjAyWmxxdWIyZU3SAaQBQVVfeXFMTlU2cTZrRVJ3U1dVdDlwY1VTRWpqVVRmMnlfUTBBSGNlVkFJLS1PdXdoTHB1OFNGTjNlV2E1Z2c3SjdXbURWeVNnNzNKdHhhOXdJa3FaZ1dUN3NFSGpZWTFQVVl1d3NMRFJqekllWEdRa3NLVXdGRDhCNmp3djRfbVJuOXZPVmxUdVFnVnFrZUNaMW10VWJ5OU94LUprRV9KWlhIVVQ?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA advisory committee votes to add popular peptide BPC-157 to drug compounding list ABC News - Breaking News, Latest News and Videos"
+   "t": "Test of the New Electronic Informal Entry Process for Mail",
+   "l": "https://www.federalregister.gov/documents/2026/06/24/2026-12668/test-of-the-new-electronic-informal-entry-process-for-mail",
+   "d": "2026-06-24",
+   "s": "fr-cbp",
+   "x": "This document announces that U.S. Customs and Border Protection (CBP) is conducting a test of a new electronic informal entry type for merchandise entering the United States through the international mail process. This notice provides a description of the new informal entry type…"
   },
   {
-   "t": "An FDA Committee Just Voted in Favor of Peptides—Despite the Agency's Opposition - Time Magazine",
-   "l": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBuWjFveWpoOGp3ellVQ3lLN2lBRUhnRWo0RW9SME9yT0VxdW1jX3kxMkdkMHN1RndEZm93Vjh3NFVNTHBWVUdMdFhfT1dUa1dUTm4xWUhXeE02aGVUU2RFV0psS2oyT1ljMUlz?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "An FDA Committee Just Voted in Favor of Peptides—Despite the Agency's Opposition Time Magazine"
+   "t": "Advisory Committee; Science Board to the Food and Drug Administration; Renewal",
+   "l": "https://www.federalregister.gov/documents/2026/06/18/2026-12235/advisory-committee-science-board-to-the-food-and-drug-administration-renewal",
+   "d": "2026-06-18",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA) is announcing the renewal of the Science Board to the Food and Drug Administration by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Science Board to the…"
   },
   {
-   "t": "FDA panel votes to add peptides to permitted compounding list despite opposition from agency scientists - The Hill",
-   "l": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBwWEhqcWE3d1FSdHl5aEdlR2dfLS1ubkpvV2dxWC1KemZtSGdsdmxWaFR6cXBHb1RvTk0tVFFaUmVHQ0FyU2d0c05EMVo5aTAtOTdERURLYkhfYjVmZFN6LVBqQ2hxMEVsZHpwLTg4VFRMNENX0gF6QVVfeXFMUC1MZjlHaXN3VVhXYmFqTkZyazNmN0cySXpsQ3VqSmxQa25jcnExNENMbVV3N3I0SUhGME1ZOGNYaENPdDRadGVTdllldjdOZTVMRGI0aWZrd0FJNVB3VjZKQnY5VzZNRGk2MUtWaHk2Z09xVGdWbTZEZHc?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA panel votes to add peptides to permitted compounding list despite opposition from agency scientists The Hill"
+   "t": "Advisory Committee; Psychopharmacologic Drugs Advisory Committee; Renewal",
+   "l": "https://www.federalregister.gov/documents/2026/05/29/2026-10674/advisory-committee-psychopharmacologic-drugs-advisory-committee-renewal",
+   "d": "2026-05-29",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA) is announcing the renewal of the Psychopharmacologic Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Psychopharmacologic Drugs…"
   },
   {
-   "t": "FDA panel supports broadening access to peptides popular on the gray market - NPR",
-   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5TYUlnSHFNNG9GYVNEUTV3NzRKZ0prbFZRa21CRWpvZmhTUzl4OFk3YTFPUnhRcTF0LVhVeXpESkV4M1FlZm0xR0djci0tNllNT3ZQWV9kc0s1RDRodjFETW5ydnFuaTZ1RTZacEdqZk9qanBKSDRUUmRB?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA panel supports broadening access to peptides popular on the gray market NPR"
+   "t": "Advisory Committee; Pulmonary-Allergy Drugs Advisory Committee; Renewal",
+   "l": "https://www.federalregister.gov/documents/2026/05/26/2026-10410/advisory-committee-pulmonary-allergy-drugs-advisory-committee-renewal",
+   "d": "2026-05-26",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA) is announcing the renewal of the Pulmonary-Allergy Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Pulmonary- Allergy Drugs…"
   },
   {
-   "t": "FDA panel, with ties to the peptide industry, recommends easing restrictions on four of the compounds - NBC News",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPUjFxcmJ6TkYzZUx3NWtFY1BkSTlDeFNqOXZ2UExSZC15UmZYdDg1WWdQR0FyWC1Tdmh0dFg5SWVOMkRaSnpLTDBSQzItNmFJMFZVZ0JoUFJzdmVjREpyQkgtU0ZZQmx3X00zWVlzWENvdXYyLV80aDlRWUtxUWh1d05DSWNHWUZ0cjdCTFRpRkRfcHVjU3NzbHhkaTJpN3VYYWdFM1RySFY3dng5X3ZMYnJwd1dXcVR3MGVN?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA panel, with ties to the peptide industry, recommends easing restrictions on four of the compounds NBC News"
+   "t": "List of Bulk Drug Substances for Which There Is a Clinical Need Under Section 503B of the Federal Food, Drug, and Cosmetic Act",
+   "l": "https://www.federalregister.gov/documents/2026/05/01/2026-08552/list-of-bulk-drug-substances-for-which-there-is-a-clinical-need-under-section-503b-of-the-federal",
+   "d": "2026-05-01",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA, the Agency, or we) is evaluating substances that have been nominated for inclusion on a list of bulk drug substances (active pharmaceutical ingredients) for which there is a clinical need for outsourcing facilities to use in compounding…"
   },
   {
-   "t": "FDA Advisory Panel Weighs Access to 7 Popular Peptides This Week - AJMC",
-   "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOWmZKSTdtbHZRa1NieTU2LWJxc2FGWFVqS2ktMjNiVWdMNENLajE2d21LLTVIZ05GaFY4ellSVHE5V2Ywcy1zcmlaeU9aTzFwSnA0cVFLdkxUQjU3eFNNRXFiNVFxY2ppYTBTRG9XZE5tclhmRjdtTDA2YnNZZXEwTHFyNVJDREd5RmZPZ09INTFpRW1X?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA Advisory Panel Weighs Access to 7 Popular Peptides This Week AJMC"
+   "t": "Determination That OZEMPIC (Semaglutide) Solution, 2 Milligrams Per 1.5 Milliliters Was Not Withdrawn From Sale for Reasons of Safety or Effectiveness",
+   "l": "https://www.federalregister.gov/documents/2026/04/30/2026-08435/determination-that-ozempic-semaglutide-solution-2-milligrams-per-15-milliliters-was-not-withdrawn",
+   "d": "2026-04-30",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA or Agency) has determined that OZEMPIC (semaglutide) solution, 2 milligrams (mg)/1.5 milliliter (mL), was not withdrawn from sale for reasons of safety or effectiveness. This determination means that FDA will not begin procedures to withdraw…"
   },
   {
-   "t": "What to know about the 7 peptides being reviewed by an FDA panel - NBC4 Washington",
-   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQd2RldGZTOUhDU1QtamhGemtqODNOUHh2dUxqQUxKbGVvQ2lvU2puMjB6SWRFVGhkOHhmS2NYRnhkNXpqYkdTUnJBWWQ4MDVCU3lmS2FuRl9NTm82Rjg5eXhtdmcxRGd6MDJCZGNYMEFLLXRiWVhHVWw2T1hfQkVITXlLcjhGSTBRdEZBT0ZpV2dDYzdvaFHSAZ4BQVVfeXFMUERVUmROM1RSbWU4UkZfR1A1MlZBR1hkcXJMNWtfSkFqb0VUbldDQkx0OXdGV09Ca1hPOHdJbWptVTE5dW0xWDYxLUM4Z20teWdtLURlTXlnZ0VWMVV5bVRqT3V6VDJwNHJRWWJFWU5HM214V3RDamZnOUt0S3FnYzRfT2NjQ1c3Z3VOS0VUMVhTdUozQ0VnLXN5YVdiekE?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "What to know about the 7 peptides being reviewed by an FDA panel NBC4 Washington"
+   "t": "Pharmacy Compounding Advisory Committee; Notice of Meeting; Establishment of a Public Docket; Request for Comments-Bulk Drug Substances Nominated for Inclusion on the Section 503A Bulk Drug…",
+   "l": "https://www.federalregister.gov/documents/2026/04/16/2026-07361/pharmacy-compounding-advisory-committee-notice-of-meeting-establishment-of-a-public-docket-request",
+   "d": "2026-04-16",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA) announces a forthcoming public advisory committee meeting of the Pharmacy Compounding Advisory Committee (the Committee). The general function of the Committee is to provide advice and recommendations to FDA on regulatory issues. The…"
   },
   {
-   "t": "FDA considers widening access to peptides promoted by wellness influencers - PBS",
-   "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONnowMlM1bUZJcEh5NlRCMk5Fak9fMk92TWI2a09DN0l4Z0wyUGNRbTFHeXF6bEI5ZkZSZ0xqbEFIMkZ0bF9vMzM1YjNlcEFEbjJfcVk2VjFMM3IwY1hXNGJ4ZW1pdG9rQ1k4RDdhZktNTVktYUxZNHA3SUVLdG5YQ1hIS0JvZXVYUkc1MVpUWklKTkdHY2ZjM2hjSkhkYndQTllFVThuSG4ybnc3?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA considers widening access to peptides promoted by wellness influencers PBS"
+   "t": "Revising the National Drug Code Format and Drug Label Barcode Requirements",
+   "l": "https://www.federalregister.gov/documents/2026/03/05/2026-04368/revising-the-national-drug-code-format-and-drug-label-barcode-requirements",
+   "d": "2026-03-05",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA, the Agency, or we) is issuing a final rule to standardize the format of the National Drug Code (NDC). Under this final rule, all FDA-assigned NDCs will be required to be 12 digits in length with 3 distinct segments and 1 uniform format. The…"
   },
   {
-   "t": "Most FDA advisers say peptides like BPC-157 and TB-500 should be made available in the U.S. Here’s what happens next. - MarketWatch",
-   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOTEZrM2gycnZSQldDcVZ4bkh5M0tTRll2bDMtTjMwUV8zUnZnWWVXZGExQ3JVY3lINzI1V0xIY2tIM19OZXRZUWRhWHhWX3VyZzdoMF9rVjRzbjRkeUdod0F1d3NTWmE1SFVobTl1UWpYckxSREo0LTVzX1dXd0NaN2o3Z3poUHRhallRcXl2d0RPZlA0ckY4WFlpU3ZTV1hXbHBtc2Z1VjdyT2RyTEZTQmNpS2VwZThNQjZQM0xR?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "Most FDA advisers say peptides like BPC-157 and TB-500 should be made available in the U.S. Here’s what happens next. MarketWatch"
+   "t": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+   "l": "https://www.federalregister.gov/documents/2026/02/27/2026-03963/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+   "d": "2026-02-27",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA, Agency, or we) is announcing the availability of additional draft and revised draft product-specific guidances. The draft guidances provide product-specific recommendations on, among other things, the design of bioequivalence (BE) studies…"
   },
   {
-   "t": "FDA panel recommends loosening restrictions on peptides, despite scientists’ concerns - The Washington Post",
-   "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZHowb1NhcnhUQThBT3RhamRaOE02Wlk0dkpYQ0lTdzdLb1RkeDFjYW1zTjdsTzYwVVkxN1BUYWRIZEJpUUVBc2ZrWXFTblpfNUN3ZEd1Ulg0RnhFcFRhOHM3ZVdNMUJONG5zemZrc1dGeVI4ZjNwY0h0RkNTaDFPSmg5YUwydUNCbmR4cUdOSXhkbVNZcXU3bHFxVFZ1NEp4T0FCS2liRFdiRGZZX05lS1ZB?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA panel recommends loosening restrictions on peptides, despite scientists’ concerns The Washington Post"
+   "t": "Sherri Insprucker: Final Debarment Order",
+   "l": "https://www.federalregister.gov/documents/2026/02/19/2026-03254/sherri-insprucker-final-debarment-order",
+   "d": "2026-02-19",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA or the Agency) is issuing an order under the Federal Food, Drug, and Cosmetic Act (FD&C Act) debarring Sherri Insprucker for a period of 5 years from importing or offering for import any drug into the United States. FDA bases this order on a…"
   },
   {
-   "t": "FDA panel narrowly backs unapproved peptide drug touted by Joe Rogan and other influencers - Chicago Tribune",
-   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaDlNaUtKU3V4SzR0UXRuZmM4clZiMi1QeXhUbjk4RFdwQ3UydDZUQnE2Tzc0MW1qT3h0V1NMTGplNllhQlFNblJJendCMmc4NUZrdnlaczZQTkRPRFVaU0hzZDMyRnlVSDB2Nlg3S0dFNXUwY3ZUcHJ6SEdLUU9Vei1SeDM1OFU4ZWprYnBxWkJQSjNVMzEtRg?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA panel narrowly backs unapproved peptide drug touted by Joe Rogan and other influencers Chicago Tribune"
+   "t": "Justin Insprucker: Final Debarment Order",
+   "l": "https://www.federalregister.gov/documents/2026/02/19/2026-03253/justin-insprucker-final-debarment-order",
+   "d": "2026-02-19",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA or the Agency) is issuing an order under the Federal Food, Drug, and Cosmetic Act (FD&C Act) debarring Justin Insprucker for a period of 5 years from importing or offering for import any drug into the United States. FDA bases this order on a…"
   },
   {
-   "t": "FDA panel considers easing peptide restrictions - Georgia Public Broadcasting",
-   "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQdERzZUxnWEFucWV0WThQUHRhYkVSVDhxTngtbEtldk9zQ1RwZnU0MW1PcDY0MjRnMHRXNElrSDlpbVg4WEI5QjNzOWQtMzFDTHBYTllpX0EtdWZ1THBXTERSMk03MTY1WlVzQVdQQW1MaVJpMXNzc0g0Ynh6QnIyc2k0amVGMzB5T0I4?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA panel considers easing peptide restrictions Georgia Public Broadcasting"
+   "t": "Jeremy Spencer Brown: Final Debarment Order",
+   "l": "https://www.federalregister.gov/documents/2026/02/12/2026-02786/jeremy-spencer-brown-final-debarment-order",
+   "d": "2026-02-12",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA or the Agency) is issuing an order under the Federal Food, Drug, and Cosmetic Act (FD&C Act) debarring Jeremy Spencer Brown for a period of 5 years from importing or offering for import any drug into the United States. FDA bases this order…"
   },
   {
-   "t": "The future of peptides in the US is about to become clearer. Here’s what you should know - WPSD Local 6",
-   "l": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPZmlPUUxXOXdNWXY0bHh3NlNoemdaVG1GWVB0OElLVkNPOUtfZHpHOHlOdGlLSE9kSDljb0xNaGhpV0dqTEhtRVp4anJJQ0kzMlRSQ0piclZyT2dkRURVN0IwZzNaVTZKeFpqQmt0RGFhSDdTTjhlUlV5SklmTW5lLWFqSjFpMExDUXNmWDZ5N2M5ZXp5bU9FeUszVFNtcU9lYXRyZUZ6Rmxta1VhcWZoUGRsTXNwdnB6RkVIUVc1TWttN2d4cjdFY2ZUa0cwdXBLSnJrYThSQkJQc3FVdHZ5a2tWNlVpMXE4aVlB?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "The future of peptides in the US is about to become clearer. Here’s what you should know WPSD Local 6"
+   "t": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+   "l": "https://www.federalregister.gov/documents/2025/12/05/2025-22131/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+   "d": "2025-12-05",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA, Agency, or we) is announcing the availability of additional draft and revised draft product-specific guidances. The draft guidances provide product- specific recommendations on, among other things, the design of bioequivalence (BE) studies…"
   },
   {
-   "t": "FDA Panel Endorses Lifting Restrictions on Peptides Backed by RFK Jr. - MedPage Today",
-   "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YYUR0eWJTZ1ZkSEVJSU1PMEJ4WGRlRUpwUVNLWHhZOEVxeWI1YTktalhiVENoaDlpcHR5bTZOUFZ4SVRQQW13YWF0bVd2eGwzd3ppbXJvU2w3RTh5dXh6UEZRLVBvWjcwY3JteHI5Z0JYeFk?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA Panel Endorses Lifting Restrictions on Peptides Backed by RFK Jr. MedPage Today"
-  },
-  {
-   "t": "FDA panel narrowly backs unapproved peptide drug touted by Joe Rogan and other influencers - Gulf Coast News and Weather",
-   "l": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBFeTBXZlRrajJ2VWxtQ1R0dlVGaWs5djd6dm9veXk4WXJJSThOcnRZbFlrTk5GM1lfT3ZnUy1RUFphd1ZEcEh3YjhKQ1FqV2lqTENYVTR5WTJhWjdCbHI5MVFEZHBURHotR0NkN3JkTC0tak5vbVhKTQ?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA panel narrowly backs unapproved peptide drug touted by Joe Rogan and other influencers Gulf Coast News and Weather"
-  },
-  {
-   "t": "FDA to review 7 popular peptides touted for weight loss, healing and longevity - Fox News",
-   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNlNGVXQyc3RRTF9JTllrUjM0R1RlWEp2dWxRQVJPczJqc0hXaXdvNHFxdWRSYWNzZlIzMVVocGtXc2JlLWk1NnNoSnFhaFBlcXZDamI4Q0R5MXlpc08zdm80Q1FHXzdmZDZ6NFBabklEcThWQXo3T1JOdmJFVlBZbnhDMXNST2x6Q3hyeDVVTXJubVVYTzRBQlpmZUsycEXSAaQBQVVfeXFMT290RXU3QnJucFVrRGJqLTdzZTBoZWtudHdiOWhwdWFkNHBhM3JMMmtJR0xjZ3MwOXVzOXMtRkI3S2M0WUM3bC1uTldwaGVKWFJaXzlBNERkTEFkRDJHcEhCcnVXUWhiUm81WXBkd29fUzB0eEpCSFZPUjlfQ01oLVZmcVlMWFo2LTJMbDJtMFJfYmlyWi1sREd5WkJpMWZzZDJveHc?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA to review 7 popular peptides touted for weight loss, healing and longevity Fox News"
-  },
-  {
-   "t": "Hims & Hers gains as FDA panel endorses peptide BPC-157 (HIMS) - Seeking Alpha",
-   "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdEZVOC1TYUZUbXJhSlllS3Bqa0RyUldGWFFqX0YtaGVpVnJCZHFsQXptdzU0YUxGLU50YmpNMGQ4NVpIOWF2eHBjbTZPV1gyMDVCaU5SY2VqZHJhc0NDa1pMcXI5YWQwWURhNFdGaG94cmpRdy1YaFBFVndVbmc3eW94cnhWUDVwcXNDaHJwOTU0dw?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "Hims & Hers gains as FDA panel endorses peptide BPC-157 (HIMS) Seeking Alpha"
-  },
-  {
-   "t": "FDA panel votes to place popular peptide BPC-157 on compounding list - Yahoo",
-   "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWUctNk1heEx2UGVEd0JSNHIyZ21XdGRJdnk2S3N4ODNLNW1uTmQwdlNIWjZhTzEzNmIwckt6TzdnWXJTM1dpVWpaaklRNDVlU1hmLUEtNU83SHRoZmJUY3IyWkZpbXhELWxCd1IybEExMm83dF9WZ1JKMzFNTDZYRWUtQ2ZkWE5fT3BKbFNMdmI1QQ?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "FDA panel votes to place popular peptide BPC-157 on compounding list Yahoo"
-  },
-  {
-   "t": "Hims, The Surprise Winner Of The FDA Showdown With Peptides, Bounds Higher - Investor's Business Daily",
-   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN2xyWTgwUmpfZDVualpleldLM1J2RWpjd2tRbmFST19US3N6QU0tSkt5Z3Q0Y040VjZLOEZfakViV2pQYlFCTF80VTdKUVR6enMzQ19MclQtbThyOHZsSG9xTFh6a0JFcHl0Z1FaVVBONVVTdDI3cHpVMVBvdnlBVXNGTnhwOXF5SGxjc1NR?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "Hims, The Surprise Winner Of The FDA Showdown With Peptides, Bounds Higher Investor's Business Daily"
-  },
-  {
-   "t": "What the FDA’s Peptide Decision Means for Hims & Hers’ Long-Term Telehealth Strategy - Barron's",
-   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa0R1LVpHZnZNSVRvR19ycWhHLWRtRkNNbXVlakhLdmttUXM0Sm5hNG1oNmZqaU43UnJmcXJCS3BXNEpndkZxMzBTckxIN29SYTl5R0ZSckxVdmo0aEpaUzNtM3huQmhCZnNuU0Y0UlZqdmJDOW1PZEZ4SmJtalZZeWg5US0wQ3A2ZUZxNVM2cmg?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "What the FDA’s Peptide Decision Means for Hims & Hers’ Long-Term Telehealth Strategy Barron's"
-  },
-  {
-   "t": "An FDA Panel Just Endorsed These Unproven Peptides - WIRED",
-   "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB3ZUtlQktucmMzMTVTeGNfSXFiN0tHeG5oNW92R1ZzcTl4V1VEbUdtc1NxRzMyYWlZUm1BY2V1U2tVTkd4QmF6aGdobHlUYk9RNVE4RnJncDctM0pOZ2s0M3pyTW5oQ3Q3Vld4V3BlVFVsSTA?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "An FDA Panel Just Endorsed These Unproven Peptides WIRED"
-  },
-  {
-   "t": "RFK Jr. calls himself a 'big fan,' so does Joe Rogan. Now an FDA panel is reviewing half a dozen peptides - Fortune",
-   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOUkFma3BIWHlhNGFZVU9WNmZ3Z0NJRnVuTDdKZERQa0kxV2w1Z2w0ZWQ0VnRZbm5Od3h1ZE1nTGNoSVkwb0hjRTVZN0p1Z1JESWxsNERwX0EwWVY1NXJVNGRFeDFhbndURGRqaVdSQW5LOWdoNDdQMkJQMkxDYk5aUC1obHpDLXRWSVFITA?oc=5",
-   "d": "2026-07-23",
-   "s": "gnews",
-   "x": "RFK Jr. calls himself a 'big fan,' so does Joe Rogan. Now an FDA panel is reviewing half a dozen peptides Fortune"
-  },
-  {
-   "t": "FDA panel to review popular peptides amid persistent consumer appetite - Reuters",
-   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUm1oa1Bma251TFFNZHg3azkwQTRfaU80NlFERkZRZXJxX2JIUXc4d3I2WjFoU1dBUGwwRGJNdEcwb0p1bzl2LWZuTTdlS1J4dFdFYmlYMlBWUjR4MUNtT2NkQmtUQzgzTGxCZHRic1VuWWZvcEpwaXNYRkZ0cnVOYk1PMjEwTkU5Y3o0NmhNQUY5ZHNFSTZNYzQ0cE56ZGhBMnk1dGtVMzJtbEQ5WVBPSlcxcm5aOG5VZ0FaUw?oc=5",
-   "d": "2026-07-22",
-   "s": "gnews",
-   "x": "FDA panel to review popular peptides amid persistent consumer appetite Reuters"
-  },
-  {
-   "t": "FDA Peptide Compounding Vote: What to Watch at the July PCAC Meeting - JDSupra",
-   "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTTBfQzdEV1BYb3ZYVmZhaGpxTVIwS2JlSUV6SlVaTGtjVTNPUUtJR1RhVUt2UjZaZVR0Wnc3TXpudGlrUVcwSWFoMUNFcHZuS3hoZWRHV3pRaGU2emo4SVQ3TXF2b1ZTT2cyZ3VBWmtXdG9oZEpQdHJ6cThQWGwzMk41bXhyZw?oc=5",
-   "d": "2026-07-22",
-   "s": "gnews",
-   "x": "FDA Peptide Compounding Vote: What to Watch at the July PCAC Meeting JDSupra"
-  },
-  {
-   "t": "The FDA Should Not Allow Untested Peptides to Be Added Into Patients’ Medications | Blogs | Jul 22, 2026 - Information Technology and Innovation Foundation",
-   "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONjJ5S0dicEhub1FlZlJCOU5SQlNtRVdvTHhqSUgwb1FZQjllTE0yamZSV0h6djhrSEtHaUdYVGNMNnZYd3AtWUdMZ3hSWmQ5STJ0T0ZZYXJUOW9Wbk9nRE1VaC1ORm5HV3ZVSFBKZTBVd1k3SGVxQldsLUhwbFdHUFFOVDZ5S29ablQ3eU92Z01xdXYwZ1B3ZldZODZfRDhiR1drRFlaaHpqRU1Lek8yQlJFZDMzNXp0bWhYelM2dw?oc=5",
-   "d": "2026-07-22",
-   "s": "gnews",
-   "x": "The FDA Should Not Allow Untested Peptides to Be Added Into Patients’ Medications | Blogs | Jul 22, 2026 Information Technology and Innovation Foundation"
-  },
-  {
-   "t": "FDA advisory panel set to review certain peptide compounds - NBC 5 Chicago",
-   "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdEtkM2pKN0JSaDhEaXlJRlRQcnU3dW90Y2tEckE0STdndjJUUU9qNGlxaUFoZ3dMQnZEMGtDMWpDT1JXVFZ4UTBiVXJzT2F1TXZNOFVIeUNQdm5RMm8tN292Yko0M0ZaN00zTS15UHUtRG9zZ2JOZkhiNXotN2lpOHJfLXE4Rnk0emp5RFJfX1hyTWJ6Sm5QX2wzR2JIMXpXRXhqdDBsb3XSAbABQVVfeXFMTXJUVXBLcEd6WmhGWEplem1SNGFpR0hmdzZubkVhN29jcG1KMm5aaHVBVDNpdFlVQkk4WGFYWEJKY0NmNUtKREN4UG5MSWRSdy1kbkd2OXFfOUZNNEtEUWI2TUNmQVFkOWIyb3BPOTAxWG1VRUVBQXhoaFpGbnMyNWtYZEx0MHBNQ3lqbTl2VTNxa3A5WEtBVG02Z0VtR2tjSG9TVXdMTS1sSHY4bzVDd1A?oc=5",
-   "d": "2026-07-22",
-   "s": "gnews",
-   "x": "FDA advisory panel set to review certain peptide compounds NBC 5 Chicago"
-  },
-  {
-   "t": "Peptides: FDA Loosens Restrictions Despite Concerns From Scientists - Healthline",
-   "l": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPc0VaRWhFRDlmZDJ0T19PUnc4NTRBTWdDV0NkSmxMakxyeUM4QjUwbHBUWERiWWxhbTZJRGtkVDlqTTBkVlhPbnA3dTlMRmJfaU82azRVN05PN0FXS2laSFhtZWNKU2lSbzBubC05RFpVXzdmN0RUa2h1NC1GYnV6Y3JhQ3RhM2M5?oc=5",
-   "d": "2026-07-21",
-   "s": "gnews",
-   "x": "Peptides: FDA Loosens Restrictions Despite Concerns From Scientists Healthline"
-  },
-  {
-   "t": "FDA Panel to Revisit Biden Peptide Ban as It Weighs Looser Rules - Bloomberg Law News",
-   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNGtXcEdXTnJDblFGTUVlRWJ5Z0gyTTFIaHEtbUgwUjhVTWdzTEFiOXEwZU4xNG9xMy1XUE9SbXZrTjNvLVhRNzB2aHp1VkpqRjhZZnJ2NUw2SGRTSjI3TjVKUHk1bzlEM0J1UmdkM3JXRWVxQXNTWnRPWGdrQUdxM0FudHBWRTdzc01EaXVrdkcweHVhWUVxRFlDTzNCdVJBSXJ0YkgwTHFacmp1TklMaWE2c2g5SVEzUkE?oc=5",
-   "d": "2026-07-21",
-   "s": "gnews",
-   "x": "FDA Panel to Revisit Biden Peptide Ban as It Weighs Looser Rules Bloomberg Law News"
-  },
-  {
-   "t": "FDA Sends New Round of Warning Letters Over Compounded GLP-1 Marketing Claims - Telehealth.org",
-   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaVhxYkpWWVVLVHl2Z0FrZEd4LVEzN2ZHdV9RSlM0dkRpV21VWnJRSWpRc2pPcFh3ekZkVFllaVQzQnhTa3VRRnNubkRtSjhHUUZtVUJINXZxTWpfMmJxWjZ2WTF3ME5kUTdtdDhJZGlKUFZtdTJSWktiUjJXNDBSQzAxdHNuRF84NEgtTFBfTGRiVUdubzFXVDdHSktvVmRUUDBNbFB1ckFDZw?oc=5",
-   "d": "2026-07-21",
-   "s": "gnews",
-   "x": "FDA Sends New Round of Warning Letters Over Compounded GLP-1 Marketing Claims Telehealth.org"
-  },
-  {
-   "t": "FDA puts former Rancho Santa Fe pharmacist on notice for selling unapproved weight-loss injections online - 10News.com",
-   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORkc1Ni11UlQzMkVFaEdmRFNsTWdHUDF6elB0Y1FqWU03d2ZLc0pOYTB5aUpHOW80ZFNtbXVTTFVzNm00REhzMlN2NnNXbGxsZVY2eEtXTU94aW9OS1NJOUgzdzhpNWxKNXQtdUV3Um15SC16azdzUVZ5SnI5RHprRUV4ZUhVTWI1TDNpQ1ZQLVpBTjVRV1ZvelNUYWN4LWFVdVlnUjdMZHhibFJJVldrSk10MVpfNVM2SVFWcnVydjBZS3lZM0Q4?oc=5",
-   "d": "2026-07-21",
-   "s": "gnews",
-   "x": "FDA puts former Rancho Santa Fe pharmacist on notice for selling unapproved weight-loss injections online 10News.com"
-  },
-  {
-   "t": "What to know about the seven peptides an FDA advisory panel is set to review this week - NBC News",
-   "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNSDJ6RzdOWTN3OGd6ZGttaUxrYnRWYXFVQUNEOWl5aDBZZnN5RlNRdzBsendrQ0hlSEkyaXJyMldPRVNlWUU0aUNFN0xDV0c1WlZWTG5yb3BlZGs0WkRtbFNxRW9oSUJvUnlxNmQyZ1pHc2I1aE5LZjNpYmlISE5zd1N3MVpyNnhhV2dfWW96by1nUmJHeTFpcDFhZU1aZkJWNDl1MA?oc=5",
-   "d": "2026-07-20",
-   "s": "gnews",
-   "x": "What to know about the seven peptides an FDA advisory panel is set to review this week NBC News"
-  },
-  {
-   "t": "Troubling Findings in Study of GLP-1 Compounders - MedPage Today",
-   "l": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5qQV8ySzA4LThjdFdBSmZnTTNBWDdoQVg2MFZFR0ZRenpZcVloUXdzQ2dYSWlYYThRMTlnWUVXV3RGWXpjYmdlbktzX2d1a1NPVWlkNVZlNUhVWVo0UWw0dm1jcnJGZw?oc=5",
-   "d": "2026-07-20",
-   "s": "gnews",
-   "x": "Troubling Findings in Study of GLP-1 Compounders MedPage Today"
-  },
-  {
-   "t": "New Study Finds Compounded GLP-1s Remain Robust Despite End of Shortages - Drug Topics",
-   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbk9kQzM0b2lSalM2enpzbUFRaGNCMGh2bmVObWg0WHR0LVFyalFBR2JUbDJfeWYzWnZ2ek8tcUdDVTd1TFFWUTFHU0lwSXBrVUJFUGZvdnh3X0p6WlhEbFo0ZlM0Qjl4cmhXRGZBZlRjdnZxVHBKN2lPdnFTWUZRaENfREY5V2ZZa2Q1bUx1a2Z0ZEdWS2lPV0ZRbjRsUXQxQW0xQVhwaw?oc=5",
-   "d": "2026-07-20",
-   "s": "gnews",
-   "x": "New Study Finds Compounded GLP-1s Remain Robust Despite End of Shortages Drug Topics"
-  },
-  {
-   "t": "Client Alert: Navigating the Peptide Compounding Wave and Upcoming FDA Vote - JD Supra",
-   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZlpvczEwV1hPX3Jqam1taTNDUDh6RWlMaWxhVkVuZk94TFRDTDFRUUpsS3I4Q3RjQTdvQjY4MHZnLXFYdXNMamxCbDJnbFFWNmxfQzBjbE5uam1ScVZWQzFXM0pqbGdFWHZxQlNROXJhZ1FiUENnZk9KTUdvay04MHlpMU8?oc=5",
-   "d": "2026-07-17",
-   "s": "gnews",
-   "x": "Client Alert: Navigating the Peptide Compounding Wave and Upcoming FDA Vote JD Supra"
-  },
-  {
-   "t": "Compounders maintain a firm grip on the GLP-1 market - BioPharma Dive",
-   "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPdVZkMEdnRnZjNjByWlBiR214WkVkU0lqaWJJbWhqYlpFazJaWUlmRVRNbXNlbk1vdllBZkNIOFh2Q1hfZXl0bnR5dzNTZzdPX2ZwZC1GcEhIV2xUYXI4RmV6NUtpa3l4cUJRRkhLempvT2prb3gzSFVIcjE3MkRkLUxJNmJDZVVLQ3E5Tm9oTVlLQQ?oc=5",
-   "d": "2026-07-17",
-   "s": "gnews",
-   "x": "Compounders maintain a firm grip on the GLP-1 market BioPharma Dive"
-  },
-  {
-   "t": "Study Finds Some Medical Spas Still Selling Compounded Weight-Loss Drugs From Pharmacies With Regulatory Concerns - CU Anschutz newsroom",
-   "l": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPR2xoZ1BFaTlQQmoxNXhObEVyOXhlbzNlc2F5UjROOGhRU1VOVEx1MWUxQkk0Y0I0N0RkUFRPUk9KSG5Xdi1vVUd0MTM4c0d1azFwR2k2M1lEZlFpM3QybVVSYXJ6SkhjRzRkU2EyU09peDZYWFdCLVhsWHpYVGRhckhR0gGSAUFVX3lxTE1lRzd1cHFBRVhjb080bkU4dGk3a2pyMlJYN3dHUzV1YmctaVZSRHYzWFRSTFJSdGJKZE5vaDlKc0pMTTRsS19WRjh0Tmx1ZERGaHZFbHlpOUtSaUJTSkJaTG1uVGUxLXRlak8tX0lKazBvdW9KWm92Nlg5NjIxNjdPX2hvTnhCX09MeEphMWM1THhn?oc=5",
-   "d": "2026-07-17",
-   "s": "gnews",
-   "x": "Study Finds Some Medical Spas Still Selling Compounded Weight-Loss Drugs From Pharmacies With Regulatory Concerns CU Anschutz newsroom"
+   "t": "Product-Specific Guidances; Draft and Revised Draft Guidances for Industry; Availability",
+   "l": "https://www.federalregister.gov/documents/2025/11/21/2025-20548/product-specific-guidances-draft-and-revised-draft-guidances-for-industry-availability",
+   "d": "2025-11-21",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA, Agency, or we) is announcing the availability of additional draft and revised draft product-specific guidances. The draft guidances provide product- specific recommendations on, among other things, the design of bioequivalence (BE) studies…"
   }
  ]
 };
