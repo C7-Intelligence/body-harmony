@@ -56,7 +56,7 @@ main{min-width:0}
 .sec{display:none}.sec.on{display:block;animation:fade .25s ease}
 @keyframes fade{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:none}}
 .page-head{margin-bottom:18px}
-.page-head .upd{display:inline-block;font:12px var(--mono);color:var(--muted);background:var(--surface2);border-radius:999px;padding:2px 10px}
+.upd,.page-head .upd{display:inline-block;font:12px var(--mono);color:var(--muted);background:var(--surface2);border-radius:999px;padding:2px 10px}
 .lead{font-size:1.05rem;color:var(--muted);max-width:75ch}
 .card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:18px 20px;box-shadow:var(--shadow);margin-bottom:18px}
 .card>h3:first-child,.card>h2:first-child{margin-top:0}
@@ -176,3 +176,7 @@ footer{border-top:1px solid var(--line);padding:24px 20px;text-align:center;colo
   h1{font-size:1.6rem}
 }
 @media print{.top,nav.side,.tools,.subnav{display:none}.wrap{display:block}.sec{display:block!important;page-break-before:always}}
+
+sup.fn{font-size:.7em;margin-left:2px}sup.fn a{text-decoration:none;font-weight:600}
+.fnlist{padding-left:22px}.fnlist li{margin:6px 0}.fnlist li.flash{background:var(--info-soft);border-radius:6px}
+.muted{color:var(--muted)}.tools-row{margin:8px 0}

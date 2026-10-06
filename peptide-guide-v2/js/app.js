@@ -361,18 +361,63 @@ function alertCard(al){
   <div class="callout"><p>${esc(al.note)}</p></div>
   <h3>Sources</h3><div class="grid g2">${al.sources.map(s=>linkCard(s[1],s[0])).join('')}</div></div>`;
 }
+
+/* regulation updates + feed */
+const fnMark=(t,pre)=>esc(t).replace(/\[\^(\d+)\]/g,(m,n)=>`<sup class="fn"><a href="#reg/${pre}${n}" data-fn="${pre}${n}">${n}</a></sup>`);
+const typeCls=t=>/primary/.test(t)?'good':/secondary/.test(t)?'warn':'info';
+function updatesCard(u){
+  if(!u)return '';
+  const body=u.blocks.map(b=>b.t==='h'?`<h3>${esc(b.x)}</h3>`:`<p>${fnMark(b.x,'fn')}</p>`).join('');
+  const fns=u.footnotes.map(f=>`<li id="r-fn${f.n}"><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.label)}</a> <span class="muted">${esc(f.pub)}</span> <span class="pill ${typeCls(f.type)}">${esc(f.type)}</span></li>`).join('');
+  return `<div id="r-updates" class="card prose"><h2>${esc(u.title)}</h2><span class="upd" style="display:inline-block;margin-bottom:10px">Checked ${esc(u.checked)}</span>${body}
+  <h3>Footnotes</h3><ol class="fnlist">${fns}</ol><div class="callout"><p>${esc(u.note)}</p></div></div>`;
+}
+function feedCard(){
+  const F=window.FEED;
+  if(!F||!F.items)return `<div id="r-feed" class="card"><h2>Latest regulatory news (auto-feed)</h2><p class="muted">Feed not loaded.</p></div>`;
+  const srcs=F.sources,num={};srcs.forEach((s,i)=>num[s.id]=i+1);
+  const nameOf=i=>i.p||(srcs.find(s=>s.id===i.s)||{}).name||i.s;
+  F.items.forEach(i=>idx('reg',i.t,nameOf(i),i.x,i.d));
+  const when=t=>t?t.replace('T',' ').replace('Z',' UTC'):'not yet run';
+  const rows=F.items;
+  const tbl=table({cols:[{h:'Date',f:r=>`<span class="mono" style="white-space:nowrap">${esc(r.d)}</span>`,s:r=>r.d,sort:'txt'},{h:'Headline',f:r=>`${ext(r.l,r.t)}<sup class="fn"><a href="#reg/fs${num[r.s]||''}" data-fn="fs${num[r.s]||''}">${num[r.s]||'?'}</a></sup>`,cls:'name',s:r=>r.t},{h:'Source',f:r=>esc(nameOf(r)),s:r=>nameOf(r)},{h:'Summary',f:r=>esc(r.x||''),s:r=>r.x||''}],rows,chip:{get:nameOf},searchPh:'Search the feed…'});
+  const fs=srcs.map((s,i)=>`<li id="r-fs${i+1}">${s.home?ext(s.home,s.name):esc(s.name)} <span class="muted">${s.type==='manual'?'added by hand':s.type==='fr_api'?'API':'RSS'}</span> · ${s.ok===null?'<span class="pill muted">awaiting first scheduled run</span>':s.ok?`<span class="pill good">ok</span> checked ${esc(when(s.checked))}${s.new?`, ${s.new} new`:''}`:`<span class="pill bad">last check failed</span>${s.lastOk?` (last ok ${esc(when(s.lastOk))})`:''}`}</li>`).join('');
+  return `<div id="r-feed" class="card"><h2>Latest regulatory news (auto-feed)</h2>
+  <p class="lead">Headlines pulled automatically from the sources below, filtered for peptide, compounding, GLP-1 and import topics. ${F.seed?'These are the starting items; the scheduled job adds new ones every six hours once it is switched on.':''} Feed generated ${esc(when(F.generated))}.</p>
+  <div class="tools-row"><button class="chip" id="fr-live">Check Federal Register now</button> <span class="muted" id="fr-live-msg"></span></div>
+  <div id="fr-live-out"></div>${tbl}
+  <h3>Feed sources</h3><ol class="fnlist">${fs}</ol>
+  <div class="callout"><p>Headlines are auto-collected and not reviewed. Treat them as leads, not verified facts; open the source and check primary records (FDA, Federal Register).</p></div></div>`;
+}
+function initReg(root){
+  $$('a[data-fn]',root).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const el=document.getElementById('r-'+a.dataset.fn);if(el){el.scrollIntoView({block:'center'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}}));
+  const b=$('#fr-live',root);if(!b)return;
+  b.addEventListener('click',async()=>{
+    const msg=$('#fr-live-msg',root),out=$('#fr-live-out',root);msg.textContent='Checking…';
+    try{
+      const q=['peptide compounding','bulk drug substances','de minimis'];const seen={},res=[];
+      for(const t of q){const r=await fetch('https://www.federalregister.gov/api/v1/documents.json?order=newest&per_page=5&conditions[term]='+encodeURIComponent(t));if(!r.ok)throw new Error('HTTP '+r.status);
+        (await r.json()).results.forEach(x=>{if(!seen[x.html_url]){seen[x.html_url]=1;res.push(x)}})}
+      res.sort((a,b)=>b.publication_date.localeCompare(a.publication_date));
+      out.innerHTML='<div class="grid g2" style="margin:10px 0">'+res.slice(0,8).map(x=>linkCard(x.html_url,x.title,x.publication_date+' · Federal Register')).join('')+'</div>';
+      msg.textContent='Live results from federalregister.gov, '+new Date().toLocaleTimeString();
+    }catch(e){msg.textContent='Could not reach the Federal Register from this browser ('+e.message+'). The scheduled feed still updates.'}
+  });
+}
 R.reg=()=>{
   const g=D.reg;
   g.timeline.forEach(r=>idx('reg',r[0]+' — '+r[1],r[2],r[3]));if(g.alert){idx('reg',g.alert.title,g.alert.intro);g.alert.claims.forEach(c=>idx('reg',c[0],c[1],c[2]))}g.status.forEach(r=>idx('reg',r[0],r[1],r[2],r[4]));
-  g.article.forEach(a=>a.x&&idx('reg','PCAC July 2026',a.x));
+  g.article.forEach(a=>a.x&&idx('reg','PCAC July 2026',a.x));if(g.updates){g.updates.blocks.forEach(b=>idx('reg',g.updates.title,b.x.replace(/\[\^\d+\]/g,'')));g.updates.footnotes.forEach(f=>idx('reg',f.label,f.pub,f.url))}
   const art=g.article.map(a=>{
     if(a.t==='h')return `<h3>${esc(a.x)}</h3>`;
     if(a.t==='score')return `<div class="tw" style="margin:14px 0">${'<table><thead><tr>'+g.scoreHdr.map(h=>`<th class="nosort">${esc(h)}</th>`).join('')+'</tr></thead><tbody>'+g.score.map(r=>`<tr><td class="name">${esc(r[0])}</td><td class="mono">${esc(r[1])}</td><td><span class="pill ${r[2]==='Include'?'good':'bad'}">${esc(r[2])}</span></td></tr>`).join('')+'</tbody></table>'}</div>`;
     return `<p>${a.u?ext(a.u):urlize(a.x)}</p>`;
   }).join('');
   return head('Regulation Info',g.updated,g.intro)+`
-  <div class="subnav" data-spy>${g.alert?'<a href="#reg/alert">Import alert</a>':''}<a href="#reg/timeline">Timeline</a><a href="#reg/status">Peptide status</a><a href="#reg/pcac">July 2026 PCAC review</a></div>
+  <div class="subnav" data-spy>${g.alert?'<a href="#reg/alert">Import alert</a>':''}<a href="#reg/updates">Latest updates</a><a href="#reg/feed">Auto-feed</a><a href="#reg/timeline">Timeline</a><a href="#reg/status">Peptide status</a><a href="#reg/pcac">July 2026 PCAC review</a></div>
   ${alertCard(g.alert)}
+  ${updatesCard(g.updates)}
+  ${feedCard()}
   <div id="r-timeline" class="card"><h2>Regulation & litigation timeline</h2>
    ${table({cols:[{h:g.hdr[0],f:r=>`<span class="mono" style="white-space:nowrap">${esc(r[0])}</span>`,s:r=>r[0]},{h:g.hdr[1],f:r=>esc(r[1].trim()),cls:'name',s:r=>r[1]},{h:g.hdr[2],f:r=>esc(r[2]),s:r=>r[2]},{h:g.hdr[3],f:r=>r[4]?ext(r[4],r[3]):esc(r[3]),s:r=>r[3]}],rows:g.timeline,chip:{get:r=>r[1].trim().replace(/\s*\(.*$/,'')},searchPh:'Search the timeline…'})}</div>
   <div id="r-status" class="card"><h2>FDA status by peptide</h2>
@@ -423,7 +468,7 @@ function show(id,sub){
   if(!rendered[id]){
     const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+id;sec.innerHTML=R[id]();main.appendChild(sec);rendered[id]=sec;
     wireTables(sec);
-    ({dosage:initDosage,halflife:initHalf,supply:initSupply,forums:initForums})[id]?.(sec);
+    ({dosage:initDosage,halflife:initHalf,supply:initSupply,forums:initForums,reg:initReg})[id]?.(sec);
     $$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}));
   }
   $$('.sec').forEach(s=>s.classList.toggle('on',s===rendered[id]));
@@ -442,7 +487,7 @@ let pending='';
 function route(){const [id,sub]=(location.hash.slice(1)||'home').split('/');show(id,sub)}
 addEventListener('hashchange',route);
 // pre-render all sections once so the global search index is complete
-SECTIONS.forEach(s=>{if(s.id&&!rendered[s.id]){const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+s.id;sec.innerHTML=R[s.id]();main.appendChild(sec);rendered[s.id]=sec;wireTables(sec);({dosage:initDosage,halflife:initHalf,supply:initSupply,forums:initForums})[s.id]?.(sec);$$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}))}});
+SECTIONS.forEach(s=>{if(s.id&&!rendered[s.id]){const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+s.id;sec.innerHTML=R[s.id]();main.appendChild(sec);rendered[s.id]=sec;wireTables(sec);({dosage:initDosage,halflife:initHalf,supply:initSupply,forums:initForums,reg:initReg})[s.id]?.(sec);$$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}))}});
 route();
 
 /* ---------- global search ---------- */
