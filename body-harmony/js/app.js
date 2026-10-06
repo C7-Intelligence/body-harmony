@@ -480,7 +480,7 @@ R.forums=()=>{
   <div id="f-communities" style="margin-top:32px"><h2>${esc(f.commTitle)}</h2><p class="lead">${esc(f.commIntro)}</p>
    <div class="grid g2">${f.communities.map(c=>`<div class="art"><h4>${ext(c.url,c.name)}</h4><p style="margin:0">${esc(c.desc)}</p></div>`).join('')}</div></div>
   <div id="f-videos" style="margin-top:32px"><h2>${esc(f.videosTitle)}</h2><div class="grid g2">${f.videos.map(v=>linkCard(v.url,v.title.trim()+' ▶')).join('')}</div>
-   <h2 style="margin-top:28px">More reading</h2><div class="grid g2">${f.otherLinks.map(u=>linkCard(u)).join('')}</div></div>`;
+   </div>`;
 };
 function initForums(root){
   initReg(root);
