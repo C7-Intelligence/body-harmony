@@ -1,5 +1,5 @@
 (window.DATA=window.DATA||{}).start={
- "title": "Welcome to the Peptide Guide 1.0",
+ "title": "Welcome to Body Harmony",
  "intro": "This guide provides a comprehensive overview of peptide profiles, vendors, dosage calculations, and terminology. Use the directory below to navigate through the various sections of the workbook.",
  "disclaimer": "Disclaimer: The following information is for educational purposes regarding commonly discussed research and therapeutic peptides. Many of these compounds are not approved by the FDA for human use, and dosage schedules are often based on clinical trials or anecdotal community protocols. Always consult a healthcare professional before considering peptide therapy.",
  "directory": [

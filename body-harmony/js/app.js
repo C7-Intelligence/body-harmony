@@ -1,4 +1,4 @@
-/* Peptide Guide 1.0 — built from the Peptide Guide spreadsheet. All content comes from js/data.js */
+/* Body Harmony — built from the original Peptide Guide spreadsheet. All content comes from js/data.js */
 (function(){
 'use strict';
 const D=window.DATA;
@@ -515,7 +515,7 @@ function show(id,sub){
   // tabs (terminology)
   const tabs=$('[data-tabs]',sec);
   if(tabs){const k=sub||'slang';$$('a',tabs).forEach(a=>a.classList.toggle('on',a.dataset.tab===k));$$('.tabpane',sec).forEach(p=>p.classList.toggle('on',p.dataset.pane===k))}
-  document.title=(SECTIONS.find(s=>s.id===id)||{}).name+' · Peptide Guide 1.0';
+  document.title=(SECTIONS.find(s=>s.id===id)||{}).name+' · Body Harmony';
   if(pending){const inp=$('.tbl-search',sec.querySelector('.tabpane.on')||sec);if(inp){inp.value=pending;inp.dispatchEvent(new Event('input'))}pending=''}
   if(sub&&!tabs){const el=$('#'+({dosage:'d-',halflife:'h-',reg:'r-',forums:'f-'}[id]||'x-')+sub,sec);if(el)setTimeout(()=>el.scrollIntoView({block:'start'}),60)}
   else window.scrollTo(0,0);

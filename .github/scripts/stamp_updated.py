@@ -1,10 +1,10 @@
 """Stamp each page's 'last updated' time when its content file changes.
-Hashes peptide-guide-v2/js/data/<page>.js; if the hash differs from the saved one,
+Hashes body-harmony/js/data/<page>.js; if the hash differs from the saved one,
 the page's timestamp becomes now (US Central). Writes js/updated.js and js/updated-state.json."""
 import hashlib, json, os
 from datetime import datetime
 from zoneinfo import ZoneInfo
-ROOT = os.path.join(os.path.dirname(__file__), '..', '..', 'peptide-guide-v2', 'js')
+ROOT = os.path.join(os.path.dirname(__file__), '..', '..', 'body-harmony', 'js')
 state_path = os.path.join(ROOT, 'updated-state.json')
 state = json.load(open(state_path))
 now = datetime.now(ZoneInfo('America/Chicago'))

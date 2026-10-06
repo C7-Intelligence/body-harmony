@@ -3,7 +3,7 @@ on:
   push:
     branches: [main]
     paths:
-      - 'peptide-guide-v2/js/data/**'
+      - 'body-harmony/js/data/**'
 permissions:
   contents: write
 jobs:
@@ -16,5 +16,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add peptide-guide-v2/js/updated.js peptide-guide-v2/js/updated-state.json
+          git add body-harmony/js/updated.js body-harmony/js/updated-state.json
           git diff --cached --quiet || (git commit -m "Update page last-updated dates [skip ci]" && git push)

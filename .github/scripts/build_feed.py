@@ -1,4 +1,4 @@
-"""Pull regulatory news from RSS/Atom feeds and the Federal Register API into peptide-guide-v2/js/feed.js.
+"""Pull regulatory news from RSS/Atom feeds and the Federal Register API into body-harmony/js/feed.js.
 Runs on a schedule in GitHub Actions (see update-feed.yml). Standard library only.
 Each source is optional: a failing source is recorded in the status list and its older items are kept."""
 import json, os, re, html, sys, urllib.request, urllib.parse
@@ -6,10 +6,10 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 
-ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'peptide-guide-v2')
+ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'body-harmony')
 CFG = json.load(open(os.path.join(ROOT, 'feed-sources.json')))
 OUT = os.path.join(ROOT, 'js', 'feed.js')
-UA = {'User-Agent': 'PeptideGuideFeed/1.0 (+https://github.com/C7-Intelligence/PepGuide-2.0)'}
+UA = {'User-Agent': 'BodyHarmonyFeed/1.0 (+https://github.com/C7-Intelligence/body-harmony)'}
 KW = [k.lower() for k in CFG['keywords']]
 NOW = datetime.now(timezone.utc)
 
