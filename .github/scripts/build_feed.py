@@ -46,15 +46,15 @@ def parse_feed(data):
             if t == 'link':
                 f['link'] = c.get('href') or (c.text or '').strip()
             elif t in ('title', 'description', 'summary', 'pubDate', 'published', 'updated', 'date', 'content'):
-                f.setdefault(t, (c.text or '').strip())
+                if (c.text or '').strip(): f.setdefault(t, c.text.strip())
         d = parse_date(f.get('pubDate') or f.get('published') or f.get('updated') or f.get('date'))
         items.append({'t': clean(f.get('title'), 200), 'l': f.get('link', ''), 'd': d,
                       'x': clean(f.get('description') or f.get('summary') or f.get('content'))})
     return items
 
-def relevant(it):
+def relevant(it, kws=None):
     blob = (it['t'] + ' ' + it['x']).lower()
-    return any(k in blob for k in KW)
+    return any(k in blob for k in (kws or KW))
 
 def fetch_rss(src):
     urls = src.get('urls') or [src['url']]
@@ -74,6 +74,8 @@ def fetch_fr(src):
         for r in data.get('results', []):
             out.append({'t': clean(r.get('title'), 200), 'l': r.get('html_url', ''), 'd': parse_date(r.get('publication_date')),
                         'x': clean(r.get('abstract') or (r.get('type', '') + ' · ' + ', '.join(a.get('name', '') for a in r.get('agencies', []))))})
+    if src.get('require'):
+        out = [i for i in out if relevant(i, [k.lower() for k in src['require']])]
     return out
 
 # load previous
@@ -83,6 +85,17 @@ if os.path.exists(OUT):
     try: old = json.loads(txt[txt.index('=') + 1:].strip().rstrip(';'))
     except Exception: pass
 items = {i['l']: i for i in old['items'] if i.get('l')}
+# re-apply current filters to items kept from earlier runs
+_src = {x['id']: x for x in CFG['sources']}
+def _keep(i):
+    x = _src.get(i.get('s'))
+    if not i.get('t'): return False
+    if not x: return True
+    it = {'t': i['t'], 'x': i.get('x', '')}
+    if x.get('require') and not relevant(it, [k.lower() for k in x['require']]): return False
+    if x['type'] == 'rss' and x.get('filter', True) and not relevant(it): return False
+    return True
+items = {k: v for k, v in items.items() if _keep(v)}
 status = []
 for src in CFG['sources']:
     st = {'id': src['id'], 'name': src['name'], 'home': src.get('home', ''), 'type': src['type'], 'checked': NOW.strftime('%Y-%m-%dT%H:%MZ')}
@@ -103,7 +116,14 @@ for src in CFG['sources']:
     if st['ok']: st['lastOk'] = st['checked']
     status.append(st)
 cut = (NOW - timedelta(days=CFG.get('keepDays', 365))).strftime('%Y-%m-%d')
-final = sorted((i for i in items.values() if i['d'] >= cut), key=lambda i: i['d'], reverse=True)[:CFG.get('maxItems', 150)]
+caps = {x['id']: x.get('maxItems', CFG.get('perSource', 30)) for x in CFG['sources']}
+count = {}
+final = []
+for i in sorted((i for i in items.values() if i['d'] >= cut), key=lambda i: i['d'], reverse=True):
+    if count.get(i['s'], 0) >= caps.get(i['s'], 30): continue
+    count[i['s']] = count.get(i['s'], 0) + 1
+    final.append(i)
+final = final[:CFG.get('maxItems', 150)]
 out = {'generated': NOW.strftime('%Y-%m-%dT%H:%MZ'), 'sources': status, 'items': final}
 open(OUT, 'w', encoding='utf-8').write('window.FEED=' + json.dumps(out, ensure_ascii=False, indent=1) + ';\n')
 print('sources ok:', [s['id'] for s in status if s['ok']], 'failed:', [s['id'] for s in status if not s['ok']], 'items:', len(final))
