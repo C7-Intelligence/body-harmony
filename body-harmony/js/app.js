@@ -94,7 +94,7 @@ R.home=()=>{
   const secOf={'Peptide Vendors':'vendors','Dosage':'dosage','PEDs':'peds','Medical Supply Vendors':'supply','BAC Water Tests - MUST READ!!!':'bac','Terminology':'terms','Regulation Info':'reg','Forums, Articles, etc.':'forums','Nutrition':'nutrition','Medical':'medical','Roadmap':'roadmap'};
   const upd={vendors:D.vendors.updated,dosage:D.dosage.updated,peds:D.peds.updated,supply:D.supply.updated,bac:D.bac.updated,terms:D.term.updated,reg:D.reg.updated,forums:D.forums.updated,nutrition:D.nutrition.updated,medical:D.medical.updated,roadmap:D.roadmap.updated};
   const must=D.bac;
-  return `<div class="page-head"><h1>${esc(s.title)}</h1><span class="upd">Last updated ${esc(s.updated)}</span><p class="lead">${esc(s.intro)}</p></div>
+  return `<div class="hero"><div class="mono-mark">B · H</div><h1>Body Harmony</h1><div class="rule"></div><p class="tag-line"><b>Peptide vendors, dosing, half-lives, testing results and regulation news</b> in one reference. Use the directory to jump to a section.</p><button class="btn" onclick="document.getElementById('dir').scrollIntoView({behavior:'smooth'})">Browse the guide</button><br><span class="upd">Last updated ${esc(s.updated)}</span></div>
   <div class="callout warn disclaimer"><h4>Disclaimer</h4><p>${esc(s.disclaimer.replace(/^Disclaimer:\s*/,''))}</p></div>
   <div class="grid g4" style="margin:18px 0">
     <a class="stat bad" href="#bac" style="text-decoration:none;color:inherit"><div class="v">${Math.round(must.stats[3].v*1000)/10}%</div><div class="l">BAC water products failed</div></a>
@@ -104,7 +104,7 @@ R.home=()=>{
   </div>
   ${s.alert?`<div class="callout warn"><h4>${esc(s.alert.title)}</h4><p>${esc(s.alert.text)} <a href="#reg/alert">Read the claim check →</a></p></div>`:''}
   <div class="callout bad"><h4>Must read</h4><p>Third-party testing found a ${Math.round(must.stats[3].v*1000)/10}% failure rate in bacteriostatic water. <a href="#bac">See the BAC water tests →</a></p></div>
-  <h2 style="margin-top:26px">Directory</h2>
+  <h2 id="dir" style="margin-top:26px">Directory</h2>
   <div class="grid g3 dirgrid">${s.directory.map(x=>{const id=secOf[x.name.trim()];return `<a class="lc" href="#${id}"><span class="n">${upd[id]?'Updated '+esc(upd[id]):''}</span><span class="t">${esc(x.name.trim())}</span><span class="d">${esc(x.desc)}</span></a>`}).join('')}</div>`;
 };
 
