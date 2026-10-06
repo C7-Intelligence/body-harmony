@@ -29,7 +29,7 @@
   "https://peptidetest.com/"
  ],
  "misc": [
-  "Indian AliExpress",
+  "IndiaMart",
   "Medication:",
   "Supplies",
   "Does this work",
