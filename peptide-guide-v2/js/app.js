@@ -297,10 +297,10 @@ R.peds=()=>{
 const prodKey=t=>t.replace(/^[^\p{L}\p{N}]+/u,'').trim().toLowerCase();
 R.supply=()=>{
   const s=D.supply;s.rows.forEach(r=>idx('supply',r.name,r.products.join(' '),r.url));
-  const all=[...new Set(s.rows.flatMap(r=>r.products.map(p=>p.trim())))].sort((a,b)=>prodKey(a).localeCompare(prodKey(b)));
+  const pk=p=>p.replace(/[^\p{L}\p{N} ]/gu,'').trim().toLowerCase();const seenP={};s.rows.forEach(r=>r.products.forEach(p=>{const k=pk(p);if(!seenP[k])seenP[k]=p.trim().replace(/(\p{L})/u,c=>c.toUpperCase())}));const all=Object.entries(seenP).sort((a,b)=>a[0].localeCompare(b[0]));
   return head('Medical Supply Vendors',s.updated,'Links and contacts for purchasing medical supplies.')+`
-  <div class="tools"><input type="search" id="sup-q" placeholder="Search vendors…"><div class="chips" id="sup-chips"><button class="chip on" data-v="">All products</button>${all.map(p=>`<button class="chip" data-v="${esc(p)}">${esc(p)}</button>`).join('')}</div><span class="count" id="sup-count"></span></div>
-  <div class="grid g3" id="sup-grid">${s.rows.map(r=>`<div class="card sup" style="margin:0" data-t="${esc((r.name+' '+r.products.join(' ')).toLowerCase())}" data-p="${esc(r.products.join('|'))}"><h3 style="margin-bottom:6px">${esc(r.name)}</h3><div>${r.products.map(p=>`<span class="tag">${esc(p)}</span>`).join('')}</div><p style="margin:10px 0 0">${ext(r.url,host(r.url)+' →')}</p></div>`).join('')}</div>`;
+  <div class="tools"><input type="search" id="sup-q" placeholder="Search vendors…"><div class="chips" id="sup-chips"><button class="chip on" data-v="">All products</button>${all.map(([k,p])=>`<button class="chip" data-v="${esc(k)}">${esc(p)}</button>`).join('')}</div><span class="count" id="sup-count"></span></div>
+  <div class="grid g3" id="sup-grid">${s.rows.map(r=>`<div class="card sup" style="margin:0" data-t="${esc((r.name+' '+r.products.join(' ')).toLowerCase())}" data-p="${esc(r.products.map(pk).join('|'))}"><h3 style="margin-bottom:6px">${esc(r.name)}</h3><div>${r.products.map(p=>`<span class="tag">${esc(p)}</span>`).join('')}</div><p style="margin:10px 0 0">${ext(r.url,host(r.url)+' →')}</p></div>`).join('')}</div>`;
 };
 function initSupply(root){
   const q=$('#sup-q',root);if(!q)return;let pr='';
