@@ -144,7 +144,7 @@ R.dosage=()=>{
   d.compounds.forEach(c=>idx('dosage',c.name,c.cat,c.dose,c.desc));
   d.matrix.forEach(r=>idx('dosage',r[0]+' (matrix)',r[1],r[2]));
   idx('dosage','Dosage calculator','calculator reconstitution units syringe U-100 BAC water vial');
-  const sub=[['storage','Storage'],['recon','Reconstitution'],['calc','Calculator'],['matrix','Dosage matrix'],['protocols','Protocols'],['concentration','Concentration tables'],['mix','Mix chart'],['titration','Titration']];
+  const sub=[['storage','Storage'],['recon','Reconstitution'],['calc','Calculator'],['tracker','Tracker'],['matrix','Dosage matrix'],['protocols','Protocols'],['concentration','Concentration tables'],['mix','Mix chart'],['titration','Titration']];
   const opts=l=>l.map(o=>`<option>${esc(o)}</option>`).join('');
   const names=d.lookup.map(x=>x.name);
   const vt=v=>`<h3>${esc(v.title)}</h3><p>${esc(v.sub)}</p><div class="tw"><table><thead><tr>${v.hdr.map(h=>`<th class="nosort">${esc(h)}</th>`).join('')}</tr></thead><tbody>${v.rows.map(r=>`<tr>${r.map((c,i)=>`<td class="${i?'':'name'}">${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><h4 style="margin-top:14px">${esc(v.exTitle)}</h4>${v.ex.map(x=>`<p style="margin:.2em 0">${esc(x)}</p>`).join('')}`;
@@ -185,6 +185,8 @@ R.dosage=()=>{
    <div class="callout"><h4>${esc(d.bacTitle)}</h4><ul>${d.bacTips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p style="font-size:13px">${esc(d.omitted)}</p></div>
   </div>
 
+  ${window.Tracker?window.Tracker.html():''}
+
   <div id="d-matrix" class="card"><h2>${esc(d.matrixTitle[0].trim())}</h2><p class="lead">${esc(d.matrixTitle[1])}</p><p><b>${esc(d.matrixSub)}</b></p>
    <div class="tools" data-tbl="mx"><input type="search" class="tbl-search" placeholder="🔍 Search peptide…" aria-label="Search matrix"><span class="count"></span></div>
    <div class="tw"><table id="mx"><thead><tr class="gh"><th colspan="3" class="nosort"></th>${groups.map(g=>`<th colspan="3" class="nosort">${g} vial</th>`).join('')}</tr>
@@ -224,12 +226,19 @@ function initDosage(root){
     const w=$i('c-warn');w.innerHTML='';
     if(units>100)w.innerHTML=`<div class="callout bad"><b>Exceeds 100 units.</b> A standard 1 mL syringe cannot hold this volume. Use less BAC water or a larger vial.</div>`;
     else if(units>0&&units<2)w.innerHTML=`<div class="callout warn"><b>Very small volume.</b> Under 2 units is hard to measure accurately. Add more BAC water.</div>`;
+    root._calc={name:pep.value,doseMcg:dose,vialMg,bacMl:bac,freq:row.freq||''};root.dispatchEvent(new CustomEvent('bh-calc',{detail:root._calc}));
     $i('c-kv').innerHTML=`<dt>Dose used</dt><dd>${fmtNum(dose,2)} mcg (${fmtNum(dose/1000,3)} mg) · ${src}</dd><dt>Concentration</dt><dd>${fmtNum(conc/1000,3)} mg/mL (${fmtNum(conc,1)} mcg/mL)</dd><dt>Volume to draw</dt><dd>${fmtNum(units/100,3)} mL</dd><dt>Per 1 unit</dt><dd>${fmtNum(conc/100,2)} mcg</dd><dt>Per 10 units</dt><dd>${fmtNum(conc/10,1)} mcg</dd>`;
   };
   ['c-pep','c-des','c-vial','c-bac','c-cu'].forEach(i=>$i(i).addEventListener('change',calc));
   $i('c-cust').addEventListener('input',calc);
   $i('c-pep').addEventListener('change',()=>{$i('c-des').value='None Selected';$i('c-cust').value='';calc()});
   calc();
+  if(window.Tracker)window.Tracker.init(root,{esc,fmtNum,parseHours,findHalf});
+}
+function findHalf(name){
+  const n=norm(name);if(n.length<3)return null;
+  const rows=D.halflife.rows,parts=r=>r[0].split(/\/|\(|,/).map(norm).filter(x=>x.length>=3);
+  return rows.find(r=>parts(r).includes(n))||rows.find(r=>parts(r).some(x=>x.startsWith(n)||n.startsWith(x)))||rows.find(r=>parts(r).some(x=>x.includes(n)||n.includes(x)))||null;
 }
 
 /* ----- half life ----- */

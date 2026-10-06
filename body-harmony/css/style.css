@@ -343,3 +343,4 @@ footer{border-top:1px solid var(--line)}
 .hero .btn{padding:11px 26px;font-size:14.5px}
 .hero .upd{margin-top:22px}
 @media(max-width:900px){.brand{letter-spacing:.14em;font-size:13px}.brand span.w{display:inline!important}}
+[hidden]{display:none!important}
