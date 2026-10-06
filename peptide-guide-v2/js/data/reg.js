@@ -1,0 +1,681 @@
+(window.DATA=window.DATA||{}).reg={
+ "intro": "Expanded timeline, complete with direct links to the sources for each regulatory shift and major legal action.",
+ "hdr": [
+  "Date",
+  "Region/Entity",
+  "Regulation & Litigation Summary",
+  "Source Link"
+ ],
+ "timeline": [
+  [
+   "Late 2023 – 2024",
+   "United States (FDA)",
+   "The FDA placed 19 popular peptides (like BPC-157) on the Category 2 bulk list, restricting compounding pharmacies from producing them.",
+   "FDA Updates",
+   "https://www.fda.gov/drugs/human-drug-compounding/certain-bulk-drug-substances-use-compounding-may-present-significant-safety-risks"
+  ],
+  [
+   "Mid-2024",
+   "Novo Nordisk",
+   "Filed multiple lawsuits against med spas, clinics, and pharmacies for unlawful marketing and sales of compounded drugs claiming to contain semaglutide.",
+   "Novo Nordisk Statement",
+   "https://www.novomedlink.com/content/dam/novomedlink/semaglutide/May-30-2024-Company-Statement.pdf"
+  ],
+  [
+   "June 2024",
+   "Eli Lilly",
+   "Launched lawsuits against compounding pharmacies and medical spas for allegedly selling unapproved and counterfeit versions of tirzepatide.",
+   "Duane Morris Review",
+   "https://www.duanemorris.com/alerts/compounding_pharmacies_under_scrutiny_over_weight_loss_medication_0624.html"
+  ],
+  [
+   "January 2025",
+   "United States (FDA)",
+   "Enforced revised interim policies to further limit bulk substance compounding and favor formal drug approval pathways.",
+   "Peptide Drug Summit",
+   "https://www.peptide-drug-summit.com/news/new-fda-rules-are-reshaping-the-peptide-industry"
+  ],
+  [
+   "March 2025",
+   "China (NMPA)",
+   "Enforced new Biological Product Registration Guidelines, mandating strict electronic declaration formats for therapeutic biologics.",
+   "Cisema",
+   "https://cisema.com/news/biological-product-registration-guidelines"
+  ],
+  [
+   "April 2025",
+   "Eli Lilly",
+   "Expanded its legal campaign by suing multiple major telehealth platforms (e.g., Henry Meds, Mochi Health) for prescribing and distributing unauthorized knockoff GLP-1 drugs.",
+   "HK Law Insights",
+   "https://www.hklaw.com/en/insights/publications/2025/06/eli-lilly-strikes-back-against-pharmacy-compounders-and-telehealth"
+  ],
+  [
+   "May 2025",
+   "India (CDSCO)",
+   "Published revised \"Guidelines on Similar Biologics,\" updating characterization and approval pathways for complex peptides and biosimilars.",
+   "CDSCO Guidelines",
+   "https://cdsco.gov.in/opencms/export/sites/CDSCO_WEB/Pdf-documents/DgSimilaBiologics25.pdf"
+  ],
+  [
+   "July 2025",
+   "China (NMPA)",
+   "Required overseas pharmaceutical companies to appoint a Domestic Responsible Person to bear joint liability for imported therapeutic products.",
+   "Arnold & Porter",
+   "https://www.arnoldporter.com/en/perspectives/advisories/2025/01/china-life-sciences-2024-year-in-review"
+  ],
+  [
+   "Late 2025",
+   "India (CDSCO)",
+   "Approved novel dual-agonist peptide therapeutics (e.g., tirzepatide) while simultaneously banning 35 irrational fixed-dose combinations.",
+   "ResearchGate",
+   "https://www.researchgate.net/publication/398324498_Novel_Antidiabetic_Drug_Approvals_in_2025_Clinical_Evidence_Regulatory_Milestones_and_Global_Market_Implications"
+  ],
+  [
+   "January 2026",
+   "US Pharmacies vs. Big Pharma",
+   "Strive Compounding Pharmacy filed a federal antitrust lawsuit against Eli Lilly and Novo Nordisk, alleging they unlawfully pressured the market to boycott compounded GLP-1s.",
+   "PR Newswire",
+   "https://www.prnewswire.com/news-releases/strive-compounding-pharmacy-files-landmark-antitrust-lawsuit-against-eli-lilly-and-novo-nordisk-302661582.html"
+  ],
+  [
+   "February 2026",
+   "United States (HHS)",
+   "The Department of Health and Human Services announced intentions to reconsider the restrictive Category 2 status for most restricted peptides.",
+   "Amanecia Health",
+   "https://amaneciahealth.com/fda-peptide-reclassification-2026-amanecia-health/"
+  ],
+  [
+   "March 2026",
+   "China (NMPA)",
+   "Implemented updated toxicological testing methods, including mandatory in-vitro kinetic direct peptide reactivity assays for cosmetics.",
+   "EnterCo Group",
+   "https://www.entercogroup.com/post/a-comprehensive-guide-to-china-s-cosmetic-regulations-in-2025"
+  ],
+  [
+   "December 2025 – March 2026",
+   "United States (CBP)",
+   "CBP at the Port of Cincinnati intercepted roughly 300 shipments from China holding about 5,000 individual peptide packages (GLP-1 compounds such as semaglutide and tirzepatide among them). CBP described the goods as mis-manifested. Reported April 2026.",
+   "Clark-Esposito Law",
+   "https://www.clarkespositolaw.com/post/cbp-seizes-5-000-peptide-shipments-navigating-cbp-and-fda-lawyer-issues-as-an-importer"
+  ],
+  [
+   "April 2026",
+   "United States (FDA)",
+   "Officially removed multiple peptides from Category 2 restrictions after their initial nominations for restriction were withdrawn.",
+   "BSCG Review",
+   "https://www.bscg.org/blogs/single/whats-changing-with-peptide-regulation-in-2026"
+  ],
+  [
+   "April 2026",
+   "United States (FDA)",
+   "HGH Import Seizure",
+   "FDA Import Alert",
+   null
+  ],
+  [
+   "May 2026",
+   "India (CDSCO)",
+   "Issued a formal public notice strengthening enforcement against the unauthorized online promotion and gray-market distribution of GLP-1 weight-loss peptides.",
+   "CDSCO Notices",
+   "https://cdsco.gov.in/opencms/opencms/en/Latest-Public-Notices/"
+  ],
+  [
+   "June 2026",
+   "US Product Liability MDL",
+   "Multidistrict litigation (MDL) against Novo Nordisk and Eli Lilly regarding severe GLP-1 side effects (gastroparesis) surpassed 3,700 active cases.",
+   "Consumer Notice",
+   "https://www.consumernotice.org/legal/ozempic-lawsuits/"
+  ],
+  [
+   "June 24, 2026",
+   "United States (CBP)",
+   "CBP published an interim final rule in the Federal Register indefinitely suspending the $800 de minimis exemption for merchandise arriving through the international postal network. The suspension itself took effect immediately. Exceptions: bona fide gifts and personal articles accompanying travelers.",
+   "Federal Register",
+   "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry"
+  ],
+  [
+   "July 2026 (Scheduled)",
+   "United States (PCAC)",
+   "The Pharmacy Compounding Advisory Committee is set to review the removed peptides to determine if they can return to the legal 503A compounding list.",
+   "OptiMantra Report",
+   "https://www.optimantra.com/news/fda-signals-major-shift-on-peptides-category-2-removals-could-reshape-compounding-landscape"
+  ],
+  [
+   "July 8, 2026",
+   "United States (CPSC)",
+   "The U.S. Consumer Product Safety Commission (CPSC) will mandate the electronic filing (eFiling) of Certificate of Compliance (COC) data for imported consumer products. Companies importing consumer goods into the US must electronically submit safety certificates or a proof-of-exempt disclaimer when clearing customs, or the shipments will not be allowed into the country.",
+   "Dimerco News",
+   null
+  ],
+  [
+   "July 24, 2026",
+   "United States (CBP)",
+   "The new postal informal entry process takes effect and the public comment period closes. Eligible shipments (up to $2,500, HTSUS chapters 1-97) need a 10-digit HTSUS code, country of origin, tracking data, monthly spreadsheet filing, Pay.gov payment and a basic importation bond. Goods subject to Partner Government Agency (e.g., FDA) requirements are ineligible and must go through formal entry.",
+   "Federal Register",
+   "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry"
+  ],
+  [
+   "October 1–7, 2026",
+   "China (National Day / Golden Week)",
+   "National Day holiday period. Factories and trucking slow down, ports see a pre-holiday rush, and backlogs follow as factories restart. Expect tracking freezes and slower transit afterward.",
+   "Golden Week advisory",
+   "https://www.craneww.com/knowledge-center/latest-news-and-info/china-golden-week-2026-shipping-advisory-and-supply-chain-impact/"
+  ],
+  [
+   "October 22, 2026",
+   "United States (CBP)",
+   "Compliance deadline for the postal de minimis suspension and new postal informal entry data requirements. Commentators call it the practical deadline rather than the rule’s effective date. FDA-regulated goods require formal entry, raising customs scrutiny for pharmaceutical and peptide parcels.",
+   "Mondaq analysis",
+   "https://www.mondaq.com/unitedstates/international-trade-investment/1815254/de-minimis-codified-cbp-finalizes-the-postal-suspension-rule-july-24-comment-deadline"
+  ],
+  [
+   "October 27–29, 2026",
+   "China (CIPM, Xiamen)",
+   "68th China International Pharmaceutical Machinery Exposition at the Xiamen International Expo Center. A pharmaceutical equipment and machinery trade show (formulation, API machinery, packaging, lab equipment, cleanrooms). It is not a peptide trade show.",
+   "CIPM listing",
+   "https://www.cantonfair.net/event/2416-china-international-pharmaceutical-machinery-exposition-cipm"
+  ]
+ ],
+ "statusHdr": [
+  "Peptide Name",
+  "FDA Status",
+  "Indications / Study Focus",
+  "Review Date / Timeline",
+  "FDA Classification"
+ ],
+ "status": [
+  [
+   "Semaglutide",
+   "Approved",
+   "Type 2 diabetes and weight management",
+   "-",
+   "Category 1"
+  ],
+  [
+   "Tirzepatide",
+   "Approved",
+   "Type 2 diabetes and chronic weight management",
+   "-",
+   "Category 1"
+  ],
+  [
+   "Sermorelin",
+   "Approved",
+   "Growth hormone diagnostic testing",
+   "-",
+   "Category 1"
+  ],
+  [
+   "Tesamorelin",
+   "Approved",
+   "HIV-associated lipodystrophy",
+   "-",
+   "Category 1"
+  ],
+  [
+   "Bremelanotide (PT-141)",
+   "Approved",
+   "Female sexual interest/arousal disorder",
+   "-",
+   "Category 1"
+  ],
+  [
+   "Liraglutide",
+   "Approved",
+   "Type 2 diabetes and weight management",
+   "-",
+   "Category 1"
+  ],
+  [
+   "BPC-157",
+   "Under Review",
+   "Tissue repair and gut health",
+   "7/23/2026",
+   "Interim Policy"
+  ],
+  [
+   "KPV",
+   "Under Review",
+   "Inflammation and immune modulation",
+   "7/23/2026",
+   "Interim Policy"
+  ],
+  [
+   "TB-500 (Thymosin Beta-4 fragment)",
+   "Under Review",
+   "Soft tissue healing",
+   "7/23/2026",
+   "Interim Policy"
+  ],
+  [
+   "MOTs-C",
+   "Under Review",
+   "Metabolism and mitochondrial function",
+   "7/23/2026",
+   "Interim Policy"
+  ],
+  [
+   "Emideltide (DSIP / Delta-Sleep Inducing Peptide)",
+   "Under Review",
+   "Sleep and stress regulation",
+   "7/24/2026",
+   "Interim Policy"
+  ],
+  [
+   "Semax (heptapeptide)",
+   "Under Review",
+   "Cognitive function and neuroprotection",
+   "7/24/2026",
+   "Interim Policy"
+  ],
+  [
+   "Epitalon",
+   "Under Review",
+   "Longevity and anti-aging",
+   "7/24/2026",
+   "Interim Policy"
+  ],
+  [
+   "Cathelicidin LL-37",
+   "Pending Review",
+   "Part of Category 2 reclassification list",
+   "2/1/2027",
+   "Category 2"
+  ],
+  [
+   "DiHexa",
+   "Pending Review",
+   "Part of Category 2 reclassification list",
+   "2/1/2027",
+   "Category 2"
+  ],
+  [
+   "GHK-Cu (Injectable form)",
+   "Pending Review",
+   "Part of Category 2 reclassification list",
+   "2/1/2027",
+   "Category 2"
+  ],
+  [
+   "Melanotan II",
+   "Pending Review",
+   "Part of Category 2 reclassification list",
+   "2/1/2027",
+   "Category 2"
+  ],
+  [
+   "PEG-MGF (Mechano Growth Factor)",
+   "Pending Review",
+   "Part of Category 2 reclassification list",
+   "2/1/2027",
+   "Category 2"
+  ]
+ ],
+ "article": [
+  {
+   "t": "p",
+   "x": "The FDA's Pharmacy Compounding Advisory Committee (PCAC) met July 23 and 24 to vote on whether seven peptides should be added to the Section 503A Bulks List, the list that lets state-licensed compounding pharmacies prepare a bulk substance against an individual prescription. Docket: FDA-2025-N-6895.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "Going in, FDA career staff had recommended against adding all seven, citing gaps in characterization, human effectiveness data, and safety (immunogenicity in particular). The panel went the other way on six of the seven, overruling staff on everything except DSIP.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "Here is the full scorecard.",
+   "u": null
+  },
+  {
+   "t": "h",
+   "x": "Day 1 (July 23)"
+  },
+  {
+   "t": "p",
+   "x": "BPC-157 (reviewed for ulcerative colitis): recommended, 8-6 with 1 abstention.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "KPV (wound healing, inflammatory conditions): recommended, 8-6-1.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "TB-500 (wound healing): recommended, 8-6-1.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "MOTS-c (obesity, osteoporosis): recommended, 7-5 with 2 abstentions.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "Per NBC News, all eight of the newly appointed members voted yes on BPC-157, KPV and TB-500. RAPS reported that observers described an audible reaction in the room, since a compounding panel voting against FDA staff's own written recommendation is unusual.",
+   "u": null
+  },
+  {
+   "t": "h",
+   "x": "Day 2 (July 24)"
+  },
+  {
+   "t": "p",
+   "x": "DSIP (opioid withdrawal, chronic insomnia, narcolepsy): NOT recommended, 6-7 with 1 abstention. The only no of the meeting.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "Epitalon (insomnia): recommended, 7-4 with 1 abstention.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "Semax (neurological indications: cerebral ischemia, migraine, trigeminal neuralgia): recommended, 8-5 with 1 abstention.",
+   "u": null
+  },
+  {
+   "t": "h",
+   "x": "Scorecard"
+  },
+  {
+   "t": "score"
+  },
+  {
+   "t": "p",
+   "x": "Final tally: 6 of 7 received favorable PCAC recommendations. DSIP was the sole rejection, going down by a single vote.",
+   "u": null
+  },
+  {
+   "t": "h",
+   "x": "What the votes actually mean"
+  },
+  {
+   "t": "p",
+   "x": "A few things worth separating, since the market tends to collapse them into one:",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "These are non-binding recommendations. FDA is not obligated to follow them, though it usually does.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "A yes does not make any of these an FDA-approved drug. It is a recommendation to add the raw substance to the 503A list.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "Legal compounding still requires notice-and-comment rulemaking, which realistically runs somewhere in the range of 8 to 18 months depending on who you ask.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "All seven already came off the Category 2 \"may not be compounded\" list back in April 2026, so none of these votes re-bans anything. The question was whether a new legal compounding pathway opens, not whether the current situation closes.",
+   "u": null
+  },
+  {
+   "t": "h",
+   "x": "What does not change today"
+  },
+  {
+   "t": "p",
+   "x": "The research-use-only / gray market is untouched by this vote. RUO vendors are not compounding pharmacies and are not covered here. Expect marketing that spins \"the FDA panel voted yes\" into \"FDA-backed.\"",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "A panel recommendation says nothing about any individual product's identity, purity, or sterility. The characterization problem FDA raised (inconsistent naming, free base versus acetate, missing quality data) is real regardless of the politics, so batch-level COAs matter more now, not less.",
+   "u": null
+  },
+  {
+   "t": "h",
+   "x": "Context worth noting"
+  },
+  {
+   "t": "p",
+   "x": "The panel was overhauled ahead of the meeting, with several new members who have ties to peptide prescribing or the industry, which drew conflict-of-interest coverage from multiple outlets. HHS Secretary Robert F. Kennedy Jr. has publicly backed easing peptide restrictions.",
+   "u": null
+  },
+  {
+   "t": "h",
+   "x": "What is next"
+  },
+  {
+   "t": "p",
+   "x": "FDA has signaled a second PCAC meeting before the end of February 2027 to review five more: LL-37, GHK-Cu, Dihexa, Melanotan II, and PEG-MGF.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "Sources: FDA meeting materials (docket FDA-2025-N-6895), Reuters, NBC News, RAPS Regulatory Focus, Drug Topics, PharmExec. Regulatory context only, not medical or legal advice.",
+   "u": null
+  },
+  {
+   "t": "h",
+   "x": "Sources"
+  },
+  {
+   "t": "p",
+   "x": "FDA, July 23-24 2026 PCAC meeting page:",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026",
+   "u": "https://www.fda.gov/advisory-committees/advisory-committee-calendar/july-23-24-2026-meeting-pharmacy-compounding-advisory-committee-07232026"
+  },
+  {
+   "t": "p",
+   "x": "FDA, PCAC voting questions (docket FDA-2025-N-6895):",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "https://www.fda.gov/media/193711/download",
+   "u": "https://www.fda.gov/media/193711/download"
+  },
+  {
+   "t": "p",
+   "x": "Reuters, panel recommends Semax:",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "https://www.reuters.com/legal/litigation/fda-advisory-panel-recommends-peptide-semax-be-added-pharmacy-compounding-list-2026-07-24/",
+   "u": "https://www.reuters.com/legal/litigation/fda-advisory-panel-recommends-peptide-semax-be-added-pharmacy-compounding-list-2026-07-24/"
+  },
+  {
+   "t": "p",
+   "x": "NBC News, panel eases restrictions on four:",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "https://www.nbcnews.com/health/health-news/peptides-restrictions-ease-fda-panel-recommend-bpc-157-scientists-rcna588879",
+   "u": "https://www.nbcnews.com/health/health-news/peptides-restrictions-ease-fda-panel-recommend-bpc-157-scientists-rcna588879"
+  },
+  {
+   "t": "p",
+   "x": "RAPS Regulatory Focus, committee backs two peptides:",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "https://www.raps.org/resource/fda-advisory-committee-backs-two-controversial-peptides.html",
+   "u": "https://www.raps.org/resource/fda-advisory-committee-backs-two-controversial-peptides.html"
+  },
+  {
+   "t": "p",
+   "x": "NPR, advisers vote to ease peptide restrictions:",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "https://www.npr.org/2026/07/23/nx-s1-5903202/fda-peptides-restrictions",
+   "u": "https://www.npr.org/2026/07/23/nx-s1-5903202/fda-peptides-restrictions"
+  },
+  {
+   "t": "p",
+   "x": "BioPharma Dive, panel endorses broader use: https://www.biopharmadive.com/news/fda-peptides-advisory-committee-vote-bpc-kpv-tb-mots/826062/",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "Drug Topics, staff review of all 7:",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "https://www.drugtopics.com/view/fda-panel-to-evaluate-7-popular-peptides-for-compounding-substances-list",
+   "u": "https://www.drugtopics.com/view/fda-panel-to-evaluate-7-popular-peptides-for-compounding-substances-list"
+  },
+  {
+   "t": "p",
+   "x": "PharmExec, votes to loosen restrictions:",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "https://www.pharmexec.com/view/fda-votes-loosen-restrictions-four-peptides",
+   "u": "https://www.pharmexec.com/view/fda-votes-loosen-restrictions-four-peptides"
+  },
+  {
+   "t": "p",
+   "x": "Regulatory context only, not medical or legal advice.",
+   "u": null
+  },
+  {
+   "t": "p",
+   "x": "More stories at [r/PeptideTides](https://www.reddit.com/r/PeptideTides)",
+   "u": null
+  }
+ ],
+ "score": [
+  [
+   "BPC-157",
+   "8–6–1",
+   "Include"
+  ],
+  [
+   "KPV",
+   "8–6–1",
+   "Include"
+  ],
+  [
+   "TB-500",
+   "8–6–1",
+   "Include"
+  ],
+  [
+   "MOTS-c",
+   "7–5–2",
+   "Include"
+  ],
+  [
+   "DSIP",
+   "6–7–1",
+   "Do not include"
+  ],
+  [
+   "Epitalon",
+   "7–4–1",
+   "Include"
+  ],
+  [
+   "Semax",
+   "8–5–1",
+   "Include"
+  ]
+ ],
+ "scoreHdr": [
+  "Peptide",
+  "Vote (yes–no–abstain)",
+  "Result"
+ ],
+ "alert": {
+  "title": "Import & shipping alert (October 2026)",
+  "updated": "10/6/26",
+  "intro": "Vendors have been going quiet and citing a \"conference\" (the CIPM expo in Xiamen). The conference is real, but it is not the main driver. The likely causes are a new US postal import rule, a reported pause by some Chinese freight forwarders, and post-Golden Week backlog. Each claim below was checked against the sources listed, and the verdicts are labelled.",
+  "claims": [
+   [
+    "CIPM Xiamen, Oct 27–29",
+    "Confirmed",
+    "The 68th CIPM runs Oct 27–29, 2026 at the Xiamen International Expo Center, organized by the China Association for Pharmaceutical Equipment and Beijing Intercontinental Exhibition. It covers pharmaceutical machinery and equipment. Whether vendors use it as a cover story is speculation."
+   ],
+   [
+    "New US CBP rule effective Oct 22",
+    "Needs context",
+    "The Federal Register rule (published June 24, 2026) indefinitely suspends de minimis for postal shipments (immediately), and creates a new postal informal entry process effective July 24. October 22 is the compliance deadline, not the date the rule was filed or took effect. It applies to all postal merchandise, not only prescription medication."
+   ],
+   [
+    "It effectively blocks personal importation of pharma",
+    "Needs context",
+    "The rule does not name pharmaceuticals. It says goods subject to Partner Government Agency (such as FDA) requirements cannot use the informal process and need formal entry (bond, broker, fuller data). That makes pharma-type parcels harder to move, but \"blocks\" is an inference. FDA rules on unapproved drugs are unchanged."
+   ],
+   [
+    "Chinese shipping agents have stopped shipping",
+    "Unverified",
+    "A GLP-1 forum moderator reported forwarders announcing temporary holds, possibly resuming Oct 7 or running through November. A Sept 13 analysis found no clear evidence of a universal shutdown. No primary source confirms that no agents are shipping. \"Anyone claiming they can ship is scamming\" is an overgeneralization, but treat unusually confident promises with caution."
+   ],
+   [
+    "Golden Week port congestion",
+    "Confirmed",
+    "China’s National Day holiday ran Oct 1–7. Freight advisories describe a pre-holiday rush, reduced trucking, port congestion and a backlog while factories restart."
+   ],
+   [
+    "Peptides are hit harder than other goods",
+    "Plausible",
+    "CBP at Cincinnati intercepted about 300 China-origin shipments holding about 5,000 peptide packages (Dec 2025 – Mar 25, 2026), described as mis-manifested. Customs and FDA enforcement of \"research use only\" peptides has been tightening. No source compares peptide seizure rates to other pharma under the new rule."
+   ],
+   [
+    "Delays last another month or longer",
+    "Unverified",
+    "Forecasts of delays into November/December are opinion. Backlog length after Golden Week is not quantified by any source found."
+   ]
+  ],
+  "expect": [
+   "Selective shipping: some vendors may ship only part of an order, or only to certain regions.",
+   "Vendors that claim business as usual may be taking pre-orders they cannot fulfil. Prefer vendors that publish current lead times and offer verified refund terms.",
+   "Expect slow or frozen tracking for China-origin parcels during the backlog. Avoid panic-buying and avoid paying by irreversible methods for pre-orders.",
+   "Domestic and kit sellers are not affected by the import rule, but they still depend on the same supply chain."
+  ],
+  "sources": [
+   [
+    "Federal Register: Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process (June 24, 2026)",
+    "https://www.federalregister.gov/documents/2026/06/24/2026-12669/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry"
+   ],
+   [
+    "Mondaq: De Minimis, Codified (July 10, 2026)",
+    "https://www.mondaq.com/unitedstates/international-trade-investment/1815254/de-minimis-codified-cbp-finalizes-the-postal-suspension-rule-july-24-comment-deadline"
+   ],
+   [
+    "Expeditors: CBP Issues Guidance for International Mail Shipments (July 9, 2026)",
+    "https://info.expeditors.com/newsflash/cbp-issues-guidance-for-international-mail-shipments"
+   ],
+   [
+    "CIPM 2026 event listing (Canton Fair Net)",
+    "https://www.cantonfair.net/event/2416-china-international-pharmaceutical-machinery-exposition-cipm"
+   ],
+   [
+    "Clark-Esposito Law: CBP Seizes 5,000+ Peptide Shipments (April 6, 2026)",
+    "https://www.clarkespositolaw.com/post/cbp-seizes-5-000-peptide-shipments-navigating-cbp-and-fda-lawyer-issues-as-an-importer"
+   ],
+   [
+    "China Peptide Shipping Disruptions (Substack, Sept 13, 2026)",
+    "https://edparker92.substack.com/p/china-peptide-shipping-disruptions"
+   ],
+   [
+    "Crane Worldwide: China Golden Week 2026 (Aug 30, 2026)",
+    "https://www.craneww.com/knowledge-center/latest-news-and-info/china-golden-week-2026-shipping-advisory-and-supply-chain-impact/"
+   ],
+   [
+    "GLP-1 Forum thread: CBP to collect tariffs on all inbound purchases starting October 22, 2026",
+    "https://glp1forum.com/threads/cbp-to-collect-tariffs-on-all-inbound-purchases-starting-october-22-2026.24754/"
+   ]
+  ],
+  "note": "The summary that prompted this section also said the claims were \"largely accurate.\" The sources support the dates and the general direction but not every specific, as shown above. Regulatory context only, not legal advice."
+ }
+};

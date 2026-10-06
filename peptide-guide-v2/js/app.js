@@ -2,6 +2,7 @@
 (function(){
 'use strict';
 const D=window.DATA;
+Object.entries(window.UPDATED||{}).forEach(([k,v])=>{if(D[k])D[k].updated=v});
 const $=(s,r=document)=>r.querySelector(s), $$=(s,r=document)=>[...r.querySelectorAll(s)];
 const esc=s=>String(s==null?'':s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const urlize=s=>esc(s).replace(/\[([^\]]+)\]\((https?:[^)\s]+)\)/g,'<a href="$2" target="_blank" rel="noopener">$1</a>')
