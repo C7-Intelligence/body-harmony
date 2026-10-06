@@ -363,19 +363,19 @@ function alertCard(al){
 }
 
 /* regulation updates + feed */
-const fnMark=(t,pre)=>esc(t).replace(/\[\^(\d+)\]/g,(m,n)=>`<sup class="fn"><a href="#reg/${pre}${n}" data-fn="${pre}${n}">${n}</a></sup>`);
+const fnMark=(t,pre,sec='r')=>esc(t).replace(/\[\^(\d+)\]/g,(m,n)=>`<sup class="fn"><a href="#${sec==='r'?'reg':'forums'}/${pre}${n}" data-fn="${sec}-${pre}${n}">${n}</a></sup>`);
 const typeCls=t=>/primary/.test(t)?'good':/secondary/.test(t)?'warn':'info';
-function updatesCard(u){
+function updatesCard(u,sec='r',pre='fn'){
   if(!u)return '';
-  const body=u.blocks.map(b=>b.t==='h'?`<h3>${esc(b.x)}</h3>`:`<p>${fnMark(b.x,'fn')}</p>`).join('');
-  const fns=u.footnotes.map(f=>`<li id="r-fn${f.n}"><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.label)}</a> <span class="muted">${esc(f.pub)}</span> <span class="pill ${typeCls(f.type)}">${esc(f.type)}</span></li>`).join('');
-  return `<section id="r-updates" class="sect prose"><div class="sect-h"><h2>${esc(u.title)}</h2><p class="muted">Checked ${esc(u.checked)}</p></div>${body}
+  const body=u.blocks.map(b=>b.t==='h'?`<h3>${esc(b.x)}</h3>`:`<p>${fnMark(b.x,pre,sec)}</p>`).join('');
+  const fns=u.footnotes.map(f=>`<li id="${sec}-${pre}${f.n}"><a href="${esc(f.url)}" target="_blank" rel="noopener">${esc(f.label)}</a> <span class="muted">${esc(f.pub)}</span> <span class="pill ${typeCls(f.type)}">${esc(f.type)}</span></li>`).join('');
+  return `<section id="${sec}-updates" class="sect prose"><div class="sect-h"><h2>${esc(u.title)}</h2><p class="muted">Checked ${esc(u.checked)}</p></div>${body}
   <h3>Footnotes</h3><ol class="fnlist">${fns}</ol><div class="callout"><p>${esc(u.note)}</p></div></section>`;
 }
 const fmtD=d=>{const m=/^(\d{4})-(\d\d)-(\d\d)/.exec(d||'');if(!m)return d||'';return new Date(+m[1],+m[2]-1,+m[3]).toLocaleDateString('en-US',{month:'short',day:'numeric',year:'numeric'})};
 const fmtT=t=>{if(!t)return '';const d=new Date(t);return isNaN(d)?t:d.toLocaleString('en-US',{month:'short',day:'numeric',hour:'numeric',minute:'2-digit',timeZoneName:'short'})};
-function feedModel(){
-  const F=window.FEED||{items:[],sources:[]};const srcs=F.sources||[],num={};srcs.forEach((s,i)=>num[s.id]=i+1);
+function feedModel(F0){
+  const F=F0||window.FEED||{items:[],sources:[]};const srcs=F.sources||[],num={};srcs.forEach((s,i)=>num[s.id]=i+1);
   const short=n=>String(n||'').replace(/^Federal Register:.*/,'Federal Register').replace(/^Google News.*/,'Google News').replace(/^FDA Drugs.*/,'FDA Drugs').replace(/^FDA MedWatch.*/,'FDA MedWatch').replace(/^FDA Press.*/,'FDA press releases').replace(/\s*\((RSS|API)\)$/,'').replace(/^Curated by the guide.*/,'Curated');
   const nameOf=i=>short(i.p||(srcs.find(s=>s.id===i.s)||{}).name||i.s);
   F.items=(F.items||[]).filter(i=>i.t);
@@ -392,18 +392,18 @@ function statusStrip(m,g){
   const ok=m.srcs.filter(s=>s.ok).length,tot=m.srcs.filter(s=>s.type!=='manual').length;
   return `<div class="strip"><span class="dot ${m.F.seed?'idle':'live'}"></span><span>${m.F.seed?'Feed starting up':`Monitoring ${tot} sources`}</span><span class="sep">|</span><span>Headlines refreshed ${esc(fmtT(m.F.generated)||'not yet')}</span><span class="sep">|</span><span>${ok} of ${tot} sources responded on the last check</span></div>`;
 }
-function newsStream(m){
+function newsStream(m,sec='r',title='Headlines'){
   const {F,srcs,num,nameOf}=m;
   F.items.forEach(i=>idx('reg',i.t,nameOf(i),i.x,i.d));
   const names=[...new Set(F.items.map(nameOf))].filter(Boolean);
   const when=t=>t?fmtT(t):'not yet run';
-  const fs=srcs.map((s,i)=>`<li id="r-fs${i+1}">${s.home?ext(s.home,s.name):esc(s.name)} <span class="muted">${s.type==='manual'?'added by hand':s.type==='fr_api'?'API':'RSS'}</span> ${s.ok===null?'<span class="pill muted">waiting for first run</span>':s.ok?`<span class="pill good">ok</span> <span class="muted">checked ${esc(when(s.checked))}${s.new?`, ${s.new} new`:''}</span>`:`<span class="pill bad">last check failed</span>${s.lastOk?` <span class="muted">last ok ${esc(when(s.lastOk))}</span>`:''}`}</li>`).join('');
-  return `<section id="r-feed" class="sect"><div class="sect-h"><h2>Headlines</h2><p class="muted">Collected automatically and not reviewed. Treat them as leads and check the source.</p></div>
-  <div class="tools" data-list="stream"><input type="search" class="tbl-search ls-q" placeholder="Search headlines…" aria-label="Search headlines"><div class="chips">${['All',...names].map((c,k)=>`<button class="chip${k?'':' on'}" data-v="${esc(c)}">${esc(c)}</button>`).join('')}</div><span class="count"></span></div>
-  <ol class="stream" id="stream">${F.items.map(i=>`<li class="story" data-c="${esc(nameOf(i))}" data-t="${esc((i.t+' '+nameOf(i)+' '+(i.x||'')).toLowerCase())}"><time>${esc(fmtD(i.d))}</time><div><a class="hl" href="${esc(i.l)}" target="_blank" rel="noopener">${esc(i.t)}</a>${i.x?`<p>${esc(i.x)}</p>`:''}<span class="srcb">${esc(nameOf(i))}<sup class="fn"><a href="#reg/fs${num[i.s]||''}" data-fn="fs${num[i.s]||''}">${num[i.s]||'?'}</a></sup></span></div></li>`).join('')}</ol>
+  const fs=srcs.map((s,i)=>`<li id="${sec}-fs${i+1}">${s.home?ext(s.home,s.name):esc(s.name)} <span class="muted">${s.type==='manual'?'added by hand':s.type==='fr_api'?'API':'RSS'}</span> ${s.ok===null?'<span class="pill muted">waiting for first run</span>':s.ok?`<span class="pill good">ok</span> <span class="muted">checked ${esc(when(s.checked))}${s.new?`, ${s.new} new`:''}</span>`:`<span class="pill bad">last check failed</span>${s.lastOk?` <span class="muted">last ok ${esc(when(s.lastOk))}</span>`:''}`}</li>`).join('');
+  return `<section id="${sec}-feed" class="sect"><div class="sect-h"><h2>${esc(title)}</h2><p class="muted">Collected automatically and not reviewed. Treat them as leads and check the source.</p></div>
+  <div class="tools" data-list="${sec}stream"><input type="search" class="tbl-search ls-q" placeholder="Search headlines…" aria-label="Search headlines"><div class="chips">${['All',...names].map((c,k)=>`<button class="chip${k?'':' on'}" data-v="${esc(c)}">${esc(c)}</button>`).join('')}</div><span class="count"></span></div>
+  <ol class="stream" id="${sec}stream">${F.items.map(i=>`<li class="story" data-c="${esc(nameOf(i))}" data-t="${esc((i.t+' '+nameOf(i)+' '+(i.x||'')).toLowerCase())}"><time>${esc(fmtD(i.d))}</time><div><a class="hl" href="${esc(i.l)}" target="_blank" rel="noopener">${esc(i.t)}</a>${i.x?`<p>${esc(i.x)}</p>`:''}<span class="srcb">${esc(nameOf(i))}<sup class="fn"><a href="#${sec==='r'?'reg':'forums'}/fs${num[i.s]||''}" data-fn="${sec}-fs${num[i.s]||''}">${num[i.s]||'?'}</a></sup></span></div></li>`).join('')}</ol>
   <div class="empty" hidden>No headlines match.</div><button class="btn ghost more" hidden>Show more headlines</button>
   <h3 class="fnh">Where headlines come from</h3><ol class="fnlist">${fs}</ol>
-  <div class="live"><button class="chip" id="fr-live">Check the Federal Register now</button> <span class="muted" id="fr-live-msg"></span><div id="fr-live-out"></div></div></section>`;
+  ${sec==='r'?`<div class="live"><button class="chip" id="fr-live">Check the Federal Register now</button> <span class="muted" id="fr-live-msg"></span><div id="fr-live-out"></div></div>`:''}</section>`;
 }
 function vTimeline(g){
   const rows=g.timeline,ent=r=>r[1].trim().replace(/\s*\(.*$/,'');
@@ -415,7 +415,7 @@ function vTimeline(g){
   <ol class="vt" id="vt">${out}</ol><div class="empty" hidden>No events match.</div></section>`;
 }
 function initReg(root){
-  $$('a[data-fn]',root).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const el=document.getElementById('r-'+a.dataset.fn);if(el){el.scrollIntoView({block:'center'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}}));
+  $$('a[data-fn]',root).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const el=document.getElementById(a.dataset.fn);if(el){el.scrollIntoView({block:'center'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}}));
   $$('.tools[data-list]',root).forEach(tools=>{
     const list=document.getElementById(tools.dataset.list),items=$$('li:not(.yr)',list),q=$('.ls-q',tools),sel=$('.ls-sel',tools),cnt=$('.count',tools),empty=tools.parentElement.querySelector('.empty'),more=tools.parentElement.querySelector('.more');
     let chip='All',all=false;const LIM=15;
@@ -467,9 +467,13 @@ R.reg=()=>{
 /* ----- forums ----- */
 R.forums=()=>{
   const f=D.forums;f.articles.forEach(a=>idx('forums',a.title,a.site,a.date,a.summary));f.communities.forEach(c=>idx('forums',c.name,c.desc));f.videos.forEach(v=>idx('forums',v.title,v.url));
-  return head('Forums, Articles, etc.',f.updated,f.intro)+`
-  <div class="subnav" data-spy><a href="#forums/articles">Articles</a><a href="#forums/communities">Communities</a><a href="#forums/videos">Videos & links</a></div>
-  <div id="f-articles"><h2>${esc(f.title)}</h2>
+  const fm=feedModel(window.FEED_ART);
+  if(f.updates){f.updates.blocks.forEach(b=>idx('forums',f.updates.title,b.x.replace(/\[\^\d+\]/g,'')));f.updates.footnotes.forEach(x=>idx('forums',x.label,x.pub,x.url))}
+  return head('Forums, Articles, etc.',f.updated,f.intro)+statusStrip(fm)+`
+  <div class="subnav tabs" data-spy><a href="#forums/updates">Latest developments</a><a href="#forums/feed">Headlines</a><a href="#forums/articles">Roundup</a><a href="#forums/communities">Communities</a><a href="#forums/videos">Videos & links</a></div>
+  ${updatesCard(f.updates,'f','xfn')}
+  ${newsStream(fm,'f','Latest headlines (auto-feed)')}
+  <div id="f-articles" class="sect"><div class="sect-h"><h2>${esc(f.title)}</h2></div>
    <div class="tools" data-tbl="ft" data-custom><input type="search" class="tbl-search" placeholder="Search articles…"><span class="count"></span></div>
    <table id="ft" hidden><tbody>${f.articles.map(a=>`<tr data-t="${esc((a.title+' '+a.site+' '+a.date+' '+a.summary).toLowerCase())}"></tr>`).join('')}</tbody></table>
    <div class="grid g2" id="f-grid">${f.articles.map(a=>`<article class="art"><span class="num">#${a.n}</span><h4>${esc(a.title)}</h4><div class="meta"><span>🌐 ${esc(a.site)}</span><span>📅 ${esc(a.date)}</span></div><p style="margin:4px 0">${esc(a.summary)}</p><div>${a.url?ext(a.url,a.linkText||host(a.url)):esc(a.linkText)}</div></article>`).join('')}</div><div class="empty" hidden>No matches.</div></div>
@@ -479,6 +483,7 @@ R.forums=()=>{
    <h2 style="margin-top:28px">More reading</h2><div class="grid g2">${f.otherLinks.map(u=>linkCard(u)).join('')}</div></div>`;
 };
 function initForums(root){
+  initReg(root);
   const tools=$('.tools[data-tbl=ft]',root);if(!tools)return;const q=$('input',tools),cnt=$('.count',tools);
   const cards=$$('#f-grid .art',root),rows=$$('#ft tbody tr',root);
   const run=()=>{const w=q.value.toLowerCase().split(/\s+/).filter(Boolean);let n=0;cards.forEach((c,i)=>{const ok=w.every(x=>rows[i].dataset.t.includes(x));c.hidden=!ok;if(ok)n++});cnt.textContent=n+' of '+cards.length;$('.empty',root).hidden=n>0};

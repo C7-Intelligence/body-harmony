@@ -1,0 +1,61 @@
+{
+ "keepDays": 365,
+ "maxItems": 120,
+ "perSource": 40,
+ "keywords": [
+  "peptide",
+  "bpc-157",
+  "tb-500",
+  "retatrutide",
+  "semaglutide",
+  "tirzepatide",
+  "glp-1",
+  "compounded",
+  "compounding",
+  "research use only",
+  "research-grade",
+  "gray market",
+  "grey market",
+  "counterfeit",
+  "kpv",
+  "mots-c",
+  "semax",
+  "epitalon",
+  "medical board",
+  "endotoxin",
+  "glutathione"
+ ],
+ "sources": [
+  {
+   "id": "gnews-a",
+   "name": "Google News: peptide safety and enforcement (aggregated RSS)",
+   "home": "https://news.google.com",
+   "type": "rss",
+   "filter": true,
+   "maxItems": 40,
+   "urls": [
+    "https://news.google.com/rss/search?q=peptides+warning+OR+seizure+OR+recall+OR+%22warning+letter%22+when:30d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=%22BPC-157%22+OR+%22TB-500%22+OR+retatrutide+when:30d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=%22research+peptides%22+OR+%22gray+market%22+peptides+OR+%22medical+board%22+peptides+when:30d&hl=en-US&gl=US&ceid=US:en"
+   ]
+  },
+  {
+   "id": "epmc",
+   "name": "Europe PMC: new research papers",
+   "home": "https://europepmc.org",
+   "type": "epmc",
+   "queries": [
+    "(\"BPC-157\" OR \"TB-500\" OR \"thymosin beta-4\" OR retatrutide) AND (PUB_YEAR:2026 OR PUB_YEAR:2025)"
+   ],
+   "pageSize": 15
+  },
+  {
+   "id": "stat",
+   "name": "STAT News (RSS)",
+   "home": "https://www.statnews.com",
+   "type": "rss",
+   "url": "https://www.statnews.com/feed/",
+   "filter": true
+  }
+ ]
+}

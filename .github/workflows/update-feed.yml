@@ -1,4 +1,4 @@
-name: Refresh regulatory news feed
+name: Refresh news feeds
 on:
   schedule:
     - cron: '17 */6 * * *'
@@ -6,6 +6,7 @@ on:
   push:
     paths:
       - 'body-harmony/feed-sources.json'
+      - 'body-harmony/feed-articles-sources.json'
 permissions:
   contents: write
 jobs:
@@ -14,9 +15,10 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: python .github/scripts/build_feed.py
+      - run: python .github/scripts/build_feed.py feed-articles-sources.json feed-articles.js FEED_ART
       - name: Commit changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add body-harmony/js/feed.js
+          git add body-harmony/js/feed.js body-harmony/js/feed-articles.js
           git diff --cached --quiet || (git commit -m "Refresh regulatory news feed [skip ci]" && git push)

@@ -7,8 +7,11 @@ from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'body-harmony')
-CFG = json.load(open(os.path.join(ROOT, 'feed-sources.json')))
-OUT = os.path.join(ROOT, 'js', 'feed.js')
+CFG_NAME = sys.argv[1] if len(sys.argv) > 1 else 'feed-sources.json'
+OUT_NAME = sys.argv[2] if len(sys.argv) > 2 else 'feed.js'
+VAR = sys.argv[3] if len(sys.argv) > 3 else 'FEED'
+CFG = json.load(open(os.path.join(ROOT, CFG_NAME)))
+OUT = os.path.join(ROOT, 'js', OUT_NAME)
 UA = {'User-Agent': 'BodyHarmonyFeed/1.0 (+https://github.com/C7-Intelligence/body-harmony)'}
 KW = [k.lower() for k in CFG['keywords']]
 NOW = datetime.now(timezone.utc)
@@ -65,6 +68,17 @@ def fetch_rss(src):
         out = [i for i in out if relevant(i)]
     return out
 
+def fetch_epmc(src):
+    out = []
+    for q in src['queries']:
+        params = {'query': q, 'format': 'json', 'sort': 'P_PDATE_D desc', 'pageSize': str(src.get('pageSize', 10)), 'resultType': 'lite'}
+        data = json.loads(get('https://www.ebi.ac.uk/europepmc/webservices/rest/search?' + urllib.parse.urlencode(params)))
+        for r in data.get('resultList', {}).get('result', []):
+            link = ('https://doi.org/' + r['doi']) if r.get('doi') else 'https://europepmc.org/article/%s/%s' % (r.get('source', 'MED'), r.get('id', ''))
+            out.append({'t': clean(r.get('title'), 200), 'l': link, 'd': parse_date(r.get('firstPublicationDate') or r.get('pubYear')),
+                        'x': clean((r.get('journalTitle') or '') + (' · ' + r.get('authorString', '') if r.get('authorString') else ''))})
+    return out
+
 def fetch_fr(src):
     out = []
     for q in src['queries']:
@@ -94,13 +108,14 @@ def _keep(i):
     it = {'t': i['t'], 'x': i.get('x', '')}
     if x.get('require') and not relevant(it, [k.lower() for k in x['require']]): return False
     if x['type'] == 'rss' and x.get('filter', True) and not relevant(it): return False
+    if x['type'] == 'manual': return True
     return True
 items = {k: v for k, v in items.items() if _keep(v)}
 status = []
 for src in CFG['sources']:
     st = {'id': src['id'], 'name': src['name'], 'home': src.get('home', ''), 'type': src['type'], 'checked': NOW.strftime('%Y-%m-%dT%H:%MZ')}
     try:
-        got = fetch_fr(src) if src['type'] == 'fr_api' else fetch_rss(src)
+        got = fetch_fr(src) if src['type'] == 'fr_api' else fetch_epmc(src) if src['type'] == 'epmc' else fetch_rss(src)
         n = 0
         for g in got:
             if not g['l']: continue
@@ -125,5 +140,5 @@ for i in sorted((i for i in items.values() if i['d'] >= cut), key=lambda i: i['d
     final.append(i)
 final = final[:CFG.get('maxItems', 150)]
 out = {'generated': NOW.strftime('%Y-%m-%dT%H:%MZ'), 'sources': status, 'items': final}
-open(OUT, 'w', encoding='utf-8').write('window.FEED=' + json.dumps(out, ensure_ascii=False, indent=1) + ';\n')
+open(OUT, 'w', encoding='utf-8').write('window.' + VAR + '=' + json.dumps(out, ensure_ascii=False, indent=1) + ';\n')
 print('sources ok:', [s['id'] for s in status if s['ok']], 'failed:', [s['id'] for s in status if not s['ok']], 'items:', len(final))
