@@ -86,6 +86,17 @@ const head=(title,upd,lead)=>`<div class="page-head"><h1>${esc(title)}</h1>${upd
 const fig=(src,alt,cap)=>`<figure><img src="img/${src}" alt="${esc(alt)}" data-zoom>${cap?`<figcaption>${esc(cap)}</figcaption>`:''}</figure>`;
 const linkCard=(u,t,d)=>`<a class="lc" href="${esc(u)}" target="_blank" rel="noopener"><span class="t">${esc(t||host(u))}</span>${d?`<span class="d">${esc(d)}</span>`:''}<span class="u">${esc(u)}</span></a>`;
 
+/* ---------- shared page helpers ---------- */
+const plain=(title,items,foot)=>`<aside class="plain"><span class="kick-s">${esc(title)}</span><ul>${items.map(i=>`<li>${i}</li>`).join('')}</ul>${foot?`<p class="pfoot">${foot}</p>`:''}</aside>`;
+const refBox=(id,t,sub,body,open,cls='')=>`<details class="ref ${cls}"${id?` id="${id}"`:''}${open?' open':''}><summary><span><b>${t}</b>${sub?`<small>${sub}</small>`:''}</span></summary><div class="ref-b">${body}</div></details>`;
+/* turn a <section class="sect"> block into a collapsible one */
+const foldSect=(html,open,extra='')=>{
+  const m=/^<section id="([^"]+)" class="([^"]*)">\s*<div class="sect-h">([\s\S]*?)<\/div>([\s\S]*)<\/section>\s*$/.exec(html.trim());
+  if(!m)return html;
+  const h2=(/<h2>([\s\S]*?)<\/h2>/.exec(m[3])||[,''])[1],sub=(/<p class="muted">([\s\S]*?)<\/p>/.exec(m[3])||[,''])[1],kick=(/<span class="kick[^"]*">([\s\S]*?)<\/span>/.exec(m[3])||[,''])[1];
+  return `<details class="ref ${m[2].replace('sect','').trim()} ${extra}" id="${m[1]}"${open?' open':''}><summary><span><b>${h2}</b>${sub||kick?`<small>${sub||kick}</small>`:''}</span></summary><div class="ref-b">${m[4]}</div></details>`;
+};
+
 /* ---------- renderers ---------- */
 const R={};
 R.home=()=>{
@@ -104,8 +115,15 @@ R.home=()=>{
   </div>
   ${s.alert?`<div class="callout warn"><h4>${esc(s.alert.title)}</h4><p>${esc(s.alert.text)} <a href="#reg/alert">Read the claim check →</a></p></div>`:''}
   <div class="callout bad"><h4>Must read</h4><p>Third-party testing found a ${Math.round(must.stats[3].v*1000)/10}% failure rate in bacteriostatic water. <a href="#bac">See the BAC water tests →</a></p></div>
-  <h2 id="dir" style="margin-top:26px">Directory</h2>
-  <div class="grid g3 dirgrid">${s.directory.map(x=>{const id=secOf[x.name.trim()];return `<a class="lc" href="#${id}"><span class="n">${upd[id]?'Updated '+esc(upd[id]):''}</span><span class="t">${esc(x.name.trim())}</span><span class="d">${esc(x.desc)}</span></a>`}).join('')}</div>`;
+  <h2 style="margin-top:30px">New here? Follow these four steps</h2>
+  <div class="steps">
+   <a class="stp" href="#terms"><span class="dnum">1</span><b>Learn the words</b><small>Slang and abbreviations explained</small></a>
+   <a class="stp" href="#bac"><span class="dnum">2</span><b>Know the risks</b><small>What testing found in BAC water</small></a>
+   <a class="stp" href="#reg"><span class="dnum">3</span><b>Check the rules</b><small>What regulators are doing</small></a>
+   <a class="stp" href="#dosage"><span class="dnum">4</span><b>Measure and track</b><small>Calculator and dose tracker</small></a>
+  </div>
+  <h2 id="dir" style="margin-top:30px">Everything in the guide</h2>
+  ${[['Learn the basics',['Dosage','Terminology','Medical','Nutrition']],['Buy with care',['Peptide Vendors','Medical Supply Vendors','BAC Water Tests - MUST READ!!!']],['Stay informed',['Regulation Info','Forums, Articles, etc.','PEDs','Roadmap']]].map(([g,names])=>`<h3 class="grp">${g}</h3><div class="grid g3 dirgrid">${names.map(n=>s.directory.find(x=>x.name.trim()===n)).filter(Boolean).map(x=>{const id=secOf[x.name.trim()];return `<a class="lc" href="#${id}"><span class="n">${upd[id]?'Updated '+esc(upd[id]):''}</span><span class="t">${esc(x.name.trim().replace(/ - MUST READ!!!/,''))}</span><span class="d">${esc(x.desc)}</span></a>`}).join('')}</div>`).join('')}`;
 };
 
 R.vendors=()=>{
@@ -114,18 +132,12 @@ R.vendors=()=>{
   const grp=t=>v.vendors.filter(x=>x.type===t);
   const kinds=[...new Set(v.vendors.map(x=>x.type))];
   const kitNote={'Single Vials':'bad','Login Required':'warn'};
-  return head('Peptide Vendors',v.updated)+`
-  <div class="grid g2">
-   <div class="card"><h3>${esc(v.headings[0])}</h3><div class="grid">${v.profiles.map(p=>linkCard(p.url)).join('')}</div></div>
-   <div class="card"><h3>${esc(v.headings[1])}</h3><div class="grid">${v.testing.map(p=>linkCard(p.url)).join('')}</div>
-     <h3 style="margin-top:18px">Vendor lists & chemical suppliers</h3><div class="grid">${v.lists.map(p=>linkCard(p.url)).join('')}</div></div>
-  </div>
+  return head('Peptide Vendors',v.updated)+plain('Before you look at the list',['<b>Nobody here is endorsed.</b> This is a list, not a recommendation. Shop at your own risk.','<b>Kits (several vials) are easier to test</b> than single vials. The guide advises against single-vial sellers; the reasons are below.','<b>Check testing and reviews first.</b> The research tools at the bottom link to independent vendor ratings.','<b>Shipping is disrupted right now,</b> especially from overseas. See the alert below.'])+`
   ${v.alert?`<div class="callout warn"><h4>${esc(v.alert.title)}</h4><p>${esc(v.alert.text)} <a href="#reg/alert">Claim check →</a></p></div>`:''}
-  <div class="callout warn"><h4>${esc(v.noendorse)}</h4></div>
-  <div class="callout bad"><h4>${esc(v.warnTitle)}</h4><ol>${v.warnings.map(w=>`<li>${esc(w.replace(/^\d+\.\s*/,''))}</li>`).join('')}</ol>
-    <p><b>${esc(v.whyTitle)}</b> ${esc(v.whyAnswer)}</p><p>${esc(v.closing)}</p></div>
-  <h2>Vendor directory</h2>
-  ${table({cols:[{h:'Vendor / Contact',k:'name',cls:'name'},{h:'Link',f:r=>ext(r.url,host(r.url)),s:r=>r.url},{h:'Products',f:r=>`<span class="pill ${kitNote[r.type]||'good'}">${esc(r.type)}</span>`,k:'type'}],rows:v.vendors,chip:{get:r=>r.type},searchPh:'Search vendors…'})}`;
+  ${refBox('v-single',esc(v.warnTitle),'Why the guide advises against single-vial sellers',`<ol>${v.warnings.map(w=>`<li>${esc(w.replace(/^\d+\.\s*/,''))}</li>`).join('')}</ol><p><b>${esc(v.whyTitle)}</b> ${esc(v.whyAnswer)}</p><p>${esc(v.closing)}</p>`,false,'danger')}
+  <h2>Vendor directory</h2><p class="lead">Search by name or filter by what they sell.</p>
+  ${table({cols:[{h:'Vendor / Contact',k:'name',cls:'name'},{h:'Link',f:r=>ext(r.url,host(r.url)),s:r=>r.url},{h:'Products',f:r=>`<span class="pill ${kitNote[r.type]||'good'}">${esc(r.type)}</span>`,k:'type'}],rows:v.vendors,chip:{get:r=>r.type},searchPh:'Search vendors…'})}
+  ${refBox('v-tools','Research tools',`Vendor profiles, testing and ratings, and vendor lists`,`<h3>${esc(v.headings[0])}</h3><div class="grid g2">${v.profiles.map(p=>linkCard(p.url)).join('')}</div><h3 style="margin-top:18px">${esc(v.headings[1])}</h3><div class="grid g2">${v.testing.map(p=>linkCard(p.url)).join('')}</div><h3 style="margin-top:18px">Vendor lists & chemical suppliers</h3><div class="grid g2">${v.lists.map(p=>linkCard(p.url)).join('')}</div>`,false)}`;
 };
 
 /* ----- dosage ----- */
@@ -257,7 +269,7 @@ function parseHours(s){
 }
 R.halflife=()=>{
   const h=D.halflife;h.rows.forEach(r=>idx('halflife',r[0],r[1],r[2],r[3]));
-  return head('Half-Life',h.updated)+h.intro.map(p=>`<p class="lead">${esc(p)}</p>`).join('')+`
+  return head('Half-Life',h.updated)+plain('What is a half-life?',['A <b>half-life</b> is how long the body takes to clear half of something. After one half-life, half is left. After two, a quarter. After four to five, almost none.','<b>Plasma half-life</b> is how long the peptide itself stays in the blood. It is measured in a lab.','<b>Effect duration</b> is how long its effects last. This can be much longer, because the body keeps responding after the peptide is gone.','Doses taken closer together than the half-life <b>build up</b>. The simulator below shows this.'])+`<div class="tri"><div><b>1 half-life</b><span>50% left</span></div><div><b>2 half-lives</b><span>25% left</span></div><div><b>4 to 5 half-lives</b><span>about 95% cleared</span></div></div>`+refBox('h-bg','Technical background','Why the two numbers differ',h.intro.map(p=>`<p>${esc(p)}</p>`).join(''),false)+`
   <div class="subnav" data-spy><a href="#halflife/table">Table</a><a href="#halflife/sim">Level simulator</a></div>
   <div id="h-table" class="card"><h2>${esc(h.title)}</h2>
   ${table({cols:[{h:h.hdr[0],k:0,cls:'name',f:r=>esc(r[0]),s:r=>r[0]},{h:h.hdr[1],f:r=>esc(r[1]),s:r=>r[1]},{h:h.hdr[2],f:r=>esc(r[2]),s:r=>r[2]},{h:h.hdr[3],f:r=>esc(r[3]),s:r=>r[3]}],rows:h.rows,searchPh:'Search peptides…'})}
@@ -271,7 +283,7 @@ R.halflife=()=>{
     <div class="field"><label for="s-dose">Dose (any unit)</label><input id="s-dose" type="number" min="0" step="any" value="100"></div></div>
     <div class="frow"><div class="field"><label for="s-int">Dosing interval</label><select id="s-int"><option value="8">Every 8 h</option><option value="12">Every 12 h</option><option value="24" selected>Daily</option><option value="48">Every 2 days</option><option value="84">Twice weekly</option><option value="168">Weekly</option></select></div>
     <div class="field"><label for="s-days">Show</label><select id="s-days"><option value="1">1 day</option><option value="7">1 week</option><option value="14">2 weeks</option><option value="30" selected>1 month</option><option value="60">2 months</option></select></div></div>
-    <dl class="kv" id="s-kv"></dl><div id="s-note"></div>
+    <p id="s-say" class="say"></p><details class="more"><summary>Show the numbers</summary><dl class="kv" id="s-kv"></dl></details><div id="s-note"></div>
    </div><div><svg id="s-chart" class="chart" viewBox="0 0 640 340" role="img" aria-label="Estimated level over time"></svg></div></div></div>`;
 };
 function initHalf(root){
@@ -292,6 +304,7 @@ function initHalf(root){
     svg.innerHTML=g+`<path d="${path}L${X(T)},${Y(0)}L${X(0)},${Y(0)}Z" fill="var(--accent)" opacity=".12"/><path d="${path}" fill="none" stroke="var(--accent)" stroke-width="2"/>`;
     const acc=1/(1-Math.exp(-k*tau)),peakSS=dose*acc,troughSS=peakSS-dose,ssT=hl*4.32;
     $i('s-kv').innerHTML=`<dt>Elimination rate</dt><dd>${fmtNum(k,4)} /h</dd><dt>Steady-state peak</dt><dd>${fmtNum(peakSS,1)} (${fmtNum(acc,2)}× dose)</dd><dt>Steady-state trough</dt><dd>${fmtNum(troughSS,1)}</dd><dt>Time to steady state</dt><dd>~${ssT<48?fmtNum(ssT,1)+' h':fmtNum(ssT/24,1)+' days'} (≈4–5 half-lives)</dd><dt>Left after one interval</dt><dd>${fmtNum(Math.exp(-k*tau)*100,1)}%</dd>`;
+    $i('s-say').innerHTML=`With a <b>${fmtNum(hl,2)} hour</b> half-life and a dose ${tau===24?'every day':tau===168?'every week':'every '+fmtNum(tau,1)+' hours'}, about <b>${fmtNum(Math.exp(-k*tau)*100,0)}%</b> of each dose is still left when the next one is due. Levels ${acc>1.15?`build up to about <b>${fmtNum(acc,1)}×</b> a single dose and settle after ${ssT<48?fmtNum(ssT,0)+' hours':fmtNum(ssT/24,1)+' days'}`:'stay close to a single dose and do not build up much'}.`;
     $i('s-note').innerHTML=`<div class="callout"><p style="font-size:13px"><b>${esc(r[0])}</b> · plasma: ${esc(r[1])} · effect: ${esc(r[2])}<br>${esc(r[3])}</p></div>`;
   }
   $i('s-pep').addEventListener('change',setHL);$i('s-basis').addEventListener('change',setHL);
@@ -302,10 +315,10 @@ function initHalf(root){
 /* ----- peds ----- */
 R.peds=()=>{
   const p=D.peds;p.links.forEach(u=>idx('peds',host(u),u));idx('peds','Growth hormone pathway',p.caption);
-  return head('PEDs',p.updated,'Information regarding performance-enhancing drugs and medical use.')+`
-  <div class="card"><h3>${esc(p.heading)}</h3><div class="grid g3">${p.links.slice(0,1).map(u=>linkCard(u)).join('')}</div>
-  <h3 style="margin-top:20px">Other sources</h3><div class="grid g3">${p.links.slice(1).map(u=>linkCard(u)).join('')}</div></div>
-  <div class="card"><h3>Growth hormone secretion pathway</h3>${fig('gh-pathway.jpg','Biological pathway regulating growth hormone secretion',p.caption)}</div>`;
+  return head('PEDs',p.updated,'Information regarding performance-enhancing drugs and medical use.')+plain('How to use this page',['Links to reference material on performance-enhancing drugs, followed by a diagram of how the body regulates growth hormone.','The glossary on the <a href="#terms">Terminology page</a> explains the abbreviations.'])+`
+  <h2>Primary reference</h2><div class="grid g3">${p.links.slice(0,1).map(u=>linkCard(u)).join('')}</div>
+  ${refBox('p-more','Other sources',`${p.links.length-1} more links`,`<div class="grid g3">${p.links.slice(1).map(u=>linkCard(u)).join('')}</div>`,false)}
+  ${refBox('p-gh','Growth hormone secretion pathway','Diagram of how the body controls GH release',fig('gh-pathway.jpg','Biological pathway regulating growth hormone secretion',p.caption),true)}`;
 };
 
 /* ----- supply ----- */
@@ -313,7 +326,8 @@ const prodKey=t=>t.replace(/^[^\p{L}\p{N}]+/u,'').trim().toLowerCase();
 R.supply=()=>{
   const s=D.supply;s.rows.forEach(r=>idx('supply',r.name,r.products.join(' '),r.url));
   const pk=p=>p.replace(/[^\p{L}\p{N} ]/gu,'').trim().toLowerCase();const seenP={};s.rows.forEach(r=>r.products.forEach(p=>{const k=pk(p);if(!seenP[k])seenP[k]=p.trim().replace(/(\p{L})/u,c=>c.toUpperCase())}));const all=Object.entries(seenP).sort((a,b)=>a[0].localeCompare(b[0]));
-  return head('Medical Supply Vendors',s.updated,'Links and contacts for purchasing medical supplies.')+`
+  const what=[['Bacteriostatic water','Sterile water with a preservative. Used to dissolve (reconstitute) freeze-dried powder.'],['Insulin needles','Small syringes marked in units. Used to measure and inject small doses.'],['Luer-lock syringes','Syringes with a screw-on tip. Used to move liquid without the needle popping off.'],['Needles','Separate needles for drawing up or injecting.'],['Reconstitution kits','Bundles of the basic supplies for mixing a vial.'],['Sterile vials','Empty sealed glass bottles for storing liquid.'],['Syringe filters','Remove particles when moving liquid between containers.'],['Sharps containers','Rigid containers for safe disposal of used needles.']];
+  return head('Medical Supply Vendors',s.updated,'Links and contacts for purchasing medical supplies.')+refBox('s-what','What are these products?','Plain-English descriptions of what each category is for',`<dl class="gl">${what.map(([k,v])=>`<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl>`,true)+`
   <div class="tools"><input type="search" id="sup-q" placeholder="Search vendors…"><div class="chips" id="sup-chips"><button class="chip on" data-v="">All products</button>${all.map(([k,p])=>`<button class="chip" data-v="${esc(k)}">${esc(p)}</button>`).join('')}</div><span class="count" id="sup-count"></span></div>
   <div class="grid g3" id="sup-grid">${s.rows.map(r=>`<div class="card sup" style="margin:0" data-t="${esc((r.name+' '+r.products.join(' ')).toLowerCase())}" data-p="${esc(r.products.map(pk).join('|'))}"><h3 style="margin-bottom:6px">${esc(r.name)}</h3><div>${r.products.map(p=>`<span class="tag">${esc(p)}</span>`).join('')}</div><p style="margin:10px 0 0">${ext(r.url,host(r.url)+' →')}</p></div>`).join('')}</div>`;
 };
@@ -331,19 +345,19 @@ R.bac=()=>{
   const pct=x=>(x*100).toFixed(2)+'%';
   const phBad=p=>p<4||p>7,baBad=a=>a<.0072||a>.0108;
   return head('BAC Water Tests — MUST READ!!!',b.updated)+`
-  <div class="callout bad"><p>${esc(b.intro)}</p></div>
+  ${plain('In plain English',['<b>BAC water</b> (bacteriostatic water) is sterile water with a small amount of benzyl alcohol. It is used to dissolve peptide powder and keeps a multi-use vial from growing germs.','<b>A third-party lab tested '+b.stats[0].v+' brands.</b> Only '+b.stats[1].v+' passed.','<b>Two things were measured:</b> acidity (pH, should be 4 to 7) and benzyl alcohol (should be 0.72% to 1.08%). Outside those ranges the water can break down the peptide or fail to protect it.'],esc(b.intro))}
   <h2>${esc(b.title)}</h2><h3 style="color:var(--muted)">${esc(b.summaryTitle)}</h3>
   <div class="grid g4" style="margin-bottom:18px">${b.stats.map((s,i)=>`<div class="stat ${['','good','bad','bad'][i]}"><div class="v">${i===3?(s.v*100).toFixed(1)+'%':s.v}</div><div class="l">${esc(s.l)}</div></div>`).join('')}</div>
   <div class="card"><h3>${esc(b.title.includes('All')?b.title:'All products: test results')}</h3>
   ${table({cols:[{h:'#',f:r=>r.n,cls:'num',sort:'num',s:r=>r.n},{h:'Sample name',k:'name',cls:'name'},{h:'Lot #',k:'lot',cls:'mono'},{h:'Benzyl alcohol (%)',f:r=>`<span class="${baBad(r.ba)?'pill bad':''}">${pct(r.ba)}</span>`,cls:'num',sort:'num',s:r=>pct(r.ba)},{h:'pH',f:r=>`<span class="${phBad(r.ph)?'pill bad':''}">${r.ph}</span>`,cls:'num',sort:'num',s:r=>r.ph},{h:'Pass/Fail',f:r=>`<span class="pill ${r.result==='Pass'?'good':'bad'}">${esc(r.result)}</span>`,k:'result'},{h:'Notes',k:'note'}],rows:b.rows,chip:{get:r=>r.result},searchPh:'Search brands, lots, notes…'})}
   <p style="font-size:13px;color:var(--muted);margin-top:10px">The source sheet lists ${b.rows.length} of the ${b.stats[0].v} tested samples; the infographic below shows the full study.<br>${esc(b.standards)}<br>${esc(b.ruo)}<br><i>${esc(b.disc)}</i></p>
   ${b.extraLink?`<p>See also: ${ext(b.extraLink)}</p>`:''}</div>
-  <div class="grid g2">
+  ${refBox('b-why','Why out-of-range water matters','How bad pH or benzyl alcohol affects research chemicals, and how the samples failed',`<div class="grid g2">
    <div class="card"><h3>${esc(b.impactTitle)}</h3><p>${esc(b.impactIntro)}</p>${b.impacts.map(i=>`<div class="callout warn"><h4>${esc(i.t)}</h4><p>${esc(i.d)}</p></div>`).join('')}</div>
    <div class="card"><h3>${esc(b.failTitle)}</h3><div class="bars">${b.fail.map(f=>{const w=f.n/ b.stats[0].v*100;return `<div class="row"><div><b>${esc(f.l)}</b><br><small style="color:var(--muted)">${esc(f.r||'')}</small></div><div class="bar"><i style="width:${w}%"></i></div><div><b>${f.n}</b> ${esc(f.p)}</div></div>`}).join('')}</div><p>${esc(b.failNote)}</p>
    <div class="callout"><p style="font-size:13px"><b>Failure categories:</b> ${b.fail.map(f=>`${esc(f.k)} = ${esc(f.l)}`).join(' · ')}</p></div></div>
-  </div>
-  <div class="card"><h3>Infographic</h3>${fig('bac-water-infographic.jpg','Peptide Crafters bacteriostatic water quality study infographic',b.title)}</div>`;
+  </div>`,false)}
+  ${refBox('b-info','Study infographic','The full study summary as a single image',fig('bac-water-infographic.jpg','Peptide Crafters bacteriostatic water quality study infographic',b.title),false)}`;
 };
 
 /* ----- terminology ----- */
@@ -354,7 +368,7 @@ R.terms=()=>{
   const sl=s=>table({cols:[{h:'Term / Acronym',k:0,f:r=>esc(r[0]),cls:'name',s:r=>r[0]},{h:'Meaning / Substance',f:r=>esc(r[1]),s:r=>r[1]}],rows:s.rows,searchPh:'Filter terms…'});
   const ab=(rows,adm)=>table({cols:[{h:t.abbrHdr[0],f:r=>esc(r[0]),cls:'name mono',s:r=>r[0]},{h:t.abbrHdr[1],f:r=>esc(r[1]),s:r=>r[1]},{h:t.abbrHdr[2],f:r=>esc(r[2]),s:r=>r[2]},{h:t.abbrHdr[3],f:r=>`<span class="pill ${r[3].includes('Medical')?'info':'muted'}">${esc(r[3])}</span>`,s:r=>r[3]},{h:t.abbrHdr[4],f:r=>esc(r[4]),s:r=>r[4]}],rows,chip:{get:r=>r[3]},searchPh:'Search abbreviations…'});
   const tabs=[['slang','Common Slang'],['customs','Import & Customs'],['aas','Anabolic-Androgenic Steroids'],['pep','Peptides, GH & GLP-1s'],['abbr','Abbreviations (administered)'],['abbr2','Abbreviations (not administered)']];
-  return head('Terminology',t.updated,t.intro)+`
+  return head('Terminology',t.updated)+plain('How to use this page',[esc(t.intro),'Pick a tab for the kind of term you are looking for, then type in the box to filter. Terms are sorted alphabetically, and you can click a column title to re-sort.','Most newcomers only need <b>Peptides, GH &amp; GLP-1s</b> and <b>Abbreviations</b>.'])+`
   <div class="subnav" data-tabs="terms">${tabs.map(([i,n],k)=>`<a href="#terms/${i}" data-tab="${i}" class="${k?'':'on'}">${n}</a>`).join('')}</div>
   <div class="tabpane on" data-pane="slang"><div class="card"><h2>${esc(t.slang[0].title)}</h2>${sl(t.slang[0])}</div></div>
   ${t.customs?`<div class="tabpane" data-pane="customs"><div class="card"><h2>${esc(t.customs.title)}</h2>${sl(t.customs)}</div></div>`:''}
@@ -430,7 +444,7 @@ function vTimeline(g){
   <ol class="vt" id="vt">${out}</ol><div class="empty" hidden>No events match.</div></section>`;
 }
 function initReg(root){
-  $$('a[data-fn]',root).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const el=document.getElementById(a.dataset.fn);if(el){el.scrollIntoView({block:'center'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}}));
+  $$('a[data-fn]',root).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const el=document.getElementById(a.dataset.fn);if(el){const dd=el.closest('details');if(dd)dd.open=true;el.scrollIntoView({block:'center'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}}));
   $$('.tools[data-list]',root).forEach(tools=>{
     const list=document.getElementById(tools.dataset.list),items=$$('li:not(.yr)',list),q=$('.ls-q',tools),sel=$('.ls-sel',tools),cnt=$('.count',tools),empty=tools.parentElement.querySelector('.empty'),more=tools.parentElement.querySelector('.more');
     let chip='All',all=false;const LIM=15;
@@ -469,14 +483,15 @@ R.reg=()=>{
   return `<div class="masthead"><div class="mh-top"><h1>Regulation Info</h1><span class="upd">Page reviewed ${esc(g.updated)}</span></div>${statusStrip(m,g)}<p class="lead">${urlize(g.intro)}</p></div>
   ${leadBlock(g,m)}
   <div class="subnav tabs" data-spy>${g.alert?'<a href="#reg/alert">Import alert</a>':''}<a href="#reg/updates">Analysis</a><a href="#reg/feed">Headlines</a><a href="#reg/timeline">Timeline</a><a href="#reg/status">Peptide status</a><a href="#reg/pcac">July 2026 vote</a></div>
-  ${alertCard(g.alert)}
-  ${updatesCard(g.updates)}
-  ${newsStream(m)}
-  ${vTimeline(g)}
-  <section id="r-status" class="sect"><div class="sect-h"><h2>FDA status by peptide</h2></div>
+  ${plain('How to read this page',['<b>Peptide rules are unsettled and change often.</b> Many compounds sold online are not FDA-approved for human use, and some have been restricted from compounding.','Each section below opens when you tap its title. <b>Shipping alert</b> and <b>Analysis</b> are open first because they change fastest.','Use <b>Peptide status</b> to look up one compound, and <b>Timeline</b> for how we got here.','Headlines are collected automatically and not reviewed. Treat them as leads and check the source.'])}
+  ${g.alert?foldSect(alertCard(g.alert),true):''}
+  ${foldSect(updatesCard(g.updates),true)}
+  ${foldSect(newsStream(m),false)}
+  ${foldSect(vTimeline(g),false)}
+  ${foldSect(`<section id="r-status" class="sect"><div class="sect-h"><h2>FDA status by peptide</h2><p class="muted">Look up one compound</p></div>
    ${table({cols:[{h:g.statusHdr[0],f:r=>esc(r[0]),cls:'name',s:r=>r[0]},{h:g.statusHdr[1],f:r=>`<span class="pill ${statCls(r[1])}">${esc(r[1])}</span>`,s:r=>r[1]},{h:g.statusHdr[2],f:r=>esc(r[2]),s:r=>r[2]},{h:g.statusHdr[3],f:r=>esc(r[3]),s:r=>r[3]},{h:g.statusHdr[4],f:r=>esc(r[4]),s:r=>r[4]}],rows:g.status,chip:{get:r=>r[1]},searchPh:'Search peptides…'})}
-   ${fig('pcac-peptide-table.jpg','Table of peptides, health uses and outcome from the PCAC review','Peptide, health uses and outcome summary (image from the guide).')}</section>
-  <section id="r-pcac" class="sect prose"><div class="sect-h"><h2>FDA advisory committee review (July 2026)</h2></div>${art}</section>`;
+   ${fig('pcac-peptide-table.jpg','Table of peptides, health uses and outcome from the PCAC review','Peptide, health uses and outcome summary (image from the guide).')}</section>`,false)}
+  ${foldSect(`<section id="r-pcac" class="sect prose"><div class="sect-h"><h2>FDA advisory committee review (July 2026)</h2><p class="muted">How the committee voted on each peptide</p></div>${art}</section>`,false)}`;
 };
 
 /* ----- forums ----- */
@@ -484,18 +499,17 @@ R.forums=()=>{
   const f=D.forums;f.articles.forEach(a=>idx('forums',a.title,a.site,a.date,a.summary));f.communities.forEach(c=>idx('forums',c.name,c.desc));f.videos.forEach(v=>idx('forums',v.title,v.url));
   const fm=feedModel(window.FEED_ART);
   if(f.updates){f.updates.blocks.forEach(b=>idx('forums',f.updates.title,b.x.replace(/\[\^\d+\]/g,'')));f.updates.footnotes.forEach(x=>idx('forums',x.label,x.pub,x.url))}
-  return head('Forums, Articles, etc.',f.updated,f.intro)+statusStrip(fm)+`
+  return head('Forums, Articles, etc.',f.updated)+statusStrip(fm)+`
   <div class="subnav tabs" data-spy><a href="#forums/updates">Latest developments</a><a href="#forums/feed">Headlines</a><a href="#forums/articles">Roundup</a><a href="#forums/communities">Communities</a><a href="#forums/videos">Videos & links</a></div>
-  ${updatesCard(f.updates,'f','xfn')}
-  ${newsStream(fm,'f','Latest headlines (auto-feed)')}
-  <div id="f-articles" class="sect"><div class="sect-h"><h2>${esc(f.title)}</h2></div>
+  ${plain('How to read this page',['<b>Latest developments</b> is a short written summary with numbered sources.','<b>Headlines</b> are collected automatically and not reviewed.','<b>Roundup</b> is a dated list of articles, newest first. <b>Communities</b> and <b>Videos</b> are places to read more.'])}
+  ${foldSect(updatesCard(f.updates,'f','xfn'),true)}
+  ${foldSect(newsStream(fm,'f','Latest headlines (auto-feed)'),false)}
+  ${foldSect(`<section id="f-articles" class="sect"><div class="sect-h"><h2>${esc(f.title)}</h2><p class="muted">${f.articles.length} articles</p></div>
    <div class="tools" data-tbl="ft" data-custom><input type="search" class="tbl-search" placeholder="Search articles…"><span class="count"></span></div>
    <table id="ft" hidden><tbody>${f.articles.map(a=>`<tr data-t="${esc((a.title+' '+a.site+' '+a.date+' '+a.summary).toLowerCase())}"></tr>`).join('')}</tbody></table>
-   <div class="grid g2" id="f-grid">${f.articles.map(a=>`<article class="art"><span class="num">#${a.n}</span><h4>${esc(a.title)}</h4><div class="meta"><span>🌐 ${esc(a.site)}</span><span>📅 ${esc(a.date)}</span></div><p style="margin:4px 0">${esc(a.summary)}</p><div>${a.url?ext(a.url,a.linkText||host(a.url)):esc(a.linkText)}</div></article>`).join('')}</div><div class="empty" hidden>No matches.</div></div>
-  <div id="f-communities" style="margin-top:32px"><h2>${esc(f.commTitle)}</h2><p class="lead">${esc(f.commIntro)}</p>
-   <div class="grid g2">${f.communities.map(c=>`<div class="art"><h4>${ext(c.url,c.name)}</h4><p style="margin:0">${esc(c.desc)}</p></div>`).join('')}</div></div>
-  <div id="f-videos" style="margin-top:32px"><h2>${esc(f.videosTitle)}</h2><div class="grid g2">${f.videos.map(v=>linkCard(v.url,v.title.trim()+' ▶')).join('')}</div>
-   </div>`;
+   <div class="grid g2" id="f-grid">${f.articles.map(a=>`<article class="art"><span class="num">#${a.n}</span><h4>${esc(a.title)}</h4><div class="meta"><span>🌐 ${esc(a.site)}</span><span>📅 ${esc(a.date)}</span></div><p style="margin:4px 0">${esc(a.summary)}</p><div>${a.url?ext(a.url,a.linkText||host(a.url)):esc(a.linkText)}</div></article>`).join('')}</div><div class="empty" hidden>No matches.</div></section>`,false)}
+  ${refBox('f-communities',esc(f.commTitle),esc(f.commIntro),`<div class="grid g2">${f.communities.map(c=>`<div class="art"><h4>${ext(c.url,c.name)}</h4><p style="margin:0">${esc(c.desc)}</p></div>`).join('')}</div>`,false)}
+  ${refBox('f-videos',esc(f.videosTitle),`${f.videos.length} videos`,`<div class="grid g2">${f.videos.map(v=>linkCard(v.url,v.title.trim()+' ▶')).join('')}</div>`,false)}`;
 };
 function initForums(root){
   initReg(root);
@@ -506,8 +520,8 @@ function initForums(root){
 }
 
 /* ----- small sheets ----- */
-R.nutrition=()=>{const n=D.nutrition;n.items.forEach(i=>idx('nutrition',i.name,i.url));return head('Nutrition',n.updated,'Nutritional information and guidelines.')+`<div class="grid g3">${n.items.map(i=>linkCard(i.url,i.name,'Sam\u2019s Club')).join('')}</div>`};
-R.medical=()=>{const m=D.medical;m.links.forEach(u=>idx('medical',host(u),u));return head('Medical',m.updated,'Information regarding medical use.')+`<div class="card"><h3>${esc(m.label)}</h3><div class="grid g3">${linkCard(m.links[0])}</div></div><div class="card"><h3>${esc(m.test)}</h3><div class="grid g2">${linkCard(m.links[1],'Smart scales vs DEXA: what actually matters')}</div></div>`};
+R.nutrition=()=>{const n=D.nutrition;n.items.forEach(i=>idx('nutrition',i.name,i.url));return head('Nutrition',n.updated,'Nutritional information and guidelines.')+plain('About these links',['Product pages for reference. Open one to see the full nutrition label.'])+`<div class="grid g3">${n.items.map(i=>linkCard(i.url,i.name,'Sam\u2019s Club')).join('')}</div>`};
+R.medical=()=>{const m=D.medical;m.links.forEach(u=>idx('medical',host(u),u));return head('Medical',m.updated,'Information regarding medical use.')+plain('About these links',['Reading material on medical uses and on tracking body composition. Talk to a healthcare professional before acting on any of it.'])+`<div class="card"><h3>${esc(m.label)}</h3><div class="grid g3">${linkCard(m.links[0])}</div></div><div class="card"><h3>${esc(m.test)}</h3><div class="grid g2">${linkCard(m.links[1],'Smart scales vs DEXA: what actually matters')}</div></div>`};
 R.roadmap=()=>{const r=D.roadmap;idx('roadmap','Roadmap',r.request,...r.comments);return head('Roadmap',r.updated,'Future updates and additions to the guide.')+`
   <div class="card"><div class="meta" style="color:var(--muted);font-size:13px">${esc(r.date)} · <b>${esc(r.author)}</b></div><h3 style="margin-top:6px">Feature request</h3><p>${esc(r.request)}</p>
   <h4>${esc(r.commentsTitle.trim())}</h4>${r.comments.map(c=>`<p>${esc(c)}</p>`).join('')}
