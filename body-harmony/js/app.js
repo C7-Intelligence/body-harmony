@@ -150,60 +150,65 @@ R.dosage=()=>{
   const vt=v=>`<h3>${esc(v.title)}</h3><p>${esc(v.sub)}</p><div class="tw"><table><thead><tr>${v.hdr.map(h=>`<th class="nosort">${esc(h)}</th>`).join('')}</tr></thead><tbody>${v.rows.map(r=>`<tr>${r.map((c,i)=>`<td class="${i?'':'name'}">${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><h4 style="margin-top:14px">${esc(v.exTitle)}</h4>${v.ex.map(x=>`<p style="margin:.2em 0">${esc(x)}</p>`).join('')}`;
   const mh=d.matrixHdr;
   const groups=['5mg','10mg','20mg'];
+  const gl=[['Peptide','A short chain of amino acids, usually sold as a freeze-dried powder in a small glass vial.'],['BAC water','Bacteriostatic water: sterile water with a little benzyl alcohol, used to dissolve the powder.'],['Reconstitute','Mix the powder with BAC water so it can be drawn into a syringe.'],['mcg and mg','Units of weight. 1 mg = 1,000 mcg. Doses are often in mcg; vials are labelled in mg.'],['Unit (U-100)','The tick marks on an insulin syringe. 100 units = 1 mL, so 10 units = 0.1 mL.'],['Concentration','How much peptide is in each mL once mixed. More BAC water means a weaker mix, so you draw more volume.']];
+  const sec=(n,id,t,sub,body)=>`<div id="${id}" class="dstep"><div class="dstep-h"><span class="dnum">${n}</span><div><h2>${t}</h2><p>${sub}</p></div></div>${body}</div>`;
+  const ref=(id,t,sub,body)=>`<details class="ref" id="${id}"><summary><span><b>${t}</b><small>${sub}</small></span></summary><div class="ref-b">${body}</div></details>`;
   return head(d.title.trim(),d.updated)+`
   <div class="callout warn disclaimer"><p>${esc(d.disclaimer)}</p></div>
-  <div class="subnav" data-spy>${sub.map(([i,t])=>`<a href="#dosage/${i}">${t}</a>`).join('')}</div>
+  <div class="subnav" data-spy>${[['storage','1 · Store'],['recon','2 · Mix'],['calc','3 · Calculate'],['tracker','4 · Track'],['matrix','Matrix'],['protocols','Protocols'],['concentration','Concentration'],['mix','Mix chart'],['titration','Titration']].map(([i,t])=>`<a href="#dosage/${i}">${t}</a>`).join('')}</div>
 
-  <div id="d-storage" class="card"><h2>Storing lyophilized vials</h2>${fig('storage-guide.png','Easy guidelines for storing lyophilized vials: shelf (<1 year-ish), fridge (1-2 years), freezer (years)','Easy guidelines for storing lyophilized vials ("the powder")')}</div>
-  <div id="d-recon" class="card"><h2>Peptide reconstitution: step-by-step</h2>${fig('reconstitution-guide.jpg','Peptide reconstitution step-by-step guide infographic','Wash hands, sanitize vial tops, draw BAC water, inject, let dissolve, refrigerate; concentration, dose conversion and syringe conversion tables; injection sites.')}</div>
+  <div class="steps">
+   <a class="stp" href="#dosage/storage"><span class="dnum">1</span><b>Store</b><small>Keep the powder cold and dry</small></a>
+   <a class="stp" href="#dosage/recon"><span class="dnum">2</span><b>Mix</b><small>Dissolve it in BAC water</small></a>
+   <a class="stp" href="#dosage/calc"><span class="dnum">3</span><b>Calculate</b><small>Find your syringe mark</small></a>
+   <a class="stp" href="#dosage/tracker"><span class="dnum">4</span><b>Track</b><small>Schedule, log, vial life</small></a>
+  </div>
+  <details class="ref terms"><summary><span><b>New to this? Key terms in plain English</b><small>Six words you will see on this page</small></span></summary><div class="ref-b"><dl class="gl">${gl.map(([k,v])=>`<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl></div></details>
 
-  <div id="d-calc" class="card"><h2>${esc(d.calcTitle)}</h2><p class="lead">${esc(d.calcIntro)}</p>
-   <div class="calc">
-    <div>
-      <div class="field"><label for="c-pep">Peptide</label><select id="c-pep">${opts(names)}</select></div>
-      <div class="frow">
-        <div class="field"><label>Baseline <small>(from guide)</small></label><input id="c-base" readonly></div>
-        <div class="field"><label>Frequency</label><input id="c-freq" readonly></div>
-      </div>
-      <div class="frow">
-        <div class="field"><label for="c-des">Desired dose</label><select id="c-des">${opts(d.optDose)}</select></div>
-        <div class="field"><label for="c-cust">…or custom dose</label><div style="display:flex;gap:6px"><input id="c-cust" type="number" min="0" step="any" placeholder="e.g. 250"><select id="c-cu" style="width:84px"><option>mcg</option><option>mg</option></select></div></div>
-      </div>
-      <div class="frow">
-        <div class="field"><label for="c-vial">Vial mass (mg)</label><select id="c-vial">${opts(d.optVial)}</select></div>
-        <div class="field"><label for="c-bac">BAC water (mL)</label><select id="c-bac">${opts(d.optBac)}</select></div>
-      </div>
-      <div class="field"><label>Description</label><div id="c-desc" style="color:var(--muted)"></div></div>
+  ${sec(1,'d-storage','Store your vials','Freeze-dried powder lasts longest when it is kept cold.',`<div class="tri"><div><b>Shelf</b><span>under about 1 year</span></div><div><b>Fridge</b><span>1 to 2 years</span></div><div><b>Freezer</b><span>years</span></div></div><p class="note">Once mixed with BAC water, keep the vial in the fridge.</p><details class="more"><summary>Show the full storage infographic</summary>${fig('storage-guide.png','Easy guidelines for storing lyophilized vials: shelf (<1 year-ish), fridge (1-2 years), freezer (years)','Easy guidelines for storing lyophilized vials ("the powder")')}</details>`)}
+
+  ${sec(2,'d-recon','Mix it (reconstitution)','Turning the powder into a liquid you can measure.',`<ol class="how"><li><b>Wash your hands</b> and clean the work surface.</li><li><b>Wipe the vial tops</b> with an alcohol swab.</li><li><b>Draw the BAC water</b> into a syringe (the amount is up to you; see step 3).</li><li><b>Inject it slowly</b> down the inside wall of the vial, not onto the powder.</li><li><b>Let it dissolve.</b> Swirl gently and wait. Do not shake.</li><li><b>Refrigerate</b> the mixed vial.</li></ol><details class="more"><summary>Show the full step-by-step infographic</summary>${fig('reconstitution-guide.jpg','Peptide reconstitution step-by-step guide infographic','Wash hands, sanitize vial tops, draw BAC water, inject, let dissolve, refrigerate; concentration, dose conversion and syringe conversion tables; injection sites.')}</details>`)}
+
+  ${sec(3,'d-calc','Calculate your dose',esc(d.calcIntro),`<div class="calc">
+    <div class="cgroup">
+      <div class="cg"><h4><i>a</i> Which peptide?</h4>
+        <div class="field"><label for="c-pep">Peptide</label><select id="c-pep">${opts(names)}</select></div>
+        <div class="frow"><div class="field"><label>Typical dose <small>(from the guide)</small></label><input id="c-base" readonly></div><div class="field"><label>How often</label><input id="c-freq" readonly></div></div>
+        <div id="c-desc" class="note"></div></div>
+      <div class="cg"><h4><i>b</i> How much per dose?</h4>
+        <div class="frow"><div class="field"><label for="c-des">Pick a common dose</label><select id="c-des">${opts(d.optDose)}</select></div>
+        <div class="field"><label for="c-cust">Or type your own</label><div style="display:flex;gap:6px"><input id="c-cust" type="number" min="0" step="any" placeholder="e.g. 250"><select id="c-cu" style="width:84px"><option>mcg</option><option>mg</option></select></div></div></div>
+        <p class="hint">Leave both empty to use the typical dose.</p></div>
+      <div class="cg"><h4><i>c</i> What is in your vial?</h4>
+        <div class="frow"><div class="field"><label for="c-vial">Powder in the vial (mg)</label><select id="c-vial">${opts(d.optVial)}</select></div>
+        <div class="field"><label for="c-bac">BAC water you added (mL)</label><select id="c-bac">${opts(d.optBac)}</select></div></div>
+        <p class="hint">The mg amount is printed on the vial label.</p></div>
     </div>
-    <div>
-      <div class="result"><div class="big" id="c-units">—</div><div class="sub">units on a U-100 (1 cc / 1 mL) insulin syringe</div></div>
+    <div class="cres">
+      <div class="result"><div class="sub">Draw up to</div><div class="big" id="c-units">—</div><div class="sub">units on a U-100 insulin syringe</div></div>
+      <p id="c-say" class="say"></p>
       <div class="syringe"><div class="barrel"><div class="fill" id="c-fill"></div><div class="ticks"></div></div><div class="lab"><span>0</span><span>25</span><span>50</span><span>75</span><span>100 u</span></div></div>
       <div id="c-warn"></div>
-      <dl class="kv" id="c-kv"></dl>
+      <details class="more"><summary>Show the full numbers</summary><dl class="kv" id="c-kv"></dl></details>
     </div>
    </div>
-   <div class="callout"><h4>${esc(d.bacTitle)}</h4><ul>${d.bacTips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p style="font-size:13px">${esc(d.omitted)}</p></div>
-  </div>
+   <details class="more"><summary>${esc(d.bacTitle.replace(/:\s*$/,''))}</summary><ul>${d.bacTips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p style="font-size:13px">${esc(d.omitted)}</p></details>`)}
 
   ${window.Tracker?window.Tracker.html():''}
 
-  <div id="d-matrix" class="card"><h2>${esc(d.matrixTitle[0].trim())}</h2><p class="lead">${esc(d.matrixTitle[1])}</p><p><b>${esc(d.matrixSub)}</b></p>
+  <h2 class="refh">Reference tables <small>Look things up. Tap a title to open it.</small></h2>
+  ${ref('d-matrix',esc(d.matrixTitle[0].trim()),esc(d.matrixTitle[1]),`<p><b>${esc(d.matrixSub)}</b></p>
    <div class="tools" data-tbl="mx"><input type="search" class="tbl-search" placeholder="🔍 Search peptide…" aria-label="Search matrix"><span class="count"></span></div>
    <div class="tw"><table id="mx"><thead><tr class="gh"><th colspan="3" class="nosort"></th>${groups.map(g=>`<th colspan="3" class="nosort">${g} vial</th>`).join('')}</tr>
    <tr>${mh.map((h,i)=>`<th class="nosort${i>2?' num':''}" data-sort="txt" data-i="${i}">${esc(i>2?h.replace(/^\d+mg \+ /,'+ '):h)}</th>`).join('')}</tr></thead>
    <tbody>${d.matrix.map(r=>`<tr data-t="${esc(r.join(' ').toLowerCase())}">${r.map((c,i)=>`<td class="${i===0?'name':i>2?'mcol'+(c.includes('*')?' over':''):''}">${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><div class="empty" hidden>No matches.</div>
-   <p style="font-size:13px;color:var(--muted)">${esc(d.matrixNote)} Target doses marked ** are baseline values.</p></div>
-
-  <div id="d-protocols" class="card"><h2>Common dosage & protocols</h2>
-   ${table({cols:[{h:'Compound',k:'name',cls:'name'},{h:'Category',f:r=>`<span class="pill info">${esc(r.cat)}</span>`,k:'cat'},{h:'Common Dosage Schedule',k:'dose'},{h:'Description & Purpose',k:'desc'}],rows:d.compounds,chip:{get:r=>r.cat.split(/ & |, /)[0]},searchPh:'Search compounds, categories, doses…'})}</div>
-
-  <div id="d-concentration" class="card"><h2>How reconstitution concentration works</h2>
-   ${d.concIntro.map(p=>`<p>${esc(p)}</p>`).join('')}<p><b>${d.units.map(esc).join('</b> · <b>')}</b></p><p>${esc(d.concIntro2)}</p>
+   <p style="font-size:13px;color:var(--muted)">${esc(d.matrixNote)} Target doses marked ** are baseline values.</p>`)}
+  ${ref('d-protocols','Common dosage and protocols','Typical doses and schedules for each compound',table({cols:[{h:'Compound',k:'name',cls:'name'},{h:'Category',f:r=>`<span class="pill info">${esc(r.cat)}</span>`,k:'cat'},{h:'Common Dosage Schedule',k:'dose'},{h:'Description & Purpose',k:'desc'}],rows:d.compounds,chip:{get:r=>r.cat.split(/ & |, /)[0]},searchPh:'Search compounds, categories, doses…'}))}
+  ${ref('d-concentration','How reconstitution concentration works','Worked examples for 10 mg and 20 mg vials',`${d.concIntro.map(p=>`<p>${esc(p)}</p>`).join('')}<p><b>${d.units.map(esc).join('</b> · <b>')}</b></p><p>${esc(d.concIntro2)}</p>
    <div class="grid g2"><div>${vt(d.v10)}</div><div>${vt(d.v20)}</div></div>
-   <div class="callout" style="margin-top:18px"><h4>${esc(d.tipsTitle)}</h4>${d.tips.map(t=>`<p>${esc(t)}</p>`).join('')}</div></div>
-
-  <div id="d-mix" class="card"><h2>${esc(d.mixTitle)}</h2>${fig('peptide-mix-chart.jpg','Peptide mix compatibility chart','Charted data from the anecdotal info. These are not recommendations. They are provided for convenience. Researchers should verify & validate all info. Legend: green = combinations used in health wellness clinics; blue = anecdotal (specific) can mix, not included in clinic lists; yellow = anecdotal (specific) don\u2019t mix; red = \u201Ccommonly known\u201D don\u2019t mix.')}</div>
-  <div id="d-titration" class="card"><h2>Retatrutide titration guide</h2>${fig('retatrutide-titration.png','Retatrutide titration guide flowchart','Goal: most effective tolerated dosage. This schedule was based on the Stage 3 trials; the values may look different for you.')}</div>`;
+   <div class="callout" style="margin-top:18px"><h4>${esc(d.tipsTitle)}</h4>${d.tips.map(t=>`<p>${esc(t)}</p>`).join('')}</div>`)}
+  ${ref('d-mix',esc(d.mixTitle),'Which peptides are reported as compatible in one syringe',fig('peptide-mix-chart.jpg','Peptide mix compatibility chart','Charted data from the anecdotal info. These are not recommendations. They are provided for convenience. Researchers should verify & validate all info. Legend: green = combinations used in health wellness clinics; blue = anecdotal (specific) can mix, not included in clinic lists; yellow = anecdotal (specific) don’t mix; red = “commonly known” don’t mix.'))}
+  ${ref('d-titration','Retatrutide titration guide','Step-up schedule flowchart',fig('retatrutide-titration.png','Retatrutide titration guide flowchart','Goal: most effective tolerated dosage. This schedule was based on the Stage 3 trials; the values may look different for you.'))}`;
 };
 function initDosage(root){
   const d=D.dosage;const $i=id=>root.querySelector('#'+id);
@@ -226,6 +231,7 @@ function initDosage(root){
     const w=$i('c-warn');w.innerHTML='';
     if(units>100)w.innerHTML=`<div class="callout bad"><b>Exceeds 100 units.</b> A standard 1 mL syringe cannot hold this volume. Use less BAC water or a larger vial.</div>`;
     else if(units>0&&units<2)w.innerHTML=`<div class="callout warn"><b>Very small volume.</b> Under 2 units is hard to measure accurately. Add more BAC water.</div>`;
+    const sayEl=$i('c-say');if(sayEl)sayEl.innerHTML=isFinite(units)&&units>0?(units>100?'This is more than one syringe holds. Change the vial or BAC water.':`Fill the syringe to the <b>${fmtNum(units,units<10?1:0)}</b> mark. That is <b>${fmtNum(units/100,3)} mL</b> of liquid and <b>${fmtNum(dose,dose<10?2:0)} mcg</b> of peptide.`):'Pick a peptide and a dose to see your syringe mark.';
     root._calc={name:pep.value,doseMcg:dose,vialMg,bacMl:bac,freq:row.freq||''};root.dispatchEvent(new CustomEvent('bh-calc',{detail:root._calc}));
     $i('c-kv').innerHTML=`<dt>Dose used</dt><dd>${fmtNum(dose,2)} mcg (${fmtNum(dose/1000,3)} mg) · ${src}</dd><dt>Concentration</dt><dd>${fmtNum(conc/1000,3)} mg/mL (${fmtNum(conc,1)} mcg/mL)</dd><dt>Volume to draw</dt><dd>${fmtNum(units/100,3)} mL</dd><dt>Per 1 unit</dt><dd>${fmtNum(conc/100,2)} mcg</dd><dt>Per 10 units</dt><dd>${fmtNum(conc/10,1)} mcg</dd>`;
   };
@@ -531,7 +537,7 @@ function show(id,sub){
   if(tabs){const k=sub||'slang';$$('a',tabs).forEach(a=>a.classList.toggle('on',a.dataset.tab===k));$$('.tabpane',sec).forEach(p=>p.classList.toggle('on',p.dataset.pane===k))}
   document.title=(SECTIONS.find(s=>s.id===id)||{}).name+' · Body Harmony';
   if(pending){const inp=$('.tbl-search',sec.querySelector('.tabpane.on')||sec);if(inp){inp.value=pending;inp.dispatchEvent(new Event('input'))}pending=''}
-  if(sub&&!tabs){const el=$('#'+({dosage:'d-',halflife:'h-',reg:'r-',forums:'f-'}[id]||'x-')+sub,sec);if(el)setTimeout(()=>el.scrollIntoView({block:'start'}),60)}
+  if(sub&&!tabs){const el=$('#'+({dosage:'d-',halflife:'h-',reg:'r-',forums:'f-'}[id]||'x-')+sub,sec);if(el){if(el.tagName==='DETAILS')el.open=true;setTimeout(()=>el.scrollIntoView({block:'start'}),60)}}
   else window.scrollTo(0,0);
   $('#nav').classList.remove('open');
 }

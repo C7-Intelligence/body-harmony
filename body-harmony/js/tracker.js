@@ -31,53 +31,57 @@ function guessSched(freq,start){
 const newProfile=(freq)=>({sched:guessSched(freq,todayStr()),sites:['Left abdomen','Right abdomen','Left thigh','Right thigh'],reconDate:'',budDays:28,vialId:'v0',log:[]});
 
 function html(){return `
-<div id="d-tracker" class="card"><h2>Dose &amp; vial tracker</h2>
- <p class="lead">Follows whichever peptide, dose, vial and BAC water you picked in the calculator above. Set a schedule, log each dose, and see when the vial runs out and what the level curve looks like.</p>
- <div class="callout warn disclaimer"><p><b>Stored only in this browser.</b> Nothing is uploaded and there are no accounts. Clearing site data erases it, so use Export to keep a copy. This tool does arithmetic on the numbers you enter. It does not recommend doses and is not medical advice.</p></div>
- <div id="t-none" class="callout bad" hidden><b>Enter a dose first.</b> Pick a peptide with a baseline dose, a desired dose, or a custom dose in the calculator above.</div>
+<div id="d-tracker" class="dstep"><div class="dstep-h"><span class="dnum">4</span><div><h2>Track your doses</h2><p>Set a schedule, log each dose, and see when the vial runs out. Uses the peptide, dose and vial from step 3.</p></div></div>
+ <div class="callout warn disclaimer"><p><b>Saved only in this browser.</b> Nothing is uploaded and there are no accounts. Clearing site data erases it, so use Export to keep a copy. This tool only does arithmetic on the numbers you enter. It does not recommend doses and is not medical advice.</p></div>
+ <div id="t-none" class="callout bad" hidden><b>Enter a dose first.</b> Choose a peptide with a typical dose, a common dose, or your own dose in step 3.</div>
  <div class="calc" id="t-main">
-  <div>
-   <p id="t-using" class="lead" style="margin-top:0"></p>
-   <div class="frow">
-    <div class="field"><label for="t-type">Schedule</label><select id="t-type"><option value="daily">Daily</option><option value="eod">Every other day</option><option value="days">Specific weekdays</option><option value="weekly">Weekly</option><option value="interval">Every N days</option></select></div>
-    <div class="field"><label for="t-start">Schedule start date</label><input id="t-start" type="date"></div>
-   </div>
-   <div class="field" id="t-daysw" hidden><label>Weekdays</label><div class="chips" id="t-days">${DOW.map((l,i)=>`<label class="chip" style="cursor:pointer"><input type="checkbox" value="${i}" style="margin-right:4px">${['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][i]}</label>`).join('')}</div></div>
-   <div class="field" id="t-everyw" hidden><label for="t-every">Every N days</label><input id="t-every" type="number" min="1" max="60" step="1"></div>
-   <div class="frow">
-    <div class="field"><label for="t-recon">Vial reconstituted on</label><input id="t-recon" type="date"></div>
-    <div class="field"><label for="t-bud">Beyond-use days</label><input id="t-bud" type="number" min="1" max="120" step="1"></div>
-   </div>
-   <div class="field"><label for="t-sites">Injection site rotation <small>(comma separated, in order)</small></label><input id="t-sites" type="text" placeholder="Left abdomen, Right abdomen, ..."></div>
-   <div style="display:flex;gap:8px;flex-wrap:wrap"><button class="chip" id="t-newvial" type="button">Start a new vial today</button></div>
-  </div>
-  <div>
+  <div class="cg">
+   <h4><i>a</i> Today</h4>
+   <p id="t-using" class="note" style="margin-top:0"></p>
    <div class="result"><div class="sub">Next dose</div><div class="big" id="t-next" style="font-size:2rem">—</div><div class="sub" id="t-rel"></div></div>
    <div class="frow" style="margin-top:12px">
     <div class="field"><label for="t-ldate">Dose taken on</label><input id="t-ldate" type="date"></div>
-    <div class="field"><label for="t-lsite">Site</label><select id="t-lsite"></select></div>
+    <div class="field"><label for="t-lsite">Injection site</label><select id="t-lsite"></select></div>
    </div>
    <div class="frow">
-    <div class="field"><label for="t-ldose">Dose (mcg) <small>blank = calculator</small></label><input id="t-ldose" type="number" min="0" step="any"></div>
-    <div class="field" style="align-self:end"><button class="chip on" id="t-log" type="button" style="width:100%;padding:10px">Log dose</button></div>
+    <div class="field"><label for="t-ldose">Dose (mcg) <small>blank = step 3</small></label><input id="t-ldose" type="number" min="0" step="any"></div>
+    <div class="field" style="align-self:end"><button class="chip on" id="t-log" type="button" style="width:100%;padding:10px">Log this dose</button></div>
    </div>
    <div id="t-warn"></div>
+   <h4 style="margin-top:16px"><i>b</i> Your vial</h4>
    <dl class="kv" id="t-kv"></dl>
   </div>
+  <div class="cg">
+   <h4><i>c</i> Your schedule</h4>
+   <div class="frow">
+    <div class="field"><label for="t-type">How often</label><select id="t-type"><option value="daily">Every day</option><option value="eod">Every other day</option><option value="days">Certain weekdays</option><option value="weekly">Once a week</option><option value="interval">Every N days</option></select></div>
+    <div class="field"><label for="t-start">Starting on</label><input id="t-start" type="date"></div>
+   </div>
+   <div class="field" id="t-daysw" hidden><label>Which days</label><div class="chips" id="t-days">${DOW.map((l,i)=>`<label class="chip" style="cursor:pointer"><input type="checkbox" value="${i}" style="margin-right:4px">${['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][i]}</label>`).join('')}</div></div>
+   <div class="field" id="t-everyw" hidden><label for="t-every">Days between doses</label><input id="t-every" type="number" min="1" max="60" step="1"></div>
+   <h4 style="margin-top:16px"><i>d</i> Vial and sites</h4>
+   <div class="frow">
+    <div class="field"><label for="t-recon">Mixed on</label><input id="t-recon" type="date"></div>
+    <div class="field"><label for="t-bud">Use within (days)</label><input id="t-bud" type="number" min="1" max="120" step="1"></div>
+   </div>
+   <p class="hint">Mixed peptide should not be kept forever. 28 days is a common limit. Check what applies to yours.</p>
+   <div class="field"><label for="t-sites">Injection sites, in rotation order <small>(comma separated)</small></label><input id="t-sites" type="text" placeholder="Left abdomen, Right abdomen, ..."></div>
+   <button class="chip" id="t-newvial" type="button">I opened a new vial today</button>
+  </div>
  </div>
- <h3 style="margin-top:22px">Estimated level</h3>
+ <h3 style="margin-top:22px">Estimated level in your body</h3>
  <div id="t-pk"></div>
- <h3 style="margin-top:22px">History</h3>
- <div id="t-hist"></div>
- <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:14px">
-  <button class="chip" id="t-ics" type="button">Download calendar (.ics)</button>
+ <details class="more" open><summary>History</summary><div id="t-hist"></div></details>
+ <details class="more"><summary>Save, share or reset</summary>
+ <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">
+  <button class="chip" id="t-ics" type="button">Add to calendar (.ics)</button>
   <button class="chip" id="t-expj" type="button">Export JSON</button>
   <button class="chip" id="t-expc" type="button">Export CSV</button>
   <button class="chip" id="t-imp" type="button">Import JSON</button>
   <button class="chip" id="t-clr" type="button">Clear this peptide</button>
   <button class="chip" id="t-clrall" type="button">Clear all tracker data</button>
   <input id="t-file" type="file" accept="application/json,.json" hidden>
- </div>
+ </div></details>
  <p id="t-msg" style="font-size:13px;color:var(--muted);margin:8px 0 0" role="status"></p>
 </div>`}
 
@@ -135,27 +139,27 @@ function init(root,ctx){
 
   function renderPK(p,s,next,today){
     const box=$i('t-pk'),row=findHalf(calc.name);
-    if(!row){box.innerHTML=`<div class="callout"><p>No half-life estimate in the guide for ${esc(calc.name)}, so no level curve is drawn.</p></div>`;return}
+    if(!row){box.innerHTML=`<p class="note">The guide has no half-life estimate for ${esc(calc.name)}, so no level curve is drawn.</p>`;return}
     const hl=parseHours(row[1]),hlE=parseHours(row[2]);
     const basis=box._basis||'1';const hours=basis==='1'?hl:hlE;
     const sel=`<div class="field" style="max-width:320px"><label for="t-basis">Half-life basis</label><select id="t-basis"><option value="1"${basis==='1'?' selected':''}>Plasma: ${esc(row[1])}</option><option value="2"${basis==='2'?' selected':''}>Effect duration: ${esc(row[2])}</option></select></div>`;
     if(!(hours>0)){box.innerHTML=sel+`<div class="callout"><p>The guide's value for this basis (${esc(basis==='1'?row[1]:row[2])}) is not a number of hours, so no curve is drawn. Try the other basis.</p></div>`;bindBasis(box);return}
-    const from=M.addDays(today,-14),to=M.addDays(today,42);
+    const back=hours<12?2:hours<72?7:14,fwd=hours<12?5:hours<72?14:42;const from=M.addDays(today,-back),to=M.addDays(today,fwd);
     const actual=p.log.map(l=>({d:l.date,w:calc.doseMcg>0?l.doseMcg/calc.doseMcg:1}));
     const proj=next?M.dates(s,next,80).filter(d=>d<=to).map(d=>({d,w:1})):[];
-    const all=actual.concat(proj),t0=M.parse(from),T=(M.parse(to)-t0)/3600000,step=hours<12?1:hours<72?3:6;
+    const all=actual.concat(proj),t0=M.parse(from),T=(M.parse(to)-t0)/3600000,step=Math.max(0.25,Math.min(6,hours/12));
     const pts=[];let max=0;
     for(let t=0;t<=T;t+=step){let y=0;for(const x of all)y+=x.w*M.single(t-(M.parse(x.d)-t0)/3600000,hours);pts.push([t,y]);if(y>max)max=y}
     max=Math.max(max,1);
     const W=640,H=300,L=46,B=30,Tp=12,R=12,pw=W-L-R,ph=H-B-Tp,X=t=>L+t/T*pw,Y=y=>Tp+ph-y/max*ph;
     let g='';for(let i=0;i<=4;i++){const y=Tp+ph*i/4;g+=`<line x1="${L}" x2="${W-R}" y1="${y}" y2="${y}" stroke="var(--line)"/><text x="${L-6}" y="${y+4}" text-anchor="end">${fmtNum(max*(1-i/4),1)}</text>`}
-    for(let i=0;i<=8;i++){const t=T*i/8,d=M.addDays(from,Math.round(t/24));g+=`<text x="${X(t)}" y="${H-9}" text-anchor="middle">${d.slice(5)}</text>`}
+    for(let i=0;i<=8;i++){const t=T*i/8,d=M.addDays(from,Math.floor(t/24));g+=`<text x="${X(t)}" y="${H-9}" text-anchor="middle">${d.slice(5)}</text>`}
     const path='M'+pts.map(q=>X(q[0]).toFixed(1)+','+Y(q[1]).toFixed(1)).join('L');
     const xt=d=>X((M.parse(d)-t0)/3600000);
     const ticks=actual.filter(x=>x.d>=from&&x.d<=to).map(x=>`<circle cx="${xt(x.d)}" cy="${Y(0)}" r="4" fill="var(--accent)"/>`).join('')+proj.map(x=>`<circle cx="${xt(x.d)}" cy="${Y(0)}" r="3.5" fill="var(--surface)" stroke="var(--accent)"/>`).join('');
     const tx=xt(today);
     box.innerHTML=sel+`<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="Estimated relative level over time">${g}<path d="${path}L${X(T)},${Y(0)}L${X(0)},${Y(0)}Z" fill="var(--accent)" opacity=".12"/><path d="${path}" fill="none" stroke="var(--accent)" stroke-width="2"/><line x1="${tx}" x2="${tx}" y1="${Tp}" y2="${Tp+ph}" stroke="var(--muted)" stroke-dasharray="4 3"/><text x="${tx+4}" y="${Tp+12}">today</text>${ticks}</svg>
-    <p style="font-size:13px;color:var(--muted);margin:6px 0 0">Illustrative, not a measurement. 1.0 = the amount of one full dose in the body, using a ${esc(fmtNum(hours,2))} hour half-life from the guide and a simple absorb-then-clear model. Filled dots are logged doses, hollow dots are scheduled ones. Real levels vary by person, product and injection.</p>`;
+    <p style="font-size:13px;color:var(--muted);margin:6px 0 0"><b>How to read this:</b> the line rises after each dose and falls as the body clears it. Taller means more in the body. Illustrative, not a measurement. 1.0 = the amount of one full dose in the body, using a ${esc(fmtNum(hours,2))} hour half-life from the guide and a simple absorb-then-clear model. Filled dots are logged doses, hollow dots are scheduled ones. Real levels vary by person, product and injection.</p>`;
     bindBasis(box);
   }
   function bindBasis(box){const b=box.querySelector('#t-basis');if(b)b.addEventListener('change',()=>{box._basis=b.value;render()})}
