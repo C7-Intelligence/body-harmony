@@ -9,7 +9,7 @@ from email.utils import parsedate_to_datetime
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'peptide-guide-v2')
 CFG = json.load(open(os.path.join(ROOT, 'feed-sources.json')))
 OUT = os.path.join(ROOT, 'js', 'feed.js')
-UA = {'User-Agent': 'PeptideGuideFeed/1.0 (+https://github.com/C7-IMI/PepGuide-2.0)'}
+UA = {'User-Agent': 'PeptideGuideFeed/1.0 (+https://github.com/C7-Intelligence/PepGuide-2.0)'}
 KW = [k.lower() for k in CFG['keywords']]
 NOW = datetime.now(timezone.utc)
 
