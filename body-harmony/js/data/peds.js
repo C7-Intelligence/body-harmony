@@ -1,5 +1,5 @@
 (window.DATA=window.DATA||{}).peds={
- "heading": "IndiaMart",
+ "heading": "IndiaMART",
  "links": [
   "https://export.indiamart.com",
   "https://teamroids.to/price-list",

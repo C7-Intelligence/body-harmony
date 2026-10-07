@@ -115,7 +115,7 @@
   {
    "name": "IndiaMART",
    "url": "https://export.indiamart.com",
-   "type": "IndiaMart"
+   "type": "IndiaMART"
   },
   {
    "name": "WBS Peptide",

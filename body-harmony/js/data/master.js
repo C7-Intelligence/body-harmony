@@ -29,7 +29,7 @@
   "https://peptidetest.com/"
  ],
  "misc": [
-  "IndiaMart",
+  "IndiaMART",
   "Medication:",
   "Supplies",
   "Does this work",
