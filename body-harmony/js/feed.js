@@ -1,119 +1,105 @@
 window.FEED={
- "generated": "2026-10-07T13:34Z",
+ "generated": "2026-10-07T23:10Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-07T13:34Z",
+   "checked": "2026-10-07T23:10Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-07T13:34Z"
+   "lastOk": "2026-10-07T23:10Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-07T13:34Z",
+   "checked": "2026-10-07T23:10Z",
    "ok": true,
    "new": 0,
-   "seen": 2,
-   "lastOk": "2026-10-07T13:34Z"
+   "seen": 1,
+   "lastOk": "2026-10-07T23:10Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-07T13:34Z",
+   "checked": "2026-10-07T23:10Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-07T13:34Z"
+   "lastOk": "2026-10-07T23:10Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-07T13:34Z",
+   "checked": "2026-10-07T23:10Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-07T13:34Z"
+   "lastOk": "2026-10-07T23:10Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-07T13:34Z",
+   "checked": "2026-10-07T23:10Z",
    "ok": true,
    "new": 0,
    "seen": 6,
-   "lastOk": "2026-10-07T13:34Z"
+   "lastOk": "2026-10-07T23:10Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-07T13:34Z",
+   "checked": "2026-10-07T23:10Z",
    "ok": true,
-   "new": 4,
-   "seen": 4,
-   "lastOk": "2026-10-07T13:34Z"
+   "new": 2,
+   "seen": 2,
+   "lastOk": "2026-10-07T23:10Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-07T13:34Z",
+   "checked": "2026-10-07T23:10Z",
    "ok": true,
-   "new": 149,
-   "seen": 188,
-   "lastOk": "2026-10-07T13:34Z"
+   "new": 148,
+   "seen": 187,
+   "lastOk": "2026-10-07T23:10Z"
   }
  ],
  "items": [
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/noom-puts-spooky-voice-haunting-threat-weight-regain-glp-1-users-new-spot",
-   "d": "2026-10-07",
-   "s": "fierce",
-   "x": "Noom's horror movie-esque new ad showcases the haunting threat of weight regain on GLP-1s, which the Noom app can help fend off."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/locking-pharmas-consumerization-trend",
-   "d": "2026-10-07",
-   "s": "fierce",
-   "x": "With GLP-1s paving the way, a consumer shift is happening across markets for certain branded pharmaceuticals. Now, the CEO of a buzzy pattern-hair-loss biotech is eyeing opportunities in an evolving market that could expand well beyond his own company."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-10-07",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/astrazeneca-2b-bet-ivonescimab-novo-buys-hengrui-glp-1-merck-doubles-down-kras",
-   "d": "2026-10-07",
-   "s": "fierce",
-   "x": "In three deals each worth $2 billion or more, AstraZeneca is investing in Summit Therapeutics with a focus on ivonescimab, Novo bought a preclinical GLP-1/GIP drug from Hengrui Pharma, while Merck & Co. got a preclinical RAS(ON) inhibitor from China's SciBrunch. And more."
-  },
   {
    "t": "Compounding Pharmacies for Weight-Loss Drugs Are Booming. Should You Trust Them? - Time Magazine",
    "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSWlHcm1DMnJybXI4NEVQc2k3RzhuY185QzVJNXpTRnZ3MXd6bk1ULW9LcmdWYWJld1ZkZnJoTzBfeE1qczhzaTN6MHpueGpvc1FuRUlmVVZqelV6N0JoUy1CUjU3UFZKeVVQYXlFQ3Ftd1lMNUtUMHZNNmUzRm1uQ1lGYw?oc=5",
    "d": "2026-10-07",
    "s": "gnews",
    "x": "Compounding Pharmacies for Weight-Loss Drugs Are Booming. Should You Trust Them? Time Magazine"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/how-drugmakers-are-tapping-glp-1-frenzys-unprecedented-consumer-overlay",
+   "d": "2026-10-07",
+   "s": "fierce",
+   "x": "With the advent of powerful GLP-1 medications from Novo and Eli Lilly, the conversation about obesity as a chronic disease has begun to shift, along with the understanding of how tackling weight can trigger a multitude of downstream health benefits."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/noom-puts-spooky-voice-haunting-threat-weight-regain-glp-1-users-new-spot",
+   "d": "2026-10-07",
+   "s": "fierce",
+   "x": "Noom's horror movie-esque new ad showcases the haunting threat of weight regain on GLP-1s, which the Noom app can help fend off."
   },
   {
    "t": "Pine Pharmaceuticals, LLC - 728537 - 08/07/2026",

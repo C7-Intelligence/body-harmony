@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-07T13:34Z",
+ "generated": "2026-10-07T23:10Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-07T13:34Z",
+   "checked": "2026-10-07T23:10Z",
    "ok": true,
-   "new": 84,
-   "seen": 126,
-   "lastOk": "2026-10-07T13:34Z"
+   "new": 107,
+   "seen": 150,
+   "lastOk": "2026-10-07T23:10Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-07T13:34Z",
+   "checked": "2026-10-07T23:10Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-07T13:34Z"
+   "lastOk": "2026-10-07T23:10Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-07T13:34Z",
+   "checked": "2026-10-07T23:10Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-07T13:34Z"
+   "lastOk": "2026-10-07T23:10Z"
   }
  ],
  "items": [
@@ -70,6 +70,27 @@ window.FEED_ART={
    "d": "2026-10-07",
    "s": "gnews-a",
    "x": "GMR Peptides Provides Online Access to Specialized Research Peptides FinancialContent"
+  },
+  {
+   "t": "5 Things to Know if Retatrutide Is Classified as a Biologic - AJMC",
+   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYTU0b29SdmNhMmFxRVpGM0pySWZhYk5UTklQMGFmdUs3d0NpYUxRWnRVdXNuX3ZRMVZldE5kSkdxNTlzMWdmeURDcEdPQmVJTTY2eEttY1hjUGNkQ2hjZk4xRVVfXzFPdWVsX1pLSU5sT0dvaUlCRG56d2g0amNKbmVoTzNXSk1DRTgxWVZ3?oc=5",
+   "d": "2026-10-07",
+   "s": "gnews-a",
+   "x": "5 Things to Know if Retatrutide Is Classified as a Biologic AJMC"
+  },
+  {
+   "t": "The scariest thing about gray-market peptides is how little we know - The Verge",
+   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXhsY2E2ZGtzbjllZHN0S3hQM3FMYWV3OUZLUXNiNTdxYlpEUjg4OXphRXBVRWdnQVNHcVZrUEtjNXozX2lzcnFpbFpPX2tnaW5wY054MHg2QjllNHRxWGJlc3NGVW5SY0hReHdhTjl1TkhIbkNkWUx5VGJuUzZRQkh1U0ZEeWxjT2FLR21Xbw?oc=5",
+   "d": "2026-10-07",
+   "s": "gnews-a",
+   "x": "The scariest thing about gray-market peptides is how little we know The Verge"
+  },
+  {
+   "t": "Influencers Are Peddling Peptides, but Is Tanmaxxing Worth the Risk? - KQED",
+   "l": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tU2oxd21fUmhSNkdVTUhMVWNYcmJnUnRlX2tyanJqSGVGNzZWWVFwTHNZSWYxMTFlNV84dVJQa2dOMGI2MDFHSEstYUhDZ2FzWGxVWFRaWm5rSGJyOUhpZVdiaC0?oc=5",
+   "d": "2026-10-07",
+   "s": "gnews-a",
+   "x": "Influencers Are Peddling Peptides, but Is Tanmaxxing Worth the Risk? KQED"
   },
   {
    "t": "BPC-157 and TB-500: Do Peptides Work for Endurance Athletes? - the5krunner",
@@ -121,6 +142,34 @@ window.FEED_ART={
    "x": "Stem cells might be the next peptides, and how Trump's $90 checks will play out after the election."
   },
   {
+   "t": "Kylo Peptides Review Brings Transparency to the Research Peptide Market - Yahoo Finance",
+   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU21LaG9xOW5MN1RBWkxHNEY1YjVZNU5KbDJnYU5yVWtyblJ6X1F3Z2VZWEpZcmdzbmJQcnZrT1VQTndOd3J1TEx6ZXhLUlkzcGhXZEdQZVRTaUpiS09UY3FqdDR5bEYyQkZlRnhhR05OclZPU1RuUTFneFJNM2gtWnJGMW5mRzgwT3lJOE15WkZSMVhBel9sbUNUX1BLOWJtYkg4?oc=5",
+   "d": "2026-10-06",
+   "s": "gnews-a",
+   "x": "Kylo Peptides Review Brings Transparency to the Research Peptide Market Yahoo Finance"
+  },
+  {
+   "t": "Bulk Peptides: Kylo Peptides Launches Bulk Research Program for High-Volume Laboratories - Yahoo Finance",
+   "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeDg1aE0tSlhkdmQweEx6VzRBODhlcFRqTVBmbGJxdTVrTV9GSmJOekc2MnRsd18xN3JjTmVHdEJ2Nnp3SUlIaW1XYXBBOWpKTGxhaEhFZHR1NDNidTNCRzVqUHI3Q0IxS0phRjFwbHNfLWhfNjZWZ2Y2S05sdWpxVUZlOGVkSnlEcTk0UGVDVFpFeTdCSHZVZXh4R2hOZw?oc=5",
+   "d": "2026-10-06",
+   "s": "gnews-a",
+   "x": "Bulk Peptides: Kylo Peptides Launches Bulk Research Program for High-Volume Laboratories Yahoo Finance"
+  },
+  {
+   "t": "Altro Health Raises $7M to Bring Peptides and GLP-1s to Wellness Businesses - Fitt Insider",
+   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSkFZSnZqWEprRTJTV2MzNmhEZ1Jhb1pkTW83TEJFZDh3Q1FHQzJUMzNyWkh3RGQ2R2pMNG1LMFpYc3pXbGVuQ0w2c09FS2R4MERVRHRBeThnaVZ0Q1FwRXhqSVZ4ZjQ5VjlPeHZkYnJfcmFjOGRDQTRRcXNrTko5cUNmeXZ0M3BSUmdkWWZQUEJVMnc?oc=5",
+   "d": "2026-10-06",
+   "s": "gnews-a",
+   "x": "Altro Health Raises $7M to Bring Peptides and GLP-1s to Wellness Businesses Fitt Insider"
+  },
+  {
+   "t": "Nox Peptides Announces Launch of GHK-Cu and Wolverine Stack for Canadian Research Market - Lelezard",
+   "l": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbGJHaG9UZXZOMkg5dDBLVFRneGpjWm9QWnp3MThDYTdhd3RZTXNpTW1DcUVxYzN0dTRYLWFfWTk3UDNDTlNNWkdqOE1UbmpObFVuZllRSi03VTZJeEdWM09CZW5uRktvNDFDaHFuUlBFa25seGdPamJvNWRRc0d0dW1BQ3h6WXpwakNKVE13U1YtbWd4bjlleHBwanRISjBNUXNDMndJV2Y4MHoybG9iQzBfVnVuc0lITjBnWllVWDUyRFZEUGNIMS1KVzY1RTlX?oc=5",
+   "d": "2026-10-06",
+   "s": "gnews-a",
+   "x": "Nox Peptides Announces Launch of GHK-Cu and Wolverine Stack for Canadian Research Market Lelezard"
+  },
+  {
    "t": "Are stem cells the next peptides? These advocates think RFK Jr. could make it happen - STAT",
    "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmhGY0FlVEFBLTVlMlQzZXM3WVRsbURxUE9od3lRc2JoTlFxOXd3UFN4NEFXZVFzb1hqNFktd0Q5ejFGeDZUOFdlTFF0b1FDZm9MVHBmcVZmSDZwckFPM0g1dThwcUpqRS1KQWVUUVc2VDZ3NXBRUXpLRjUzZEZ5NDhHR1FWUWM0d0poNVp1VmwyRFlR?oc=5",
    "d": "2026-10-05",
@@ -147,13 +196,6 @@ window.FEED_ART={
    "d": "2026-10-05",
    "s": "gnews-a",
    "x": "next generation weight loss drugs after retatrutide 2026 www.polskieradio.pl"
-  },
-  {
-   "t": "Retatrutide’s Phase 3 TRIUMPH, Cardiac Drones, and TAVR’s MR Impact - Cardiac Wire",
-   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ2FvRVdRUUtRM1hSQnM2MHoyYjJ3SHJBYUticGNFZUthT1NCMHNGUEJ5cmdMQ0Zmdl9Wa3hCV0hXUHdoTjE2dk4zUm5CdkszaUZaSzExOG1pZG5Zc3NxU3lqdnVOY1FLQUI2OGZBbjVwZVV2RWkza0NiZGJOM0dpV0liY0Jfb1BmX2V5R0NLak5JNldVa2YtVERBMlBZLVZy?oc=5",
-   "d": "2026-10-05",
-   "s": "gnews-a",
-   "x": "Retatrutide’s Phase 3 TRIUMPH, Cardiac Drones, and TAVR’s MR Impact Cardiac Wire"
   },
   {
    "t": "eli lilly trial shows drug retatrutide produces significant weight loss - www.polskieradio.pl",
@@ -282,60 +324,18 @@ window.FEED_ART={
    "x": "most effective weight loss drug 2026 tirzepatide retatrutide www.polskieradio.pl"
   },
   {
+   "t": "A Peptide Company Worth Trusting in 2026 - Peptara Labs - Issuewire",
+   "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQzg2aGg4MHBhQzhqaTd6UkNYSXl0Tmhxb0dRaG83TDY2WllJQU0wMDk2M3NrSE55N1VJRDRINy1nalNuZ3paak8xVUhscVJSMzd5VzkxNHIyVWdxR0MxSVN4bk1tamxWeXc4a3hYOFhrRzVfVEdiLW43MjRKNzhhMGNkM3paTkdKRzBTck5KU1J1VHUwRTA3SF9RVGU?oc=5",
+   "d": "2026-10-03",
+   "s": "gnews-a",
+   "x": "A Peptide Company Worth Trusting in 2026 - Peptara Labs Issuewire"
+  },
+  {
    "t": "In HelloNation, Wellness Expert and Bodybuilding.com CEO Andres Giraldo Explains Peptide Sourcing - PR Newswire",
    "l": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTXRGTHM5UnVtWklSa1ZCZGVTUjlsd1RGZDJIZDMyblFYTWp5dXdHZlRkUEJRcVFwN2xWd011ZElDNjJuVDdXUnZNXzlONTdYQklDWGVHV256Q3laMkNHWWsyemwwRXY4Rmk1ZTAwTkxQS0l6ZFNzSTd6VjhIdnYtZnFCd2xCcS0zN3pEVW9tdVZsVkFPdVA1QUdIVzdtQVI5anpPekFaUnktdzk1M2ZsZjh2RXM3TDdQMDNWUDFOOWlWVDlXX2h1NUt3elgtT1dQUVpZaDRWaDBkT05NMUszbWw3U0dldw?oc=5",
    "d": "2026-10-02",
    "s": "gnews-a",
    "x": "In HelloNation, Wellness Expert and Bodybuilding.com CEO Andres Giraldo Explains Peptide Sourcing PR Newswire"
-  },
-  {
-   "t": "Retatrutide Delivers Substantial Weight Loss in Type 2 Diabetes - MedPage Today",
-   "l": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9Qb2t0TC1HS3NLN1hPSUhfdFZkeU5kdjk3SDJYT3F6eVRRall0NlFYYzRic0tTaUtVRmlnVEVWU3RXaTNHbnNUeFM0cTdIbEVGOVdaaFZrdHgyRkZ6VzhhWmNIM3NMeGs?oc=5",
-   "d": "2026-10-02",
-   "s": "gnews-a",
-   "x": "Retatrutide Delivers Substantial Weight Loss in Type 2 Diabetes MedPage Today"
-  },
-  {
-   "t": "Amino Acid Count Determines Retatrutide's Biologic or Drug Classification - BioPharm International",
-   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQWU1LeEdZb3JmSkZKT3dpUHJXMW9na1lUUU5TOFhaeV9sWVdTYlNoWjdEZjJvaHZ6OVZfeWZjcjEwcnEtMEFyX2MzWm5SbzhacWlsbVVpTEJlTjc5N1JXd0dvaGw4NTJDMV9IZ0tycUtIelA4TGs4em9pazRkT1ZkSllFMDBxM2NBd1ptMC05MjlITEgwd2VUcWJybk1NNXlfNHc?oc=5",
-   "d": "2026-10-02",
-   "s": "gnews-a",
-   "x": "Amino Acid Count Determines Retatrutide's Biologic or Drug Classification BioPharm International"
-  },
-  {
-   "t": "EASD 2026: TRIUMPH-2 data puts retatrutide above the incretin ceiling in T2D - Clinical Trials Arena",
-   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQT2RYc21mZVgyUjY4RHMxUHF4ZWs5UHpWSUNQUDdMUzdZSkozcWhKYWpFTXV5Tmh6Wjl2dFRoVVZtWDNKSGpQbllTNzVITThqX093NmdrZmt1eEY4dV9lUE52VmZZTms0N0tyTm02bThfRk1kQi1tbWRKdmFsdVJ4cDRNR3F3RndwOS1tNWtFdkpLVnlhS2JidQ?oc=5",
-   "d": "2026-10-02",
-   "s": "gnews-a",
-   "x": "EASD 2026: TRIUMPH-2 data puts retatrutide above the incretin ceiling in T2D Clinical Trials Arena"
-  },
-  {
-   "t": "Peer-Reviewed Retatrutide Data Show 23.4% Weight Loss in Adults with Diabetes and BMI of 35 or Higher - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPQW03Q2Vtei12YnZvekxLVl9Vc1NjcHFGOEJrZy1HN0xDS0Fnc2tPNWJWV1I5dXFJM2VfZHhPT2VKdG9PNWhjRXJ6OEEyV3NXN2ttLXVjVHF0QVVBSkxIdndoWHVlMmtZcWVEU3B6R01oNE5oeUtRUll1dDhzRHlRZEF4SENRT0RTZUZKeVFzNjd1dWwyb0JzeVRNQ2JISFZHbThnZWFFZDg1bUtyQTNwZzB4UzBFVTRI?oc=5",
-   "d": "2026-10-02",
-   "s": "gnews-a",
-   "x": "Peer-Reviewed Retatrutide Data Show 23.4% Weight Loss in Adults with Diabetes and BMI of 35 or Higher Medical Daily"
-  },
-  {
-   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNbmN6NWxkR3MzNk55M1ZkVTh0N2c0SnRKLU1LUXdGazBfVmtxRTRUUGJzNlZqdWtDV2kxTGVTYTl2b1hIMFFjYnYzeUlibkxZQzBja2hxYW1RZ2R1S1h6R2xFdGIyaWJXT25OaEpTNVlvdjMtTm5naGxfS3pwcno4SzBGLUZVWHFFcEdOUTVoWmZxV2xyNUpKeV9ScGIxQ3JESURwYlJR?oc=5",
-   "d": "2026-10-02",
-   "s": "gnews-a",
-   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss BusinessWorld Online"
-  },
-  {
-   "t": "retatrutide most powerful weight loss drug clinical development - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORDZqNVlWMDVtc0ttR3dqeVVXdWR4bVZ3dGxFWmx4b2ZneHpCTVRzdFhYTEF4T2RwYTgxc04xbWJMc2JwYlNidDM0WTJPc0tVYms1U0otTk12Y1ZzcE5IamtXN1hDRTBLdWdTRUFMZEhJT0Z0NVBVa0cxWHpYSFV6bVIzSlhNYlpQQTF2dzQzZnNNbElpUFd0R1ltdTZ1bV8zRFQtZm5JNkRtWDA?oc=5",
-   "d": "2026-10-02",
-   "s": "gnews-a",
-   "x": "retatrutide most powerful weight loss drug clinical development BusinessWorld Online"
-  },
-  {
-   "t": "is retatrutide a weight loss drug - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE01dHl3Y1lJMjF5QTUySV90aXFjLVAwT09panFYaVQtbkRzQU00MjBCMndNajdxekdVdFMxQ2RoZDM4OGhyaE5la1ZmZncwRG05VktGa2RSeUZqNlNxWlJyclcxM0k0blgzZ1dLNDFVbEJNeG5vbXFPVXU0UEFKNmM?oc=5",
-   "d": "2026-10-02",
-   "s": "gnews-a",
-   "x": "is retatrutide a weight loss drug www.polskieradio.pl"
   },
   {
    "t": "Retatrutide trial: Triple action jab can cause weight loss of up to 25%, results suggest.",
