@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-07T06:08Z",
+ "generated": "2026-10-07T13:34Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-07T06:08Z",
+   "checked": "2026-10-07T13:34Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-07T06:08Z"
+   "lastOk": "2026-10-07T13:34Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-07T06:08Z",
+   "checked": "2026-10-07T13:34Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-07T06:08Z"
+   "lastOk": "2026-10-07T13:34Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-07T06:08Z",
+   "checked": "2026-10-07T13:34Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-07T06:08Z"
+   "lastOk": "2026-10-07T13:34Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-07T06:08Z",
+   "checked": "2026-10-07T13:34Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-07T06:08Z"
+   "lastOk": "2026-10-07T13:34Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-07T06:08Z",
+   "checked": "2026-10-07T13:34Z",
    "ok": true,
    "new": 0,
    "seen": 6,
-   "lastOk": "2026-10-07T06:08Z"
+   "lastOk": "2026-10-07T13:34Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-07T06:08Z",
+   "checked": "2026-10-07T13:34Z",
    "ok": true,
    "new": 4,
    "seen": 4,
-   "lastOk": "2026-10-07T06:08Z"
+   "lastOk": "2026-10-07T13:34Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-07T06:08Z",
+   "checked": "2026-10-07T13:34Z",
    "ok": true,
-   "new": 148,
+   "new": 149,
    "seen": 188,
-   "lastOk": "2026-10-07T06:08Z"
+   "lastOk": "2026-10-07T13:34Z"
   }
  ],
  "items": [
@@ -107,6 +107,13 @@ window.FEED={
    "d": "2026-10-07",
    "s": "fierce",
    "x": "In three deals each worth $2 billion or more, AstraZeneca is investing in Summit Therapeutics with a focus on ivonescimab, Novo bought a preclinical GLP-1/GIP drug from Hengrui Pharma, while Merck & Co. got a preclinical RAS(ON) inhibitor from China's SciBrunch. And more."
+  },
+  {
+   "t": "Compounding Pharmacies for Weight-Loss Drugs Are Booming. Should You Trust Them? - Time Magazine",
+   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSWlHcm1DMnJybXI4NEVQc2k3RzhuY185QzVJNXpTRnZ3MXd6bk1ULW9LcmdWYWJld1ZkZnJoTzBfeE1qczhzaTN6MHpueGpvc1FuRUlmVVZqelV6N0JoUy1CUjU3UFZKeVVQYXlFQ3Ftd1lMNUtUMHZNNmUzRm1uQ1lGYw?oc=5",
+   "d": "2026-10-07",
+   "s": "gnews",
+   "x": "Compounding Pharmacies for Weight-Loss Drugs Are Booming. Should You Trust Them? Time Magazine"
   },
   {
    "t": "Pine Pharmaceuticals, LLC - 728537 - 08/07/2026",
@@ -512,13 +519,6 @@ window.FEED={
    "d": "2026-07-31",
    "s": "gnews",
    "x": "FDA panel backs unapproved peptides despite safety concerns Drug Discovery News"
-  },
-  {
-   "t": "The (Pep)Tides Turn: FDA Panel Recommends Six of Seven for Compounding - ArentFox Schiff",
-   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOa1gtYkhNdC1Xd3hmUWZjV25scWs3V3ladEU4OTZVa0tnT0pndUt6MFFKNEd5SWJNMTBrZHQwblNvTk15RUlJdElyMFVxUHB3ZjBqTDE1UlFId19zcGRrUEJfMnFVYTJ6MGtxUTdBaklKTlNYekdWbjViYVA1U0trQ3RZTGotOWYwVFBFV1VxMlhSU2ZobHRpS2h0THBvdmdvODRnTmx3?oc=5",
-   "d": "2026-07-31",
-   "s": "gnews",
-   "x": "The (Pep)Tides Turn: FDA Panel Recommends Six of Seven for Compounding ArentFox Schiff"
   },
   {
    "t": "Product-Specific Guidances; Revised Draft Guidances for Industry; Availability",

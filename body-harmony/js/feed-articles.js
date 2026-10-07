@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-07T06:08Z",
+ "generated": "2026-10-07T13:34Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-07T06:08Z",
+   "checked": "2026-10-07T13:34Z",
    "ok": true,
-   "new": 124,
-   "seen": 127,
-   "lastOk": "2026-10-07T06:08Z"
+   "new": 84,
+   "seen": 126,
+   "lastOk": "2026-10-07T13:34Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-07T06:08Z",
+   "checked": "2026-10-07T13:34Z",
    "ok": true,
-   "new": 15,
+   "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-07T06:08Z"
+   "lastOk": "2026-10-07T13:34Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-07T06:08Z",
+   "checked": "2026-10-07T13:34Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-07T06:08Z"
+   "lastOk": "2026-10-07T13:34Z"
   }
  ],
  "items": [
@@ -56,6 +56,20 @@ window.FEED_ART={
    "d": "2026-10-07",
    "s": "gnews-a",
    "x": "newsGP - Patients’ hidden GLP-1 use sparks surgery safety warning Royal Australian College of General Practitioners (RACGP)"
+  },
+  {
+   "t": "Largest Seizure of Illegal Peptides in Switzerland Occurs in Pratteln, Basel-Landschaft - bluewin.ch",
+   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVHRLZm8zS01lazVGWExmbTNOWFktN05VUWRfNTRWMFVtZDNtMS1RRlo3bEp4NUU3V29lV014QUdRamNRWmZpWWx3OW9nME9nUXJiMVJjVHV5TjNMZzJkZ3hybDdkSWFUektpMXM5RjdDcHptU3ZFdFpLME5KWDl6ZElVb095WERKNkFaazlBSkpwcFlQeU4wRXl5bkpITC1YZkYwNnBZbjFZV2VqTlFlZ3oyUzhfajJXQlY4NmNUQm1QU2VyZVVR?oc=5",
+   "d": "2026-10-07",
+   "s": "gnews-a",
+   "x": "Largest Seizure of Illegal Peptides in Switzerland Occurs in Pratteln, Basel-Landschaft bluewin.ch"
+  },
+  {
+   "t": "GMR Peptides Provides Online Access to Specialized Research Peptides - FinancialContent",
+   "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMnp4ODlNNkdzdUt6UkI5eGg4LVJWM29URnJuNjhaMXVyNjRwVnJldnJFOF94THZUbFljUFRtTVRhcEY2NWRzNnJ2V09aN1EtV2EwaUZ5eGdIREF2ekVlamk2bkE4ajJGRzJOdEY4dmFyVUEtaHZvYVlWZjFHRERmT1dwZ0xLMVFxSVhwQkZDb2NhNy1DVGJIOUtjZ1RhaW01ZUtfRGJ2RnprQVB5U0VNN0hUR3B4clJwNVkzZFd6amhQMDVGdmFSQlljdmpPTVE?oc=5",
+   "d": "2026-10-07",
+   "s": "gnews-a",
+   "x": "GMR Peptides Provides Online Access to Specialized Research Peptides FinancialContent"
   },
   {
    "t": "BPC-157 and TB-500: Do Peptides Work for Endurance Athletes? - the5krunner",
@@ -322,20 +336,6 @@ window.FEED_ART={
    "d": "2026-10-02",
    "s": "gnews-a",
    "x": "is retatrutide a weight loss drug www.polskieradio.pl"
-  },
-  {
-   "t": "new weight loss drugs 2026 retatrutide cagrisema - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPcUhEdk5oUmdIdUcxbmN1ZHR4TkpzUkZUV1l6MXZMM1ItSmxmN2d5OUZJTGMta25BRXhXQjhfVnFGMGM0Q1JCQ2VNbkg2c2wydWpZSTcwb0Q3WWdueWFYUXhZdnU1NnBpQ1pEZm5QSnR1SVJVSXNJODJ0Sm5RdUUzNzl6dTZkT0dxOS1QcXpFbS1aRUk?oc=5",
-   "d": "2026-10-02",
-   "s": "gnews-a",
-   "x": "new weight loss drugs 2026 retatrutide cagrisema BusinessWorld Online"
-  },
-  {
-   "t": "Retatrutide results: weight loss, side effects, cost, and access - https://www.celinegounder.com/",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYlhxWkNZZVNWbzJicVB1N1FscU5OWF9ObDdIOFVLUnlPWTBBY09VT1ZqX3ZtdDFfQVR0SnpyWGstWG5EcEZFcXVRT2h2QV9nWlVsaFYzTE5NLUtWdnRCMVhfQzktaFNBMW15X0k5MGhkMnZPREZtRjlsa1J0UHRfTjIzVm5zdEtQRnc?oc=5",
-   "d": "2026-10-01",
-   "s": "gnews-a",
-   "x": "Retatrutide results: weight loss, side effects, cost, and access https://www.celinegounder.com/"
   },
   {
    "t": "Retatrutide trial: Triple action jab can cause weight loss of up to 25%, results suggest.",
