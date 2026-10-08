@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-08T06:15Z",
+ "generated": "2026-10-08T13:43Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-08T06:15Z",
+   "checked": "2026-10-08T13:43Z",
    "ok": true,
-   "new": 106,
-   "seen": 149,
-   "lastOk": "2026-10-08T06:15Z"
+   "new": 101,
+   "seen": 142,
+   "lastOk": "2026-10-08T13:43Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-08T06:15Z",
+   "checked": "2026-10-08T13:43Z",
    "ok": true,
-   "new": 1,
+   "new": 2,
    "seen": 15,
-   "lastOk": "2026-10-08T06:15Z"
+   "lastOk": "2026-10-08T13:43Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-08T06:15Z",
+   "checked": "2026-10-08T13:43Z",
    "ok": true,
    "new": 0,
-   "seen": 1,
-   "lastOk": "2026-10-08T06:15Z"
+   "seen": 0,
+   "lastOk": "2026-10-08T13:43Z"
   }
  ],
  "items": [
@@ -357,6 +357,13 @@ window.FEED_ART={
    "d": "2026-10-01",
    "s": "epmc",
    "x": "Nutr Clin Pract · Singhani V, Ehsan M, Valencia S, Nadeem A, Moazzam E, Butsch WS, Garg S."
+  },
+  {
+   "t": "GLP-1 receptor agonists-a potential therapy for chronic kidney disease?",
+   "l": "https://doi.org/10.1042/cs20261312",
+   "d": "2026-10-01",
+   "s": "epmc",
+   "x": "Clin Sci (Lond) · Boeckhaus J, Sayer JA, Mabillard H."
   },
   {
    "t": "FDA PCAC peptide vote: what the 503A recommendations mean",

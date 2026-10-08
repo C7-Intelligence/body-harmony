@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-08T06:15Z",
+ "generated": "2026-10-08T13:43Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-08T06:15Z",
+   "checked": "2026-10-08T13:43Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-08T06:15Z"
+   "lastOk": "2026-10-08T13:43Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-08T06:15Z",
+   "checked": "2026-10-08T13:43Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-08T06:15Z"
+   "lastOk": "2026-10-08T13:43Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-08T06:15Z",
+   "checked": "2026-10-08T13:43Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-08T06:15Z"
+   "lastOk": "2026-10-08T13:43Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-08T06:15Z",
+   "checked": "2026-10-08T13:43Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-08T06:15Z"
+   "lastOk": "2026-10-08T13:43Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-08T06:15Z",
+   "checked": "2026-10-08T13:43Z",
    "ok": true,
-   "new": 0,
-   "seen": 6,
-   "lastOk": "2026-10-08T06:15Z"
+   "new": 1,
+   "seen": 8,
+   "lastOk": "2026-10-08T13:43Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-08T06:15Z",
+   "checked": "2026-10-08T13:43Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-08T06:15Z"
+   "lastOk": "2026-10-08T13:43Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-08T06:15Z",
+   "checked": "2026-10-08T13:43Z",
    "ok": true,
    "new": 148,
    "seen": 187,
-   "lastOk": "2026-10-08T06:15Z"
+   "lastOk": "2026-10-08T13:43Z"
   }
  ],
  "items": [
+  {
+   "t": "Low-Value Shipments",
+   "l": "https://www.federalregister.gov/documents/2026/10/08/2026-20650/low-value-shipments",
+   "d": "2026-10-08",
+   "s": "fr-cbp",
+   "x": "This document proposes to amend the U.S. Customs and Border Protection regulations to modify filing requirements for informal entries of goods valued at $2,500 or less and to establish a new electronic informal entry type for merchandise entering through the mail environment.…"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/how-drugmakers-are-tapping-glp-1-frenzys-unprecedented-consumer-overlay",
