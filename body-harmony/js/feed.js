@@ -1,85 +1,99 @@
 window.FEED={
- "generated": "2026-10-07T23:10Z",
+ "generated": "2026-10-08T06:15Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-07T23:10Z",
+   "checked": "2026-10-08T06:15Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-07T23:10Z"
+   "lastOk": "2026-10-08T06:15Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-07T23:10Z",
+   "checked": "2026-10-08T06:15Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-07T23:10Z"
+   "lastOk": "2026-10-08T06:15Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-07T23:10Z",
+   "checked": "2026-10-08T06:15Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-07T23:10Z"
+   "lastOk": "2026-10-08T06:15Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-07T23:10Z",
+   "checked": "2026-10-08T06:15Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-07T23:10Z"
+   "lastOk": "2026-10-08T06:15Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-07T23:10Z",
+   "checked": "2026-10-08T06:15Z",
    "ok": true,
    "new": 0,
    "seen": 6,
-   "lastOk": "2026-10-07T23:10Z"
+   "lastOk": "2026-10-08T06:15Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-07T23:10Z",
+   "checked": "2026-10-08T06:15Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-07T23:10Z"
+   "lastOk": "2026-10-08T06:15Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-07T23:10Z",
+   "checked": "2026-10-08T06:15Z",
    "ok": true,
    "new": 148,
    "seen": 187,
-   "lastOk": "2026-10-07T23:10Z"
+   "lastOk": "2026-10-08T06:15Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/how-drugmakers-are-tapping-glp-1-frenzys-unprecedented-consumer-overlay",
+   "d": "2026-10-08",
+   "s": "fierce",
+   "x": "With the advent of powerful GLP-1 medications from Novo and Eli Lilly, the conversation about obesity as a chronic disease has begun to shift, along with the understanding of how tackling weight can trigger a multitude of downstream health benefits."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/noom-puts-spooky-voice-haunting-threat-weight-regain-glp-1-users-new-spot",
+   "d": "2026-10-08",
+   "s": "fierce",
+   "x": "Noom's horror movie-esque new ad showcases the haunting threat of weight regain on GLP-1s, which the Noom app can help fend off."
+  },
   {
    "t": "Compounding Pharmacies for Weight-Loss Drugs Are Booming. Should You Trust Them? - Time Magazine",
    "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSWlHcm1DMnJybXI4NEVQc2k3RzhuY185QzVJNXpTRnZ3MXd6bk1ULW9LcmdWYWJld1ZkZnJoTzBfeE1qczhzaTN6MHpueGpvc1FuRUlmVVZqelV6N0JoUy1CUjU3UFZKeVVQYXlFQ3Ftd1lMNUtUMHZNNmUzRm1uQ1lGYw?oc=5",
@@ -88,18 +102,11 @@ window.FEED={
    "x": "Compounding Pharmacies for Weight-Loss Drugs Are Booming. Should You Trust Them? Time Magazine"
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/how-drugmakers-are-tapping-glp-1-frenzys-unprecedented-consumer-overlay",
+   "t": "HIMS Stock Climbs Overnight As FDA Advisory Panel Backs 4 Peptides — ‘Pharma Bro’ Martin Shkreli Goes Short - Stocktwits",
+   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNkRFdzdoOVpDUmhoQkNsVWxLZndvVERoekZFcnEzRXQzdzgzSzBiOFEyTk53NFhCX0RHTWQ2MFZGa2RUWnhlV0NzbmsyaHQtVUVJQ2RXNzhacFdpYkxIZERRcENwYzlKS0hiVGNxbHdmVEpxTTBKVjIwLXJRaHlOYU9jemFEdmpXMURXRmZsUUtGeHA5ZkJZLXVDMks0OXBOSndFRURlcnBaMGVRaEFF?oc=5",
    "d": "2026-10-07",
-   "s": "fierce",
-   "x": "With the advent of powerful GLP-1 medications from Novo and Eli Lilly, the conversation about obesity as a chronic disease has begun to shift, along with the understanding of how tackling weight can trigger a multitude of downstream health benefits."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/noom-puts-spooky-voice-haunting-threat-weight-regain-glp-1-users-new-spot",
-   "d": "2026-10-07",
-   "s": "fierce",
-   "x": "Noom's horror movie-esque new ad showcases the haunting threat of weight regain on GLP-1s, which the Noom app can help fend off."
+   "s": "gnews",
+   "x": "HIMS Stock Climbs Overnight As FDA Advisory Panel Backs 4 Peptides — ‘Pharma Bro’ Martin Shkreli Goes Short Stocktwits"
   },
   {
    "t": "Pine Pharmaceuticals, LLC - 728537 - 08/07/2026",
@@ -498,13 +505,6 @@ window.FEED={
    "d": "2026-07-31",
    "s": "gnews",
    "x": "FDA Panel Backs 6 Peptides for Compounding AJMC"
-  },
-  {
-   "t": "FDA panel backs unapproved peptides despite safety concerns - Drug Discovery News",
-   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbWJjS1A1clZmWFBkeVB0YkhuQXBoNGtubFc2TlRUUUhRcktiX0w5OGFiWWlndkVBejZ5ZzZiVi1OdGZmZGhfc05fVVJPUXl2djlZWVRXYXA5TVc5ZW0wMnZhdERHOUNzNGtMWmhDUm9HV0UtVHZJQnZLTGkzbVFDcVVtZXBWRTNjR2NIWWg1VFZkVnp3Y3Jza1NzUDk3Ykt5?oc=5",
-   "d": "2026-07-31",
-   "s": "gnews",
-   "x": "FDA panel backs unapproved peptides despite safety concerns Drug Discovery News"
   },
   {
    "t": "Product-Specific Guidances; Revised Draft Guidances for Industry; Availability",

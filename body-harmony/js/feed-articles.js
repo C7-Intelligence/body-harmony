@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-07T23:10Z",
+ "generated": "2026-10-08T06:15Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-07T23:10Z",
+   "checked": "2026-10-08T06:15Z",
    "ok": true,
-   "new": 107,
-   "seen": 150,
-   "lastOk": "2026-10-07T23:10Z"
+   "new": 106,
+   "seen": 149,
+   "lastOk": "2026-10-08T06:15Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-07T23:10Z",
+   "checked": "2026-10-08T06:15Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-07T23:10Z"
+   "lastOk": "2026-10-08T06:15Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-07T23:10Z",
+   "checked": "2026-10-08T06:15Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-07T23:10Z"
+   "lastOk": "2026-10-08T06:15Z"
   }
  ],
  "items": [
@@ -49,6 +49,27 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Trump Moves to Allow Sale of Untested Peptides - Political Wire",
+   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVFBlYkgyLXQxTG14YjJxVlBsalc2MTg5dnNlLWZyc3VOeDFkMUJ2cG91a3JfT1YwRHVVcEVpaFZVaG43eDNIdWhEakFDTjVaM290ZWY3dHplQmtZa1d5eVRiMWk3SWk0Q1pRWTlOUUJzRFNWX3otaVV2akRFTHg4RDZJZDRsNUQ1UHlydw?oc=5",
+   "d": "2026-10-08",
+   "s": "gnews-a",
+   "x": "Trump Moves to Allow Sale of Untested Peptides Political Wire"
+  },
+  {
+   "t": "Creator & Model Roux Gets Candid About Retatrutide As Fans React To Her Amazing Transformation - Yahoo",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeC1YRHlIM1JVRHNHMm1TUFVZdHEwVmhhMlZUQlRSdk5pX1JpZ1dfeDdPNWVLRHV2ZFZsc192bV9qeWNRM3BRVkxtSzQyNzRQNzBHRHJlcy1md3loZW1hMkVpQXljb3hGcS1WbHhPZTVkTjROSThDOGhINFAxVVk1cFFMam40aWFTX0paU2tSRVg4Z0RFaFFGS3BrX0JNWGhBaGc?oc=5",
+   "d": "2026-10-08",
+   "s": "gnews-a",
+   "x": "Creator & Model Roux Gets Candid About Retatrutide As Fans React To Her Amazing Transformation Yahoo"
+  },
+  {
+   "t": "Onyx BioLabs Peptides Reviews 2026: Could This Be Your Next Research Supplier? Inside the COAs and Ordering Details - Newswire.com",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSG1KYXFtbDdLbWRGZHZsMnpmZXFxMWZUdzhDRF9oaDJEb3VGRTh6azdiOE8zTXlRMl9LQk5uQ2VHUlQyOTduems3ZTZiLWNMQkZ1WkJLM1hpcThuRl9fQXhRQXhjQ3dlbnRibms0andqeHROVG53ZEw3QVdSYVlfVzhKUG42VGZEV2tBSFUxbjNJRy1GVkNkbVp5WkRPNy1Ua3pvXzlsclB1QQ?oc=5",
+   "d": "2026-10-08",
+   "s": "gnews-a",
+   "x": "Onyx BioLabs Peptides Reviews 2026: Could This Be Your Next Research Supplier? Inside the COAs and Ordering Details Newswire.com"
   },
   {
    "t": "newsGP - Patients’ hidden GLP-1 use sparks surgery safety warning - Royal Australian College of General Practitioners (RACGP)",
@@ -315,27 +336,6 @@ window.FEED_ART={
    "d": "2026-10-03",
    "s": "gnews-a",
    "x": "is retatrutide a weight loss drug BusinessWorld Online"
-  },
-  {
-   "t": "most effective weight loss drug 2026 tirzepatide retatrutide - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdTlrczBabXFrQVdRWHpnZkpBcnNELTdiRGJUV0dCZ01KcGU1YVotY3ZNZlNiQzBSVkp6Um5PWXQwTF8ydGw4OHR3Rkl5c01PTWQxTVBXVFpFZThQZW5PVnkxM0J5WHk2ay1kMlpVNlA5WGluQ1hQRnZsWXlsWllpSWl2QXNWRm5YVDI3eldBd2JyOGFjZHVjQ081MjFLNDA1NVlWZXZaRGtUS0NpQm9wb1BRbVlPcmtEUFM2SER4aTE?oc=5",
-   "d": "2026-10-03",
-   "s": "gnews-a",
-   "x": "most effective weight loss drug 2026 tirzepatide retatrutide www.polskieradio.pl"
-  },
-  {
-   "t": "A Peptide Company Worth Trusting in 2026 - Peptara Labs - Issuewire",
-   "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOQzg2aGg4MHBhQzhqaTd6UkNYSXl0Tmhxb0dRaG83TDY2WllJQU0wMDk2M3NrSE55N1VJRDRINy1nalNuZ3paak8xVUhscVJSMzd5VzkxNHIyVWdxR0MxSVN4bk1tamxWeXc4a3hYOFhrRzVfVEdiLW43MjRKNzhhMGNkM3paTkdKRzBTck5KU1J1VHUwRTA3SF9RVGU?oc=5",
-   "d": "2026-10-03",
-   "s": "gnews-a",
-   "x": "A Peptide Company Worth Trusting in 2026 - Peptara Labs Issuewire"
-  },
-  {
-   "t": "In HelloNation, Wellness Expert and Bodybuilding.com CEO Andres Giraldo Explains Peptide Sourcing - PR Newswire",
-   "l": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOTXRGTHM5UnVtWklSa1ZCZGVTUjlsd1RGZDJIZDMyblFYTWp5dXdHZlRkUEJRcVFwN2xWd011ZElDNjJuVDdXUnZNXzlONTdYQklDWGVHV256Q3laMkNHWWsyemwwRXY4Rmk1ZTAwTkxQS0l6ZFNzSTd6VjhIdnYtZnFCd2xCcS0zN3pEVW9tdVZsVkFPdVA1QUdIVzdtQVI5anpPekFaUnktdzk1M2ZsZjh2RXM3TDdQMDNWUDFOOWlWVDlXX2h1NUt3elgtT1dQUVpZaDRWaDBkT05NMUszbWw3U0dldw?oc=5",
-   "d": "2026-10-02",
-   "s": "gnews-a",
-   "x": "In HelloNation, Wellness Expert and Bodybuilding.com CEO Andres Giraldo Explains Peptide Sourcing PR Newswire"
   },
   {
    "t": "Retatrutide trial: Triple action jab can cause weight loss of up to 25%, results suggest.",
