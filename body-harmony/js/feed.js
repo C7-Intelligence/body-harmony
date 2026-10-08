@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-08T13:43Z",
+ "generated": "2026-10-08T23:25Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-08T13:43Z",
+   "checked": "2026-10-08T23:25Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-08T13:43Z"
+   "lastOk": "2026-10-08T23:25Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-08T13:43Z",
+   "checked": "2026-10-08T23:25Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-08T13:43Z"
+   "lastOk": "2026-10-08T23:25Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-08T13:43Z",
+   "checked": "2026-10-08T23:25Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-08T13:43Z"
+   "lastOk": "2026-10-08T23:25Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-08T13:43Z",
+   "checked": "2026-10-08T23:25Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-08T13:43Z"
+   "lastOk": "2026-10-08T23:25Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-08T13:43Z",
+   "checked": "2026-10-08T23:25Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-08T13:43Z"
+   "lastOk": "2026-10-08T23:25Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-08T13:43Z",
+   "checked": "2026-10-08T23:25Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-08T13:43Z"
+   "lastOk": "2026-10-08T23:25Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-08T13:43Z",
+   "checked": "2026-10-08T23:25Z",
    "ok": true,
-   "new": 148,
-   "seen": 187,
-   "lastOk": "2026-10-08T13:43Z"
+   "new": 150,
+   "seen": 188,
+   "lastOk": "2026-10-08T23:25Z"
   }
  ],
  "items": [

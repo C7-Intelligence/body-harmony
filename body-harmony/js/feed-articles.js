@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-08T13:43Z",
+ "generated": "2026-10-08T23:25Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-08T13:43Z",
+   "checked": "2026-10-08T23:25Z",
    "ok": true,
-   "new": 101,
-   "seen": 142,
-   "lastOk": "2026-10-08T13:43Z"
+   "new": 104,
+   "seen": 143,
+   "lastOk": "2026-10-08T23:25Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-08T13:43Z",
+   "checked": "2026-10-08T23:25Z",
    "ok": true,
-   "new": 2,
+   "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-08T13:43Z"
+   "lastOk": "2026-10-08T23:25Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-08T13:43Z",
+   "checked": "2026-10-08T23:25Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-08T13:43Z"
+   "lastOk": "2026-10-08T23:25Z"
   }
  ],
  "items": [
@@ -70,6 +70,41 @@ window.FEED_ART={
    "d": "2026-10-08",
    "s": "gnews-a",
    "x": "Onyx BioLabs Peptides Reviews 2026: Could This Be Your Next Research Supplier? Inside the COAs and Ordering Details Newswire.com"
+  },
+  {
+   "t": "Americans Paying for Cheap Online Semaglutide May Be Sending Money to Vendors That Also List Fentanyl Precursors - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcG9kdGt2T3c5c196UGlrNG0waU0tSWNZN1hucEVtcTBCVzFtV3NQQ25oWGZad2d4MXVqbU5fU2tjNGVmX1p5bHlZc0p2RnZSVTRWdUVQbjVtb2k1N2l4REdIM1dYaWVsUWdPSFY1eTM3eVlrTTlDTU13S2lkNkthb0otMVIxSW5HOVVhWVFQTlprTm9jWVIzbXctSjhCYnc?oc=5",
+   "d": "2026-10-08",
+   "s": "gnews-a",
+   "x": "Americans Paying for Cheap Online Semaglutide May Be Sending Money to Vendors That Also List Fentanyl Precursors Medical Daily"
+  },
+  {
+   "t": "Eli Lilly Steps Up Retatrutide Crackdown With Six New Lawsuits – CMO Hyman Says Drug Sold In Black Market Is ‘Not A Medicine’ - Stocktwits",
+   "l": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQUE9yTUdtNFh1MTB5WXgwT1FneXJpY09WdXFHSWRJSkxiNmxMdXptTnBMNHFJcGJkNWJsQ283dkNJWDZHVEV2eS1wUm52RjEyNXEwdmFWQ0M5bkxsdVFrcGtneW4waVByS0dJb0NGNkt4MXl2WXE5QlY3MVZFcmhCbmpsUDdhb1FzRUozNlNLWTdDaTZ1VEVES2Q4dW5uUlp4ZzFydjVOVnB6Ylhid2ZHMmFkU2hWeUxNWVd6TFJ0RUdZdlF1bVA1dm9uT09KRWI0SUowQjZhY04wQTJkSTJQSUs3SDVPcUZhZ3V2U1dZTkgwZlZoVWIxQzlRZzNRZ2ZnMlhCNDBJUUFVUjlrcEdBM3lCQQ?oc=5",
+   "d": "2026-10-08",
+   "s": "gnews-a",
+   "x": "Eli Lilly Steps Up Retatrutide Crackdown With Six New Lawsuits – CMO Hyman Says Drug Sold In Black Market Is ‘Not A Medicine’ Stocktwits"
+  },
+  {
+   "t": "eli lilly new weight loss drug retatrutide - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVFBhVmJqNjVYY3Q0elQ2ejFyNENIN3hFczVscmNZekU4VmJ2OGRQQkZCNTZzZ0gwekNNazJHODFHeG01RHEySGVNTVUtZms0em8xVnhQYUo2b1FuVHY4RzVjVkp0MW1rSUt1Wl9iLUpLdXdfTGNLUjVzcWR4cWduRHdDOTJoQUNkUmNCbGJB?oc=5",
+   "d": "2026-10-08",
+   "s": "gnews-a",
+   "x": "eli lilly new weight loss drug retatrutide BusinessWorld Online"
+  },
+  {
+   "t": "Will the FDA Approve Retatrutide? - NEXT.io",
+   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTUV0UWlIRHhjWFB5SWt2OU9SZGFoU0g1X2FPbnJDSE1GQWZrQzRmbW1kVDFEbDl6QWRuZUVzaHhqZHdUTGRrZTFoNHBTVUVJSzJkOEtmMkQ2VmpYVFZiNnprczBPeTVVTnRRNjlPRWRmaFFGOFBvMWVlVTJlM3RUWXE2aw?oc=5",
+   "d": "2026-10-08",
+   "s": "gnews-a",
+   "x": "Will the FDA Approve Retatrutide? NEXT.io"
+  },
+  {
+   "t": "Peptide Research Is Expanding Beyond Weight Loss. Here’s What Scientists Are Watching in 2026 - The Manila Times",
+   "l": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOUnJSVVZhU1ljbDZuWWZZUmtwMTd2NmVHR1dBa01SRW5neGlwNE9iNmJLQ1lOSTU3Y3R1Q3UxQlQyUnh0aWxnalVPUlV3UzQyd2FkMFBHVGFmR0VPd04yeFRMZHFhLWpjT3NYX2g4dUVES1RWSWJEc0QweHAxSjZBNWdmcElvdk1MeFcwTDV2cVc1ZS1iNVlkdnJTUzFVWVVvLV9odkcxdXQza2FSb0RqRzJja1lQSnhvclUwSlZoVG1Gd0hmM3E4aFVibVIxc0tvZWF4UGlJckFVdGNpV2t6RVM2RFh2UlhJREMwMWRvSlV1U05RQnY5U1l30gH6AUFVX3lxTE5SclJVVmFTWWNsNm5ZZllSa3AxN3Y2ZUdHV0FrTVJFbmd4aXA0T2I2YktDWU5JNTdjdHVDdTFCVDJSeHRpbGdqVU9SVXdTNDJ3YWQwUEdUYWZHRU93TjJ4VExkcWEtamNPc1hfaDh1RURLVFZJYkRzRDB4cDFKNkE1Z2ZwSW92TUx4VzBMNXZxVzVlLWI1WWR2clNTMVVZVW8tX2h2RzF1dDNrYVJvRGpHMmNrWVBKeG9yVTBKVmhUbUZ3SGYzcThoVWJtUjFzS29lYXhQaUlyQVV0Y2lXa3pFUzZEWHZSWElEQzAxZG9KVXVTTlFCdjlTWXc?oc=5",
+   "d": "2026-10-08",
+   "s": "gnews-a",
+   "x": "Peptide Research Is Expanding Beyond Weight Loss. Here’s What Scientists Are Watching in 2026 The Manila Times"
   },
   {
    "t": "newsGP - Patients’ hidden GLP-1 use sparks surgery safety warning - Royal Australian College of General Practitioners (RACGP)",
@@ -289,53 +324,18 @@ window.FEED_ART={
    "x": "eli lilly new weight loss drug retatrutide BusinessWorld Online"
   },
   {
+   "t": "Watch Biomedical Scientist Debunks The Biggest Peptide Myths on Reddit - WIRED",
+   "l": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pX2h6MGJWSTZvYlpmei1aaXRFZHUzOVNOVUVmc1I0Tm1nQm40a2RDMEJraS1IZ2FESmNnX2dYLWloYzZ1MXM3SUF3V2Z5OHhjanFndFJzZ3pDZmxXQWpMX2JCeVA?oc=5",
+   "d": "2026-10-04",
+   "s": "gnews-a",
+   "x": "Watch Biomedical Scientist Debunks The Biggest Peptide Myths on Reddit WIRED"
+  },
+  {
    "t": "Expert warns China-linked peptides could pose US risk - NewsNation",
    "l": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nWlZmTkdPZk0yQWp6ZXNDcDloUDc4a3hyZkNSVTZ3V3UwQ1ZpUlVJNnNwU294cmxnQ3VtNnJKc3R3NUpmbHU0ZDhFRkhNano3aXA2b2haSWo0SWpJWmp4UVEyazdyNVFQczlNY3VGaG_SAYsBQVVfeXFMTm1vUG5QNVYyVmlpNUsyZTYzUngtSVFPanBLbHlHNGxZLS1oNWJGbjBvNGZRMGRNZTVhc2lJLWQxa0NFS1l4bjFzcVlNR2RuWm9obEtpTExlZTV0MUdqdWRPZzhyaklYd3Z4eTJvZXVnbjJxT01iOUtqS2ZVSWFNNFVsVU9iT3c0ZzhPRQ?oc=5",
    "d": "2026-10-03",
    "s": "gnews-a",
    "x": "Expert warns China-linked peptides could pose US risk NewsNation"
-  },
-  {
-   "t": "Ozempic Rival Retatrutide Delivers 25% Weight Loss In Phase 3 Trial - NDTV",
-   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNS2xsQjZ6R0RDT2E3WUZua0VQWmlLSVhrMDVKQ0lXUExQSnNzWFZ0MTJQeWpFTy1yVjB2OGx3TEo2Y1RycldzVjMxWkhueFNwOExMRnlFS2RYYzFDcUhCM01jeDlOc3E2ejZiT0JDZkI4c05yVHNDZUdNaTJMRkFTZ0Q4VlpXSlk0Sk9aSF9iNFJhU1FCeVRWNnRaVmNMWHFsNEw4Q2VlY9IBrwFBVV95cUxNaDVqd1l5ZURiMjNyb2hlaW41MjI5ZFNBYWdsTnN3eXRlTDEtUWVSTXFXdEhRelJVS3NLZXNMSkl3VkhyZTZaV2x2dElfQk1TNENUZzY2UEJMYXJsa3Q1UDdlcGx5ZFlJb1pRWHNoLVNtX3RYb1NWWF9fTHp0NmZuX1FxMGRqVHd4N25HNUVxM0lMbGxGaUI3cjNlYlhyRXJLY0oyM3dyUGFLc05UTFhZ?oc=5",
-   "d": "2026-10-03",
-   "s": "gnews-a",
-   "x": "Ozempic Rival Retatrutide Delivers 25% Weight Loss In Phase 3 Trial NDTV"
-  },
-  {
-   "t": "is retatrutide a weight loss drug - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZ1VwcHBETk9KVHd1dU5VdUo3OFFjcm9DRWVhS05GWTlyenN2bElLR0ZtX09LMURjQ3RmUFJJcXNsWUduRTFoOTRrRE1TWVhhdnJ5ellsTlN3UFM1VHBWcTZVWVFSOThCeDV2c2doSEllNF9wUWZhc1YxbXQxWjdYRzJLZUNiTGlUeV9VdHVrVQ?oc=5",
-   "d": "2026-10-03",
-   "s": "gnews-a",
-   "x": "is retatrutide a weight loss drug www.polskieradio.pl"
-  },
-  {
-   "t": "Lilly's retatrutide: peer-reviewed Phase 3 shows up to 25% weight loss plus knee-pain and sleep-apnoea gains - Dealroom",
-   "l": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbmlnNWUyZ3NWaDdIZEVJZTViTmdZbXUxdXBHY0IzQ0pPbk9GdmxxY1VWaXJleTJacHRsdnVpQ0k4ekpzOFkxX1Z5SzhBelFHVlBHbmw3Y0hORlFTaVRhU1NQaXZyWUJfNk8tMDZkcFJwT1ozMjlIYmhobUhJNE96S3lyZnJ1VDNnYUF2WEVQejZaMnRKYUs4U1hBTDByVXViMEhIRzhCVTU1d1libjhIekRQSDNsdmdHRk5RX2RBX1A2TWhoMG1CMFI5Q1J2MEpWb05IZWx0MA?oc=5",
-   "d": "2026-10-03",
-   "s": "gnews-a",
-   "x": "Lilly's retatrutide: peer-reviewed Phase 3 shows up to 25% weight loss plus knee-pain and sleep-apnoea gains Dealroom"
-  },
-  {
-   "t": "retatrutide weight loss drug overview 2026 - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPazVCd3dlTkdHUmZqUWtEeWc1ak9Fd3Q0V292cFp4V3UzVWVXYURPS2xTY0o2XzhVRVo2dHBvdy1DZ0h5eTZ0VGRTc0dhbkx5eU9pbDNJeVBVc3kzeU4td2lRMTdFVG5sdzZXS2xmWDc5T2tTT1FaZ0JYNFcyNmt0SHpsaVE4al8yN1BndnF1eGRsbWc?oc=5",
-   "d": "2026-10-03",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug overview 2026 BusinessWorld Online"
-  },
-  {
-   "t": "retatrutide weight loss drug overview 2026 - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPNU1MNEJvUS1Wc0Y5dVRxbTU4WGpvcEM0LVFab1NXalRYcEdEUzZrdWdrMER0Yl94dnFYZDB0Qm1TSmFxTW9EeUdrQ1NIeUJfSmttTDRSem9DaXJ3OW9DY1BXWE5DTUV3TjczeTlNaUFXQWpfTEhqeVlzaVVJLWxIdF9YOGlXSVllY0E?oc=5",
-   "d": "2026-10-03",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug overview 2026 BusinessWorld Online"
-  },
-  {
-   "t": "is retatrutide a weight loss drug - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQTTFxV3AzemtLT2JFOXJsc196NkZtYXQyanRBamF3VUdnWEU5Vk02cmEtQ3V4Wko5dVFlbDUyaUgxc25zanpsOTdFd2RGa2lleW9mUk1PNlAyaERwTmhYdEc3R0xYMVBzcERwNFFpcUh5eTlaVDd3Qm5KRTdwXzkxV19hcENobkU?oc=5",
-   "d": "2026-10-03",
-   "s": "gnews-a",
-   "x": "is retatrutide a weight loss drug BusinessWorld Online"
   },
   {
    "t": "Retatrutide trial: Triple action jab can cause weight loss of up to 25%, results suggest.",
