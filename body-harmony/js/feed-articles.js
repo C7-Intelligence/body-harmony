@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-08T23:25Z",
+ "generated": "2026-10-09T06:17Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-08T23:25Z",
+   "checked": "2026-10-09T06:17Z",
    "ok": true,
-   "new": 104,
-   "seen": 143,
-   "lastOk": "2026-10-08T23:25Z"
+   "new": 100,
+   "seen": 136,
+   "lastOk": "2026-10-09T06:17Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-08T23:25Z",
+   "checked": "2026-10-09T06:17Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-08T23:25Z"
+   "lastOk": "2026-10-09T06:17Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-08T23:25Z",
+   "checked": "2026-10-09T06:17Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-08T23:25Z"
+   "lastOk": "2026-10-09T06:17Z"
   }
  ],
  "items": [
@@ -49,6 +49,13 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Brain peptides? People trying unapproved substances for sharper focus - NewsNation",
+   "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLXo3TVRkR1g1c3drMVBSNlgtd3dqZ0o5c3Rtc3ZSZ3FuazB5aEh3RnJrRlpqQ0N1WElMVU5uTjQwdWNsWjJLSFl4YVM2djRvdmxRNzE4YWdfb2ZZQTI4VnJLRmN4cVFQemtzTHpEWGlLWWNRbkZ0TjdCd0JPSjJEWWQxZzJwd9IBiwFBVV95cUxPNlVPQTlTcWIwZXRieUswUFJGWUFPdXltMHRqTnkyODdKZHVCTklTSUtrQy1lck4wOERHR1NMcndLT0RVVzd1em5aU2VRVDg5TnNTcDFQbnhtM0lGazNJaWJheFZTUTBlUHFhaUw5TzZoRTdlSWpMR2ZFZGpVdGVBSEZIcUlnVHozY1VF?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "Brain peptides? People trying unapproved substances for sharper focus NewsNation"
   },
   {
    "t": "Trump Moves to Allow Sale of Untested Peptides - Political Wire",
@@ -226,6 +233,13 @@ window.FEED_ART={
    "x": "Nox Peptides Announces Launch of GHK-Cu and Wolverine Stack for Canadian Research Market Lelezard"
   },
   {
+   "t": "Nox Peptides Announces Expanded Research Focus on BPC-157 as Canadian Peptide Research Supply Demand Grows - The Manila Times",
+   "l": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZUF4aEkzLVdjTmRfc0FGaTl0bk5XMG14a0NlTGhkOEhSektyT20tZDE1YWdHZ2N5dTBWSUdTSWlSSmdrNkZWX1BQX0d5OWY2WWZrTmhPcUVra2p6b1ExQmNHcG9SMFl0ZDJSNV9FWW5vcFc1VDFpbE1YTkJsc2Vxa3BCMWF5aG1HbXZVOTN5X0pFTHAtZF9QSEtWNGd1QWp0ZGlGT3pvQ1ZkRUtnWWpCQmx2LURhVU00dG13Qk1ibEN3VUFwWDhyMkJxMTh2Y2ZVLVR0TzZfSHd4bUlIZ0ZtVjcxcXpUVHFMNk43RlFKaV9uZEo2TElqeE9lS1RFM2tmWTBtbWxkaG5TdDRj0gGSAkFVX3lxTE92Z0NJMHV4dWVBSU1OOHFjMEpfNGdWb2J4U3otSXRqTHdaYnBScWVKTUxtMzJDTXFIVkZUX09rSTFtbHpZZi1jNTZqM0F3UFVSeEdIb0NzdGlibnlFbjlzamdmeTluZUFuWkJ6WklQWEF6TnJVdm5NZFhlb0NPdmgwUWlnZngxTHdodkhaTnV5aW5oWEFOWkVRamgwdlFlclF1ZjN0UlM1a0dRdFFqZnlKZzdxRmx3OVhTTkVXNHdTVUVVSHR3QXpEaGRNNzI5N21OcVRTdWttTUdkeGhEZDhuMklyZzBZQnFKdVpTLW9tcEl4MndlS1B1dlQ2QmFEZTNRVEJOaUQ1TjVzRHlWZXQ4eFE?oc=5",
+   "d": "2026-10-06",
+   "s": "gnews-a",
+   "x": "Nox Peptides Announces Expanded Research Focus on BPC-157 as Canadian Peptide Research Supply Demand Grows The Manila Times"
+  },
+  {
    "t": "Are stem cells the next peptides? These advocates think RFK Jr. could make it happen - STAT",
    "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmhGY0FlVEFBLTVlMlQzZXM3WVRsbURxUE9od3lRc2JoTlFxOXd3UFN4NEFXZVFzb1hqNFktd0Q5ejFGeDZUOFdlTFF0b1FDZm9MVHBmcVZmSDZwckFPM0g1dThwcUpqRS1KQWVUUVc2VDZ3NXBRUXpLRjUzZEZ5NDhHR1FWUWM0d0poNVp1VmwyRFlR?oc=5",
    "d": "2026-10-05",
@@ -282,6 +296,13 @@ window.FEED_ART={
    "x": "CR Peptides Highlights Testing Transparency and Research Education in Costa Rica FinancialContent"
   },
   {
+   "t": "BPC-157, GLP-1s and the New Peptide Gold Rush - Longevity.Technology",
+   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYnpkSjJzakxLNTJXaWZRbWRJcllWckd3THU0eWo1dXptYl9KSHBhOUdhRGluV3FJakIwaUgzcVlQbXdSWTZRT1IzNkNHS0paM2M0azRaN09jaWFvZDVxcmtNYV8tYmZYZVhuVVhSQU91QTRtaWV2X1ZsRmhVdUIzVXFCekx5eXpKVThsc2pFS3BVR2dkNDRDOXBVaHJmOXdMX1RSVmNqR0JYREtqMGV5U2xrRjVYN3c1R0NTUU50SnV0M2ZSaG1J?oc=5",
+   "d": "2026-10-05",
+   "s": "gnews-a",
+   "x": "BPC-157, GLP-1s and the New Peptide Gold Rush Longevity.Technology"
+  },
+  {
    "t": "GLP-1 medicine use without expert advice dangerous: Doctors - The New Indian Express",
    "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVM0RzUwdm1LS0pncHlfTVNTNXNIMC1zVy1sYnRCajdkQ3RtVVhYc0pqbENNMk5pSHBxdldsWEdIZDFKUEVBdlRWMU5rM3EtQXNHQ1dYRGVPT0wxTG5KcjZfWHE3UUxGN0F3aE1DOGlBa0UtVFpRaU5qcU1IMlprbGtYRDBXbTV4X0NWRU9vRU04WDhoeUZZQTc0aUJHM0pKVWlibzdDZHd5UF9qRXMwV0xfVzRHc3MtRkFXddIBygFBVV95cUxQcnY1c01Ea0VMZndmMEhaOFRrTUpHTlpMTS01dkg2a3k1ZzItbzBKMzNJMXpZZnJMOW5QVGhNTm1MOWdxQUdnOVNLRFpWS0lLNDM5eXlVbnBYbnpDQ3hESS11Qy1TbW9SV1pLMlMzTF9qaXk5bU1YODJSbnVhNFhMZDF1aUVtYXRTV3VOSkE3QkxwQWwxMld4d0x2Mk9TQ0ZZbG80SGVCeHhwZ25acUJlSkpVTkI0UWFQSWc3LUcxUG5JTzFaVkR1RjNn?oc=5",
    "d": "2026-10-04",
@@ -315,27 +336,6 @@ window.FEED_ART={
    "d": "2026-10-04",
    "s": "gnews-a",
    "x": "retatrutide weight loss drug www.polskieradio.pl"
-  },
-  {
-   "t": "eli lilly new weight loss drug retatrutide - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcmFtY0FwTzVld0pOUzlxWkxmNDFxYWl1OFBYY3ZQMUQ3Sk42dnJieVo3VHdFYklhd2gtYWJKVUIxc1YxdnlObzJXdy1CUmZTenBNREVBbGlvRHJ6TTNVenhrcXVGQzIyOEpnSTFVaXB5TTA5WmJheXpacDRVQ3h4UExPNHEwZw?oc=5",
-   "d": "2026-10-04",
-   "s": "gnews-a",
-   "x": "eli lilly new weight loss drug retatrutide BusinessWorld Online"
-  },
-  {
-   "t": "Watch Biomedical Scientist Debunks The Biggest Peptide Myths on Reddit - WIRED",
-   "l": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9pX2h6MGJWSTZvYlpmei1aaXRFZHUzOVNOVUVmc1I0Tm1nQm40a2RDMEJraS1IZ2FESmNnX2dYLWloYzZ1MXM3SUF3V2Z5OHhjanFndFJzZ3pDZmxXQWpMX2JCeVA?oc=5",
-   "d": "2026-10-04",
-   "s": "gnews-a",
-   "x": "Watch Biomedical Scientist Debunks The Biggest Peptide Myths on Reddit WIRED"
-  },
-  {
-   "t": "Expert warns China-linked peptides could pose US risk - NewsNation",
-   "l": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nWlZmTkdPZk0yQWp6ZXNDcDloUDc4a3hyZkNSVTZ3V3UwQ1ZpUlVJNnNwU294cmxnQ3VtNnJKc3R3NUpmbHU0ZDhFRkhNano3aXA2b2haSWo0SWpJWmp4UVEyazdyNVFQczlNY3VGaG_SAYsBQVVfeXFMTm1vUG5QNVYyVmlpNUsyZTYzUngtSVFPanBLbHlHNGxZLS1oNWJGbjBvNGZRMGRNZTVhc2lJLWQxa0NFS1l4bjFzcVlNR2RuWm9obEtpTExlZTV0MUdqdWRPZzhyaklYd3Z4eTJvZXVnbjJxT01iOUtqS2ZVSWFNNFVsVU9iT3c0ZzhPRQ?oc=5",
-   "d": "2026-10-03",
-   "s": "gnews-a",
-   "x": "Expert warns China-linked peptides could pose US risk NewsNation"
   },
   {
    "t": "Retatrutide trial: Triple action jab can cause weight loss of up to 25%, results suggest.",
