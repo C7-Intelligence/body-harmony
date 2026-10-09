@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-09T06:17Z",
+ "generated": "2026-10-09T18:24Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-09T06:17Z",
+   "checked": "2026-10-09T18:24Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-09T06:17Z"
+   "lastOk": "2026-10-09T18:24Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-09T06:17Z",
+   "checked": "2026-10-09T18:24Z",
    "ok": true,
    "new": 0,
-   "seen": 1,
-   "lastOk": "2026-10-09T06:17Z"
+   "seen": 0,
+   "lastOk": "2026-10-09T18:24Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-09T06:17Z",
+   "checked": "2026-10-09T18:24Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-09T06:17Z"
+   "lastOk": "2026-10-09T18:24Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-09T06:17Z",
+   "checked": "2026-10-09T18:24Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-09T06:17Z"
+   "lastOk": "2026-10-09T18:24Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-09T06:17Z",
+   "checked": "2026-10-09T18:24Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-09T06:17Z"
+   "lastOk": "2026-10-09T18:24Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-09T06:17Z",
+   "checked": "2026-10-09T18:24Z",
    "ok": true,
-   "new": 2,
-   "seen": 2,
-   "lastOk": "2026-10-09T06:17Z"
+   "new": 3,
+   "seen": 3,
+   "lastOk": "2026-10-09T18:24Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-09T06:17Z",
+   "checked": "2026-10-09T18:24Z",
    "ok": true,
-   "new": 150,
+   "new": 152,
    "seen": 188,
-   "lastOk": "2026-10-09T06:17Z"
+   "lastOk": "2026-10-09T18:24Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-10-09",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/how-drugmakers-are-tapping-glp-1-frenzys-unprecedented-consumer-overlay",
@@ -93,6 +100,13 @@ window.FEED={
    "d": "2026-10-09",
    "s": "fierce",
    "x": "Noom's horror movie-esque new ad showcases the haunting threat of weight regain on GLP-1s, which the Noom app can help fend off."
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "Low-Value Shipments",
@@ -220,6 +234,13 @@ window.FEED={
    "d": "2026-09-24",
    "s": "gnews",
    "x": "FDA warns compounding pharmacy over sterility of GLP-1 drugs KING5.com"
+  },
+  {
+   "t": "FDA warns compounding pharmacy over sterility of GLP-1 drugs - YouTube",
+   "l": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXUWVrMm0xOS12cUNCWDZObnpGLTdBemtPc082S3N2Y1JITVZQbGx5ZTJqNDllNnpEUHFhclVGREwwU2xUTjFINmRORXNGZHVERldYTTdsNThCUnky?oc=5",
+   "d": "2026-09-24",
+   "s": "gnews",
+   "x": "FDA warns compounding pharmacy over sterility of GLP-1 drugs YouTube"
   },
   {
    "t": "FDA Warns Pharmacy About Illegal GLP-1 Compounding - MedPage Today",
@@ -498,20 +519,6 @@ window.FEED={
    "d": "2026-08-04",
    "s": "gnews",
    "x": "FDA Advisory Committee’s Vote May Open A Drug-Compounding Back Door For Unapproved Peptides Health Affairs"
-  },
-  {
-   "t": "FDA PCAC Recommends Six Peptides for the 503A Bulks List: What Compounding Pharmacies Need to Know - Buchanan Ingersoll & Rooney PC",
-   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSjZyZHltTG5VQnBKVklKb1p5MTdiUTAtREJmY0NjSjgxbU5IQjBNZFJGQlIyUXZRRm1Hd19uNS11a3EtTTQzT0lOaEgwcjRyU19reVFiWnR0OXBCbWVlcTlmTnRqdU5uMVlrS3ZUSFJWRlJBYlA2ZGIxQVBHN2k3UUhEQzg4ZkhiblhLSFUwcm1ibGVGOFZQcE1OS2JHcmV0ai1OM1dGb04wWHZzNUR0aC1LSmZ1d0pldFE?oc=5",
-   "d": "2026-08-04",
-   "s": "gnews",
-   "x": "FDA PCAC Recommends Six Peptides for the 503A Bulks List: What Compounding Pharmacies Need to Know Buchanan Ingersoll & Rooney PC"
-  },
-  {
-   "t": "FDA panel backs 6 peptides despite its own scientists’ objections - MassLive.com",
-   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS2hvYzJPQkl5cjhfUE9RNUdMYndPNGxySXgza3BFY003SnFUaWZWN2tNS0Nuay1XZnp6MzVidU5lRUF6eWIxWEh4MTVZZy1NZTQwUkhhQnQzY1JRekNaMTJZTGlyYnl2UVA1LUZ0VTZVZVB2NlRBejA5TDNCWE01bFhoQTBLS2kyQXFYVFM4VG1wc1lwZFd6bzdKSnpJZWo3d3lQTDRQcWk1OE3SAb8BQVVfeXFMTnZGRVBYNUx4VG1kM0I4Qnl6cEhtX0FxWDFWZDFxX05WajRzWnhJUTJSeWwtMUFFZTVFRkJfTF8zVjZwbmxTcW03TnZQdGVWcTZhSUNvNFExVWpxUEdmZmJxWG8xZ056QmpUc1JDVVRoazNTUW51V1dMNEltSWRSeDAwcDR0eFIweEJFMlBOcmM0b0JhMjNEcGYtd1VBSzRUQ1hvZ05sNHdsYkNoZTMzeXVac1ljbUdaajQyZHFYbUU?oc=5",
-   "d": "2026-08-03",
-   "s": "gnews",
-   "x": "FDA panel backs 6 peptides despite its own scientists’ objections MassLive.com"
   },
   {
    "t": "Product-Specific Guidances; Revised Draft Guidances for Industry; Availability",

@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-09T06:17Z",
+ "generated": "2026-10-09T18:24Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-09T06:17Z",
+   "checked": "2026-10-09T18:24Z",
    "ok": true,
-   "new": 100,
-   "seen": 136,
-   "lastOk": "2026-10-09T06:17Z"
+   "new": 103,
+   "seen": 140,
+   "lastOk": "2026-10-09T18:24Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-09T06:17Z",
+   "checked": "2026-10-09T18:24Z",
    "ok": true,
-   "new": 1,
+   "new": 2,
    "seen": 15,
-   "lastOk": "2026-10-09T06:17Z"
+   "lastOk": "2026-10-09T18:24Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-09T06:17Z",
+   "checked": "2026-10-09T18:24Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-09T06:17Z"
+   "lastOk": "2026-10-09T18:24Z"
   }
  ],
  "items": [
@@ -56,6 +56,48 @@ window.FEED_ART={
    "d": "2026-10-09",
    "s": "gnews-a",
    "x": "Brain peptides? People trying unapproved substances for sharper focus NewsNation"
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "The FDA Is Struggling To Police The Peptide Boom - Forbes",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRnJNQkNaSFM5bDVLN3VHUGhDSWlkMkluSTBwY21tY2pzbFo0X09BMTdPZXhJMzNaX1d0UVlKZlRjXzU1ZnpyTnFlbjhIaHhaeW5heXZ1VlVqRHBqbDZaWFhZVDZtY2xXMnhXMW5wVWphVkZ6N1RTX19qYXdxaW93aVJEMmp2ZXNGVlZ1anZOWkR5YUJVY0syMll6empuT0ZnRUE?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "The FDA Is Struggling To Police The Peptide Boom Forbes"
+  },
+  {
+   "t": "The FDA Is Struggling To Police The Peptide Boom - Yahoo",
+   "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN3RwdHl4cUVTZ2R2M0dlZDNlcnVtcjNqZVZ3YzVSMnYtM3Zmc0tQVGJQdDNNVnl4bFBpQUdqZXBxaFd6MDRmYTd1YzdOU2FIUDk4dk8yTHhDY3VzZnFGTENST0VhLXI4b21kbkRwVU9GUDYtQjhMaUpOZmdrV3ZKYjdObDdmTWJOeVB5Uk9oWXRwZw?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "The FDA Is Struggling To Police The Peptide Boom Yahoo"
+  },
+  {
+   "t": "Retatrutide Delivers 20.8% Weight Loss in Adults With Type 2 Diabetes - Drug Topics",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWUtvcjg3SjVtdk5IeEVFV283RG9wNWNMZUd3SGhGMWlIYXRNZzVWMTYzSE1PdzBiWkZOLTFkTkpDYktWbVg4SG9vRGNoYV9kSERTLXlVMzhLeldJcVBmVTVKNjNmVUJxVVpqWmRkSlBlR0VBOGlrMWtpQnJnRGhKZjF4Sjh1bnVQMjNfYUt4TjNOd0RJODJFYlpPZ21La016UHc?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "Retatrutide Delivers 20.8% Weight Loss in Adults With Type 2 Diabetes Drug Topics"
+  },
+  {
+   "t": "Eli Lilly (LLY) As Zepbound And Retatrutide Updates Test Whether More Upside Is Priced In - Yahoo Finance",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOanJkV2FXRXdoZmxKVy1QTFAzTEM3NWw2ZEI0c0RMZEZDSnB3UWZpbTFuV0x3OTVxZm55YW1Qb3VZbWNkZWgwLTVXWnh6MWtheGxTeFBKMGdvemxsS1RHMHc5ckJhdWo0ci1ZbmFXN240YXZTZmtUYllSNmh3UzkwSnZJNFhicHdQMVJEUndJcUxaZWJfNkJ6MW9haw?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "Eli Lilly (LLY) As Zepbound And Retatrutide Updates Test Whether More Upside Is Priced In Yahoo Finance"
+  },
+  {
+   "t": "Retatrutide research advances with new clinical data - Inter Press Service",
+   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMHUxZklTRlhFeWJxODVrV1RTY293d2phV2thWk0wWEZ3b1VsWFFvWUJqcDdULXlQX184Q1UzellYd2NDdXE4WG9YY09qdVFBUFUzdEo2RThCWmdoNE10NjM5M0Y3V1g4ak9ZYXo3QjhxUUkxczFVT3JQOGh5Nzk0amJkWXh6NzRZQl9aYjJ2THNjYzFTdjJJMw?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "Retatrutide research advances with new clinical data Inter Press Service"
   },
   {
    "t": "Trump Moves to Allow Sale of Untested Peptides - Political Wire",
@@ -112,6 +154,13 @@ window.FEED_ART={
    "d": "2026-10-08",
    "s": "gnews-a",
    "x": "Peptide Research Is Expanding Beyond Weight Loss. Here’s What Scientists Are Watching in 2026 The Manila Times"
+  },
+  {
+   "t": "The Tri-Peptide Synergy in Molecular Inquiry: BPC-157, TB-500 and GHK-Cu (GLOW Blend) - Star Local Media",
+   "l": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNLXRLdFpRTHE1MlZYQnE1M2lSbWRuRXcyaHFvNGNDcV9Vb3lNRWZEZ0VuNzhRNmpjTzhyNTRwVmhHMEhubkhMcGQ4UFRLRnhqMGV1UjJ1Vk1fbmtTUjdCY1Nfc25wUVlFbDRUMEwzMC1scXBudHBtYVFEV1Ztd2JtT1RsQWFHN0JaOXd3UnlqTXRsS1dyRlBManp2aURNS3FDeWxBOTNNNTZQRkl5ODZXYkd2ZnE1Ty1PYjB1RDlRa1VaTElRazJDVkI1dEJtTTFOT1Q3ZGRmcWdpQkdWeEV6NmNNcmtUdHZLaFVVU0pMdHU4eGF1NDZka2pxQUxURE0?oc=5",
+   "d": "2026-10-08",
+   "s": "gnews-a",
+   "x": "The Tri-Peptide Synergy in Molecular Inquiry: BPC-157, TB-500 and GHK-Cu (GLOW Blend) Star Local Media"
   },
   {
    "t": "newsGP - Patients’ hidden GLP-1 use sparks surgery safety warning - Royal Australian College of General Practitioners (RACGP)",
@@ -289,53 +338,11 @@ window.FEED_ART={
    "x": "Unregulated Peptides Lack Purity Testing: Catherine Varney, DO AJMC"
   },
   {
-   "t": "CR Peptides Highlights Testing Transparency and Research Education in Costa Rica - FinancialContent",
-   "l": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZnEyUlpYeVh1QUpVSkJqT2xzX3N0T3dQVndVUDdvSk9vd0ZiQmx2Rk1Zc2o3cFd6RHByWDV5VjIxS0ptVTJPWkFRallHYi1odDYtT2RiMFBKbk45cklUVlg3bkZuWmhNVVBLWlc5dG5nYjF2ZHZScnE5ck5tdWV4ajRFaFVrQ1g4eDBXbWc1OW5Na1JZNVRXZ3NEMHRrdXRlNDR2dHkyOElTZUs1NjVrWDEzYWdSamt4emN5YXJnd1JFYlVNc1JCbV9IeFBpSXkzV3J1S2tPeXNJejl1ZWVN?oc=5",
-   "d": "2026-10-05",
-   "s": "gnews-a",
-   "x": "CR Peptides Highlights Testing Transparency and Research Education in Costa Rica FinancialContent"
-  },
-  {
-   "t": "BPC-157, GLP-1s and the New Peptide Gold Rush - Longevity.Technology",
-   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOYnpkSjJzakxLNTJXaWZRbWRJcllWckd3THU0eWo1dXptYl9KSHBhOUdhRGluV3FJakIwaUgzcVlQbXdSWTZRT1IzNkNHS0paM2M0azRaN09jaWFvZDVxcmtNYV8tYmZYZVhuVVhSQU91QTRtaWV2X1ZsRmhVdUIzVXFCekx5eXpKVThsc2pFS3BVR2dkNDRDOXBVaHJmOXdMX1RSVmNqR0JYREtqMGV5U2xrRjVYN3c1R0NTUU50SnV0M2ZSaG1J?oc=5",
-   "d": "2026-10-05",
-   "s": "gnews-a",
-   "x": "BPC-157, GLP-1s and the New Peptide Gold Rush Longevity.Technology"
-  },
-  {
-   "t": "GLP-1 medicine use without expert advice dangerous: Doctors - The New Indian Express",
-   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVM0RzUwdm1LS0pncHlfTVNTNXNIMC1zVy1sYnRCajdkQ3RtVVhYc0pqbENNMk5pSHBxdldsWEdIZDFKUEVBdlRWMU5rM3EtQXNHQ1dYRGVPT0wxTG5KcjZfWHE3UUxGN0F3aE1DOGlBa0UtVFpRaU5qcU1IMlprbGtYRDBXbTV4X0NWRU9vRU04WDhoeUZZQTc0aUJHM0pKVWlibzdDZHd5UF9qRXMwV0xfVzRHc3MtRkFXddIBygFBVV95cUxQcnY1c01Ea0VMZndmMEhaOFRrTUpHTlpMTS01dkg2a3k1ZzItbzBKMzNJMXpZZnJMOW5QVGhNTm1MOWdxQUdnOVNLRFpWS0lLNDM5eXlVbnBYbnpDQ3hESS11Qy1TbW9SV1pLMlMzTF9qaXk5bU1YODJSbnVhNFhMZDF1aUVtYXRTV3VOSkE3QkxwQWwxMld4d0x2Mk9TQ0ZZbG80SGVCeHhwZ25acUJlSkpVTkI0UWFQSWc3LUcxUG5JTzFaVkR1RjNn?oc=5",
+   "t": "A 4D GelMA-Cad/Gelatin Hydrogel for High-Resolution DMD Bioprinting of Vascularized Soft Tissue Models",
+   "l": "https://europepmc.org/article/PMC/PMC13648744",
    "d": "2026-10-04",
-   "s": "gnews-a",
-   "x": "GLP-1 medicine use without expert advice dangerous: Doctors The New Indian Express"
-  },
-  {
-   "t": "retatrutide weight loss compared to other drugs - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5iQTBfVUlIQ1QyZG8zUW81QjZXaTNnb3psc1dTMzlJN1VqUTNYVFZZTHhVT1dVZjZYYUNSUV9qSDdwSDdXZ2JSRWZMLUxuUWZEdFhadzQ5cVlzSHIySmM2OFdYWEM4dw?oc=5",
-   "d": "2026-10-04",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss compared to other drugs www.polskieradio.pl"
-  },
-  {
-   "t": "eli lilly trial shows drug retatrutide produces significant weight loss - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX20tSVRaOUI0emtseTloY0xlSnBIOXVXVk0xSjVwN1FKcXdvNEN5RWFMeXUtRHdVWmt0ZTVocjJBaDN4LTFuU0xlQWFXQ0dtb1ZVc0xaN0FPclB4R2x2Nk0tMm9lVDlDUjIyNFNsYjdBQWpRRWE2aHI2eDFyeWN3Mm1pcmxLNVd5bWYxaldsNUVEaFpzUnBOZWJKNEpkc1RaaEMwZmtiNjREUFRTRngta1lmQlktQ0czVmlzQnhKbw?oc=5",
-   "d": "2026-10-04",
-   "s": "gnews-a",
-   "x": "eli lilly trial shows drug retatrutide produces significant weight loss www.polskieradio.pl"
-  },
-  {
-   "t": "Can the BPC-157 ‘Wolverine’ Peptide Really Help With Pain and Recovery? - AOL.com",
-   "l": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPTUVQVUE0OWpEV2RkVkNWa2VFdFRSMDlsLXFfUGo0WjhHNmNMSU8zV1RoRURnZ1haQng1UndVRVlpdVZuM0Z3ZVZzZ3B2c2taUUYxVjRGbVlabTY3aC14WGJ2V0w4Z1JjX3ZpbGY2Qy1vTEljbHh2RFVTOWVPV1R5MUZn?oc=5",
-   "d": "2026-10-04",
-   "s": "gnews-a",
-   "x": "Can the BPC-157 ‘Wolverine’ Peptide Really Help With Pain and Recovery? AOL.com"
-  },
-  {
-   "t": "retatrutide weight loss drug - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdEhISHFkV24zYnAzZTdrQWxNLUJHSFItcUVYZTJ0d3hVZHp6ZGZ2OFVFTURlaF8zZzQ3ZHRDR3pMUFRNdjdRbjBZLW5HRExhclhZZDJNNTh4UkR5YmY1WklPM0tTM1JwLUNUejA4aTNlTUhHVmpicEIzY1VndEVGUXpBYw?oc=5",
-   "d": "2026-10-04",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug www.polskieradio.pl"
+   "s": "epmc",
+   "x": "bioRxiv"
   },
   {
    "t": "Retatrutide trial: Triple action jab can cause weight loss of up to 25%, results suggest.",
