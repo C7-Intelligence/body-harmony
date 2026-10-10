@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-10T06:00Z",
+ "generated": "2026-10-10T12:41Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-10T06:00Z",
+   "checked": "2026-10-10T12:41Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-10T06:00Z"
+   "lastOk": "2026-10-10T12:41Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-10T06:00Z",
+   "checked": "2026-10-10T12:41Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-10T06:00Z"
+   "lastOk": "2026-10-10T12:41Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-10T06:00Z",
+   "checked": "2026-10-10T12:41Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-10T06:00Z"
+   "lastOk": "2026-10-10T12:41Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-10T06:00Z",
+   "checked": "2026-10-10T12:41Z",
    "ok": true,
-   "new": 14,
+   "new": 15,
    "seen": 48,
-   "lastOk": "2026-10-10T06:00Z"
+   "lastOk": "2026-10-10T12:41Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-10T06:00Z",
+   "checked": "2026-10-10T12:41Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-10T06:00Z"
+   "lastOk": "2026-10-10T12:41Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-10T06:00Z",
+   "checked": "2026-10-10T12:41Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-10T06:00Z"
+   "lastOk": "2026-10-10T12:41Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-10T06:00Z",
+   "checked": "2026-10-10T12:41Z",
    "ok": true,
-   "new": 152,
+   "new": 153,
    "seen": 188,
-   "lastOk": "2026-10-10T06:00Z"
+   "lastOk": "2026-10-10T12:41Z"
   }
  ],
  "items": [
+  {
+   "t": "Use of Salt Substitutes To Reduce the Sodium Content in Standardized Foods",
+   "l": "https://www.federalregister.gov/documents/2026/10/13/2026-20848/use-of-salt-substitutes-to-reduce-the-sodium-content-in-standardized-foods",
+   "d": "2026-10-13",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA or we) is issuing a final rule to amend our standard of identity regulations that specify salt (sodium chloride) as a required or optional ingredient to permit the use of salt substitutes in standardized foods, to reduce the sodium content.…"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",

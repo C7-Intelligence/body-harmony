@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-10T06:00Z",
+ "generated": "2026-10-10T12:41Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-10T06:00Z",
+   "checked": "2026-10-10T12:41Z",
    "ok": true,
-   "new": 101,
+   "new": 102,
    "seen": 139,
-   "lastOk": "2026-10-10T06:00Z"
+   "lastOk": "2026-10-10T12:41Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-10T06:00Z",
+   "checked": "2026-10-10T12:41Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-10T06:00Z"
+   "lastOk": "2026-10-10T12:41Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-10T06:00Z",
+   "checked": "2026-10-10T12:41Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-10T06:00Z"
+   "lastOk": "2026-10-10T12:41Z"
   }
  ],
  "items": [
@@ -56,6 +56,20 @@ window.FEED_ART={
    "d": "2026-10-10",
    "s": "gnews-a",
    "x": "retatrutide weight loss drug overview 2026 BusinessWorld Online"
+  },
+  {
+   "t": "Is Peptide Sciences Still in Business in 2026? Website Status, EU Operations, and US Availability Explained The Hype Magazine: Unveiling the Pulse of Urban Culture - From Hip Hop to Hollywood!…",
+   "l": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOc3l0bWdkcVpwT2RzZWYyTnpBTDlCVXpjU2pRR3l6OF9oMmxoaTlRUGVzd0ZJS3VEb3ZSSTFvaGFDeWVndmxjT2QtM21qcV9sbVRrTzdsVlZZSnlxNUl0QS1hYmgycnQ1NkxkeU1VWDBuQmd1dS1XVnB2azh5VnJ5eXk0S3hmbVAyNkNGVHpvQXdhQVdvMzF4ZE5kWV9tcGtqYUNyeHRSYWRnMFEzRkJLYzVNQUZLMm5QQTAxVHJrS0FZcnFCSUVKbnpxaTd5cDhlTmpHdGpDbUNJWEpVdXhndWZ3?oc=5",
+   "d": "2026-10-10",
+   "s": "gnews-a",
+   "x": "Is Peptide Sciences Still in Business in 2026? Website Status, EU Operations, and US Availability Explained The Hype Magazine: Unveiling the Pulse of Urban Culture - From Hip Hop to Hollywood! Explore a Diverse Tapestry of Stories, Interviews, and Impactf The Hype Magazine"
+  },
+  {
+   "t": "fda approved weight loss drugs 2026 tirzepatide semaglutide retatrutide - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaTUyVTFTd1dOTW5JeUxoMHFPYUFVYklzN3hIWWFXT1NrUTE4SFZLX3BUd1dBeTdIeHQ1Wi14amhYSVktclZMWHZLb3J0ZlZQalVBS0RGZU8yRUk2bE9wek4wYzd6bDJyVVZKM1kybmtvZVFSaUNfbHlzX1dCTFduSGdBWmVPcTAxQl9yMFJUQURTczIySk16UTJjV0pvNWVGYVZGZGVCREljclZTYnZVcHR3?oc=5",
+   "d": "2026-10-10",
+   "s": "gnews-a",
+   "x": "fda approved weight loss drugs 2026 tirzepatide semaglutide retatrutide BusinessWorld Online"
   },
   {
    "t": "Brain peptides? People trying unapproved substances for sharper focus - NewsNation",
@@ -119,6 +133,20 @@ window.FEED_ART={
    "d": "2026-10-09",
    "s": "gnews-a",
    "x": "retatrutide weight loss compared to other drugs BusinessWorld Online"
+  },
+  {
+   "t": "Retatrutide: Separating the Science from the Hype - nerdbot",
+   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdU53N3VxNlZEcHFzcHZNOTBsbFkxZU9obnJHVnJ6Rmk0YXBvYnhZbWpwcEFDa1VGTjRtVXktXy10MWM4bUdGWE85UkJmYnBsajhMLTNJUWlWVkxfTnRGdzNHa2dBWk5wX3VTeUdnWTNMQXh4WEhzTGtkb3d1T09hYWQzaDJWanc?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "Retatrutide: Separating the Science from the Hype nerdbot"
+  },
+  {
+   "t": "2026 fda approved weight loss drug retatrutide approval status - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc1k0aXhSUjRFZDN0NHc4djZZbTFFYzBCUnNlQXZ0NUltR0NvZ3FvcmhWOXU3OTR2S1M1Ym9WMnFuYlNjM0c0a0ZpVUpIWnNWOEkxTHo2VGUwNWNiR0xWTmlKR051SWo5cTBJU3NmTnpZNEFoM2ZyX1ByZTk0SGpLZUdtalBlWTZOcVpCdGJicEVLSUphcTRodUJRUWtpbkUzSEJHSlpB?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "2026 fda approved weight loss drug retatrutide approval status BusinessWorld Online"
   },
   {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
@@ -189,6 +217,13 @@ window.FEED_ART={
    "d": "2026-10-08",
    "s": "gnews-a",
    "x": "The Tri-Peptide Synergy in Molecular Inquiry: BPC-157, TB-500 and GHK-Cu (GLOW Blend) Star Local Media"
+  },
+  {
+   "t": "Americans Paying for Cheap Online Semaglutide May Be Sending Money to Vendors That Also List Fentanyl Precursors - inkl",
+   "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY2NPUE1XYU1ybGZ3NHFZZWpiLXF0bWVsbWl6RWpJVjVxOFo5Z0lCMUFROEpPR0RGUWg5bHZ6bkVab1JVUUNseGs3ZFpLR2xZY3hyZEtEZ1Rhbmt0ZHZGbTBmVUJXMEhTMkktZl9BZGFSMzdnbkVPNjVGMi1xamRhTUVxMTMyYU95TDdYZnUycjkwSlI1OFBnLUgyQjNrUWwxZVBsTENnSWw4cHFPSUNPUHgwREUwdmNFNXViVlA2aGZpYlA3aWh0U3dIQTVGN1M3d3pQWA?oc=5",
+   "d": "2026-10-08",
+   "s": "gnews-a",
+   "x": "Americans Paying for Cheap Online Semaglutide May Be Sending Money to Vendors That Also List Fentanyl Precursors inkl"
   },
   {
    "t": "newsGP - Patients’ hidden GLP-1 use sparks surgery safety warning - Royal Australian College of General Practitioners (RACGP)",
@@ -301,41 +336,6 @@ window.FEED_ART={
    "d": "2026-10-06",
    "s": "gnews-a",
    "x": "Altro Health Raises $7M to Bring Peptides and GLP-1s to Wellness Businesses Fitt Insider"
-  },
-  {
-   "t": "Nox Peptides Announces Launch of GHK-Cu and Wolverine Stack for Canadian Research Market - Lelezard",
-   "l": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQbGJHaG9UZXZOMkg5dDBLVFRneGpjWm9QWnp3MThDYTdhd3RZTXNpTW1DcUVxYzN0dTRYLWFfWTk3UDNDTlNNWkdqOE1UbmpObFVuZllRSi03VTZJeEdWM09CZW5uRktvNDFDaHFuUlBFa25seGdPamJvNWRRc0d0dW1BQ3h6WXpwakNKVE13U1YtbWd4bjlleHBwanRISjBNUXNDMndJV2Y4MHoybG9iQzBfVnVuc0lITjBnWllVWDUyRFZEUGNIMS1KVzY1RTlX?oc=5",
-   "d": "2026-10-06",
-   "s": "gnews-a",
-   "x": "Nox Peptides Announces Launch of GHK-Cu and Wolverine Stack for Canadian Research Market Lelezard"
-  },
-  {
-   "t": "Nox Peptides Announces Expanded Research Focus on BPC-157 as Canadian Peptide Research Supply Demand Grows - The Manila Times",
-   "l": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNZUF4aEkzLVdjTmRfc0FGaTl0bk5XMG14a0NlTGhkOEhSektyT20tZDE1YWdHZ2N5dTBWSUdTSWlSSmdrNkZWX1BQX0d5OWY2WWZrTmhPcUVra2p6b1ExQmNHcG9SMFl0ZDJSNV9FWW5vcFc1VDFpbE1YTkJsc2Vxa3BCMWF5aG1HbXZVOTN5X0pFTHAtZF9QSEtWNGd1QWp0ZGlGT3pvQ1ZkRUtnWWpCQmx2LURhVU00dG13Qk1ibEN3VUFwWDhyMkJxMTh2Y2ZVLVR0TzZfSHd4bUlIZ0ZtVjcxcXpUVHFMNk43RlFKaV9uZEo2TElqeE9lS1RFM2tmWTBtbWxkaG5TdDRj0gGSAkFVX3lxTE92Z0NJMHV4dWVBSU1OOHFjMEpfNGdWb2J4U3otSXRqTHdaYnBScWVKTUxtMzJDTXFIVkZUX09rSTFtbHpZZi1jNTZqM0F3UFVSeEdIb0NzdGlibnlFbjlzamdmeTluZUFuWkJ6WklQWEF6TnJVdm5NZFhlb0NPdmgwUWlnZngxTHdodkhaTnV5aW5oWEFOWkVRamgwdlFlclF1ZjN0UlM1a0dRdFFqZnlKZzdxRmx3OVhTTkVXNHdTVUVVSHR3QXpEaGRNNzI5N21OcVRTdWttTUdkeGhEZDhuMklyZzBZQnFKdVpTLW9tcEl4MndlS1B1dlQ2QmFEZTNRVEJOaUQ1TjVzRHlWZXQ4eFE?oc=5",
-   "d": "2026-10-06",
-   "s": "gnews-a",
-   "x": "Nox Peptides Announces Expanded Research Focus on BPC-157 as Canadian Peptide Research Supply Demand Grows The Manila Times"
-  },
-  {
-   "t": "Are stem cells the next peptides? These advocates think RFK Jr. could make it happen - STAT",
-   "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPYmhGY0FlVEFBLTVlMlQzZXM3WVRsbURxUE9od3lRc2JoTlFxOXd3UFN4NEFXZVFzb1hqNFktd0Q5ejFGeDZUOFdlTFF0b1FDZm9MVHBmcVZmSDZwckFPM0g1dThwcUpqRS1KQWVUUVc2VDZ3NXBRUXpLRjUzZEZ5NDhHR1FWUWM0d0poNVp1VmwyRFlR?oc=5",
-   "d": "2026-10-05",
-   "s": "gnews-a",
-   "x": "Are stem cells the next peptides? These advocates think RFK Jr. could make it happen STAT"
-  },
-  {
-   "t": "GLP-1 research triggers surgery warning - Medical Republic",
-   "l": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNDB3TU1uYlRlOTFzYl9DTVVJWmwzWklaZ0xzWGVBc2p4czlMUVJ0cTNORDlLcGhmWUh4OW5WbGVmdEF1Z2ZBQ1ItMERqNmE5anlyNExjUmgxUnY0bUFtUUljU2ktbHBfQ2lteS0zZURSRHEzcmRWRUNtVURsc2dYUHZTMTNkR1Y0?oc=5",
-   "d": "2026-10-05",
-   "s": "gnews-a",
-   "x": "GLP-1 research triggers surgery warning Medical Republic"
-  },
-  {
-   "t": "Wolverine Peptide: Do 'Regeneration' Benefits Outweigh Risks? - Healthline",
-   "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNODJ2OGVCTzREUDFnU3g2RHNmSWVPMm82VWtkOWtsRU85eUJVbmUyYlpzNmlndGt3djI3WmJrcjMtWHE4cGVTY1hyTUx4dGg1bGJZcHZYODZ0VmhTVHdtLXZNdjR3NTQ1WDZiM05vREp5TjN3UWF0aUNfZTVHSzNVWEVMSHRqS0ZkVlU4?oc=5",
-   "d": "2026-10-05",
-   "s": "gnews-a",
-   "x": "Wolverine Peptide: Do 'Regeneration' Benefits Outweigh Risks? Healthline"
   },
   {
    "t": "A 4D GelMA-Cad/Gelatin Hydrogel for High-Resolution DMD Bioprinting of Vascularized Soft Tissue Models",
