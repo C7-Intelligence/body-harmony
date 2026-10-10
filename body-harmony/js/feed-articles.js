@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-10T12:41Z",
+ "generated": "2026-10-10T21:50Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-10T12:41Z",
+   "checked": "2026-10-10T21:50Z",
    "ok": true,
-   "new": 102,
-   "seen": 139,
-   "lastOk": "2026-10-10T12:41Z"
+   "new": 104,
+   "seen": 137,
+   "lastOk": "2026-10-10T21:50Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-10T12:41Z",
+   "checked": "2026-10-10T21:50Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-10T12:41Z"
+   "lastOk": "2026-10-10T21:50Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-10T12:41Z",
+   "checked": "2026-10-10T21:50Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-10T12:41Z"
+   "lastOk": "2026-10-10T21:50Z"
   }
  ],
  "items": [
@@ -70,6 +70,20 @@ window.FEED_ART={
    "d": "2026-10-10",
    "s": "gnews-a",
    "x": "fda approved weight loss drugs 2026 tirzepatide semaglutide retatrutide BusinessWorld Online"
+  },
+  {
+   "t": "Peptide patients paying up to $1,500 a month face an FDA problem - TheStreet",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPODJGTE1mdEZKQVY5b1B6UnNUZWc0al9XRmcxTnJ5c2tNV2Rnb0Jka0FzRHhXdE0xNy1BU2xQeFZ1VE91QVY4ZkUzcXkwMDV6YlZQTkZuRzVQMW9KQ0ZRLVZ5Ym1nZTBDRXBLQTNkRDM3bWMwbGRFczJUVkVYQUI3OWh1VlJDVkNQRXJ2QnZSS2pVU1ZGeEJUQWZ6RQ?oc=5",
+   "d": "2026-10-10",
+   "s": "gnews-a",
+   "x": "Peptide patients paying up to $1,500 a month face an FDA problem TheStreet"
+  },
+  {
+   "t": "Health Brief: Eli Lilly takes on retatrutide copycats - The Washington Post",
+   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUkExOXZsN09FaU9MMVE2TW9JZUhoeGY1LXo1dHNFNVJXN04tYmY4RkRwQVBFelMzSVNOdXBqRld2ODE2dnVvaGFoakswblFsSGFYcDFQaDlubGdxdmFsY1BNaUl5dUg1OEFvWU55dTNuZUMzcHNwa0p6aEhBZWNTTWpJUnR3ZnBET3BkOE51SHNya0toN3NNc1k1S3ZMVXI5dzdoRW8zNUlnYWp4T196N3ktTGdwX1AtT1J5aGVn?oc=5",
+   "d": "2026-10-10",
+   "s": "gnews-a",
+   "x": "Health Brief: Eli Lilly takes on retatrutide copycats The Washington Post"
   },
   {
    "t": "Brain peptides? People trying unapproved substances for sharper focus - NewsNation",
@@ -268,6 +282,13 @@ window.FEED_ART={
    "x": "Influencers Are Peddling Peptides, but Is Tanmaxxing Worth the Risk? KQED"
   },
   {
+   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - www2.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX0hZXy11VFpDaDYzYWlHVnd3UkdBUks1ZjhpWnJuRTh5YTkzWTdvSHNheWtRUFA5MHJYdXFPVkJRZVZDUklObHUzY1lHa19rWW5wM1ByNzNwMDZzZXJyYWZ1WThpQnBVVjhvY3RSN09IZzJPLTJ2bVFOdkI3aHZ6elhfVkpXT1dkYWF2bHAydkNWVGxEcU5weVpTcU9fN1VJamZjODJJMDk2Ym8?oc=5",
+   "d": "2026-10-07",
+   "s": "gnews-a",
+   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss www2.polskieradio.pl"
+  },
+  {
    "t": "BPC-157 and TB-500: Do Peptides Work for Endurance Athletes? - the5krunner",
    "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXQ2laeDBKcHUxSWlZTUM2QjB2M1dLTmJPazQza1U1cDJ0Vkk0M2ktNC1vemdfb0xfNElQenBmcjRmNGlBU3VaODcxWHkydHEzVzBCU0dyNDhLTEdVUnZHZDJ6MHVZc1V3?oc=5",
    "d": "2026-10-06",
@@ -315,27 +336,6 @@ window.FEED_ART={
    "d": "2026-10-06",
    "s": "stat",
    "x": "Stem cells might be the next peptides, and how Trump's $90 checks will play out after the election."
-  },
-  {
-   "t": "Kylo Peptides Review Brings Transparency to the Research Peptide Market - Yahoo Finance",
-   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU21LaG9xOW5MN1RBWkxHNEY1YjVZNU5KbDJnYU5yVWtyblJ6X1F3Z2VZWEpZcmdzbmJQcnZrT1VQTndOd3J1TEx6ZXhLUlkzcGhXZEdQZVRTaUpiS09UY3FqdDR5bEYyQkZlRnhhR05OclZPU1RuUTFneFJNM2gtWnJGMW5mRzgwT3lJOE15WkZSMVhBel9sbUNUX1BLOWJtYkg4?oc=5",
-   "d": "2026-10-06",
-   "s": "gnews-a",
-   "x": "Kylo Peptides Review Brings Transparency to the Research Peptide Market Yahoo Finance"
-  },
-  {
-   "t": "Bulk Peptides: Kylo Peptides Launches Bulk Research Program for High-Volume Laboratories - Yahoo Finance",
-   "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeDg1aE0tSlhkdmQweEx6VzRBODhlcFRqTVBmbGJxdTVrTV9GSmJOekc2MnRsd18xN3JjTmVHdEJ2Nnp3SUlIaW1XYXBBOWpKTGxhaEhFZHR1NDNidTNCRzVqUHI3Q0IxS0phRjFwbHNfLWhfNjZWZ2Y2S05sdWpxVUZlOGVkSnlEcTk0UGVDVFpFeTdCSHZVZXh4R2hOZw?oc=5",
-   "d": "2026-10-06",
-   "s": "gnews-a",
-   "x": "Bulk Peptides: Kylo Peptides Launches Bulk Research Program for High-Volume Laboratories Yahoo Finance"
-  },
-  {
-   "t": "Altro Health Raises $7M to Bring Peptides and GLP-1s to Wellness Businesses - Fitt Insider",
-   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPSkFZSnZqWEprRTJTV2MzNmhEZ1Jhb1pkTW83TEJFZDh3Q1FHQzJUMzNyWkh3RGQ2R2pMNG1LMFpYc3pXbGVuQ0w2c09FS2R4MERVRHRBeThnaVZ0Q1FwRXhqSVZ4ZjQ5VjlPeHZkYnJfcmFjOGRDQTRRcXNrTko5cUNmeXZ0M3BSUmdkWWZQUEJVMnc?oc=5",
-   "d": "2026-10-06",
-   "s": "gnews-a",
-   "x": "Altro Health Raises $7M to Bring Peptides and GLP-1s to Wellness Businesses Fitt Insider"
   },
   {
    "t": "A 4D GelMA-Cad/Gelatin Hydrogel for High-Resolution DMD Bioprinting of Vascularized Soft Tissue Models",
