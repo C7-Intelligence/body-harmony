@@ -1,110 +1,103 @@
 window.FEED={
- "generated": "2026-10-09T18:24Z",
+ "generated": "2026-10-10T06:00Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-09T18:24Z",
+   "checked": "2026-10-10T06:00Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-09T18:24Z"
+   "lastOk": "2026-10-10T06:00Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-09T18:24Z",
+   "checked": "2026-10-10T06:00Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-09T18:24Z"
+   "lastOk": "2026-10-10T06:00Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-09T18:24Z",
+   "checked": "2026-10-10T06:00Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-09T18:24Z"
+   "lastOk": "2026-10-10T06:00Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-09T18:24Z",
+   "checked": "2026-10-10T06:00Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-09T18:24Z"
+   "lastOk": "2026-10-10T06:00Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-09T18:24Z",
+   "checked": "2026-10-10T06:00Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-09T18:24Z"
+   "lastOk": "2026-10-10T06:00Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-09T18:24Z",
+   "checked": "2026-10-10T06:00Z",
    "ok": true,
-   "new": 3,
-   "seen": 3,
-   "lastOk": "2026-10-09T18:24Z"
+   "new": 2,
+   "seen": 2,
+   "lastOk": "2026-10-10T06:00Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-09T18:24Z",
+   "checked": "2026-10-10T06:00Z",
    "ok": true,
    "new": 152,
    "seen": 188,
-   "lastOk": "2026-10-09T18:24Z"
+   "lastOk": "2026-10-10T06:00Z"
   }
  ],
  "items": [
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-10-09",
+   "d": "2026-10-10",
    "s": "fierce",
    "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/how-drugmakers-are-tapping-glp-1-frenzys-unprecedented-consumer-overlay",
-   "d": "2026-10-09",
+   "d": "2026-10-10",
    "s": "fierce",
    "x": "With the advent of powerful GLP-1 medications from Novo and Eli Lilly, the conversation about obesity as a chronic disease has begun to shift, along with the understanding of how tackling weight can trigger a multitude of downstream health benefits."
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/noom-puts-spooky-voice-haunting-threat-weight-regain-glp-1-users-new-spot",
-   "d": "2026-10-09",
-   "s": "fierce",
-   "x": "Noom's horror movie-esque new ad showcases the haunting threat of weight regain on GLP-1s, which the Noom app can help fend off."
-  },
-  {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
    "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-09",
+   "d": "2026-10-08",
    "s": "gnews",
    "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
