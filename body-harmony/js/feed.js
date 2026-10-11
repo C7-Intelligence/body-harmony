@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-11T13:02Z",
+ "generated": "2026-10-11T22:05Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-11T13:02Z",
+   "checked": "2026-10-11T22:05Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-11T13:02Z"
+   "lastOk": "2026-10-11T22:05Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-11T13:02Z",
+   "checked": "2026-10-11T22:05Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-11T13:02Z"
+   "lastOk": "2026-10-11T22:05Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-11T13:02Z",
+   "checked": "2026-10-11T22:05Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-11T13:02Z"
+   "lastOk": "2026-10-11T22:05Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-11T13:02Z",
+   "checked": "2026-10-11T22:05Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-11T13:02Z"
+   "lastOk": "2026-10-11T22:05Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-11T13:02Z",
+   "checked": "2026-10-11T22:05Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-11T13:02Z"
+   "lastOk": "2026-10-11T22:05Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-11T13:02Z",
+   "checked": "2026-10-11T22:05Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-11T13:02Z"
+   "lastOk": "2026-10-11T22:05Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-11T13:02Z",
+   "checked": "2026-10-11T22:05Z",
    "ok": true,
-   "new": 153,
-   "seen": 187,
-   "lastOk": "2026-10-11T13:02Z"
+   "new": 155,
+   "seen": 188,
+   "lastOk": "2026-10-11T22:05Z"
   }
  ],
  "items": [
@@ -107,6 +107,20 @@ window.FEED={
    "d": "2026-10-10",
    "s": "gnews",
    "x": "Peptide patients paying up to $1,500 a month face an FDA problem TheStreet"
+  },
+  {
+   "t": "Peptide patients paying up to $1,500 a month face an FDA problem - AOL.com",
+   "l": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95MmIxZ2RHLWRBVW5ORG9KVTVWZUl6VHZZSFRmTDE3ZUEwMWd0QWwza3dDSUJ5c0YxTnJ3YXRrRkZBd3d1angzeVEzeTFWRHV3RXN5VzRzLUZtSkxIeXpHc24ySkhDc1J6NXJ1ZTNPN3NsNExKME40b2JpWEtKQQ?oc=5",
+   "d": "2026-10-10",
+   "s": "gnews",
+   "x": "Peptide patients paying up to $1,500 a month face an FDA problem AOL.com"
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "Low-Value Shipments",
@@ -497,20 +511,6 @@ window.FEED={
    "d": "2026-08-05",
    "s": "gnews",
    "x": "FDA Panel Backs 2 Peptides For Compounding, Rejects Another Neurology Advisor"
-  },
-  {
-   "t": "Peptide FDA Updates: Latest News on Compounding and More - GoodRx",
-   "l": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOUFBRVNNWDlCazdRU0tzNTRzcmh1Z1dvcGJqNGxKczJ2Um84ejRGTGdJVWdiVFJkb1daTG5MZkstckx5RlNSTThqOGdJT29BRkNIckcyeXBId29PSllMSlVUbHVFUzVPd3NtcTZYV1N2cjgyOGFxVm5kSVJZZG5vVg?oc=5",
-   "d": "2026-08-05",
-   "s": "gnews",
-   "x": "Peptide FDA Updates: Latest News on Compounding and More GoodRx"
-  },
-  {
-   "t": "Novo Nordisk sues Eli Lilly over GLP-1 advertising, expanding scrutiny of drug marketing - Telehealth.org",
-   "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUndWSm8ycWpGaU9ualJVVWEwWmJac0V0NjV2QTVGZkZxeEQ2Qjg1bEFoTGZ5b1c0SWZWZ0hBdk1USTZYVWt6dW5NdVdZR1hCNFFkc1JxTldzVVctSW9Tc1pWUDV2WVBYSng0WFE1TDZjN2o5Mk9XeXd4U1BxSFVXUXUtVUl6NW93dHVPSDJnUWhjRnRCLWFLMjhsbEJmbGxUaGtkQVlOcGVXUWRUSERDdk5lUXlvQXc?oc=5",
-   "d": "2026-08-05",
-   "s": "gnews",
-   "x": "Novo Nordisk sues Eli Lilly over GLP-1 advertising, expanding scrutiny of drug marketing Telehealth.org"
   },
   {
    "t": "FDA advisory committee endorses compounding of certain peptides",

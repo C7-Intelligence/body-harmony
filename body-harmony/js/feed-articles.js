@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-11T13:02Z",
+ "generated": "2026-10-11T22:05Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-11T13:02Z",
+   "checked": "2026-10-11T22:05Z",
    "ok": true,
-   "new": 99,
-   "seen": 133,
-   "lastOk": "2026-10-11T13:02Z"
+   "new": 101,
+   "seen": 136,
+   "lastOk": "2026-10-11T22:05Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-11T13:02Z",
+   "checked": "2026-10-11T22:05Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-11T13:02Z"
+   "lastOk": "2026-10-11T22:05Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-11T13:02Z",
+   "checked": "2026-10-11T22:05Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-11T13:02Z"
+   "lastOk": "2026-10-11T22:05Z"
   }
  ],
  "items": [
@@ -63,6 +63,13 @@ window.FEED_ART={
    "d": "2026-10-11",
    "s": "gnews-a",
    "x": "Eli Lilly Steps Up Retatrutide Crackdown With Six New Lawsuits – CMO Hyman Says Drug Sold In Black Market Is ‘Not A Medicine’ Stocktwits"
+  },
+  {
+   "t": "Chinese firms that once supplied fentanyl precursors now eye illicit peptide market - 헤럴드경제",
+   "l": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10WEprOEpNZ0p6UlZ6UW5fNVE1V0R4dVU0V0JkQmZOWXJrbXlzTXN3S3Z3SU1HS1dlY2NCOE1rTXVQb0lvbzFkSklNY3JxcG9CdmRaMWR3?oc=5",
+   "d": "2026-10-11",
+   "s": "gnews-a",
+   "x": "Chinese firms that once supplied fentanyl precursors now eye illicit peptide market 헤럴드경제"
   },
   {
    "t": "retatrutide weight loss drug overview 2026 - BusinessWorld Online",
@@ -193,9 +200,16 @@ window.FEED_ART={
   {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
    "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-08",
+   "d": "2026-10-09",
    "s": "gnews-a",
    "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "most effective weight loss drug 2026 tirzepatide retatrutide - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdzE3d3dRMUg2Z1EtQzkzV0NoZzlIMk9lYTBJVDNnMjY2alg2NXc0SGhReTFZaThIekRVV1VxT3pEWGlnVFZKcnZQOTBjZ1NfTFQtQlQwN294WDEzSXdsREdKVm5qQUluSHNEc3JySE9PdnVfWE9LendJN2wwNXVZMTFKaDhSemlIQTZKcHlIel8wVUdwZE5lZ2gzaWxiVkFXanJOTDRKRFRXSEtWb3FNRA?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "most effective weight loss drug 2026 tirzepatide retatrutide www.polskieradio.pl"
   },
   {
    "t": "Trump Moves to Allow Sale of Untested Peptides - Political Wire",
@@ -315,20 +329,6 @@ window.FEED_ART={
    "d": "2026-10-07",
    "s": "gnews-a",
    "x": "most effective weight loss drug 2026 tirzepatide retatrutide www.polskieradio.pl"
-  },
-  {
-   "t": "BPC-157 and TB-500: Do Peptides Work for Endurance Athletes? - the5krunner",
-   "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXQ2laeDBKcHUxSWlZTUM2QjB2M1dLTmJPazQza1U1cDJ0Vkk0M2ktNC1vemdfb0xfNElQenBmcjRmNGlBU3VaODcxWHkydHEzVzBCU0dyNDhLTEdVUnZHZDJ6MHVZc1V3?oc=5",
-   "d": "2026-10-06",
-   "s": "gnews-a",
-   "x": "BPC-157 and TB-500: Do Peptides Work for Endurance Athletes? the5krunner"
-  },
-  {
-   "t": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNQ2YwUXdHYjhqV2hkZFBKTFhDSk9BOVlLTXBBSXpKRU8wZndKb0ZkcGIzMTN4ckdoQWJnS282MHRNS1NLdFhBVHB5TVZXU0FEa3QzemFDNzNXNEozZnkzbUtnbDRVNFBuSkI0WDUxbU1GYWx6YVdENXN3aWZyeGVVcno1dWx2WVNlcVEtUGVvVng4Y3ZxSmprZ2xBRnltRFg2MlFuREFHeFZLYUl2Y0g2WHlFcHdmNk90UjM1bGhlNmlVcGJTTTZ5eWlPSFdJNVVxZHY2b3A0Z28tOGdNVUF3SnBhZ1ZGMUxBS2N1R05yc1ZHM0w2UndTYUpUNG5LNUUtbzdjb3lTM0ZlQWh3RGc?oc=5",
-   "d": "2026-10-06",
-   "s": "gnews-a",
-   "x": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ Stocktwits"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
