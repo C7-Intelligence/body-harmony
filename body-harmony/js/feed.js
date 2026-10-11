@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-10T21:50Z",
+ "generated": "2026-10-11T05:57Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-10T21:50Z",
+   "checked": "2026-10-11T05:57Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-10T21:50Z"
+   "lastOk": "2026-10-11T05:57Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-10T21:50Z",
+   "checked": "2026-10-11T05:57Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-10T21:50Z"
+   "lastOk": "2026-10-11T05:57Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-10T21:50Z",
+   "checked": "2026-10-11T05:57Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-10T21:50Z"
+   "lastOk": "2026-10-11T05:57Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-10T21:50Z",
+   "checked": "2026-10-11T05:57Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-10T21:50Z"
+   "lastOk": "2026-10-11T05:57Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-10T21:50Z",
+   "checked": "2026-10-11T05:57Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-10T21:50Z"
+   "lastOk": "2026-10-11T05:57Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-10T21:50Z",
+   "checked": "2026-10-11T05:57Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-10T21:50Z"
+   "lastOk": "2026-10-11T05:57Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-10T21:50Z",
+   "checked": "2026-10-11T05:57Z",
    "ok": true,
    "new": 154,
    "seen": 188,
-   "lastOk": "2026-10-10T21:50Z"
+   "lastOk": "2026-10-11T05:57Z"
   }
  ],
  "items": [
@@ -90,14 +90,14 @@ window.FEED={
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-10-10",
+   "d": "2026-10-11",
    "s": "fierce",
    "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/how-drugmakers-are-tapping-glp-1-frenzys-unprecedented-consumer-overlay",
-   "d": "2026-10-10",
+   "d": "2026-10-11",
    "s": "fierce",
    "x": "With the advent of powerful GLP-1 medications from Novo and Eli Lilly, the conversation about obesity as a chronic disease has begun to shift, along with the understanding of how tackling weight can trigger a multitude of downstream health benefits."
   },
@@ -213,6 +213,13 @@ window.FEED={
    "d": "2026-09-25",
    "s": "gnews",
    "x": "FDA Warning Letter to Empower Pharmacy and What It Means for 503A Compounding Pharmacies Buchanan Ingersoll & Rooney PC"
+  },
+  {
+   "t": "Peptides: Huge Promises, Unproven Hype - Outside Magazine",
+   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNkR0aEZSamliS1RjOGt2SW5RYVBpOVFOdXJ4VVBfYnQzVGtCMDdoV0FrTF9SSTFGWmtzaVR2djVZemQ3Qk5QUmY5dnphVG15bnpzY0J2Q0hYMjNUYlpQSFJ4SVk0aDZXaGxwOWFuSjBSd25IZHdkd2t0aTBZWFl2M3pPWQ?oc=5",
+   "d": "2026-09-25",
+   "s": "gnews",
+   "x": "Peptides: Huge Promises, Unproven Hype Outside Magazine"
   },
   {
    "t": "FDA warns compounding pharmacy over sterility of GLP-1 drugs - KING5.com",
@@ -512,13 +519,6 @@ window.FEED={
    "s": "curated",
    "p": "Holland & Knight",
    "x": "Law-firm analysis of the July PCAC votes."
-  },
-  {
-   "t": "FDA Advisory Committee’s Vote May Open A Drug-Compounding Back Door For Unapproved Peptides - Health Affairs",
-   "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNanVwdXpzR1p3bUNLdTRWUGstUHItV3NBb2VTa3pLR2tVc0NKZ18zNHZ6cHRoOTZIVDRhcFFfaWxWWGdFRk9qanh5WEhwS0tKeVZpQVNGeWh2V3ZtTExTeUpQaDh1X0lZNXZUZHNsOUJ1bW9UTTJ4MnBSYXJSNUhpaVJEMC0tQVlDN3A3Z2RmQzJabjRqUzZUYUVLSC1jSUVDV2FHdldQdzZjWWlhUzFlMEV4UW96SzEtRnlmZm5SeUVtZHhPa3BaVVkzUTNuQQ?oc=5",
-   "d": "2026-08-04",
-   "s": "gnews",
-   "x": "FDA Advisory Committee’s Vote May Open A Drug-Compounding Back Door For Unapproved Peptides Health Affairs"
   },
   {
    "t": "Product-Specific Guidances; Revised Draft Guidances for Industry; Availability",

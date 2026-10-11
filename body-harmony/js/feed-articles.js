@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-10T21:50Z",
+ "generated": "2026-10-11T05:57Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-10T21:50Z",
+   "checked": "2026-10-11T05:57Z",
    "ok": true,
    "new": 104,
-   "seen": 137,
-   "lastOk": "2026-10-10T21:50Z"
+   "seen": 135,
+   "lastOk": "2026-10-11T05:57Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-10T21:50Z",
+   "checked": "2026-10-11T05:57Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-10T21:50Z"
+   "lastOk": "2026-10-11T05:57Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-10T21:50Z",
+   "checked": "2026-10-11T05:57Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-10T21:50Z"
+   "lastOk": "2026-10-11T05:57Z"
   }
  ],
  "items": [
@@ -49,6 +49,13 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Retatrutide promises a new wave of weight loss – but doctors say these risks need a closer look - Women's Health",
+   "l": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX2ZTTTFub2JKT016dE5RMFp3MEtEbW9Vd1pKdU1zMWhSMjI1dFgyYUZSZE4zcU5fVDNwQ21tamduM2pJaDFWeXJsUnRmTXpuRWVlc1JObnNJMWF1Q0xOTkRVUDBGWmlqVllIelVvX2V4NGV2VGlzMnA4b01XVmVkUnV5bU4yNGJw?oc=5",
+   "d": "2026-10-11",
+   "s": "gnews-a",
+   "x": "Retatrutide promises a new wave of weight loss – but doctors say these risks need a closer look Women's Health"
   },
   {
    "t": "retatrutide weight loss drug overview 2026 - BusinessWorld Online",
@@ -84,6 +91,13 @@ window.FEED_ART={
    "d": "2026-10-10",
    "s": "gnews-a",
    "x": "Health Brief: Eli Lilly takes on retatrutide copycats The Washington Post"
+  },
+  {
+   "t": "Volta Peptides Wins Research Peptide Supplier of the Year 2026 Award from Peptide Atlas - FinancialContent",
+   "l": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNW1FTDJQeGNlaGEtSGZQSDh0X3prNjhpcXNzeXJBdWE4elNoa1dCbm9EUHpNcnd5aWc2cmhLVHNiSFhCWjNhczNtWFZsQk5XYUtvdVJTeDdRU1l1YWtCZHpreXVoZmRmTk92WHduZGl3TjY0RDdUcEw3VVRxU0RRMG9hZVdTVmM4Q2FTd1YzNnlyZXdNZUJocjY5eW5RcWt3UHY4OGJqQ3Y1aFFnN3FTVVc1OS1mc2hUeEZaVFhGdllGWEtBUjlxWmFORERlYy1weDI0XzJuNmVZeDZoazNkYlhrVVA?oc=5",
+   "d": "2026-10-10",
+   "s": "gnews-a",
+   "x": "Volta Peptides Wins Research Peptide Supplier of the Year 2026 Award from Peptide Atlas FinancialContent"
   },
   {
    "t": "Brain peptides? People trying unapproved substances for sharper focus - NewsNation",
@@ -261,11 +275,11 @@ window.FEED_ART={
    "x": "GMR Peptides Provides Online Access to Specialized Research Peptides FinancialContent"
   },
   {
-   "t": "5 Things to Know if Retatrutide Is Classified as a Biologic - AJMC",
+   "t": "5 Things to Know if Retatrutide Is Classified as a Biologic - The American Journal of Managed Care",
    "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYTU0b29SdmNhMmFxRVpGM0pySWZhYk5UTklQMGFmdUs3d0NpYUxRWnRVdXNuX3ZRMVZldE5kSkdxNTlzMWdmeURDcEdPQmVJTTY2eEttY1hjUGNkQ2hjZk4xRVVfXzFPdWVsX1pLSU5sT0dvaUlCRG56d2g0amNKbmVoTzNXSk1DRTgxWVZ3?oc=5",
    "d": "2026-10-07",
    "s": "gnews-a",
-   "x": "5 Things to Know if Retatrutide Is Classified as a Biologic AJMC"
+   "x": "5 Things to Know if Retatrutide Is Classified as a Biologic The American Journal of Managed Care"
   },
   {
    "t": "The scariest thing about gray-market peptides is how little we know - The Verge",
@@ -289,6 +303,13 @@ window.FEED_ART={
    "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss www2.polskieradio.pl"
   },
   {
+   "t": "most effective weight loss drug 2026 tirzepatide retatrutide - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRUtOUDJXM0c2aUxNZGpBeFR3YUpyRUlNLUQxd3dCbHlNX181Uk1XLXZ0OWh2bTNBRGN0UlYzcDFwNl80R0g5R2lEN0twclU5dU9KRE1uZjNQdENzVTA4QW85SEpYcWhlOU5zZzh2TWU1RWo0QXpUclF4NUhpeGZyOFMwRFExcHRZRlVGRzF5QmhGU1FJMHl1dXE2LVJqejZlSnBSU1dDWWtqeHNYTFNxeQ?oc=5",
+   "d": "2026-10-07",
+   "s": "gnews-a",
+   "x": "most effective weight loss drug 2026 tirzepatide retatrutide www.polskieradio.pl"
+  },
+  {
    "t": "BPC-157 and TB-500: Do Peptides Work for Endurance Athletes? - the5krunner",
    "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBXQ2laeDBKcHUxSWlZTUM2QjB2M1dLTmJPazQza1U1cDJ0Vkk0M2ktNC1vemdfb0xfNElQenBmcjRmNGlBU3VaODcxWHkydHEzVzBCU0dyNDhLTEdVUnZHZDJ6MHVZc1V3?oc=5",
    "d": "2026-10-06",
@@ -308,27 +329,6 @@ window.FEED_ART={
    "d": "2026-10-06",
    "s": "gnews-a",
    "x": "BPC-157 and TB-500: Do Peptides Work for Endurance Athletes? the5krunner"
-  },
-  {
-   "t": "retatrutide weight loss drug latest updates 2026 - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLWxQRWJOUWNJYnIwSk1nc1NGTVNqcFZjWFM4T2RLNk9SOENhcld4RDZsak1QTGNCSWxralo4aGk5SDY4M0NjTFFFcEtrUFBmaVJhX1dmRmtiRU9lQzNVZmZJQmJTM3JPZkYwZEwyVmpITFhUSmxkenlTTWZaUmU2c3U1X3plYUg3VkwwdnJWRU8xRGVsbmNSNUZpRVlMT1E?oc=5",
-   "d": "2026-10-06",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug latest updates 2026 www.polskieradio.pl"
-  },
-  {
-   "t": "Why DIY Peptides Aren't Worth The Health Risks - Blavity News",
-   "l": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBsZVZWVFBrWHRqclJkTFhyb2hkd0hRd2l1NTZEVlhGckk2SU80UVZ4aGFZV3FVQkJGTmdFa2dObVNacWd1NHNhOURsMU9KNVlhVkI3RldXUTE3cWdtVy16NXlhNmNhRWs?oc=5",
-   "d": "2026-10-06",
-   "s": "gnews-a",
-   "x": "Why DIY Peptides Aren't Worth The Health Risks Blavity News"
-  },
-  {
-   "t": "Bulk Peptides: Kylo Peptides Launches Bulk Research Program for High-Volume Laboratories - The Manila Times",
-   "l": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxQd3RpWGJTQklaVDJwTWJTUnpkRDAyZWdzaERzblJYLS1nOEpHSUhTNEhldG0tOWN0c3VIVXhaWnQ2ZHRZSGZCam12MG9Qb1p2bjUtNzJxZE5vNmZoZWl4S0k0SGdXanM2ejFBczlDVW5YUmMwaWhNWG9FVUh2bU9PUXFkNGtIR2xLVjlIZ1ZwX1N6V0YzRkdLN0licl9rckp3WkFRXzFMU2lkaXN5d0R0eVIxRzItVE9NRXNJZVloUG5lUS1oVTJXLVNSN1JKSjdYNFpqVGNSM1ZEQ25iODFpVUoyLUJqU1hKcVdJTHJFOXVRR3PSAfgBQVVfeXFMTUhkaVlrVVUyR1ppanc5ZjVOcDgtRmxuYm1oQ3BFczUwOC1qWV9lMEdRSzZSc0Ryck5xQlpIOE9WQ1ZJRmVQTFZ5OFJ2VFlaM2t1ZTYzUEZOdHMtVTROS05fU2lEZmp3emM0M2YwWEg1VEIwTWF4blhERk1UVGh3RHhCZnQtVXJmUDBYaHkwTktEUHdhcUM2cl83Q2hoLTVkZlFWSkhJdmxCZzZlT1ZmbTFGVnJvX2xwWUZTUGsxZGtXYnFsZmhfSC1idEF3bHowZmVrV0pmbkRyeU10T0t0TkNIOHhaalRxbU9UQllvbzctcXZUSTFNTGU?oc=5",
-   "d": "2026-10-06",
-   "s": "gnews-a",
-   "x": "Bulk Peptides: Kylo Peptides Launches Bulk Research Program for High-Volume Laboratories The Manila Times"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
