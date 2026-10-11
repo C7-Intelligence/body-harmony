@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-11T05:57Z",
+ "generated": "2026-10-11T13:02Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-11T05:57Z",
+   "checked": "2026-10-11T13:02Z",
    "ok": true,
-   "new": 104,
-   "seen": 135,
-   "lastOk": "2026-10-11T05:57Z"
+   "new": 99,
+   "seen": 133,
+   "lastOk": "2026-10-11T13:02Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-11T05:57Z",
+   "checked": "2026-10-11T13:02Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-11T05:57Z"
+   "lastOk": "2026-10-11T13:02Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-11T05:57Z",
+   "checked": "2026-10-11T13:02Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-11T05:57Z"
+   "lastOk": "2026-10-11T13:02Z"
   }
  ],
  "items": [
@@ -56,6 +56,13 @@ window.FEED_ART={
    "d": "2026-10-11",
    "s": "gnews-a",
    "x": "Retatrutide promises a new wave of weight loss – but doctors say these risks need a closer look Women's Health"
+  },
+  {
+   "t": "Eli Lilly Steps Up Retatrutide Crackdown With Six New Lawsuits – CMO Hyman Says Drug Sold In Black Market Is ‘Not A Medicine’ - Stocktwits",
+   "l": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQUE9yTUdtNFh1MTB5WXgwT1FneXJpY09WdXFHSWRJSkxiNmxMdXptTnBMNHFJcGJkNWJsQ283dkNJWDZHVEV2eS1wUm52RjEyNXEwdmFWQ0M5bkxsdVFrcGtneW4waVByS0dJb0NGNkt4MXl2WXE5QlY3MVZFcmhCbmpsUDdhb1FzRUozNlNLWTdDaTZ1VEVES2Q4dW5uUlp4ZzFydjVOVnB6Ylhid2ZHMmFkU2hWeUxNWVd6TFJ0RUdZdlF1bVA1dm9uT09KRWI0SUowQjZhY04wQTJkSTJQSUs3SDVPcUZhZ3V2U1dZTkgwZlZoVWIxQzlRZzNRZ2ZnMlhCNDBJUUFVUjlrcEdBM3lCQQ?oc=5",
+   "d": "2026-10-11",
+   "s": "gnews-a",
+   "x": "Eli Lilly Steps Up Retatrutide Crackdown With Six New Lawsuits – CMO Hyman Says Drug Sold In Black Market Is ‘Not A Medicine’ Stocktwits"
   },
   {
    "t": "retatrutide weight loss drug overview 2026 - BusinessWorld Online",
@@ -98,6 +105,13 @@ window.FEED_ART={
    "d": "2026-10-10",
    "s": "gnews-a",
    "x": "Volta Peptides Wins Research Peptide Supplier of the Year 2026 Award from Peptide Atlas FinancialContent"
+  },
+  {
+   "t": "Volta Peptides Wins Research Peptide Supplier of the Year 2026 Award from Peptide Atlas - USA Today",
+   "l": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY0ZrU01taTktdktiQ3gxR2kxeWVoNFItX3NZN091Q2RkVEdRVGEwNzBCdDJJdUxkQTJudEExVUlUNnF0cDJMSlNQb2VQYXN2OHZ6WXp6bXdWLUtocGxvTnJKMTRiblcyaXBhVndhVWJKdWgwOWhqaUp6cVhvdldfSW9WVkZQcXBDY1JyeWE4SGZPYXVQT0YzVG92Q2FsU1BWclViQWNvOXNjRkZYYUxRSHpyMDZSVjQyNnE3S0VqaGotWnl1d3dJaHV1TDBqNkpneVJnbDVn?oc=5",
+   "d": "2026-10-10",
+   "s": "gnews-a",
+   "x": "Volta Peptides Wins Research Peptide Supplier of the Year 2026 Award from Peptide Atlas USA Today"
   },
   {
    "t": "Brain peptides? People trying unapproved substances for sharper focus - NewsNation",
@@ -212,13 +226,6 @@ window.FEED_ART={
    "x": "Americans Paying for Cheap Online Semaglutide May Be Sending Money to Vendors That Also List Fentanyl Precursors Medical Daily"
   },
   {
-   "t": "Eli Lilly Steps Up Retatrutide Crackdown With Six New Lawsuits – CMO Hyman Says Drug Sold In Black Market Is ‘Not A Medicine’ - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQUE9yTUdtNFh1MTB5WXgwT1FneXJpY09WdXFHSWRJSkxiNmxMdXptTnBMNHFJcGJkNWJsQ283dkNJWDZHVEV2eS1wUm52RjEyNXEwdmFWQ0M5bkxsdVFrcGtneW4waVByS0dJb0NGNkt4MXl2WXE5QlY3MVZFcmhCbmpsUDdhb1FzRUozNlNLWTdDaTZ1VEVES2Q4dW5uUlp4ZzFydjVOVnB6Ylhid2ZHMmFkU2hWeUxNWVd6TFJ0RUdZdlF1bVA1dm9uT09KRWI0SUowQjZhY04wQTJkSTJQSUs3SDVPcUZhZ3V2U1dZTkgwZlZoVWIxQzlRZzNRZ2ZnMlhCNDBJUUFVUjlrcEdBM3lCQQ?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews-a",
-   "x": "Eli Lilly Steps Up Retatrutide Crackdown With Six New Lawsuits – CMO Hyman Says Drug Sold In Black Market Is ‘Not A Medicine’ Stocktwits"
-  },
-  {
    "t": "eli lilly new weight loss drug retatrutide - BusinessWorld Online",
    "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVFBhVmJqNjVYY3Q0elQ2ejFyNENIN3hFczVscmNZekU4VmJ2OGRQQkZCNTZzZ0gwekNNazJHODFHeG01RHEySGVNTVUtZms0em8xVnhQYUo2b1FuVHY4RzVjVkp0MW1rSUt1Wl9iLUpLdXdfTGNLUjVzcWR4cWduRHdDOTJoQUNkUmNCbGJB?oc=5",
    "d": "2026-10-08",
@@ -261,11 +268,11 @@ window.FEED_ART={
    "x": "newsGP - Patients’ hidden GLP-1 use sparks surgery safety warning Royal Australian College of General Practitioners (RACGP)"
   },
   {
-   "t": "Largest Seizure of Illegal Peptides in Switzerland Occurs in Pratteln, Basel-Landschaft - bluewin.ch",
+   "t": "Largest Seizure of Illegal Peptides in Switzerland Occurs in Pratteln, Basel-Landschaft - blue News",
    "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVHRLZm8zS01lazVGWExmbTNOWFktN05VUWRfNTRWMFVtZDNtMS1RRlo3bEp4NUU3V29lV014QUdRamNRWmZpWWx3OW9nME9nUXJiMVJjVHV5TjNMZzJkZ3hybDdkSWFUektpMXM5RjdDcHptU3ZFdFpLME5KWDl6ZElVb095WERKNkFaazlBSkpwcFlQeU4wRXl5bkpITC1YZkYwNnBZbjFZV2VqTlFlZ3oyUzhfajJXQlY4NmNUQm1QU2VyZVVR?oc=5",
    "d": "2026-10-07",
    "s": "gnews-a",
-   "x": "Largest Seizure of Illegal Peptides in Switzerland Occurs in Pratteln, Basel-Landschaft bluewin.ch"
+   "x": "Largest Seizure of Illegal Peptides in Switzerland Occurs in Pratteln, Basel-Landschaft blue News"
   },
   {
    "t": "GMR Peptides Provides Online Access to Specialized Research Peptides - FinancialContent",
@@ -322,13 +329,6 @@ window.FEED_ART={
    "d": "2026-10-06",
    "s": "gnews-a",
    "x": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ Stocktwits"
-  },
-  {
-   "t": "BPC-157 and TB-500: Do Peptides Work for Endurance Athletes? - the5krunner",
-   "l": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5sYkpRWi1DQi1JVFRtNVg3S0tSVUJTazJuN0NIX0tOV05TRkJHQ2tPZzZLNlhfRDNBeDNlUGlVUmRuNXA5TDh4WlN3MkNuRHhvRzI5NnBkREh2SkViNmQ4UjJrbzRmX212aWc?oc=5",
-   "d": "2026-10-06",
-   "s": "gnews-a",
-   "x": "BPC-157 and TB-500: Do Peptides Work for Endurance Athletes? the5krunner"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
