@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-12T06:08Z",
+ "generated": "2026-10-12T15:40Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-12T06:08Z",
+   "checked": "2026-10-12T15:40Z",
    "ok": true,
-   "new": 98,
-   "seen": 133,
-   "lastOk": "2026-10-12T06:08Z"
+   "new": 100,
+   "seen": 138,
+   "lastOk": "2026-10-12T15:40Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-12T06:08Z",
+   "checked": "2026-10-12T15:40Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-12T06:08Z"
+   "lastOk": "2026-10-12T15:40Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-12T06:08Z",
+   "checked": "2026-10-12T15:40Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-12T06:08Z"
+   "lastOk": "2026-10-12T15:40Z"
   }
  ],
  "items": [
@@ -49,6 +49,13 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Why Researchers and Health Scientists Are Turning Their Attention to Peptides - UrbanMatter",
+   "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVFRJVDZGUTM1RlNwV29SSV9aZm5aemxJMnFoNG5XWXIzb0ZEUjVNbGpPclFxZXlxNTRMTkhyZVh3U0hRNGtQSkhwdm50ZU9xRm9OYXNxdUxiRzhLR3ZGWmZremwzZWRpVURNb19vUDE3VUNZa0ExX0g3WmxGQnRWX0FxZXlEbmdLOFpHbGFQcnh3a21VNzA5Vndxb3J2T09WT1F5bDlWMGtTNEpt0gGsAUFVX3lxTE9UVElUNkZRMzVGU3BXb1JJX1pmblp6bEkycWg0bldZcjNvRkRSNU1sak9yUXFleXE1NExOSHJlWHdTSFE0a1BKSHB2bnRlT3FGb05hc3F1TGJHOEtHdkZaZmt6bDNlZGlVRE1vX29QMTdVQ1lrQTFfSDdabEZCdFZfQXFleURuZ0s4WkdsYVByeHdrbVU3MDlWd3FvcnZPT1ZPUXlsOVYwa1M0Sm0?oc=5",
+   "d": "2026-10-12",
+   "s": "gnews-a",
+   "x": "Why Researchers and Health Scientists Are Turning Their Attention to Peptides UrbanMatter"
   },
   {
    "t": "Retatrutide promises a new wave of weight loss – but doctors say these risks need a closer look - Women's Health",
@@ -322,13 +329,6 @@ window.FEED_ART={
    "d": "2026-10-07",
    "s": "gnews-a",
    "x": "5 Things to Know if Retatrutide Is Classified as a Biologic The American Journal of Managed Care"
-  },
-  {
-   "t": "The scariest thing about gray-market peptides is how little we know - The Verge",
-   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNOXhsY2E2ZGtzbjllZHN0S3hQM3FMYWV3OUZLUXNiNTdxYlpEUjg4OXphRXBVRWdnQVNHcVZrUEtjNXozX2lzcnFpbFpPX2tnaW5wY054MHg2QjllNHRxWGJlc3NGVW5SY0hReHdhTjl1TkhIbkNkWUx5VGJuUzZRQkh1U0ZEeWxjT2FLR21Xbw?oc=5",
-   "d": "2026-10-07",
-   "s": "gnews-a",
-   "x": "The scariest thing about gray-market peptides is how little we know The Verge"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
