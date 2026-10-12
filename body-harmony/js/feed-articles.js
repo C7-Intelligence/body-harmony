@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-11T22:05Z",
+ "generated": "2026-10-12T06:08Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-11T22:05Z",
+   "checked": "2026-10-12T06:08Z",
    "ok": true,
-   "new": 101,
-   "seen": 136,
-   "lastOk": "2026-10-11T22:05Z"
+   "new": 98,
+   "seen": 133,
+   "lastOk": "2026-10-12T06:08Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-11T22:05Z",
+   "checked": "2026-10-12T06:08Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-11T22:05Z"
+   "lastOk": "2026-10-12T06:08Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-11T22:05Z",
+   "checked": "2026-10-12T06:08Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-11T22:05Z"
+   "lastOk": "2026-10-12T06:08Z"
   }
  ],
  "items": [
@@ -70,6 +70,13 @@ window.FEED_ART={
    "d": "2026-10-11",
    "s": "gnews-a",
    "x": "Chinese firms that once supplied fentanyl precursors now eye illicit peptide market 헤럴드경제"
+  },
+  {
+   "t": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last - Stocktwits",
+   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWpEVXdRWkQxSU5HenFhWndwRTAxOVNmTW1CRllWaTVWdF9obGJxS084TGdQNFhIMERWOFNXejNrN2gzbG5BX1pOd1FpQzR1OXBhUDdGYUFVVllVLWZkbjBmN3ZEeUNQcXhSbzNZc1lRNnJkU0JUaVRibU9HR1hGYTdFV0NSVHVha3VZUk9lSmVYalpTUzRuNWVuNUw3a3NvblhucVNBdVlhUzlKd1V6ZWFiXzQyRHp2MnE3RUlFbHNDQTB6MEpPeg?oc=5",
+   "d": "2026-10-11",
+   "s": "gnews-a",
+   "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
   },
   {
    "t": "retatrutide weight loss drug overview 2026 - BusinessWorld Online",
@@ -212,6 +219,20 @@ window.FEED_ART={
    "x": "most effective weight loss drug 2026 tirzepatide retatrutide www.polskieradio.pl"
   },
   {
+   "t": "Gray-Market Retatrutide: A Midnight Call, a Warning - Medscape",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObW5IZDFrbUUtemFMeVlrd1c0SXc4XzduMEtxYVFjSm9Yb0w3MzBoakczMDFESmVERmkzLVdGVGN3cXlLNjVoNVQyQnNwem14cUMwc0NOX2c5cDhzdlpXd1JybE5PSVRiNnNFN2laX01yTk9saDgwUWR5a0ViZWJzenpoTnZxb29VSlRTV3pYd2tHSU5BSjNJa1ltNA?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "Gray-Market Retatrutide: A Midnight Call, a Warning Medscape"
+  },
+  {
+   "t": "A New, Stronger GLP-1 Is Currently in Clinical Trials. Here's What Researchers Want You to Know - Women's Health",
+   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZkJ6eE1OdjZyWk16bzRzbllPZmQwLTRVZjdWa2ctUHdoTFZScm8wVTl5SUhYeG9lTmZURTJFRVFpakFYWWxsVmNCU2JUemFJUk4xVlFKa2E2Tm9UVU9lRmZmcDVCc09RTERwSGhtd1M4dkF1b3VlTk1feGd0VTlVUGFhNnY?oc=5",
+   "d": "2026-10-09",
+   "s": "gnews-a",
+   "x": "A New, Stronger GLP-1 Is Currently in Clinical Trials. Here's What Researchers Want You to Know Women's Health"
+  },
+  {
    "t": "Trump Moves to Allow Sale of Untested Peptides - Political Wire",
    "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVFBlYkgyLXQxTG14YjJxVlBsalc2MTg5dnNlLWZyc3VOeDFkMUJ2cG91a3JfT1YwRHVVcEVpaFZVaG43eDNIdWhEakFDTjVaM290ZWY3dHplQmtZa1d5eVRiMWk3SWk0Q1pRWTlOUUJzRFNWX3otaVV2akRFTHg4RDZJZDRsNUQ1UHlydw?oc=5",
    "d": "2026-10-08",
@@ -308,27 +329,6 @@ window.FEED_ART={
    "d": "2026-10-07",
    "s": "gnews-a",
    "x": "The scariest thing about gray-market peptides is how little we know The Verge"
-  },
-  {
-   "t": "Influencers Are Peddling Peptides, but Is Tanmaxxing Worth the Risk? - KQED",
-   "l": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1tU2oxd21fUmhSNkdVTUhMVWNYcmJnUnRlX2tyanJqSGVGNzZWWVFwTHNZSWYxMTFlNV84dVJQa2dOMGI2MDFHSEstYUhDZ2FzWGxVWFRaWm5rSGJyOUhpZVdiaC0?oc=5",
-   "d": "2026-10-07",
-   "s": "gnews-a",
-   "x": "Influencers Are Peddling Peptides, but Is Tanmaxxing Worth the Risk? KQED"
-  },
-  {
-   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - www2.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX0hZXy11VFpDaDYzYWlHVnd3UkdBUks1ZjhpWnJuRTh5YTkzWTdvSHNheWtRUFA5MHJYdXFPVkJRZVZDUklObHUzY1lHa19rWW5wM1ByNzNwMDZzZXJyYWZ1WThpQnBVVjhvY3RSN09IZzJPLTJ2bVFOdkI3aHZ6elhfVkpXT1dkYWF2bHAydkNWVGxEcU5weVpTcU9fN1VJamZjODJJMDk2Ym8?oc=5",
-   "d": "2026-10-07",
-   "s": "gnews-a",
-   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss www2.polskieradio.pl"
-  },
-  {
-   "t": "most effective weight loss drug 2026 tirzepatide retatrutide - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPRUtOUDJXM0c2aUxNZGpBeFR3YUpyRUlNLUQxd3dCbHlNX181Uk1XLXZ0OWh2bTNBRGN0UlYzcDFwNl80R0g5R2lEN0twclU5dU9KRE1uZjNQdENzVTA4QW85SEpYcWhlOU5zZzh2TWU1RWo0QXpUclF4NUhpeGZyOFMwRFExcHRZRlVGRzF5QmhGU1FJMHl1dXE2LVJqejZlSnBSU1dDWWtqeHNYTFNxeQ?oc=5",
-   "d": "2026-10-07",
-   "s": "gnews-a",
-   "x": "most effective weight loss drug 2026 tirzepatide retatrutide www.polskieradio.pl"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
