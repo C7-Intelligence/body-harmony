@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-13T14:20Z",
+ "generated": "2026-10-13T22:52Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-13T14:20Z",
+   "checked": "2026-10-13T22:52Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-13T14:20Z"
+   "lastOk": "2026-10-13T22:52Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-13T14:20Z",
+   "checked": "2026-10-13T22:52Z",
    "ok": true,
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-10-13T14:20Z"
+   "new": 1,
+   "seen": 1,
+   "lastOk": "2026-10-13T22:52Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-13T14:20Z",
+   "checked": "2026-10-13T22:52Z",
    "ok": true,
    "new": 0,
-   "seen": 2,
-   "lastOk": "2026-10-13T14:20Z"
+   "seen": 1,
+   "lastOk": "2026-10-13T22:52Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-13T14:20Z",
+   "checked": "2026-10-13T22:52Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-13T14:20Z"
+   "lastOk": "2026-10-13T22:52Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-13T14:20Z",
+   "checked": "2026-10-13T22:52Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-13T14:20Z"
+   "lastOk": "2026-10-13T22:52Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-13T14:20Z",
+   "checked": "2026-10-13T22:52Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-10-13T14:20Z"
+   "lastOk": "2026-10-13T22:52Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-13T14:20Z",
+   "checked": "2026-10-13T22:52Z",
    "ok": true,
-   "new": 155,
-   "seen": 187,
-   "lastOk": "2026-10-13T14:20Z"
+   "new": 154,
+   "seen": 186,
+   "lastOk": "2026-10-13T22:52Z"
   }
  ],
  "items": [
@@ -86,6 +86,13 @@ window.FEED={
    "d": "2026-10-13",
    "s": "fr-fda",
    "x": "The Food and Drug Administration (FDA or we) is issuing a final rule to amend our standard of identity regulations that specify salt (sodium chloride) as a required or optional ingredient to permit the use of salt substitutes in standardized foods, to reduce the sodium content.…"
+  },
+  {
+   "t": "Registered Outsourcing Facilities",
+   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+   "d": "2026-10-13",
+   "s": "fda-drugs",
+   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
   },
   {
    "t": "",

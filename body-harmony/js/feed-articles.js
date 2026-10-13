@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-13T14:21Z",
+ "generated": "2026-10-13T22:52Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-13T14:21Z",
+   "checked": "2026-10-13T22:52Z",
    "ok": true,
-   "new": 108,
-   "seen": 141,
-   "lastOk": "2026-10-13T14:21Z"
+   "new": 103,
+   "seen": 138,
+   "lastOk": "2026-10-13T22:52Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-13T14:21Z",
+   "checked": "2026-10-13T22:52Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-13T14:21Z"
+   "lastOk": "2026-10-13T22:52Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-13T14:21Z",
+   "checked": "2026-10-13T22:52Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-13T14:21Z"
+   "lastOk": "2026-10-13T22:52Z"
   }
  ],
  "items": [
@@ -51,11 +51,11 @@ window.FEED_ART={
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
   },
   {
-   "t": "People who have taken hyped, unregulated peptides have regrets - The Washington Post",
+   "t": "Some who have taken hyped, unregulated peptides have regrets - The Washington Post",
    "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOENGcG5qeVRkOTdPekdtZVVJNzNoLVJrcTNUZWc5ZENXbjlpd0JhODlWUGVUUDlNUk9sVURmLU9JUWttVXFNbFpSQWh4YUpjbWdRWm9vc3dlWWNDQjVhR3BBS3pCcnA3d3JtY296aEVtb0tsVjljTUExeEowUmNkdVN6SkZfdElXakhjYWVMSHRMbl9JSXF2WlBlVklmMl9pNnZPcjBHOW4xZWRPbHFvNg?oc=5",
    "d": "2026-10-13",
    "s": "gnews-a",
-   "x": "People who have taken hyped, unregulated peptides have regrets The Washington Post"
+   "x": "Some who have taken hyped, unregulated peptides have regrets The Washington Post"
   },
   {
    "t": "Retatrutide’s TRIUMPH-2 Data Forces a Reckoning With How We Design Metabolic Trials - The Clinical Trial Vanguard",
@@ -105,6 +105,27 @@ window.FEED_ART={
    "d": "2026-10-13",
    "s": "gnews-a",
    "x": "NextWave Peptides Launches U.S.-Based Online Catalog for Research Peptides Built Around Documentation Clarity openPR.com"
+  },
+  {
+   "t": "Triple-action drug retatrutide delivers major weight loss for people with diabetes, Phase III trial finds - Medical Xpress",
+   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXNOTFBrWjM2RWtPMVk3RXNxZF9odVpHd2wzMGxWVE55ZkxNZFpBRzJVLXJxMURzUUtNemU3c0NEdkxlUm5lRzROcWpLUS1IY2ZfaVNTbnRlR3ZCM016UFU1RXdxWWN3RF9xbXNQcnU4SDNKWXNxMk9aRVNYc3JHa05mS3hwRkU?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "Triple-action drug retatrutide delivers major weight loss for people with diabetes, Phase III trial finds Medical Xpress"
+  },
+  {
+   "t": "2 deaths reportedly connected to black-market retatrutide - NewsNation",
+   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSEZkbjFCck4xSWtQdTZhdHVCNm9IclVMNFhXUGJZU1d3XzFoVnRIcTR1UVljRnhVYnEzNFVKVlRZQldZZEdWcFctT1B5cnB5Tk5mUzhkNzhtNjVqdFlNZWNuTWprbUVJTmtsc181bjRaMUxxMEM3YXp4bmM1UDNfVFJiMU9tcEnSAYwBQVVfeXFMTkExdEdtYVlHZVFwMVk4eng0QXJpd0REZE05U2gyUS0tUEEyTlJQbEVaSjlITWg5MnlUUkdSU1N5SklFMWJFb3FHeGFoaGNnaTRjQ0w4em1ZMFpzQkk2Sk03Q081TEJOWkJRdVVNSklzWjZRWF95MS1VVngzaUo0SV9uc3hiMjdFOXB3bVE?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "2 deaths reportedly connected to black-market retatrutide NewsNation"
+  },
+  {
+   "t": "Bootleg Retatrutide Deaths? PMOS and Dementia; Weight-Loss Drug to Be Discontinued - MedPage Today",
+   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tNlB0V0d0TnRMbGpNVmgyVElXOXRuSHFCLXJ5SGdTcFRyMEpxZFVrOUJYVXVFYmtVNm9MTmhJUXFBb3N0RGpQSGNTaTYtLWpWZmx2QWVzdVhCeENBR3h6TWJpa2lnSEZ4S2R4Sno0QWZMRS1MM1I4VC1n?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "Bootleg Retatrutide Deaths? PMOS and Dementia; Weight-Loss Drug to Be Discontinued MedPage Today"
   },
   {
    "t": "Why Researchers and Health Scientists Are Turning Their Attention to Peptides - UrbanMatter",
@@ -308,27 +329,6 @@ window.FEED_ART={
    "d": "2026-10-09",
    "s": "gnews-a",
    "x": "Gray-Market Retatrutide: A Midnight Call, a Warning Medscape"
-  },
-  {
-   "t": "A New, Stronger GLP-1 Is Currently in Clinical Trials. Here's What Researchers Want You to Know - Women's Health",
-   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZkJ6eE1OdjZyWk16bzRzbllPZmQwLTRVZjdWa2ctUHdoTFZScm8wVTl5SUhYeG9lTmZURTJFRVFpakFYWWxsVmNCU2JUemFJUk4xVlFKa2E2Tm9UVU9lRmZmcDVCc09RTERwSGhtd1M4dkF1b3VlTk1feGd0VTlVUGFhNnY?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "A New, Stronger GLP-1 Is Currently in Clinical Trials. Here's What Researchers Want You to Know Women's Health"
-  },
-  {
-   "t": "Trump Moves to Allow Sale of Untested Peptides - Political Wire",
-   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVFBlYkgyLXQxTG14YjJxVlBsalc2MTg5dnNlLWZyc3VOeDFkMUJ2cG91a3JfT1YwRHVVcEVpaFZVaG43eDNIdWhEakFDTjVaM290ZWY3dHplQmtZa1d5eVRiMWk3SWk0Q1pRWTlOUUJzRFNWX3otaVV2akRFTHg4RDZJZDRsNUQ1UHlydw?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews-a",
-   "x": "Trump Moves to Allow Sale of Untested Peptides Political Wire"
-  },
-  {
-   "t": "Creator & Model Roux Gets Candid About Retatrutide As Fans React To Her Amazing Transformation - Yahoo",
-   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeC1YRHlIM1JVRHNHMm1TUFVZdHEwVmhhMlZUQlRSdk5pX1JpZ1dfeDdPNWVLRHV2ZFZsc192bV9qeWNRM3BRVkxtSzQyNzRQNzBHRHJlcy1md3loZW1hMkVpQXljb3hGcS1WbHhPZTVkTjROSThDOGhINFAxVVk1cFFMam40aWFTX0paU2tSRVg4Z0RFaFFGS3BrX0JNWGhBaGc?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews-a",
-   "x": "Creator & Model Roux Gets Candid About Retatrutide As Fans React To Her Amazing Transformation Yahoo"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
