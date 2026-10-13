@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-13T00:48Z",
+ "generated": "2026-10-13T14:21Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-13T00:48Z",
+   "checked": "2026-10-13T14:21Z",
    "ok": true,
-   "new": 103,
-   "seen": 140,
-   "lastOk": "2026-10-13T00:48Z"
+   "new": 108,
+   "seen": 141,
+   "lastOk": "2026-10-13T14:21Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-13T00:48Z",
+   "checked": "2026-10-13T14:21Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-13T00:48Z"
+   "lastOk": "2026-10-13T14:21Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-13T00:48Z",
+   "checked": "2026-10-13T14:21Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-13T00:48Z"
+   "lastOk": "2026-10-13T14:21Z"
   }
  ],
  "items": [
@@ -49,6 +49,62 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "People who have taken hyped, unregulated peptides have regrets - The Washington Post",
+   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOENGcG5qeVRkOTdPekdtZVVJNzNoLVJrcTNUZWc5ZENXbjlpd0JhODlWUGVUUDlNUk9sVURmLU9JUWttVXFNbFpSQWh4YUpjbWdRWm9vc3dlWWNDQjVhR3BBS3pCcnA3d3JtY296aEVtb0tsVjljTUExeEowUmNkdVN6SkZfdElXakhjYWVMSHRMbl9JSXF2WlBlVklmMl9pNnZPcjBHOW4xZWRPbHFvNg?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "People who have taken hyped, unregulated peptides have regrets The Washington Post"
+  },
+  {
+   "t": "Retatrutide’s TRIUMPH-2 Data Forces a Reckoning With How We Design Metabolic Trials - The Clinical Trial Vanguard",
+   "l": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcjctTVR4SnJYanpiUFAwclAtZ3RpMk9sNVpMTHgyYlczeFQ3T3pxMUd0Y3k2dUFZUUc3VnpsZDh0WFJfMGM1TktDZHFOYUdDTlFVbnNXLTcwWHJPSlNnUS0zMGVlQzBtRXlUOXRFMTlPY29mSXlxQXFKMDI5bGlMSXlMYWdvU3RLTzVuNkdzN2gtWC1Gb0JKQVdScVZpR2stQUJLVDZIbnlnQ1ZBb3ZCQzVnaUZoa3I1RjFsV2tzR2R1bTZkcnVKQl9KVFpvaU9aX0hTcDBLX2NnaUxfX28tWQ?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "Retatrutide’s TRIUMPH-2 Data Forces a Reckoning With How We Design Metabolic Trials The Clinical Trial Vanguard"
+  },
+  {
+   "t": "What You Need To Know About BPC-157 - Cleveland Clinic Health Essentials",
+   "l": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BQnl6WUlnUkctSTNzOUJQMnZLZFllLWxEcDhZWHA0MXBoZ2p3N2J0X2xCQ1cxZmkxOGh5NkpRcEhXanBBSjdlbUluZDd5WERYYzhIV3VlZHd2bFNHM21N?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "What You Need To Know About BPC-157 Cleveland Clinic Health Essentials"
+  },
+  {
+   "t": "What is retatrutide? Everything to know about 'RETA,' the triple-agonist weight-loss drug headed for FDA review - Clarin.com",
+   "l": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGltYUVRSXN2VDBvNkZJcGVJOHJjYmVDcmRaSFVHRXB5X2JpWFczSWFLRXVtTWVEWUhKWGFsRnhIU0Y2UnlpVkt3TFpLSlpzYWlWR3NFeFJROWg5TjRtSUVJWmJsXy1zeTk1TzhTSXEyeFZxRDRqTmluMlNXQXhDdFBJUHJGWV9LQzRlaEFEVHdySjdyUUlaZXN3QU4wMk9jOTBmVGtWT0J0SDJXZjdpYVRDRHN6MzVWNXV1cUd4ZmdKUzRzcjZWZjFSTFhkUmM5dnlfeVdfMjFuQ196LW5lcXk4UndCZG1LU2ZjMdIB8gFBVV95cUxNRDRzNkJYLWRCMWRxZm54Tld0Z19ON3JhM2l0bXFuUUV5Q2NOMGs5dnpaTWVxZnpWVHdkdXpLRl9uWnlIcEZZQ1VpSFJKdFVMbDZDcWsxajZLbkNDbXBRZ3ZTcTB2dkJQZmZDMlAzcllGd3lKbGNDdjYzSVJKalV3LWU1UWdYVUtVLUtlTTBHbnpPYXFPcGo4Mlkyb05wYUlSQWZuNHgyV1N1eWFNcFdNa3Z6d2dBUGF3THF4TlE5VWFxRUxsS1M4TUVQb1BTR2diRGEzUG5TUTRobWZVRExVQTlpOE5lczNhWXBKdVgzVllHZw?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "What is retatrutide? Everything to know about 'RETA,' the triple-agonist weight-loss drug headed for FDA review Clarin.com"
+  },
+  {
+   "t": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ - Stocktwits",
+   "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNQ2YwUXdHYjhqV2hkZFBKTFhDSk9BOVlLTXBBSXpKRU8wZndKb0ZkcGIzMTN4ckdoQWJnS282MHRNS1NLdFhBVHB5TVZXU0FEa3QzemFDNzNXNEozZnkzbUtnbDRVNFBuSkI0WDUxbU1GYWx6YVdENXN3aWZyeGVVcno1dWx2WVNlcVEtUGVvVng4Y3ZxSmprZ2xBRnltRFg2MlFuREFHeFZLYUl2Y0g2WHlFcHdmNk90UjM1bGhlNmlVcGJTTTZ5eWlPSFdJNVVxZHY2b3A0Z28tOGdNVUF3SnBhZ1ZGMUxBS2N1R05yc1ZHM0w2UndTYUpUNG5LNUUtbzdjb3lTM0ZlQWh3RGc?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ Stocktwits"
+  },
+  {
+   "t": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. - The Motley Fool",
+   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSUVXLXhrbHVZWXZNMGdsYlBzU1BlQ0RqenEzeWtQdk00V203T2NhWVU3cWdLYXlXQ2FiS2VpdFYyQzNQcWl0SHZDOWdQcmEyTWRSOVFaVE1OY3h4MFNGNWxuWW1uSVEzLURIa19SYTdHclduWkpHMTlNLUhxd2s3SnpWWXE0bFYzZ19SNlM0Q3RyRU5QVTRseg?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. The Motley Fool"
+  },
+  {
+   "t": "NextWave Peptides Sets Out to Make High-Purity Research Peptides More Accessible - USA Today",
+   "l": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVUVsRWM4SFVuUnc2XzZycHhTQmgwa0FSMTI5VURWN3RHUWJlRGNCU08yWExXdmloX2Y5dmxyZUktZjFZTVpWVlpYajBoVW1XTUdScC1PS3Fjb2g2VmRwRU9xeU8tcVVOdkFGdEJ0aG9JdjdFUGRNbHJPdkRjOVRrZncta05WV1VvckJrUjYxZmk2NVpjRldTQjdPVUVRSmljOUxsVXdvRXdJVGhTM3V4MVFkdm9wNXl2WmlhRnhudXVEbVA2M0toNlVHci0?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "NextWave Peptides Sets Out to Make High-Purity Research Peptides More Accessible USA Today"
+  },
+  {
+   "t": "NextWave Peptides Launches U.S.-Based Online Catalog for Research Peptides Built Around Documentation Clarity - openPR.com",
+   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUnVaTVNsemRTcE5LVk9EZ0xXUVV6dE1udThnMEV1R2NRTDM2ZlNKbENfSnNVWUJ0YXM0QnBtclhSRkxGUllQUHduUUs0bTZTUWtINXlhN3RNTk5QVkQ1clV0VWtBU3oyMEZPR3FzUUhfVW5ZQlhHSmw5M0c1UGFqS1d4X0M5VS1WenRFdzAyYmI?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "NextWave Peptides Launches U.S.-Based Online Catalog for Research Peptides Built Around Documentation Clarity openPR.com"
   },
   {
    "t": "Why Researchers and Health Scientists Are Turning Their Attention to Peptides - UrbanMatter",
@@ -100,6 +156,13 @@ window.FEED_ART={
    "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
   },
   {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-11",
+   "s": "gnews-a",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
    "t": "retatrutide weight loss drug overview 2026 - BusinessWorld Online",
    "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWEpqMUhqUkU2OGllQzA5d2pBUV84dWZpUG1LRVlBd3RIZllWR0ozZzZOZGtFRkhQY3E1Y3JiUjRoLVRsVkRxNUYxUmNKS1N4T1dtS3VtWG41bHRRelBxVnZKVVhQTUp0dXdRdUZHQU44alJyR1duZ20wQ3VoaGpXdFM4WHlWdE0tV0RBSHh0Yw?oc=5",
    "d": "2026-10-10",
@@ -147,6 +210,13 @@ window.FEED_ART={
    "d": "2026-10-10",
    "s": "gnews-a",
    "x": "Volta Peptides Wins Research Peptide Supplier of the Year 2026 Award from Peptide Atlas USA Today"
+  },
+  {
+   "t": "is retatrutide a weight loss drug - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOelVkck0xc29Jc3VJa2NrY29SbDVaT0pnNTdwV3NKcWZOU1ZWUThSSUloZWFhY1h6eW1XaTRqWldQVUZicWd4MmVUYlhqQ0tlRmRzSUt4bUhtTmQ4cjR6ZzZHVUpYZVpZbVRwWEF0elNKeTZWUW53MTZtS1RjOTJRRGtESkxWQTJxeVE?oc=5",
+   "d": "2026-10-10",
+   "s": "gnews-a",
+   "x": "is retatrutide a weight loss drug www.polskieradio.pl"
   },
   {
    "t": "Brain peptides? People trying unapproved substances for sharper focus - NewsNation",
@@ -226,13 +296,6 @@ window.FEED_ART={
    "x": "2026 fda approved weight loss drug retatrutide approval status BusinessWorld Online"
   },
   {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
-  },
-  {
    "t": "most effective weight loss drug 2026 tirzepatide retatrutide - www.polskieradio.pl",
    "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdzE3d3dRMUg2Z1EtQzkzV0NoZzlIMk9lYTBJVDNnMjY2alg2NXc0SGhReTFZaThIekRVV1VxT3pEWGlnVFZKcnZQOTBjZ1NfTFQtQlQwN294WDEzSXdsREdKVm5qQUluSHNEc3JySE9PdnVfWE9LendJN2wwNXVZMTFKaDhSemlIQTZKcHlIel8wVUdwZE5lZ2gzaWxiVkFXanJOTDRKRFRXSEtWb3FNRA?oc=5",
    "d": "2026-10-09",
@@ -266,69 +329,6 @@ window.FEED_ART={
    "d": "2026-10-08",
    "s": "gnews-a",
    "x": "Creator & Model Roux Gets Candid About Retatrutide As Fans React To Her Amazing Transformation Yahoo"
-  },
-  {
-   "t": "Onyx BioLabs Peptides Reviews 2026: Could This Be Your Next Research Supplier? Inside the COAs and Ordering Details - Newswire",
-   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSG1KYXFtbDdLbWRGZHZsMnpmZXFxMWZUdzhDRF9oaDJEb3VGRTh6azdiOE8zTXlRMl9LQk5uQ2VHUlQyOTduems3ZTZiLWNMQkZ1WkJLM1hpcThuRl9fQXhRQXhjQ3dlbnRibms0andqeHROVG53ZEw3QVdSYVlfVzhKUG42VGZEV2tBSFUxbjNJRy1GVkNkbVp5WkRPNy1Ua3pvXzlsclB1QQ?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews-a",
-   "x": "Onyx BioLabs Peptides Reviews 2026: Could This Be Your Next Research Supplier? Inside the COAs and Ordering Details Newswire"
-  },
-  {
-   "t": "Americans Paying for Cheap Online Semaglutide May Be Sending Money to Vendors That Also List Fentanyl Precursors - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcG9kdGt2T3c5c196UGlrNG0waU0tSWNZN1hucEVtcTBCVzFtV3NQQ25oWGZad2d4MXVqbU5fU2tjNGVmX1p5bHlZc0p2RnZSVTRWdUVQbjVtb2k1N2l4REdIM1dYaWVsUWdPSFY1eTM3eVlrTTlDTU13S2lkNkthb0otMVIxSW5HOVVhWVFQTlprTm9jWVIzbXctSjhCYnc?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews-a",
-   "x": "Americans Paying for Cheap Online Semaglutide May Be Sending Money to Vendors That Also List Fentanyl Precursors Medical Daily"
-  },
-  {
-   "t": "eli lilly new weight loss drug retatrutide - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVFBhVmJqNjVYY3Q0elQ2ejFyNENIN3hFczVscmNZekU4VmJ2OGRQQkZCNTZzZ0gwekNNazJHODFHeG01RHEySGVNTVUtZms0em8xVnhQYUo2b1FuVHY4RzVjVkp0MW1rSUt1Wl9iLUpLdXdfTGNLUjVzcWR4cWduRHdDOTJoQUNkUmNCbGJB?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews-a",
-   "x": "eli lilly new weight loss drug retatrutide BusinessWorld Online"
-  },
-  {
-   "t": "Will the FDA Approve Retatrutide? - NEXT.io",
-   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTUV0UWlIRHhjWFB5SWt2OU9SZGFoU0g1X2FPbnJDSE1GQWZrQzRmbW1kVDFEbDl6QWRuZUVzaHhqZHdUTGRrZTFoNHBTVUVJSzJkOEtmMkQ2VmpYVFZiNnprczBPeTVVTnRRNjlPRWRmaFFGOFBvMWVlVTJlM3RUWXE2aw?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews-a",
-   "x": "Will the FDA Approve Retatrutide? NEXT.io"
-  },
-  {
-   "t": "Peptide Research Is Expanding Beyond Weight Loss. Here’s What Scientists Are Watching in 2026 - The Manila Times",
-   "l": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOUnJSVVZhU1ljbDZuWWZZUmtwMTd2NmVHR1dBa01SRW5neGlwNE9iNmJLQ1lOSTU3Y3R1Q3UxQlQyUnh0aWxnalVPUlV3UzQyd2FkMFBHVGFmR0VPd04yeFRMZHFhLWpjT3NYX2g4dUVES1RWSWJEc0QweHAxSjZBNWdmcElvdk1MeFcwTDV2cVc1ZS1iNVlkdnJTUzFVWVVvLV9odkcxdXQza2FSb0RqRzJja1lQSnhvclUwSlZoVG1Gd0hmM3E4aFVibVIxc0tvZWF4UGlJckFVdGNpV2t6RVM2RFh2UlhJREMwMWRvSlV1U05RQnY5U1l30gH6AUFVX3lxTE5SclJVVmFTWWNsNm5ZZllSa3AxN3Y2ZUdHV0FrTVJFbmd4aXA0T2I2YktDWU5JNTdjdHVDdTFCVDJSeHRpbGdqVU9SVXdTNDJ3YWQwUEdUYWZHRU93TjJ4VExkcWEtamNPc1hfaDh1RURLVFZJYkRzRDB4cDFKNkE1Z2ZwSW92TUx4VzBMNXZxVzVlLWI1WWR2clNTMVVZVW8tX2h2RzF1dDNrYVJvRGpHMmNrWVBKeG9yVTBKVmhUbUZ3SGYzcThoVWJtUjFzS29lYXhQaUlyQVV0Y2lXa3pFUzZEWHZSWElEQzAxZG9KVXVTTlFCdjlTWXc?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews-a",
-   "x": "Peptide Research Is Expanding Beyond Weight Loss. Here’s What Scientists Are Watching in 2026 The Manila Times"
-  },
-  {
-   "t": "The Tri-Peptide Synergy in Molecular Inquiry: BPC-157, TB-500 and GHK-Cu (GLOW Blend) - Star Local Media",
-   "l": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNLXRLdFpRTHE1MlZYQnE1M2lSbWRuRXcyaHFvNGNDcV9Vb3lNRWZEZ0VuNzhRNmpjTzhyNTRwVmhHMEhubkhMcGQ4UFRLRnhqMGV1UjJ1Vk1fbmtTUjdCY1Nfc25wUVlFbDRUMEwzMC1scXBudHBtYVFEV1Ztd2JtT1RsQWFHN0JaOXd3UnlqTXRsS1dyRlBManp2aURNS3FDeWxBOTNNNTZQRkl5ODZXYkd2ZnE1Ty1PYjB1RDlRa1VaTElRazJDVkI1dEJtTTFOT1Q3ZGRmcWdpQkdWeEV6NmNNcmtUdHZLaFVVU0pMdHU4eGF1NDZka2pxQUxURE0?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews-a",
-   "x": "The Tri-Peptide Synergy in Molecular Inquiry: BPC-157, TB-500 and GHK-Cu (GLOW Blend) Star Local Media"
-  },
-  {
-   "t": "Americans Paying for Cheap Online Semaglutide May Be Sending Money to Vendors That Also List Fentanyl Precursors - inkl",
-   "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNY2NPUE1XYU1ybGZ3NHFZZWpiLXF0bWVsbWl6RWpJVjVxOFo5Z0lCMUFROEpPR0RGUWg5bHZ6bkVab1JVUUNseGs3ZFpLR2xZY3hyZEtEZ1Rhbmt0ZHZGbTBmVUJXMEhTMkktZl9BZGFSMzdnbkVPNjVGMi1xamRhTUVxMTMyYU95TDdYZnUycjkwSlI1OFBnLUgyQjNrUWwxZVBsTENnSWw4cHFPSUNPUHgwREUwdmNFNXViVlA2aGZpYlA3aWh0U3dIQTVGN1M3d3pQWA?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews-a",
-   "x": "Americans Paying for Cheap Online Semaglutide May Be Sending Money to Vendors That Also List Fentanyl Precursors inkl"
-  },
-  {
-   "t": "Peptide Research Is Expanding Beyond Weight Loss. Here’s What Scientists Are Watching in 2026 - The Manila Times",
-   "l": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQVl2UG1hVUVpbTlEQzUwQl9XMW9oQkNWdTBpVTV0YTJFS1lxeUFzdDBsczhUdXIxZnlfNE5LNEV0N0JVQnJHUE01UksxYnF2a1h1dWx3QThxQnEwVmdJNnRVdXJ5RU5vM0E5VGxicnZFVlBscDE1cTBER3V2ZDlpMW5VNm16TDFtTFR6cXZ1TlVNVTZuT3VrbkNoVWk0dEppdllOY0t1QkZ4S0Z1SDJ1ellLaVpYbEtQR2ViMy1udGF6dEZSSl9VZnpXclJ6eWE3dndpYm5QSlp0TVhfVnQtRE1QN1Nxb29ObFlQUkxxaV9PLWZw0gH6AUFVX3lxTE5SclJVVmFTWWNsNm5ZZllSa3AxN3Y2ZUdHV0FrTVJFbmd4aXA0T2I2YktDWU5JNTdjdHVDdTFCVDJSeHRpbGdqVU9SVXdTNDJ3YWQwUEdUYWZHRU93TjJ4VExkcWEtamNPc1hfaDh1RURLVFZJYkRzRDB4cDFKNkE1Z2ZwSW92TUx4VzBMNXZxVzVlLWI1WWR2clNTMVVZVW8tX2h2RzF1dDNrYVJvRGpHMmNrWVBKeG9yVTBKVmhUbUZ3SGYzcThoVWJtUjFzS29lYXhQaUlyQVV0Y2lXa3pFUzZEWHZSWElEQzAxZG9KVXVTTlFCdjlTWXc?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews-a",
-   "x": "Peptide Research Is Expanding Beyond Weight Loss. Here’s What Scientists Are Watching in 2026 The Manila Times"
-  },
-  {
-   "t": "newsGP - Patients’ hidden GLP-1 use sparks surgery safety warning - Royal Australian College of General Practitioners (RACGP)",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNejlnZWx3RnNhcWpPa21tN3pPN1QzTUUtZ01NZUtMeHh0WHJLRFlRVkc0SlZwWm1uNTVnVGJYUkpSdDJoS2J2bDlYR0FLWHUtMkw0YzEyRGw4RmpzVFFpdEM2X0pGa3ZUVzN1ZlJMcmhSYy1QeTFLSlJfTE5XMl9jM0VLYTMwa1ZxU3hIY2tzT2VjTDZPRUJn?oc=5",
-   "d": "2026-10-07",
-   "s": "gnews-a",
-   "x": "newsGP - Patients’ hidden GLP-1 use sparks surgery safety warning Royal Australian College of General Practitioners (RACGP)"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
