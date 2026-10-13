@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-12T15:40Z",
+ "generated": "2026-10-13T00:48Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-12T15:40Z",
+   "checked": "2026-10-13T00:48Z",
    "ok": true,
-   "new": 100,
-   "seen": 138,
-   "lastOk": "2026-10-12T15:40Z"
+   "new": 103,
+   "seen": 140,
+   "lastOk": "2026-10-13T00:48Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-12T15:40Z",
+   "checked": "2026-10-13T00:48Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-12T15:40Z"
+   "lastOk": "2026-10-13T00:48Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-12T15:40Z",
+   "checked": "2026-10-13T00:48Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-12T15:40Z"
+   "lastOk": "2026-10-13T00:48Z"
   }
  ],
  "items": [
@@ -56,6 +56,20 @@ window.FEED_ART={
    "d": "2026-10-12",
    "s": "gnews-a",
    "x": "Why Researchers and Health Scientists Are Turning Their Attention to Peptides UrbanMatter"
+  },
+  {
+   "t": "2026 fda approved weight loss drug retatrutide approval status - Olhar Digital",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZWJMQUQ1Tko1SXpXODhRYm51Sm5US1dNRVo3LTRTajdiLTVOUHRhd0lQSDJybG5QOGhaMFo1TDhJa3FESTNPNU5qemdYNEVNOVgwMUZoM2xOa3gyNWdGM05NUGh4emZqbVVLcldBRUwwYVA1TEFod0JidnlmanVoTXJ0cDkxT0VSNWJDSU1QaVFaQXNKSTFDZFFRQmEyRDVHOTVqMnduaTRIQQ?oc=5",
+   "d": "2026-10-12",
+   "s": "gnews-a",
+   "x": "2026 fda approved weight loss drug retatrutide approval status Olhar Digital"
+  },
+  {
+   "t": "Research Peptides and Their Expanding Role in Muscle-Oriented Scientific Inquiry - Banglanews24",
+   "l": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LVFc3Mm9ycmsxY0VwZ0FLWXU0RmhlR0x5T3JrNjl3emFvN181Y19wTW11SHJ1WWtnWERaTVFuWVBELUVjV1lTdGlyelFNNmRTa2dEN1Rwd1U0Y2Zzdll2bWRMOTVFWnBCdkRQbGpn?oc=5",
+   "d": "2026-10-12",
+   "s": "gnews-a",
+   "x": "Research Peptides and Their Expanding Role in Muscle-Oriented Scientific Inquiry Banglanews24"
   },
   {
    "t": "Retatrutide promises a new wave of weight loss – but doctors say these risks need a closer look - Women's Health",
@@ -254,11 +268,11 @@ window.FEED_ART={
    "x": "Creator & Model Roux Gets Candid About Retatrutide As Fans React To Her Amazing Transformation Yahoo"
   },
   {
-   "t": "Onyx BioLabs Peptides Reviews 2026: Could This Be Your Next Research Supplier? Inside the COAs and Ordering Details - Newswire.com",
+   "t": "Onyx BioLabs Peptides Reviews 2026: Could This Be Your Next Research Supplier? Inside the COAs and Ordering Details - Newswire",
    "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSG1KYXFtbDdLbWRGZHZsMnpmZXFxMWZUdzhDRF9oaDJEb3VGRTh6azdiOE8zTXlRMl9LQk5uQ2VHUlQyOTduems3ZTZiLWNMQkZ1WkJLM1hpcThuRl9fQXhRQXhjQ3dlbnRibms0andqeHROVG53ZEw3QVdSYVlfVzhKUG42VGZEV2tBSFUxbjNJRy1GVkNkbVp5WkRPNy1Ua3pvXzlsclB1QQ?oc=5",
    "d": "2026-10-08",
    "s": "gnews-a",
-   "x": "Onyx BioLabs Peptides Reviews 2026: Could This Be Your Next Research Supplier? Inside the COAs and Ordering Details Newswire.com"
+   "x": "Onyx BioLabs Peptides Reviews 2026: Could This Be Your Next Research Supplier? Inside the COAs and Ordering Details Newswire"
   },
   {
    "t": "Americans Paying for Cheap Online Semaglutide May Be Sending Money to Vendors That Also List Fentanyl Precursors - Medical Daily",
@@ -303,32 +317,18 @@ window.FEED_ART={
    "x": "Americans Paying for Cheap Online Semaglutide May Be Sending Money to Vendors That Also List Fentanyl Precursors inkl"
   },
   {
+   "t": "Peptide Research Is Expanding Beyond Weight Loss. Here’s What Scientists Are Watching in 2026 - The Manila Times",
+   "l": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPQVl2UG1hVUVpbTlEQzUwQl9XMW9oQkNWdTBpVTV0YTJFS1lxeUFzdDBsczhUdXIxZnlfNE5LNEV0N0JVQnJHUE01UksxYnF2a1h1dWx3QThxQnEwVmdJNnRVdXJ5RU5vM0E5VGxicnZFVlBscDE1cTBER3V2ZDlpMW5VNm16TDFtTFR6cXZ1TlVNVTZuT3VrbkNoVWk0dEppdllOY0t1QkZ4S0Z1SDJ1ellLaVpYbEtQR2ViMy1udGF6dEZSSl9VZnpXclJ6eWE3dndpYm5QSlp0TVhfVnQtRE1QN1Nxb29ObFlQUkxxaV9PLWZw0gH6AUFVX3lxTE5SclJVVmFTWWNsNm5ZZllSa3AxN3Y2ZUdHV0FrTVJFbmd4aXA0T2I2YktDWU5JNTdjdHVDdTFCVDJSeHRpbGdqVU9SVXdTNDJ3YWQwUEdUYWZHRU93TjJ4VExkcWEtamNPc1hfaDh1RURLVFZJYkRzRDB4cDFKNkE1Z2ZwSW92TUx4VzBMNXZxVzVlLWI1WWR2clNTMVVZVW8tX2h2RzF1dDNrYVJvRGpHMmNrWVBKeG9yVTBKVmhUbUZ3SGYzcThoVWJtUjFzS29lYXhQaUlyQVV0Y2lXa3pFUzZEWHZSWElEQzAxZG9KVXVTTlFCdjlTWXc?oc=5",
+   "d": "2026-10-08",
+   "s": "gnews-a",
+   "x": "Peptide Research Is Expanding Beyond Weight Loss. Here’s What Scientists Are Watching in 2026 The Manila Times"
+  },
+  {
    "t": "newsGP - Patients’ hidden GLP-1 use sparks surgery safety warning - Royal Australian College of General Practitioners (RACGP)",
    "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNejlnZWx3RnNhcWpPa21tN3pPN1QzTUUtZ01NZUtMeHh0WHJLRFlRVkc0SlZwWm1uNTVnVGJYUkpSdDJoS2J2bDlYR0FLWHUtMkw0YzEyRGw4RmpzVFFpdEM2X0pGa3ZUVzN1ZlJMcmhSYy1QeTFLSlJfTE5XMl9jM0VLYTMwa1ZxU3hIY2tzT2VjTDZPRUJn?oc=5",
    "d": "2026-10-07",
    "s": "gnews-a",
    "x": "newsGP - Patients’ hidden GLP-1 use sparks surgery safety warning Royal Australian College of General Practitioners (RACGP)"
-  },
-  {
-   "t": "Largest Seizure of Illegal Peptides in Switzerland Occurs in Pratteln, Basel-Landschaft - blue News",
-   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVHRLZm8zS01lazVGWExmbTNOWFktN05VUWRfNTRWMFVtZDNtMS1RRlo3bEp4NUU3V29lV014QUdRamNRWmZpWWx3OW9nME9nUXJiMVJjVHV5TjNMZzJkZ3hybDdkSWFUektpMXM5RjdDcHptU3ZFdFpLME5KWDl6ZElVb095WERKNkFaazlBSkpwcFlQeU4wRXl5bkpITC1YZkYwNnBZbjFZV2VqTlFlZ3oyUzhfajJXQlY4NmNUQm1QU2VyZVVR?oc=5",
-   "d": "2026-10-07",
-   "s": "gnews-a",
-   "x": "Largest Seizure of Illegal Peptides in Switzerland Occurs in Pratteln, Basel-Landschaft blue News"
-  },
-  {
-   "t": "GMR Peptides Provides Online Access to Specialized Research Peptides - FinancialContent",
-   "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMnp4ODlNNkdzdUt6UkI5eGg4LVJWM29URnJuNjhaMXVyNjRwVnJldnJFOF94THZUbFljUFRtTVRhcEY2NWRzNnJ2V09aN1EtV2EwaUZ5eGdIREF2ekVlamk2bkE4ajJGRzJOdEY4dmFyVUEtaHZvYVlWZjFHRERmT1dwZ0xLMVFxSVhwQkZDb2NhNy1DVGJIOUtjZ1RhaW01ZUtfRGJ2RnprQVB5U0VNN0hUR3B4clJwNVkzZFd6amhQMDVGdmFSQlljdmpPTVE?oc=5",
-   "d": "2026-10-07",
-   "s": "gnews-a",
-   "x": "GMR Peptides Provides Online Access to Specialized Research Peptides FinancialContent"
-  },
-  {
-   "t": "5 Things to Know if Retatrutide Is Classified as a Biologic - The American Journal of Managed Care",
-   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQYTU0b29SdmNhMmFxRVpGM0pySWZhYk5UTklQMGFmdUs3d0NpYUxRWnRVdXNuX3ZRMVZldE5kSkdxNTlzMWdmeURDcEdPQmVJTTY2eEttY1hjUGNkQ2hjZk4xRVVfXzFPdWVsX1pLSU5sT0dvaUlCRG56d2g0amNKbmVoTzNXSk1DRTgxWVZ3?oc=5",
-   "d": "2026-10-07",
-   "s": "gnews-a",
-   "x": "5 Things to Know if Retatrutide Is Classified as a Biologic The American Journal of Managed Care"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",

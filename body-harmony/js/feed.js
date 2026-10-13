@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-12T15:39Z",
+ "generated": "2026-10-13T00:48Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-12T15:39Z",
+   "checked": "2026-10-13T00:48Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-12T15:39Z"
+   "lastOk": "2026-10-13T00:48Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-12T15:39Z",
+   "checked": "2026-10-13T00:48Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-12T15:39Z"
+   "lastOk": "2026-10-13T00:48Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-12T15:39Z",
+   "checked": "2026-10-13T00:48Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-12T15:39Z"
+   "lastOk": "2026-10-13T00:48Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-12T15:39Z",
+   "checked": "2026-10-13T00:48Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-12T15:39Z"
+   "lastOk": "2026-10-13T00:48Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-12T15:39Z",
+   "checked": "2026-10-13T00:48Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-12T15:39Z"
+   "lastOk": "2026-10-13T00:48Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-12T15:39Z",
+   "checked": "2026-10-13T00:48Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-10-12T15:39Z"
+   "lastOk": "2026-10-13T00:48Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-12T15:39Z",
+   "checked": "2026-10-13T00:48Z",
    "ok": true,
-   "new": 156,
-   "seen": 189,
-   "lastOk": "2026-10-12T15:39Z"
+   "new": 155,
+   "seen": 187,
+   "lastOk": "2026-10-13T00:48Z"
   }
  ],
  "items": [
@@ -90,7 +90,7 @@ window.FEED={
   {
    "t": "",
    "l": "https://www.fiercepharma.com/sponsored/beyond-pharmacy-counter-inmars-data-advantage",
-   "d": "2026-10-12",
+   "d": "2026-10-13",
    "s": "fierce",
    "x": "Emily Welker explains how retail and healthcare data reveal new opportunities to engage GLP-1 consumers more effectively."
   },
