@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-14T05:01Z",
+ "generated": "2026-10-14T12:03Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-14T05:01Z",
+   "checked": "2026-10-14T12:03Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T05:01Z"
+   "lastOk": "2026-10-14T12:03Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-14T05:01Z",
+   "checked": "2026-10-14T12:03Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T05:01Z"
+   "lastOk": "2026-10-14T12:03Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-14T05:01Z",
+   "checked": "2026-10-14T12:03Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T05:01Z"
+   "lastOk": "2026-10-14T12:03Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-14T05:01Z",
+   "checked": "2026-10-14T12:03Z",
    "ok": true,
-   "new": 14,
+   "new": 15,
    "seen": 48,
-   "lastOk": "2026-10-14T05:01Z"
+   "lastOk": "2026-10-14T12:03Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-14T05:01Z",
+   "checked": "2026-10-14T12:03Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-14T05:01Z"
+   "lastOk": "2026-10-14T12:03Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-14T05:01Z",
+   "checked": "2026-10-14T12:03Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-10-14T05:01Z"
+   "lastOk": "2026-10-14T12:03Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-14T05:01Z",
+   "checked": "2026-10-14T12:03Z",
    "ok": true,
-   "new": 155,
-   "seen": 187,
-   "lastOk": "2026-10-14T05:01Z"
+   "new": 154,
+   "seen": 186,
+   "lastOk": "2026-10-14T12:03Z"
   }
  ],
  "items": [
+  {
+   "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
+   "l": "https://www.federalregister.gov/documents/2026/10/14/2026-20989/advisory-committee-cellular-tissue-and-gene-therapies-advisory-committee-renewal",
+   "d": "2026-10-14",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA) is announcing the renewal of the Cellular, Tissue, and Gene Therapies Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Cellular,…"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/sponsored/beyond-pharmacy-counter-inmars-data-advantage",
@@ -158,11 +165,11 @@ window.FEED={
    "x": "Compounding Pharmacy/Adulterated Drug Products"
   },
   {
-   "t": "hims faces legal action as fda restricts compounded weight-loss drugs - www.polskieradio.pl",
+   "t": "hims faces legal action as fda restricts compounded weight-loss drugs - polskieradio.pl",
    "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT1NpUUp6V3BSVlpBVkpNTjlTcjJEeFB5ZGY0SGRObVlUNnoyeElwcWdJSXkxdzFsTXVpV1FXdEJrR21DX21aRUw2cV9pSUJXMU5kcFI4amxPUWxVaE9vdExuaUVmOEVRMU1HMmVNeEVTTWU1V1pfTUdtZmdEVm9iNTBPdWx3d0swUGZBNGYwSk93Sl84VlJpZWJoX3ZIZkp0NWFyUkFnQlVXbk44UW14Wngxby11YzNkb2Jj?oc=5",
    "d": "2026-10-05",
    "s": "gnews",
-   "x": "hims faces legal action as fda restricts compounded weight-loss drugs www.polskieradio.pl"
+   "x": "hims faces legal action as fda restricts compounded weight-loss drugs polskieradio.pl"
   },
   {
    "t": "I’m an obesity expert and can’t wait for the compounding craze to stop - Fortune",

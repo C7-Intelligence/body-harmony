@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-14T05:01Z",
+ "generated": "2026-10-14T12:03Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-14T05:01Z",
+   "checked": "2026-10-14T12:03Z",
    "ok": true,
-   "new": 104,
+   "new": 103,
    "seen": 139,
-   "lastOk": "2026-10-14T05:01Z"
+   "lastOk": "2026-10-14T12:03Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-14T05:01Z",
+   "checked": "2026-10-14T12:03Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-14T05:01Z"
+   "lastOk": "2026-10-14T12:03Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-14T05:01Z",
+   "checked": "2026-10-14T12:03Z",
    "ok": true,
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-10-14T05:01Z"
+   "new": 1,
+   "seen": 1,
+   "lastOk": "2026-10-14T12:03Z"
   }
  ],
  "items": [
@@ -49,6 +49,27 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - Philstar Life",
+   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTJUa3cxdEgxMjNqYkpkREJKWUhBdXJST196RC11YkRRMS0xSUo1NFhidEMtaTg5MGtnVXRTdjBUQmJQOWF4bU11UXNLXzNtWlVmN3VFMHo1QUR1clE1YUlJakh2Y3JVV2VDWF83NWc0NnhiNkxvNkRnVW9LeFdtV2g4dlVVZ1plVGltVmpaWmJFd3FIdEZqclEtTGgxWlU3?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss Philstar Life"
+  },
+  {
+   "t": "Curious about gray market peptides? One Mizzou doctor says tread carefully - STLPR",
+   "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDJyMi1HWG9jWGE4Q2lXamVyUmxGTkdhOVRlSnZYbDNyUzk4WURtdzZzMllncVdVa1N6QW4zZmdPYzhNaGtaNUlCaWlUVTNCQWhzXzYteTBMOURWX2JjMWw4Yy1JYWZiTXdudFZJYmFfV3FrZmdwOVFFZGJfX1E4NFFCSUpXLVlrT2NBOVd6djBpY29tX3hyTjRNOHpVRnF0R2pMQkMtaUFvcmpDeTAxVEhkVE9CbFpqWVV6ZnV0RUV0WW84ckRRNnJneUI1dw?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "Curious about gray market peptides? One Mizzou doctor says tread carefully STLPR"
+  },
+  {
+   "t": "New study examines GLP-1 impact on interactions with criminal justice system, employment, housing stability",
+   "l": "https://www.statnews.com/2026/10/14/health-news-glp-1-study-impact-interactions-with-criminal-justice-system-employment/?utm_campaign=rss",
+   "d": "2026-10-14",
+   "s": "stat",
+   "x": "A wave of clinical trials have begun to test the ability of GLP-1 weight loss drugs to quell various substance use disorders, with some promising results. A new trial announced…"
   },
   {
    "t": "Some who have taken hyped, unregulated peptides have regrets - The Washington Post",
@@ -315,20 +336,6 @@ window.FEED_ART={
    "d": "2026-10-09",
    "s": "gnews-a",
    "x": "Gray-Market Retatrutide: A Midnight Call, a Warning Medscape"
-  },
-  {
-   "t": "Retatrutide and Survodutide Make Inroads Into Weight Loss for Diabetic Patients - TCTMD.com",
-   "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaEdocGlVUmp6SVZnR0xscHo4U29jenFvVGotakV0aEFhck03ZGs1VXNnRGZ3S1ZwMDdxVWN4Y3VMaVBaaDRPaDZSOExlbWlhdjQ1OEJaYXVBSkJtSENuTE1BNzYyeFJUb0J1dHBkZTZxQlIxeEhWandOeUNrWUdLWW85MnROV1RMYjhqQzk4Z3BfRjhnWmYxOHN2UTlFdw?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "Retatrutide and Survodutide Make Inroads Into Weight Loss for Diabetic Patients TCTMD.com"
-  },
-  {
-   "t": "retatrutide weight loss compared to other drugs - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaC1hVXl4SU50QWduYVlkM1l4MHN2MHQ1a3ZDY0lFRDNwdEcxQW9PT0QtZVZPeVpQNVRnMGhxNnhHbUVSc2hpY3F6NG1KRkhMLV9XNURUZXJ0YkxzWU5NSUtUYlF5VXRGb2VlNlloNVlaQldmV1V1M0xrVk1JWlJfWC1tZzBTeTE1VjdXdHVTbWxHRDZHeEE?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss compared to other drugs BusinessWorld Online"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
