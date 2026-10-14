@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-13T22:52Z",
+ "generated": "2026-10-14T05:01Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-13T22:52Z",
+   "checked": "2026-10-14T05:01Z",
    "ok": true,
-   "new": 103,
-   "seen": 138,
-   "lastOk": "2026-10-13T22:52Z"
+   "new": 104,
+   "seen": 139,
+   "lastOk": "2026-10-14T05:01Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-13T22:52Z",
+   "checked": "2026-10-14T05:01Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-13T22:52Z"
+   "lastOk": "2026-10-14T05:01Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-13T22:52Z",
+   "checked": "2026-10-14T05:01Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-13T22:52Z"
+   "lastOk": "2026-10-14T05:01Z"
   }
  ],
  "items": [
@@ -128,6 +128,27 @@ window.FEED_ART={
    "x": "Bootleg Retatrutide Deaths? PMOS and Dementia; Weight-Loss Drug to Be Discontinued MedPage Today"
   },
   {
+   "t": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. - Yahoo Finance",
+   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNlM4VzZQLURaU21ZZnF1OTM5QkZydFNzRU9ESmZHWWRQcTlkOW1EazB3LVJ5UzVTRlB1a0h3ZnBPc3JMV3RjVWpFakdJWWhCbXJpVlgtcVdZeFdkRnQyLWJNUHJMV2JvNmNiUjN3eHlkaFc1X1NGVTFEYk1STkdndVhiZDVlNm05MHFoNWdMZVAtNF9fZGc?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. Yahoo Finance"
+  },
+  {
+   "t": "fda concerns unapproved glp-1 drugs weight loss retatrutide - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYWtETkczWVl1QlkxY1ZNcE1FN1p3X3FXdlFya2VKb3hHT0lkN1VBN2psUUllN19nRG1tRXdTb3prTHJoZ1VpX01SZFgwNkhpa0l6N255bV9ELTJ6MmlHMTJXcFF1NWdKWV9neXpUc3ZZTHdsYm9PSFJfdWFIVDlscEpLZ01rdmg4NTl3NzFXaTFNVDdTTEJ3UHhpRUkxN3dRWEVMUGZR?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "fda concerns unapproved glp-1 drugs weight loss retatrutide BusinessWorld Online"
+  },
+  {
+   "t": "eli lilly new weight loss drug retatrutide - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPenBXdzhqeVRpeUFRSW80Mjl3Nlh4N2V2djFwY0cyTEY1ZVgxbFRVcWNPSFhyN1NleGRuMXA3VzZ1SE53YmxSRDdFM1ZRU1ZNbnNOSUgyczZYalR2MHJ4T0tmdS1icWlkTW5HWkVGR05ycFJFU2o4NXBUeEtVYkFncHlBRG02bFlzeEE?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "eli lilly new weight loss drug retatrutide BusinessWorld Online"
+  },
+  {
    "t": "Why Researchers and Health Scientists Are Turning Their Attention to Peptides - UrbanMatter",
    "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVFRJVDZGUTM1RlNwV29SSV9aZm5aemxJMnFoNG5XWXIzb0ZEUjVNbGpPclFxZXlxNTRMTkhyZVh3U0hRNGtQSkhwdm50ZU9xRm9OYXNxdUxiRzhLR3ZGWmZremwzZWRpVURNb19vUDE3VUNZa0ExX0g3WmxGQnRWX0FxZXlEbmdLOFpHbGFQcnh3a21VNzA5Vndxb3J2T09WT1F5bDlWMGtTNEpt0gGsAUFVX3lxTE9UVElUNkZRMzVGU3BXb1JJX1pmblp6bEkycWg0bldZcjNvRkRSNU1sak9yUXFleXE1NExOSHJlWHdTSFE0a1BKSHB2bnRlT3FGb05hc3F1TGJHOEtHdkZaZmt6bDNlZGlVRE1vX29QMTdVQ1lrQTFfSDdabEZCdFZfQXFleURuZ0s4WkdsYVByeHdrbVU3MDlWd3FvcnZPT1ZPUXlsOVYwa1M0Sm0?oc=5",
    "d": "2026-10-12",
@@ -147,6 +168,13 @@ window.FEED_ART={
    "d": "2026-10-12",
    "s": "gnews-a",
    "x": "Research Peptides and Their Expanding Role in Muscle-Oriented Scientific Inquiry Banglanews24"
+  },
+  {
+   "t": "retatrutide weight loss drug - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeHVmblNnS1pIcXBaVTZiVXo1MVVpbk1mT2EtWGctclhyZ0hHa3d5ZXBrZjRvSWY5S09BTzBqREpFaC01UU0tYkdZUHFPcU9pVzhaUXVhN1RteTNjZjdFRVZDWnppNFVKaHVwZWk0cmNEbXNNVl9nQndnVUh0Y0VZZzR2bTk?oc=5",
+   "d": "2026-10-12",
+   "s": "gnews-a",
+   "x": "retatrutide weight loss drug www.polskieradio.pl"
   },
   {
    "t": "Retatrutide promises a new wave of weight loss – but doctors say these risks need a closer look - Women's Health",
@@ -301,34 +329,6 @@ window.FEED_ART={
    "d": "2026-10-09",
    "s": "gnews-a",
    "x": "retatrutide weight loss compared to other drugs BusinessWorld Online"
-  },
-  {
-   "t": "Retatrutide: Separating the Science from the Hype - nerdbot",
-   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOdU53N3VxNlZEcHFzcHZNOTBsbFkxZU9obnJHVnJ6Rmk0YXBvYnhZbWpwcEFDa1VGTjRtVXktXy10MWM4bUdGWE85UkJmYnBsajhMLTNJUWlWVkxfTnRGdzNHa2dBWk5wX3VTeUdnWTNMQXh4WEhzTGtkb3d1T09hYWQzaDJWanc?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "Retatrutide: Separating the Science from the Hype nerdbot"
-  },
-  {
-   "t": "2026 fda approved weight loss drug retatrutide approval status - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNc1k0aXhSUjRFZDN0NHc4djZZbTFFYzBCUnNlQXZ0NUltR0NvZ3FvcmhWOXU3OTR2S1M1Ym9WMnFuYlNjM0c0a0ZpVUpIWnNWOEkxTHo2VGUwNWNiR0xWTmlKR051SWo5cTBJU3NmTnpZNEFoM2ZyX1ByZTk0SGpLZUdtalBlWTZOcVpCdGJicEVLSUphcTRodUJRUWtpbkUzSEJHSlpB?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "2026 fda approved weight loss drug retatrutide approval status BusinessWorld Online"
-  },
-  {
-   "t": "most effective weight loss drug 2026 tirzepatide retatrutide - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNdzE3d3dRMUg2Z1EtQzkzV0NoZzlIMk9lYTBJVDNnMjY2alg2NXc0SGhReTFZaThIekRVV1VxT3pEWGlnVFZKcnZQOTBjZ1NfTFQtQlQwN294WDEzSXdsREdKVm5qQUluSHNEc3JySE9PdnVfWE9LendJN2wwNXVZMTFKaDhSemlIQTZKcHlIel8wVUdwZE5lZ2gzaWxiVkFXanJOTDRKRFRXSEtWb3FNRA?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "most effective weight loss drug 2026 tirzepatide retatrutide www.polskieradio.pl"
-  },
-  {
-   "t": "Gray-Market Retatrutide: A Midnight Call, a Warning - Medscape",
-   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObW5IZDFrbUUtemFMeVlrd1c0SXc4XzduMEtxYVFjSm9Yb0w3MzBoakczMDFESmVERmkzLVdGVGN3cXlLNjVoNVQyQnNwem14cUMwc0NOX2c5cDhzdlpXd1JybE5PSVRiNnNFN2laX01yTk9saDgwUWR5a0ViZWJzenpoTnZxb29VSlRTV3pYd2tHSU5BSjNJa1ltNA?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "Gray-Market Retatrutide: A Midnight Call, a Warning Medscape"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",

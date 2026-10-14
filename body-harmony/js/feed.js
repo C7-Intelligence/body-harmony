@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-13T22:52Z",
+ "generated": "2026-10-14T05:01Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-13T22:52Z",
+   "checked": "2026-10-14T05:01Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-13T22:52Z"
+   "lastOk": "2026-10-14T05:01Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-13T22:52Z",
+   "checked": "2026-10-14T05:01Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-13T22:52Z"
+   "lastOk": "2026-10-14T05:01Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-13T22:52Z",
+   "checked": "2026-10-14T05:01Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-13T22:52Z"
+   "lastOk": "2026-10-14T05:01Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-13T22:52Z",
+   "checked": "2026-10-14T05:01Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-13T22:52Z"
+   "lastOk": "2026-10-14T05:01Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-13T22:52Z",
+   "checked": "2026-10-14T05:01Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-13T22:52Z"
+   "lastOk": "2026-10-14T05:01Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-13T22:52Z",
+   "checked": "2026-10-14T05:01Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-10-13T22:52Z"
+   "lastOk": "2026-10-14T05:01Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-13T22:52Z",
+   "checked": "2026-10-14T05:01Z",
    "ok": true,
-   "new": 154,
-   "seen": 186,
-   "lastOk": "2026-10-13T22:52Z"
+   "new": 155,
+   "seen": 187,
+   "lastOk": "2026-10-14T05:01Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/sponsored/beyond-pharmacy-counter-inmars-data-advantage",
+   "d": "2026-10-14",
+   "s": "fierce",
+   "x": "Emily Welker explains how retail and healthcare data reveal new opportunities to engage GLP-1 consumers more effectively."
+  },
   {
    "t": "Use of Salt Substitutes To Reduce the Sodium Content in Standardized Foods",
    "l": "https://www.federalregister.gov/documents/2026/10/13/2026-20848/use-of-salt-substitutes-to-reduce-the-sodium-content-in-standardized-foods",
@@ -93,13 +100,6 @@ window.FEED={
    "d": "2026-10-13",
    "s": "fda-drugs",
    "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/sponsored/beyond-pharmacy-counter-inmars-data-advantage",
-   "d": "2026-10-13",
-   "s": "fierce",
-   "x": "Emily Welker explains how retail and healthcare data reveal new opportunities to engage GLP-1 consumers more effectively."
   },
   {
    "t": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last - Stocktwits",
