@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-14T17:19Z",
+ "generated": "2026-10-14T21:46Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-14T17:19Z",
+   "checked": "2026-10-14T21:46Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T17:19Z"
+   "lastOk": "2026-10-14T21:46Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-14T17:19Z",
+   "checked": "2026-10-14T21:46Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T17:19Z"
+   "lastOk": "2026-10-14T21:46Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-14T17:19Z",
+   "checked": "2026-10-14T21:46Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T17:19Z"
+   "lastOk": "2026-10-14T21:46Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-14T17:19Z",
+   "checked": "2026-10-14T21:46Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-14T17:19Z"
+   "lastOk": "2026-10-14T21:46Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-14T17:19Z",
+   "checked": "2026-10-14T21:46Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-14T17:19Z"
+   "lastOk": "2026-10-14T21:46Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-14T17:19Z",
+   "checked": "2026-10-14T21:46Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-10-14T17:19Z"
+   "lastOk": "2026-10-14T21:46Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-14T17:19Z",
+   "checked": "2026-10-14T21:46Z",
    "ok": true,
    "new": 155,
    "seen": 186,
-   "lastOk": "2026-10-14T17:19Z"
+   "lastOk": "2026-10-14T21:46Z"
   }
  ],
  "items": [
@@ -95,6 +95,13 @@ window.FEED={
    "x": "Emily Welker explains how retail and healthcare data reveal new opportunities to engage GLP-1 consumers more effectively."
   },
   {
+   "t": "FDA Peptide Compounding Policy: What a Temporary Enforcement Reprieve Could Mean for Pharmacies - Buchanan Ingersoll & Rooney PC",
+   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWnpnZTc4UElOUHo5ZzNjZGNjZktzcWRYNTNCbDZwVHBINzMza2prQzQ3bkJDcjVveGdrLVhFWjExNjdkc2dEa2F1TWNGckJ3NFh5Q0tWOWpFM2R5X3Z2UXBLenRNbWlvYlljX3BvU2pKMlA0Wk9MTVh5bGd1OUh2b1A5Mjd1Tnc1VHE5aDEzdU5uU0x1RU9welF6MlZvWExyYW14a2poMW42QUhueFFwd0ZrYWY?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews",
+   "x": "FDA Peptide Compounding Policy: What a Temporary Enforcement Reprieve Could Mean for Pharmacies Buchanan Ingersoll & Rooney PC"
+  },
+  {
    "t": "Use of Salt Substitutes To Reduce the Sodium Content in Standardized Foods",
    "l": "https://www.federalregister.gov/documents/2026/10/13/2026-20848/use-of-salt-substitutes-to-reduce-the-sodium-content-in-standardized-foods",
    "d": "2026-10-13",
@@ -107,13 +114,6 @@ window.FEED={
    "d": "2026-10-13",
    "s": "fda-drugs",
    "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
-  },
-  {
-   "t": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWpEVXdRWkQxSU5HenFhWndwRTAxOVNmTW1CRllWaTVWdF9obGJxS084TGdQNFhIMERWOFNXejNrN2gzbG5BX1pOd1FpQzR1OXBhUDdGYUFVVllVLWZkbjBmN3ZEeUNQcXhSbzNZc1lRNnJkU0JUaVRibU9HR1hGYTdFV0NSVHVha3VZUk9lSmVYalpTUzRuNWVuNUw3a3NvblhucVNBdVlhUzlKd1V6ZWFiXzQyRHp2MnE3RUlFbHNDQTB6MEpPeg?oc=5",
-   "d": "2026-10-11",
-   "s": "gnews",
-   "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
   },
   {
    "t": "Peptide patients paying up to $1,500 a month face an FDA problem - TheStreet",

@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-14T17:19Z",
+ "generated": "2026-10-14T21:47Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-14T17:19Z",
+   "checked": "2026-10-14T21:47Z",
    "ok": true,
-   "new": 101,
-   "seen": 136,
-   "lastOk": "2026-10-14T17:19Z"
+   "new": 103,
+   "seen": 139,
+   "lastOk": "2026-10-14T21:47Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-14T17:19Z",
+   "checked": "2026-10-14T21:47Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-14T17:19Z"
+   "lastOk": "2026-10-14T21:47Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-14T17:19Z",
+   "checked": "2026-10-14T21:47Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T17:19Z"
+   "lastOk": "2026-10-14T21:47Z"
   }
  ],
  "items": [
@@ -84,6 +84,48 @@ window.FEED_ART={
    "d": "2026-10-14",
    "s": "gnews-a",
    "x": "Retatrutide Shows Significant Weight Loss in People with Diabetes in Phase III Trial The Indian Practitioner"
+  },
+  {
+   "t": "FDA Peptide Compounding Policy: What a Temporary Enforcement Reprieve Could Mean for Pharmacies - Buchanan Ingersoll & Rooney PC",
+   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWnpnZTc4UElOUHo5ZzNjZGNjZktzcWRYNTNCbDZwVHBINzMza2prQzQ3bkJDcjVveGdrLVhFWjExNjdkc2dEa2F1TWNGckJ3NFh5Q0tWOWpFM2R5X3Z2UXBLenRNbWlvYlljX3BvU2pKMlA0Wk9MTVh5bGd1OUh2b1A5Mjd1Tnc1VHE5aDEzdU5uU0x1RU9welF6MlZvWExyYW14a2poMW42QUhueFFwd0ZrYWY?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "FDA Peptide Compounding Policy: What a Temporary Enforcement Reprieve Could Mean for Pharmacies Buchanan Ingersoll & Rooney PC"
+  },
+  {
+   "t": "Peptides And Pets: What You Need To Know - Forbes",
+   "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUm5NN2Y2UUVULWZzell6YUNmTWc3eGt2T3YwZUUtOVo0Q0RQSWgyNDlDOTZ1aGoyc2ZKWXc2N25vcXBFdHhBY002RTA4NjNSR3I1V0hTV21iNmh1bENKQ1lid3c3RW5NQl9fajlVeTVRV1hiWWhMVWNqeEV6RldwXzFzVjdGN3lBamF5aVlaUFBHR19N?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "Peptides And Pets: What You Need To Know Forbes"
+  },
+  {
+   "t": "Injectable Peptides Are All Over Social Media, But How Much Do We Really Know? - Her Campus",
+   "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOEt4amNzUVRnYkd0OG5ENVM5YldvVGZzWF9qYlg2clRsS19FVjA0UnpjeVlKRkVsSFlmb3dpcEdVamhXWVhxN3RaMF9pN0JCMzl6c3JVTl9qNkZnZzJxcE41cXlVV1pGV09Pb1paWV96U0NLMDNjdlZGTi1QeFp2MHFlRXZrNlFONVQ2Uy1OVVN6bEtp?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "Injectable Peptides Are All Over Social Media, But How Much Do We Really Know? Her Campus"
+  },
+  {
+   "t": "What is retatrutide and when could weight-loss drug be publicly available? - Yahoo",
+   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZno4YTc1ZFdGbU8wT0RxQkREUnk0Y0IySWF0TWJYSG9KZlBUblBOaHVUdFBlUkNYNDYwS0FJR0pHT1hBb0M4MFZsYmtFNkZRa1ZSdVByb0V4R2g0OFJFMDdOWVM2U1dpZGRudkVlTGJtZWUtbUcydWw1ZVJQbDI2aVRjNDA2dE00bVJpSm5BLUJRaFRYd0RlLQ?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "What is retatrutide and when could weight-loss drug be publicly available? Yahoo"
+  },
+  {
+   "t": "People Taking Gray Market Peptides Say They’re Causing Bizarre Medical Issues - Futurism",
+   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNDBJMVVXN3ZxM0J2dWlsZjdreUwwTWI3SkRSM3lxX3laS3NReHpHanRHaW9WbGsxVXdJNjE0WVdHdWNhbTltV1dGTGZJTjBTUWVLYl9nUHhUcDNqb0FhX0JkMGQwRGFtSzF1Nll4YjRxS0hyS1FRR0EyWnRHZUlRVW94ajFKMEN0UENBNXphVldnekE?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "People Taking Gray Market Peptides Say They’re Causing Bizarre Medical Issues Futurism"
+  },
+  {
+   "t": "Peptides Swap Founder Dra H Kulvar to Discuss $PEPS Token, Crypto Presale, & New Marketplace Platform - openPR.com",
+   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2E3MVFReEs5V0FneklTcjJWODFtcUxMYjJlVEJyVVJYS2xLcEFPMlJMaWx4Z2Z5YjhsQkhlUHZWdE1hRnN3TTB6bzRaRmtzVGpkMlR0QmZtTFV0QlU4dnR3QmdFTFFWaGV0aDlfajFEU0JiLWZ3MV9tMG5yNzB2djg3X1dpUWFXa2l0R3VxeFdleEw2T1Vkc0hrTWpwYXB1?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "Peptides Swap Founder Dra H Kulvar to Discuss $PEPS Token, Crypto Presale, & New Marketplace Platform openPR.com"
   },
   {
    "t": "Some who have taken hyped, unregulated peptides have regrets - The Washington Post",
@@ -294,48 +336,6 @@ window.FEED_ART={
    "d": "2026-10-10",
    "s": "gnews-a",
    "x": "Health Brief: Eli Lilly takes on retatrutide copycats The Washington Post"
-  },
-  {
-   "t": "Volta Peptides Wins Research Peptide Supplier of the Year 2026 Award from Peptide Atlas - FinancialContent",
-   "l": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNW1FTDJQeGNlaGEtSGZQSDh0X3prNjhpcXNzeXJBdWE4elNoa1dCbm9EUHpNcnd5aWc2cmhLVHNiSFhCWjNhczNtWFZsQk5XYUtvdVJTeDdRU1l1YWtCZHpreXVoZmRmTk92WHduZGl3TjY0RDdUcEw3VVRxU0RRMG9hZVdTVmM4Q2FTd1YzNnlyZXdNZUJocjY5eW5RcWt3UHY4OGJqQ3Y1aFFnN3FTVVc1OS1mc2hUeEZaVFhGdllGWEtBUjlxWmFORERlYy1weDI0XzJuNmVZeDZoazNkYlhrVVA?oc=5",
-   "d": "2026-10-10",
-   "s": "gnews-a",
-   "x": "Volta Peptides Wins Research Peptide Supplier of the Year 2026 Award from Peptide Atlas FinancialContent"
-  },
-  {
-   "t": "Volta Peptides Wins Research Peptide Supplier of the Year 2026 Award from Peptide Atlas - USA Today",
-   "l": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQY0ZrU01taTktdktiQ3gxR2kxeWVoNFItX3NZN091Q2RkVEdRVGEwNzBCdDJJdUxkQTJudEExVUlUNnF0cDJMSlNQb2VQYXN2OHZ6WXp6bXdWLUtocGxvTnJKMTRiblcyaXBhVndhVWJKdWgwOWhqaUp6cVhvdldfSW9WVkZQcXBDY1JyeWE4SGZPYXVQT0YzVG92Q2FsU1BWclViQWNvOXNjRkZYYUxRSHpyMDZSVjQyNnE3S0VqaGotWnl1d3dJaHV1TDBqNkpneVJnbDVn?oc=5",
-   "d": "2026-10-10",
-   "s": "gnews-a",
-   "x": "Volta Peptides Wins Research Peptide Supplier of the Year 2026 Award from Peptide Atlas USA Today"
-  },
-  {
-   "t": "is retatrutide a weight loss drug - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOelVkck0xc29Jc3VJa2NrY29SbDVaT0pnNTdwV3NKcWZOU1ZWUThSSUloZWFhY1h6eW1XaTRqWldQVUZicWd4MmVUYlhqQ0tlRmRzSUt4bUhtTmQ4cjR6ZzZHVUpYZVpZbVRwWEF0elNKeTZWUW53MTZtS1RjOTJRRGtESkxWQTJxeVE?oc=5",
-   "d": "2026-10-10",
-   "s": "gnews-a",
-   "x": "is retatrutide a weight loss drug www.polskieradio.pl"
-  },
-  {
-   "t": "Brain peptides? People trying unapproved substances for sharper focus - NewsNation",
-   "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLXo3TVRkR1g1c3drMVBSNlgtd3dqZ0o5c3Rtc3ZSZ3FuazB5aEh3RnJrRlpqQ0N1WElMVU5uTjQwdWNsWjJLSFl4YVM2djRvdmxRNzE4YWdfb2ZZQTI4VnJLRmN4cVFQemtzTHpEWGlLWWNRbkZ0TjdCd0JPSjJEWWQxZzJwd9IBiwFBVV95cUxPNlVPQTlTcWIwZXRieUswUFJGWUFPdXltMHRqTnkyODdKZHVCTklTSUtrQy1lck4wOERHR1NMcndLT0RVVzd1em5aU2VRVDg5TnNTcDFQbnhtM0lGazNJaWJheFZTUTBlUHFhaUw5TzZoRTdlSWpMR2ZFZGpVdGVBSEZIcUlnVHozY1VF?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "Brain peptides? People trying unapproved substances for sharper focus NewsNation"
-  },
-  {
-   "t": "The FDA Is Struggling To Police The Peptide Boom - Forbes",
-   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRnJNQkNaSFM5bDVLN3VHUGhDSWlkMkluSTBwY21tY2pzbFo0X09BMTdPZXhJMzNaX1d0UVlKZlRjXzU1ZnpyTnFlbjhIaHhaeW5heXZ1VlVqRHBqbDZaWFhZVDZtY2xXMnhXMW5wVWphVkZ6N1RTX19qYXdxaW93aVJEMmp2ZXNGVlZ1anZOWkR5YUJVY0syMll6empuT0ZnRUE?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "The FDA Is Struggling To Police The Peptide Boom Forbes"
-  },
-  {
-   "t": "The FDA Is Struggling To Police The Peptide Boom - Yahoo",
-   "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNN3RwdHl4cUVTZ2R2M0dlZDNlcnVtcjNqZVZ3YzVSMnYtM3Zmc0tQVGJQdDNNVnl4bFBpQUdqZXBxaFd6MDRmYTd1YzdOU2FIUDk4dk8yTHhDY3VzZnFGTENST0VhLXI4b21kbkRwVU9GUDYtQjhMaUpOZmdrV3ZKYjdObDdmTWJOeVB5Uk9oWXRwZw?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "The FDA Is Struggling To Police The Peptide Boom Yahoo"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
