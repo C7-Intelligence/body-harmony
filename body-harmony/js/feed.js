@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-14T12:03Z",
+ "generated": "2026-10-14T17:19Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-14T12:03Z",
+   "checked": "2026-10-14T17:19Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T12:03Z"
+   "lastOk": "2026-10-14T17:19Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-14T12:03Z",
+   "checked": "2026-10-14T17:19Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T12:03Z"
+   "lastOk": "2026-10-14T17:19Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-14T12:03Z",
+   "checked": "2026-10-14T17:19Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T12:03Z"
+   "lastOk": "2026-10-14T17:19Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-14T12:03Z",
+   "checked": "2026-10-14T17:19Z",
    "ok": true,
-   "new": 15,
+   "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-14T12:03Z"
+   "lastOk": "2026-10-14T17:19Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-14T12:03Z",
+   "checked": "2026-10-14T17:19Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-14T12:03Z"
+   "lastOk": "2026-10-14T17:19Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-14T12:03Z",
+   "checked": "2026-10-14T17:19Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-10-14T12:03Z"
+   "lastOk": "2026-10-14T17:19Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-14T12:03Z",
+   "checked": "2026-10-14T17:19Z",
    "ok": true,
-   "new": 154,
+   "new": 155,
    "seen": 186,
-   "lastOk": "2026-10-14T12:03Z"
+   "lastOk": "2026-10-14T17:19Z"
   }
  ],
  "items": [
@@ -114,13 +114,6 @@ window.FEED={
    "d": "2026-10-11",
    "s": "gnews",
    "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-11",
-   "s": "gnews",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "Peptide patients paying up to $1,500 a month face an FDA problem - TheStreet",
@@ -518,6 +511,13 @@ window.FEED={
    "d": "2026-08-06",
    "s": "gnews",
    "x": "FDA on Peptides: A New Landscape for Compounders Latham & Watkins LLP"
+  },
+  {
+   "t": "Peptide FDA Updates: Latest News on Compounding and More - GoodRx",
+   "l": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOUFBRVNNWDlCazdRU0tzNTRzcmh1Z1dvcGJqNGxKczJ2Um84ejRGTGdJVWdiVFJkb1daTG5MZkstckx5RlNSTThqOGdJT29BRkNIckcyeXBId29PSllMSlVUbHVFUzVPd3NtcTZYV1N2cjgyOGFxVm5kSVJZZG5vVg?oc=5",
+   "d": "2026-08-05",
+   "s": "gnews",
+   "x": "Peptide FDA Updates: Latest News on Compounding and More GoodRx"
   },
   {
    "t": "FDA advisory committee endorses compounding of certain peptides",

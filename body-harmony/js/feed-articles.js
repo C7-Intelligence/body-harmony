@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-14T12:03Z",
+ "generated": "2026-10-14T17:19Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-14T12:03Z",
+   "checked": "2026-10-14T17:19Z",
    "ok": true,
-   "new": 103,
-   "seen": 139,
-   "lastOk": "2026-10-14T12:03Z"
+   "new": 101,
+   "seen": 136,
+   "lastOk": "2026-10-14T17:19Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-14T12:03Z",
+   "checked": "2026-10-14T17:19Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-14T12:03Z"
+   "lastOk": "2026-10-14T17:19Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-14T12:03Z",
+   "checked": "2026-10-14T17:19Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T12:03Z"
+   "lastOk": "2026-10-14T17:19Z"
   }
  ],
  "items": [
@@ -70,6 +70,20 @@ window.FEED_ART={
    "d": "2026-10-14",
    "s": "stat",
    "x": "A wave of clinical trials have begun to test the ability of GLP-1 weight loss drugs to quell various substance use disorders, with some promising results. A new trial announced…"
+  },
+  {
+   "t": "Poison Center Exposures to Bootleg Retatrutide Nearly Double in Three Months as FDA Logs Two Death Reports - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVlRPeENxajVzVlY0akF6RExuLWU0aWk0T1lNRlZSa3F0YlhGSDdmTVIyRXJIbzQ5aWhWVzlod1g3U1ZUaUc5bzk1bHdCdTJqaEpBNEFKS1RWNk1UZm1LNHB3djBuSm5WbE5PS1hzVnc5OHFUMlk1VVRtZEJpX28yeDQ1MmU1b1M1b294aTFXYW15c1k?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "Poison Center Exposures to Bootleg Retatrutide Nearly Double in Three Months as FDA Logs Two Death Reports Medical Daily"
+  },
+  {
+   "t": "Retatrutide Shows Significant Weight Loss in People with Diabetes in Phase III Trial - The Indian Practitioner",
+   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRXJ2VW96bE1wSGZHdllzaG5LVmlZa2ZZbDZzaTFCX1pQWm5rUDJ5OWk5bHNQSHZGNUIxcG1lV0N4cmx6QXpXaVU1TXlCYjZ5QzNnR2g1enZlQkI1dG9hX1hWeDlCN1pwX0FGbWpla3IyMFI4RzFwVzNEbDcxRFlHb2pLV3pMaG5xd2F6eWJOMXU5V1BrYkY5eGpUY2RTTFowZUVyRHprRjRCQ1BkalNxR25IeXFEU0sxZXRv?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "Retatrutide Shows Significant Weight Loss in People with Diabetes in Phase III Trial The Indian Practitioner"
   },
   {
    "t": "Some who have taken hyped, unregulated peptides have regrets - The Washington Post",
@@ -121,11 +135,11 @@ window.FEED_ART={
    "x": "NextWave Peptides Sets Out to Make High-Purity Research Peptides More Accessible USA Today"
   },
   {
-   "t": "NextWave Peptides Launches U.S.-Based Online Catalog for Research Peptides Built Around Documentation Clarity - openPR.com",
+   "t": "NextWave Peptides Launches U.S.-Based Online Catalog - openPR.com",
    "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUnVaTVNsemRTcE5LVk9EZ0xXUVV6dE1udThnMEV1R2NRTDM2ZlNKbENfSnNVWUJ0YXM0QnBtclhSRkxGUllQUHduUUs0bTZTUWtINXlhN3RNTk5QVkQ1clV0VWtBU3oyMEZPR3FzUUhfVW5ZQlhHSmw5M0c1UGFqS1d4X0M5VS1WenRFdzAyYmI?oc=5",
    "d": "2026-10-13",
    "s": "gnews-a",
-   "x": "NextWave Peptides Launches U.S.-Based Online Catalog for Research Peptides Built Around Documentation Clarity openPR.com"
+   "x": "NextWave Peptides Launches U.S.-Based Online Catalog openPR.com"
   },
   {
    "t": "Triple-action drug retatrutide delivers major weight loss for people with diabetes, Phase III trial finds - Medical Xpress",
@@ -168,6 +182,20 @@ window.FEED_ART={
    "d": "2026-10-13",
    "s": "gnews-a",
    "x": "eli lilly new weight loss drug retatrutide BusinessWorld Online"
+  },
+  {
+   "t": "People Say These Peptides Hurt Them. Their Stories Are Muffled in MAHA’s Push for Medical Freedom. - KFF Health News",
+   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZkk1NUU5c3BWUHdYU2JMY1RSQ09JTk13eGpxdGhWVUlVOTYwcjlPWFV2YktncVh0UVBycVNlYXFpVURSZXBENXdCNXlHZmN0VlYta3cwMVV1bjBGRDNQaHM1dF80dGNXTExXMi1FTVpQTW1mdkYzM29HU0trTFBrZkFzRjVrUlQ2WUMzLUs5TmIwQXVnU3BFUF9yejQyUUtkSFBDOE53?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "People Say These Peptides Hurt Them. Their Stories Are Muffled in MAHA’s Push for Medical Freedom. KFF Health News"
+  },
+  {
+   "t": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. - AOL.com",
+   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5idUVoTk9RLWpHNjk4Z2NhVlV2MlZjWVRSWkFYNE5fekRKcTlGaUtSb1VRbUNMdlZrM1dXeWY2ME0xQVktUHBDVXFEOXZ2U29JUXUzVWRhVVZFa0lCdDdaaHl0bmh4WDM4UEw1UmZQY3N6U3hQNEFic1BIMXZVWEE?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews-a",
+   "x": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. AOL.com"
   },
   {
    "t": "Why Researchers and Health Scientists Are Turning Their Attention to Peptides - UrbanMatter",
@@ -308,34 +336,6 @@ window.FEED_ART={
    "d": "2026-10-09",
    "s": "gnews-a",
    "x": "The FDA Is Struggling To Police The Peptide Boom Yahoo"
-  },
-  {
-   "t": "Retatrutide Delivers 20.8% Weight Loss in Adults With Type 2 Diabetes - Drug Topics",
-   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWUtvcjg3SjVtdk5IeEVFV283RG9wNWNMZUd3SGhGMWlIYXRNZzVWMTYzSE1PdzBiWkZOLTFkTkpDYktWbVg4SG9vRGNoYV9kSERTLXlVMzhLeldJcVBmVTVKNjNmVUJxVVpqWmRkSlBlR0VBOGlrMWtpQnJnRGhKZjF4Sjh1bnVQMjNfYUt4TjNOd0RJODJFYlpPZ21La016UHc?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "Retatrutide Delivers 20.8% Weight Loss in Adults With Type 2 Diabetes Drug Topics"
-  },
-  {
-   "t": "Eli Lilly (LLY) As Zepbound And Retatrutide Updates Test Whether More Upside Is Priced In - Yahoo Finance",
-   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOanJkV2FXRXdoZmxKVy1QTFAzTEM3NWw2ZEI0c0RMZEZDSnB3UWZpbTFuV0x3OTVxZm55YW1Qb3VZbWNkZWgwLTVXWnh6MWtheGxTeFBKMGdvemxsS1RHMHc5ckJhdWo0ci1ZbmFXN240YXZTZmtUYllSNmh3UzkwSnZJNFhicHdQMVJEUndJcUxaZWJfNkJ6MW9haw?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "Eli Lilly (LLY) As Zepbound And Retatrutide Updates Test Whether More Upside Is Priced In Yahoo Finance"
-  },
-  {
-   "t": "Retatrutide research advances with new clinical data - Inter Press Service",
-   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPMHUxZklTRlhFeWJxODVrV1RTY293d2phV2thWk0wWEZ3b1VsWFFvWUJqcDdULXlQX184Q1UzellYd2NDdXE4WG9YY09qdVFBUFUzdEo2RThCWmdoNE10NjM5M0Y3V1g4ak9ZYXo3QjhxUUkxczFVT3JQOGh5Nzk0amJkWXh6NzRZQl9aYjJ2THNjYzFTdjJJMw?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "Retatrutide research advances with new clinical data Inter Press Service"
-  },
-  {
-   "t": "Gray-Market Retatrutide: A Midnight Call, a Warning - Medscape",
-   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUUw1aDNIdUR5MHk1N1pIdGQyTHJ2WlY5R0l0Y2RsOGJLZ2Vna1M4SmwzaXhvRTgyQ3o4X1NCdXY2VmhzdldUR0VSNDZyVy1raGFuUWsyRFpjZGhDSWNvTndHSVd3X1NhZTlCOUo0RjRsVDBELWowVWVBNHpPU3lIMDJpNUpqd0tSQURyNmVIQmpYMV9vc3A1c1UzeGo1LUNWTEE?oc=5",
-   "d": "2026-10-09",
-   "s": "gnews-a",
-   "x": "Gray-Market Retatrutide: A Midnight Call, a Warning Medscape"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
