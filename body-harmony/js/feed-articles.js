@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-15T17:08Z",
+ "generated": "2026-10-15T21:30Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-15T17:08Z",
+   "checked": "2026-10-15T21:30Z",
    "ok": true,
-   "new": 101,
-   "seen": 138,
-   "lastOk": "2026-10-15T17:08Z"
+   "new": 104,
+   "seen": 139,
+   "lastOk": "2026-10-15T21:30Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-15T17:08Z",
+   "checked": "2026-10-15T21:30Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-15T17:08Z"
+   "lastOk": "2026-10-15T21:30Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-15T17:08Z",
+   "checked": "2026-10-15T21:30Z",
    "ok": true,
-   "new": 0,
+   "new": 1,
    "seen": 1,
-   "lastOk": "2026-10-15T17:08Z"
+   "lastOk": "2026-10-15T21:30Z"
   }
  ],
  "items": [
@@ -119,6 +119,55 @@ window.FEED_ART={
    "d": "2026-10-15",
    "s": "gnews-a",
    "x": "Eli Lilly’s Retatrutide Lawsuits: What Pharmacies, Telemedicine Companies and Online Retailers Need to Know Buchanan Ingersoll & Rooney PC"
+  },
+  {
+   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - News4JAX",
+   "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ2ZIRkEtMnE5a21oRGx3Y2p5QzhRVjVuRjAtZFo5bnBhYmwyN3F3OS11VmlNYmUwdHFUcjRZZm0tVGNaQ1BTa3VsckUya05YYUV6SHBmbDZWeWNPZ2dLbmI5bFRzcGdOOEVRaEhsLUpOWExzZy1DZ3AyVUlPUU8teGNEYi12RXNiWDdpWDJHUXR5WHhHT09LdkVldnlkbjF4R3lQNzZIUEpIdU9FUEhSdlJJeXJOR0U?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. News4JAX"
+  },
+  {
+   "t": "People say these peptides hurt them. Their stories are muffled in MAHA's push for medical freedom. - Medical Marketing and Media",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUDlxc0hORWZlOVlkTGlObkR2NTFhOWgwMWpQU0FoQnVTdHJZSDRhbnRuY2NybE1SNlBlRnhKdU5ZQ05mV0JTTm9lMk9GMVFKOXdRVEZjTEZXTzNpU3V2Vjl4dGlTN19ZOVhCR0llSUtERnNOMkp6YlgxVUR0c2pENFVveGVkaUVyVXM5dmpDcUFSc2JzOGIzUXVnZw?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "People say these peptides hurt them. Their stories are muffled in MAHA's push for medical freedom. Medical Marketing and Media"
+  },
+  {
+   "t": "Engineers use AI, Reddit to identify potential side effects of unapproved new GLP-1 - Medical Xpress",
+   "l": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUk1SRGFZZllSWEVSMlcySkRjMTZ6cjdwWFowV21WWElwMzBmOGU1SXBocFI0MVBZcmpXWExGQUhhbGowcmo3czJUZThrU3pfSTdHRW5nRks5bDF4UGZ3emRPbHU0c1M3UFByZlhGenJDZkNxLUFuUk1samo0SXlxSkx3?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Engineers use AI, Reddit to identify potential side effects of unapproved new GLP-1 Medical Xpress"
+  },
+  {
+   "t": "Penn engineers use AI, Reddit to identify potential side effects of unapproved new GLP-1 - EurekAlert!",
+   "l": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2MkhEX2R5eDZQcTNBRG5RaG9PWVEwaXh1NS1mWG1sRGxMWDVkM1RfeDFvWm43X2wza0p6aTZEMjBMWDNDdmNVT2c5c3NjZWxjV0VLUTVKTjRXMjN2?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Penn engineers use AI, Reddit to identify potential side effects of unapproved new GLP-1 EurekAlert!"
+  },
+  {
+   "t": "Counterfeit weight loss pens worth £2 million seized by MHRA and West Midlands Police - GOV.UK",
+   "l": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbU1kNE9sdV9DaEpISmFhYWJJckJ5aWcycl9CaDVZdVVKaWU1SU8wNGVhU0ktSnBuQUg1ZTFzNGV3dkdFT3Z6QzJaVHhCYW0yRHBvQlZZc3FJc1VZSWJla19BVVp6eDBJd2dFd3g2ZEZuMzJPNlNuQ3ZXMmhXQjFrd2U2Uk0wSXdJU3E1dzRsVzdOaEhqeTQtVHhkVFBlQ2dmWjFZeVNqaDVxM1dwTkROUlhQaVpkdw?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Counterfeit weight loss pens worth £2 million seized by MHRA and West Midlands Police GOV.UK"
+  },
+  {
+   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - CNBC",
+   "l": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxWWVpSmdYd2lUNEVULTVrdnF2NklFSGpfbV9ONjh1TjBWMEhjdDV6b3dudDk4bFZLSm1Rd19tT0REV2x5NE1vS0MwVm1mQTZsTC1lbmdlSUtFWFpPMDFkbFJpUXBidFNtcEhDeFdvSEfSAXZBVV95cUxQWllDZUVUSkJ1NTFnNG1GZzV4TUZLU1FjMk03WFh6Y0d5T3dlYTd1QV9ESFNMdEw2WnNGTkstRW1XSnlBbDd5NV95aElMZWFnb2UxZm5qRVJOdUFBN1d2UWI1R21pbi1pMGpOSWZWc1hieDNIelNn?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. CNBC"
+  },
+  {
+   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
+   "l": "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss",
+   "d": "2026-10-15",
+   "s": "stat",
+   "x": "U.S. health officials are moving ahead with a plan to allow specialty pharmacies to produce certain peptides, a class of largely unregulated injections favored by health secretary Robert F. Kennedy…"
   },
   {
    "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - Philstar Life",
@@ -294,48 +343,6 @@ window.FEED_ART={
    "d": "2026-10-13",
    "s": "gnews-a",
    "x": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. Yahoo Finance"
-  },
-  {
-   "t": "fda concerns unapproved glp-1 drugs weight loss retatrutide - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYWtETkczWVl1QlkxY1ZNcE1FN1p3X3FXdlFya2VKb3hHT0lkN1VBN2psUUllN19nRG1tRXdTb3prTHJoZ1VpX01SZFgwNkhpa0l6N255bV9ELTJ6MmlHMTJXcFF1NWdKWV9neXpUc3ZZTHdsYm9PSFJfdWFIVDlscEpLZ01rdmg4NTl3NzFXaTFNVDdTTEJ3UHhpRUkxN3dRWEVMUGZR?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "fda concerns unapproved glp-1 drugs weight loss retatrutide BusinessWorld Online"
-  },
-  {
-   "t": "eli lilly new weight loss drug retatrutide - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPenBXdzhqeVRpeUFRSW80Mjl3Nlh4N2V2djFwY0cyTEY1ZVgxbFRVcWNPSFhyN1NleGRuMXA3VzZ1SE53YmxSRDdFM1ZRU1ZNbnNOSUgyczZYalR2MHJ4T0tmdS1icWlkTW5HWkVGR05ycFJFU2o4NXBUeEtVYkFncHlBRG02bFlzeEE?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "eli lilly new weight loss drug retatrutide BusinessWorld Online"
-  },
-  {
-   "t": "People Say These Peptides Hurt Them. Their Stories Are Muffled in MAHA’s Push for Medical Freedom. - KFF Health News",
-   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZkk1NUU5c3BWUHdYU2JMY1RSQ09JTk13eGpxdGhWVUlVOTYwcjlPWFV2YktncVh0UVBycVNlYXFpVURSZXBENXdCNXlHZmN0VlYta3cwMVV1bjBGRDNQaHM1dF80dGNXTExXMi1FTVpQTW1mdkYzM29HU0trTFBrZkFzRjVrUlQ2WUMzLUs5TmIwQXVnU3BFUF9yejQyUUtkSFBDOE53?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "People Say These Peptides Hurt Them. Their Stories Are Muffled in MAHA’s Push for Medical Freedom. KFF Health News"
-  },
-  {
-   "t": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. - AOL.com",
-   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5idUVoTk9RLWpHNjk4Z2NhVlV2MlZjWVRSWkFYNE5fekRKcTlGaUtSb1VRbUNMdlZrM1dXeWY2ME0xQVktUHBDVXFEOXZ2U29JUXUzVWRhVVZFa0lCdDdaaHl0bmh4WDM4UEw1UmZQY3N6U3hQNEFic1BIMXZVWEE?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. AOL.com"
-  },
-  {
-   "t": "Why Researchers and Health Scientists Are Turning Their Attention to Peptides - UrbanMatter",
-   "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVFRJVDZGUTM1RlNwV29SSV9aZm5aemxJMnFoNG5XWXIzb0ZEUjVNbGpPclFxZXlxNTRMTkhyZVh3U0hRNGtQSkhwdm50ZU9xRm9OYXNxdUxiRzhLR3ZGWmZremwzZWRpVURNb19vUDE3VUNZa0ExX0g3WmxGQnRWX0FxZXlEbmdLOFpHbGFQcnh3a21VNzA5Vndxb3J2T09WT1F5bDlWMGtTNEpt0gGsAUFVX3lxTE9UVElUNkZRMzVGU3BXb1JJX1pmblp6bEkycWg0bldZcjNvRkRSNU1sak9yUXFleXE1NExOSHJlWHdTSFE0a1BKSHB2bnRlT3FGb05hc3F1TGJHOEtHdkZaZmt6bDNlZGlVRE1vX29QMTdVQ1lrQTFfSDdabEZCdFZfQXFleURuZ0s4WkdsYVByeHdrbVU3MDlWd3FvcnZPT1ZPUXlsOVYwa1M0Sm0?oc=5",
-   "d": "2026-10-12",
-   "s": "gnews-a",
-   "x": "Why Researchers and Health Scientists Are Turning Their Attention to Peptides UrbanMatter"
-  },
-  {
-   "t": "2026 fda approved weight loss drug retatrutide approval status - Olhar Digital",
-   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQZWJMQUQ1Tko1SXpXODhRYm51Sm5US1dNRVo3LTRTajdiLTVOUHRhd0lQSDJybG5QOGhaMFo1TDhJa3FESTNPNU5qemdYNEVNOVgwMUZoM2xOa3gyNWdGM05NUGh4emZqbVVLcldBRUwwYVA1TEFod0JidnlmanVoTXJ0cDkxT0VSNWJDSU1QaVFaQXNKSTFDZFFRQmEyRDVHOTVqMnduaTRIQQ?oc=5",
-   "d": "2026-10-12",
-   "s": "gnews-a",
-   "x": "2026 fda approved weight loss drug retatrutide approval status Olhar Digital"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",

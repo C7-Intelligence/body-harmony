@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-15T17:08Z",
+ "generated": "2026-10-15T21:30Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-15T17:08Z",
+   "checked": "2026-10-15T21:30Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-15T17:08Z"
+   "lastOk": "2026-10-15T21:30Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-15T17:08Z",
+   "checked": "2026-10-15T21:30Z",
    "ok": true,
    "new": 0,
-   "seen": 1,
-   "lastOk": "2026-10-15T17:08Z"
+   "seen": 0,
+   "lastOk": "2026-10-15T21:30Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-15T17:08Z",
+   "checked": "2026-10-15T21:30Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-15T17:08Z"
+   "lastOk": "2026-10-15T21:30Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-15T17:08Z",
+   "checked": "2026-10-15T21:30Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-15T17:08Z"
+   "lastOk": "2026-10-15T21:30Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-15T17:08Z",
+   "checked": "2026-10-15T21:30Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-15T17:08Z"
+   "lastOk": "2026-10-15T21:30Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-15T17:08Z",
+   "checked": "2026-10-15T21:30Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-15T17:08Z"
+   "lastOk": "2026-10-15T21:30Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-15T17:08Z",
+   "checked": "2026-10-15T21:30Z",
    "ok": true,
    "new": 154,
    "seen": 185,
-   "lastOk": "2026-10-15T17:08Z"
+   "lastOk": "2026-10-15T21:30Z"
   }
  ],
  "items": [
@@ -86,6 +86,20 @@ window.FEED={
    "d": "2026-10-15",
    "s": "gnews",
    "x": "As FDA Weighs Wider Peptide Access, Adverse Event Reports and Two Las Vegas Intubations Sharpen Safety Questions Medical Daily"
+  },
+  {
+   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTE8zbjFUNHFqT3JWenJYWDBuaTJJRC1oeXhYcXhUMl93Z0xMMXN1T1dHLXA2UE1QOVRJQW95N1Utb2FYV09BZW8yc01GdHp5SFpIOE15LU5ZaXViaXJuNm50XzN2MnZSRHFER0wtdW9oRUxtaGpWRGNJOGxrOEZ6Q3Q1Z1pOVDVpOXZDdzQwdnNLVENiczBfcmljcUpuVTF2NE9TTWxNcFg4Uk83cHfSAbMBQVVfeXFMT3FhTERKelk4TlBmOFUzSkV4MmxyS1ByZXIxQ0JTeFFvMVljd1pZTzlaeGxPcWdLUDB1cEJXTGctdGNDUWlyN3hwZm0wSEpEeTNPX0hxRFNSSk5sbUpockZzZVNHWXVVYnU1SVUzZFk0WTF2Z29RYVNXLTkwQzJMZHBzeEI5OERFb2V4c2NsOGRuMUtpSDNaVDMxX1JTcUlxZ3dwNXB2aktqMUltOGRzRWMzTTg?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews",
+   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "Compounding and Telehealth at Scale After Empower: Prescribing Architecture Is the New Regulatory Question - JD Supra",
+   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVV80RkU0Z3hWaWRiMVNVaFVtWklGZk1oTnE5VlNkZGl5bkpwUDNPLUpnamtGNTdHWWhINWszMVpvdi1KQmNtempyay1McnF0clRRcDI0TVpIWXlxZUdqOVQtTU02bWZwWXRYdXhRbEFOY2dpT0dQelBhUkR5RXJ3Wks3LVc?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews",
+   "x": "Compounding and Telehealth at Scale After Empower: Prescribing Architecture Is the New Regulatory Question JD Supra"
   },
   {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
@@ -463,6 +477,13 @@ window.FEED={
    "x": "Peptides, Promise, & Patience: Letting Data Catch Up to Hype Physician's Weekly"
   },
   {
+   "t": "As RFK Jr. and Rogan Push to Open Door on Peptides, FDA Advisors Recommend Big Shift - CBN.com",
+   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZnFOcWpfWE1Za1RrMUFpcUNKdVFJblJJUXBfV1ZmT2xPVmpUTzRoNHh3aHBQNUlwak1RaG4zQmQyNFFlVDVRQTlYaEhzSkZjZXJLQTJKVllyNWNGU1FNMktwUmlqSC1BTzNWR3FqbEVucEJmSG16bk45MDBCLVd1eU9Xa3p1bEFwS3pHZVNsbEg3Q1o5Q0ViZHZBcERBS2R6Yllj?oc=5",
+   "d": "2026-08-13",
+   "s": "gnews",
+   "x": "As RFK Jr. and Rogan Push to Open Door on Peptides, FDA Advisors Recommend Big Shift CBN.com"
+  },
+  {
    "t": "Phoenix doctor urges caution as FDA moves to regulate popular peptides - AZ Family",
    "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSWRDZmo3SGlHR1QzNXVMSW1zWHRiRldaaUlySFA2UDJZQm1SZHYtNDFkaXlGbHhYMkloYW5XU1hWT01jMTBqenE5NDVFZ3BEZkxRZ094ZnFYOWE0SXhsRkU0c2F1X2tVYU9ZTDAxSV9ROWRJdUV2OWhOZ1dXM21QdHVhelVsYVgzbXJnU0gxbTlJQjMzckE5N0JjRmMwNzRaRTQ40gG3AUFVX3lxTE5tSWFEMXduZ2ptaXI4LVktZkh4dDU5ZkJvc1pJbkRiVkI0SFVNQlI2TWp6aEtIMEhKUmdqRVU1eFltQVcwRkdQYmktOGZPdGNmQjNMeDhZVXRPUDR2MXYyaHBlc2FFVDFnMC1xdmthN05TVzFaQzZVOW9VYjZBcWZHS2x1OEFqQmhZU1ZPTFlheVlrR014eENpaVZ6NlhkbXE2NHJUTFB5dVpxRFI1RkRQcGYwLU02aw?oc=5",
    "d": "2026-08-12",
@@ -490,27 +511,6 @@ window.FEED={
    "s": "curated",
    "p": "Partnership for Safe Medicines",
    "x": "Victory Medical Center Pharmacy glutathione recall (secondary source)."
-  },
-  {
-   "t": "The Best FDA Decision On Peptide Authorization Isn’t Yes Or No - Forbes",
-   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPOER4YlJsNHhEc1dyb3pVYVFWZlZUTUlPX3cxeHcza3ZRTWRzZFZoeW0wM3FybFhneTdpc05UZ0YyZDlMUFAtbGNkMzZnbDRZcnZTVUNlb2Q4eFBhNjRMbnZjR0VJUHNwdHMtbnNSekhxVHJpbTExSExtOFJyUkxHV1hGdHBrMEtHTzEyQWZzb01oaXhNaVRDS2VTaHA5MlRuMDFLUzF5dkUzS19LOUxEQ1haRW0?oc=5",
-   "d": "2026-08-10",
-   "s": "gnews",
-   "x": "The Best FDA Decision On Peptide Authorization Isn’t Yes Or No Forbes"
-  },
-  {
-   "t": "Peptides talk is everywhere: But what does the science say? - Stanford Medicine",
-   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWVQ3cU4xTG1iTGY0MC1wb1ZENnVHRVF3NWExOVlIb0tqZF9hTFdJT0pvNHFNVUFYV3JNVEJuNUNZRnY3dmQyemUzWEtKWmc0eW96UUY1NXlCQzB4d3NHWVpmbFA0dW03R05ZdEtmWTFqR0hfbm5zaGw0SmNZZ2dvUXVWSEJTZFhKc3RDejVsdw?oc=5",
-   "d": "2026-08-10",
-   "s": "gnews",
-   "x": "Peptides talk is everywhere: But what does the science say? Stanford Medicine"
-  },
-  {
-   "t": "FDA on Peptides: A New Landscape for Compounders - Latham & Watkins LLP",
-   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQkt0LWpqUFpwWXJvXzVnSTA1QUkyVTZmT054QnZuZVN5d1VUbmFkemk3RWR3SzBwSlFjVHNKY0Fuek44LVVvZFJjTEJHN2dmTDRLaGtpbUhDT21YaWxRRjkyYUFIanFQU1FpNlJkVk9RaThKbkFDNWlEbjc3QkxNcFQwY3o?oc=5",
-   "d": "2026-08-06",
-   "s": "gnews",
-   "x": "FDA on Peptides: A New Landscape for Compounders Latham & Watkins LLP"
   },
   {
    "t": "FDA advisory committee endorses compounding of certain peptides",
