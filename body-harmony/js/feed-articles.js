@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-14T21:47Z",
+ "generated": "2026-10-15T04:50Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-14T21:47Z",
+   "checked": "2026-10-15T04:50Z",
    "ok": true,
-   "new": 103,
-   "seen": 139,
-   "lastOk": "2026-10-14T21:47Z"
+   "new": 102,
+   "seen": 137,
+   "lastOk": "2026-10-15T04:50Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-14T21:47Z",
+   "checked": "2026-10-15T04:50Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-14T21:47Z"
+   "lastOk": "2026-10-15T04:50Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-14T21:47Z",
+   "checked": "2026-10-15T04:50Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T21:47Z"
+   "lastOk": "2026-10-15T04:50Z"
   }
  ],
  "items": [
@@ -49,6 +49,20 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Warning on weight-loss injections and peptides for patients having surgery - NZDoctor",
+   "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWUZtdVZGTk1CRjllcF9aZU9kWFotOEJSYWYzYkpGSkxMOUFKNE0tSXZ6XzdCaTNIeHlkaXgzcVc2aG5qal83U1h0ZEFfTGxpQ2xtY3JGRmo5UmlBdkh2MFQ4UXJScFhDZ2NXeGdHY09LRk1jS3NaUGJ2TjlOSUQtNVozV3RlNFp2bzltQlNuRzVieTE0LTRLZFZHQ3ZkbDdlSklGSXkySFFhUlBkTlZ0WFF1NA?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Warning on weight-loss injections and peptides for patients having surgery NZDoctor"
+  },
+  {
+   "t": "NewBioRx – Research Use Only Peptides - Generation Iron",
+   "l": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RejhPem43ZHNRS0VOcUxwRnZUWXhhbDk4ekF2N2ZmWjRPdWtnS3U0VTFxNmp1TnFINTJkbURvc1Vlc2lCbDBxb0g5MURNTm5fT200Ml8zNzdSbEJUTmt1dElsTk0?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "NewBioRx – Research Use Only Peptides Generation Iron"
   },
   {
    "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - Philstar Life",
@@ -126,6 +140,20 @@ window.FEED_ART={
    "d": "2026-10-14",
    "s": "gnews-a",
    "x": "Peptides Swap Founder Dra H Kulvar to Discuss $PEPS Token, Crypto Presale, & New Marketplace Platform openPR.com"
+  },
+  {
+   "t": "retatrutide weight loss drug overview 2026 - Philstar Life",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcC1yS0lwcDdVWGlfWkQzSkx1V3RQblpJaF92X2tPelhLSUxzdjJsenNNOURZNG5qbXV6al9vSzlqRFc2TzlrUlFqWjhCVVNCUWZiRExpWko5MUZDZzR1NmRsVXRwN2xzQ0VlZWRtdXR1WHFwX0RYZW1vVzZZaF9wQVFSczhlUUcyRHc?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "retatrutide weight loss drug overview 2026 Philstar Life"
+  },
+  {
+   "t": "eli lilly trial shows drug retatrutide produces significant weight loss - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU093SGdhMGJKdHo2V2NxRzRVUkFpMld6Si0yejV0UmRkdmNvRl9MN2FqSjRSSkZqdW8zMEpWNWlzOFlYNjZyOG5Lc3U5c1p3UG96WkNYQ3VvME9JY0NnSGE4RUkzTzFvdktfM09WMFZ3OGxrbC16UzJSWW5HQVM5UTNtWS03VTFURlViTEFyX25xaWlNV0RWaE1PdnZxenc4N2JWa2FEQW5USERkUDAwWldlaTZFX2NfRUZZ?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "eli lilly trial shows drug retatrutide produces significant weight loss BusinessWorld Online"
   },
   {
    "t": "Some who have taken hyped, unregulated peptides have regrets - The Washington Post",
@@ -308,34 +336,6 @@ window.FEED_ART={
    "d": "2026-10-10",
    "s": "gnews-a",
    "x": "retatrutide weight loss drug overview 2026 BusinessWorld Online"
-  },
-  {
-   "t": "Is Peptide Sciences Still in Business in 2026? Website Status, EU Operations, and US Availability Explained The Hype Magazine: Unveiling the Pulse of Urban Culture - From Hip Hop to Hollywood!…",
-   "l": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOc3l0bWdkcVpwT2RzZWYyTnpBTDlCVXpjU2pRR3l6OF9oMmxoaTlRUGVzd0ZJS3VEb3ZSSTFvaGFDeWVndmxjT2QtM21qcV9sbVRrTzdsVlZZSnlxNUl0QS1hYmgycnQ1NkxkeU1VWDBuQmd1dS1XVnB2azh5VnJ5eXk0S3hmbVAyNkNGVHpvQXdhQVdvMzF4ZE5kWV9tcGtqYUNyeHRSYWRnMFEzRkJLYzVNQUZLMm5QQTAxVHJrS0FZcnFCSUVKbnpxaTd5cDhlTmpHdGpDbUNJWEpVdXhndWZ3?oc=5",
-   "d": "2026-10-10",
-   "s": "gnews-a",
-   "x": "Is Peptide Sciences Still in Business in 2026? Website Status, EU Operations, and US Availability Explained The Hype Magazine: Unveiling the Pulse of Urban Culture - From Hip Hop to Hollywood! Explore a Diverse Tapestry of Stories, Interviews, and Impactf The Hype Magazine"
-  },
-  {
-   "t": "fda approved weight loss drugs 2026 tirzepatide semaglutide retatrutide - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNaTUyVTFTd1dOTW5JeUxoMHFPYUFVYklzN3hIWWFXT1NrUTE4SFZLX3BUd1dBeTdIeHQ1Wi14amhYSVktclZMWHZLb3J0ZlZQalVBS0RGZU8yRUk2bE9wek4wYzd6bDJyVVZKM1kybmtvZVFSaUNfbHlzX1dCTFduSGdBWmVPcTAxQl9yMFJUQURTczIySk16UTJjV0pvNWVGYVZGZGVCREljclZTYnZVcHR3?oc=5",
-   "d": "2026-10-10",
-   "s": "gnews-a",
-   "x": "fda approved weight loss drugs 2026 tirzepatide semaglutide retatrutide BusinessWorld Online"
-  },
-  {
-   "t": "Peptide patients paying up to $1,500 a month face an FDA problem - TheStreet",
-   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPODJGTE1mdEZKQVY5b1B6UnNUZWc0al9XRmcxTnJ5c2tNV2Rnb0Jka0FzRHhXdE0xNy1BU2xQeFZ1VE91QVY4ZkUzcXkwMDV6YlZQTkZuRzVQMW9KQ0ZRLVZ5Ym1nZTBDRXBLQTNkRDM3bWMwbGRFczJUVkVYQUI3OWh1VlJDVkNQRXJ2QnZSS2pVU1ZGeEJUQWZ6RQ?oc=5",
-   "d": "2026-10-10",
-   "s": "gnews-a",
-   "x": "Peptide patients paying up to $1,500 a month face an FDA problem TheStreet"
-  },
-  {
-   "t": "Health Brief: Eli Lilly takes on retatrutide copycats - The Washington Post",
-   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQUkExOXZsN09FaU9MMVE2TW9JZUhoeGY1LXo1dHNFNVJXN04tYmY4RkRwQVBFelMzSVNOdXBqRld2ODE2dnVvaGFoakswblFsSGFYcDFQaDlubGdxdmFsY1BNaUl5dUg1OEFvWU55dTNuZUMzcHNwa0p6aEhBZWNTTWpJUnR3ZnBET3BkOE51SHNya0toN3NNc1k1S3ZMVXI5dzdoRW8zNUlnYWp4T196N3ktTGdwX1AtT1J5aGVn?oc=5",
-   "d": "2026-10-10",
-   "s": "gnews-a",
-   "x": "Health Brief: Eli Lilly takes on retatrutide copycats The Washington Post"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",

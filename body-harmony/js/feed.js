@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-14T21:46Z",
+ "generated": "2026-10-15T04:50Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-14T21:46Z",
+   "checked": "2026-10-15T04:50Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T21:46Z"
+   "lastOk": "2026-10-15T04:50Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-14T21:46Z",
+   "checked": "2026-10-15T04:50Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T21:46Z"
+   "lastOk": "2026-10-15T04:50Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-14T21:46Z",
+   "checked": "2026-10-15T04:50Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-14T21:46Z"
+   "lastOk": "2026-10-15T04:50Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-14T21:46Z",
+   "checked": "2026-10-15T04:50Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-14T21:46Z"
+   "lastOk": "2026-10-15T04:50Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-14T21:46Z",
+   "checked": "2026-10-15T04:50Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-14T21:46Z"
+   "lastOk": "2026-10-15T04:50Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-14T21:46Z",
+   "checked": "2026-10-15T04:50Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-10-14T21:46Z"
+   "lastOk": "2026-10-15T04:50Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-14T21:46Z",
+   "checked": "2026-10-15T04:50Z",
    "ok": true,
-   "new": 155,
-   "seen": 186,
-   "lastOk": "2026-10-14T21:46Z"
+   "new": 153,
+   "seen": 185,
+   "lastOk": "2026-10-15T04:50Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/sponsored/beyond-pharmacy-counter-inmars-data-advantage",
+   "d": "2026-10-15",
+   "s": "fierce",
+   "x": "Emily Welker explains how retail and healthcare data reveal new opportunities to engage GLP-1 consumers more effectively."
+  },
   {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
    "l": "https://www.federalregister.gov/documents/2026/10/14/2026-20989/advisory-committee-cellular-tissue-and-gene-therapies-advisory-committee-renewal",
@@ -88,18 +95,18 @@ window.FEED={
    "x": "The Food and Drug Administration (FDA) is announcing the renewal of the Cellular, Tissue, and Gene Therapies Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Cellular,…"
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/sponsored/beyond-pharmacy-counter-inmars-data-advantage",
-   "d": "2026-10-14",
-   "s": "fierce",
-   "x": "Emily Welker explains how retail and healthcare data reveal new opportunities to engage GLP-1 consumers more effectively."
-  },
-  {
    "t": "FDA Peptide Compounding Policy: What a Temporary Enforcement Reprieve Could Mean for Pharmacies - Buchanan Ingersoll & Rooney PC",
    "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWnpnZTc4UElOUHo5ZzNjZGNjZktzcWRYNTNCbDZwVHBINzMza2prQzQ3bkJDcjVveGdrLVhFWjExNjdkc2dEa2F1TWNGckJ3NFh5Q0tWOWpFM2R5X3Z2UXBLenRNbWlvYlljX3BvU2pKMlA0Wk9MTVh5bGd1OUh2b1A5Mjd1Tnc1VHE5aDEzdU5uU0x1RU9welF6MlZvWExyYW14a2poMW42QUhueFFwd0ZrYWY?oc=5",
    "d": "2026-10-14",
    "s": "gnews",
    "x": "FDA Peptide Compounding Policy: What a Temporary Enforcement Reprieve Could Mean for Pharmacies Buchanan Ingersoll & Rooney PC"
+  },
+  {
+   "t": "HIMS Stock Climbs Overnight As FDA Advisory Panel Backs 4 Peptides — ‘Pharma Bro’ Martin Shkreli Goes Short - Stocktwits",
+   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNkRFdzdoOVpDUmhoQkNsVWxLZndvVERoekZFcnEzRXQzdzgzSzBiOFEyTk53NFhCX0RHTWQ2MFZGa2RUWnhlV0NzbmsyaHQtVUVJQ2RXNzhacFdpYkxIZERRcENwYzlKS0hiVGNxbHdmVEpxTTBKVjIwLXJRaHlOYU9jemFEdmpXMURXRmZsUUtGeHA5ZkJZLXVDMks0OXBOSndFRURlcnBaMGVRaEFF?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews",
+   "x": "HIMS Stock Climbs Overnight As FDA Advisory Panel Backs 4 Peptides — ‘Pharma Bro’ Martin Shkreli Goes Short Stocktwits"
   },
   {
    "t": "Use of Salt Substitutes To Reduce the Sodium Content in Standardized Foods",
@@ -135,13 +142,6 @@ window.FEED={
    "d": "2026-10-08",
    "s": "fr-cbp",
    "x": "This document proposes to amend the U.S. Customs and Border Protection regulations to modify filing requirements for informal entries of goods valued at $2,500 or less and to establish a new electronic informal entry type for merchandise entering through the mail environment.…"
-  },
-  {
-   "t": "HIMS Stock Climbs Overnight As FDA Advisory Panel Backs 4 Peptides — ‘Pharma Bro’ Martin Shkreli Goes Short - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNkRFdzdoOVpDUmhoQkNsVWxLZndvVERoekZFcnEzRXQzdzgzSzBiOFEyTk53NFhCX0RHTWQ2MFZGa2RUWnhlV0NzbmsyaHQtVUVJQ2RXNzhacFdpYkxIZERRcENwYzlKS0hiVGNxbHdmVEpxTTBKVjIwLXJRaHlOYU9jemFEdmpXMURXRmZsUUtGeHA5ZkJZLXVDMks0OXBOSndFRURlcnBaMGVRaEFF?oc=5",
-   "d": "2026-10-08",
-   "s": "gnews",
-   "x": "HIMS Stock Climbs Overnight As FDA Advisory Panel Backs 4 Peptides — ‘Pharma Bro’ Martin Shkreli Goes Short Stocktwits"
   },
   {
    "t": "Compounding Pharmacies for Weight-Loss Drugs Are Booming. Should You Trust Them? - Time Magazine",
