@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-15T04:50Z",
+ "generated": "2026-10-15T11:40Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-15T04:50Z",
+   "checked": "2026-10-15T11:40Z",
    "ok": true,
    "new": 102,
    "seen": 137,
-   "lastOk": "2026-10-15T04:50Z"
+   "lastOk": "2026-10-15T11:40Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-15T04:50Z",
+   "checked": "2026-10-15T11:40Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-15T04:50Z"
+   "lastOk": "2026-10-15T11:40Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-15T04:50Z",
+   "checked": "2026-10-15T11:40Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-15T04:50Z"
+   "lastOk": "2026-10-15T11:40Z"
   }
  ],
  "items": [
@@ -63,6 +63,41 @@ window.FEED_ART={
    "d": "2026-10-15",
    "s": "gnews-a",
    "x": "NewBioRx – Research Use Only Peptides Generation Iron"
+  },
+  {
+   "t": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ - Stocktwits",
+   "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNQ2YwUXdHYjhqV2hkZFBKTFhDSk9BOVlLTXBBSXpKRU8wZndKb0ZkcGIzMTN4ckdoQWJnS282MHRNS1NLdFhBVHB5TVZXU0FEa3QzemFDNzNXNEozZnkzbUtnbDRVNFBuSkI0WDUxbU1GYWx6YVdENXN3aWZyeGVVcno1dWx2WVNlcVEtUGVvVng4Y3ZxSmprZ2xBRnltRFg2MlFuREFHeFZLYUl2Y0g2WHlFcHdmNk90UjM1bGhlNmlVcGJTTTZ5eWlPSFdJNVVxZHY2b3A0Z28tOGdNVUF3SnBhZ1ZGMUxBS2N1R05yc1ZHM0w2UndTYUpUNG5LNUUtbzdjb3lTM0ZlQWh3RGc?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ Stocktwits"
+  },
+  {
+   "t": "Buying weight-loss injections, ‘peptides’ online? Telangana drug regulator says you could be risking death - The South First",
+   "l": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUHBuc0Z5QUFpQUV3bEF6Vl9aZVFPZ1BOVTlDX1dmdm1hWGVZWnZWRXV2LWsyaFJrMXQwMDlNanlsZTRMMkg0SnVXUWh0OUwzdHdkQXNHRUZBR3NVR2VxVFBXZ0ZDN0FSdnlLY3l5RnZ6MUZ1YUEySjBnRnhGbXNWOC1PTXhOSUZrbnNTdVV3WEtNTHBaMUNsRV9kaGxaalBrSmRPd0xuTkRFSFoxUU1HUXo0RDZFZldmME9sYkdXZkIzaWVRQ1RiTVBFWnA4UVRtenc?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Buying weight-loss injections, ‘peptides’ online? Telangana drug regulator says you could be risking death The South First"
+  },
+  {
+   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONVl4X3VkZ3NYQXU2OGFPZEJUUmJPRkRKTmpqbTNkVV8zRFE5bElteTlPZXFjcEZRM1BUUVR5UENSWDBrZUdnZUxPbHZiZjFSUzVHMDlkNzRETnFaX0NwR1RvTGRqWG4waS1obzkxdDZoczRRMXFlSFAxNmFnMGhnZDZSY0lVN1NQSHBrNWstdElnRFJjUnc4UHU2anE4UWF6U2c?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss BusinessWorld Online"
+  },
+  {
+   "t": "Retatrutide delivers 18.8% average weight loss in Phase III trial of people with type 2 diabetes - Diabetes.co.uk",
+   "l": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdmpMLTN6aVZRVlBCWnNUQm9ybElsOGlnUkNlZGVVMDN3Z09VZFBZVGFYUGtJcVZVUnlodlRBZWNxZzhybWdYTkFHdEQtSlRCM0w2MTFzdk5sSXBad1dOSXdqYWMyQTFEYWRMVU03dU1CTlhXUGlqTGZsVmZOV05pc2RVN1ZVRmhRMTJZTHNpT19ReEFKUHRrNXVwX1N3a25pcjZYYy15dXoybml4bVViQ1FzYjFMdlIxNHVyMGgxNXZaUmNKSk1LdDJGQnUwbF8yQUdqMURfRFY?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Retatrutide delivers 18.8% average weight loss in Phase III trial of people with type 2 diabetes Diabetes.co.uk"
+  },
+  {
+   "t": "Volta Peptides Launches VoltaPeptides.ca Exclusively for Canada; VoltaPeptides.com to Focus on U.S. and International Markets - USA Today",
+   "l": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQWW84eF9teGQtcTE0WEQ3SmtyUk1BZTlYcW5Da2J0VmpyYlZrX0dleUlqWmtHRjJLZFFvNlFDV05YYmRDLW5VaGUtbmNEYTZvMlE5MlNnREZlNmlWa0lOZGtiYmFQejlUNEVjcFl2QXZQa2t6anhOUGRYcDd6ZjFVd3hZUDloMG1PVV9JQWZzSUhENXNGUzQ5Um9XbkNBakRkZTJuY25GaWJxcjIteEVqS3o3VXZSOTRXck44T1NCQ3otTi1YbElLbzg1alhSVG5qOTJEa2hvdVI5LTB0WGU3YUpYLXh4Z19PV1A1NjRVdDF0RzF6eXpSOTBtOE8xWHRIV2ZXNVhn?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Volta Peptides Launches VoltaPeptides.ca Exclusively for Canada; VoltaPeptides.com to Focus on U.S. and International Markets USA Today"
   },
   {
    "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - Philstar Life",
@@ -156,6 +191,13 @@ window.FEED_ART={
    "x": "eli lilly trial shows drug retatrutide produces significant weight loss BusinessWorld Online"
   },
   {
+   "t": "Peptide Payment Processing Terminated? How to Get a New Merchant Account - NewsBreak: Local News & Alerts",
+   "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQX2I2VWJycGs4c0Y2VTZtLTMyV2FhMTN5ZC16VFUxcVFLUHpDdHFlWjd0S1NWVld6N1o2MVpINXRzeGoxQXN2THFaS3o1X0Y0UXNrZXluOW5sYUFLZjhkUGtwWVBuVUxPUTdDNmVnaWhHNG8zaFpWVUdzU2xZX2t5YkpQaUZnX0tpNUhqVng1ME55Q3owRTAwQTY2U1lZNmpsT2V1NnBpT1lzNnp5R2NSdERqSGVtUmpOU29mZy15UWs0dHNLNWY0MTN6VDRZY2M?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "Peptide Payment Processing Terminated? How to Get a New Merchant Account NewsBreak: Local News & Alerts"
+  },
+  {
    "t": "Some who have taken hyped, unregulated peptides have regrets - The Washington Post",
    "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOENGcG5qeVRkOTdPekdtZVVJNzNoLVJrcTNUZWc5ZENXbjlpd0JhODlWUGVUUDlNUk9sVURmLU9JUWttVXFNbFpSQWh4YUpjbWdRWm9vc3dlWWNDQjVhR3BBS3pCcnA3d3JtY296aEVtb0tsVjljTUExeEowUmNkdVN6SkZfdElXakhjYWVMSHRMbl9JSXF2WlBlVklmMl9pNnZPcjBHOW4xZWRPbHFvNg?oc=5",
    "d": "2026-10-13",
@@ -184,13 +226,6 @@ window.FEED_ART={
    "x": "What is retatrutide? Everything to know about 'RETA,' the triple-agonist weight-loss drug headed for FDA review Clarin.com"
   },
   {
-   "t": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNQ2YwUXdHYjhqV2hkZFBKTFhDSk9BOVlLTXBBSXpKRU8wZndKb0ZkcGIzMTN4ckdoQWJnS282MHRNS1NLdFhBVHB5TVZXU0FEa3QzemFDNzNXNEozZnkzbUtnbDRVNFBuSkI0WDUxbU1GYWx6YVdENXN3aWZyeGVVcno1dWx2WVNlcVEtUGVvVng4Y3ZxSmprZ2xBRnltRFg2MlFuREFHeFZLYUl2Y0g2WHlFcHdmNk90UjM1bGhlNmlVcGJTTTZ5eWlPSFdJNVVxZHY2b3A0Z28tOGdNVUF3SnBhZ1ZGMUxBS2N1R05yc1ZHM0w2UndTYUpUNG5LNUUtbzdjb3lTM0ZlQWh3RGc?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ Stocktwits"
-  },
-  {
    "t": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. - The Motley Fool",
    "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSUVXLXhrbHVZWXZNMGdsYlBzU1BlQ0RqenEzeWtQdk00V203T2NhWVU3cWdLYXlXQ2FiS2VpdFYyQzNQcWl0SHZDOWdQcmEyTWRSOVFaVE1OY3h4MFNGNWxuWW1uSVEzLURIa19SYTdHclduWkpHMTlNLUhxd2s3SnpWWXE0bFYzZ19SNlM0Q3RyRU5QVTRseg?oc=5",
    "d": "2026-10-13",
@@ -205,11 +240,11 @@ window.FEED_ART={
    "x": "NextWave Peptides Sets Out to Make High-Purity Research Peptides More Accessible USA Today"
   },
   {
-   "t": "NextWave Peptides Launches U.S.-Based Online Catalog - openPR.com",
+   "t": "NextWave Peptides Launches U.S.-Based Online Catalog for Research Peptides Built Around Documentation Clarity - openPR.com",
    "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUnVaTVNsemRTcE5LVk9EZ0xXUVV6dE1udThnMEV1R2NRTDM2ZlNKbENfSnNVWUJ0YXM0QnBtclhSRkxGUllQUHduUUs0bTZTUWtINXlhN3RNTk5QVkQ1clV0VWtBU3oyMEZPR3FzUUhfVW5ZQlhHSmw5M0c1UGFqS1d4X0M5VS1WenRFdzAyYmI?oc=5",
    "d": "2026-10-13",
    "s": "gnews-a",
-   "x": "NextWave Peptides Launches U.S.-Based Online Catalog openPR.com"
+   "x": "NextWave Peptides Launches U.S.-Based Online Catalog for Research Peptides Built Around Documentation Clarity openPR.com"
   },
   {
    "t": "Triple-action drug retatrutide delivers major weight loss for people with diabetes, Phase III trial finds - Medical Xpress",
@@ -301,41 +336,6 @@ window.FEED_ART={
    "d": "2026-10-11",
    "s": "gnews-a",
    "x": "Retatrutide promises a new wave of weight loss – but doctors say these risks need a closer look Women's Health"
-  },
-  {
-   "t": "Eli Lilly Steps Up Retatrutide Crackdown With Six New Lawsuits – CMO Hyman Says Drug Sold In Black Market Is ‘Not A Medicine’ - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQUE9yTUdtNFh1MTB5WXgwT1FneXJpY09WdXFHSWRJSkxiNmxMdXptTnBMNHFJcGJkNWJsQ283dkNJWDZHVEV2eS1wUm52RjEyNXEwdmFWQ0M5bkxsdVFrcGtneW4waVByS0dJb0NGNkt4MXl2WXE5QlY3MVZFcmhCbmpsUDdhb1FzRUozNlNLWTdDaTZ1VEVES2Q4dW5uUlp4ZzFydjVOVnB6Ylhid2ZHMmFkU2hWeUxNWVd6TFJ0RUdZdlF1bVA1dm9uT09KRWI0SUowQjZhY04wQTJkSTJQSUs3SDVPcUZhZ3V2U1dZTkgwZlZoVWIxQzlRZzNRZ2ZnMlhCNDBJUUFVUjlrcEdBM3lCQQ?oc=5",
-   "d": "2026-10-11",
-   "s": "gnews-a",
-   "x": "Eli Lilly Steps Up Retatrutide Crackdown With Six New Lawsuits – CMO Hyman Says Drug Sold In Black Market Is ‘Not A Medicine’ Stocktwits"
-  },
-  {
-   "t": "Chinese firms that once supplied fentanyl precursors now eye illicit peptide market - 헤럴드경제",
-   "l": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE10WEprOEpNZ0p6UlZ6UW5fNVE1V0R4dVU0V0JkQmZOWXJrbXlzTXN3S3Z3SU1HS1dlY2NCOE1rTXVQb0lvbzFkSklNY3JxcG9CdmRaMWR3?oc=5",
-   "d": "2026-10-11",
-   "s": "gnews-a",
-   "x": "Chinese firms that once supplied fentanyl precursors now eye illicit peptide market 헤럴드경제"
-  },
-  {
-   "t": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWpEVXdRWkQxSU5HenFhWndwRTAxOVNmTW1CRllWaTVWdF9obGJxS084TGdQNFhIMERWOFNXejNrN2gzbG5BX1pOd1FpQzR1OXBhUDdGYUFVVllVLWZkbjBmN3ZEeUNQcXhSbzNZc1lRNnJkU0JUaVRibU9HR1hGYTdFV0NSVHVha3VZUk9lSmVYalpTUzRuNWVuNUw3a3NvblhucVNBdVlhUzlKd1V6ZWFiXzQyRHp2MnE3RUlFbHNDQTB6MEpPeg?oc=5",
-   "d": "2026-10-11",
-   "s": "gnews-a",
-   "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-11",
-   "s": "gnews-a",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
-  },
-  {
-   "t": "retatrutide weight loss drug overview 2026 - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNWEpqMUhqUkU2OGllQzA5d2pBUV84dWZpUG1LRVlBd3RIZllWR0ozZzZOZGtFRkhQY3E1Y3JiUjRoLVRsVkRxNUYxUmNKS1N4T1dtS3VtWG41bHRRelBxVnZKVVhQTUp0dXdRdUZHQU44alJyR1duZ20wQ3VoaGpXdFM4WHlWdE0tV0RBSHh0Yw?oc=5",
-   "d": "2026-10-10",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug overview 2026 BusinessWorld Online"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",

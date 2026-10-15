@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-15T04:50Z",
+ "generated": "2026-10-15T11:40Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-15T04:50Z",
+   "checked": "2026-10-15T11:40Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-15T04:50Z"
+   "lastOk": "2026-10-15T11:40Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-15T04:50Z",
+   "checked": "2026-10-15T11:40Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-15T04:50Z"
+   "lastOk": "2026-10-15T11:40Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-15T04:50Z",
+   "checked": "2026-10-15T11:40Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-15T04:50Z"
+   "lastOk": "2026-10-15T11:40Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-15T04:50Z",
+   "checked": "2026-10-15T11:40Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-15T04:50Z"
+   "lastOk": "2026-10-15T11:40Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-15T04:50Z",
+   "checked": "2026-10-15T11:40Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-15T04:50Z"
+   "lastOk": "2026-10-15T11:40Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-15T04:50Z",
+   "checked": "2026-10-15T11:40Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-10-15T04:50Z"
+   "lastOk": "2026-10-15T11:40Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-15T04:50Z",
+   "checked": "2026-10-15T11:40Z",
    "ok": true,
    "new": 153,
    "seen": 185,
-   "lastOk": "2026-10-15T04:50Z"
+   "lastOk": "2026-10-15T11:40Z"
   }
  ],
  "items": [
@@ -86,6 +86,13 @@ window.FEED={
    "d": "2026-10-15",
    "s": "fierce",
    "x": "Emily Welker explains how retail and healthcare data reveal new opportunities to engage GLP-1 consumers more effectively."
+  },
+  {
+   "t": "As FDA Weighs Wider Peptide Access, Adverse Event Reports and Two Las Vegas Intubations Sharpen Safety Questions - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYVNUUW5sU3IyaUJ2UTlJYm0xdFpjZTdIU0phODdHTUozR1ZJZ25FRktKelZPdjFqbjJoaU1nMWJlWTEyM0dFN0piYXplNHFGTUZ6VGhhdkFYZnV4S0RiLWpPVjdabHRJN1NzSUM3bThBSFRZa2s0NjYyNGpEY0l2YURoNG51MVdEX255MlU5aWxLWEY4OTB4bXhTYzdqLW1J?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews",
+   "x": "As FDA Weighs Wider Peptide Access, Adverse Event Reports and Two Las Vegas Intubations Sharpen Safety Questions Medical Daily"
   },
   {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
@@ -511,13 +518,6 @@ window.FEED={
    "d": "2026-08-06",
    "s": "gnews",
    "x": "FDA on Peptides: A New Landscape for Compounders Latham & Watkins LLP"
-  },
-  {
-   "t": "Peptide FDA Updates: Latest News on Compounding and More - GoodRx",
-   "l": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOUFBRVNNWDlCazdRU0tzNTRzcmh1Z1dvcGJqNGxKczJ2Um84ejRGTGdJVWdiVFJkb1daTG5MZkstckx5RlNSTThqOGdJT29BRkNIckcyeXBId29PSllMSlVUbHVFUzVPd3NtcTZYV1N2cjgyOGFxVm5kSVJZZG5vVg?oc=5",
-   "d": "2026-08-05",
-   "s": "gnews",
-   "x": "Peptide FDA Updates: Latest News on Compounding and More GoodRx"
   },
   {
    "t": "FDA advisory committee endorses compounding of certain peptides",
