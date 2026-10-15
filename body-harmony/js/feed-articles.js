@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-15T11:40Z",
+ "generated": "2026-10-15T17:08Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-15T11:40Z",
+   "checked": "2026-10-15T17:08Z",
    "ok": true,
-   "new": 102,
-   "seen": 137,
-   "lastOk": "2026-10-15T11:40Z"
+   "new": 101,
+   "seen": 138,
+   "lastOk": "2026-10-15T17:08Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-15T11:40Z",
+   "checked": "2026-10-15T17:08Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-15T11:40Z"
+   "lastOk": "2026-10-15T17:08Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-15T11:40Z",
+   "checked": "2026-10-15T17:08Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-15T11:40Z"
+   "lastOk": "2026-10-15T17:08Z"
   }
  ],
  "items": [
@@ -98,6 +98,27 @@ window.FEED_ART={
    "d": "2026-10-15",
    "s": "gnews-a",
    "x": "Volta Peptides Launches VoltaPeptides.ca Exclusively for Canada; VoltaPeptides.com to Focus on U.S. and International Markets USA Today"
+  },
+  {
+   "t": "Inside the growing market for peptides amid concerns over safety - RTE.ie",
+   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTE82OWFEZXdReEk5NXNCMk5QUVJxTlFaWDkwbkpDOGZOZTZ3WUxtRmZzdUtqLTRvYU1tRVFYNVZrdVh3WXVRRlZ1dFUzQVNpYWhjcWlXUEV3Qlh4TTNFamlQTGNOS0hRUzdIRUkxejVBMW9VUGVkRjNCVTVjMEk?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Inside the growing market for peptides amid concerns over safety RTE.ie"
+  },
+  {
+   "t": "Unexpected Retatrutide Side Effects Reported by Reddit Users - Medscape",
+   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFVvUEdwakYxdzF4Y2hhRTE1RkI3bklGZ2dwT1psT1NjUXFkdlJ1SkExMXl5QXRWWDhaZEp1THFBMlJmbHdjVzd4X0FlTnZnWFJUazNydk1QNmtBOTdVbkZuT2paVm1UZ2ZLWUprYlRXcWlZUEZqaW9CdGNHQUxGTVlEYjFQNE9qNVpkNzB1bTZjb05jMHlJN1BPUHVMdFdFZi1EWm93TTZLRzg?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Unexpected Retatrutide Side Effects Reported by Reddit Users Medscape"
+  },
+  {
+   "t": "Eli Lilly’s Retatrutide Lawsuits: What Pharmacies, Telemedicine Companies and Online Retailers Need to Know - Buchanan Ingersoll & Rooney PC",
+   "l": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTzBob3JvbVNGZ1N1cDVwYWNzcmtnajBXOW9PQTgwMDRNbTRvbWhsVTJ1TWpoWnhXbGUtcmpfZ3JRQV81OG1mX0J1V2FIVEIyNlBBSjZVcGJ2LWxtemZQSUVEMkIxOHJtSXFtMlY5dWRETmVjVmxKSWZnaUpRd0dMTlRqTHFXMHd2SnQyXzhoUHhveXJQdUlhbk1GeVV0ekFXM09fNEIxTVJHbzNCYUVHZFNWSjd6WkFWZmRwS1hnNVdMeGM?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Eli Lilly’s Retatrutide Lawsuits: What Pharmacies, Telemedicine Companies and Online Retailers Need to Know Buchanan Ingersoll & Rooney PC"
   },
   {
    "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - Philstar Life",
@@ -315,27 +336,6 @@ window.FEED_ART={
    "d": "2026-10-12",
    "s": "gnews-a",
    "x": "2026 fda approved weight loss drug retatrutide approval status Olhar Digital"
-  },
-  {
-   "t": "Research Peptides and Their Expanding Role in Muscle-Oriented Scientific Inquiry - Banglanews24",
-   "l": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LVFc3Mm9ycmsxY0VwZ0FLWXU0RmhlR0x5T3JrNjl3emFvN181Y19wTW11SHJ1WWtnWERaTVFuWVBELUVjV1lTdGlyelFNNmRTa2dEN1Rwd1U0Y2Zzdll2bWRMOTVFWnBCdkRQbGpn?oc=5",
-   "d": "2026-10-12",
-   "s": "gnews-a",
-   "x": "Research Peptides and Their Expanding Role in Muscle-Oriented Scientific Inquiry Banglanews24"
-  },
-  {
-   "t": "retatrutide weight loss drug - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeHVmblNnS1pIcXBaVTZiVXo1MVVpbk1mT2EtWGctclhyZ0hHa3d5ZXBrZjRvSWY5S09BTzBqREpFaC01UU0tYkdZUHFPcU9pVzhaUXVhN1RteTNjZjdFRVZDWnppNFVKaHVwZWk0cmNEbXNNVl9nQndnVUh0Y0VZZzR2bTk?oc=5",
-   "d": "2026-10-12",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug www.polskieradio.pl"
-  },
-  {
-   "t": "Retatrutide promises a new wave of weight loss – but doctors say these risks need a closer look - Women's Health",
-   "l": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNX2ZTTTFub2JKT016dE5RMFp3MEtEbW9Vd1pKdU1zMWhSMjI1dFgyYUZSZE4zcU5fVDNwQ21tamduM2pJaDFWeXJsUnRmTXpuRWVlc1JObnNJMWF1Q0xOTkRVUDBGWmlqVllIelVvX2V4NGV2VGlzMnA4b01XVmVkUnV5bU4yNGJw?oc=5",
-   "d": "2026-10-11",
-   "s": "gnews-a",
-   "x": "Retatrutide promises a new wave of weight loss – but doctors say these risks need a closer look Women's Health"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
