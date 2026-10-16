@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-15T21:30Z",
+ "generated": "2026-10-16T04:40Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-15T21:30Z",
+   "checked": "2026-10-16T04:40Z",
    "ok": true,
-   "new": 104,
-   "seen": 139,
-   "lastOk": "2026-10-15T21:30Z"
+   "new": 102,
+   "seen": 137,
+   "lastOk": "2026-10-16T04:40Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-15T21:30Z",
+   "checked": "2026-10-16T04:40Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-15T21:30Z"
+   "lastOk": "2026-10-16T04:40Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-15T21:30Z",
+   "checked": "2026-10-16T04:40Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-15T21:30Z"
+   "lastOk": "2026-10-16T04:40Z"
   }
  ],
  "items": [
@@ -49,6 +49,20 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "TG SAFE warns against unapproved weight-loss drugs and peptides - Hyderabad Mail",
+   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMWx2cEJvbnQtalpESGc0S0ptU0s1cC1yTElvQU42TnJVNXY2R1FtV2w3dHdVbjVuSFF0VVZreDNLWTF5eHBMLW1ZTkxJZ19iamZBdV9TZnA4WmFrZzNwQkpFbDBhMDVWRmhnbkplbzdTTXZZU0ZLejhXSjJGNGw5QXNkSGstV2s?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "TG SAFE warns against unapproved weight-loss drugs and peptides Hyderabad Mail"
+  },
+  {
+   "t": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market - TradingView",
+   "l": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNa2Z1aFF0cGN3NUhpR2ZhM1ZYWGh2eHVuanptMEhvNmxwckhZUVI4TlEtXzd0N0JmNTFHTVl0SFY5d1Y0dGQ2Y1R6UmVLNXUzN3NBUVVINWVCTTFpT3cySFFFaVdJaU1kOEIwekNtTWVtQ2thTlNWUjZ2RXJkS1RwUDBYcVZBQll1d1NqYWtkeWY0aGx4d3FsTi1JSFROTlZZTVkzNnZZaEZLRnFTQlpxUXRxYld0bWhPVGxLejBsZVZJb1ZMS1Z1SUxzV2JVNlppZ3hUYkRRNTdCdGpndDhmamszckV3WmlJdzlYd01BRmxYb0psZzRKcVlLa3FfTUk?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market TradingView"
   },
   {
    "t": "Warning on weight-loss injections and peptides for patients having surgery - NZDoctor",
@@ -170,6 +184,20 @@ window.FEED_ART={
    "x": "U.S. health officials are moving ahead with a plan to allow specialty pharmacies to produce certain peptides, a class of largely unregulated injections favored by health secretary Robert F. Kennedy…"
   },
   {
+   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - WKMG",
+   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV2hpUlVUVUF2LWYzaHdpWWJJcldYRUwzVWtZUlV6cXpNS2ZJRFJndk56dFIwM3NzUUVFd2RmbFpkN1ZxMXprc2ptaVlIX3diemQ5MXVUTXo0amdJd2ZoRW51ejlMX21tVDQ0cXZKY2laNE9xTVlCOHk0djN4RU1IRFVTNDhtOW11QTlkekpxRWFmTS1jLTZLLTY1QWdBVTdNSXlLNUlSc2kwQkEtNlRDSGNKc0dFUUVHS2FmNw?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. WKMG"
+  },
+  {
+   "t": "BPC-157, TB-500, and GHK-Cu: Research Properties of a Multifunctional Peptide Blend - Longview News-Journal",
+   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYmFMd3BPWmtFTmY5Rkp3UzZ2T1BWeGcwMkVSbU9OalBmZUtUUldEX0FQNGxpU1pqLUJPT3RwSF8teGF1Z1NYT1ZzTG5nb0NZNUtveWRKdEdMeVMwQU9weXZQUnViVmpFcHRiT2tMTzdadWQ0UWI4c0NvYnVhbU13YWZsaFhhTGVmeGRnLVhzWFNaLWQxbmdudEhvMVJLTDF6dnF0V3ZLM1JZbEY3dHRUSEJsaUxMcmctakZhZW5BcDY?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "BPC-157, TB-500, and GHK-Cu: Research Properties of a Multifunctional Peptide Blend Longview News-Journal"
+  },
+  {
    "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - Philstar Life",
    "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTJUa3cxdEgxMjNqYkpkREJKWUhBdXJST196RC11YkRRMS0xSUo1NFhidEMtaTg5MGtnVXRTdjBUQmJQOWF4bU11UXNLXzNtWlVmN3VFMHo1QUR1clE1YUlJakh2Y3JVV2VDWF83NWc0NnhiNkxvNkRnVW9LeFdtV2g4dlVVZ1plVGltVmpaWmJFd3FIdEZqclEtTGgxWlU3?oc=5",
    "d": "2026-10-14",
@@ -268,6 +296,13 @@ window.FEED_ART={
    "x": "Peptide Payment Processing Terminated? How to Get a New Merchant Account NewsBreak: Local News & Alerts"
   },
   {
+   "t": "What Is Retatrutide and When Could Weight-Loss Drug Be Publicly Available? - Newsweek",
+   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOalRZejNqSmJMa2JTRXhETFRjNU9TQVlua1VHbkxCZzZkZGUyV19lTHBwejJuOTFJdVJlUThNTDRiNXZyc3BhdXVYSVE5cHdOZGpWMUs3ZlhMcUhOYldGYXI0N0ZIaWxTa2RvcEo2elBBN1lMdUlGVld0ZEZnY2l1YnZYSGNySEprU0RXM0NTcw?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "What Is Retatrutide and When Could Weight-Loss Drug Be Publicly Available? Newsweek"
+  },
+  {
    "t": "Some who have taken hyped, unregulated peptides have regrets - The Washington Post",
    "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOENGcG5qeVRkOTdPekdtZVVJNzNoLVJrcTNUZWc5ZENXbjlpd0JhODlWUGVUUDlNUk9sVURmLU9JUWttVXFNbFpSQWh4YUpjbWdRWm9vc3dlWWNDQjVhR3BBS3pCcnA3d3JtY296aEVtb0tsVjljTUExeEowUmNkdVN6SkZfdElXakhjYWVMSHRMbl9JSXF2WlBlVklmMl9pNnZPcjBHOW4xZWRPbHFvNg?oc=5",
    "d": "2026-10-13",
@@ -308,41 +343,6 @@ window.FEED_ART={
    "d": "2026-10-13",
    "s": "gnews-a",
    "x": "NextWave Peptides Sets Out to Make High-Purity Research Peptides More Accessible USA Today"
-  },
-  {
-   "t": "NextWave Peptides Launches U.S.-Based Online Catalog for Research Peptides Built Around Documentation Clarity - openPR.com",
-   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUnVaTVNsemRTcE5LVk9EZ0xXUVV6dE1udThnMEV1R2NRTDM2ZlNKbENfSnNVWUJ0YXM0QnBtclhSRkxGUllQUHduUUs0bTZTUWtINXlhN3RNTk5QVkQ1clV0VWtBU3oyMEZPR3FzUUhfVW5ZQlhHSmw5M0c1UGFqS1d4X0M5VS1WenRFdzAyYmI?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "NextWave Peptides Launches U.S.-Based Online Catalog for Research Peptides Built Around Documentation Clarity openPR.com"
-  },
-  {
-   "t": "Triple-action drug retatrutide delivers major weight loss for people with diabetes, Phase III trial finds - Medical Xpress",
-   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOeXNOTFBrWjM2RWtPMVk3RXNxZF9odVpHd2wzMGxWVE55ZkxNZFpBRzJVLXJxMURzUUtNemU3c0NEdkxlUm5lRzROcWpLUS1IY2ZfaVNTbnRlR3ZCM016UFU1RXdxWWN3RF9xbXNQcnU4SDNKWXNxMk9aRVNYc3JHa05mS3hwRkU?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "Triple-action drug retatrutide delivers major weight loss for people with diabetes, Phase III trial finds Medical Xpress"
-  },
-  {
-   "t": "2 deaths reportedly connected to black-market retatrutide - NewsNation",
-   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSEZkbjFCck4xSWtQdTZhdHVCNm9IclVMNFhXUGJZU1d3XzFoVnRIcTR1UVljRnhVYnEzNFVKVlRZQldZZEdWcFctT1B5cnB5Tk5mUzhkNzhtNjVqdFlNZWNuTWprbUVJTmtsc181bjRaMUxxMEM3YXp4bmM1UDNfVFJiMU9tcEnSAYwBQVVfeXFMTkExdEdtYVlHZVFwMVk4eng0QXJpd0REZE05U2gyUS0tUEEyTlJQbEVaSjlITWg5MnlUUkdSU1N5SklFMWJFb3FHeGFoaGNnaTRjQ0w4em1ZMFpzQkk2Sk03Q081TEJOWkJRdVVNSklzWjZRWF95MS1VVngzaUo0SV9uc3hiMjdFOXB3bVE?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "2 deaths reportedly connected to black-market retatrutide NewsNation"
-  },
-  {
-   "t": "Bootleg Retatrutide Deaths? PMOS and Dementia; Weight-Loss Drug to Be Discontinued - MedPage Today",
-   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8tNlB0V0d0TnRMbGpNVmgyVElXOXRuSHFCLXJ5SGdTcFRyMEpxZFVrOUJYVXVFYmtVNm9MTmhJUXFBb3N0RGpQSGNTaTYtLWpWZmx2QWVzdVhCeENBR3h6TWJpa2lnSEZ4S2R4Sno0QWZMRS1MM1I4VC1n?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "Bootleg Retatrutide Deaths? PMOS and Dementia; Weight-Loss Drug to Be Discontinued MedPage Today"
-  },
-  {
-   "t": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. - Yahoo Finance",
-   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNlM4VzZQLURaU21ZZnF1OTM5QkZydFNzRU9ESmZHWWRQcTlkOW1EazB3LVJ5UzVTRlB1a0h3ZnBPc3JMV3RjVWpFakdJWWhCbXJpVlgtcVdZeFdkRnQyLWJNUHJMV2JvNmNiUjN3eHlkaFc1X1NGVTFEYk1STkdndVhiZDVlNm05MHFoNWdMZVAtNF9fZGc?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. Yahoo Finance"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",

@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-15T21:30Z",
+ "generated": "2026-10-16T04:40Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-15T21:30Z",
+   "checked": "2026-10-16T04:40Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-15T21:30Z"
+   "lastOk": "2026-10-16T04:40Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-15T21:30Z",
+   "checked": "2026-10-16T04:40Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-15T21:30Z"
+   "lastOk": "2026-10-16T04:40Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-15T21:30Z",
+   "checked": "2026-10-16T04:40Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-15T21:30Z"
+   "lastOk": "2026-10-16T04:40Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-15T21:30Z",
+   "checked": "2026-10-16T04:40Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-15T21:30Z"
+   "lastOk": "2026-10-16T04:40Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-15T21:30Z",
+   "checked": "2026-10-16T04:40Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-15T21:30Z"
+   "lastOk": "2026-10-16T04:40Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-15T21:30Z",
+   "checked": "2026-10-16T04:40Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-15T21:30Z"
+   "lastOk": "2026-10-16T04:40Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-15T21:30Z",
+   "checked": "2026-10-16T04:40Z",
    "ok": true,
-   "new": 154,
+   "new": 153,
    "seen": 185,
-   "lastOk": "2026-10-15T21:30Z"
+   "lastOk": "2026-10-16T04:40Z"
   }
  ],
  "items": [
+  {
+   "t": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market - TradingView",
+   "l": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNa2Z1aFF0cGN3NUhpR2ZhM1ZYWGh2eHVuanptMEhvNmxwckhZUVI4TlEtXzd0N0JmNTFHTVl0SFY5d1Y0dGQ2Y1R6UmVLNXUzN3NBUVVINWVCTTFpT3cySFFFaVdJaU1kOEIwekNtTWVtQ2thTlNWUjZ2RXJkS1RwUDBYcVZBQll1d1NqYWtkeWY0aGx4d3FsTi1JSFROTlZZTVkzNnZZaEZLRnFTQlpxUXRxYld0bWhPVGxLejBsZVZJb1ZMS1Z1SUxzV2JVNlppZ3hUYkRRNTdCdGpndDhmamszckV3WmlJdzlYd01BRmxYb0psZzRKcVlLa3FfTUk?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews",
+   "x": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market TradingView"
+  },
   {
    "t": "As FDA Weighs Wider Peptide Access, Adverse Event Reports and Two Las Vegas Intubations Sharpen Safety Questions - Medical Daily",
    "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYVNUUW5sU3IyaUJ2UTlJYm0xdFpjZTdIU0phODdHTUozR1ZJZ25FRktKelZPdjFqbjJoaU1nMWJlWTEyM0dFN0piYXplNHFGTUZ6VGhhdkFYZnV4S0RiLWpPVjdabHRJN1NzSUM3bThBSFRZa2s0NjYyNGpEY0l2YURoNG51MVdEX255MlU5aWxLWEY4OTB4bXhTYzdqLW1J?oc=5",
@@ -100,6 +107,20 @@ window.FEED={
    "d": "2026-10-15",
    "s": "gnews",
    "x": "Compounding and Telehealth at Scale After Empower: Prescribing Architecture Is the New Regulatory Question JD Supra"
+  },
+  {
+   "t": "US FDA takes step to change peptide compounding policy - Reuters",
+   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX2VUU0dQZHRTSkcyYVJ0dy1ILUZCU01salRaYWpUWFJ0YUhGX3oyVFFtQWhCV0ZUem5LRDVvNWdleTVod1Y2MjFoUm16cFBqdnRGT0h6RmJ3Mmg1Q2w5S0hLcFdLWWlZME5HZVdTR2ZaeWVQaU1lcVhpdkx4SVozdFJic1JMR01nM3paTEItQjdZOGpyMmU5ZWw5UFZ3RTBnV256elBTVQ?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews",
+   "x": "US FDA takes step to change peptide compounding policy Reuters"
+  },
+  {
+   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - CNBC",
+   "l": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxWWVpSmdYd2lUNEVULTVrdnF2NklFSGpfbV9ONjh1TjBWMEhjdDV6b3dudDk4bFZLSm1Rd19tT0REV2x5NE1vS0MwVm1mQTZsTC1lbmdlSUtFWFpPMDFkbFJpUXBidFNtcEhDeFdvSEfSAXZBVV95cUxQWllDZUVUSkJ1NTFnNG1GZzV4TUZLU1FjMk03WFh6Y0d5T3dlYTd1QV9ESFNMdEw2WnNGTkstRW1XSnlBbDd5NV95aElMZWFnb2UxZm5qRVJOdUFBN1d2UWI1R21pbi1pMGpOSWZWc1hieDNIelNn?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews",
+   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. CNBC"
   },
   {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
@@ -221,6 +242,13 @@ window.FEED={
    "x": "Health Care Weekly: CMS Probes PBM Vertical Integration, Specialty Drug Pricing; FDA Issues Warning Letter Amid GLP-1 Compounding Crackdown; UNH Texas Unit Received $24.4 Million in Medicare Advantage Overpayments, Audit Finds; State AGs Disp The Capitol Forum"
   },
   {
+   "t": "A federal advisory panel voted to increase access to a popular peptide. Here's what that means. - ttownmedia.com",
+   "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxObUpUWDB1WjFiNkc0bFBqVGJvZ3RtdldEaE5yOHdrWGRDVEJFbkozaXBfLTlTX3VwdUZNZmJVUll3eUVHc2Y1cnE2OEgzcGIwSXhuNzdZSmphVVpCdFNuVFF2NFhORzFyZlU2R3RhY09zUV9jZmZOVDNFWUVISzRET251LVhkNXQ0ekdaYndxQzZoTXN4cUtSemljM3ZPc2E1QUxLaU80RWxJZWV5TktZZXhNZU1hR1hTcW9NQ2JRbm9jQzZRZXc5ZHFNT19xQl9KN3NUNkwtM0d1Tk1FTlYxMVRFMVE3X1V2OTQ3Ul9oZGlRZXdNbUR3amhRdkpxdTROX3dHbVkyYjEzeDdqWnc?oc=5",
+   "d": "2026-09-30",
+   "s": "gnews",
+   "x": "A federal advisory panel voted to increase access to a popular peptide. Here's what that means. ttownmedia.com"
+  },
+  {
    "t": "FDA Investigation Leads to Charges Against Two Indian Nationals Involved in Transnational Counterfeit Drug Distribution Scheme",
    "l": "http://www.fda.gov/news-events/press-announcements/fda-investigation-leads-charges-against-two-indian-nationals-involved-transnational-counterfeit-drug",
    "d": "2026-09-29",
@@ -334,6 +362,13 @@ window.FEED={
    "x": "Compounded GLP-1 Crisis: What Patients and Policymakers Need to Know Partnership for Safe Medicines"
   },
   {
+   "t": "Use of untested ‘Wolverine’ peptide backed by US Health Secretary Kennedy on the rise, study finds - WTVB",
+   "l": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPZ1NCN3VwM0J3QzlPRk1WNTRSWkFDN1FWR2RfcmpHR3dBa0k2eGgwTVRVWjFzVGYxSHFoajAteS1fQmhPa3VjSWNwbkhvTEJmVDVtc3Zpb0k4RmNkSi1nTk53OVVsbDZMczQ1dVEyN1NRbUh2TzV3c2tWTDlwd0NPd0dERWJnTHJCcGNnU04yZWQ0a2tCTjhJVGxBM2hrZERWYjRNSWZ4ekJLbDNqVlJaY2VWMy14WUNhMV9tLXFmaEt0LXRM?oc=5",
+   "d": "2026-09-15",
+   "s": "gnews",
+   "x": "Use of untested ‘Wolverine’ peptide backed by US Health Secretary Kennedy on the rise, study finds WTVB"
+  },
+  {
    "t": "Centric Compounding Issues Nationwide Recall of Glutathione, Myer’s Cocktail, and Tri-Immune Boost Due to Elevated Endotoxin Levels",
    "l": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/centric-compounding-issues-nationwide-recall-glutathione-myers-cocktail-and-tri-immune-boost-due",
    "d": "2026-09-13",
@@ -346,6 +381,13 @@ window.FEED={
    "d": "2026-09-10",
    "s": "gnews",
    "x": "NEOLISE Recovery Review 2026: Could This BPC-157/TB-500 Protocol Be the Recovery Upgrade You've Been Looking For? Price & FDA Status Examined Newswire.com"
+  },
+  {
+   "t": "NEOLISE Renewal Review 2026: Is This the 4-Peptide Prescription Pathway Adults Over 30 are Looking For? Formula, Price & FDA Context Examined - Newswire.com",
+   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdU9jREZLNXZKdEJBTTI2Z0FlTmFzNWJUTngyTFVhWXdGWkl5ODg4YXJra25oOW9MbVBEdUE2aUVKd3JPWG5BVHFSLVp5TjBIVTFhcXp4ZEZaWlY0V3EzTWpHd1p6RkZxWmpqLUhlbWpjbjFvc1A0MXdvblN0WjJvZGxLVTdaWFdDcUdBTWtZNWlrZ1JaLU4xVHdRdDVDY01MWFRsaGhmdktzam8?oc=5",
+   "d": "2026-09-09",
+   "s": "gnews",
+   "x": "NEOLISE Renewal Review 2026: Is This the 4-Peptide Prescription Pathway Adults Over 30 are Looking For? Formula, Price & FDA Context Examined Newswire.com"
   },
   {
    "t": "Daily news, Sept 8, 2026: warning letters to peptide sellers",
@@ -399,6 +441,13 @@ window.FEED={
    "x": "FDA logs more than 1,700 adverse event reports involving compounded semaglutide and tirzepatide Drug Discovery & Development"
   },
   {
+   "t": "The peptide craze has hit Florida hard. What you need to know. - Sun Sentinel",
+   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRHVLVU1uZV9jbmlqUzFDN3R3Rno3TlVWSGcxUGRTSGxNWXFHVGhGR0hSVXJ4RllFMmtneWw4Sno2cTlDTzdXSzVfVjBxU2htbWhhOFNBaE1sRDQ0a0QzcDN5N0hFb2M2NzRvLXNJOEt3MDJ5SDdiRU0wS3JXMUV4aHEyR1I1VXRyYlp3RkRweDNMcFhOMjNOcm94UkhGUUE0X2RR?oc=5",
+   "d": "2026-08-23",
+   "s": "gnews",
+   "x": "The peptide craze has hit Florida hard. What you need to know. Sun Sentinel"
+  },
+  {
    "t": "5 things to know about the FDA's peptide reversal",
    "l": "https://ajmc.com/view/5-things-to-know-about-the-fda-s-peptide-reversal",
    "d": "2026-08-21",
@@ -449,60 +498,11 @@ window.FEED={
    "x": "Pharmacists’ Look at the Future of GLP-1 Compounding Drug Topics"
   },
   {
-   "t": "FDA Is Raising Concerns About Unapproved GLP-1 Weight-Loss Drugs - The Well News",
-   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcENGYXhuR3hUcjlzM1JJdXhhNGhxc1hkWXoyZEtUdXNqQ0x6ZlB0bHhZeWlJSkJUQXk4OTlpdGdzLVR1ZVlTMUd4NXVFcW1Ca3dZZ09QaVBKemc4XzVWQ3VTME1jZm95UUV3VFl1ZjdyZFgwNnFiRXBCaHNuaDMzd245TUU0cU5RTGdOVlhCakE2M1NWN25iY0J6TkE5U3lseGc?oc=5",
-   "d": "2026-08-19",
-   "s": "gnews",
-   "x": "FDA Is Raising Concerns About Unapproved GLP-1 Weight-Loss Drugs The Well News"
-  },
-  {
-   "t": "Embody GLP-1 Reviews (2026) Real Online Doctor-Supervised Weight Loss Treatment for Sustainable Results - Muddy River Sports",
-   "l": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQdlZwd2xpdERlNjFHblpTd0JBbUYweEJXa0RPWlFKS1dNdEdRMDVEcVQ3MEllY0hFRklocFpoVXcyT1JteUFNRG1ZZnJxYVhYN3NjZHEzblpGSWdnNUJwY0Y3el9GM29VMWJnOTZScUNqc0prTS1VYnlBUHE3cE9kYkROVHNUVnNyN1pQRmNaTjg1czEwUXJHU0tUUEZnaUtZQzV2dldzSUxpTk1ZcUVHdi15aWFfRDN5VzhlclozVlNwb3JEZ3R3elktSzhRTk9FZG1kYVBvSlNMUHpjMVZmU1NtV2xzUXA0VXRVd2tETnVyR1FaLVpR?oc=5",
-   "d": "2026-08-19",
-   "s": "gnews",
-   "x": "Embody GLP-1 Reviews (2026) Real Online Doctor-Supervised Weight Loss Treatment for Sustainable Results Muddy River Sports"
-  },
-  {
-   "t": "FDA Advisory Committee Voted Yes on Six Peptides. Now What? The Regulatory Road Ahead - Buchanan Ingersoll & Rooney PC",
-   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNV3d0bkNybkZfekUzYkg3eG9BcEhNSzR4dXN1RFJTVVBfcmx0TmpjU05zWlptWmpkd2Y5SU4xU2M0c2pEUjVUcWhoRVFLYy1yNzRaR1Y1OWk0OFZxcml0YWF0RWtFa0lNUS1nNjBNQXpieHNMZmtlS0J5dlhPREZoYXBfZGViSTFwLXVKaHVR?oc=5",
-   "d": "2026-08-18",
-   "s": "gnews",
-   "x": "FDA Advisory Committee Voted Yes on Six Peptides. Now What? The Regulatory Road Ahead Buchanan Ingersoll & Rooney PC"
-  },
-  {
-   "t": "Peptides, Promise, & Patience: Letting Data Catch Up to Hype - Physician's Weekly",
-   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOVEtvMFpjU0trWmpzVWg2WDdYOFE1S0Y1a1BVdzJMTWkzTExaS2owWG9LODctSl92SEVPandyazZtNXJKZkY4TEZVRHI3V0x6TTIyTTNmWk9WZ0pWakQ1akFHYzE5bk80V2FVdlk2S01UZTg0MWo1dmNnNWY4QTlNSGpjRERiUUROby1XQ0YzVW0ydGZfUVRfdA?oc=5",
-   "d": "2026-08-18",
-   "s": "gnews",
-   "x": "Peptides, Promise, & Patience: Letting Data Catch Up to Hype Physician's Weekly"
-  },
-  {
-   "t": "As RFK Jr. and Rogan Push to Open Door on Peptides, FDA Advisors Recommend Big Shift - CBN.com",
-   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZnFOcWpfWE1Za1RrMUFpcUNKdVFJblJJUXBfV1ZmT2xPVmpUTzRoNHh3aHBQNUlwak1RaG4zQmQyNFFlVDVRQTlYaEhzSkZjZXJLQTJKVllyNWNGU1FNMktwUmlqSC1BTzNWR3FqbEVucEJmSG16bk45MDBCLVd1eU9Xa3p1bEFwS3pHZVNsbEg3Q1o5Q0ViZHZBcERBS2R6Yllj?oc=5",
-   "d": "2026-08-13",
-   "s": "gnews",
-   "x": "As RFK Jr. and Rogan Push to Open Door on Peptides, FDA Advisors Recommend Big Shift CBN.com"
-  },
-  {
-   "t": "Phoenix doctor urges caution as FDA moves to regulate popular peptides - AZ Family",
-   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQSWRDZmo3SGlHR1QzNXVMSW1zWHRiRldaaUlySFA2UDJZQm1SZHYtNDFkaXlGbHhYMkloYW5XU1hWT01jMTBqenE5NDVFZ3BEZkxRZ094ZnFYOWE0SXhsRkU0c2F1X2tVYU9ZTDAxSV9ROWRJdUV2OWhOZ1dXM21QdHVhelVsYVgzbXJnU0gxbTlJQjMzckE5N0JjRmMwNzRaRTQ40gG3AUFVX3lxTE5tSWFEMXduZ2ptaXI4LVktZkh4dDU5ZkJvc1pJbkRiVkI0SFVNQlI2TWp6aEtIMEhKUmdqRVU1eFltQVcwRkdQYmktOGZPdGNmQjNMeDhZVXRPUDR2MXYyaHBlc2FFVDFnMC1xdmthN05TVzFaQzZVOW9VYjZBcWZHS2x1OEFqQmhZU1ZPTFlheVlrR014eENpaVZ6NlhkbXE2NHJUTFB5dVpxRFI1RkRQcGYwLU02aw?oc=5",
-   "d": "2026-08-12",
-   "s": "gnews",
-   "x": "Phoenix doctor urges caution as FDA moves to regulate popular peptides AZ Family"
-  },
-  {
    "t": "Substances Generally Recognized as Safe",
    "l": "https://www.federalregister.gov/documents/2026/08/11/2026-16296/substances-generally-recognized-as-safe",
    "d": "2026-08-11",
    "s": "fr-fda",
    "x": "The Food and Drug Administration (FDA or we) is proposing to require the submission of generally recognized as safe (GRAS) notices for the use of a human or animal food substance purported to be GRAS under the conditions of its intended use under the Federal Food, Drug, and…"
-  },
-  {
-   "t": "Hims & Hers planning to sell compounded peptides - The Hill",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNc2JodnFBY0RMLTdENUt1bTVjZ0JDSUhsc2N3bm5SRDFXc0RFVWlQbl9oT1Zxb2ExTG5OUGVQWTlTOXdHMVgxNW41c2ZtT2xBQ1h6cWpBUzlXamhkLVY4VFhzTERibk1fSDVrYVNmYmdaMnIwbWJHYmNJTGJlbWtKdWdlY1paNjZ0cGfSAY8BQVVfeXFMT05WdHl1VGhyQjNQZGg0Sno2VHdJZ1YzZmVlUnZJLXBaOXJZVl9JT0w1RVJhbzU1VDNtbnRoMjVlOWd1RmpJZ0JndTFRSlktaWJBeVZVRHd4bGRieVJ4V3Rpci1CN2NSTEZjRjJlZ0JoWk90V214dlJ0MWg5bUQ5UmRNU1JxNXFSaDZCd3B5elk?oc=5",
-   "d": "2026-08-11",
-   "s": "gnews",
-   "x": "Hims & Hers planning to sell compounded peptides The Hill"
   },
   {
    "t": "Daily news, Aug 10, 2026: glutathione endotoxin recall",
