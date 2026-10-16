@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-16T04:40Z",
+ "generated": "2026-10-16T11:33Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-16T04:40Z",
+   "checked": "2026-10-16T11:33Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-16T04:40Z"
+   "lastOk": "2026-10-16T11:33Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-16T04:40Z",
+   "checked": "2026-10-16T11:33Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-16T04:40Z"
+   "lastOk": "2026-10-16T11:33Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-16T04:40Z",
+   "checked": "2026-10-16T11:33Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-16T04:40Z"
+   "lastOk": "2026-10-16T11:33Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-16T04:40Z",
+   "checked": "2026-10-16T11:33Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-16T04:40Z"
+   "lastOk": "2026-10-16T11:33Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-16T04:40Z",
+   "checked": "2026-10-16T11:33Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-16T04:40Z"
+   "lastOk": "2026-10-16T11:33Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-16T04:40Z",
+   "checked": "2026-10-16T11:33Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-16T04:40Z"
+   "lastOk": "2026-10-16T11:33Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-16T04:40Z",
+   "checked": "2026-10-16T11:33Z",
    "ok": true,
-   "new": 153,
-   "seen": 185,
-   "lastOk": "2026-10-16T04:40Z"
+   "new": 154,
+   "seen": 186,
+   "lastOk": "2026-10-16T11:33Z"
   }
  ],
  "items": [
@@ -86,6 +86,20 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews",
    "x": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market TradingView"
+  },
+  {
+   "t": "US FDA takes step to change peptide compounding policy - pharma.economictimes.indiatimes.com",
+   "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeGcwM1UwNzM1UGVzRWRoRmx1WElnRDdmS1dxZnI1b1BXMjBDc25MVkk3UFhRMk5FdmNLZ1lYQUxsVkxLNE1KclN6MGpoUHMyMF9YcGNyMjNTclV4SXhBZkVtQ3RVZDJGSTlEV2dRVGhObFVhQzRWTzJjZXNaMWtyeWJOM2VYbG1aWE5ET19CbE9saVdQVEVIYkU5T1pjRjhXbGxGb1I4YlBNcjFOVnpvYjhRd3FTQk02QkVDUTYzMzROUS02RGEySDdMOVRtZ9IBzgFBVV95cUxPeGcwM1UwNzM1UGVzRWRoRmx1WElnRDdmS1dxZnI1b1BXMjBDc25MVkk3UFhRMk5FdmNLZ1lYQUxsVkxLNE1KclN6MGpoUHMyMF9YcGNyMjNTclV4SXhBZkVtQ3RVZDJGSTlEV2dRVGhObFVhQzRWTzJjZXNaMWtyeWJOM2VYbG1aWE5ET19CbE9saVdQVEVIYkU5T1pjRjhXbGxGb1I4YlBNcjFOVnpvYjhRd3FTQk02QkVDUTYzMzROUS02RGEySDdMOVRtZw?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews",
+   "x": "US FDA takes step to change peptide compounding policy pharma.economictimes.indiatimes.com"
+  },
+  {
+   "t": "US FDA May Allow Pharmacies To Make Unapproved Peptide Injections: What Are the Safety Concerns? - Health and Me",
+   "l": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQMFF3cGM4YmdxanVBTmtJSFZUZUc0M1RzdXU1eGUwb0tfTkhqTXlGQ3lObUVJVXVleW1EQ05tMlFKOUdiWnR0V0FOaFRtNDhFbUMtQTlJbVBhWXQ1S2ZVTkZ4OENiS1gxNy1kVHFwV2JjUE9vdEFGWl9ieGF6WGpKQjN0eW94OHpBcklqUjlxS1pQY3FzUVdzNGotempoajlZQklqZEhlUHI5dGRKa0xRcjUycnREUjdhTjFibi1lWVppS096NTd3U0VnUGx4UUhUYWwwbmdYM0JKRFUzUGNjY01SVG1LMFk?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews",
+   "x": "US FDA May Allow Pharmacies To Make Unapproved Peptide Injections: What Are the Safety Concerns? Health and Me"
   },
   {
    "t": "As FDA Weighs Wider Peptide Access, Adverse Event Reports and Two Las Vegas Intubations Sharpen Safety Questions - Medical Daily",
@@ -390,6 +404,13 @@ window.FEED={
    "x": "NEOLISE Renewal Review 2026: Is This the 4-Peptide Prescription Pathway Adults Over 30 are Looking For? Formula, Price & FDA Context Examined Newswire.com"
   },
   {
+   "t": "NEOLISE Recovery Review 2026: Could This BPC-157/TB-500 Protocol Be the Recovery Upgrade You've Been Looking For? Price & FDA Status Examined - ACCESS Newswire",
+   "l": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPb2pUUTlaeEdRakRPTk9rcW11OHZnZjZKTWpwMldRNTBScTVVUHlOOVhmb19INmxnWjdZVHJFSkxPS0wwR1FWRlRpRVloLTV4N1BhU05LWEFldmFPNGdHUDdzYi1ZdmEzaURZRkRhbzVjVnBOdFZsRnBFRWZXUXpYUHA3ZFMxTS16OXRPWEpKSXdKcHFCRjdXV0FrWXJTWnE5MUtidnNkVURORkRhQUk5TE0wUTlSVTJ4MmFrZDlSMUZNM2ZscWEwNXhXUV82SWY0dVZUX1BGVzFuNnhYY0NQTEJXSQ?oc=5",
+   "d": "2026-09-09",
+   "s": "gnews",
+   "x": "NEOLISE Recovery Review 2026: Could This BPC-157/TB-500 Protocol Be the Recovery Upgrade You've Been Looking For? Price & FDA Status Examined ACCESS Newswire"
+  },
+  {
    "t": "Daily news, Sept 8, 2026: warning letters to peptide sellers",
    "l": "https://www.safemedicines.org/2026/09/september-8-2026.html",
    "d": "2026-09-08",
@@ -463,13 +484,6 @@ window.FEED={
    "x": "The Food and Drug Administration (FDA) is announcing the renewal of the Oncologic Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Oncologic Drugs Advisory Committee…"
   },
   {
-   "t": "Watchdog Urges HHS to Investigate Conflicts Among FDA's Peptide Panelists - MedPage Today",
-   "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBITFFpUnM1dURuQnZWSmVBeUZKRVUxMFp0MWhvaWQ5ZnhrZmtUTllHSks3NUpHVVZtTWZSN0dleDlQVkpsanhoLWtpcVRabHhyRDUzdlZQcmdpUXhmb3Uwem5kRW9pRlZsY0dRZHNHYmltM3c?oc=5",
-   "d": "2026-08-21",
-   "s": "gnews",
-   "x": "Watchdog Urges HHS to Investigate Conflicts Among FDA's Peptide Panelists MedPage Today"
-  },
-  {
    "t": "Advisory Committee; Cardiovascular and Renal Drugs Advisory Committee; Renewal",
    "l": "https://www.federalregister.gov/documents/2026/08/20/2026-16999/advisory-committee-cardiovascular-and-renal-drugs-advisory-committee-renewal",
    "d": "2026-08-20",
@@ -482,20 +496,6 @@ window.FEED={
    "d": "2026-08-20",
    "s": "fr-fda",
    "x": "The Food and Drug Administration (FDA) is announcing the renewal of the Endocrinologic and Metabolic Drugs Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Endocrinologic…"
-  },
-  {
-   "t": "America’s Peptide Boom Has Outrun the Science. What Should the FDA Do? - The Fulcrum",
-   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1QR2ZRc3ZQc01CWjJ0amhnekZ3MFZmUGZsQTQwNXg3ZFRNazBIZVZGVFdOQ3BPcU5HVFY1ZjVKRHc2V3JNTDNNSVVxNXMyMk5IT0E0ZnBlUlJaVFBtcE9IMGtPanBKSW1ZRG1rZEU5eHR1RVptdlE?oc=5",
-   "d": "2026-08-20",
-   "s": "gnews",
-   "x": "America’s Peptide Boom Has Outrun the Science. What Should the FDA Do? The Fulcrum"
-  },
-  {
-   "t": "Pharmacists’ Look at the Future of GLP-1 Compounding - Drug Topics",
-   "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOMU1GbnVIRThxSk5ISU1kN1ZHUjF0ZG9TZEl5RjJkSnF6b0xERk92THZMZngzUDYzWjRSNGFnVGdLcFNKMTRWRGVZc2NTN2tsampxdG9oRFQyLWJYOEhjanZWNWRsOFB1eE4wWlZ5Q3IwYnJ4dDZFcHdoSUpjbDByRXQyUEdzOWp4NTVN?oc=5",
-   "d": "2026-08-20",
-   "s": "gnews",
-   "x": "Pharmacists’ Look at the Future of GLP-1 Compounding Drug Topics"
   },
   {
    "t": "Substances Generally Recognized as Safe",

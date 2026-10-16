@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-16T04:40Z",
+ "generated": "2026-10-16T11:33Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-16T04:40Z",
+   "checked": "2026-10-16T11:33Z",
    "ok": true,
-   "new": 102,
-   "seen": 137,
-   "lastOk": "2026-10-16T04:40Z"
+   "new": 105,
+   "seen": 140,
+   "lastOk": "2026-10-16T11:33Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-16T04:40Z",
+   "checked": "2026-10-16T11:33Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-16T04:40Z"
+   "lastOk": "2026-10-16T11:33Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-16T04:40Z",
+   "checked": "2026-10-16T11:33Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-16T04:40Z"
+   "lastOk": "2026-10-16T11:33Z"
   }
  ],
  "items": [
@@ -198,6 +198,13 @@ window.FEED_ART={
    "x": "BPC-157, TB-500, and GHK-Cu: Research Properties of a Multifunctional Peptide Blend Longview News-Journal"
   },
   {
+   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - Ottumwa Courier",
+   "l": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNNy1CZVZLa2Yzb1M0OEpveU52YW52Sm9UWEtmOHFlWHFwMFpOWmVzejNYbnplREU0VVhQckFnUFdLUE9td20wNXZpWVBsY0VOdDRCQXl3bUQ1YVNOWFBnOVhsem9Hb0dzNm5ZV1BFY1dYa0EzU0NvSkNHeDFIZjQ3Qm40NV8tTnNuckZtaW41NmRqWjA5S29UNHZsV0kzc0FHTWdpWHo0bGs4akNpREpyNS1HTjBjMFQ5LS1iUHRGUVplSDQyTnF3RUtab0JqMlp4T3VURDNNWE9SN05ZV1l4dzBNMlAwX09DbDBBQW9US0tmX1BfWmtZdw?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. Ottumwa Courier"
+  },
+  {
    "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - Philstar Life",
    "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTJUa3cxdEgxMjNqYkpkREJKWUhBdXJST196RC11YkRRMS0xSUo1NFhidEMtaTg5MGtnVXRTdjBUQmJQOWF4bU11UXNLXzNtWlVmN3VFMHo1QUR1clE1YUlJakh2Y3JVV2VDWF83NWc0NnhiNkxvNkRnVW9LeFdtV2g4dlVVZ1plVGltVmpaWmJFd3FIdEZqclEtTGgxWlU3?oc=5",
    "d": "2026-10-14",
@@ -303,6 +310,20 @@ window.FEED_ART={
    "x": "What Is Retatrutide and When Could Weight-Loss Drug Be Publicly Available? Newsweek"
   },
   {
+   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYTh5ckZTb2lMSDlXa0lrWWlaMnB1RDZrUHNwSkxNejVwLXN1R3F0SFRhUXlpM003akV2QWdBcVZ3X1hfSVFUR1YzNzJDa1g3eDhJRGNCUThnNzFMM21felZLRHoxeVhSaDJCbWw2bU5vT1FEOEZRb2dyem8wT2pfNk55R0ZsaWFxMl85SUVBQ01yNDBsdGlyLXg2bmFaQk0?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss BusinessWorld Online"
+  },
+  {
+   "t": "retatrutide weight loss drug - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BWE5QWnlPNjJycU1yU3lmSldaZFNsdDRjYktsenRsTk40RWdLaHVDQTVmT3lQc0lQckRVc3JnZVJldlREYUViNWpoVWd5ZjdiYnNnTU1kSzdmSjFQRllCMXBlNEdRdE9Td1NQZUdtTW1lRU9rNjdlVzN5Q2xBODg?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "retatrutide weight loss drug BusinessWorld Online"
+  },
+  {
    "t": "Some who have taken hyped, unregulated peptides have regrets - The Washington Post",
    "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOENGcG5qeVRkOTdPekdtZVVJNzNoLVJrcTNUZWc5ZENXbjlpd0JhODlWUGVUUDlNUk9sVURmLU9JUWttVXFNbFpSQWh4YUpjbWdRWm9vc3dlWWNDQjVhR3BBS3pCcnA3d3JtY296aEVtb0tsVjljTUExeEowUmNkdVN6SkZfdElXakhjYWVMSHRMbl9JSXF2WlBlVklmMl9pNnZPcjBHOW4xZWRPbHFvNg?oc=5",
    "d": "2026-10-13",
@@ -322,27 +343,6 @@ window.FEED_ART={
    "d": "2026-10-13",
    "s": "gnews-a",
    "x": "What You Need To Know About BPC-157 Cleveland Clinic Health Essentials"
-  },
-  {
-   "t": "What is retatrutide? Everything to know about 'RETA,' the triple-agonist weight-loss drug headed for FDA review - Clarin.com",
-   "l": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPbGltYUVRSXN2VDBvNkZJcGVJOHJjYmVDcmRaSFVHRXB5X2JpWFczSWFLRXVtTWVEWUhKWGFsRnhIU0Y2UnlpVkt3TFpLSlpzYWlWR3NFeFJROWg5TjRtSUVJWmJsXy1zeTk1TzhTSXEyeFZxRDRqTmluMlNXQXhDdFBJUHJGWV9LQzRlaEFEVHdySjdyUUlaZXN3QU4wMk9jOTBmVGtWT0J0SDJXZjdpYVRDRHN6MzVWNXV1cUd4ZmdKUzRzcjZWZjFSTFhkUmM5dnlfeVdfMjFuQ196LW5lcXk4UndCZG1LU2ZjMdIB8gFBVV95cUxNRDRzNkJYLWRCMWRxZm54Tld0Z19ON3JhM2l0bXFuUUV5Q2NOMGs5dnpaTWVxZnpWVHdkdXpLRl9uWnlIcEZZQ1VpSFJKdFVMbDZDcWsxajZLbkNDbXBRZ3ZTcTB2dkJQZmZDMlAzcllGd3lKbGNDdjYzSVJKalV3LWU1UWdYVUtVLUtlTTBHbnpPYXFPcGo4Mlkyb05wYUlSQWZuNHgyV1N1eWFNcFdNa3Z6d2dBUGF3THF4TlE5VWFxRUxsS1M4TUVQb1BTR2diRGEzUG5TUTRobWZVRExVQTlpOE5lczNhWXBKdVgzVllHZw?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "What is retatrutide? Everything to know about 'RETA,' the triple-agonist weight-loss drug headed for FDA review Clarin.com"
-  },
-  {
-   "t": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. - The Motley Fool",
-   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSUVXLXhrbHVZWXZNMGdsYlBzU1BlQ0RqenEzeWtQdk00V203T2NhWVU3cWdLYXlXQ2FiS2VpdFYyQzNQcWl0SHZDOWdQcmEyTWRSOVFaVE1OY3h4MFNGNWxuWW1uSVEzLURIa19SYTdHclduWkpHMTlNLUhxd2s3SnpWWXE0bFYzZ19SNlM0Q3RyRU5QVTRseg?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "Eli Lilly Reports Earnings on Oct. 29. Here's Why the Retatrutide Story Matters More Than the Quarter. The Motley Fool"
-  },
-  {
-   "t": "NextWave Peptides Sets Out to Make High-Purity Research Peptides More Accessible - USA Today",
-   "l": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOVUVsRWM4SFVuUnc2XzZycHhTQmgwa0FSMTI5VURWN3RHUWJlRGNCU08yWExXdmloX2Y5dmxyZUktZjFZTVpWVlpYajBoVW1XTUdScC1PS3Fjb2g2VmRwRU9xeU8tcVVOdkFGdEJ0aG9JdjdFUGRNbHJPdkRjOVRrZncta05WV1VvckJrUjYxZmk2NVpjRldTQjdPVUVRSmljOUxsVXdvRXdJVGhTM3V4MVFkdm9wNXl2WmlhRnhudXVEbVA2M0toNlVHci0?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "NextWave Peptides Sets Out to Make High-Purity Research Peptides More Accessible USA Today"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
