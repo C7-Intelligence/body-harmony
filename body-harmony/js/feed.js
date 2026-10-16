@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-16T16:45Z",
+ "generated": "2026-10-16T21:19Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-16T16:45Z",
+   "checked": "2026-10-16T21:19Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-16T16:45Z"
+   "lastOk": "2026-10-16T21:19Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-16T16:45Z",
+   "checked": "2026-10-16T21:19Z",
    "ok": true,
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-10-16T16:45Z"
+   "new": 2,
+   "seen": 2,
+   "lastOk": "2026-10-16T21:19Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-16T16:45Z",
+   "checked": "2026-10-16T21:19Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-16T16:45Z"
+   "lastOk": "2026-10-16T21:19Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-16T16:45Z",
+   "checked": "2026-10-16T21:19Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-16T16:45Z"
+   "lastOk": "2026-10-16T21:19Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-16T16:45Z",
+   "checked": "2026-10-16T21:19Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-16T16:45Z"
+   "lastOk": "2026-10-16T21:19Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-16T16:45Z",
+   "checked": "2026-10-16T21:19Z",
    "ok": true,
-   "new": 1,
-   "seen": 1,
-   "lastOk": "2026-10-16T16:45Z"
+   "new": 2,
+   "seen": 2,
+   "lastOk": "2026-10-16T21:19Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-16T16:45Z",
+   "checked": "2026-10-16T21:19Z",
    "ok": true,
-   "new": 157,
-   "seen": 186,
-   "lastOk": "2026-10-16T16:45Z"
+   "new": 156,
+   "seen": 185,
+   "lastOk": "2026-10-16T21:19Z"
   }
  ],
  "items": [
@@ -100,13 +100,6 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews",
    "x": "US FDA May Allow Pharmacies To Make Unapproved Peptide Injections: What Are the Safety Concerns? Health and Me"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/lillys-obesity-pill-revmeds-pancreatic-cancer-breakthrough-among-slew-chmp-endorsements",
-   "d": "2026-10-16",
-   "s": "fierce",
-   "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer gamechanger."
   },
   {
    "t": "FDA considers interim access for compounded peptides; Enspryng’s label expansion - Endpoints News",
@@ -135,6 +128,48 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews",
    "x": "FDA Recalls and Warnings: Sterility Issues With Compounded GLP-1s, Foreign Pills in Generic Reglan Bottles MedShadow Foundation"
+  },
+  {
+   "t": "Counterfeit Versions of Eye Drops Found in Several States",
+   "l": "http://www.fda.gov/drugs/counterfeit-medicine/counterfeit-versions-eye-drops-found-several-states",
+   "d": "2026-10-16",
+   "s": "fda-drugs",
+   "x": "Counterfeit versions of over-the-counter eye drops have been found in Florida and Georgia in stores serving primarily Spanish-speaking customers. These products also may be in Louisiana, Mississippi, North Carolina and potentially other states."
+  },
+  {
+   "t": "Counterfeit Medicine",
+   "l": "http://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine",
+   "d": "2026-10-16",
+   "s": "fda-drugs",
+   "x": "Counterfeit (fake or falsified) medicines may be harmful to your health because while being passed off as authentic, may contain the wrong ingredients, contain too much, too little or no active ingredient at all or contain other harmful ingredients."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-10-16",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/lillys-obesity-pill-revmeds-pancreatic-cancer-breakthrough-among-slew-chmp-endorsements",
+   "d": "2026-10-16",
+   "s": "fierce",
+   "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
+  },
+  {
+   "t": "FDA Submits Interim Peptide Compounding Policy for White House Review: What Pharmacies Should Know - Buchanan Ingersoll & Rooney PC",
+   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzhBdVVtS2pKeUd2RU5NWEZNTWl4UUtBVGJTVi1NbFpPQ3ZqV0R4Q2w4aU8wQ0VCcE14TDNuWEF4dFJrb1g0Wks0emZoNnYwZV9wMmpDSVpvUmQyTXlZVkZULTFLZFRlTFBLY3F0TGE3UDRaS2NoLXNpUlh6T1g1ZlZ5SENyOENEbU85OUpuUURRVVFVMUZsaEFOcWJaVnhaWjJzWC1pcnlLLVEtQU5taEVGQ1U3emFsd3c?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews",
+   "x": "FDA Submits Interim Peptide Compounding Policy for White House Review: What Pharmacies Should Know Buchanan Ingersoll & Rooney PC"
+  },
+  {
+   "t": "HHS Proposes Letting Pharmacies Make Peptides - WMAL",
+   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOQkNNT1hOSkVKbDFKbmRiTVF5d093UnVBYnN6TzVmRVVCZlFtM3dHZk9qNlVKWlJDRG5EWE1GbVdjRGpRSUdybkFWTlVXUUZIbXJNWFc0UXNaZ3o2bkxVZExBUHU5V1UwTGFTelVZWGFiaVhkYnNjb29CQ2xMWElsT05Fd2s?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews",
+   "x": "HHS Proposes Letting Pharmacies Make Peptides WMAL"
   },
   {
    "t": "As FDA Weighs Wider Peptide Access, Adverse Event Reports and Two Las Vegas Intubations Sharpen Safety Questions - Medical Daily",
@@ -430,20 +465,6 @@ window.FEED={
    "d": "2026-09-13",
    "s": "fda-medwatch",
    "x": "FOR IMMEDIATE RELEASE – 9/9/2026 – Houston, Texas, Centric Compounding is voluntarily recalling 6 lots of Glutathione 200mg/mL, Myer’s Cocktail, and Tri-Immune Boost injectable vials to the consumer level. The products have been found to be compounded with a Glutathione API…"
-  },
-  {
-   "t": "NEOLISE Recovery Review 2026: Could This BPC-157/TB-500 Protocol Be the Recovery Upgrade You've Been Looking For? Price & FDA Status Examined - Newswire.com",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcThhcFllSDBKY0g1WWdUa0hyRjh6WksxdWQ4WDc0Yldad0FYY1kyVEluZjVPX3VWMDNFY0NJUzRDenBXcnVWUEM3YmlpaWlPSnROSmZDT1NiNDc5M2JJUkhpaXptZndzZzI4RlhmaklJX0x4TkNqR2k4TFB0X3JHNDRka0toY1N1a29mcm9zd2ZYbzBnM05TTHRSQ3gzMDUtUXlzSE50VTNjdXVuMlE?oc=5",
-   "d": "2026-09-10",
-   "s": "gnews",
-   "x": "NEOLISE Recovery Review 2026: Could This BPC-157/TB-500 Protocol Be the Recovery Upgrade You've Been Looking For? Price & FDA Status Examined Newswire.com"
-  },
-  {
-   "t": "NEOLISE Renewal Review 2026: Is This the 4-Peptide Prescription Pathway Adults Over 30 are Looking For? Formula, Price & FDA Context Examined - Newswire.com",
-   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdU9jREZLNXZKdEJBTTI2Z0FlTmFzNWJUTngyTFVhWXdGWkl5ODg4YXJra25oOW9MbVBEdUE2aUVKd3JPWG5BVHFSLVp5TjBIVTFhcXp4ZEZaWlY0V3EzTWpHd1p6RkZxWmpqLUhlbWpjbjFvc1A0MXdvblN0WjJvZGxLVTdaWFdDcUdBTWtZNWlrZ1JaLU4xVHdRdDVDY01MWFRsaGhmdktzam8?oc=5",
-   "d": "2026-09-09",
-   "s": "gnews",
-   "x": "NEOLISE Renewal Review 2026: Is This the 4-Peptide Prescription Pathway Adults Over 30 are Looking For? Formula, Price & FDA Context Examined Newswire.com"
   },
   {
    "t": "Daily news, Sept 8, 2026: warning letters to peptide sellers",

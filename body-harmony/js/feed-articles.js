@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-16T16:45Z",
+ "generated": "2026-10-16T21:19Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-16T16:45Z",
+   "checked": "2026-10-16T21:19Z",
    "ok": true,
-   "new": 109,
-   "seen": 141,
-   "lastOk": "2026-10-16T16:45Z"
+   "new": 111,
+   "seen": 144,
+   "lastOk": "2026-10-16T21:19Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-16T16:45Z",
+   "checked": "2026-10-16T21:19Z",
    "ok": true,
-   "new": 4,
+   "new": 6,
    "seen": 15,
-   "lastOk": "2026-10-16T16:45Z"
+   "lastOk": "2026-10-16T21:19Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-16T16:45Z",
+   "checked": "2026-10-16T21:19Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-16T16:45Z"
+   "lastOk": "2026-10-16T21:19Z"
   }
  ],
  "items": [
@@ -112,6 +112,13 @@ window.FEED_ART={
    "d": "2026-10-16",
    "s": "stat",
    "x": "The Trump administration is proceeding with a plan to allow compounding pharmacies to produce certain peptides"
+  },
+  {
+   "t": "TB-500 and Cellular Architecture: Exploring Its Potential Influence Across Biological Systems - Americus Times-Recorder",
+   "l": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQLXY1M0ZadW9hNWZWZ0QxVVBlRk9jVVJTc0FyVUlBa0toMFp1UXBEbDdSQlBxMFo4N2RKb3h0eDVfYlFmLUtIeVcwNmwxZ2pZd2lkWTR1Zjc2N203anpLdk54M0JiTDA2SGJUS0VCdkx4SkhZYzkweEJTeEJ0czA0b1dpTXlESTI5MkdYa1RicHJCd0hkeDRKWThIaHYxbjhVaURmdmV3N0RLd3g3Si10SUctSi1Odms1SWFoa1RHUlpOU05wb0RSN2pXQ0Y4akkyNTF2OGhrMld1OUg4?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "TB-500 and Cellular Architecture: Exploring Its Potential Influence Across Biological Systems Americus Times-Recorder"
   },
   {
    "t": "Warning on weight-loss injections and peptides for patients having surgery - NZDoctor",
@@ -345,13 +352,6 @@ window.FEED_ART={
    "x": "retatrutide weight loss drug overview 2026 Philstar Life"
   },
   {
-   "t": "eli lilly trial shows drug retatrutide produces significant weight loss - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNU093SGdhMGJKdHo2V2NxRzRVUkFpMld6Si0yejV0UmRkdmNvRl9MN2FqSjRSSkZqdW8zMEpWNWlzOFlYNjZyOG5Lc3U5c1p3UG96WkNYQ3VvME9JY0NnSGE4RUkzTzFvdktfM09WMFZ3OGxrbC16UzJSWW5HQVM5UTNtWS03VTFURlViTEFyX25xaWlNV0RWaE1PdnZxenc4N2JWa2FEQW5USERkUDAwWldlaTZFX2NfRUZZ?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "eli lilly trial shows drug retatrutide produces significant weight loss BusinessWorld Online"
-  },
-  {
    "t": "GLP-1 Receptor Biology and the Therapeutic Role of Incretin-Based Agonists in Metabolic Diseases.",
    "l": "https://doi.org/10.1016/j.ejphar.2026.179406",
    "d": "2026-10-08",
@@ -413,6 +413,20 @@ window.FEED_ART={
    "d": "2026-10-01",
    "s": "epmc",
    "x": "Lancet · Holst JJ."
+  },
+  {
+   "t": "Epitalon and Epithalamin: A Narrative Review of Mechanistic, Preclinical, and Clinical Evidence",
+   "l": "https://europepmc.org/article/PMC/PMC13664938",
+   "d": "2026-10-01",
+   "s": "epmc",
+   "x": "Int J Mol Sci · Jain A, Gallacher D, Issa M, Deer T, Yong R, Diwan S, Lee W, Sayed D, Amirdelfan K, Robinson C."
+  },
+  {
+   "t": "GDF-15/GFRAL Axis Dynamics and Vulnerability Windows in Bariatric Surgery: Pathophysiological, Microbiomic, and Pharmacological Perspectives",
+   "l": "https://europepmc.org/article/PMC/PMC13664289",
+   "d": "2026-10-01",
+   "s": "epmc",
+   "x": "Cells · Pînzariu A, Șerban I, Soroceanu R, Vlăsceanu V, Maxim M, Miler A, Leonte S, Atodiresei C, Moscalu M, Manole L, Trandafir L, Șerban D, Timofte D."
   },
   {
    "t": "FDA PCAC peptide vote: what the 503A recommendations mean",
@@ -480,6 +494,27 @@ window.FEED_ART={
    "s": "curated",
    "p": "American Med Spa Association",
    "x": "The state board says physicians may not use research-grade, non-FDA-approved peptides in patient care, and that consent forms do not override the duty of care."
+  },
+  {
+   "t": "Review Article: Fibrosis Reversal in Metabolic Dysfunction-Associated Steatohepatitis-The Promise of Emerging Therapeutics.",
+   "l": "https://doi.org/10.1111/apt.70921",
+   "d": "2026-08-17",
+   "s": "epmc",
+   "x": "Aliment Pharmacol Ther · Ayoub M, Tsutsumi T, Rinella ME."
+  },
+  {
+   "t": "Body Composition Remodelling During GLP-1-Based Therapy: A Systematic Review and Meta-Analysis Using a Hierarchical Physiological Framework.",
+   "l": "https://doi.org/10.1111/dom.71220",
+   "d": "2026-08-17",
+   "s": "epmc",
+   "x": "Diabetes Obes Metab · Lopes Menezes ML, Güntzel Chiappa ME, Kloss RF, Tuesta M, Santos P, Sá Filho AS, Chiappa GR."
+  },
+  {
+   "t": "Retatrutide-Associated Improvements in Cardiovascular Risk Biomarkers in Adults With Obesity With or Without Type 2 Diabetes.",
+   "l": "https://doi.org/10.1111/dom.71200",
+   "d": "2026-08-17",
+   "s": "epmc",
+   "x": "Diabetes Obes Metab · Ruotolo G, Harris C, Lin Y, Wilson JM, Pirro V, Duffin KL, Thomas MK, Hartman ML, Neill CO, Coskun T, Milicevic Z, Haupt A, Sattar N, Nicholls SJ."
   },
   {
    "t": "Survodutide for Obesity in Chinese Adults: Phase 3 Randomized Trial Design and Baseline Characteristics (SYNCHRONIZE™-CN).",
