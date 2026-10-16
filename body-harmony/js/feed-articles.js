@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-16T11:33Z",
+ "generated": "2026-10-16T16:45Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-16T11:33Z",
+   "checked": "2026-10-16T16:45Z",
    "ok": true,
-   "new": 105,
-   "seen": 140,
-   "lastOk": "2026-10-16T11:33Z"
+   "new": 109,
+   "seen": 141,
+   "lastOk": "2026-10-16T16:45Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-16T11:33Z",
+   "checked": "2026-10-16T16:45Z",
    "ok": true,
-   "new": 1,
+   "new": 4,
    "seen": 15,
-   "lastOk": "2026-10-16T11:33Z"
+   "lastOk": "2026-10-16T16:45Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-16T11:33Z",
+   "checked": "2026-10-16T16:45Z",
    "ok": true,
-   "new": 0,
-   "seen": 1,
-   "lastOk": "2026-10-16T11:33Z"
+   "new": 1,
+   "seen": 2,
+   "lastOk": "2026-10-16T16:45Z"
   }
  ],
  "items": [
@@ -65,6 +65,55 @@ window.FEED_ART={
    "x": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market TradingView"
   },
   {
+   "t": "Pharmalittle: We're reading about an HHS peptide push, Trump's pharma stock holdings, and more - STAT",
+   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTHlDdkx4ajB2M2NReEY5UTMycGFUNFFsUlZGYmctT1RCcnpaWnlmamRScXBKTUIzSGpGTmluUkY2aXJtMTBEamdTYTJEZVFWd21WSWloSmR1YVZwRmEwaS14S0ZYNGpwcWRDNjN6b3BWemtPVE9zMzd0MENkSF82N0NxOGwxQktXNWROVHNqeHZtblZXWHc?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "Pharmalittle: We're reading about an HHS peptide push, Trump's pharma stock holdings, and more STAT"
+  },
+  {
+   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - NBC News",
+   "l": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaDlaOWlNc3N0c0NKUWVoUFhia3M1NGkxaHhrX24wUmxqWjBpdWNnemhnYmVWVFg0YmMweF8ybHVpNXJsRDd3WFVyUHEzejhhNUpRZVJTNEthdlhqNjdNM3d4SFNYTm9GcVlJN2h0aHZWaEVmbnFydFc5ZzJuTnYyZllpN3pDeERyamlBMG1zUlJHRkppREJHd0FvMkdNVGpVb0gyTnFURXo5Wk1BV0s4Zl9pbnZyUE5z?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. NBC News"
+  },
+  {
+   "t": "Renew Integrative Health Publishes Updated Peptide Therapy Guide to Help Patients Understand Their Options - PRLog",
+   "l": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSWtfNjI4bEZHdC1RUXlzcXBUU0VzOGF2T1BxRGpFZzcwMHhQZHV1MkJRbkNrUnF1enFNa2FRLTBSZEVTLXV2YS1nMWxkaF9yQjVSclZNdWYyX2xBeG9Kd0hvLW1Pd2FXZnBMUFNkVXJZLXRoZFQ4M2JjVk9iUkI3Z0R2Wjljc3BNaTZvQVl1Vy1Jb3c5dDJ5VmtCb1hLLVo2RVNBU1lzeGU1WnlWV0Zkd19oUDM3ME5kdTRHWEdoMnNGVWU4al9WRHVUV2tJWVkyNDY5SEpqeEhfZw?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "Renew Integrative Health Publishes Updated Peptide Therapy Guide to Help Patients Understand Their Options PRLog"
+  },
+  {
+   "t": "retatrutide weight loss compared to other drugs - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcG9wLVBGMGZic2xUdDZ4dUpveXRDcnVpVUkxczJHNHlpdDdLMUdzeFFzenZ4V0F6WjVreHJWYm5QQXM1RDV0bzhBWXpzMnJxeUJHNktrM2UydE9oeF9MVkpuMGZYWTVHRE5iOTdGWWlZTDd6YXFkSTV5d2hpSFVtbVlPN3kyTzB3UmRsZm5wRTU?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "retatrutide weight loss compared to other drugs BusinessWorld Online"
+  },
+  {
+   "t": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market - TradingView",
+   "l": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUFotNGNHUHMtLUZBSDB0Vjg5N05hQUdKb1l5aC1CYmZRNUc0aFk1cUVmS0I3NzZxLU5HQWVLQUFRSEx6a3RGZk1PZlI5NUoxMTRvYVkyQ1FreW9TcVJva3RSaWY2dklodW91OEhrajU3ZkdwbW1MUXRubVo4NDhxbTBUS241YkxJQ1ZSeUJnM3ZFcS1nRzJrejVUOHdwUFNfVDN3RHVMOG5aNEtCZUhnbWJrbTM3Snd5d2o5Yzd3cFlFS1hJeWE2cHRMYU1XSzBPU0dmNzZSMjREYVVLRFFmVGR1RXZRaE54aElubzdFX3ZMOHNnYWhnY3Vad1Nadw?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market TradingView"
+  },
+  {
+   "t": "retatrutide weight loss drug - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hSURLX3NnRGNtcUN4M2V0ckVBOWtIdnFvLXJmOF96NGpfV1VGQjc0RFlxemZhendTWVVQYmVqUVB2blVfdXktc213cVl6aXJ0Qk9IOWpBc1c1dE1UakNNMFgtMUZubFRDM1hpbXdtX1c0UFZCbkdxVUtzUmk?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "retatrutide weight loss drug BusinessWorld Online"
+  },
+  {
+   "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
+   "l": "https://www.statnews.com/pharmalot/2026/10/16/hhs-peptide-push-trump-pharma-stock-holdings/?utm_campaign=rss",
+   "d": "2026-10-16",
+   "s": "stat",
+   "x": "The Trump administration is proceeding with a plan to allow compounding pharmacies to produce certain peptides"
+  },
+  {
    "t": "Warning on weight-loss injections and peptides for patients having surgery - NZDoctor",
    "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWUZtdVZGTk1CRjllcF9aZU9kWFotOEJSYWYzYkpGSkxMOUFKNE0tSXZ6XzdCaTNIeHlkaXgzcVc2aG5qal83U1h0ZEFfTGxpQ2xtY3JGRmo5UmlBdkh2MFQ4UXJScFhDZ2NXeGdHY09LRk1jS3NaUGJ2TjlOSUQtNVozV3RlNFp2bzltQlNuRzVieTE0LTRLZFZHQ3ZkbDdlSklGSXkySFFhUlBkTlZ0WFF1NA?oc=5",
    "d": "2026-10-15",
@@ -77,13 +126,6 @@ window.FEED_ART={
    "d": "2026-10-15",
    "s": "gnews-a",
    "x": "NewBioRx – Research Use Only Peptides Generation Iron"
-  },
-  {
-   "t": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNQ2YwUXdHYjhqV2hkZFBKTFhDSk9BOVlLTXBBSXpKRU8wZndKb0ZkcGIzMTN4ckdoQWJnS282MHRNS1NLdFhBVHB5TVZXU0FEa3QzemFDNzNXNEozZnkzbUtnbDRVNFBuSkI0WDUxbU1GYWx6YVdENXN3aWZyeGVVcno1dWx2WVNlcVEtUGVvVng4Y3ZxSmprZ2xBRnltRFg2MlFuREFHeFZLYUl2Y0g2WHlFcHdmNk90UjM1bGhlNmlVcGJTTTZ5eWlPSFdJNVVxZHY2b3A0Z28tOGdNVUF3SnBhZ1ZGMUxBS2N1R05yc1ZHM0w2UndTYUpUNG5LNUUtbzdjb3lTM0ZlQWh3RGc?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ Stocktwits"
   },
   {
    "t": "Buying weight-loss injections, ‘peptides’ online? Telangana drug regulator says you could be risking death - The South First",
@@ -205,6 +247,20 @@ window.FEED_ART={
    "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. Ottumwa Courier"
   },
   {
+   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - WyomingNews.com",
+   "l": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNS2lJYlM1a3VRVkpZem93NUVQd0VWdHB0a1paanljZ3BELTNOM1lNZ2R4UUg2eXhpdTlPSFZSVlRMOHVhOHpkUzNtcHVQRnFKQXF4X0xhcElQek5vYm9JNHVSUldHOG54TkotdGpTOGd2SEdfYW0tNEs1MEh1SFNMaTFLTWhrWk5FeXlBS3p0Y2dGSzFsd1FxdXRNenlYdmU5NkM0RGI1Yk5KSXhqWHp6bWZqV3h3SjFORUhpVV96XzlDMTRQb002NUNpVnoycGFMMVI3RUp1NEtVclNLSm1qYk94MHVaczZPTF9ZYVhGN0xlUGNlZ0xiQmRR?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. WyomingNews.com"
+  },
+  {
+   "t": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ - Stocktwits",
+   "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNQ2YwUXdHYjhqV2hkZFBKTFhDSk9BOVlLTXBBSXpKRU8wZndKb0ZkcGIzMTN4ckdoQWJnS282MHRNS1NLdFhBVHB5TVZXU0FEa3QzemFDNzNXNEozZnkzbUtnbDRVNFBuSkI0WDUxbU1GYWx6YVdENXN3aWZyeGVVcno1dWx2WVNlcVEtUGVvVng4Y3ZxSmprZ2xBRnltRFg2MlFuREFHeFZLYUl2Y0g2WHlFcHdmNk90UjM1bGhlNmlVcGJTTTZ5eWlPSFdJNVVxZHY2b3A0Z28tOGdNVUF3SnBhZ1ZGMUxBS2N1R05yc1ZHM0w2UndTYUpUNG5LNUUtbzdjb3lTM0ZlQWh3RGc?oc=5",
+   "d": "2026-10-14",
+   "s": "gnews-a",
+   "x": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ Stocktwits"
+  },
+  {
    "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - Philstar Life",
    "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTJUa3cxdEgxMjNqYkpkREJKWUhBdXJST196RC11YkRRMS0xSUo1NFhidEMtaTg5MGtnVXRTdjBUQmJQOWF4bU11UXNLXzNtWlVmN3VFMHo1QUR1clE1YUlJakh2Y3JVV2VDWF83NWc0NnhiNkxvNkRnVW9LeFdtV2g4dlVVZ1plVGltVmpaWmJFd3FIdEZqclEtTGgxWlU3?oc=5",
    "d": "2026-10-14",
@@ -296,53 +352,18 @@ window.FEED_ART={
    "x": "eli lilly trial shows drug retatrutide produces significant weight loss BusinessWorld Online"
   },
   {
-   "t": "Peptide Payment Processing Terminated? How to Get a New Merchant Account - NewsBreak: Local News & Alerts",
-   "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQX2I2VWJycGs4c0Y2VTZtLTMyV2FhMTN5ZC16VFUxcVFLUHpDdHFlWjd0S1NWVld6N1o2MVpINXRzeGoxQXN2THFaS3o1X0Y0UXNrZXluOW5sYUFLZjhkUGtwWVBuVUxPUTdDNmVnaWhHNG8zaFpWVUdzU2xZX2t5YkpQaUZnX0tpNUhqVng1ME55Q3owRTAwQTY2U1lZNmpsT2V1NnBpT1lzNnp5R2NSdERqSGVtUmpOU29mZy15UWs0dHNLNWY0MTN6VDRZY2M?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "Peptide Payment Processing Terminated? How to Get a New Merchant Account NewsBreak: Local News & Alerts"
+   "t": "GLP-1 Receptor Biology and the Therapeutic Role of Incretin-Based Agonists in Metabolic Diseases.",
+   "l": "https://doi.org/10.1016/j.ejphar.2026.179406",
+   "d": "2026-10-08",
+   "s": "epmc",
+   "x": "Eur J Pharmacol · Koceva E, Moll GN."
   },
   {
-   "t": "What Is Retatrutide and When Could Weight-Loss Drug Be Publicly Available? - Newsweek",
-   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOalRZejNqSmJMa2JTRXhETFRjNU9TQVlua1VHbkxCZzZkZGUyV19lTHBwejJuOTFJdVJlUThNTDRiNXZyc3BhdXVYSVE5cHdOZGpWMUs3ZlhMcUhOYldGYXI0N0ZIaWxTa2RvcEo2elBBN1lMdUlGVld0ZEZnY2l1YnZYSGNySEprU0RXM0NTcw?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "What Is Retatrutide and When Could Weight-Loss Drug Be Publicly Available? Newsweek"
-  },
-  {
-   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYTh5ckZTb2lMSDlXa0lrWWlaMnB1RDZrUHNwSkxNejVwLXN1R3F0SFRhUXlpM003akV2QWdBcVZ3X1hfSVFUR1YzNzJDa1g3eDhJRGNCUThnNzFMM21felZLRHoxeVhSaDJCbWw2bU5vT1FEOEZRb2dyem8wT2pfNk55R0ZsaWFxMl85SUVBQ01yNDBsdGlyLXg2bmFaQk0?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss BusinessWorld Online"
-  },
-  {
-   "t": "retatrutide weight loss drug - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BWE5QWnlPNjJycU1yU3lmSldaZFNsdDRjYktsenRsTk40RWdLaHVDQTVmT3lQc0lQckRVc3JnZVJldlREYUViNWpoVWd5ZjdiYnNnTU1kSzdmSjFQRllCMXBlNEdRdE9Td1NQZUdtTW1lRU9rNjdlVzN5Q2xBODg?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug BusinessWorld Online"
-  },
-  {
-   "t": "Some who have taken hyped, unregulated peptides have regrets - The Washington Post",
-   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOENGcG5qeVRkOTdPekdtZVVJNzNoLVJrcTNUZWc5ZENXbjlpd0JhODlWUGVUUDlNUk9sVURmLU9JUWttVXFNbFpSQWh4YUpjbWdRWm9vc3dlWWNDQjVhR3BBS3pCcnA3d3JtY296aEVtb0tsVjljTUExeEowUmNkdVN6SkZfdElXakhjYWVMSHRMbl9JSXF2WlBlVklmMl9pNnZPcjBHOW4xZWRPbHFvNg?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "Some who have taken hyped, unregulated peptides have regrets The Washington Post"
-  },
-  {
-   "t": "Retatrutide’s TRIUMPH-2 Data Forces a Reckoning With How We Design Metabolic Trials - The Clinical Trial Vanguard",
-   "l": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQcjctTVR4SnJYanpiUFAwclAtZ3RpMk9sNVpMTHgyYlczeFQ3T3pxMUd0Y3k2dUFZUUc3VnpsZDh0WFJfMGM1TktDZHFOYUdDTlFVbnNXLTcwWHJPSlNnUS0zMGVlQzBtRXlUOXRFMTlPY29mSXlxQXFKMDI5bGlMSXlMYWdvU3RLTzVuNkdzN2gtWC1Gb0JKQVdScVZpR2stQUJLVDZIbnlnQ1ZBb3ZCQzVnaUZoa3I1RjFsV2tzR2R1bTZkcnVKQl9KVFpvaU9aX0hTcDBLX2NnaUxfX28tWQ?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "Retatrutide’s TRIUMPH-2 Data Forces a Reckoning With How We Design Metabolic Trials The Clinical Trial Vanguard"
-  },
-  {
-   "t": "What You Need To Know About BPC-157 - Cleveland Clinic Health Essentials",
-   "l": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5BQnl6WUlnUkctSTNzOUJQMnZLZFllLWxEcDhZWHA0MXBoZ2p3N2J0X2xCQ1cxZmkxOGh5NkpRcEhXanBBSjdlbUluZDd5WERYYzhIV3VlZHd2bFNHM21N?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews-a",
-   "x": "What You Need To Know About BPC-157 Cleveland Clinic Health Essentials"
+   "t": "Emerging risks of health optimisation: refractory nausea associated with peptide injections reported to contain retatrutide.",
+   "l": "https://doi.org/10.1136/bcr-2026-276106",
+   "d": "2026-10-07",
+   "s": "epmc",
+   "x": "BMJ Case Rep · Buzzi RM, Huber LC."
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
@@ -385,6 +406,13 @@ window.FEED_ART={
    "d": "2026-10-01",
    "s": "epmc",
    "x": "Clin Sci (Lond) · Boeckhaus J, Sayer JA, Mabillard H."
+  },
+  {
+   "t": "Retatrutide in adults with obesity and type 2 diabetes: what have we learned from TRIUMPH-2?",
+   "l": "https://doi.org/10.1016/s0140-6736(26)01987-2",
+   "d": "2026-10-01",
+   "s": "epmc",
+   "x": "Lancet · Holst JJ."
   },
   {
    "t": "FDA PCAC peptide vote: what the 503A recommendations mean",
