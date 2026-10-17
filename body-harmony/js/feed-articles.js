@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-16T21:19Z",
+ "generated": "2026-10-17T04:37Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-16T21:19Z",
+   "checked": "2026-10-17T04:37Z",
    "ok": true,
-   "new": 111,
-   "seen": 144,
-   "lastOk": "2026-10-16T21:19Z"
+   "new": 110,
+   "seen": 143,
+   "lastOk": "2026-10-17T04:37Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-16T21:19Z",
+   "checked": "2026-10-17T04:37Z",
    "ok": true,
-   "new": 6,
+   "new": 2,
    "seen": 15,
-   "lastOk": "2026-10-16T21:19Z"
+   "lastOk": "2026-10-17T04:37Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-16T21:19Z",
+   "checked": "2026-10-17T04:37Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-16T21:19Z"
+   "lastOk": "2026-10-17T04:37Z"
   }
  ],
  "items": [
@@ -49,6 +49,13 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides - Pharmabiz.com",
+   "l": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oSWluYm9xQkJxa2ZDZzdYcG1mbFYyWDBVRzJYczZWcU40VWw1SFVNYmNIakhZWkFObjFuM252QWpncVlkWmFwcFhfbTkwQnh0Mzl5QnpydWx4a2l0UGpSLU4xZnh5cFI1TE1n?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides Pharmabiz.com"
   },
   {
    "t": "TG SAFE warns against unapproved weight-loss drugs and peptides - Hyderabad Mail",
@@ -261,6 +268,13 @@ window.FEED_ART={
    "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. WyomingNews.com"
   },
   {
+   "t": "Inside the growing market for peptides amid concerns over safety - RTE.ie",
+   "l": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQjVNQWtjUE9oMFo0R2hCQlhiUjVYdzU1TWJLOEtLT3Y4VWo4M0JYMTdjeWtJV1dwTjItVWdPQlhtMVF5YTZhYnFqbmNlQ0VQbjVQNmo0eWFuME1QRGF1S01TRHZVYjV4MFcyRmUtTXBNbW1FOC13NmcyeDRLSWRPSXJoOHhmcWV2QXpoNTFHUHVqLXB1czcxSWx6MF9QSm5zQVZlTXNxa0dCaU1objJpaktjbzcxazMx?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-a",
+   "x": "Inside the growing market for peptides amid concerns over safety RTE.ie"
+  },
+  {
    "t": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ - Stocktwits",
    "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNQ2YwUXdHYjhqV2hkZFBKTFhDSk9BOVlLTXBBSXpKRU8wZndKb0ZkcGIzMTN4ckdoQWJnS282MHRNS1NLdFhBVHB5TVZXU0FEa3QzemFDNzNXNEozZnkzbUtnbDRVNFBuSkI0WDUxbU1GYWx6YVdENXN3aWZyeGVVcno1dWx2WVNlcVEtUGVvVng4Y3ZxSmprZ2xBRnltRFg2MlFuREFHeFZLYUl2Y0g2WHlFcHdmNk90UjM1bGhlNmlVcGJTTTZ5eWlPSFdJNVVxZHY2b3A0Z28tOGdNVUF3SnBhZ1ZGMUxBS2N1R05yc1ZHM0w2UndTYUpUNG5LNUUtbzdjb3lTM0ZlQWh3RGc?oc=5",
    "d": "2026-10-14",
@@ -338,18 +352,11 @@ window.FEED_ART={
    "x": "People Taking Gray Market Peptides Say They’re Causing Bizarre Medical Issues Futurism"
   },
   {
-   "t": "Peptides Swap Founder Dra H Kulvar to Discuss $PEPS Token, Crypto Presale, & New Marketplace Platform - openPR.com",
-   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc2E3MVFReEs5V0FneklTcjJWODFtcUxMYjJlVEJyVVJYS2xLcEFPMlJMaWx4Z2Z5YjhsQkhlUHZWdE1hRnN3TTB6bzRaRmtzVGpkMlR0QmZtTFV0QlU4dnR3QmdFTFFWaGV0aDlfajFEU0JiLWZ3MV9tMG5yNzB2djg3X1dpUWFXa2l0R3VxeFdleEw2T1Vkc0hrTWpwYXB1?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "Peptides Swap Founder Dra H Kulvar to Discuss $PEPS Token, Crypto Presale, & New Marketplace Platform openPR.com"
-  },
-  {
-   "t": "retatrutide weight loss drug overview 2026 - Philstar Life",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcC1yS0lwcDdVWGlfWkQzSkx1V3RQblpJaF92X2tPelhLSUxzdjJsenNNOURZNG5qbXV6al9vSzlqRFc2TzlrUlFqWjhCVVNCUWZiRExpWko5MUZDZzR1NmRsVXRwN2xzQ0VlZWRtdXR1WHFwX0RYZW1vVzZZaF9wQVFSczhlUUcyRHc?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug overview 2026 Philstar Life"
+   "t": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
+   "l": "https://doi.org/10.1001/jama.2026.20514",
+   "d": "2026-10-09",
+   "s": "epmc",
+   "x": "JAMA · Rubin R."
   },
   {
    "t": "GLP-1 Receptor Biology and the Therapeutic Role of Incretin-Based Agonists in Metabolic Diseases.",
