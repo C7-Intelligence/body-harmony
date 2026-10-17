@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-17T15:42Z",
+ "generated": "2026-10-17T20:42Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-17T15:42Z",
+   "checked": "2026-10-17T20:42Z",
    "ok": true,
-   "new": 113,
-   "seen": 150,
-   "lastOk": "2026-10-17T15:42Z"
+   "new": 120,
+   "seen": 151,
+   "lastOk": "2026-10-17T20:42Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-17T15:42Z",
+   "checked": "2026-10-17T20:42Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-17T15:42Z"
+   "lastOk": "2026-10-17T20:42Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-17T15:42Z",
+   "checked": "2026-10-17T20:42Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-17T15:42Z"
+   "lastOk": "2026-10-17T20:42Z"
   }
  ],
  "items": [
@@ -84,6 +84,27 @@ window.FEED_ART={
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "Impact Fit Shifts to 100% USA Manufactured Peptides Detroit Free Press"
+  },
+  {
+   "t": "fda concerns unapproved glp-1 drugs weight loss retatrutide - Philstar Life",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPREp0QUxWWEpGRko0T0dxdDZRU0NKakF5c2gzd2FFLWM0MXRmRUVFeEJGTzJ5WTlYYWZUT0dRMXZPZWhWb05hZG5BaGlGbHBjVUpiV0hkb3hmVU5jT1ZuQlAzUnNkSW9PSHZrLTl5RlRaWUlDNWZoRGpydVBrdzd1Z3ZudzJVS0NfS2hrZHdYZE5QN2lFNzBuZ2ROZm1mTERwTUE?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "fda concerns unapproved glp-1 drugs weight loss retatrutide Philstar Life"
+  },
+  {
+   "t": "Black Market Retatrutide Linked to Multiple Deaths - Futurism",
+   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYkYzQkdXazlTUHREU2dhTlBaQl8xbWI2YS1ZRzM0cFl0ZGl4d0N5dFhjbVN1UzZQaTFCR2N6bFRYYUxnYWxvUHkzSzZMUVBiakVFTDNyVEdsVnhmeWRrcGRrdkRDM0FoXzVEa3F1NkRIb09kd0hkZkl4NG5NaUxBSGJLOEdobXBSRm15dm5BeWw?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "Black Market Retatrutide Linked to Multiple Deaths Futurism"
+  },
+  {
+   "t": "Impact Fit Shifts to 100% USA Manufactured Peptides - The Columbus Dispatch",
+   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOU1kVFpkOUJ6ci1fRHRZWkt4RE1zUmRCdDJSMGtMM1ZXRS1oOHB5My1aRzNHVjc3aEt1MUk4RGJRN0F3c1h3dnRzc1RZc29kU1kwdVRWeVF4ZEpxbWM0TjVzRkFqS19oQjhLN2tIb0dWSEdwRk81Njl3TTNYeWJHYWR0WFJlOHUtUlVwbktSNHg5Mi10VXFBdm5INUpzVWROUmxxMHNB?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "Impact Fit Shifts to 100% USA Manufactured Peptides The Columbus Dispatch"
   },
   {
    "t": "TG SAFE warns against unapproved weight-loss drugs and peptides - Hyderabad Mail",
@@ -168,6 +189,13 @@ window.FEED_ART={
    "d": "2026-10-16",
    "s": "gnews-a",
    "x": "FDA panel recommends peptides its own scientists rejected, CSPI warns Nutrition Insight"
+  },
+  {
+   "t": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last - Stocktwits",
+   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWpEVXdRWkQxSU5HenFhWndwRTAxOVNmTW1CRllWaTVWdF9obGJxS084TGdQNFhIMERWOFNXejNrN2gzbG5BX1pOd1FpQzR1OXBhUDdGYUFVVllVLWZkbjBmN3ZEeUNQcXhSbzNZc1lRNnJkU0JUaVRibU9HR1hGYTdFV0NSVHVha3VZUk9lSmVYalpTUzRuNWVuNUw3a3NvblhucVNBdVlhUzlKd1V6ZWFiXzQyRHp2MnE3RUlFbHNDQTB6MEpPeg?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
   },
   {
    "t": "Warning on weight-loss injections and peptides for patients having surgery - NZDoctor",
@@ -317,39 +345,11 @@ window.FEED_ART={
    "x": "Inside the growing market for peptides amid concerns over safety RTE.ie"
   },
   {
-   "t": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNQ2YwUXdHYjhqV2hkZFBKTFhDSk9BOVlLTXBBSXpKRU8wZndKb0ZkcGIzMTN4ckdoQWJnS282MHRNS1NLdFhBVHB5TVZXU0FEa3QzemFDNzNXNEozZnkzbUtnbDRVNFBuSkI0WDUxbU1GYWx6YVdENXN3aWZyeGVVcno1dWx2WVNlcVEtUGVvVng4Y3ZxSmprZ2xBRnltRFg2MlFuREFHeFZLYUl2Y0g2WHlFcHdmNk90UjM1bGhlNmlVcGJTTTZ5eWlPSFdJNVVxZHY2b3A0Z28tOGdNVUF3SnBhZ1ZGMUxBS2N1R05yc1ZHM0w2UndTYUpUNG5LNUUtbzdjb3lTM0ZlQWh3RGc?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "Eli Lilly CEO Bets On Weight-Loss Medicine Retatrutide As Next Growth Driver, Says Firm’s Future Has ‘Never Been Brighter’ Stocktwits"
-  },
-  {
-   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - Philstar Life",
-   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaTJUa3cxdEgxMjNqYkpkREJKWUhBdXJST196RC11YkRRMS0xSUo1NFhidEMtaTg5MGtnVXRTdjBUQmJQOWF4bU11UXNLXzNtWlVmN3VFMHo1QUR1clE1YUlJakh2Y3JVV2VDWF83NWc0NnhiNkxvNkRnVW9LeFdtV2g4dlVVZ1plVGltVmpaWmJFd3FIdEZqclEtTGgxWlU3?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss Philstar Life"
-  },
-  {
-   "t": "Curious about gray market peptides? One Mizzou doctor says tread carefully - STLPR",
-   "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSDJyMi1HWG9jWGE4Q2lXamVyUmxGTkdhOVRlSnZYbDNyUzk4WURtdzZzMllncVdVa1N6QW4zZmdPYzhNaGtaNUlCaWlUVTNCQWhzXzYteTBMOURWX2JjMWw4Yy1JYWZiTXdudFZJYmFfV3FrZmdwOVFFZGJfX1E4NFFCSUpXLVlrT2NBOVd6djBpY29tX3hyTjRNOHpVRnF0R2pMQkMtaUFvcmpDeTAxVEhkVE9CbFpqWVV6ZnV0RUV0WW84ckRRNnJneUI1dw?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "Curious about gray market peptides? One Mizzou doctor says tread carefully STLPR"
-  },
-  {
    "t": "New study examines GLP-1 impact on interactions with criminal justice system, employment, housing stability",
    "l": "https://www.statnews.com/2026/10/14/health-news-glp-1-study-impact-interactions-with-criminal-justice-system-employment/?utm_campaign=rss",
    "d": "2026-10-14",
    "s": "stat",
    "x": "A wave of clinical trials have begun to test the ability of GLP-1 weight loss drugs to quell various substance use disorders, with some promising results. A new trial announced…"
-  },
-  {
-   "t": "Poison Center Exposures to Bootleg Retatrutide Nearly Double in Three Months as FDA Logs Two Death Reports - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQVlRPeENxajVzVlY0akF6RExuLWU0aWk0T1lNRlZSa3F0YlhGSDdmTVIyRXJIbzQ5aWhWVzlod1g3U1ZUaUc5bzk1bHdCdTJqaEpBNEFKS1RWNk1UZm1LNHB3djBuSm5WbE5PS1hzVnc5OHFUMlk1VVRtZEJpX28yeDQ1MmU1b1M1b294aTFXYW15c1k?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "Poison Center Exposures to Bootleg Retatrutide Nearly Double in Three Months as FDA Logs Two Death Reports Medical Daily"
   },
   {
    "t": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
