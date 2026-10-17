@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-17T04:37Z",
+ "generated": "2026-10-17T10:54Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-17T04:37Z",
+   "checked": "2026-10-17T10:54Z",
    "ok": true,
    "new": 110,
-   "seen": 143,
-   "lastOk": "2026-10-17T04:37Z"
+   "seen": 144,
+   "lastOk": "2026-10-17T10:54Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-17T04:37Z",
+   "checked": "2026-10-17T10:54Z",
    "ok": true,
-   "new": 2,
+   "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-17T04:37Z"
+   "lastOk": "2026-10-17T10:54Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-17T04:37Z",
+   "checked": "2026-10-17T10:54Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-17T04:37Z"
+   "lastOk": "2026-10-17T10:54Z"
   }
  ],
  "items": [
@@ -126,6 +126,20 @@ window.FEED_ART={
    "d": "2026-10-16",
    "s": "gnews-a",
    "x": "TB-500 and Cellular Architecture: Exploring Its Potential Influence Across Biological Systems Americus Times-Recorder"
+  },
+  {
+   "t": "What is BPC-157? Trump administration considers easing rules on popular peptide injections - The News International",
+   "l": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON2k0cG9zWWw3NjlrMHR1X0NTdXpoWDB4RmhJbmpnbGtoUHBuVThoSVFUWFJMbFpZLWZPeC10MGlLX1VYMi1MWDJnR2VRX091RUwwRXNhZTdCMFljNTNUOUFMU1Y0aXBPN0pTR3NONTVwcUZOcTlqcGZ6SVNBTGl5ajhrc0FhS3Q2TDJtbjlTeTZPdmRON1NjbmRHQkp4Qi12U3ppM3pjMlk5VjNZd09ZRUU3eVEwQllIVVdMdDRYWDBzMFNNcjVCMUlHa9IBxwFBVV95cUxPZjJ0SFQxYVVSSVV2VlVIZWlRQzFaQVNwbEJvU3VOUmJ2WHpIamJESXBtZzVxN2NzUTM2eTlZaHpjZ2YwUThtRmZ6WkdKbGNOaFpsUTNaRzVWOUM4TS0wcDB1Y29Hby13V3gwSzdHSlRsYlc5S3VNX1NMT1pfME5xcU1BS3k1czF0QVVhMDR4UnVOcTZqRk1vbXctUEVPdXJEMk1neGpnX1BNRlNIZzZEbFZWeW00MEFyZ2ttWWFtUUpaWmdSWU8w?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "What is BPC-157? Trump administration considers easing rules on popular peptide injections The News International"
+  },
+  {
+   "t": "FDA panel recommends peptides its own scientists rejected, CSPI warns - Nutrition Insight",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3I5NHF5eWF6b3FGQkpMcHJpd1FwOGM3c3pQS0NHSTVxSDVZZ3VERmN5ZlJ0LUVLdWpEc2V3VHpscXlSdEZyYVZSbS1EWWhXcE9SRXdOWHFiVnRScGpvanFtVVBkcVRYUUdPR3hZNzNjSkRHeS00UTU2dE54Y2EzMnJZc0RLV2FJYXc?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews-a",
+   "x": "FDA panel recommends peptides its own scientists rejected, CSPI warns Nutrition Insight"
   },
   {
    "t": "Warning on weight-loss injections and peptides for patients having surgery - NZDoctor",
@@ -336,20 +350,6 @@ window.FEED_ART={
    "d": "2026-10-14",
    "s": "gnews-a",
    "x": "Injectable Peptides Are All Over Social Media, But How Much Do We Really Know? Her Campus"
-  },
-  {
-   "t": "What is retatrutide and when could weight-loss drug be publicly available? - Yahoo",
-   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZno4YTc1ZFdGbU8wT0RxQkREUnk0Y0IySWF0TWJYSG9KZlBUblBOaHVUdFBlUkNYNDYwS0FJR0pHT1hBb0M4MFZsYmtFNkZRa1ZSdVByb0V4R2g0OFJFMDdOWVM2U1dpZGRudkVlTGJtZWUtbUcydWw1ZVJQbDI2aVRjNDA2dE00bVJpSm5BLUJRaFRYd0RlLQ?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "What is retatrutide and when could weight-loss drug be publicly available? Yahoo"
-  },
-  {
-   "t": "People Taking Gray Market Peptides Say They’re Causing Bizarre Medical Issues - Futurism",
-   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNDBJMVVXN3ZxM0J2dWlsZjdreUwwTWI3SkRSM3lxX3laS3NReHpHanRHaW9WbGsxVXdJNjE0WVdHdWNhbTltV1dGTGZJTjBTUWVLYl9nUHhUcDNqb0FhX0JkMGQwRGFtSzF1Nll4YjRxS0hyS1FRR0EyWnRHZUlRVW94ajFKMEN0UENBNXphVldnekE?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "People Taking Gray Market Peptides Say They’re Causing Bizarre Medical Issues Futurism"
   },
   {
    "t": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
