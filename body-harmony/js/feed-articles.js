@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-17T10:54Z",
+ "generated": "2026-10-17T15:42Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-17T10:54Z",
+   "checked": "2026-10-17T15:42Z",
    "ok": true,
-   "new": 110,
-   "seen": 144,
-   "lastOk": "2026-10-17T10:54Z"
+   "new": 113,
+   "seen": 150,
+   "lastOk": "2026-10-17T15:42Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-17T10:54Z",
+   "checked": "2026-10-17T15:42Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-17T10:54Z"
+   "lastOk": "2026-10-17T15:42Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-17T10:54Z",
+   "checked": "2026-10-17T15:42Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-17T10:54Z"
+   "lastOk": "2026-10-17T15:42Z"
   }
  ],
  "items": [
@@ -56,6 +56,34 @@ window.FEED_ART={
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides Pharmabiz.com"
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "is retatrutide a weight loss drug - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeGF0aGJGeDkzSFBhenhMbFR0S2oxOVlsRTFFVFl6V2lRbEk4NFRkeFh5djFQU2w1TnR1MXRIdkJFc3J2OWZQWi03YThQZ2dQNV9mM19UQlhMRDFlVERhX2dSMWkxN0Y3aVdxeXpDejdiQnNZNmVNZVNqclkzbTV6T2c5X2NDc196cjhHaw?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "is retatrutide a weight loss drug www.polskieradio.pl"
+  },
+  {
+   "t": "The [almost] unbelievable relationship between “big pharma” and gray-market peptides - Peter Attia MD",
+   "l": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xM2RWaEFEb0xqYVIyNjl0dGc3MktBUGRReExjai1GbEd6QUlOMnRVZnFqZmZiVTVDYjVLVldHZHRKYl9UNVc0Vm5GWkk4MjdhMEhCS0piVnF4V2NzakxLMk5iUlVfUzhlNHc?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "The [almost] unbelievable relationship between “big pharma” and gray-market peptides Peter Attia MD"
+  },
+  {
+   "t": "Impact Fit Shifts to 100% USA Manufactured Peptides - Detroit Free Press",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaGdXVnFNYkFLekdmbUk4em9NaE5CZVcwM19HQndvbjhQcXEtbnZUWDg3TGIzaUw5cUhyaHNPSU1GNk56bWFfcERmLXNGTlZUZlNzcXRtNFk1R1RMTlRwTVFIYTM4dnNxODN6UW5CdERzeTNndHVadlRCUmhyMlN6VGNRQ3NBR0lyeWVRckM0R1BoNkhWcWliYWpvb3V1YjIzbVE?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "Impact Fit Shifts to 100% USA Manufactured Peptides Detroit Free Press"
   },
   {
    "t": "TG SAFE warns against unapproved weight-loss drugs and peptides - Hyderabad Mail",
@@ -322,34 +350,6 @@ window.FEED_ART={
    "d": "2026-10-14",
    "s": "gnews-a",
    "x": "Poison Center Exposures to Bootleg Retatrutide Nearly Double in Three Months as FDA Logs Two Death Reports Medical Daily"
-  },
-  {
-   "t": "Retatrutide Shows Significant Weight Loss in People with Diabetes in Phase III Trial - The Indian Practitioner",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRXJ2VW96bE1wSGZHdllzaG5LVmlZa2ZZbDZzaTFCX1pQWm5rUDJ5OWk5bHNQSHZGNUIxcG1lV0N4cmx6QXpXaVU1TXlCYjZ5QzNnR2g1enZlQkI1dG9hX1hWeDlCN1pwX0FGbWpla3IyMFI4RzFwVzNEbDcxRFlHb2pLV3pMaG5xd2F6eWJOMXU5V1BrYkY5eGpUY2RTTFowZUVyRHprRjRCQ1BkalNxR25IeXFEU0sxZXRv?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "Retatrutide Shows Significant Weight Loss in People with Diabetes in Phase III Trial The Indian Practitioner"
-  },
-  {
-   "t": "FDA Peptide Compounding Policy: What a Temporary Enforcement Reprieve Could Mean for Pharmacies - Buchanan Ingersoll & Rooney PC",
-   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWnpnZTc4UElOUHo5ZzNjZGNjZktzcWRYNTNCbDZwVHBINzMza2prQzQ3bkJDcjVveGdrLVhFWjExNjdkc2dEa2F1TWNGckJ3NFh5Q0tWOWpFM2R5X3Z2UXBLenRNbWlvYlljX3BvU2pKMlA0Wk9MTVh5bGd1OUh2b1A5Mjd1Tnc1VHE5aDEzdU5uU0x1RU9welF6MlZvWExyYW14a2poMW42QUhueFFwd0ZrYWY?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "FDA Peptide Compounding Policy: What a Temporary Enforcement Reprieve Could Mean for Pharmacies Buchanan Ingersoll & Rooney PC"
-  },
-  {
-   "t": "Peptides And Pets: What You Need To Know - Forbes",
-   "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOUm5NN2Y2UUVULWZzell6YUNmTWc3eGt2T3YwZUUtOVo0Q0RQSWgyNDlDOTZ1aGoyc2ZKWXc2N25vcXBFdHhBY002RTA4NjNSR3I1V0hTV21iNmh1bENKQ1lid3c3RW5NQl9fajlVeTVRV1hiWWhMVWNqeEV6RldwXzFzVjdGN3lBamF5aVlaUFBHR19N?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "Peptides And Pets: What You Need To Know Forbes"
-  },
-  {
-   "t": "Injectable Peptides Are All Over Social Media, But How Much Do We Really Know? - Her Campus",
-   "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQOEt4amNzUVRnYkd0OG5ENVM5YldvVGZzWF9qYlg2clRsS19FVjA0UnpjeVlKRkVsSFlmb3dpcEdVamhXWVhxN3RaMF9pN0JCMzl6c3JVTl9qNkZnZzJxcE41cXlVV1pGV09Pb1paWV96U0NLMDNjdlZGTi1QeFp2MHFlRXZrNlFONVQ2Uy1OVVN6bEtp?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews-a",
-   "x": "Injectable Peptides Are All Over Social Media, But How Much Do We Really Know? Her Campus"
   },
   {
    "t": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",

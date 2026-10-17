@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-17T10:54Z",
+ "generated": "2026-10-17T15:41Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-17T10:54Z",
+   "checked": "2026-10-17T15:41Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-17T10:54Z"
+   "lastOk": "2026-10-17T15:41Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-17T10:54Z",
+   "checked": "2026-10-17T15:41Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-17T10:54Z"
+   "lastOk": "2026-10-17T15:41Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-17T10:54Z",
+   "checked": "2026-10-17T15:41Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-17T10:54Z"
+   "lastOk": "2026-10-17T15:41Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-17T10:54Z",
+   "checked": "2026-10-17T15:41Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-17T10:54Z"
+   "lastOk": "2026-10-17T15:41Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-17T10:54Z",
+   "checked": "2026-10-17T15:41Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-17T10:54Z"
+   "lastOk": "2026-10-17T15:41Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-17T10:54Z",
+   "checked": "2026-10-17T15:41Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-17T10:54Z"
+   "lastOk": "2026-10-17T15:41Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-17T10:54Z",
+   "checked": "2026-10-17T15:41Z",
    "ok": true,
-   "new": 158,
+   "new": 159,
    "seen": 185,
-   "lastOk": "2026-10-17T10:54Z"
+   "lastOk": "2026-10-17T15:41Z"
   }
  ],
  "items": [
@@ -100,6 +100,13 @@ window.FEED={
    "d": "2026-10-17",
    "s": "fierce",
    "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market - TradingView",
@@ -191,6 +198,13 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews",
    "x": "Peptides at a Crossroads: What Wellness Providers Need to Know About HHS and FDA Actions JD Supra"
+  },
+  {
+   "t": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last - Stocktwits",
+   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWpEVXdRWkQxSU5HenFhWndwRTAxOVNmTW1CRllWaTVWdF9obGJxS084TGdQNFhIMERWOFNXejNrN2gzbG5BX1pOd1FpQzR1OXBhUDdGYUFVVllVLWZkbjBmN3ZEeUNQcXhSbzNZc1lRNnJkU0JUaVRibU9HR1hGYTdFV0NSVHVha3VZUk9lSmVYalpTUzRuNWVuNUw3a3NvblhucVNBdVlhUzlKd1V6ZWFiXzQyRHp2MnE3RUlFbHNDQTB6MEpPeg?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews",
+   "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
   },
   {
    "t": "As FDA Weighs Wider Peptide Access, Adverse Event Reports and Two Las Vegas Intubations Sharpen Safety Questions - Medical Daily",
@@ -444,20 +458,6 @@ window.FEED={
    "d": "2026-09-23",
    "s": "gnews",
    "x": "FDA Warns Pharmacy About Illegal GLP-1 Compounding MedPage Today"
-  },
-  {
-   "t": "FDA takes issue with Empower Pharmacy's GLP-1 production in new warning letter - Houston Chronicle",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxORzFBQTBFNUY5ZzZyS18teWl6M3JhbGlRLVFEOWY3R2NIRXhoZGJYMnVqTXBYSmV0TTRQTmlTVE8yYkJ0SWMzTjhVLUdWTVh1WjVoZHZzS3lTRlFYZWw5UTBjS1owcjZVUUR0cU5NalY4WEJBOUxkSzBCVFZzQ2tWN1pyTTRHdGYwdTFsay1nME0tdW5kempvM2tya1NqRVFpaG1QZXM0d3hqNVBobTFMMTBCSDNnRERRMzVWUmJKOEhfblJyWTR1eA?oc=5",
-   "d": "2026-09-22",
-   "s": "gnews",
-   "x": "FDA takes issue with Empower Pharmacy's GLP-1 production in new warning letter Houston Chronicle"
-  },
-  {
-   "t": "Compounder Empower receives FDA warning letter over GLP-1s - Endpoints News",
-   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeVkzOHdCNU1vN2J1enpyN25oRDktdUdzXzZKTmpwNVFlLUlNVl9pMkVYWUY1eVpkam5DRVNEMWcwRi1wQU5HYUdFUG5TcXNFeUQtbDQxdXRwek84ZUJDa1hGbk13YlN2VU1nVEU4Z0JYX1N1Q3llVWFzWk5NS01YNHRMeHRhMExTUF9VUE1Ja2c?oc=5",
-   "d": "2026-09-22",
-   "s": "gnews",
-   "x": "Compounder Empower receives FDA warning letter over GLP-1s Endpoints News"
   },
   {
    "t": "Centric Compounding Issues Nationwide Recall of Glutathione, Myer’s Cocktail, and Tri-Immune Boost Due to Elevated Endotoxin Levels",
