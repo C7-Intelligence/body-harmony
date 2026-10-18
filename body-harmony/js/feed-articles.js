@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-18T04:43Z",
+ "generated": "2026-10-18T11:19Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-18T04:43Z",
+   "checked": "2026-10-18T11:19Z",
    "ok": true,
-   "new": 118,
-   "seen": 150,
-   "lastOk": "2026-10-18T04:43Z"
+   "new": 121,
+   "seen": 153,
+   "lastOk": "2026-10-18T11:19Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-18T04:43Z",
+   "checked": "2026-10-18T11:19Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-18T04:43Z"
+   "lastOk": "2026-10-18T11:19Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-18T04:43Z",
+   "checked": "2026-10-18T11:19Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-18T04:43Z"
+   "lastOk": "2026-10-18T11:19Z"
   }
  ],
  "items": [
@@ -49,6 +49,20 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "University of Missouri doctor warns about buying peptides on the gray market - KCUR",
+   "l": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSnlONVZEUXdWYTUySHNDdjhBZlZ5T21GV0EzdVJ1ekJtaXpKOTlvTHo3MmtJVU00Z2h5cGRwOF9HdTlsM0FjQlZmRVRvLXV5Zzlzc2NRYk1hLXdFM25zajJ6U0NmYlR6RlJoLWt4WGhGNldFNkFXd3ZqZk8yVmUyQWp4elMwYm9TOU1iNDVDTzZKeDMzRXNVVUxsaGdWYlRNYVI1el82TENYZjJtMGlFYnJJaUQ3QQ?oc=5",
+   "d": "2026-10-18",
+   "s": "gnews-a",
+   "x": "University of Missouri doctor warns about buying peptides on the gray market KCUR"
+  },
+  {
+   "t": "4 red flags – and 1 truth – amid the peptide hype - USA Today",
+   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWHI2THBQNThoX1VDdFE5azJwYXN0Q1ByQU14TGRhOHZoR2xrenVPOUNHbFJ1MWM2aU8teWdsOXgwV0FtQTlyem1LWUNtWS15RHhlUS1oSDhhWEh5X2lmUFBUTDFEVjV5ZG5tczdvQUt3TFlxbXItdlhuS3JNekZJeFdRcmdZTzA4TE84Q1RMNlNIQnlRYW1QTGRvOG1SaU0ydVFwYTdYdUxhWkNvWEE?oc=5",
+   "d": "2026-10-18",
+   "s": "gnews-a",
+   "x": "4 red flags – and 1 truth – amid the peptide hype USA Today"
   },
   {
    "t": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides - Pharmabiz.com",
@@ -112,6 +126,27 @@ window.FEED_ART={
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
+  },
+  {
+   "t": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides - Pharmabiz.com",
+   "l": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GWTNkeGR6TEpGdVFQOEI2NjVha3MwcjIzaVlOWWczVDA1NWhFaExzTUxPaERPLXRhVWdDN3dubWx5TWJlR3BtVlJlZDVRNUVUYjIxcHNpRWNuMFpkdlY2bS0xdnU1VFJoWjk0dA?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides Pharmabiz.com"
+  },
+  {
+   "t": "retatrutide weight loss drug latest updates 2026 - Philstar Life",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWTRFbjRpYTBrTEdHcUt1QWdaeE5iSEVJMVFJUTdIOEl2UV9TRFZ6SFBheVhVMWtoNlZMMEdLZGlSdG16dXpSMGwxTTNsTHhGNTl2ejN2bThuSnFvVFd2VllxZEhKZGxlVl8xYXR1S3ZWSmpWNFhERWJHRTVYTTc1d3Y2YTgyclJaS2V4ekJ0NURtckc1bXR2NEwyYw?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
+  },
+  {
+   "t": "eli lilly trial shows drug retatrutide produces significant weight loss - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNDlvTkNkTS1HSGhhcjJCZVJxZ2JmZWUwYXV1UGFoY2tNNkN0alhQckVVVjk4YkJJTTZLYWZSRnBVS01ZYzhXTmtNNlM0VzdYVWRHS1VPRzVNTUNxNnVad2tWbnlJSWp1anFhYV9KQVNvT2loelVkUjhhOHZBU3ZITWo3N29CYVZqTG5lTkVySmt5bEVQeFdkNXhVNTFUZFV2NUVJQjVUT3lneVluN3VTZWxsOXFVSXEyQzVIY0w2NA?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "eli lilly trial shows drug retatrutide produces significant weight loss www.polskieradio.pl"
   },
   {
    "t": "TG SAFE warns against unapproved weight-loss drugs and peptides - Hyderabad Mail",
@@ -303,46 +338,11 @@ window.FEED_ART={
    "x": "Counterfeit weight loss pens worth £2 million seized by MHRA and West Midlands Police GOV.UK"
   },
   {
-   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - CNBC",
-   "l": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxWWVpSmdYd2lUNEVULTVrdnF2NklFSGpfbV9ONjh1TjBWMEhjdDV6b3dudDk4bFZLSm1Rd19tT0REV2x5NE1vS0MwVm1mQTZsTC1lbmdlSUtFWFpPMDFkbFJpUXBidFNtcEhDeFdvSEfSAXZBVV95cUxQWllDZUVUSkJ1NTFnNG1GZzV4TUZLU1FjMk03WFh6Y0d5T3dlYTd1QV9ESFNMdEw2WnNGTkstRW1XSnlBbDd5NV95aElMZWFnb2UxZm5qRVJOdUFBN1d2UWI1R21pbi1pMGpOSWZWc1hieDNIelNn?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. CNBC"
-  },
-  {
    "t": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
    "l": "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss",
    "d": "2026-10-15",
    "s": "stat",
    "x": "U.S. health officials are moving ahead with a plan to allow specialty pharmacies to produce certain peptides, a class of largely unregulated injections favored by health secretary Robert F. Kennedy…"
-  },
-  {
-   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - WKMG",
-   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQV2hpUlVUVUF2LWYzaHdpWWJJcldYRUwzVWtZUlV6cXpNS2ZJRFJndk56dFIwM3NzUUVFd2RmbFpkN1ZxMXprc2ptaVlIX3diemQ5MXVUTXo0amdJd2ZoRW51ejlMX21tVDQ0cXZKY2laNE9xTVlCOHk0djN4RU1IRFVTNDhtOW11QTlkekpxRWFmTS1jLTZLLTY1QWdBVTdNSXlLNUlSc2kwQkEtNlRDSGNKc0dFUUVHS2FmNw?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. WKMG"
-  },
-  {
-   "t": "BPC-157, TB-500, and GHK-Cu: Research Properties of a Multifunctional Peptide Blend - Longview News-Journal",
-   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQYmFMd3BPWmtFTmY5Rkp3UzZ2T1BWeGcwMkVSbU9OalBmZUtUUldEX0FQNGxpU1pqLUJPT3RwSF8teGF1Z1NYT1ZzTG5nb0NZNUtveWRKdEdMeVMwQU9weXZQUnViVmpFcHRiT2tMTzdadWQ0UWI4c0NvYnVhbU13YWZsaFhhTGVmeGRnLVhzWFNaLWQxbmdudEhvMVJLTDF6dnF0V3ZLM1JZbEY3dHRUSEJsaUxMcmctakZhZW5BcDY?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "BPC-157, TB-500, and GHK-Cu: Research Properties of a Multifunctional Peptide Blend Longview News-Journal"
-  },
-  {
-   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - Ottumwa Courier",
-   "l": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNNy1CZVZLa2Yzb1M0OEpveU52YW52Sm9UWEtmOHFlWHFwMFpOWmVzejNYbnplREU0VVhQckFnUFdLUE9td20wNXZpWVBsY0VOdDRCQXl3bUQ1YVNOWFBnOVhsem9Hb0dzNm5ZV1BFY1dYa0EzU0NvSkNHeDFIZjQ3Qm40NV8tTnNuckZtaW41NmRqWjA5S29UNHZsV0kzc0FHTWdpWHo0bGs4akNpREpyNS1HTjBjMFQ5LS1iUHRGUVplSDQyTnF3RUtab0JqMlp4T3VURDNNWE9SN05ZV1l4dzBNMlAwX09DbDBBQW9US0tmX1BfWmtZdw?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. Ottumwa Courier"
-  },
-  {
-   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - WyomingNews.com",
-   "l": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNS2lJYlM1a3VRVkpZem93NUVQd0VWdHB0a1paanljZ3BELTNOM1lNZ2R4UUg2eXhpdTlPSFZSVlRMOHVhOHpkUzNtcHVQRnFKQXF4X0xhcElQek5vYm9JNHVSUldHOG54TkotdGpTOGd2SEdfYW0tNEs1MEh1SFNMaTFLTWhrWk5FeXlBS3p0Y2dGSzFsd1FxdXRNenlYdmU5NkM0RGI1Yk5KSXhqWHp6bWZqV3h3SjFORUhpVV96XzlDMTRQb002NUNpVnoycGFMMVI3RUp1NEtVclNLSm1qYk94MHVaczZPTF9ZYVhGN0xlUGNlZ0xiQmRR?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. WyomingNews.com"
   },
   {
    "t": "New study examines GLP-1 impact on interactions with criminal justice system, employment, housing stability",

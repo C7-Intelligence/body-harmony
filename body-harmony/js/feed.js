@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-18T04:42Z",
+ "generated": "2026-10-18T11:19Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-18T04:42Z",
+   "checked": "2026-10-18T11:19Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-18T04:42Z"
+   "lastOk": "2026-10-18T11:19Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-18T04:42Z",
+   "checked": "2026-10-18T11:19Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-18T04:42Z"
+   "lastOk": "2026-10-18T11:19Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-18T04:42Z",
+   "checked": "2026-10-18T11:19Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-18T04:42Z"
+   "lastOk": "2026-10-18T11:19Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-18T04:42Z",
+   "checked": "2026-10-18T11:19Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-18T04:42Z"
+   "lastOk": "2026-10-18T11:19Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-18T04:42Z",
+   "checked": "2026-10-18T11:19Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-18T04:42Z"
+   "lastOk": "2026-10-18T11:19Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-18T04:42Z",
+   "checked": "2026-10-18T11:19Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-18T04:42Z"
+   "lastOk": "2026-10-18T11:19Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-18T04:42Z",
+   "checked": "2026-10-18T11:19Z",
    "ok": true,
    "new": 162,
-   "seen": 187,
-   "lastOk": "2026-10-18T04:42Z"
+   "seen": 186,
+   "lastOk": "2026-10-18T11:19Z"
   }
  ],
  "items": [
+  {
+   "t": "hims faces legal action as fda restricts compounded weight-loss drugs - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPODY5NzFzZE9tU3liaFVLSHAwQVoxYlJoekFib3ZfYUtyRW04RXdtcWFnX3FUbW1oWGNYT3NsOTdtNlo3eVNNWFRFVmhyMHo2UlJiQURhNGVMdWtKbzd4bXBfQnl1azMxUXBBWXdkZm1hYURZd2c5blRPY0NDRjhsZnc4dFVzZ25iemtVbjF2bVpETGFTMDd1eExONFFwZnV2QUlpZFpUaTNvOUcyc19TQTkxTTMyMjNFcTVV?oc=5",
+   "d": "2026-10-18",
+   "s": "gnews",
+   "x": "hims faces legal action as fda restricts compounded weight-loss drugs www.polskieradio.pl"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
@@ -93,13 +100,6 @@ window.FEED={
    "d": "2026-10-18",
    "s": "fierce",
    "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
-  },
-  {
-   "t": "hims faces legal action as fda restricts compounded weight-loss drugs - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPODY5NzFzZE9tU3liaFVLSHAwQVoxYlJoekFib3ZfYUtyRW04RXdtcWFnX3FUbW1oWGNYT3NsOTdtNlo3eVNNWFRFVmhyMHo2UlJiQURhNGVMdWtKbzd4bXBfQnl1azMxUXBBWXdkZm1hYURZd2c5blRPY0NDRjhsZnc4dFVzZ25iemtVbjF2bVpETGFTMDd1eExONFFwZnV2QUlpZFpUaTNvOUcyc19TQTkxTTMyMjNFcTVV?oc=5",
-   "d": "2026-10-18",
-   "s": "gnews",
-   "x": "hims faces legal action as fda restricts compounded weight-loss drugs www.polskieradio.pl"
   },
   {
    "t": "hims faces legal action as fda restricts compounded weight-loss drugs - Meteo.gr",
@@ -219,6 +219,13 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews",
    "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
+  },
+  {
+   "t": "Peptide FDA Updates: Latest News on Compounding and More - GoodRx",
+   "l": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOUFBRVNNWDlCazdRU0tzNTRzcmh1Z1dvcGJqNGxKczJ2Um84ejRGTGdJVWdiVFJkb1daTG5MZkstckx5RlNSTThqOGdJT29BRkNIckcyeXBId29PSllMSlVUbHVFUzVPd3NtcTZYV1N2cjgyOGFxVm5kSVJZZG5vVg?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews",
+   "x": "Peptide FDA Updates: Latest News on Compounding and More GoodRx"
   },
   {
    "t": "As FDA Weighs Wider Peptide Access, Adverse Event Reports and Two Las Vegas Intubations Sharpen Safety Questions - Medical Daily",
@@ -451,13 +458,6 @@ window.FEED={
    "d": "2026-09-24",
    "s": "gnews",
    "x": "FDA warns compounding pharmacy over sterility of GLP-1 drugs KING5.com"
-  },
-  {
-   "t": "FDA warns compounding pharmacy over sterility of GLP-1 drugs - YouTube",
-   "l": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBXUWVrMm0xOS12cUNCWDZObnpGLTdBemtPc082S3N2Y1JITVZQbGx5ZTJqNDllNnpEUHFhclVGREwwU2xUTjFINmRORXNGZHVERldYTTdsNThCUnky?oc=5",
-   "d": "2026-09-24",
-   "s": "gnews",
-   "x": "FDA warns compounding pharmacy over sterility of GLP-1 drugs YouTube"
   },
   {
    "t": "Centric Compounding Issues Nationwide Recall of Glutathione, Myer’s Cocktail, and Tri-Immune Boost Due to Elevated Endotoxin Levels",
