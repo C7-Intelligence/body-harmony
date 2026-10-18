@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-18T11:19Z",
+ "generated": "2026-10-18T15:57Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-18T11:19Z",
+   "checked": "2026-10-18T15:57Z",
    "ok": true,
-   "new": 121,
-   "seen": 153,
-   "lastOk": "2026-10-18T11:19Z"
+   "new": 104,
+   "seen": 128,
+   "lastOk": "2026-10-18T15:57Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-18T11:19Z",
+   "checked": "2026-10-18T15:57Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-18T11:19Z"
+   "lastOk": "2026-10-18T15:57Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-18T11:19Z",
+   "checked": "2026-10-18T15:57Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-18T11:19Z"
+   "lastOk": "2026-10-18T15:57Z"
   }
  ],
  "items": [
@@ -147,6 +147,20 @@ window.FEED_ART={
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "eli lilly trial shows drug retatrutide produces significant weight loss www.polskieradio.pl"
+  },
+  {
+   "t": "2026 fda approved weight loss drug retatrutide approval status - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVUlmcUlIRktZdFpVeEdfOF95bDdKOHdBdC1RQnVRSW52VXpvbnZTZmZlSEUwQ3pRUGN3NzBTNEd6U1lYMmhTMjdZdzNWQ2RMTzd0ZGRPX3JZTlFqc0MxQ3pwSGxzTVNOc2owc1BqZl84OGQzNGYwWlJSa1FwRGplU1pZZzA5S1VCY2NXS2U5ZlZaNGV3TXNIaGNvUkxFb1VBcVNnbU9LekZtaWRPMTVVb2x4WQ?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "2026 fda approved weight loss drug retatrutide approval status www.polskieradio.pl"
+  },
+  {
+   "t": "retatrutide weight loss drug latest updates 2026 - Philstar Life",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQclNiR29ITExDb2c1REJhcURrZy1JZmFFZzZfellhVWJDYTV6VGw1QU1VRV9GUEVVYkFsbFlITlhKeGt6SHdRRFI0U2pVX25xcGJiNldRV1lDTzJCMVpZd1dXb2tvX2Z6N3ZHdUpISW84Z29iRUswNnRNSnY3V2xUdi1QVkhqTjRoMmFkUmRzTk96dFJWLWc5cEM4Yw?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
   },
   {
    "t": "TG SAFE warns against unapproved weight-loss drugs and peptides - Hyderabad Mail",
@@ -322,20 +336,6 @@ window.FEED_ART={
    "d": "2026-10-15",
    "s": "gnews-a",
    "x": "Engineers use AI, Reddit to identify potential side effects of unapproved new GLP-1 Medical Xpress"
-  },
-  {
-   "t": "Penn engineers use AI, Reddit to identify potential side effects of unapproved new GLP-1 - EurekAlert!",
-   "l": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA2MkhEX2R5eDZQcTNBRG5RaG9PWVEwaXh1NS1mWG1sRGxMWDVkM1RfeDFvWm43X2wza0p6aTZEMjBMWDNDdmNVT2c5c3NjZWxjV0VLUTVKTjRXMjN2?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Penn engineers use AI, Reddit to identify potential side effects of unapproved new GLP-1 EurekAlert!"
-  },
-  {
-   "t": "Counterfeit weight loss pens worth £2 million seized by MHRA and West Midlands Police - GOV.UK",
-   "l": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbU1kNE9sdV9DaEpISmFhYWJJckJ5aWcycl9CaDVZdVVKaWU1SU8wNGVhU0ktSnBuQUg1ZTFzNGV3dkdFT3Z6QzJaVHhCYW0yRHBvQlZZc3FJc1VZSWJla19BVVp6eDBJd2dFd3g2ZEZuMzJPNlNuQ3ZXMmhXQjFrd2U2Uk0wSXdJU3E1dzRsVzdOaEhqeTQtVHhkVFBlQ2dmWjFZeVNqaDVxM1dwTkROUlhQaVpkdw?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Counterfeit weight loss pens worth £2 million seized by MHRA and West Midlands Police GOV.UK"
   },
   {
    "t": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
