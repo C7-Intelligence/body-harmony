@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-17T20:42Z",
+ "generated": "2026-10-18T04:43Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-17T20:42Z",
+   "checked": "2026-10-18T04:43Z",
    "ok": true,
-   "new": 120,
-   "seen": 151,
-   "lastOk": "2026-10-17T20:42Z"
+   "new": 118,
+   "seen": 150,
+   "lastOk": "2026-10-18T04:43Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-17T20:42Z",
+   "checked": "2026-10-18T04:43Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-17T20:42Z"
+   "lastOk": "2026-10-18T04:43Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-17T20:42Z",
+   "checked": "2026-10-18T04:43Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-17T20:42Z"
+   "lastOk": "2026-10-18T04:43Z"
   }
  ],
  "items": [
@@ -105,6 +105,13 @@ window.FEED_ART={
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "Impact Fit Shifts to 100% USA Manufactured Peptides The Columbus Dispatch"
+  },
+  {
+   "t": "retatrutide weight loss drug latest updates 2026 - Philstar Life",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGtWNzJPaFFnM1VYZXloMnNzUjAtR2FQajByMHNxMFVHbWhXbXU3RS1jLV9wY0lXOHRzQ1VhbTQ5MlpiNzUzdDJ3TFpnb2dicVhMU0xFYUhYdk5ySFFqWEFOODBqcjFUZjJZQlhkbW5BWFpmY3ZTS3NpN3RNVHB1SC1iZWZ2ZVVZRGt2WEpKTFVXbUhTbm5yVGZYOA?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
   },
   {
    "t": "TG SAFE warns against unapproved weight-loss drugs and peptides - Hyderabad Mail",
@@ -336,13 +343,6 @@ window.FEED_ART={
    "d": "2026-10-15",
    "s": "gnews-a",
    "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. WyomingNews.com"
-  },
-  {
-   "t": "Inside the growing market for peptides amid concerns over safety - RTE.ie",
-   "l": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQjVNQWtjUE9oMFo0R2hCQlhiUjVYdzU1TWJLOEtLT3Y4VWo4M0JYMTdjeWtJV1dwTjItVWdPQlhtMVF5YTZhYnFqbmNlQ0VQbjVQNmo0eWFuME1QRGF1S01TRHZVYjV4MFcyRmUtTXBNbW1FOC13NmcyeDRLSWRPSXJoOHhmcWV2QXpoNTFHUHVqLXB1czcxSWx6MF9QSm5zQVZlTXNxa0dCaU1objJpaktjbzcxazMx?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Inside the growing market for peptides amid concerns over safety RTE.ie"
   },
   {
    "t": "New study examines GLP-1 impact on interactions with criminal justice system, employment, housing stability",
