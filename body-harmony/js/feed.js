@@ -1,85 +1,99 @@
 window.FEED={
- "generated": "2026-10-19T13:32Z",
+ "generated": "2026-10-19T22:26Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-19T13:32Z",
+   "checked": "2026-10-19T22:26Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-19T13:32Z"
+   "lastOk": "2026-10-19T22:26Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-19T13:32Z",
+   "checked": "2026-10-19T22:26Z",
    "ok": true,
    "new": 0,
-   "seen": 2,
-   "lastOk": "2026-10-19T13:32Z"
+   "seen": 1,
+   "lastOk": "2026-10-19T22:26Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-19T13:32Z",
+   "checked": "2026-10-19T22:26Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-19T13:32Z"
+   "lastOk": "2026-10-19T22:26Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-19T13:32Z",
+   "checked": "2026-10-19T22:26Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-19T13:32Z"
+   "lastOk": "2026-10-19T22:26Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-19T13:32Z",
+   "checked": "2026-10-19T22:26Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-19T13:32Z"
+   "lastOk": "2026-10-19T22:26Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-19T13:32Z",
+   "checked": "2026-10-19T22:26Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-19T13:32Z"
+   "lastOk": "2026-10-19T22:26Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-19T13:32Z",
+   "checked": "2026-10-19T22:26Z",
    "ok": true,
-   "new": 162,
-   "seen": 188,
-   "lastOk": "2026-10-19T13:32Z"
+   "new": 163,
+   "seen": 187,
+   "lastOk": "2026-10-19T22:26Z"
   }
  ],
  "items": [
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "Counterfeit Versions of Eye Drops Found in Several States",
+   "l": "http://www.fda.gov/drugs/counterfeit-medicine/counterfeit-versions-eye-drops-found-several-states",
+   "d": "2026-10-19",
+   "s": "fda-drugs",
+   "x": "Counterfeit versions of over-the-counter eye drops have been found in Florida and Georgia in stores serving primarily Spanish-speaking customers. These products also may be in Louisiana, Mississippi, North Carolina and potentially other states."
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
@@ -95,11 +109,25 @@ window.FEED={
    "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
   },
   {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "t": "GLP-1 injections recalled nationwide. See affected products - USA Today",
+   "l": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORW9HUXlnSWNZdEN0Z25zWUZxRFlMbU9ZY3ZYS0JMS2tZaGtpckEyRklxSGl5MmxoaEp2aTQ2NHlMVnFpM25IcEVmWnU4RVQyT0FLWUp0aThwcHNnb3BTZk9sNHdrX08xMWdMV3JJMHp2N1J6NThGVXJEOVBZcktYeG5PbWZfdUJrQW1QZUJ4R2ZMTkVWdnEzZUpXT3pwMmhxUmxubUtCcXVDTzJlUGJBWG9KQVIzSGZmM01xMzVmX0hETTMxbEJaR25R?oc=5",
    "d": "2026-10-19",
    "s": "gnews",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+   "x": "GLP-1 injections recalled nationwide. See affected products USA Today"
+  },
+  {
+   "t": "Houston Pharmacy Behind Recalled Compounded Tirzepatide Vials Drew 14 FDA Inspection Observations, Including Exposed Skin and Research-Grade Ingredients - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcTJJa2NvbUhhMDYzaldxMEhISzRGOURiRHo4eWlKQjNqOEhrcHdqeFh2QmREbEY2Wl96Y1ltakxZQmRBQ3FKUkRZakVwSnJXTVVRWWl3YWU2R05oaTFOZFZ0cFM3d1llb2xWNGcwNG80QUpBaFJOS3B3REltNnczeE5FQWx1elVkdGVhdkJhdm5YdFV3UF9Wazln?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews",
+   "x": "Houston Pharmacy Behind Recalled Compounded Tirzepatide Vials Drew 14 FDA Inspection Observations, Including Exposed Skin and Research-Grade Ingredients Medical Daily"
+  },
+  {
+   "t": "FDA Must End the Compounding Charade - RealClearHealth",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSnZzcDlnRUw5MGpYMmdUUDdPZmRkQXI1d19CaXlwUVgwUEtxWTJGYmVndVlfalpCcmtobkpYWFQxOXJGSjZiTUVic2FIWjQxOHJHekxXVWZHYWlZQ1RuY1Jjbk1hZTItSkQ2XzE2UWltb3dGSWZMVlQwY3p6SVg2TExyUHJ0NTBQLVZ3TXhVQTJYQ0xwU3Nn?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews",
+   "x": "FDA Must End the Compounding Charade RealClearHealth"
   },
   {
    "t": "hims faces legal action as fda restricts compounded weight-loss drugs - www.polskieradio.pl",
@@ -107,13 +135,6 @@ window.FEED={
    "d": "2026-10-18",
    "s": "gnews",
    "x": "hims faces legal action as fda restricts compounded weight-loss drugs www.polskieradio.pl"
-  },
-  {
-   "t": "Counterfeit Versions of Eye Drops Found in Several States",
-   "l": "http://www.fda.gov/drugs/counterfeit-medicine/counterfeit-versions-eye-drops-found-several-states",
-   "d": "2026-10-18",
-   "s": "fda-drugs",
-   "x": "Counterfeit versions of over-the-counter eye drops have been found in Florida and Georgia in stores serving primarily Spanish-speaking customers. These products also may be in Louisiana, Mississippi, North Carolina and potentially other states."
   },
   {
    "t": "HIMS Stock Climbs Overnight As FDA Advisory Panel Backs 4 Peptides — ‘Pharma Bro’ Martin Shkreli Goes Short - Stocktwits",
@@ -226,13 +247,6 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews",
    "x": "Peptides at a Crossroads: What Wellness Providers Need to Know About HHS and FDA Actions JD Supra"
-  },
-  {
-   "t": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWpEVXdRWkQxSU5HenFhWndwRTAxOVNmTW1CRllWaTVWdF9obGJxS084TGdQNFhIMERWOFNXejNrN2gzbG5BX1pOd1FpQzR1OXBhUDdGYUFVVllVLWZkbjBmN3ZEeUNQcXhSbzNZc1lRNnJkU0JUaVRibU9HR1hGYTdFV0NSVHVha3VZUk9lSmVYalpTUzRuNWVuNUw3a3NvblhucVNBdVlhUzlKd1V6ZWFiXzQyRHp2MnE3RUlFbHNDQTB6MEpPeg?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews",
-   "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
   },
   {
    "t": "Peptide FDA Updates: Latest News on Compounding and More - GoodRx",
@@ -444,20 +458,6 @@ window.FEED={
    "d": "2026-09-25",
    "s": "gnews",
    "x": "Peptides: Huge Promises, Unproven Hype Outside Magazine"
-  },
-  {
-   "t": "FDA warns compounding pharmacy over sterility of GLP-1 drugs - KING5.com",
-   "l": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxNalVMcmNadkhYVkhaM2tNSG1pbm5fZWNfX1cwVjdPam16UW15eGtyeEZmelpZVWdJbjFldE04aC1sYnZMd1g0OGZ1ajZ4M28wTkVCbVZWbkVWSGZfcG9wUXRVVEllbDNDMVl3aXRjaWZFRkpnQnI2c3NwTjhXMG1lWVR5ZFRUT2JEaHVlWDB0RDFGYjhKXy1iY1RmOFA5ZDc3Q2tyNWRkZ0dZaEp6NlhCUUw2ODI4S19wWjJXbG11cENOQ2xWZ25kWG9WTXd2NVhON0lLV1dQTkZIT00ycDNZSUx3N1RsU2h3U1ZvUFY2bTVoS3p1?oc=5",
-   "d": "2026-09-24",
-   "s": "gnews",
-   "x": "FDA warns compounding pharmacy over sterility of GLP-1 drugs KING5.com"
-  },
-  {
-   "t": "FDA slams GLP-1 compounder over risk of contaminating drugs ‘with filth’ - BioSpace",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY0g5QmZPSDJSd1BjYkNuUGszRER1SElQZ0R4V2JtZFdoUjNNYndmQmhTMVJ2MkFRSmVIMkwzTHpuY3A0dlZ2NTBVb0pVU2lxTmxjaG9HZXlhS2xnaVBqSUdrVGg0dGRaeFBpZElOOFNBaHBZeUtSWlF2dW5KaEVSYW9rX3AzR1NSS0VYZngwbzd3T29vQ2FicEN0ckhQMWcwMnZPamp5RW93OW9Cc3c?oc=5",
-   "d": "2026-09-24",
-   "s": "gnews",
-   "x": "FDA slams GLP-1 compounder over risk of contaminating drugs ‘with filth’ BioSpace"
   },
   {
    "t": "Centric Compounding Issues Nationwide Recall of Glutathione, Myer’s Cocktail, and Tri-Immune Boost Due to Elevated Endotoxin Levels",

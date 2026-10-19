@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-19T13:32Z",
+ "generated": "2026-10-19T22:26Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-19T13:32Z",
+   "checked": "2026-10-19T22:26Z",
    "ok": true,
-   "new": 117,
-   "seen": 143,
-   "lastOk": "2026-10-19T13:32Z"
+   "new": 114,
+   "seen": 141,
+   "lastOk": "2026-10-19T22:26Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-19T13:32Z",
+   "checked": "2026-10-19T22:26Z",
    "ok": true,
-   "new": 1,
+   "new": 6,
    "seen": 15,
-   "lastOk": "2026-10-19T13:32Z"
+   "lastOk": "2026-10-19T22:26Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-19T13:32Z",
+   "checked": "2026-10-19T22:26Z",
    "ok": true,
    "new": 0,
-   "seen": 2,
-   "lastOk": "2026-10-19T13:32Z"
+   "seen": 1,
+   "lastOk": "2026-10-19T22:26Z"
   }
  ],
  "items": [
@@ -105,6 +105,13 @@ window.FEED_ART={
    "d": "2026-10-19",
    "s": "gnews-a",
    "x": "Illegal weight-loss drug retatrutide on the rise in the Netherlands NL Times"
+  },
+  {
+   "t": "Are peptides safe? Missouri doctor urges caution with online trend - NewsBreak: Local News & Alerts",
+   "l": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZjJ1NExlczZvTWZDZ0xSaGNwTHRjQTVoMFFDYkJnUjF5dFJtNnQxS3dxZ2c3dXkxaVhwVFI3X2RtZ2xSV1BlLUdGTjFHakpUNHUyQ19tZ2tzUDg2dGswYkN5bU9DeTlhTHlYOThvSVdZVFJWQzcwZEdQQTBTSXdReEdqV0tZUV9CMDVJVlZ5ZFhYR3N0NWI2T2F2X2V4TjY5Vk8xNW9Gcjdza0tIN3Jrak9ia3dCQmg3SzcxbTZQOExvNS11SEE?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "Are peptides safe? Missouri doctor urges caution with online trend NewsBreak: Local News & Alerts"
   },
   {
    "t": "University of Missouri doctor warns about buying peptides on the gray market - KCUR",
@@ -331,13 +338,6 @@ window.FEED_ART={
    "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
   },
   {
-   "t": "Warning on weight-loss injections and peptides for patients having surgery - NZDoctor",
-   "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQWUZtdVZGTk1CRjllcF9aZU9kWFotOEJSYWYzYkpGSkxMOUFKNE0tSXZ6XzdCaTNIeHlkaXgzcVc2aG5qal83U1h0ZEFfTGxpQ2xtY3JGRmo5UmlBdkh2MFQ4UXJScFhDZ2NXeGdHY09LRk1jS3NaUGJ2TjlOSUQtNVozV3RlNFp2bzltQlNuRzVieTE0LTRLZFZHQ3ZkbDdlSklGSXkySFFhUlBkTlZ0WFF1NA?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Warning on weight-loss injections and peptides for patients having surgery NZDoctor"
-  },
-  {
    "t": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
    "l": "https://www.statnews.com/2026/10/15/trump-administration-advances-plan-peptides-rfk-jr/?utm_campaign=rss",
    "d": "2026-10-15",
@@ -345,11 +345,32 @@ window.FEED_ART={
    "x": "U.S. health officials are moving ahead with a plan to allow specialty pharmacies to produce certain peptides, a class of largely unregulated injections favored by health secretary Robert F. Kennedy…"
   },
   {
+   "t": "Retatrutide treatment in streptozotocin-induced diabetic rats: renal inflammatory cytokines, HIF‑1α expression, and histopathological injury profile.",
+   "l": "https://doi.org/10.1007/s10735-026-11013-9",
+   "d": "2026-10-15",
+   "s": "epmc",
+   "x": "J Mol Histol · Keskin U, Altın E, Özatik FY, Sezgin AK, Gündoğdu AÇ, Arı NS, Kara MK."
+  },
+  {
    "t": "New study examines GLP-1 impact on interactions with criminal justice system, employment, housing stability",
    "l": "https://www.statnews.com/2026/10/14/health-news-glp-1-study-impact-interactions-with-criminal-justice-system-employment/?utm_campaign=rss",
    "d": "2026-10-14",
    "s": "stat",
    "x": "A wave of clinical trials have begun to test the ability of GLP-1 weight loss drugs to quell various substance use disorders, with some promising results. A new trial announced…"
+  },
+  {
+   "t": "GLP-1 receptor agonists and hair loss: adverse effect, epiphenomenon, or therapeutic paradox?",
+   "l": "https://doi.org/10.1007/s00592-026-02812-3",
+   "d": "2026-10-14",
+   "s": "epmc",
+   "x": "Acta Diabetol · Leite Júnior AC, Ribeiro Junior HL."
+  },
+  {
+   "t": "The pharmacotherapy for pediatric obesity: insights and challenges from adult weight-loss medications.",
+   "l": "https://doi.org/10.1007/s40200-026-02110-3",
+   "d": "2026-10-12",
+   "s": "epmc",
+   "x": "J Diabetes Metab Disord · Chen Z, Zhou Y, Li G, Muthanna A, d'Arqom A, Tham CL, Ho YC, Lee MT."
   },
   {
    "t": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
@@ -364,6 +385,13 @@ window.FEED_ART={
    "d": "2026-10-08",
    "s": "epmc",
    "x": "Eur J Pharmacol · Koceva E, Moll GN."
+  },
+  {
+   "t": "Human evidence for BPC-157 in orthopaedic and regenerative medicine: a systematic review of efficacy and safety.",
+   "l": "https://doi.org/10.52628/92.3.15837",
+   "d": "2026-10-08",
+   "s": "epmc",
+   "x": "Acta Orthop Belg · Poolton JT, Minett J, Kazmi A."
   },
   {
    "t": "Emerging risks of health optimisation: refractory nausea associated with peptide injections reported to contain retatrutide.",
@@ -434,6 +462,13 @@ window.FEED_ART={
    "d": "2026-10-01",
    "s": "epmc",
    "x": "Cells · Pînzariu A, Șerban I, Soroceanu R, Vlăsceanu V, Maxim M, Miler A, Leonte S, Atodiresei C, Moscalu M, Manole L, Trandafir L, Șerban D, Timofte D."
+  },
+  {
+   "t": "Self-Reported Adverse Effects Among Social Media Users Taking Nonapproved Retatrutide.",
+   "l": "https://doi.org/10.1001/jamanetworkopen.2026.38929",
+   "d": "2026-10-01",
+   "s": "epmc",
+   "x": "JAMA Netw Open · Sehgal NKR, Tronieri JS, Rader B, Ungar L, Guntuku SC."
   },
   {
    "t": "FDA PCAC peptide vote: what the 503A recommendations mean",
