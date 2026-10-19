@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-18T20:52Z",
+ "generated": "2026-10-19T04:51Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-18T20:52Z",
+   "checked": "2026-10-19T04:51Z",
    "ok": true,
-   "new": 118,
+   "new": 122,
    "seen": 149,
-   "lastOk": "2026-10-18T20:52Z"
+   "lastOk": "2026-10-19T04:51Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-18T20:52Z",
+   "checked": "2026-10-19T04:51Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-18T20:52Z"
+   "lastOk": "2026-10-19T04:51Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-18T20:52Z",
+   "checked": "2026-10-19T04:51Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-18T20:52Z"
+   "lastOk": "2026-10-19T04:51Z"
   }
  ],
  "items": [
@@ -51,6 +51,34 @@ window.FEED_ART={
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
   },
   {
+   "t": "‘Serious adverse effects’: Experts warning after alarming rise in hospital visits from use of black market peptides - Nine.com.au",
+   "l": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNdk5UdjRVWWw1VlFiNDdNVDFCdUNSNmpUVWxZVHZzTmh1eUp5dUNfdDR2Vy1oNW13bllRcVIxeFZYY2Q3LVdSY21GZXBDdUxWcTdLSy1LQUt5UGlLUlRfOU9SQ1pQeWxvVDdnbE1mRVNxNGg3QUNHcDk3MXhBRE5ZZkRvcDBpaW1PdmV5WlVCNFViRHpmVHVjX1ZwWjFWMGVWdUdUblo3VF9kX2lnTGZQZ2UxbGxldkpsbUdROGVaaEpOTTNsV0lJTlZiSzEzMEpuOFh4RjNtYUl5ZXhBQVp4ZFFPZWpWX01IMUU0cEZmenNTTjM4X0xVNGpLZ25YZ3hlQXBBNUZoWQ?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "‘Serious adverse effects’: Experts warning after alarming rise in hospital visits from use of black market peptides Nine.com.au"
+  },
+  {
+   "t": "Experts warning after alarming rise in hospitalisations from peptide use - WAtoday",
+   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVlIxNG55TEd5VFczeW8zOWx0dnBLTm9MejE2QVFzUGpmOXhTaGdjdU9FWTgxY0JSQkg3amtkOFZZMGxqRVlXeDFDM2dqeGtoR09BLUsydHljYkQ0MEowOE5qZFN6SE9kZ2pOZm04c0phMTVMQ0M2Z2tDUVItM3YydjBZQ2p2bmZXUGVtbEo4Mm5yOVpHejZFTkJjNHNUSGcxZ1hmMVFEb0txQXFpamZlQy1jUFB6Qm0wTTZVbm9KN2Q0eUZTZGVEMw?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "Experts warning after alarming rise in hospitalisations from peptide use WAtoday"
+  },
+  {
+   "t": "NSW Warns Over Unapproved Peptides After Hospital Surge - Oz Arab Media",
+   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbEZfZ3hkdkhXVEFnNWc4T2tKa2NtNzE0aWZ1MWRsSG02cXVTeGNTeV9QZmpnSS1qNlJJQkcwd1N3OW9ndF9oNXFVVDRCOWVhNXFib19GbkVIUmdPQTd4X2NYbm1relU2bjhqZXB5aFdzU2FLWEcxcEJ3RXZNQWpNbllfTQ?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "NSW Warns Over Unapproved Peptides After Hospital Surge Oz Arab Media"
+  },
+  {
+   "t": "Peptide warning as emergency department presentations soar - Newcastle Herald",
+   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeFVYSXBKTnUyelgwNHN3Zm1uQWc2YzNfSUdEOHc0QWU1T0tQTElEcjk4eDYtVTFUVmhWb1dkVDAyMDlsQmFiakJmSnVVTm1OQzl0T0E1eTdhdDBWM0ZlMmRZZ29ycTlmZVhsNTNQWWZPWmU3d1RPRktLeWZfXzNfMEdpZ0dGM1JfVGpNb2J4WW96WGNuSm91X2xEQzdLelp2bWF1cThHNnVGNHMwZFMwSg?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "Peptide warning as emergency department presentations soar Newcastle Herald"
+  },
+  {
    "t": "University of Missouri doctor warns about buying peptides on the gray market - KCUR",
    "l": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSnlONVZEUXdWYTUySHNDdjhBZlZ5T21GV0EzdVJ1ekJtaXpKOTlvTHo3MmtJVU00Z2h5cGRwOF9HdTlsM0FjQlZmRVRvLXV5Zzlzc2NRYk1hLXdFM25zajJ6U0NmYlR6RlJoLWt4WGhGNldFNkFXd3ZqZk8yVmUyQWp4elMwYm9TOU1iNDVDTzZKeDMzRXNVVUxsaGdWYlRNYVI1el82TENYZjJtMGlFYnJJaUQ3QQ?oc=5",
    "d": "2026-10-18",
@@ -63,6 +91,27 @@ window.FEED_ART={
    "d": "2026-10-18",
    "s": "gnews-a",
    "x": "4 red flags – and 1 truth – amid the peptide hype USA Today"
+  },
+  {
+   "t": "'This is not minor': Peptide warning after surge in NSW hospital visits - ABC News & Headlines – Australian Broadcasting Corporation",
+   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTEg4aFY1aFRrN2Ffa0Vva2V5RUUtODhIVW5LZ00wVFpyQXVtMFJSWUpHQmpBQ1BySDlyc3lYNFBMS0pQcDBsNmpEdDZyUGl4NDk2b2ZRMzQyUjMwVzF3WnBXeVVKZXJPWVJDNjFjVm9PbzZpeUgxcUhIQjhSM2E0ZHBsY1Zfbk1mdTZfQlp5UnE5WFliUHZBSVBGOTBhSWFIZWFOZ3Nn?oc=5",
+   "d": "2026-10-18",
+   "s": "gnews-a",
+   "x": "'This is not minor': Peptide warning after surge in NSW hospital visits ABC News & Headlines – Australian Broadcasting Corporation"
+  },
+  {
+   "t": "NSW Health warns of surge in hospital presentations linked to peptide use - NSW Government",
+   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlNsREJQcXVybjlVNWtWOHd1MU93eEcxWmhXeHZCV19Bb3hXamVSdXdVVnR5cXhIM0F4N3pTVl9TR0dpalkyNjVsOGp5X3htYUY3SktaRXIxdlo5amZpN3I2RVpPcWJYVXhZNmlWZ1NDdjRSVWJYWDEtcmo2R1hVcHZPMEM1VDJ1U3g2dTVoWVNvSlNPNVFIR0xMbWNTWFV5YmN0NS1pcFJBYkZISDhHZERhTl8?oc=5",
+   "d": "2026-10-18",
+   "s": "gnews-a",
+   "x": "NSW Health warns of surge in hospital presentations linked to peptide use NSW Government"
+  },
+  {
+   "t": "‘Russian roulette’: NSW emergency department visits surge amid dangerous peptide fad - SMH.com.au",
+   "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOXluSi02V3VqUVo2VFZXREJKSEd3M2tRdDV3V1RGUldWZ29kYUVZWW16ZjllNzJhZ2FHX0VfcFpkd2RUaVk4dHhrRHk3bFRLWUJnR3MyOVZXbEY3RlJkYk44YnNBbmdOQm9ndmJTOVV5SVhoa0twc0ZiaXJReTBlVXoxMEJGLXpXMVBLV3VibXBJRC11RjdCeHdIdU4wRVhUNjBGV095VEF3SnF5QUpqUVBpQ2VtSWR3Y1FLZGplUDhSclkyNU90LU12c2pIUGttLWNDWQ?oc=5",
+   "d": "2026-10-18",
+   "s": "gnews-a",
+   "x": "‘Russian roulette’: NSW emergency department visits surge amid dangerous peptide fad SMH.com.au"
   },
   {
    "t": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides - Pharmabiz.com",
@@ -161,6 +210,13 @@ window.FEED_ART={
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
+  },
+  {
+   "t": "2026 fda approved weight loss drug retatrutide approval status - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCVTVENWk4eDFpSmZGQ3RvMTZ3eWRTM1ZvTTNJVGhWWDJ0VFktVE96RE1FaEcxTDcyRVRmVTRRSTVyRlVuM25MdTQtNHZpRUVvNTRuU3ppajZJTGN2QTNSRDRkdzRXbk5IQWRDRkNsUVpDMW9qczQwX1lsY1l5eGtZTmxnbHY0d2dqN3UwbXRWdU1TT3NvcHIwc1dXbC0xZ0xnSEktZzlOV3NoN3ZPZQ?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "2026 fda approved weight loss drug retatrutide approval status www.polskieradio.pl"
   },
   {
    "t": "TG SAFE warns against unapproved weight-loss drugs and peptides - Hyderabad Mail",
@@ -280,62 +336,6 @@ window.FEED_ART={
    "d": "2026-10-15",
    "s": "gnews-a",
    "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss BusinessWorld Online"
-  },
-  {
-   "t": "Retatrutide delivers 18.8% average weight loss in Phase III trial of people with type 2 diabetes - Diabetes.co.uk",
-   "l": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOdmpMLTN6aVZRVlBCWnNUQm9ybElsOGlnUkNlZGVVMDN3Z09VZFBZVGFYUGtJcVZVUnlodlRBZWNxZzhybWdYTkFHdEQtSlRCM0w2MTFzdk5sSXBad1dOSXdqYWMyQTFEYWRMVU03dU1CTlhXUGlqTGZsVmZOV05pc2RVN1ZVRmhRMTJZTHNpT19ReEFKUHRrNXVwX1N3a25pcjZYYy15dXoybml4bVViQ1FzYjFMdlIxNHVyMGgxNXZaUmNKSk1LdDJGQnUwbF8yQUdqMURfRFY?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Retatrutide delivers 18.8% average weight loss in Phase III trial of people with type 2 diabetes Diabetes.co.uk"
-  },
-  {
-   "t": "Volta Peptides Launches VoltaPeptides.ca Exclusively for Canada; VoltaPeptides.com to Focus on U.S. and International Markets - USA Today",
-   "l": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQWW84eF9teGQtcTE0WEQ3SmtyUk1BZTlYcW5Da2J0VmpyYlZrX0dleUlqWmtHRjJLZFFvNlFDV05YYmRDLW5VaGUtbmNEYTZvMlE5MlNnREZlNmlWa0lOZGtiYmFQejlUNEVjcFl2QXZQa2t6anhOUGRYcDd6ZjFVd3hZUDloMG1PVV9JQWZzSUhENXNGUzQ5Um9XbkNBakRkZTJuY25GaWJxcjIteEVqS3o3VXZSOTRXck44T1NCQ3otTi1YbElLbzg1alhSVG5qOTJEa2hvdVI5LTB0WGU3YUpYLXh4Z19PV1A1NjRVdDF0RzF6eXpSOTBtOE8xWHRIV2ZXNVhn?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Volta Peptides Launches VoltaPeptides.ca Exclusively for Canada; VoltaPeptides.com to Focus on U.S. and International Markets USA Today"
-  },
-  {
-   "t": "Inside the growing market for peptides amid concerns over safety - RTE.ie",
-   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTE82OWFEZXdReEk5NXNCMk5QUVJxTlFaWDkwbkpDOGZOZTZ3WUxtRmZzdUtqLTRvYU1tRVFYNVZrdVh3WXVRRlZ1dFUzQVNpYWhjcWlXUEV3Qlh4TTNFamlQTGNOS0hRUzdIRUkxejVBMW9VUGVkRjNCVTVjMEk?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Inside the growing market for peptides amid concerns over safety RTE.ie"
-  },
-  {
-   "t": "Unexpected Retatrutide Side Effects Reported by Reddit Users - Medscape",
-   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaFVvUEdwakYxdzF4Y2hhRTE1RkI3bklGZ2dwT1psT1NjUXFkdlJ1SkExMXl5QXRWWDhaZEp1THFBMlJmbHdjVzd4X0FlTnZnWFJUazNydk1QNmtBOTdVbkZuT2paVm1UZ2ZLWUprYlRXcWlZUEZqaW9CdGNHQUxGTVlEYjFQNE9qNVpkNzB1bTZjb05jMHlJN1BPUHVMdFdFZi1EWm93TTZLRzg?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Unexpected Retatrutide Side Effects Reported by Reddit Users Medscape"
-  },
-  {
-   "t": "Eli Lilly’s Retatrutide Lawsuits: What Pharmacies, Telemedicine Companies and Online Retailers Need to Know - Buchanan Ingersoll & Rooney PC",
-   "l": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPTzBob3JvbVNGZ1N1cDVwYWNzcmtnajBXOW9PQTgwMDRNbTRvbWhsVTJ1TWpoWnhXbGUtcmpfZ3JRQV81OG1mX0J1V2FIVEIyNlBBSjZVcGJ2LWxtemZQSUVEMkIxOHJtSXFtMlY5dWRETmVjVmxKSWZnaUpRd0dMTlRqTHFXMHd2SnQyXzhoUHhveXJQdUlhbk1GeVV0ekFXM09fNEIxTVJHbzNCYUVHZFNWSjd6WkFWZmRwS1hnNVdMeGM?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Eli Lilly’s Retatrutide Lawsuits: What Pharmacies, Telemedicine Companies and Online Retailers Need to Know Buchanan Ingersoll & Rooney PC"
-  },
-  {
-   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - News4JAX",
-   "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPZ2ZIRkEtMnE5a21oRGx3Y2p5QzhRVjVuRjAtZFo5bnBhYmwyN3F3OS11VmlNYmUwdHFUcjRZZm0tVGNaQ1BTa3VsckUya05YYUV6SHBmbDZWeWNPZ2dLbmI5bFRzcGdOOEVRaEhsLUpOWExzZy1DZ3AyVUlPUU8teGNEYi12RXNiWDdpWDJHUXR5WHhHT09LdkVldnlkbjF4R3lQNzZIUEpIdU9FUEhSdlJJeXJOR0U?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. News4JAX"
-  },
-  {
-   "t": "People say these peptides hurt them. Their stories are muffled in MAHA's push for medical freedom. - Medical Marketing and Media",
-   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPUDlxc0hORWZlOVlkTGlObkR2NTFhOWgwMWpQU0FoQnVTdHJZSDRhbnRuY2NybE1SNlBlRnhKdU5ZQ05mV0JTTm9lMk9GMVFKOXdRVEZjTEZXTzNpU3V2Vjl4dGlTN19ZOVhCR0llSUtERnNOMkp6YlgxVUR0c2pENFVveGVkaUVyVXM5dmpDcUFSc2JzOGIzUXVnZw?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "People say these peptides hurt them. Their stories are muffled in MAHA's push for medical freedom. Medical Marketing and Media"
-  },
-  {
-   "t": "Engineers use AI, Reddit to identify potential side effects of unapproved new GLP-1 - Medical Xpress",
-   "l": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPUk1SRGFZZllSWEVSMlcySkRjMTZ6cjdwWFowV21WWElwMzBmOGU1SXBocFI0MVBZcmpXWExGQUhhbGowcmo3czJUZThrU3pfSTdHRW5nRks5bDF4UGZ3emRPbHU0c1M3UFByZlhGenJDZkNxLUFuUk1samo0SXlxSkx3?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Engineers use AI, Reddit to identify potential side effects of unapproved new GLP-1 Medical Xpress"
   },
   {
    "t": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
