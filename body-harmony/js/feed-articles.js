@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-19T04:51Z",
+ "generated": "2026-10-19T13:32Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-19T04:51Z",
+   "checked": "2026-10-19T13:32Z",
    "ok": true,
-   "new": 122,
-   "seen": 149,
-   "lastOk": "2026-10-19T04:51Z"
+   "new": 117,
+   "seen": 143,
+   "lastOk": "2026-10-19T13:32Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-19T04:51Z",
+   "checked": "2026-10-19T13:32Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-19T04:51Z"
+   "lastOk": "2026-10-19T13:32Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-19T04:51Z",
+   "checked": "2026-10-19T13:32Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-19T04:51Z"
+   "lastOk": "2026-10-19T13:32Z"
   }
  ],
  "items": [
@@ -79,6 +79,34 @@ window.FEED_ART={
    "x": "Peptide warning as emergency department presentations soar Newcastle Herald"
   },
   {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "NSW Logs 1,180 Emergency Presentations Mentioning Unapproved Peptides - https://streamlinefeed.co.ke/",
+   "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR2lFblhoVldESVNZOEE4VVNFMkdVakNNQ3FNdEtmanhiRjRZeVZQSmpfODJYeGJSSFp0cnAwc29qZXNkOEllbG44Z2ZTUlZDVW00Z2JlXzIzY0p6QmpUMFZoYkgxbFprZU5xRHlRLVpIZ1NVMnVZbVVFajJYRm9xU3htX1JSc2FMdm9yRlVXMUZVZG93bkpYbktB?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "NSW Logs 1,180 Emergency Presentations Mentioning Unapproved Peptides https://streamlinefeed.co.ke/"
+  },
+  {
+   "t": "fda concerns unapproved glp-1 drugs weight loss retatrutide - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb05yV0ZHd3h1UVVMcFJzTHU5M3J6eG1FWlZ1aVZSclNDZWhkZFdlaW00N2dNZnN1bV9oZFFsUHZKeGRWR1dZT2dKOEJYcU9Yby1Nd0hzSkt3bFhwWmhzcUJSOU04NlFoTUNUUWQzamtKNTVrRDFJTTdOOWRLeWpCUkF4aTBTU1JDbEFPOVB4NVM2NldHNFhZSEZfbDFTbnY2dkNHMXJhZEFPU0I5ZXc?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "fda concerns unapproved glp-1 drugs weight loss retatrutide www.polskieradio.pl"
+  },
+  {
+   "t": "Illegal weight-loss drug retatrutide on the rise in the Netherlands - NL Times",
+   "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYlNSX252cm9Tc1VJX0NwcWpjd1F3R21uNmtfbW00N0VBc04tQ25ZN0g0UUo0YThsazV4YThPaGZGbXJCOTdYcHE3X2NkWk1vZUVRYjE4di0tbnQ5eTVSSHNYOWZHX1h5bXB3eWJCYi01QnJhUTg3dWZwam5HTXhyc015UU1Od2h2VmVJ?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "Illegal weight-loss drug retatrutide on the rise in the Netherlands NL Times"
+  },
+  {
    "t": "University of Missouri doctor warns about buying peptides on the gray market - KCUR",
    "l": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSnlONVZEUXdWYTUySHNDdjhBZlZ5T21GV0EzdVJ1ekJtaXpKOTlvTHo3MmtJVU00Z2h5cGRwOF9HdTlsM0FjQlZmRVRvLXV5Zzlzc2NRYk1hLXdFM25zajJ6U0NmYlR6RlJoLWt4WGhGNldFNkFXd3ZqZk8yVmUyQWp4elMwYm9TOU1iNDVDTzZKeDMzRXNVVUxsaGdWYlRNYVI1el82TENYZjJtMGlFYnJJaUQ3QQ?oc=5",
    "d": "2026-10-18",
@@ -119,13 +147,6 @@ window.FEED_ART={
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides Pharmabiz.com"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "is retatrutide a weight loss drug - www.polskieradio.pl",
@@ -315,27 +336,6 @@ window.FEED_ART={
    "d": "2026-10-15",
    "s": "gnews-a",
    "x": "Warning on weight-loss injections and peptides for patients having surgery NZDoctor"
-  },
-  {
-   "t": "NewBioRx – Research Use Only Peptides - Generation Iron",
-   "l": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9RejhPem43ZHNRS0VOcUxwRnZUWXhhbDk4ekF2N2ZmWjRPdWtnS3U0VTFxNmp1TnFINTJkbURvc1Vlc2lCbDBxb0g5MURNTm5fT200Ml8zNzdSbEJUTmt1dElsTk0?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "NewBioRx – Research Use Only Peptides Generation Iron"
-  },
-  {
-   "t": "Buying weight-loss injections, ‘peptides’ online? Telangana drug regulator says you could be risking death - The South First",
-   "l": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOUHBuc0Z5QUFpQUV3bEF6Vl9aZVFPZ1BOVTlDX1dmdm1hWGVZWnZWRXV2LWsyaFJrMXQwMDlNanlsZTRMMkg0SnVXUWh0OUwzdHdkQXNHRUZBR3NVR2VxVFBXZ0ZDN0FSdnlLY3l5RnZ6MUZ1YUEySjBnRnhGbXNWOC1PTXhOSUZrbnNTdVV3WEtNTHBaMUNsRV9kaGxaalBrSmRPd0xuTkRFSFoxUU1HUXo0RDZFZldmME9sYkdXZkIzaWVRQ1RiTVBFWnA4UVRtenc?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "Buying weight-loss injections, ‘peptides’ online? Telangana drug regulator says you could be risking death The South First"
-  },
-  {
-   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxONVl4X3VkZ3NYQXU2OGFPZEJUUmJPRkRKTmpqbTNkVV8zRFE5bElteTlPZXFjcEZRM1BUUVR5UENSWDBrZUdnZUxPbHZiZjFSUzVHMDlkNzRETnFaX0NwR1RvTGRqWG4waS1obzkxdDZoczRRMXFlSFAxNmFnMGhnZDZSY0lVN1NQSHBrNWstdElnRFJjUnc4UHU2anE4UWF6U2c?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-a",
-   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss BusinessWorld Online"
   },
   {
    "t": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
