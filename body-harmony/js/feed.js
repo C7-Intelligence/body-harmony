@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-20T11:48Z",
+ "generated": "2026-10-20T17:17Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-20T11:48Z",
+   "checked": "2026-10-20T17:17Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-20T11:48Z"
+   "lastOk": "2026-10-20T17:17Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-20T11:48Z",
+   "checked": "2026-10-20T17:17Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-20T11:48Z"
+   "lastOk": "2026-10-20T17:17Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-20T11:48Z",
+   "checked": "2026-10-20T17:17Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-20T11:48Z"
+   "lastOk": "2026-10-20T17:17Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-20T11:48Z",
+   "checked": "2026-10-20T17:17Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-20T11:48Z"
+   "lastOk": "2026-10-20T17:17Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-20T11:48Z",
+   "checked": "2026-10-20T17:17Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-20T11:48Z"
+   "lastOk": "2026-10-20T17:17Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-20T11:48Z",
+   "checked": "2026-10-20T17:17Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-20T11:48Z"
+   "lastOk": "2026-10-20T17:17Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-20T11:48Z",
+   "checked": "2026-10-20T17:17Z",
    "ok": true,
-   "new": 164,
-   "seen": 188,
-   "lastOk": "2026-10-20T11:48Z"
+   "new": 165,
+   "seen": 189,
+   "lastOk": "2026-10-20T17:17Z"
   }
  ],
  "items": [
+  {
+   "t": "GLP-1 injections recalled nationwide: See affected lots and what to know - Democrat and Chronicle",
+   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeG95RGtHdXcxd0xOa1laQ1piVWRmWnU4RlBlaDRIR1BsODFhZFZSdVVHRVNzNHJxUzU5MWprbU5DdmF1UnZjYjYxYTR4M0h6eG8zRWZ2al9nalQ4NGV3ZWY4c3hDTjlucmRzTkdaclhGVEZiSEVON3dwOEpSRThKZlRxS1BoNGJaRHQ0dVowa1duM0hwaWkxLXZta3JQODdaaUNwak1FRmZ1QWFENHkxZg?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews",
+   "x": "GLP-1 injections recalled nationwide: See affected lots and what to know Democrat and Chronicle"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
@@ -95,11 +102,18 @@ window.FEED={
    "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
   },
   {
-   "t": "GLP-1 injections recalled nationwide: See affected lots and what to know - Democrat and Chronicle",
-   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeG95RGtHdXcxd0xOa1laQ1piVWRmWnU4RlBlaDRIR1BsODFhZFZSdVVHRVNzNHJxUzU5MWprbU5DdmF1UnZjYjYxYTR4M0h6eG8zRWZ2al9nalQ4NGV3ZWY4c3hDTjlucmRzTkdaclhGVEZiSEVON3dwOEpSRThKZlRxS1BoNGJaRHQ0dVowa1duM0hwaWkxLXZta3JQODdaaUNwak1FRmZ1QWFENHkxZg?oc=5",
+   "t": "Compounded tirzepatide recalled after FDA warning - pharmaphorum",
+   "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUWMzc2dNaHlsVnFOaEo0My0wdW1iUHBqZTNMb2VRYkc3UTNWdjhFdmpNUjBYZk42OVRhS184dGwzOEZVU1RrOXE3cDhvSkFvaDdMQnZuaC0zZm1WQkNkbC14UDg0WGw1aUlBRENobVk3MHMxcXVTR1VQVkdYcUM4ZF9tY1NkQQ?oc=5",
    "d": "2026-10-20",
    "s": "gnews",
-   "x": "GLP-1 injections recalled nationwide: See affected lots and what to know Democrat and Chronicle"
+   "x": "Compounded tirzepatide recalled after FDA warning pharmaphorum"
+  },
+  {
+   "t": "FDA Must End the Compounding Charade - RealClearHealth",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTzlpcFRtUnJ5LWVvckJVMG5JZzdOX0VmR0I3bkdURkJlTjJ1YmdKaC1waDB2bXRDM0RMMEQ0T0szMHdQMy1LZS1TdzFnZ3dtd0dFNW1NMnNxemV5UW43X18tZzI4UWsxUGFWMEZoQ1lHX2lNWUNlbXU2Y1VJUGNpb2FDazVrWG10UklrSmd0WW9hMWF4THNv?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews",
+   "x": "FDA Must End the Compounding Charade RealClearHealth"
   },
   {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
@@ -298,6 +312,13 @@ window.FEED={
    "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. CNBC"
   },
   {
+   "t": "US FDA moves to ease rules on compounding some peptides - Mezha.net",
+   "l": "https://news.google.com/rss/articles/CBMie0FVX3lxTE01MkpCRkw5cHpfZ0lobGI1Y3hrQVlXQlBQQ1FaZld5VkdmVUhIWGtiQlRyZzZuY3pjZnAxcFdUcmxfNzZhWlRuTVFqQ1RSc1BkaFJ3WjlvNzBNX0ZZRzFQNXAzRzJyZXd0Q2l6R01WOVlSMnZRT1JoR3ZZOA?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews",
+   "x": "US FDA moves to ease rules on compounding some peptides Mezha.net"
+  },
+  {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
    "l": "https://www.federalregister.gov/documents/2026/10/14/2026-20989/advisory-committee-cellular-tissue-and-gene-therapies-advisory-committee-renewal",
    "d": "2026-10-14",
@@ -324,6 +345,13 @@ window.FEED={
    "d": "2026-10-13",
    "s": "fda-drugs",
    "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
+  },
+  {
+   "t": "Some who have taken hyped, unregulated peptides have regrets - The Washington Post",
+   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOENGcG5qeVRkOTdPekdtZVVJNzNoLVJrcTNUZWc5ZENXbjlpd0JhODlWUGVUUDlNUk9sVURmLU9JUWttVXFNbFpSQWh4YUpjbWdRWm9vc3dlWWNDQjVhR3BBS3pCcnA3d3JtY296aEVtb0tsVjljTUExeEowUmNkdVN6SkZfdElXakhjYWVMSHRMbl9JSXF2WlBlVklmMl9pNnZPcjBHOW4xZWRPbHFvNg?oc=5",
+   "d": "2026-10-13",
+   "s": "gnews",
+   "x": "Some who have taken hyped, unregulated peptides have regrets The Washington Post"
   },
   {
    "t": "Peptide patients paying up to $1,500 a month face an FDA problem - TheStreet",
@@ -430,34 +458,6 @@ window.FEED={
    "s": "fda-press",
    "x": "The U.S. Attorney’s Office for the Middle District of Florida and the Criminal Division of the U.S. Department of Justice today announced federal charges against Swapnadip Roy, 33, and Vicky Ramancha, 37, both Indian nationals.",
    "p": "FDA"
-  },
-  {
-   "t": "As Peptide Rulemaking Stalls, FDA Enforcement Moves Forward - Pharmaceutical Executive",
-   "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNMndNVk5ITnNRSDBzeGpsUHR3UDVydGtUM0FRRXg1Yk1LVHJLTHpodUZfcmlfSkVtTV9zMGhrSDlrT3JUR1U5eHV5eGc3OG9NMXZoSzhVdUhOVERCVlNLbFdDRlhXY0RvdmZtcF9GWUJEb3A4dVU4X1RpWU41eTdzQVcxMGxFdw?oc=5",
-   "d": "2026-09-29",
-   "s": "gnews",
-   "x": "As Peptide Rulemaking Stalls, FDA Enforcement Moves Forward Pharmaceutical Executive"
-  },
-  {
-   "t": "hims faces legal action as fda restricts compounded weight-loss drugs - polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNYXUwaXl5WHg0alhCbGtDTDJuZjFWazdGNlNOQUd4WEE5djV6RGRJV0JfZU12RWVndF9zeUhiQjVtc0stM1FyWXQxSnU5bktNeUVoUXRKQWxEeHBtY2hWS3YyV0UxbXZqMEg0U2Z1V0R3UHUyWndGZnV0aHNFUzFPMHhaaGk2clNEamZzT3R1d0xHVGJhaWt3M3J2YXl5dWItOW5uaV9GVUhDeG4tbzNybF9ITQ?oc=5",
-   "d": "2026-09-29",
-   "s": "gnews",
-   "x": "hims faces legal action as fda restricts compounded weight-loss drugs polskieradio.pl"
-  },
-  {
-   "t": "Peptide Regulation Debate Intensifies After FDA Advisory Panel's Controversial Vote - AJMC",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQam45bUNva2QtOEx5ODFEdnVQcEhGX2UzcFRTSHNLbTA4N3FqM3RCbFZKbTNJQWtQbVc3cFhrbVh2RFYtenZfWWFFOGU1eFpoMDFHblg2N0hZMWtyczQ3dGg4SnhrOFVaSkZyUExmTGNqY1ZlYzJJRmZFOFBtX2xhajROcWdvWG54QkM5NUNVUmRtVlNiMVBSZHExSUdoa3A3S1ZxQVlsS2o2Sk5TT1E?oc=5",
-   "d": "2026-09-25",
-   "s": "gnews",
-   "x": "Peptide Regulation Debate Intensifies After FDA Advisory Panel's Controversial Vote AJMC"
-  },
-  {
-   "t": "FDA Warning Letter to Empower Pharmacy and What It Means for 503A Compounding Pharmacies - Buchanan Ingersoll & Rooney PC",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdmNHNnF5NFBIUjZMc1BBVUFZNjFNNks4TFpTcUFZR0hmanZKems1V0UyMzNnc1B0elVuME5tcVhpRldLR1dRRExBR19NdWoyU011WGxNNER3SVFjZ2ZXUzJHdUI1NUZCVUpWSnVMbDlzM1VVbXhkNXlJeDFraWlyazZhN0FRT2dUdW1jQzZ5and1aDQ0ZFVLZTFHWWVWbEF0VkdacG9DcTY2RDlyM2c?oc=5",
-   "d": "2026-09-25",
-   "s": "gnews",
-   "x": "FDA Warning Letter to Empower Pharmacy and What It Means for 503A Compounding Pharmacies Buchanan Ingersoll & Rooney PC"
   },
   {
    "t": "Centric Compounding Issues Nationwide Recall of Glutathione, Myer’s Cocktail, and Tri-Immune Boost Due to Elevated Endotoxin Levels",

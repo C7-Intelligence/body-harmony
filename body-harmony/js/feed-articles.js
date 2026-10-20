@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-20T11:48Z",
+ "generated": "2026-10-20T17:17Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-20T11:48Z",
+   "checked": "2026-10-20T17:17Z",
    "ok": true,
-   "new": 113,
-   "seen": 142,
-   "lastOk": "2026-10-20T11:48Z"
+   "new": 112,
+   "seen": 139,
+   "lastOk": "2026-10-20T17:17Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-20T11:48Z",
+   "checked": "2026-10-20T17:17Z",
    "ok": true,
-   "new": 2,
+   "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-20T11:48Z"
+   "lastOk": "2026-10-20T17:17Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-20T11:48Z",
+   "checked": "2026-10-20T17:17Z",
    "ok": true,
-   "new": 0,
+   "new": 1,
    "seen": 1,
-   "lastOk": "2026-10-20T11:48Z"
+   "lastOk": "2026-10-20T17:17Z"
   }
  ],
  "items": [
@@ -49,6 +49,20 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Could Retatrutide Break a GLP-1 Weight-Loss Plateau? - Medscape",
+   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVJ5eW90QXM2ZWJsM2tCd1hJbkFaZzRGdGpXc0Q3enpNS0ZPU25veVozOGJCMndUSUJfQ2hZcHhkbFB5bUNxVmhjUUVtdmJCRUVGSXJzR1Ryd2RCTURPVVhZbzBaRmlDNWlBRWVUQS1UZzhWbzdISlpYYXg3YmZhbHM1UUNQSEhzOWp1RVJVZnFoSXBHT1I5Ynh0WjVrN2dx?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews-a",
+   "x": "Could Retatrutide Break a GLP-1 Weight-Loss Plateau? Medscape"
+  },
+  {
+   "t": "STAT+: A bipartisan group of lawmakers urges the FDA to close a peptide loophole",
+   "l": "https://www.statnews.com/2026/10/20/health-policy-news-bipartisan-group-of-lawmaker-urges-fda-to-close-peptide-loophole/?utm_campaign=rss",
+   "d": "2026-10-20",
+   "s": "stat",
+   "x": "A bipartisan group of lawmakers is urging the FDA to plug a loophole used to import knockoff retatrutide, an investigational obesity drug made by Eli Lilly."
   },
   {
    "t": "‘Serious adverse effects’: Experts warning after alarming rise in hospital visits from use of black market peptides - Nine.com.au",
@@ -329,13 +343,6 @@ window.FEED_ART={
    "d": "2026-10-16",
    "s": "gnews-a",
    "x": "What is BPC-157? Trump administration considers easing rules on popular peptide injections The News International"
-  },
-  {
-   "t": "FDA panel recommends peptides its own scientists rejected, CSPI warns - Nutrition Insight",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3I5NHF5eWF6b3FGQkpMcHJpd1FwOGM3c3pQS0NHSTVxSDVZZ3VERmN5ZlJ0LUVLdWpEc2V3VHpscXlSdEZyYVZSbS1EWWhXcE9SRXdOWHFiVnRScGpvanFtVVBkcVRYUUdPR3hZNzNjSkRHeS00UTU2dE54Y2EzMnJZc0RLV2FJYXc?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "FDA panel recommends peptides its own scientists rejected, CSPI warns Nutrition Insight"
   },
   {
    "t": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
