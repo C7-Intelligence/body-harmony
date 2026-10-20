@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-19T22:26Z",
+ "generated": "2026-10-20T04:59Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-19T22:26Z",
+   "checked": "2026-10-20T04:59Z",
    "ok": true,
-   "new": 114,
-   "seen": 141,
-   "lastOk": "2026-10-19T22:26Z"
+   "new": 113,
+   "seen": 139,
+   "lastOk": "2026-10-20T04:59Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-19T22:26Z",
+   "checked": "2026-10-20T04:59Z",
    "ok": true,
-   "new": 6,
+   "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-19T22:26Z"
+   "lastOk": "2026-10-20T04:59Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-19T22:26Z",
+   "checked": "2026-10-20T04:59Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-19T22:26Z"
+   "lastOk": "2026-10-20T04:59Z"
   }
  ],
  "items": [
@@ -112,6 +112,13 @@ window.FEED_ART={
    "d": "2026-10-19",
    "s": "gnews-a",
    "x": "Are peptides safe? Missouri doctor urges caution with online trend NewsBreak: Local News & Alerts"
+  },
+  {
+   "t": "NSW health authorities issue unapproved peptide use warning after hospitalisation surge - RNZ",
+   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ2ttcDQ4NmJBUGtsd1ozX3phZGR5YW5DNzVuXzhEZk1VTHBDMUJxNkxWSkM3dXRJTWVtd1duckd0endodUxDeE1yZ0tOZ3czd2pZNDU0TXhVbFFnVEZSbGFPa1k0Z3dRc0YzbmM2ZjY1al90cE9nNXduRG8tVG5BWEVxUGlfMDN5M25zYnRrd0VkWW5GX2lBZy1DNVNHZ2FxeUQwRVVpWnU0UnBLemgzUWVWNlUxM3NOU1FYVXM1aDc4ejBrd3gw?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "NSW health authorities issue unapproved peptide use warning after hospitalisation surge RNZ"
   },
   {
    "t": "University of Missouri doctor warns about buying peptides on the gray market - KCUR",
@@ -329,13 +336,6 @@ window.FEED_ART={
    "d": "2026-10-16",
    "s": "gnews-a",
    "x": "FDA panel recommends peptides its own scientists rejected, CSPI warns Nutrition Insight"
-  },
-  {
-   "t": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWpEVXdRWkQxSU5HenFhWndwRTAxOVNmTW1CRllWaTVWdF9obGJxS084TGdQNFhIMERWOFNXejNrN2gzbG5BX1pOd1FpQzR1OXBhUDdGYUFVVllVLWZkbjBmN3ZEeUNQcXhSbzNZc1lRNnJkU0JUaVRibU9HR1hGYTdFV0NSVHVha3VZUk9lSmVYalpTUzRuNWVuNUw3a3NvblhucVNBdVlhUzlKd1V6ZWFiXzQyRHp2MnE3RUlFbHNDQTB6MEpPeg?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
   },
   {
    "t": "Trump administration advances plan for peptide drugs favored by RFK Jr.",
