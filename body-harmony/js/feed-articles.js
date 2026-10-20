@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-20T17:17Z",
+ "generated": "2026-10-20T21:42Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-20T17:17Z",
+   "checked": "2026-10-20T21:42Z",
    "ok": true,
-   "new": 112,
-   "seen": 139,
-   "lastOk": "2026-10-20T17:17Z"
+   "new": 114,
+   "seen": 142,
+   "lastOk": "2026-10-20T21:42Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-20T17:17Z",
+   "checked": "2026-10-20T21:42Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-20T17:17Z"
+   "lastOk": "2026-10-20T21:42Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-20T17:17Z",
+   "checked": "2026-10-20T21:42Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-20T17:17Z"
+   "lastOk": "2026-10-20T21:42Z"
   }
  ],
  "items": [
@@ -63,6 +63,20 @@ window.FEED_ART={
    "d": "2026-10-20",
    "s": "stat",
    "x": "A bipartisan group of lawmakers is urging the FDA to plug a loophole used to import knockoff retatrutide, an investigational obesity drug made by Eli Lilly."
+  },
+  {
+   "t": "GLP-1 injections recalled nationwide over concerning reason - New York Post",
+   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVW5tbjZtNE1uVHBlN0pmMC1sS3NLcTd0cy1Ed0E0RzI5am9qZmVjMy05Y0loci1jOXY4bHVRcm1wcDkzdTFwUTdwVXZ1a2pwV2U5Y0Y0dFNyT0kxNzY5QnZSbkwzVkdZWWtfQk9ZaV9SSnhTTjQ4cHFLRnotVUJSaXFCV1ZWTDVvcVZBZQ?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews-a",
+   "x": "GLP-1 injections recalled nationwide over concerning reason New York Post"
+  },
+  {
+   "t": "1 in 4 Army Men Have Low T; GLP-1 in Menopause; Retatrutide Side Effects on Reddit - MedPage Today",
+   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uSTZYcjZTRzhaSGFtaEdlUlkyV1FqNVZaMUVBVzVmTktNNmNkenJhVVd1bGx6TU0ycVo3cFJBMnRvaEx1V0JfUkVjbm1sT1kyLUxRUWFFXzVwVG9zQ2pqbDl3d2hxUW4waXJCaWJpSHU4enp5MTJpaU53?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews-a",
+   "x": "1 in 4 Army Men Have Low T; GLP-1 in Menopause; Retatrutide Side Effects on Reddit MedPage Today"
   },
   {
    "t": "‘Serious adverse effects’: Experts warning after alarming rise in hospital visits from use of black market peptides - Nine.com.au",
@@ -268,6 +282,13 @@ window.FEED_ART={
    "x": "2026 fda approved weight loss drug retatrutide approval status www.polskieradio.pl"
   },
   {
+   "t": "Black Market Retatrutide Linked to Multiple Deaths - Yahoo",
+   "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZEJ5cVFiY3hqQVhudlNYN09veTRxQ3dnSmhaVFR0bnl5RDFldUh4OGhNbGJUODVIb3B0bHM3cTBkc1NjdVgwcjRsYVh2MlRkUzBtZWJMUWNBMTMtUlZ4M3pDRlBKSzA2TEk2Smc4a2Rxalc4TElaVmhmQXl5Z2k2aDJXajFOYk1JbGlTM1FMSVNSaVpmMXY1OWJB?oc=5",
+   "d": "2026-10-17",
+   "s": "gnews-a",
+   "x": "Black Market Retatrutide Linked to Multiple Deaths Yahoo"
+  },
+  {
    "t": "TG SAFE warns against unapproved weight-loss drugs and peptides - Hyderabad Mail",
    "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMWx2cEJvbnQtalpESGc0S0ptU0s1cC1yTElvQU42TnJVNXY2R1FtV2w3dHdVbjVuSFF0VVZreDNLWTF5eHBMLW1ZTkxJZ19iamZBdV9TZnA4WmFrZzNwQkpFbDBhMDVWRmhnbkplbzdTTXZZU0ZLejhXSjJGNGw5QXNkSGstV2s?oc=5",
    "d": "2026-10-16",
@@ -317,32 +338,11 @@ window.FEED_ART={
    "x": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market TradingView"
   },
   {
-   "t": "retatrutide weight loss drug - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5hSURLX3NnRGNtcUN4M2V0ckVBOWtIdnFvLXJmOF96NGpfV1VGQjc0RFlxemZhendTWVVQYmVqUVB2blVfdXktc213cVl6aXJ0Qk9IOWpBc1c1dE1UakNNMFgtMUZubFRDM1hpbXdtX1c0UFZCbkdxVUtzUmk?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug BusinessWorld Online"
-  },
-  {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
    "l": "https://www.statnews.com/pharmalot/2026/10/16/hhs-peptide-push-trump-pharma-stock-holdings/?utm_campaign=rss",
    "d": "2026-10-16",
    "s": "stat",
    "x": "The Trump administration is proceeding with a plan to allow compounding pharmacies to produce certain peptides"
-  },
-  {
-   "t": "TB-500 and Cellular Architecture: Exploring Its Potential Influence Across Biological Systems - Americus Times-Recorder",
-   "l": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQLXY1M0ZadW9hNWZWZ0QxVVBlRk9jVVJTc0FyVUlBa0toMFp1UXBEbDdSQlBxMFo4N2RKb3h0eDVfYlFmLUtIeVcwNmwxZ2pZd2lkWTR1Zjc2N203anpLdk54M0JiTDA2SGJUS0VCdkx4SkhZYzkweEJTeEJ0czA0b1dpTXlESTI5MkdYa1RicHJCd0hkeDRKWThIaHYxbjhVaURmdmV3N0RLd3g3Si10SUctSi1Odms1SWFoa1RHUlpOU05wb0RSN2pXQ0Y4akkyNTF2OGhrMld1OUg4?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "TB-500 and Cellular Architecture: Exploring Its Potential Influence Across Biological Systems Americus Times-Recorder"
-  },
-  {
-   "t": "What is BPC-157? Trump administration considers easing rules on popular peptide injections - The News International",
-   "l": "https://news.google.com/rss/articles/CBMiywFBVV95cUxON2k0cG9zWWw3NjlrMHR1X0NTdXpoWDB4RmhJbmpnbGtoUHBuVThoSVFUWFJMbFpZLWZPeC10MGlLX1VYMi1MWDJnR2VRX091RUwwRXNhZTdCMFljNTNUOUFMU1Y0aXBPN0pTR3NONTVwcUZOcTlqcGZ6SVNBTGl5ajhrc0FhS3Q2TDJtbjlTeTZPdmRON1NjbmRHQkp4Qi12U3ppM3pjMlk5VjNZd09ZRUU3eVEwQllIVVdMdDRYWDBzMFNNcjVCMUlHa9IBxwFBVV95cUxPZjJ0SFQxYVVSSVV2VlVIZWlRQzFaQVNwbEJvU3VOUmJ2WHpIamJESXBtZzVxN2NzUTM2eTlZaHpjZ2YwUThtRmZ6WkdKbGNOaFpsUTNaRzVWOUM4TS0wcDB1Y29Hby13V3gwSzdHSlRsYlc5S3VNX1NMT1pfME5xcU1BS3k1czF0QVVhMDR4UnVOcTZqRk1vbXctUEVPdXJEMk1neGpnX1BNRlNIZzZEbFZWeW00MEFyZ2ttWWFtUUpaWmdSWU8w?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "What is BPC-157? Trump administration considers easing rules on popular peptide injections The News International"
   },
   {
    "t": "Trump administration advances plan for peptide drugs favored by RFK Jr.",

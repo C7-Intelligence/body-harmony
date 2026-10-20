@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-20T17:17Z",
+ "generated": "2026-10-20T21:42Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-20T17:17Z",
+   "checked": "2026-10-20T21:42Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-20T17:17Z"
+   "lastOk": "2026-10-20T21:42Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-20T17:17Z",
+   "checked": "2026-10-20T21:42Z",
    "ok": true,
    "new": 0,
-   "seen": 1,
-   "lastOk": "2026-10-20T17:17Z"
+   "seen": 0,
+   "lastOk": "2026-10-20T21:42Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-20T17:17Z",
+   "checked": "2026-10-20T21:42Z",
    "ok": true,
-   "new": 0,
-   "seen": 1,
-   "lastOk": "2026-10-20T17:17Z"
+   "new": 1,
+   "seen": 2,
+   "lastOk": "2026-10-20T21:42Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-20T17:17Z",
+   "checked": "2026-10-20T21:42Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-20T17:17Z"
+   "lastOk": "2026-10-20T21:42Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-20T17:17Z",
+   "checked": "2026-10-20T21:42Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-20T17:17Z"
+   "lastOk": "2026-10-20T21:42Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-20T17:17Z",
+   "checked": "2026-10-20T21:42Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-20T17:17Z"
+   "lastOk": "2026-10-20T21:42Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-20T17:17Z",
+   "checked": "2026-10-20T21:42Z",
    "ok": true,
-   "new": 165,
+   "new": 163,
    "seen": 189,
-   "lastOk": "2026-10-20T17:17Z"
+   "lastOk": "2026-10-20T21:42Z"
   }
  ],
  "items": [
@@ -86,20 +86,6 @@ window.FEED={
    "d": "2026-10-20",
    "s": "gnews",
    "x": "GLP-1 injections recalled nationwide: See affected lots and what to know Democrat and Chronicle"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-10-20",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/lillys-obesity-pill-revmeds-pancreatic-cancer-breakthrough-among-slew-chmp-endorsements",
-   "d": "2026-10-20",
-   "s": "fierce",
-   "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
   },
   {
    "t": "Compounded tirzepatide recalled after FDA warning - pharmaphorum",
@@ -116,6 +102,41 @@ window.FEED={
    "x": "FDA Must End the Compounding Charade RealClearHealth"
   },
   {
+   "t": "GLP-1 injections recalled nationwide. See affected products - USA Today",
+   "l": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORW9HUXlnSWNZdEN0Z25zWUZxRFlMbU9ZY3ZYS0JMS2tZaGtpckEyRklxSGl5MmxoaEp2aTQ2NHlMVnFpM25IcEVmWnU4RVQyT0FLWUp0aThwcHNnb3BTZk9sNHdrX08xMWdMV3JJMHp2N1J6NThGVXJEOVBZcktYeG5PbWZfdUJrQW1QZUJ4R2ZMTkVWdnEzZUpXT3pwMmhxUmxubUtCcXVDTzJlUGJBWG9KQVIzSGZmM01xMzVmX0hETTMxbEJaR25R?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews",
+   "x": "GLP-1 injections recalled nationwide. See affected products USA Today"
+  },
+  {
+   "t": "Import Alert for Certain Olympus Medical Devices Manufactured in Japan - Letter to Health Care Providers",
+   "l": "http://www.fda.gov/medical-devices/letters-health-care-providers/import-alert-certain-olympus-medical-devices-manufactured-japan-letter-health-care-providers",
+   "d": "2026-10-20",
+   "s": "fda-medwatch",
+   "x": "The U.S. Food and Drug Administration (FDA) is alerting health care providers about import alerts for certain medical devices manufactured in Japan by Olympus Medical Systems Corporation (Olympus) and its subsidiaries."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-10-20",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/lillys-obesity-pill-revmeds-pancreatic-cancer-breakthrough-among-slew-chmp-endorsements",
+   "d": "2026-10-20",
+   "s": "fierce",
+   "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
+  },
+  {
+   "t": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee - The Tennessean",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZWlRT2dTcnQ2NFkzcWZrVHl2TXRLa002WWR4Y1RfUDFTN3Vnclg0QlYxZTlqc1RCZ3ZiQXNiRTgyNXctRXFQQ25uSXZTYmxWRUNhSG9FbVRoZFhaZGw5Ui1qbWxHbGNfWkp2OWRqQlBNSW9rTnkxd2ZYRjI5Y3V5X012Q0ZQMjVCWkFfZzJJSkQ3ZmRubG5B?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews",
+   "x": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee The Tennessean"
+  },
+  {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
    "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
    "d": "2026-10-19",
@@ -128,13 +149,6 @@ window.FEED={
    "d": "2026-10-19",
    "s": "fda-drugs",
    "x": "Counterfeit versions of over-the-counter eye drops have been found in Florida and Georgia in stores serving primarily Spanish-speaking customers. These products also may be in Louisiana, Mississippi, North Carolina and potentially other states."
-  },
-  {
-   "t": "GLP-1 injections recalled nationwide. See affected products - USA Today",
-   "l": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORW9HUXlnSWNZdEN0Z25zWUZxRFlMbU9ZY3ZYS0JMS2tZaGtpckEyRklxSGl5MmxoaEp2aTQ2NHlMVnFpM25IcEVmWnU4RVQyT0FLWUp0aThwcHNnb3BTZk9sNHdrX08xMWdMV3JJMHp2N1J6NThGVXJEOVBZcktYeG5PbWZfdUJrQW1QZUJ4R2ZMTkVWdnEzZUpXT3pwMmhxUmxubUtCcXVDTzJlUGJBWG9KQVIzSGZmM01xMzVmX0hETTMxbEJaR25R?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews",
-   "x": "GLP-1 injections recalled nationwide. See affected products USA Today"
   },
   {
    "t": "Houston Pharmacy Behind Recalled Compounded Tirzepatide Vials Drew 14 FDA Inspection Observations, Including Exposed Skin and Research-Grade Ingredients - Medical Daily",
@@ -443,13 +457,6 @@ window.FEED={
    "d": "2026-09-30",
    "s": "gnews",
    "x": "Health Care Weekly: CMS Probes PBM Vertical Integration, Specialty Drug Pricing; FDA Issues Warning Letter Amid GLP-1 Compounding Crackdown; UNH Texas Unit Received $24.4 Million in Medicare Advantage Overpayments, Audit Finds; State AGs Disp The Capitol Forum"
-  },
-  {
-   "t": "A federal advisory panel voted to increase access to a popular peptide. Here's what that means. - ttownmedia.com",
-   "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxObUpUWDB1WjFiNkc0bFBqVGJvZ3RtdldEaE5yOHdrWGRDVEJFbkozaXBfLTlTX3VwdUZNZmJVUll3eUVHc2Y1cnE2OEgzcGIwSXhuNzdZSmphVVpCdFNuVFF2NFhORzFyZlU2R3RhY09zUV9jZmZOVDNFWUVISzRET251LVhkNXQ0ekdaYndxQzZoTXN4cUtSemljM3ZPc2E1QUxLaU80RWxJZWV5TktZZXhNZU1hR1hTcW9NQ2JRbm9jQzZRZXc5ZHFNT19xQl9KN3NUNkwtM0d1Tk1FTlYxMVRFMVE3X1V2OTQ3Ul9oZGlRZXdNbUR3amhRdkpxdTROX3dHbVkyYjEzeDdqWnc?oc=5",
-   "d": "2026-09-30",
-   "s": "gnews",
-   "x": "A federal advisory panel voted to increase access to a popular peptide. Here's what that means. ttownmedia.com"
   },
   {
    "t": "FDA Investigation Leads to Charges Against Two Indian Nationals Involved in Transnational Counterfeit Drug Distribution Scheme",
