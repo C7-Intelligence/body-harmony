@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-20T04:59Z",
+ "generated": "2026-10-20T11:48Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-20T04:59Z",
+   "checked": "2026-10-20T11:48Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-20T04:59Z"
+   "lastOk": "2026-10-20T11:48Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-20T04:59Z",
+   "checked": "2026-10-20T11:48Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-20T04:59Z"
+   "lastOk": "2026-10-20T11:48Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-20T04:59Z",
+   "checked": "2026-10-20T11:48Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-20T04:59Z"
+   "lastOk": "2026-10-20T11:48Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-20T04:59Z",
+   "checked": "2026-10-20T11:48Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-20T04:59Z"
+   "lastOk": "2026-10-20T11:48Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-20T04:59Z",
+   "checked": "2026-10-20T11:48Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-20T04:59Z"
+   "lastOk": "2026-10-20T11:48Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-20T04:59Z",
+   "checked": "2026-10-20T11:48Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-20T04:59Z"
+   "lastOk": "2026-10-20T11:48Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-20T04:59Z",
+   "checked": "2026-10-20T11:48Z",
    "ok": true,
-   "new": 162,
-   "seen": 186,
-   "lastOk": "2026-10-20T04:59Z"
+   "new": 164,
+   "seen": 188,
+   "lastOk": "2026-10-20T11:48Z"
   }
  ],
  "items": [
@@ -93,6 +93,13 @@ window.FEED={
    "d": "2026-10-20",
    "s": "fierce",
    "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
+  },
+  {
+   "t": "GLP-1 injections recalled nationwide: See affected lots and what to know - Democrat and Chronicle",
+   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeG95RGtHdXcxd0xOa1laQ1piVWRmWnU4RlBlaDRIR1BsODFhZFZSdVVHRVNzNHJxUzU5MWprbU5DdmF1UnZjYjYxYTR4M0h6eG8zRWZ2al9nalQ4NGV3ZWY4c3hDTjlucmRzTkdaclhGVEZiSEVON3dwOEpSRThKZlRxS1BoNGJaRHQ0dVowa1duM0hwaWkxLXZta3JQODdaaUNwak1FRmZ1QWFENHkxZg?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews",
+   "x": "GLP-1 injections recalled nationwide: See affected lots and what to know Democrat and Chronicle"
   },
   {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
@@ -451,13 +458,6 @@ window.FEED={
    "d": "2026-09-25",
    "s": "gnews",
    "x": "FDA Warning Letter to Empower Pharmacy and What It Means for 503A Compounding Pharmacies Buchanan Ingersoll & Rooney PC"
-  },
-  {
-   "t": "Peptides: Huge Promises, Unproven Hype - Outside Magazine",
-   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNkR0aEZSamliS1RjOGt2SW5RYVBpOVFOdXJ4VVBfYnQzVGtCMDdoV0FrTF9SSTFGWmtzaVR2djVZemQ3Qk5QUmY5dnphVG15bnpzY0J2Q0hYMjNUYlpQSFJ4SVk0aDZXaGxwOWFuSjBSd25IZHdkd2t0aTBZWFl2M3pPWQ?oc=5",
-   "d": "2026-09-25",
-   "s": "gnews",
-   "x": "Peptides: Huge Promises, Unproven Hype Outside Magazine"
   },
   {
    "t": "Centric Compounding Issues Nationwide Recall of Glutathione, Myer’s Cocktail, and Tri-Immune Boost Due to Elevated Endotoxin Levels",

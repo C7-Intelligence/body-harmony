@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-20T04:59Z",
+ "generated": "2026-10-20T11:48Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-20T04:59Z",
+   "checked": "2026-10-20T11:48Z",
    "ok": true,
    "new": 113,
-   "seen": 139,
-   "lastOk": "2026-10-20T04:59Z"
+   "seen": 142,
+   "lastOk": "2026-10-20T11:48Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-20T04:59Z",
+   "checked": "2026-10-20T11:48Z",
    "ok": true,
-   "new": 1,
+   "new": 2,
    "seen": 15,
-   "lastOk": "2026-10-20T04:59Z"
+   "lastOk": "2026-10-20T11:48Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-20T04:59Z",
+   "checked": "2026-10-20T11:48Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-20T04:59Z"
+   "lastOk": "2026-10-20T11:48Z"
   }
  ],
  "items": [
@@ -512,6 +512,13 @@ window.FEED_ART={
    "d": "2026-08-31",
    "s": "epmc",
    "x": "J Intern Med · Newsome PN, Ajaz S."
+  },
+  {
+   "t": "Efficient Expression of Small Molecule Bioactive Peptides in Bacillus licheniformis.",
+   "l": "https://doi.org/10.1007/s12010-026-05885-6",
+   "d": "2026-08-29",
+   "s": "epmc",
+   "x": "Appl Biochem Biotechnol · Zhang H, Shao L, Feng Q, Guo Q, Wang H, Zhang H."
   },
   {
    "t": "Black market 'retatrutide' linked to liver injury cluster",
