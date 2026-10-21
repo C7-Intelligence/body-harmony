@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-21T11:59Z",
+ "generated": "2026-10-21T17:19Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-21T11:59Z",
+   "checked": "2026-10-21T17:19Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-21T11:59Z"
+   "lastOk": "2026-10-21T17:19Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-21T11:59Z",
+   "checked": "2026-10-21T17:19Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-21T11:59Z"
+   "lastOk": "2026-10-21T17:19Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-21T11:59Z",
+   "checked": "2026-10-21T17:19Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-21T11:59Z"
+   "lastOk": "2026-10-21T17:19Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-21T11:59Z",
+   "checked": "2026-10-21T17:19Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-21T11:59Z"
+   "lastOk": "2026-10-21T17:19Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-21T11:59Z",
+   "checked": "2026-10-21T17:19Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-21T11:59Z"
+   "lastOk": "2026-10-21T17:19Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-21T11:59Z",
+   "checked": "2026-10-21T17:19Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-21T11:59Z"
+   "lastOk": "2026-10-21T17:19Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-21T11:59Z",
+   "checked": "2026-10-21T17:19Z",
    "ok": true,
-   "new": 162,
+   "new": 163,
    "seen": 189,
-   "lastOk": "2026-10-21T11:59Z"
+   "lastOk": "2026-10-21T17:19Z"
   }
  ],
  "items": [
@@ -86,20 +86,6 @@ window.FEED={
    "d": "2026-10-21",
    "s": "gnews",
    "x": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs SuaraGarut.ID"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-10-21",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/lillys-obesity-pill-revmeds-pancreatic-cancer-breakthrough-among-slew-chmp-endorsements",
-   "d": "2026-10-21",
-   "s": "fierce",
-   "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
   },
   {
    "t": "Why 22 vials of compounded GLP-1 weight loss drugs have been recalled across the US - ThePrint",
@@ -121,6 +107,48 @@ window.FEED={
    "d": "2026-10-21",
    "s": "gnews",
    "x": "Compounded Tirzepatide Recall: Which Vials Are Affected and What Is Known Around Prague"
+  },
+  {
+   "t": "Compounded GLP-1 injections recalled nationwide. Is yours safe? - USA Today",
+   "l": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNXzVkYW8zLS02SWkxNU43UnNfcHJnVkR4MlYzYkRCZDhOUWFpZHJlLV9KeVB6WTNGakdaaVpjWkoxVkcwTVlwUk9GR05lUDJkVTJiaGRQZTA4NUtVZVpseXJHS2J5SWk1Z2ZFcDlzN0tFRDB3alRtUDlVYmdzOTNybllfRHpobmF1eHJwT2JvWG9ZZzFKdnJHVkRudndnbUhLV1dfazRGcGVPWDBhTWVhdFNGVHhoNWE2V0VuNFpVZUE5dWQ0Q09hT3J4UjU?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "Compounded GLP-1 injections recalled nationwide. Is yours safe? USA Today"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-10-21",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/lillys-obesity-pill-revmeds-pancreatic-cancer-breakthrough-among-slew-chmp-endorsements",
+   "d": "2026-10-21",
+   "s": "fierce",
+   "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
+  },
+  {
+   "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
+   "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTkk5UnJ4dkFlOFR4dzYybmUyekZjSzA3NDR0N3NXbmg0SkF0aFgyQS15S2VrWUlxVmVpaXE4SHJ5N2U5TjZRanUzWW9rOUxfS1o0MWp6SXVwamhBSEFxVFItalFMVFFQRjR5cTRkM2N6cFJNZm1reGlrckFDTWoxanVmcXlEaUJTejZnaWhBY1hPbFBBQVROZnpFbkdBY0E4QVA2bzFXODNaLWd6WlI0Q24yR0xDUzNQUDRRd0Y3RWdvTC0xN1VPM2lyODIzVVBpMkNFTw?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides Regulatory Oversight"
+  },
+  {
+   "t": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last - Stocktwits",
+   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWpEVXdRWkQxSU5HenFhWndwRTAxOVNmTW1CRllWaTVWdF9obGJxS084TGdQNFhIMERWOFNXejNrN2gzbG5BX1pOd1FpQzR1OXBhUDdGYUFVVllVLWZkbjBmN3ZEeUNQcXhSbzNZc1lRNnJkU0JUaVRibU9HR1hGYTdFV0NSVHVha3VZUk9lSmVYalpTUzRuNWVuNUw3a3NvblhucVNBdVlhUzlKd1V6ZWFiXzQyRHp2MnE3RUlFbHNDQTB6MEpPeg?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
+  },
+  {
+   "t": "Compounded GLP-1 weight-loss drug recalled over sterility concerns - ConsumerAffairs",
+   "l": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa1NvLVFOQTB2eXNrdjJUUG41TUkzclhRTjlObHZ3UVpRYndyZGtPOVdIb0FrTkQ3cnowTVZpWkdjMUdSbFVMLTdzREFTSnMzV193YWhKMUtNVkNSRzQxU3NNSXNTRUY0MUtXOE9OQjJmaUZ3TFdjZkJvN2Nha21FZWR2WGtfT3QzN3M5cXdBN0hXMkRSRG14SlFWMWZ4R0dqY0l4d2hJYkZEMWd3SXpTMWlVODlpdw?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "Compounded GLP-1 weight-loss drug recalled over sterility concerns ConsumerAffairs"
   },
   {
    "t": "GLP-1 injections recalled nationwide: See affected lots and what to know - Democrat and Chronicle",
@@ -165,13 +193,6 @@ window.FEED={
    "x": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee The Tennessean"
   },
   {
-   "t": "Is my GLP-1 safe? What to know about FDA's crackdown on copycat drugs - USA Today",
-   "l": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNXzVkYW8zLS02SWkxNU43UnNfcHJnVkR4MlYzYkRCZDhOUWFpZHJlLV9KeVB6WTNGakdaaVpjWkoxVkcwTVlwUk9GR05lUDJkVTJiaGRQZTA4NUtVZVpseXJHS2J5SWk1Z2ZFcDlzN0tFRDB3alRtUDlVYmdzOTNybllfRHpobmF1eHJwT2JvWG9ZZzFKdnJHVkRudndnbUhLV1dfazRGcGVPWDBhTWVhdFNGVHhoNWE2V0VuNFpVZUE5dWQ0Q09hT3J4UjU?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews",
-   "x": "Is my GLP-1 safe? What to know about FDA's crackdown on copycat drugs USA Today"
-  },
-  {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
    "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
    "d": "2026-10-19",
@@ -205,6 +226,13 @@ window.FEED={
    "d": "2026-10-19",
    "s": "gnews",
    "x": "US FDA takes step to change peptide compounding policy Reuters"
+  },
+  {
+   "t": "GLP-1 injections recalled nationwide. See affected products - Detroit Free Press",
+   "l": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNS1hoTHVtc1RrSkFDQjdKaUdpT0pOOGJVejE1LTZmWEFhUk1uZVJjR0JQcjBiekoxb0E3QVhvb3RwN1hYTkhreGlrZF8ydnM1cGxYN2dMaDZUeTd0eDdNU19GSGlrSU9QUTVuZU9mb2tyZ0xaYWwxUnhERnMxampEQUpWUDZmVThweFdXdTJpNEJUUG03YktPMnNPODlXS1BFNmpBb3FuS0FRaHdLX1NCZjNHeENmZmdJSWw4SVJzQjUzNHBsZ1E?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews",
+   "x": "GLP-1 injections recalled nationwide. See affected products Detroit Free Press"
   },
   {
    "t": "hims faces legal action as fda restricts compounded weight-loss drugs - www.polskieradio.pl",
@@ -375,13 +403,6 @@ window.FEED={
    "x": "The Food and Drug Administration (FDA) is announcing the renewal of the Cellular, Tissue, and Gene Therapies Advisory Committee by the Commissioner of Food and Drugs (the Commissioner). The Commissioner has determined that it is in the public interest to renew the Cellular,…"
   },
   {
-   "t": "FDA Peptide Compounding Policy: What a Temporary Enforcement Reprieve Could Mean for Pharmacies - Buchanan Ingersoll & Rooney PC",
-   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWnpnZTc4UElOUHo5ZzNjZGNjZktzcWRYNTNCbDZwVHBINzMza2prQzQ3bkJDcjVveGdrLVhFWjExNjdkc2dEa2F1TWNGckJ3NFh5Q0tWOWpFM2R5X3Z2UXBLenRNbWlvYlljX3BvU2pKMlA0Wk9MTVh5bGd1OUh2b1A5Mjd1Tnc1VHE5aDEzdU5uU0x1RU9welF6MlZvWExyYW14a2poMW42QUhueFFwd0ZrYWY?oc=5",
-   "d": "2026-10-14",
-   "s": "gnews",
-   "x": "FDA Peptide Compounding Policy: What a Temporary Enforcement Reprieve Could Mean for Pharmacies Buchanan Ingersoll & Rooney PC"
-  },
-  {
    "t": "Use of Salt Substitutes To Reduce the Sodium Content in Standardized Foods",
    "l": "https://www.federalregister.gov/documents/2026/10/13/2026-20848/use-of-salt-substitutes-to-reduce-the-sodium-content-in-standardized-foods",
    "d": "2026-10-13",
@@ -394,27 +415,6 @@ window.FEED={
    "d": "2026-10-13",
    "s": "fda-drugs",
    "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
-  },
-  {
-   "t": "Some who have taken hyped, unregulated peptides have regrets - The Washington Post",
-   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOENGcG5qeVRkOTdPekdtZVVJNzNoLVJrcTNUZWc5ZENXbjlpd0JhODlWUGVUUDlNUk9sVURmLU9JUWttVXFNbFpSQWh4YUpjbWdRWm9vc3dlWWNDQjVhR3BBS3pCcnA3d3JtY296aEVtb0tsVjljTUExeEowUmNkdVN6SkZfdElXakhjYWVMSHRMbl9JSXF2WlBlVklmMl9pNnZPcjBHOW4xZWRPbHFvNg?oc=5",
-   "d": "2026-10-13",
-   "s": "gnews",
-   "x": "Some who have taken hyped, unregulated peptides have regrets The Washington Post"
-  },
-  {
-   "t": "Peptide patients paying up to $1,500 a month face an FDA problem - TheStreet",
-   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPODJGTE1mdEZKQVY5b1B6UnNUZWc0al9XRmcxTnJ5c2tNV2Rnb0Jka0FzRHhXdE0xNy1BU2xQeFZ1VE91QVY4ZkUzcXkwMDV6YlZQTkZuRzVQMW9KQ0ZRLVZ5Ym1nZTBDRXBLQTNkRDM3bWMwbGRFczJUVkVYQUI3OWh1VlJDVkNQRXJ2QnZSS2pVU1ZGeEJUQWZ6RQ?oc=5",
-   "d": "2026-10-10",
-   "s": "gnews",
-   "x": "Peptide patients paying up to $1,500 a month face an FDA problem TheStreet"
-  },
-  {
-   "t": "Peptide patients paying up to $1,500 a month face an FDA problem - AOL.com",
-   "l": "https://news.google.com/rss/articles/CBMifkFVX3lxTE95MmIxZ2RHLWRBVW5ORG9KVTVWZUl6VHZZSFRmTDE3ZUEwMWd0QWwza3dDSUJ5c0YxTnJ3YXRrRkZBd3d1angzeVEzeTFWRHV3RXN5VzRzLUZtSkxIeXpHc24ySkhDc1J6NXJ1ZTNPN3NsNExKME40b2JpWEtKQQ?oc=5",
-   "d": "2026-10-10",
-   "s": "gnews",
-   "x": "Peptide patients paying up to $1,500 a month face an FDA problem AOL.com"
   },
   {
    "t": "Low-Value Shipments",

@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-21T11:59Z",
+ "generated": "2026-10-21T17:19Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-21T11:59Z",
+   "checked": "2026-10-21T17:19Z",
    "ok": true,
-   "new": 117,
-   "seen": 145,
-   "lastOk": "2026-10-21T11:59Z"
+   "new": 115,
+   "seen": 146,
+   "lastOk": "2026-10-21T17:19Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-21T11:59Z",
+   "checked": "2026-10-21T17:19Z",
    "ok": true,
-   "new": 1,
+   "new": 2,
    "seen": 15,
-   "lastOk": "2026-10-21T11:59Z"
+   "lastOk": "2026-10-21T17:19Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-21T11:59Z",
+   "checked": "2026-10-21T17:19Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-21T11:59Z"
+   "lastOk": "2026-10-21T17:19Z"
   }
  ],
  "items": [
@@ -49,6 +49,20 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
+   "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTkk5UnJ4dkFlOFR4dzYybmUyekZjSzA3NDR0N3NXbmg0SkF0aFgyQS15S2VrWUlxVmVpaXE4SHJ5N2U5TjZRanUzWW9rOUxfS1o0MWp6SXVwamhBSEFxVFItalFMVFFQRjR5cTRkM2N6cFJNZm1reGlrckFDTWoxanVmcXlEaUJTejZnaWhBY1hPbFBBQVROZnpFbkdBY0E4QVA2bzFXODNaLWd6WlI0Q24yR0xDUzNQUDRRd0Y3RWdvTC0xN1VPM2lyODIzVVBpMkNFTw?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews-a",
+   "x": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides Regulatory Oversight"
+  },
+  {
+   "t": "Systematic Review Finds Only 30 Humans Studied For BPC-157 Safety - Dr. Axe",
+   "l": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0U25Sa18zR2YyR1BLTndySmtEeVhJUHktZmY4RzE0RTdOLXU4cFBMX25nQ3lUVll1ZlVBVC03UXN3V0VTTkNKREFsa0U2NFlYY2l2eEhQM0NIcVZQeHBmRFR2d28?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews-a",
+   "x": "Systematic Review Finds Only 30 Humans Studied For BPC-157 Safety Dr. Axe"
   },
   {
    "t": "Could Retatrutide Break a GLP-1 Weight-Loss Plateau? - Medscape",
@@ -324,20 +338,6 @@ window.FEED_ART={
    "x": "Black Market Retatrutide Linked to Multiple Deaths Yahoo"
   },
   {
-   "t": "TG SAFE warns against unapproved weight-loss drugs and peptides - Hyderabad Mail",
-   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQMWx2cEJvbnQtalpESGc0S0ptU0s1cC1yTElvQU42TnJVNXY2R1FtV2w3dHdVbjVuSFF0VVZreDNLWTF5eHBMLW1ZTkxJZ19iamZBdV9TZnA4WmFrZzNwQkpFbDBhMDVWRmhnbkplbzdTTXZZU0ZLejhXSjJGNGw5QXNkSGstV2s?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "TG SAFE warns against unapproved weight-loss drugs and peptides Hyderabad Mail"
-  },
-  {
-   "t": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market - TradingView",
-   "l": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNa2Z1aFF0cGN3NUhpR2ZhM1ZYWGh2eHVuanptMEhvNmxwckhZUVI4TlEtXzd0N0JmNTFHTVl0SFY5d1Y0dGQ2Y1R6UmVLNXUzN3NBUVVINWVCTTFpT3cySFFFaVdJaU1kOEIwekNtTWVtQ2thTlNWUjZ2RXJkS1RwUDBYcVZBQll1d1NqYWtkeWY0aGx4d3FsTi1JSFROTlZZTVkzNnZZaEZLRnFTQlpxUXRxYld0bWhPVGxLejBsZVZJb1ZMS1Z1SUxzV2JVNlppZ3hUYkRRNTdCdGpndDhmamszckV3WmlJdzlYd01BRmxYb0psZzRKcVlLa3FfTUk?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market TradingView"
-  },
-  {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
    "l": "https://www.statnews.com/pharmalot/2026/10/16/hhs-peptide-push-trump-pharma-stock-holdings/?utm_campaign=rss",
    "d": "2026-10-16",
@@ -476,6 +476,13 @@ window.FEED_ART={
    "d": "2026-10-01",
    "s": "epmc",
    "x": "JAMA Netw Open · Sehgal NKR, Tronieri JS, Rader B, Ungar L, Guntuku SC."
+  },
+  {
+   "t": "Kidney Protection, Obesity Treatment, and Multiorgan Biology: When More Therapy Is-And Is Not-Better.",
+   "l": "https://doi.org/10.1111/1753-0407.70284",
+   "d": "2026-10-01",
+   "s": "epmc",
+   "x": "J Diabetes · Bloomgarden ZT, Handelsman Y."
   },
   {
    "t": "FDA PCAC peptide vote: what the 503A recommendations mean",
