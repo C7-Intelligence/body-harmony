@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-21T17:19Z",
+ "generated": "2026-10-21T21:48Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-21T17:19Z",
+   "checked": "2026-10-21T21:48Z",
    "ok": true,
-   "new": 115,
-   "seen": 146,
-   "lastOk": "2026-10-21T17:19Z"
+   "new": 116,
+   "seen": 149,
+   "lastOk": "2026-10-21T21:48Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-21T17:19Z",
+   "checked": "2026-10-21T21:48Z",
    "ok": true,
-   "new": 2,
+   "new": 4,
    "seen": 15,
-   "lastOk": "2026-10-21T17:19Z"
+   "lastOk": "2026-10-21T21:48Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-21T17:19Z",
+   "checked": "2026-10-21T21:48Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-21T17:19Z"
+   "lastOk": "2026-10-21T21:48Z"
   }
  ],
  "items": [
@@ -42,6 +42,13 @@ window.FEED_ART={
    "d": "2026-12-01",
    "s": "epmc",
    "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG."
+  },
+  {
+   "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
+   "l": "https://doi.org/10.1002/glia.70240",
+   "d": "2026-12-01",
+   "s": "epmc",
+   "x": "Glia · Colbert R, Di Stefano J, Dooley D."
   },
   {
    "t": "Global Landscape and Thematic Evolution of Selective GLP-1 Receptor Agonists and GLP-1-Based Multi-Receptor Agonists in Type 2 Diabetes Mellitus: A Bibliometric Analysis.",
@@ -63,6 +70,13 @@ window.FEED_ART={
    "d": "2026-10-21",
    "s": "gnews-a",
    "x": "Systematic Review Finds Only 30 Humans Studied For BPC-157 Safety Dr. Axe"
+  },
+  {
+   "t": "Unapproved peptides raise health concerns - St. Louis American",
+   "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNUUxXcENXQTE4aDItZmdrRDlJZ1VrRGtuVG1qanhlLXppMUVRT3RVV1lMQjlsWTJLU2QwTEoybDdDWHZaY0k1dmFwSE9RcWtuemxENkZkODJPenIwbmZrVWlkNjJHajJPeEs2YTlqOE84RmpURG05aDkyOHNpZ1VHQXY4Y1BNQzZoVUxtYURoeDgzSWNB?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews-a",
+   "x": "Unapproved peptides raise health concerns St. Louis American"
   },
   {
    "t": "Could Retatrutide Break a GLP-1 Weight-Loss Plateau? - Medscape",
@@ -331,13 +345,6 @@ window.FEED_ART={
    "x": "2026 fda approved weight loss drug retatrutide approval status www.polskieradio.pl"
   },
   {
-   "t": "Black Market Retatrutide Linked to Multiple Deaths - Yahoo",
-   "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZEJ5cVFiY3hqQVhudlNYN09veTRxQ3dnSmhaVFR0bnl5RDFldUh4OGhNbGJUODVIb3B0bHM3cTBkc1NjdVgwcjRsYVh2MlRkUzBtZWJMUWNBMTMtUlZ4M3pDRlBKSzA2TEk2Smc4a2Rxalc4TElaVmhmQXl5Z2k2aDJXajFOYk1JbGlTM1FMSVNSaVpmMXY1OWJB?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "Black Market Retatrutide Linked to Multiple Deaths Yahoo"
-  },
-  {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
    "l": "https://www.statnews.com/pharmalot/2026/10/16/hhs-peptide-push-trump-pharma-stock-holdings/?utm_campaign=rss",
    "d": "2026-10-16",
@@ -378,6 +385,13 @@ window.FEED_ART={
    "d": "2026-10-12",
    "s": "epmc",
    "x": "J Diabetes Metab Disord · Chen Z, Zhou Y, Li G, Muthanna A, d'Arqom A, Tham CL, Ho YC, Lee MT."
+  },
+  {
+   "t": "Weight loss and blood pressure lowering with GLP-1 receptor agonists and multi-hormone receptor modulators in overweight and obesity: a systematic review and meta-regression of phase 3 clinical trials",
+   "l": "https://europepmc.org/article/PMC/PMC13682070",
+   "d": "2026-10-12",
+   "s": "epmc",
+   "x": "EClinicalMedicine · Nardone M, Kugathasan L, Daunt L, Parikh E, River Zhang H, Pasricha S, Orchanian-Cheff A, Cherney D, Odutayo A, Muskiet M."
   },
   {
    "t": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
@@ -631,6 +645,13 @@ window.FEED_ART={
    "d": "2026-07-17",
    "s": "epmc",
    "x": "Diabetologia · Stefan N, Targher G."
+  },
+  {
+   "t": "Experimental peptides, GLP-1s and polypharmacy: Future directions for image- and performance-enhancing drug harm reduction.",
+   "l": "https://doi.org/10.1111/add.70545",
+   "d": "2026-07-09",
+   "s": "epmc",
+   "x": "Addiction · Turnock LA, Lazuras L."
   },
   {
    "t": "FDA advisory committee for peptides stocked with conflicts of interest",
