@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-21T04:58Z",
+ "generated": "2026-10-21T11:59Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-21T04:58Z",
+   "checked": "2026-10-21T11:59Z",
    "ok": true,
-   "new": 115,
-   "seen": 143,
-   "lastOk": "2026-10-21T04:58Z"
+   "new": 117,
+   "seen": 145,
+   "lastOk": "2026-10-21T11:59Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-21T04:58Z",
+   "checked": "2026-10-21T11:59Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-21T04:58Z"
+   "lastOk": "2026-10-21T11:59Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-21T04:58Z",
+   "checked": "2026-10-21T11:59Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-21T04:58Z"
+   "lastOk": "2026-10-21T11:59Z"
   }
  ],
  "items": [
@@ -84,6 +84,13 @@ window.FEED_ART={
    "d": "2026-10-20",
    "s": "gnews-a",
    "x": "TB-500: Expanding Landscape of Regenerative Signaling Peninsula Daily News"
+  },
+  {
+   "t": "GLP-1 injections recalled nationwide. See affected products - USA Today",
+   "l": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORW9HUXlnSWNZdEN0Z25zWUZxRFlMbU9ZY3ZYS0JMS2tZaGtpckEyRklxSGl5MmxoaEp2aTQ2NHlMVnFpM25IcEVmWnU4RVQyT0FLWUp0aThwcHNnb3BTZk9sNHdrX08xMWdMV3JJMHp2N1J6NThGVXJEOVBZcktYeG5PbWZfdUJrQW1QZUJ4R2ZMTkVWdnEzZUpXT3pwMmhxUmxubUtCcXVDTzJlUGJBWG9KQVIzSGZmM01xMzVmX0hETTMxbEJaR25R?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews-a",
+   "x": "GLP-1 injections recalled nationwide. See affected products USA Today"
   },
   {
    "t": "‘Serious adverse effects’: Experts warning after alarming rise in hospital visits from use of black market peptides - Nine.com.au",
@@ -163,6 +170,13 @@ window.FEED_ART={
    "x": "Peptide Dangers Result in Hospitalizations Newsmax"
   },
   {
+   "t": "Experts warning after alarming rise in hospitalisations from peptide use - SMH.com.au",
+   "l": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUUpEYngySWZrTlZJUkl6cnlCV3pJZ2VTU1Z0b2J6UzByVk5Vb2VZRHZIMGdLMkUwZlNwVHo4elZZaXM5QzB3MzhxWXBibXRkLU5uU1pxc0pnemVaQUxHbVdCandsMDk2U3ZHS1ZSUDVmOGZYR19nU0hCcldlQ1FQRlZibnVjcnhtS0hGZWx4bDR0RVlISE8zem9MX09jT3p6b0xCYkxydFZHbGtob2VteUo2b3gxRmVKdVJva3NQaWVTVE0?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "Experts warning after alarming rise in hospitalisations from peptide use SMH.com.au"
+  },
+  {
    "t": "University of Missouri doctor warns about buying peptides on the gray market - KCUR",
    "l": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSnlONVZEUXdWYTUySHNDdjhBZlZ5T21GV0EzdVJ1ekJtaXpKOTlvTHo3MmtJVU00Z2h5cGRwOF9HdTlsM0FjQlZmRVRvLXV5Zzlzc2NRYk1hLXdFM25zajJ6U0NmYlR6RlJoLWt4WGhGNldFNkFXd3ZqZk8yVmUyQWp4elMwYm9TOU1iNDVDTzZKeDMzRXNVVUxsaGdWYlRNYVI1el82TENYZjJtMGlFYnJJaUQ3QQ?oc=5",
    "d": "2026-10-18",
@@ -196,6 +210,13 @@ window.FEED_ART={
    "d": "2026-10-18",
    "s": "gnews-a",
    "x": "‘Russian roulette’: NSW emergency department visits surge amid dangerous peptide fad SMH.com.au"
+  },
+  {
+   "t": "next generation weight loss drugs after retatrutide 2026 - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOakRmR3BkSTh2bFpDQkNLd0R1MU43LTVrVmNpVzBuV2RkYUN4U0daOHBFMzBJRkNyd3k4N0FoTHVSS0FhdVBEbkM3b0pXS3VraU9keDBqYjNBNnM1Qm5yV2xZUkNFUWx5dXZ4dVdwZzAtTmRWSEh5T0dRZDJwSjNSdU9uMFZKLVlIVGQ0T01ObE9ZVW5fcXMwa0d5dVliZFhXbC1ua3VzLWpTRzFkMEp4RjQzX21tcXZKWGc4dGgxVk1CUQ?oc=5",
+   "d": "2026-10-18",
+   "s": "gnews-a",
+   "x": "next generation weight loss drugs after retatrutide 2026 www.polskieradio.pl"
   },
   {
    "t": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides - Pharmabiz.com",
@@ -315,27 +336,6 @@ window.FEED_ART={
    "d": "2026-10-16",
    "s": "gnews-a",
    "x": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market TradingView"
-  },
-  {
-   "t": "Pharmalittle: We're reading about an HHS peptide push, Trump's pharma stock holdings, and more - STAT",
-   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTHlDdkx4ajB2M2NReEY5UTMycGFUNFFsUlZGYmctT1RCcnpaWnlmamRScXBKTUIzSGpGTmluUkY2aXJtMTBEamdTYTJEZVFWd21WSWloSmR1YVZwRmEwaS14S0ZYNGpwcWRDNjN6b3BWemtPVE9zMzd0MENkSF82N0NxOGwxQktXNWROVHNqeHZtblZXWHc?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "Pharmalittle: We're reading about an HHS peptide push, Trump's pharma stock holdings, and more STAT"
-  },
-  {
-   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - NBC News",
-   "l": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOaDlaOWlNc3N0c0NKUWVoUFhia3M1NGkxaHhrX24wUmxqWjBpdWNnemhnYmVWVFg0YmMweF8ybHVpNXJsRDd3WFVyUHEzejhhNUpRZVJTNEthdlhqNjdNM3d4SFNYTm9GcVlJN2h0aHZWaEVmbnFydFc5ZzJuTnYyZllpN3pDeERyamlBMG1zUlJHRkppREJHd0FvMkdNVGpVb0gyTnFURXo5Wk1BV0s4Zl9pbnZyUE5z?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. NBC News"
-  },
-  {
-   "t": "Renew Integrative Health Publishes Updated Peptide Therapy Guide to Help Patients Understand Their Options - PRLog",
-   "l": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOSWtfNjI4bEZHdC1RUXlzcXBUU0VzOGF2T1BxRGpFZzcwMHhQZHV1MkJRbkNrUnF1enFNa2FRLTBSZEVTLXV2YS1nMWxkaF9yQjVSclZNdWYyX2xBeG9Kd0hvLW1Pd2FXZnBMUFNkVXJZLXRoZFQ4M2JjVk9iUkI3Z0R2Wjljc3BNaTZvQVl1Vy1Jb3c5dDJ5VmtCb1hLLVo2RVNBU1lzeGU1WnlWV0Zkd19oUDM3ME5kdTRHWEdoMnNGVWU4al9WRHVUV2tJWVkyNDY5SEpqeEhfZw?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "Renew Integrative Health Publishes Updated Peptide Therapy Guide to Help Patients Understand Their Options PRLog"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",

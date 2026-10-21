@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-21T04:58Z",
+ "generated": "2026-10-21T11:59Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-21T04:58Z",
+   "checked": "2026-10-21T11:59Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-21T04:58Z"
+   "lastOk": "2026-10-21T11:59Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-21T04:58Z",
+   "checked": "2026-10-21T11:59Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-21T04:58Z"
+   "lastOk": "2026-10-21T11:59Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-21T04:58Z",
+   "checked": "2026-10-21T11:59Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-21T04:58Z"
+   "lastOk": "2026-10-21T11:59Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-21T04:58Z",
+   "checked": "2026-10-21T11:59Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-21T04:58Z"
+   "lastOk": "2026-10-21T11:59Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-21T04:58Z",
+   "checked": "2026-10-21T11:59Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-21T04:58Z"
+   "lastOk": "2026-10-21T11:59Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-21T04:58Z",
+   "checked": "2026-10-21T11:59Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-21T04:58Z"
+   "lastOk": "2026-10-21T11:59Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-21T04:58Z",
+   "checked": "2026-10-21T11:59Z",
    "ok": true,
-   "new": 122,
-   "seen": 143,
-   "lastOk": "2026-10-21T04:58Z"
+   "new": 162,
+   "seen": 189,
+   "lastOk": "2026-10-21T11:59Z"
   }
  ],
  "items": [
+  {
+   "t": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs - SuaraGarut.ID",
+   "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtS3l1X2NJVVM3TXRmbFVPRnpHRzVia2NUSU5mVmRqUWtodjd6anZScDBLUEE2enNGajJsbDA4WTN4TnBYNU4zQ3hVaHRHTXQ0VFh5Qkgxa3NaNDh3Wnc1aHNkd0dXT3o0?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs SuaraGarut.ID"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
@@ -95,11 +102,25 @@ window.FEED={
    "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
   },
   {
-   "t": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs - SuaraGarut.ID",
-   "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtS3l1X2NJVVM3TXRmbFVPRnpHRzVia2NUSU5mVmRqUWtodjd6anZScDBLUEE2enNGajJsbDA4WTN4TnBYNU4zQ3hVaHRHTXQ0VFh5Qkgxa3NaNDh3Wnc1aHNkd0dXT3o0?oc=5",
+   "t": "Why 22 vials of compounded GLP-1 weight loss drugs have been recalled across the US - ThePrint",
+   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaE80a2dVdkRMcllhOXl3SzJHZ0NLbnFnX3NwZTVCTVBYNEdNT2k3VmYxRVctbG4yNEJEZF9HSFRrVVYxWmZMQjRuUXdRT2NmMzlBa3ZtZnNJT29hLWY4b1pncWtfNkFMYkJYVXdJeVFMYlNmUlJQOFpzRXpOQXZnbnVuMzl5N3VhZUhhOXdwd0Qyb194X2o5MW9qZG5vT2M3ejVMbWszZUNVUzVwZS1tWWJGTS0xbGh1ZUZR0gHAAUFVX3lxTFA1VkNQenduWEZTeW8yOVoyTWpzWUZEdGNuZGhOdk53OG1vQktMMG9aS1pBNUFxdFNEY0YzQjJsbFo1RldTYWpQVGpPX2MxRHlTS3FHTElISktrbW5UWHNTVFdVVWhuSnhqdE1RUDhXZjIxaWZRQTVNdmtGTDRzejBVMF8xdDBlNFo3V2tXNGd0Q2F3OFNjOFZvQnJLV1ptQlFtTHBBSUthN3ltXzhINWMtYXNHMEhsd2dKMm1FYzVFNg?oc=5",
    "d": "2026-10-21",
    "s": "gnews",
-   "x": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs SuaraGarut.ID"
+   "x": "Why 22 vials of compounded GLP-1 weight loss drugs have been recalled across the US ThePrint"
+  },
+  {
+   "t": "Mounjaro, Zepbound Ingredient Recalled In US Over Sterility Concerns - Health and Me",
+   "l": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT2ZTTDhnN2hIcUFtOVc5WUVkenFBd3B0UGZ6OWpPTDMwMnBFX0hoNXVMdlVKWVZBZ2N3SE9aSnNNdWxGZWR5NGRFZjFzOGxYWkZNaURMNEkzaFV4bmdpQkNnd2Y0SVhHdTBYY3l0ZkxnQVdiWVhjV1JZeC1JNFNlVVlLNEt3V0hyVXQxVm1nSjlFdnBENUxFUG5VNTZjU2V0YzZuOTZXOGZiYnlNLXNNTXBnWHhUMXhwbkxQV0ppTGZfemFlU0d5V3BwZGs2RFY5aHc?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "Mounjaro, Zepbound Ingredient Recalled In US Over Sterility Concerns Health and Me"
+  },
+  {
+   "t": "Compounded Tirzepatide Recall: Which Vials Are Affected and What Is Known - Around Prague",
+   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeUYwcXA3NmZEX3ZncEpiRENnd3duNXRpRWpaUFIwYWw1RTRKWlRqb0JxVXl1ZXgzb1ZiZlNYTlBvLW14eUdCVDd4MmphWDJoLWdrektiSDVjM0M5YW9YNHFWd2dndGxpYVl0c3hKNGh2Q3JEX2loMm1LaWREcDZQRTQ5Zy1oN1otTWktTUU2VlJRUlR1dy10XzVxd2VwM3RVWm56ZmxWbUZEN0E?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "Compounded Tirzepatide Recall: Which Vials Are Affected and What Is Known Around Prague"
   },
   {
    "t": "GLP-1 injections recalled nationwide: See affected lots and what to know - Democrat and Chronicle",
@@ -177,6 +198,13 @@ window.FEED={
    "d": "2026-10-19",
    "s": "gnews",
    "x": "FDA Must End the Compounding Charade RealClearHealth"
+  },
+  {
+   "t": "US FDA takes step to change peptide compounding policy - Reuters",
+   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX2VUU0dQZHRTSkcyYVJ0dy1ILUZCU01salRaYWpUWFJ0YUhGX3oyVFFtQWhCV0ZUem5LRDVvNWdleTVod1Y2MjFoUm16cFBqdnRGT0h6RmJ3Mmg1Q2w5S0hLcFdLWWlZME5HZVdTR2ZaeWVQaU1lcVhpdkx4SVozdFJic1JMR01nM3paTEItQjdZOGpyMmU5ZWw5UFZ3RTBnV256elBTVQ?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews",
+   "x": "US FDA takes step to change peptide compounding policy Reuters"
   },
   {
    "t": "hims faces legal action as fda restricts compounded weight-loss drugs - www.polskieradio.pl",
@@ -326,13 +354,6 @@ window.FEED={
    "x": "Compounding and Telehealth at Scale After Empower: Prescribing Architecture Is the New Regulatory Question JD Supra"
   },
   {
-   "t": "US FDA takes step to change peptide compounding policy - Reuters",
-   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPX2VUU0dQZHRTSkcyYVJ0dy1ILUZCU01salRaYWpUWFJ0YUhGX3oyVFFtQWhCV0ZUem5LRDVvNWdleTVod1Y2MjFoUm16cFBqdnRGT0h6RmJ3Mmg1Q2w5S0hLcFdLWWlZME5HZVdTR2ZaeWVQaU1lcVhpdkx4SVozdFJic1JMR01nM3paTEItQjdZOGpyMmU5ZWw5UFZ3RTBnV256elBTVQ?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews",
-   "x": "US FDA takes step to change peptide compounding policy Reuters"
-  },
-  {
    "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - CNBC",
    "l": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxWWVpSmdYd2lUNEVULTVrdnF2NklFSGpfbV9ONjh1TjBWMEhjdDV6b3dudDk4bFZLSm1Rd19tT0REV2x5NE1vS0MwVm1mQTZsTC1lbmdlSUtFWFpPMDFkbFJpUXBidFNtcEhDeFdvSEfSAXZBVV95cUxQWllDZUVUSkJ1NTFnNG1GZzV4TUZLU1FjMk03WFh6Y0d5T3dlYTd1QV9ESFNMdEw2WnNGTkstRW1XSnlBbDd5NV95aElMZWFnb2UxZm5qRVJOdUFBN1d2UWI1R21pbi1pMGpOSWZWc1hieDNIelNn?oc=5",
    "d": "2026-10-15",
@@ -403,32 +424,11 @@ window.FEED={
    "x": "This document proposes to amend the U.S. Customs and Border Protection regulations to modify filing requirements for informal entries of goods valued at $2,500 or less and to establish a new electronic informal entry type for merchandise entering through the mail environment.…"
   },
   {
-   "t": "Compounding Pharmacies for Weight-Loss Drugs Are Booming. Should You Trust Them? - Time Magazine",
-   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSWlHcm1DMnJybXI4NEVQc2k3RzhuY185QzVJNXpTRnZ3MXd6bk1ULW9LcmdWYWJld1ZkZnJoTzBfeE1qczhzaTN6MHpueGpvc1FuRUlmVVZqelV6N0JoUy1CUjU3UFZKeVVQYXlFQ3Ftd1lMNUtUMHZNNmUzRm1uQ1lGYw?oc=5",
-   "d": "2026-10-07",
-   "s": "gnews",
-   "x": "Compounding Pharmacies for Weight-Loss Drugs Are Booming. Should You Trust Them? Time Magazine"
-  },
-  {
-   "t": "FDA Recalls and Warnings: Amazon Acetaminophen, Millions of Eye Drops and More Compounded Glutathione - MedShadow Foundation",
-   "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPY0pEdE8xWDJ4cmphR25iay14ZXl2ZFdOWnNOMnptOEZ0NW0tMmxoQkptdFNPMHp3VnZoMjBTY2xPeVBUakhodzVjMEYzV3pPNlltTmM2Q205MU9SYXBRSi15WlhKdmNtR29OVXNodGFoX0FXel9aUFcxVTZ4RUx0WUxYQWxTV2RfTGk2SzJDdnoyeUJJT0ZfNmxfNC1HYVpnMVFTSGRzaGU0dnlvMGItMTktYURXTkZjMjRhZjZyUTA2VTVGcWdjWTBtOVo0Y0E?oc=5",
-   "d": "2026-10-07",
-   "s": "gnews",
-   "x": "FDA Recalls and Warnings: Amazon Acetaminophen, Millions of Eye Drops and More Compounded Glutathione MedShadow Foundation"
-  },
-  {
    "t": "Pine Pharmaceuticals, LLC - 728537 - 08/07/2026",
    "l": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/pine-pharmaceuticals-llc-728537-08072026",
    "d": "2026-10-06",
    "s": "fda-drugs",
    "x": "Compounding Pharmacy/Adulterated Drug Products"
-  },
-  {
-   "t": "hims faces legal action as fda restricts compounded weight-loss drugs - polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQT1NpUUp6V3BSVlpBVkpNTjlTcjJEeFB5ZGY0SGRObVlUNnoyeElwcWdJSXkxdzFsTXVpV1FXdEJrR21DX21aRUw2cV9pSUJXMU5kcFI4amxPUWxVaE9vdExuaUVmOEVRMU1HMmVNeEVTTWU1V1pfTUdtZmdEVm9iNTBPdWx3d0swUGZBNGYwSk93Sl84VlJpZWJoX3ZIZkp0NWFyUkFnQlVXbk44UW14Wngxby11YzNkb2Jj?oc=5",
-   "d": "2026-10-05",
-   "s": "gnews",
-   "x": "hims faces legal action as fda restricts compounded weight-loss drugs polskieradio.pl"
   },
   {
    "t": "Greenwich Rx Issues Voluntary Nationwide Recall of Compounded Glutathione Due to Elevated Endotoxin Levels",
