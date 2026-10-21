@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-20T21:42Z",
+ "generated": "2026-10-21T04:58Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-20T21:42Z",
+   "checked": "2026-10-21T04:58Z",
    "ok": true,
-   "new": 114,
-   "seen": 142,
-   "lastOk": "2026-10-20T21:42Z"
+   "new": 115,
+   "seen": 143,
+   "lastOk": "2026-10-21T04:58Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-20T21:42Z",
+   "checked": "2026-10-21T04:58Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-20T21:42Z"
+   "lastOk": "2026-10-21T04:58Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-20T21:42Z",
+   "checked": "2026-10-21T04:58Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-20T21:42Z"
+   "lastOk": "2026-10-21T04:58Z"
   }
  ],
  "items": [
@@ -77,6 +77,13 @@ window.FEED_ART={
    "d": "2026-10-20",
    "s": "gnews-a",
    "x": "1 in 4 Army Men Have Low T; GLP-1 in Menopause; Retatrutide Side Effects on Reddit MedPage Today"
+  },
+  {
+   "t": "TB-500: Expanding Landscape of Regenerative Signaling - Peninsula Daily News",
+   "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM3Z0VlA1ZElrUnJ6SFNwTzJYd1JTMW1oaHg5eEhsb1I4bjZ0a2V1eU1kdUJHYUlPOUJPWHdoTlRvdU5tUGRtWS1OT2VzSnd6YWoxUERRaDZXT25EOUhLNWRQVkNxOElTc2tjdjVvaXdoUDdMMVVFdVBwNmF2dWZZczlrUDY2YWlRbXQ2YVQ2dEFWZURjMk9zZ0w5RHI0VEYzNWoxX1RyeFc?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews-a",
+   "x": "TB-500: Expanding Landscape of Regenerative Signaling Peninsula Daily News"
   },
   {
    "t": "‘Serious adverse effects’: Experts warning after alarming rise in hospital visits from use of black market peptides - Nine.com.au",
@@ -147,6 +154,13 @@ window.FEED_ART={
    "d": "2026-10-19",
    "s": "gnews-a",
    "x": "NSW health authorities issue unapproved peptide use warning after hospitalisation surge RNZ"
+  },
+  {
+   "t": "Peptide Dangers Result in Hospitalizations - Newsmax",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVXBtaGV5NXM4aHdndlo2Uk5EeDNjYkw3NjA0aVU1Vk12NHpjamRMOFd3cjN5b1BGQmxnU085NjV5MklvU1QzWDByZng2dFV0LVMyVFlxR1hvektUUWJPak9SeWNoQUNmNThjTExWYXBRdVY4eGNxMENaZ0xpTURIa2pzQWVHc3YtRGc?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "Peptide Dangers Result in Hospitalizations Newsmax"
   },
   {
    "t": "University of Missouri doctor warns about buying peptides on the gray market - KCUR",
@@ -322,20 +336,6 @@ window.FEED_ART={
    "d": "2026-10-16",
    "s": "gnews-a",
    "x": "Renew Integrative Health Publishes Updated Peptide Therapy Guide to Help Patients Understand Their Options PRLog"
-  },
-  {
-   "t": "retatrutide weight loss compared to other drugs - BusinessWorld Online",
-   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcG9wLVBGMGZic2xUdDZ4dUpveXRDcnVpVUkxczJHNHlpdDdLMUdzeFFzenZ4V0F6WjVreHJWYm5QQXM1RDV0bzhBWXpzMnJxeUJHNktrM2UydE9oeF9MVkpuMGZYWTVHRE5iOTdGWWlZTDd6YXFkSTV5d2hpSFVtbVlPN3kyTzB3UmRsZm5wRTU?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss compared to other drugs BusinessWorld Online"
-  },
-  {
-   "t": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market - TradingView",
-   "l": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUFotNGNHUHMtLUZBSDB0Vjg5N05hQUdKb1l5aC1CYmZRNUc0aFk1cUVmS0I3NzZxLU5HQWVLQUFRSEx6a3RGZk1PZlI5NUoxMTRvYVkyQ1FreW9TcVJva3RSaWY2dklodW91OEhrajU3ZkdwbW1MUXRubVo4NDhxbTBUS241YkxJQ1ZSeUJnM3ZFcS1nRzJrejVUOHdwUFNfVDN3RHVMOG5aNEtCZUhnbWJrbTM3Snd5d2o5Yzd3cFlFS1hJeWE2cHRMYU1XSzBPU0dmNzZSMjREYVVLRFFmVGR1RXZRaE54aElubzdFX3ZMOHNnYWhnY3Vad1Nadw?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews-a",
-   "x": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market TradingView"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
