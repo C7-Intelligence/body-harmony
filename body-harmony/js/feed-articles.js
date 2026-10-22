@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-22T17:17Z",
+ "generated": "2026-10-22T21:43Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-22T17:17Z",
+   "checked": "2026-10-22T21:43Z",
    "ok": true,
-   "new": 113,
-   "seen": 145,
-   "lastOk": "2026-10-22T17:17Z"
+   "new": 117,
+   "seen": 144,
+   "lastOk": "2026-10-22T21:43Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-22T17:17Z",
+   "checked": "2026-10-22T21:43Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-22T17:17Z"
+   "lastOk": "2026-10-22T21:43Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-22T17:17Z",
+   "checked": "2026-10-22T21:43Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-22T17:17Z"
+   "lastOk": "2026-10-22T21:43Z"
   }
  ],
  "items": [
@@ -98,6 +98,20 @@ window.FEED_ART={
    "d": "2026-10-22",
    "s": "stat",
    "x": "In this edition of STAT Health Tech: FDA's guidance on prescription drug use-related software, and telehealth pushing GLP-1s for addiction."
+  },
+  {
+   "t": "GLP-1 compounder issues recall for copycat Zepbound - BioPharma Dive",
+   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMWtyNDBobVJtblN0ejdHbVFzejhSZllfNDNwUjZuSVBfSE1NeHczLVZTVzM1b2d0ME1FeGJTQk1ZV2ZOSFBtbmg0d3pReXBHRWtTTlFkc1M0YXlQeFFFdkNfbWVWM2NjbWt6MnVLNXVqb1Qyb3ZfaXhpcGo4STlVUDNYVlZYS0tXbkktNDlJNUhka1FhcUQ3UDgtdWtKOVkt?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "GLP-1 compounder issues recall for copycat Zepbound BioPharma Dive"
+  },
+  {
+   "t": "Retatrutide Lowers Albuminuria, Glomerular Pressure in Obesity and CKD - HCPLive",
+   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQem5DNU40T1gxLXpaRDBtZ1JMYmd0TlNEaFc3UGpyWU5UOEV3ZW5fb3pOa2d3WVIzTzNYbkotZ3NGOGQtcUhGYV91eU0tQmxmZDFXMFAtMDJ1Y21ScTFtZ2FCMmRwRDV1bk1hTjhrdC0zcXM4ZVhaTzdWN053Z1dmQl9qek02UWdReXlPV0xUYWgyc1FiWnJrTjBXWW5tY2s?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "Retatrutide Lowers Albuminuria, Glomerular Pressure in Obesity and CKD HCPLive"
   },
   {
    "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
@@ -343,20 +357,6 @@ window.FEED_ART={
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "The [almost] unbelievable relationship between “big pharma” and gray-market peptides Peter Attia MD"
-  },
-  {
-   "t": "Impact Fit Shifts to 100% USA Manufactured Peptides - Detroit Free Press",
-   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQaGdXVnFNYkFLekdmbUk4em9NaE5CZVcwM19HQndvbjhQcXEtbnZUWDg3TGIzaUw5cUhyaHNPSU1GNk56bWFfcERmLXNGTlZUZlNzcXRtNFk1R1RMTlRwTVFIYTM4dnNxODN6UW5CdERzeTNndHVadlRCUmhyMlN6VGNRQ3NBR0lyeWVRckM0R1BoNkhWcWliYWpvb3V1YjIzbVE?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "Impact Fit Shifts to 100% USA Manufactured Peptides Detroit Free Press"
-  },
-  {
-   "t": "fda concerns unapproved glp-1 drugs weight loss retatrutide - Philstar Life",
-   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPREp0QUxWWEpGRko0T0dxdDZRU0NKakF5c2gzd2FFLWM0MXRmRUVFeEJGTzJ5WTlYYWZUT0dRMXZPZWhWb05hZG5BaGlGbHBjVUpiV0hkb3hmVU5jT1ZuQlAzUnNkSW9PSHZrLTl5RlRaWUlDNWZoRGpydVBrdzd1Z3ZudzJVS0NfS2hrZHdYZE5QN2lFNzBuZ2ROZm1mTERwTUE?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "fda concerns unapproved glp-1 drugs weight loss retatrutide Philstar Life"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
