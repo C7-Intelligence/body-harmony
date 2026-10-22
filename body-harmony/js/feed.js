@@ -1,91 +1,105 @@
 window.FEED={
- "generated": "2026-10-22T04:59Z",
+ "generated": "2026-10-22T12:02Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-22T04:59Z",
+   "checked": "2026-10-22T12:02Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-22T04:59Z"
+   "lastOk": "2026-10-22T12:02Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-22T04:59Z",
+   "checked": "2026-10-22T12:02Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-22T04:59Z"
+   "lastOk": "2026-10-22T12:02Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-22T04:59Z",
+   "checked": "2026-10-22T12:02Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-22T04:59Z"
+   "lastOk": "2026-10-22T12:02Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-22T04:59Z",
+   "checked": "2026-10-22T12:02Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-22T04:59Z"
+   "lastOk": "2026-10-22T12:02Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-22T04:59Z",
+   "checked": "2026-10-22T12:02Z",
    "ok": true,
-   "new": 0,
-   "seen": 8,
-   "lastOk": "2026-10-22T04:59Z"
+   "new": 2,
+   "seen": 10,
+   "lastOk": "2026-10-22T12:02Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-22T04:59Z",
+   "checked": "2026-10-22T12:02Z",
    "ok": true,
-   "new": 1,
-   "seen": 1,
-   "lastOk": "2026-10-22T04:59Z"
+   "new": 0,
+   "seen": 0,
+   "lastOk": "2026-10-22T12:02Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-22T04:59Z",
+   "checked": "2026-10-22T12:02Z",
    "ok": true,
-   "new": 163,
-   "seen": 190,
-   "lastOk": "2026-10-22T04:59Z"
+   "new": 165,
+   "seen": 192,
+   "lastOk": "2026-10-22T12:02Z"
   }
  ],
  "items": [
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process; Delayed Compliance Extension",
+   "l": "https://www.federalregister.gov/documents/2026/10/22/2026-21600/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
    "d": "2026-10-22",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
+   "s": "fr-cbp",
+   "x": "This document announces that U.S. Customs and Border Protection (CBP) will extend the compliance date for the regulatory provisions mandating the formal entry of merchandise arriving through the international postal network that is subject to partner government agency…"
+  },
+  {
+   "t": "Modification of the Test of the New Electronic Informal Entry Process for Mail",
+   "l": "https://www.federalregister.gov/documents/2026/10/22/2026-21570/modification-of-the-test-of-the-new-electronic-informal-entry-process-for-mail",
+   "d": "2026-10-22",
+   "s": "fr-cbp",
+   "x": "This document announces that U.S. Customs and Border Protection (CBP) is modifying the test of the new electronic informal entry type for merchandise entering the United States through the international mail process to permit transmission of the entry with or without electronic…"
+  },
+  {
+   "t": "files Citizen Petition urging FDA to block compounding of unapproved and uncharacterized peptides – Partnership for Safe Medicines - Partnership for Safe Medicines",
+   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX3BTaEdzTGxLV3VGd3cxMWVDaXBjdHBmdTBva0pfWjZOeEw3cEFLSDhJMk1vYWtTV1hXVTdLR0J6WGlPTUE4SlQyU1NMVGxnUXBDZFpVdUhsWUE3SEx5UGZUb053TlhQTzBXa3Z5ZUZhTXZqMk5DSEFWZW95ZW1aRmRNNlU?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews",
+   "x": "files Citizen Petition urging FDA to block compounding of unapproved and uncharacterized peptides – Partnership for Safe Medicines Partnership for Safe Medicines"
   },
   {
    "t": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs - SuaraGarut.ID",
@@ -179,6 +193,13 @@ window.FEED={
    "x": "Apothecary Pharma recalls compounded tirzepatide and NAD+ vials over sterility concerns Managed Healthcare Executive"
   },
   {
+   "t": "What to know about GLP-1s and cannabis use - LiveNOW from FOX",
+   "l": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vYTZ6RkM1M19vMXdJV3Y3Q1d2b0djbnV0NDVCbkVfUVhYMDdDYm1sWDUyOTVmTVVTSDdXSHZYMzRpMnJzbFRUQ1pQRjh1amZ6U0RMYzc5OUZHRGc3Y09WaS1CR0Vaa3dKVklQS3NzTk9WT2Z0N0dwMVlCMmY5UdIBgwFBVV95cUxNbDZvLWZSWEE1LVlpXzdKc1Y3YU5KS3g5a21EM2Y0aHJ2LXAyWS15SXcwRWVTc2VBUG4yei1kbnJrdVZCY2FsRE1lQTFKQkxoVDJ1NllURkR4VUNZbGt6aUQ0MzhJRGVodkJfWWdtRE9QWjhkSHdoc1V1ejJTMFpDYzNFbw?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "What to know about GLP-1s and cannabis use LiveNOW from FOX"
+  },
+  {
    "t": "GLP-1 injections recalled nationwide: See affected lots and what to know - Democrat and Chronicle",
    "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeG95RGtHdXcxd0xOa1laQ1piVWRmWnU4RlBlaDRIR1BsODFhZFZSdVVHRVNzNHJxUzU5MWprbU5DdmF1UnZjYjYxYTR4M0h6eG8zRWZ2al9nalQ4NGV3ZWY4c3hDTjlucmRzTkdaclhGVEZiSEVON3dwOEpSRThKZlRxS1BoNGJaRHQ0dVowa1duM0hwaWkxLXZta3JQODdaaUNwak1FRmZ1QWFENHkxZg?oc=5",
    "d": "2026-10-20",
@@ -219,6 +240,13 @@ window.FEED={
    "d": "2026-10-20",
    "s": "gnews",
    "x": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee The Tennessean"
+  },
+  {
+   "t": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee - AOL.co.uk",
+   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SSEY5ZzZSaUo3S3dBYmJ3eFdadi0ySzY0YWxrV29Fb0pfZmtEMThzNlRfX0hkLW1xVUpxN1BDS2dfeVBDSjZEZUNFcEgtUXpDS0xBTUc3RGhvdEFOTEN4TTY0VG03clh2eFJscFlTLXVBTDlta3piNGdnRTFYZVU?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews",
+   "x": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee AOL.co.uk"
   },
   {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
@@ -380,27 +408,6 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews",
    "x": "Peptide FDA Updates: Latest News on Compounding and More GoodRx"
-  },
-  {
-   "t": "As FDA Weighs Wider Peptide Access, Adverse Event Reports and Two Las Vegas Intubations Sharpen Safety Questions - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQYVNUUW5sU3IyaUJ2UTlJYm0xdFpjZTdIU0phODdHTUozR1ZJZ25FRktKelZPdjFqbjJoaU1nMWJlWTEyM0dFN0piYXplNHFGTUZ6VGhhdkFYZnV4S0RiLWpPVjdabHRJN1NzSUM3bThBSFRZa2s0NjYyNGpEY0l2YURoNG51MVdEX255MlU5aWxLWEY4OTB4bXhTYzdqLW1J?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews",
-   "x": "As FDA Weighs Wider Peptide Access, Adverse Event Reports and Two Las Vegas Intubations Sharpen Safety Questions Medical Daily"
-  },
-  {
-   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTE8zbjFUNHFqT3JWenJYWDBuaTJJRC1oeXhYcXhUMl93Z0xMMXN1T1dHLXA2UE1QOVRJQW95N1Utb2FYV09BZW8yc01GdHp5SFpIOE15LU5ZaXViaXJuNm50XzN2MnZSRHFER0wtdW9oRUxtaGpWRGNJOGxrOEZ6Q3Q1Z1pOVDVpOXZDdzQwdnNLVENiczBfcmljcUpuVTF2NE9TTWxNcFg4Uk83cHfSAbMBQVVfeXFMT3FhTERKelk4TlBmOFUzSkV4MmxyS1ByZXIxQ0JTeFFvMVljd1pZTzlaeGxPcWdLUDB1cEJXTGctdGNDUWlyN3hwZm0wSEpEeTNPX0hxRFNSSk5sbUpockZzZVNHWXVVYnU1SVUzZFk0WTF2Z29RYVNXLTkwQzJMZHBzeEI5OERFb2V4c2NsOGRuMUtpSDNaVDMxX1JTcUlxZ3dwNXB2aktqMUltOGRzRWMzTTg?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews",
-   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. ABC News - Breaking News, Latest News and Videos"
-  },
-  {
-   "t": "Compounding and Telehealth at Scale After Empower: Prescribing Architecture Is the New Regulatory Question - JD Supra",
-   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVV80RkU0Z3hWaWRiMVNVaFVtWklGZk1oTnE5VlNkZGl5bkpwUDNPLUpnamtGNTdHWWhINWszMVpvdi1KQmNtempyay1McnF0clRRcDI0TVpIWXlxZUdqOVQtTU02bWZwWXRYdXhRbEFOY2dpT0dQelBhUkR5RXJ3Wks3LVc?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews",
-   "x": "Compounding and Telehealth at Scale After Empower: Prescribing Architecture Is the New Regulatory Question JD Supra"
   },
   {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",

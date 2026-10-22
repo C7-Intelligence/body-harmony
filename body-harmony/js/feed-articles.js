@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-22T04:59Z",
+ "generated": "2026-10-22T12:02Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-22T04:59Z",
+   "checked": "2026-10-22T12:02Z",
    "ok": true,
-   "new": 118,
-   "seen": 149,
-   "lastOk": "2026-10-22T04:59Z"
+   "new": 113,
+   "seen": 147,
+   "lastOk": "2026-10-22T12:02Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-22T04:59Z",
+   "checked": "2026-10-22T12:02Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-22T04:59Z"
+   "lastOk": "2026-10-22T12:02Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-22T04:59Z",
+   "checked": "2026-10-22T12:02Z",
    "ok": true,
-   "new": 0,
-   "seen": 1,
-   "lastOk": "2026-10-22T04:59Z"
+   "new": 1,
+   "seen": 2,
+   "lastOk": "2026-10-22T12:02Z"
   }
  ],
  "items": [
@@ -65,6 +65,20 @@ window.FEED_ART={
    "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
   },
   {
+   "t": "Certa Peptides Price Guide: Understanding Product Costs and Promo Code LOOT30 Savings - Steady",
+   "l": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNV2lLWkozLVNoT29yRlllQ2ZOUXd4MlZ2WlJKRHpYVElJWVNRVzBSdTRKYm1XZVVEaHZTVW1YZlNhak9oSU13LXZNNlpkdjBfM2UyQjRmSlBzR3c3c2doaTFQdTRmTml4Rk5Xc2xXVHhBQXJIZkdvQmxMSGZhMGFHdmZn?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "Certa Peptides Price Guide: Understanding Product Costs and Promo Code LOOT30 Savings Steady"
+  },
+  {
+   "t": "STAT+: Telehealth leapfrogs FDA approval with off-label GLP-1 prescriptions for addiction",
+   "l": "https://www.statnews.com/2026/10/22/glp-1-drugs-substance-use-disorder-telehealth-off-label-prescription/?utm_campaign=rss",
+   "d": "2026-10-22",
+   "s": "stat",
+   "x": "As telehealth promotes GLP-1s for addiction, experts worry about fragmented care, and exposing patients to unknown risks."
+  },
+  {
    "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
    "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTkk5UnJ4dkFlOFR4dzYybmUyekZjSzA3NDR0N3NXbmg0SkF0aFgyQS15S2VrWUlxVmVpaXE4SHJ5N2U5TjZRanUzWW9rOUxfS1o0MWp6SXVwamhBSEFxVFItalFMVFFQRjR5cTRkM2N6cFJNZm1reGlrckFDTWoxanVmcXlEaUJTejZnaWhBY1hPbFBBQVROZnpFbkdBY0E4QVA2bzFXODNaLWd6WlI0Q24yR0xDUzNQUDRRd0Y3RWdvTC0xN1VPM2lyODIzVVBpMkNFTw?oc=5",
    "d": "2026-10-21",
@@ -91,6 +105,13 @@ window.FEED_ART={
    "d": "2026-10-21",
    "s": "gnews-a",
    "x": "A New, Stronger GLP-1 Is Currently in Clinical Trials. Here's What Researchers Want You to Know Women's Health"
+  },
+  {
+   "t": "Some GLP-1 injections recalled due to ‘lack of assurance of sterility’ - Los Angeles Times",
+   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWUR3YkhMNTkwNzh2ZnFINERjWGQ4RnZ1dXdRdzVLSlpnTjlPVmhQWWtMalZsVnhPbWZPQWZJOUx1YWpHNVhGQ1ZjRTI4QjVMV3A2c0NyVmtvUWxnb2VSOWRqR3loLW13UjV4SkNZT2R5dU9rS1FLWnFlNndsd0ZTYWRlZkxtc0lOQVRlR0ZiSlNKQVhCdE1DcDJPcW9KdjdMbGFZVzUtZFdycVk3U05UdG5vdUJUVlBub0ZEUw?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews-a",
+   "x": "Some GLP-1 injections recalled due to ‘lack of assurance of sterility’ Los Angeles Times"
   },
   {
    "t": "Could Retatrutide Break a GLP-1 Weight-Loss Plateau? - Medscape",
@@ -326,20 +347,6 @@ window.FEED_ART={
   {
    "t": "retatrutide weight loss drug latest updates 2026 - Philstar Life",
    "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGtWNzJPaFFnM1VYZXloMnNzUjAtR2FQajByMHNxMFVHbWhXbXU3RS1jLV9wY0lXOHRzQ1VhbTQ5MlpiNzUzdDJ3TFpnb2dicVhMU0xFYUhYdk5ySFFqWEFOODBqcjFUZjJZQlhkbW5BWFpmY3ZTS3NpN3RNVHB1SC1iZWZ2ZVVZRGt2WEpKTFVXbUhTbm5yVGZYOA?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
-  },
-  {
-   "t": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides - Pharmabiz.com",
-   "l": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1GWTNkeGR6TEpGdVFQOEI2NjVha3MwcjIzaVlOWWczVDA1NWhFaExzTUxPaERPLXRhVWdDN3dubWx5TWJlR3BtVlJlZDVRNUVUYjIxcHNpRWNuMFpkdlY2bS0xdnU1VFJoWjk0dA?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides Pharmabiz.com"
-  },
-  {
-   "t": "retatrutide weight loss drug latest updates 2026 - Philstar Life",
-   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWTRFbjRpYTBrTEdHcUt1QWdaeE5iSEVJMVFJUTdIOEl2UV9TRFZ6SFBheVhVMWtoNlZMMEdLZGlSdG16dXpSMGwxTTNsTHhGNTl2ejN2bThuSnFvVFd2VllxZEhKZGxlVl8xYXR1S3ZWSmpWNFhERWJHRTVYTTc1d3Y2YTgyclJaS2V4ekJ0NURtckc1bXR2NEwyYw?oc=5",
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
