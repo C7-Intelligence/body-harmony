@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-21T21:48Z",
+ "generated": "2026-10-22T04:59Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-21T21:48Z",
+   "checked": "2026-10-22T04:59Z",
    "ok": true,
-   "new": 116,
+   "new": 118,
    "seen": 149,
-   "lastOk": "2026-10-21T21:48Z"
+   "lastOk": "2026-10-22T04:59Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-21T21:48Z",
+   "checked": "2026-10-22T04:59Z",
    "ok": true,
-   "new": 4,
+   "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-21T21:48Z"
+   "lastOk": "2026-10-22T04:59Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-21T21:48Z",
+   "checked": "2026-10-22T04:59Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-21T21:48Z"
+   "lastOk": "2026-10-22T04:59Z"
   }
  ],
  "items": [
@@ -58,6 +58,13 @@ window.FEED_ART={
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
   },
   {
+   "t": "retatrutide weight loss drug latest updates 2026 - Philstar Life",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN0RlRE92N2tFNlpXdFZCakhvSFYtSW93enQ0VEZGOWJlREh6S2tqWVZ0X09RSUtZdWt6bTNlQW82YmlfSXpNVmdlbnZCQ0pUV2xPZ0R3NlV0a0VXaUoxaTRhV0U5RjRaSENNMGRTSTl3SGI4QWdnaUNsTWVDcXl6LXR3dHNMSUFIWDE5c1ZoSGFTM3N4aEhnMkllcw?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
+  },
+  {
    "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
    "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTkk5UnJ4dkFlOFR4dzYybmUyekZjSzA3NDR0N3NXbmg0SkF0aFgyQS15S2VrWUlxVmVpaXE4SHJ5N2U5TjZRanUzWW9rOUxfS1o0MWp6SXVwamhBSEFxVFItalFMVFFQRjR5cTRkM2N6cFJNZm1reGlrckFDTWoxanVmcXlEaUJTejZnaWhBY1hPbFBBQVROZnpFbkdBY0E4QVA2bzFXODNaLWd6WlI0Q24yR0xDUzNQUDRRd0Y3RWdvTC0xN1VPM2lyODIzVVBpMkNFTw?oc=5",
    "d": "2026-10-21",
@@ -77,6 +84,13 @@ window.FEED_ART={
    "d": "2026-10-21",
    "s": "gnews-a",
    "x": "Unapproved peptides raise health concerns St. Louis American"
+  },
+  {
+   "t": "A New, Stronger GLP-1 Is Currently in Clinical Trials. Here's What Researchers Want You to Know - Women's Health",
+   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPZkJ6eE1OdjZyWk16bzRzbllPZmQwLTRVZjdWa2ctUHdoTFZScm8wVTl5SUhYeG9lTmZURTJFRVFpakFYWWxsVmNCU2JUemFJUk4xVlFKa2E2Tm9UVU9lRmZmcDVCc09RTERwSGhtd1M4dkF1b3VlTk1feGd0VTlVUGFhNnY?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews-a",
+   "x": "A New, Stronger GLP-1 Is Currently in Clinical Trials. Here's What Researchers Want You to Know Women's Health"
   },
   {
    "t": "Could Retatrutide Break a GLP-1 Weight-Loss Plateau? - Medscape",
@@ -205,6 +219,20 @@ window.FEED_ART={
    "x": "Experts warning after alarming rise in hospitalisations from peptide use SMH.com.au"
   },
   {
+   "t": "Peptide warning after surge in NSW hospital visits | ABC News Top Stories - ABC News & Headlines – Australian Broadcasting Corporation",
+   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNVQ0eHZqTV9oMFFTNFZLZDRUNmMwQnhjd3ZIM250Y1ZHcV93VEppRnFROERadVNid0hHNzFGa3hOR1lweUpmVHJXLTNMdHljUm9GSnRnTjJkVTdCUl9KRFhkeWt3c1BMMk9VT3l5MWN5NjVRV2xCZDdYd042SDhIcHl2LWNaemNORnBmZXAtQmhZTnpKZ0JlakxNeWN6ZjNpYll4bFYyN1hHcVFyUWpsWUZnQkw2bXJoTTRuQjJB?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "Peptide warning after surge in NSW hospital visits | ABC News Top Stories ABC News & Headlines – Australian Broadcasting Corporation"
+  },
+  {
+   "t": "October 19, 2026: Two deaths linked to bootlegged retatrutide - Partnership for Safe Medicines",
+   "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNjREdmNNRWdzZC1JVTNmNjIzZEs4cjFNUEVCaGJIYUdqU0FtMFNKNl9vVFF3Mm94Y1dwaW9LMFBkT1IyN1l0UU03WlkyMDFFdEVtdVhWajJNMFp2N2tFNnM3c3BQZjZxb2EtdjNvcGtHUUNFY2xSX3N5cUpFVVg0TEg2QzZnejVyRXN6cXIxX1dncm5qUllNVFIyM2hVa3Z2WW9GWA?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "October 19, 2026: Two deaths linked to bootlegged retatrutide Partnership for Safe Medicines"
+  },
+  {
    "t": "University of Missouri doctor warns about buying peptides on the gray market - KCUR",
    "l": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSnlONVZEUXdWYTUySHNDdjhBZlZ5T21GV0EzdVJ1ekJtaXpKOTlvTHo3MmtJVU00Z2h5cGRwOF9HdTlsM0FjQlZmRVRvLXV5Zzlzc2NRYk1hLXdFM25zajJ6U0NmYlR6RlJoLWt4WGhGNldFNkFXd3ZqZk8yVmUyQWp4elMwYm9TOU1iNDVDTzZKeDMzRXNVVUxsaGdWYlRNYVI1el82TENYZjJtMGlFYnJJaUQ3QQ?oc=5",
    "d": "2026-10-18",
@@ -315,34 +343,6 @@ window.FEED_ART={
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
-  },
-  {
-   "t": "eli lilly trial shows drug retatrutide produces significant weight loss - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNDlvTkNkTS1HSGhhcjJCZVJxZ2JmZWUwYXV1UGFoY2tNNkN0alhQckVVVjk4YkJJTTZLYWZSRnBVS01ZYzhXTmtNNlM0VzdYVWRHS1VPRzVNTUNxNnVad2tWbnlJSWp1anFhYV9KQVNvT2loelVkUjhhOHZBU3ZITWo3N29CYVZqTG5lTkVySmt5bEVQeFdkNXhVNTFUZFV2NUVJQjVUT3lneVluN3VTZWxsOXFVSXEyQzVIY0w2NA?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "eli lilly trial shows drug retatrutide produces significant weight loss www.polskieradio.pl"
-  },
-  {
-   "t": "2026 fda approved weight loss drug retatrutide approval status - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVUlmcUlIRktZdFpVeEdfOF95bDdKOHdBdC1RQnVRSW52VXpvbnZTZmZlSEUwQ3pRUGN3NzBTNEd6U1lYMmhTMjdZdzNWQ2RMTzd0ZGRPX3JZTlFqc0MxQ3pwSGxzTVNOc2owc1BqZl84OGQzNGYwWlJSa1FwRGplU1pZZzA5S1VCY2NXS2U5ZlZaNGV3TXNIaGNvUkxFb1VBcVNnbU9LekZtaWRPMTVVb2x4WQ?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "2026 fda approved weight loss drug retatrutide approval status www.polskieradio.pl"
-  },
-  {
-   "t": "retatrutide weight loss drug latest updates 2026 - Philstar Life",
-   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQclNiR29ITExDb2c1REJhcURrZy1JZmFFZzZfellhVWJDYTV6VGw1QU1VRV9GUEVVYkFsbFlITlhKeGt6SHdRRFI0U2pVX25xcGJiNldRV1lDTzJCMVpZd1dXb2tvX2Z6N3ZHdUpISW84Z29iRUswNnRNSnY3V2xUdi1QVkhqTjRoMmFkUmRzTk96dFJWLWc5cEM4Yw?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
-  },
-  {
-   "t": "2026 fda approved weight loss drug retatrutide approval status - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZmVCVTVENWk4eDFpSmZGQ3RvMTZ3eWRTM1ZvTTNJVGhWWDJ0VFktVE96RE1FaEcxTDcyRVRmVTRRSTVyRlVuM25MdTQtNHZpRUVvNTRuU3ppajZJTGN2QTNSRDRkdzRXbk5IQWRDRkNsUVpDMW9qczQwX1lsY1l5eGtZTmxnbHY0d2dqN3UwbXRWdU1TT3NvcHIwc1dXbC0xZ0xnSEktZzlOV3NoN3ZPZQ?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "2026 fda approved weight loss drug retatrutide approval status www.polskieradio.pl"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",

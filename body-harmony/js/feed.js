@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-21T21:48Z",
+ "generated": "2026-10-22T04:59Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-21T21:48Z",
+   "checked": "2026-10-22T04:59Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-21T21:48Z"
+   "lastOk": "2026-10-22T04:59Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-21T21:48Z",
+   "checked": "2026-10-22T04:59Z",
    "ok": true,
-   "new": 2,
+   "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-21T21:48Z"
+   "lastOk": "2026-10-22T04:59Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-21T21:48Z",
+   "checked": "2026-10-22T04:59Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-21T21:48Z"
+   "lastOk": "2026-10-22T04:59Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-21T21:48Z",
+   "checked": "2026-10-22T04:59Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-21T21:48Z"
+   "lastOk": "2026-10-22T04:59Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-21T21:48Z",
+   "checked": "2026-10-22T04:59Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-10-21T21:48Z"
+   "lastOk": "2026-10-22T04:59Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-21T21:48Z",
+   "checked": "2026-10-22T04:59Z",
    "ok": true,
-   "new": 2,
-   "seen": 2,
-   "lastOk": "2026-10-21T21:48Z"
+   "new": 1,
+   "seen": 1,
+   "lastOk": "2026-10-22T04:59Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-21T21:48Z",
+   "checked": "2026-10-22T04:59Z",
    "ok": true,
    "new": 163,
    "seen": 190,
-   "lastOk": "2026-10-21T21:48Z"
+   "lastOk": "2026-10-22T04:59Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-10-22",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
+  },
   {
    "t": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs - SuaraGarut.ID",
    "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtS3l1X2NJVVM3TXRmbFVPRnpHRzVia2NUSU5mVmRqUWtodjd6anZScDBLUEE2enNGajJsbDA4WTN4TnBYNU4zQ3hVaHRHTXQ0VFh5Qkgxa3NaNDh3Wnc1aHNkd0dXT3o0?oc=5",
@@ -151,25 +158,25 @@ window.FEED={
    "x": "The Center of Excellence offers two discussion series - one for newly registered outsourcing facilities and one focused on quality, and we encourage outsourcing facilities and related stakeholders to get involved."
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-10-21",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/lillys-obesity-pill-revmeds-pancreatic-cancer-breakthrough-among-slew-chmp-endorsements",
-   "d": "2026-10-21",
-   "s": "fierce",
-   "x": "Across the pond, European regulators handed down a pair of pivotal approval recommendations this week, making way for a new front in Novo and Eli Lilly’s oral GLP-1 showdown and endorsing Revolution Medicines’ potential pancreatic cancer game changer."
-  },
-  {
    "t": "Compounded GLP-1 drugs recalled amid rising concerns over unapproved weight-loss alternatives - The Boston Globe",
    "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaTIwWkNjcEI0c0xFZ29Sb1N6Wk1LTDVReEdNa1VIMVdMU25QX2FrSUt4SVZaT21YSDBZYTZTNDNIbEZUTXJzY0RKQXFKeEswa0J0c0h4UGhia3NRUWJNQXVLMG8yZ1ZvR2ZYQ3prbEFac0s0X21zMWZneUNWSHJLbnM5QXhJcTZnRnJNMHF2UktTZGpUVVhMYnh1cw?oc=5",
    "d": "2026-10-21",
    "s": "gnews",
    "x": "Compounded GLP-1 drugs recalled amid rising concerns over unapproved weight-loss alternatives The Boston Globe"
+  },
+  {
+   "t": "PSM files Citizen Petition with FDA to stop unsafe compounding of untested peptides - Partnership for Safe Medicines",
+   "l": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JeVlIUGR4YUgtSXpUelpmelc1MHVYRjYyMmpWT1dLdU5nTV9DbGxZZzB6SzhOUjkwMDJOMG93aUZNeEV2WHpPeGlqWF9XcVRSMXptSHZGcDMwSXdJREtWTVowRUZnUlN3dWUtQXd5WkRRMXlLX08w?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "PSM files Citizen Petition with FDA to stop unsafe compounding of untested peptides Partnership for Safe Medicines"
+  },
+  {
+   "t": "Apothecary Pharma recalls compounded tirzepatide and NAD+ vials over sterility concerns - Managed Healthcare Executive",
+   "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeXNTcHVMNmVPUlc0NnVBVFJWc0N4UjJqQXVYT2x4TUpUbEtXdXdwRWVTVUxBSGdYc3lKZ1Q0eUtyUWRIYnpocUJqVzZ5UWQ2enBsdnRmSTZYVVVEQ0VuYV9uR1c2X3pmSTJHQWYwd0V4SlhzMzZxcTZkdWw5dnVhOVl5NGdsRG9pdU82NzdnUkxZc0E5ejAteVFBc2haVEpQelJOUEU2SFVKZGRQd2d4MWJzSjdNdTJYNTVJNjJ4VFo5MVpFc0FMOGJ6aE1ZZE0?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "Apothecary Pharma recalls compounded tirzepatide and NAD+ vials over sterility concerns Managed Healthcare Executive"
   },
   {
    "t": "GLP-1 injections recalled nationwide: See affected lots and what to know - Democrat and Chronicle",
@@ -212,13 +219,6 @@ window.FEED={
    "d": "2026-10-20",
    "s": "gnews",
    "x": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee The Tennessean"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
@@ -401,13 +401,6 @@ window.FEED={
    "d": "2026-10-15",
    "s": "gnews",
    "x": "Compounding and Telehealth at Scale After Empower: Prescribing Architecture Is the New Regulatory Question JD Supra"
-  },
-  {
-   "t": "Trump administration advances plan for peptide drugs favored by RFK Jr. - CNBC",
-   "l": "https://news.google.com/rss/articles/CBMicEFVX3lxTFAxWWVpSmdYd2lUNEVULTVrdnF2NklFSGpfbV9ONjh1TjBWMEhjdDV6b3dudDk4bFZLSm1Rd19tT0REV2x5NE1vS0MwVm1mQTZsTC1lbmdlSUtFWFpPMDFkbFJpUXBidFNtcEhDeFdvSEfSAXZBVV95cUxQWllDZUVUSkJ1NTFnNG1GZzV4TUZLU1FjMk03WFh6Y0d5T3dlYTd1QV9ESFNMdEw2WnNGTkstRW1XSnlBbDd5NV95aElMZWFnb2UxZm5qRVJOdUFBN1d2UWI1R21pbi1pMGpOSWZWc1hieDNIelNn?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews",
-   "x": "Trump administration advances plan for peptide drugs favored by RFK Jr. CNBC"
   },
   {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
