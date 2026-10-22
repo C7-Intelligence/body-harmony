@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-22T12:02Z",
+ "generated": "2026-10-22T17:17Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-22T12:02Z",
+   "checked": "2026-10-22T17:17Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-22T12:02Z"
+   "lastOk": "2026-10-22T17:17Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-22T12:02Z",
+   "checked": "2026-10-22T17:17Z",
    "ok": true,
    "new": 0,
-   "seen": 2,
-   "lastOk": "2026-10-22T12:02Z"
+   "seen": 3,
+   "lastOk": "2026-10-22T17:17Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-22T12:02Z",
+   "checked": "2026-10-22T17:17Z",
    "ok": true,
-   "new": 0,
+   "new": 1,
    "seen": 3,
-   "lastOk": "2026-10-22T12:02Z"
+   "lastOk": "2026-10-22T17:17Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-22T12:02Z",
+   "checked": "2026-10-22T17:17Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-22T12:02Z"
+   "lastOk": "2026-10-22T17:17Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-22T12:02Z",
+   "checked": "2026-10-22T17:17Z",
    "ok": true,
-   "new": 2,
+   "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-22T12:02Z"
+   "lastOk": "2026-10-22T17:17Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-22T12:02Z",
+   "checked": "2026-10-22T17:17Z",
    "ok": true,
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-10-22T12:02Z"
+   "new": 1,
+   "seen": 1,
+   "lastOk": "2026-10-22T17:17Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-22T12:02Z",
+   "checked": "2026-10-22T17:17Z",
    "ok": true,
-   "new": 165,
-   "seen": 192,
-   "lastOk": "2026-10-22T12:02Z"
+   "new": 133,
+   "seen": 157,
+   "lastOk": "2026-10-22T17:17Z"
   }
  ],
  "items": [
@@ -100,6 +100,20 @@ window.FEED={
    "d": "2026-10-22",
    "s": "gnews",
    "x": "files Citizen Petition urging FDA to block compounding of unapproved and uncharacterized peptides – Partnership for Safe Medicines Partnership for Safe Medicines"
+  },
+  {
+   "t": "Registered Outsourcing Facilities",
+   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+   "d": "2026-10-22",
+   "s": "fda-drugs",
+   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/manufacturing/fda-rebukes-baxter-warning-letter-ongoing-production-problems",
+   "d": "2026-10-22",
+   "s": "fierce",
+   "x": "The FDA rebuked Baxter in a lengthy warning letter that outlined a series of production violations that led to a trio of recalls earlier this year."
   },
   {
    "t": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs - SuaraGarut.ID",
@@ -247,6 +261,20 @@ window.FEED={
    "d": "2026-10-20",
    "s": "gnews",
    "x": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee AOL.co.uk"
+  },
+  {
+   "t": "Update: Import Alert for Certain Olympus Medical Devices Manufactured in Japan - Letter to Health Care Providers",
+   "l": "http://www.fda.gov/medical-devices/letters-health-care-providers/update-import-alert-certain-olympus-medical-devices-manufactured-japan-letter-health-care-providers",
+   "d": "2026-10-20",
+   "s": "fda-medwatch",
+   "x": "The U.S. Food and Drug Administration (FDA) is alerting health care providers about import alerts for certain medical devices manufactured in Japan by Olympus Medical Systems Corporation (Olympus) and its subsidiaries."
+  },
+  {
+   "t": "Peptide Stocks in Focus After HHS Policy Shift as Peptide Swap (PEPS) Bets on a Peptide Crypto Marketplace - FinanceFeeds",
+   "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPaFBvR3ctTTFuV09OYlNDd20yM1lwaEpfS3pfRUVoR01DZkVwRVRjS0VEUWU1aEZ6aWNNSTFMUXV1ZlE2T29OeDMxYXBhTVQ1cGxqaF9pUGQ0WGtZZEZ3YjREbFF2djRzZkVKbW9namdoeDdFRWZDX0hNUTdrdjVxREliVU5qV3QwQ3l3V0lXbTZJQQ?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews",
+   "x": "Peptide Stocks in Focus After HHS Policy Shift as Peptide Swap (PEPS) Bets on a Peptide Crypto Marketplace FinanceFeeds"
   },
   {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
@@ -403,13 +431,6 @@ window.FEED={
    "x": "Peptides at a Crossroads: What Wellness Providers Need to Know About HHS and FDA Actions JD Supra"
   },
   {
-   "t": "Peptide FDA Updates: Latest News on Compounding and More - GoodRx",
-   "l": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOOUFBRVNNWDlCazdRU0tzNTRzcmh1Z1dvcGJqNGxKczJ2Um84ejRGTGdJVWdiVFJkb1daTG5MZkstckx5RlNSTThqOGdJT29BRkNIckcyeXBId29PSllMSlVUbHVFUzVPd3NtcTZYV1N2cjgyOGFxVm5kSVJZZG5vVg?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews",
-   "x": "Peptide FDA Updates: Latest News on Compounding and More GoodRx"
-  },
-  {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
    "l": "https://www.federalregister.gov/documents/2026/10/14/2026-20989/advisory-committee-cellular-tissue-and-gene-therapies-advisory-committee-renewal",
    "d": "2026-10-14",
@@ -422,13 +443,6 @@ window.FEED={
    "d": "2026-10-13",
    "s": "fr-fda",
    "x": "The Food and Drug Administration (FDA or we) is issuing a final rule to amend our standard of identity regulations that specify salt (sodium chloride) as a required or optional ingredient to permit the use of salt substitutes in standardized foods, to reduce the sodium content.…"
-  },
-  {
-   "t": "Registered Outsourcing Facilities",
-   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
-   "d": "2026-10-13",
-   "s": "fda-drugs",
-   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
   },
   {
    "t": "Low-Value Shipments",

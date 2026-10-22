@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-22T12:02Z",
+ "generated": "2026-10-22T17:17Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-22T12:02Z",
+   "checked": "2026-10-22T17:17Z",
    "ok": true,
    "new": 113,
-   "seen": 147,
-   "lastOk": "2026-10-22T12:02Z"
+   "seen": 145,
+   "lastOk": "2026-10-22T17:17Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-22T12:02Z",
+   "checked": "2026-10-22T17:17Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-22T12:02Z"
+   "lastOk": "2026-10-22T17:17Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-22T12:02Z",
+   "checked": "2026-10-22T17:17Z",
    "ok": true,
    "new": 1,
    "seen": 2,
-   "lastOk": "2026-10-22T12:02Z"
+   "lastOk": "2026-10-22T17:17Z"
   }
  ],
  "items": [
@@ -77,6 +77,27 @@ window.FEED_ART={
    "d": "2026-10-22",
    "s": "stat",
    "x": "As telehealth promotes GLP-1s for addiction, experts worry about fragmented care, and exposing patients to unknown risks."
+  },
+  {
+   "t": "Retatrutide peptide: A quality-control checklist for sourcing research-grade material - Pharmaceutical Technology",
+   "l": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNbEgyZzVOLXJGVDVlcjBiNXY2Z3Awc3UwUUVidEpZSV9QQ05Pckt2VFJtcG1GdVpjQklmbm9vSUxROGI2ZC1xY21qTkVhVkJfQW5BYmNYdWRveUkwOTFCMWhXbks4UXRaN2t2M3FqVS1RMkxSQ1Ytczd4Nkh6em43cXRLWVFwdzlRVGV5OUJIdUZuMzB5bmxfVzJURHNTZy1tQjZNUEFLU0NxTGtNVUw4dktIN3h1VG9zeUJwSWFwSzd2bU5GazZuTGJ2UUdUZXk2THRv?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "Retatrutide peptide: A quality-control checklist for sourcing research-grade material Pharmaceutical Technology"
+  },
+  {
+   "t": "USA Peptides: Kylo Peptides Partners With Freedom Diagnostics for Independent Verification of Research Peptides - mykxlg.com",
+   "l": "https://news.google.com/rss/articles/CBMiugJBVV95cUxPT2lqRmgtaGtVb0M3NzF2Ymc4WDNGc2pOOVNpZUQ3M2JhdVdJVy05LTdHWXhtcmt5UnBKR2NKUDNCSFdfckpncXdfeGM2NWFZekVDV3EwQUl1ZEswQUFkMGFNNEJua0tQTXVGbkFxYjdoVGRHem9reVhjLVJRRlM4OWM2WlZ2bG5ldG9QcmNQdEowTHpCbEszdnZVdDlHOXZBQ3N1Skd1aV9EYmhKeGhmY3dVbTZpbGFIeU1uQmJuNEdadEtEckI3WWtKNkJUVHllbzBPbHl4T2JWNzVVVFhleVFrMjcyamtkZjVMT2tWdXVRcFZBa0dTckRrSVhpNzNwMElhSUROcDhGaHJKTG9lRFFKY2JIQUs2VXp4TnBMZVZRbVMwWXFPVGduelBKMkFKQ1p1ZEJuVzE3UQ?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "USA Peptides: Kylo Peptides Partners With Freedom Diagnostics for Independent Verification of Research Peptides mykxlg.com"
+  },
+  {
+   "t": "STAT+: FDA finalizes its guidance on apps related to drugs, pharma rejoices",
+   "l": "https://www.statnews.com/2026/10/22/fda-pdurs-guidance-dtx-telehealth-glp1-addiction-health-tech/?utm_campaign=rss",
+   "d": "2026-10-22",
+   "s": "stat",
+   "x": "In this edition of STAT Health Tech: FDA's guidance on prescription drug use-related software, and telehealth pushing GLP-1s for addiction."
   },
   {
    "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
@@ -154,6 +175,13 @@ window.FEED_ART={
    "d": "2026-10-20",
    "s": "gnews-a",
    "x": "GLP-1 injections recalled nationwide. See affected products USA Today"
+  },
+  {
+   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - www.polskieradio.pl",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX0hNcGlrRDRaT01zMm0teDlZSXo4a2RxVVdUWFl1U3RMNU1UMm1mY1huSVBKTk9VdlJPV0U1cWliWE53SmVoRWt4U25JeFhVNm5taThHT1EzVkRJaHJIQ3hhYThXSXV6R3JBSzdJbzdoVDk3bXpRbE5zOEd2d1E0c1NJaHhkcEdRakg3VzE0c0RoMnA4T255bkJ3THZwQXlyZGJBdlUwWGpVQQ?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews-a",
+   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss www.polskieradio.pl"
   },
   {
    "t": "‘Serious adverse effects’: Experts warning after alarming rise in hospital visits from use of black market peptides - Nine.com.au",
@@ -329,27 +357,6 @@ window.FEED_ART={
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "fda concerns unapproved glp-1 drugs weight loss retatrutide Philstar Life"
-  },
-  {
-   "t": "Black Market Retatrutide Linked to Multiple Deaths - Futurism",
-   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYkYzQkdXazlTUHREU2dhTlBaQl8xbWI2YS1ZRzM0cFl0ZGl4d0N5dFhjbVN1UzZQaTFCR2N6bFRYYUxnYWxvUHkzSzZMUVBiakVFTDNyVEdsVnhmeWRrcGRrdkRDM0FoXzVEa3F1NkRIb09kd0hkZkl4NG5NaUxBSGJLOEdobXBSRm15dm5BeWw?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "Black Market Retatrutide Linked to Multiple Deaths Futurism"
-  },
-  {
-   "t": "Impact Fit Shifts to 100% USA Manufactured Peptides - The Columbus Dispatch",
-   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPOU1kVFpkOUJ6ci1fRHRZWkt4RE1zUmRCdDJSMGtMM1ZXRS1oOHB5My1aRzNHVjc3aEt1MUk4RGJRN0F3c1h3dnRzc1RZc29kU1kwdVRWeVF4ZEpxbWM0TjVzRkFqS19oQjhLN2tIb0dWSEdwRk81Njl3TTNYeWJHYWR0WFJlOHUtUlVwbktSNHg5Mi10VXFBdm5INUpzVWROUmxxMHNB?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "Impact Fit Shifts to 100% USA Manufactured Peptides The Columbus Dispatch"
-  },
-  {
-   "t": "retatrutide weight loss drug latest updates 2026 - Philstar Life",
-   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGtWNzJPaFFnM1VYZXloMnNzUjAtR2FQajByMHNxMFVHbWhXbXU3RS1jLV9wY0lXOHRzQ1VhbTQ5MlpiNzUzdDJ3TFpnb2dicVhMU0xFYUhYdk5ySFFqWEFOODBqcjFUZjJZQlhkbW5BWFpmY3ZTS3NpN3RNVHB1SC1iZWZ2ZVVZRGt2WEpKTFVXbUhTbm5yVGZYOA?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "retatrutide weight loss drug latest updates 2026 Philstar Life"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
