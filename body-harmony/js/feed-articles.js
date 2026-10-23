@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-22T21:43Z",
+ "generated": "2026-10-23T05:00Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-22T21:43Z",
+   "checked": "2026-10-23T05:00Z",
    "ok": true,
-   "new": 117,
-   "seen": 144,
-   "lastOk": "2026-10-22T21:43Z"
+   "new": 112,
+   "seen": 139,
+   "lastOk": "2026-10-23T05:00Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-22T21:43Z",
+   "checked": "2026-10-23T05:00Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-22T21:43Z"
+   "lastOk": "2026-10-23T05:00Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-22T21:43Z",
+   "checked": "2026-10-23T05:00Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-22T21:43Z"
+   "lastOk": "2026-10-23T05:00Z"
   }
  ],
  "items": [
@@ -112,6 +112,13 @@ window.FEED_ART={
    "d": "2026-10-22",
    "s": "gnews-a",
    "x": "Retatrutide Lowers Albuminuria, Glomerular Pressure in Obesity and CKD HCPLive"
+  },
+  {
+   "t": "Surge in hospital presentations linked to peptide use prompts warning from NSW Health - Nambucca Valley News Of The Area",
+   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQWi14cE02SGpZTy1aVHVRNThCMmwxSUFNb043N283NzAwa0d1ZTZfdjlNekhuNGZTZ0JrXzZvV0wtYndKbUxvLTlOdFJHMFQtQlktMmxVTDRnaWVvZ3dBTlBBV1pDcEtrZmxHLU51c2dJOFNlc2NZZjl2VjhjeVBBWDBCMElZdUR6MGRSaFhyQ2k2TXJNR0h1WGlvNFNPRFBfelpiUWlMdjl3TDJhQkhWTGVyR0luWkdxYTlGWUl6VWVaZjFzXy1XUw?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "Surge in hospital presentations linked to peptide use prompts warning from NSW Health Nambucca Valley News Of The Area"
   },
   {
    "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
@@ -350,13 +357,6 @@ window.FEED_ART={
    "d": "2026-10-17",
    "s": "gnews-a",
    "x": "is retatrutide a weight loss drug www.polskieradio.pl"
-  },
-  {
-   "t": "The [almost] unbelievable relationship between “big pharma” and gray-market peptides - Peter Attia MD",
-   "l": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9xM2RWaEFEb0xqYVIyNjl0dGc3MktBUGRReExjai1GbEd6QUlOMnRVZnFqZmZiVTVDYjVLVldHZHRKYl9UNVc0Vm5GWkk4MjdhMEhCS0piVnF4V2NzakxLMk5iUlVfUzhlNHc?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "The [almost] unbelievable relationship between “big pharma” and gray-market peptides Peter Attia MD"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",

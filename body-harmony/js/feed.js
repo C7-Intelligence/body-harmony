@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-10-22T21:43Z",
+ "generated": "2026-10-23T05:00Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-22T21:43Z",
+   "checked": "2026-10-23T05:00Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-22T21:43Z"
+   "lastOk": "2026-10-23T05:00Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-22T21:43Z",
+   "checked": "2026-10-23T05:00Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-22T21:43Z"
+   "lastOk": "2026-10-23T05:00Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-22T21:43Z",
+   "checked": "2026-10-23T05:00Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-22T21:43Z"
+   "lastOk": "2026-10-23T05:00Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-22T21:43Z",
+   "checked": "2026-10-23T05:00Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-22T21:43Z"
+   "lastOk": "2026-10-23T05:00Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-22T21:43Z",
+   "checked": "2026-10-23T05:00Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-22T21:43Z"
+   "lastOk": "2026-10-23T05:00Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-22T21:43Z",
+   "checked": "2026-10-23T05:00Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-10-22T21:43Z"
+   "lastOk": "2026-10-23T05:00Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-22T21:43Z",
+   "checked": "2026-10-23T05:00Z",
    "ok": true,
-   "new": 166,
+   "new": 167,
    "seen": 193,
-   "lastOk": "2026-10-22T21:43Z"
+   "lastOk": "2026-10-23T05:00Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/manufacturing/fda-rebukes-baxter-warning-letter-ongoing-production-problems",
+   "d": "2026-10-23",
+   "s": "fierce",
+   "x": "The FDA rebuked Baxter in a lengthy warning letter that outlined a series of production violations that led to a trio of recalls earlier this year."
+  },
   {
    "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process; Delayed Compliance Extension",
    "l": "https://www.federalregister.gov/documents/2026/10/22/2026-21600/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
@@ -107,13 +114,6 @@ window.FEED={
    "d": "2026-10-22",
    "s": "fda-drugs",
    "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/manufacturing/fda-rebukes-baxter-warning-letter-ongoing-production-problems",
-   "d": "2026-10-22",
-   "s": "fierce",
-   "x": "The FDA rebuked Baxter in a lengthy warning letter that outlined a series of production violations that led to a trio of recalls earlier this year."
   },
   {
    "t": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs - SuaraGarut.ID",
@@ -277,6 +277,13 @@ window.FEED={
    "x": "Peptide Stocks in Focus After HHS Policy Shift as Peptide Swap (PEPS) Bets on a Peptide Crypto Marketplace FinanceFeeds"
   },
   {
+   "t": "GLP-1 injections recalled nationwide over sterility concerns - Fox Business",
+   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVk1QVFdxanZ4ZUdaRVpJQVJEc200VlNVTmVhcjA4MkVYVUdLUzhBdENHTmdFVk9SQ1RHUVRTRUJiUUR2VHpTWVZ6MlJVeElITnJjTk01SWhHQjRHbUgwMmFZakZfYkJoYm9oTmZtUlVDcGtodVF5Uk81bGtVV1FrLVg4TXhaM2xsR19yU2trSnZvRkw3TC1BWUpvN1Vkd3hY0gGmAUFVX3lxTFB1RC1mRHVna05zSUwxSGlaUWItVGtHNElXeGFFb2F4dmN2SEVSdnBtMVRkSzk2V09zZ240LW5mNC1hRWxSYzhoWm5ZNDBtc09sVjlDVUg2bFA3c3ItamZKZE9OLVM1WWR4OVpYczY4SFh0VmpXWkNEajhDYmMtbGt4QjdaYktwVzYxdm5DS2xlcXp2VzFHYVNoeEhTRHBKZ3oxYXFLUFE?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews",
+   "x": "GLP-1 injections recalled nationwide over sterility concerns Fox Business"
+  },
+  {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
    "l": "http://www.fda.gov/drugs/counterfeit-medicine/counterfeit-versions-eye-drops-found-several-states",
    "d": "2026-10-19",
@@ -422,13 +429,6 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews",
    "x": "FDA panel recommends peptides its own scientists rejected, CSPI warns Nutrition Insight"
-  },
-  {
-   "t": "Peptides at a Crossroads: What Wellness Providers Need to Know About HHS and FDA Actions - JD Supra",
-   "l": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOSVhRak4xSXdzOHVNRkNNZFl5emF3QVpUdk1zUWxUMVVKQTNITmhTT2lLVktueVpqT2FycFhTemQwcVE5YmVHNzlGOVVlVl85ellzeUZWX28zZHBsT0htQkhILWRVazNZSE9faHFsQzRMVm9TWm9wR0VucU9kaFF2dEVUWnJwMmQ0?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews",
-   "x": "Peptides at a Crossroads: What Wellness Providers Need to Know About HHS and FDA Actions JD Supra"
   },
   {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
