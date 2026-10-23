@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-23T11:47Z",
+ "generated": "2026-10-23T17:15Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-23T11:47Z",
+   "checked": "2026-10-23T17:15Z",
    "ok": true,
-   "new": 105,
-   "seen": 135,
-   "lastOk": "2026-10-23T11:47Z"
+   "new": 94,
+   "seen": 124,
+   "lastOk": "2026-10-23T17:15Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-23T11:47Z",
+   "checked": "2026-10-23T17:15Z",
    "ok": true,
-   "new": 2,
+   "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-23T11:47Z"
+   "lastOk": "2026-10-23T17:15Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-23T11:47Z",
+   "checked": "2026-10-23T17:15Z",
    "ok": true,
    "new": 0,
-   "seen": 1,
-   "lastOk": "2026-10-23T11:47Z"
+   "seen": 0,
+   "lastOk": "2026-10-23T17:15Z"
   }
  ],
  "items": [
@@ -135,6 +135,13 @@ window.FEED_ART={
    "x": "Rev Endocr Metab Disord · Smarkusz-Zarzecka J, Radziszewska M, Gofron KK, Ostrowska L."
   },
   {
+   "t": "USA Peptides: Kylo Peptides Partners With Freedom Diagnostics for Independent Verification of Research Peptides - lincolnjournal.com",
+   "l": "https://news.google.com/rss/articles/CBMixAJBVV95cUxNeHhULU5lUEhoT1NzUDJXcGxrb1pqbVFzX09QZGU0ekZBTDhkc01jQThYUVJ2dlFRejJ5cldvaFJzMXdnT1BsWm1XdGNZejJCNG93VWRpN3JQYjRQWkh1U0JKRl9fdzhEMEtQQkhXZTk4NUhZYU16cUVrRnJTdXlqMUU3Y21faExZQXdQdm5iN0FWWDk0MzEzSW5fZVNTcWUyOUFYeWY0R0lHcnRuUW5WS3ZWQnRTQ0h1MGhXT0I4cDBqSEdrcXZjRExqRkpEZzRBUXhURlBXcEpyeTBsSVZJLWpkZmpNeW9XcWlINFM4VkgyRlZvaEZNV1hnVmpnMFdzcWY3aXlaOXdVRm5TQjRmT3hHQUM1dGNsQzdMY2ZMbUNVcUd3OHc4TEdpOHNEX0ZfZDFSVjh3MDFkSzF6YUVHdzcwQ0k?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "USA Peptides: Kylo Peptides Partners With Freedom Diagnostics for Independent Verification of Research Peptides lincolnjournal.com"
+  },
+  {
    "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
    "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTkk5UnJ4dkFlOFR4dzYybmUyekZjSzA3NDR0N3NXbmg0SkF0aFgyQS15S2VrWUlxVmVpaXE4SHJ5N2U5TjZRanUzWW9rOUxfS1o0MWp6SXVwamhBSEFxVFItalFMVFFQRjR5cTRkM2N6cFJNZm1reGlrckFDTWoxanVmcXlEaUJTejZnaWhBY1hPbFBBQVROZnpFbkdBY0E4QVA2bzFXODNaLWd6WlI0Q24yR0xDUzNQUDRRd0Y3RWdvTC0xN1VPM2lyODIzVVBpMkNFTw?oc=5",
    "d": "2026-10-21",
@@ -224,6 +231,13 @@ window.FEED_ART={
    "d": "2026-10-20",
    "s": "gnews-a",
    "x": "newsGP - Peptide ED presentations are spiking, what can GPs do? Royal Australian College of General Practitioners (RACGP)"
+  },
+  {
+   "t": "Peptide surge hits NSW hospitals - New England Times",
+   "l": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5CcG9yR1M2ckEwNDIyV2VuZXI2UEo3clJybGJEZldjRl9zZUJqUXRTeEhPcnlxTXAtTmxPZXpMUkZIT1ppdVB3Z2ZSRWJkTVJCdDJaMXdGalNqNU1fTmxzUWdlbmR5UUZlajlmQUJRSG0tNnZicXQ5eWE1SQ?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews-a",
+   "x": "Peptide surge hits NSW hospitals New England Times"
   },
   {
    "t": "‘Serious adverse effects’: Experts warning after alarming rise in hospital visits from use of black market peptides - Nine.com.au",
@@ -350,20 +364,6 @@ window.FEED_ART={
    "d": "2026-10-18",
    "s": "gnews-a",
    "x": "NSW Health warns of surge in hospital presentations linked to peptide use NSW Government"
-  },
-  {
-   "t": "‘Russian roulette’: NSW emergency department visits surge amid dangerous peptide fad - SMH.com.au",
-   "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQOXluSi02V3VqUVo2VFZXREJKSEd3M2tRdDV3V1RGUldWZ29kYUVZWW16ZjllNzJhZ2FHX0VfcFpkd2RUaVk4dHhrRHk3bFRLWUJnR3MyOVZXbEY3RlJkYk44YnNBbmdOQm9ndmJTOVV5SVhoa0twc0ZiaXJReTBlVXoxMEJGLXpXMVBLV3VibXBJRC11RjdCeHdIdU4wRVhUNjBGV095VEF3SnF5QUpqUVBpQ2VtSWR3Y1FLZGplUDhSclkyNU90LU12c2pIUGttLWNDWQ?oc=5",
-   "d": "2026-10-18",
-   "s": "gnews-a",
-   "x": "‘Russian roulette’: NSW emergency department visits surge amid dangerous peptide fad SMH.com.au"
-  },
-  {
-   "t": "next generation weight loss drugs after retatrutide 2026 - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOakRmR3BkSTh2bFpDQkNLd0R1MU43LTVrVmNpVzBuV2RkYUN4U0daOHBFMzBJRkNyd3k4N0FoTHVSS0FhdVBEbkM3b0pXS3VraU9keDBqYjNBNnM1Qm5yV2xZUkNFUWx5dXZ4dVdwZzAtTmRWSEh5T0dRZDJwSjNSdU9uMFZKLVlIVGQ0T01ObE9ZVW5fcXMwa0d5dVliZFhXbC1ua3VzLWpTRzFkMEp4RjQzX21tcXZKWGc4dGgxVk1CUQ?oc=5",
-   "d": "2026-10-18",
-   "s": "gnews-a",
-   "x": "next generation weight loss drugs after retatrutide 2026 www.polskieradio.pl"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",

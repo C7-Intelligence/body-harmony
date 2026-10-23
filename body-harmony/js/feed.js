@@ -1,91 +1,112 @@
 window.FEED={
- "generated": "2026-10-23T11:47Z",
+ "generated": "2026-10-23T17:15Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-23T11:47Z",
+   "checked": "2026-10-23T17:15Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-23T11:47Z"
+   "lastOk": "2026-10-23T17:15Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-23T11:47Z",
+   "checked": "2026-10-23T17:15Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-23T11:47Z"
+   "lastOk": "2026-10-23T17:15Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-23T11:47Z",
+   "checked": "2026-10-23T17:15Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-23T11:47Z"
+   "lastOk": "2026-10-23T17:15Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-23T11:47Z",
+   "checked": "2026-10-23T17:15Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-23T11:47Z"
+   "lastOk": "2026-10-23T17:15Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-23T11:47Z",
+   "checked": "2026-10-23T17:15Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-23T11:47Z"
+   "lastOk": "2026-10-23T17:15Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-23T11:47Z",
+   "checked": "2026-10-23T17:15Z",
    "ok": true,
-   "new": 1,
-   "seen": 1,
-   "lastOk": "2026-10-23T11:47Z"
+   "new": 2,
+   "seen": 2,
+   "lastOk": "2026-10-23T17:15Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-23T11:47Z",
+   "checked": "2026-10-23T17:15Z",
    "ok": true,
    "new": 167,
-   "seen": 194,
-   "lastOk": "2026-10-23T11:47Z"
+   "seen": 193,
+   "lastOk": "2026-10-23T17:15Z"
   }
  ],
  "items": [
+  {
+   "t": "Registered Outsourcing Facilities",
+   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+   "d": "2026-10-23",
+   "s": "fda-drugs",
+   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-10-23",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/manufacturing/fda-rebukes-baxter-warning-letter-ongoing-production-problems",
    "d": "2026-10-23",
    "s": "fierce",
    "x": "The FDA rebuked Baxter in a lengthy warning letter that outlined a series of production violations that led to a trio of recalls earlier this year."
+  },
+  {
+   "t": "Recall alert: Some GLP-1 injections recalled over sterility concerns - WGAU Radio | Athens, GA",
+   "l": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTVcwN2Q4N0Qwa3JfRjd6NjB4UlpIQWtCeHZRdUs4cTI3OVl2eVBHcDkwajFLYlJBdmY3azNIVTA5NXFLYW5ybnFJQ0JyU2p1eVFJYnpqNVEyQWxrNmMzNnJMa195N0tNZTM1OEM0RmF3WDVlSXJVeFFLTHFpSmdLY09IR1UyYm9sNEFUb19XRnNyUmx3Z2Q5UkpnX1ZqYVQxZ0VEazVyNjlldnBFQW5OWDlUTm95amw3RGVqamVQcVRMNlhTMHhYd1M1NjhZRmto0gHkAUFVX3lxTE1zZlZodXRKLWhQQWhVMEVYUlBpZHRKTEt0N2lPRWJoeXlNQnFwbkQ0NUpoSXVLQ01Yc1p6TDhHU011R2hQdGRic2Rib3lGZmJ1X2RJWmFHOUhjNk0xdjJEdnVnODN0WmZDcTBvUVhfbXVjck5ieGIwZWNwcGZpNW1sNUpOcGRoQnB5MU0yUUthVkREaFE3RXZKV19jZlFvUlhqZDkxWjFuVUVKdjhqN1BKSHItOC1XYXhsWlRxX3J6QU9VTTgxUWw0U1pTR3Y4T25pNXkzTHNGWmNMQmNnZzVWMFJQUQ?oc=5",
+   "d": "2026-10-23",
+   "s": "gnews",
+   "x": "Recall alert: Some GLP-1 injections recalled over sterility concerns WGAU Radio | Athens, GA"
   },
   {
    "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process; Delayed Compliance Extension",
@@ -107,13 +128,6 @@ window.FEED={
    "d": "2026-10-22",
    "s": "gnews",
    "x": "files Citizen Petition urging FDA to block compounding of unapproved and uncharacterized peptides – Partnership for Safe Medicines Partnership for Safe Medicines"
-  },
-  {
-   "t": "Registered Outsourcing Facilities",
-   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
-   "d": "2026-10-22",
-   "s": "fda-drugs",
-   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
   },
   {
    "t": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs - SuaraGarut.ID",
@@ -422,13 +436,6 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews",
    "x": "HHS Proposes Letting Pharmacies Make Peptides WMAL"
-  },
-  {
-   "t": "FDA panel recommends peptides its own scientists rejected, CSPI warns - Nutrition Insight",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3I5NHF5eWF6b3FGQkpMcHJpd1FwOGM3c3pQS0NHSTVxSDVZZ3VERmN5ZlJ0LUVLdWpEc2V3VHpscXlSdEZyYVZSbS1EWWhXcE9SRXdOWHFiVnRScGpvanFtVVBkcVRYUUdPR3hZNzNjSkRHeS00UTU2dE54Y2EzMnJZc0RLV2FJYXc?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews",
-   "x": "FDA panel recommends peptides its own scientists rejected, CSPI warns Nutrition Insight"
   },
   {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
