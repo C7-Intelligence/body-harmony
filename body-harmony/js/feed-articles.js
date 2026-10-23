@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-23T05:00Z",
+ "generated": "2026-10-23T11:47Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-23T05:00Z",
+   "checked": "2026-10-23T11:47Z",
    "ok": true,
-   "new": 112,
-   "seen": 139,
-   "lastOk": "2026-10-23T05:00Z"
+   "new": 105,
+   "seen": 135,
+   "lastOk": "2026-10-23T11:47Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-23T05:00Z",
+   "checked": "2026-10-23T11:47Z",
    "ok": true,
-   "new": 1,
+   "new": 2,
    "seen": 15,
-   "lastOk": "2026-10-23T05:00Z"
+   "lastOk": "2026-10-23T11:47Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-23T05:00Z",
+   "checked": "2026-10-23T11:47Z",
    "ok": true,
    "new": 0,
-   "seen": 2,
-   "lastOk": "2026-10-23T05:00Z"
+   "seen": 1,
+   "lastOk": "2026-10-23T11:47Z"
   }
  ],
  "items": [
@@ -56,6 +56,13 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Retatrutide Cuts Obstructive Sleep Apnea Severity in Patients With & Without Type 2 Diabetes - Physicians Weekly",
+   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX1VackVMMzBrRTlXeDMyeTRyY3ZEVTFkUEl2Q0tzWGU3Z1YwMng1MjlFWmE4LU5VYmFaRHhuRHJGVGxVUXJRNVJEb1l3RlFabjY3YUdNNy1rSTJyaW5KR0pDVUp2UXpiaFdUcnNoSTlCbXVZeGJhQUwxNThhek5CU1h5ZU9wYUlQY2Vxam5RM01PakVEN01hbk9ZdDlRS2J3UFdub2pQTVoxU0lydFQ3cElWYlFUTk5pRmpIUnBMXzFVMkVZYWVF?oc=5",
+   "d": "2026-10-23",
+   "s": "gnews-a",
+   "x": "Retatrutide Cuts Obstructive Sleep Apnea Severity in Patients With & Without Type 2 Diabetes Physicians Weekly"
   },
   {
    "t": "retatrutide weight loss drug latest updates 2026 - Philstar Life",
@@ -119,6 +126,13 @@ window.FEED_ART={
    "d": "2026-10-22",
    "s": "gnews-a",
    "x": "Surge in hospital presentations linked to peptide use prompts warning from NSW Health Nambucca Valley News Of The Area"
+  },
+  {
+   "t": "Glucose-dependent insulinotropic polypeptide (GIP) signaling in visceral and subcutaneous adipose tissue: implications for obesity and metabolic disease-a narrative review with a structured…",
+   "l": "https://doi.org/10.1007/s11154-026-10098-7",
+   "d": "2026-10-22",
+   "s": "epmc",
+   "x": "Rev Endocr Metab Disord · Smarkusz-Zarzecka J, Radziszewska M, Gofron KK, Ostrowska L."
   },
   {
    "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
@@ -203,6 +217,13 @@ window.FEED_ART={
    "d": "2026-10-20",
    "s": "gnews-a",
    "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss www.polskieradio.pl"
+  },
+  {
+   "t": "newsGP - Peptide ED presentations are spiking, what can GPs do? - Royal Australian College of General Practitioners (RACGP)",
+   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSDlhZ2R3c1dVWllhR043VzFKVFB3VUpLc1NYYjNOT3VrN2Uzby1ESUtRYkJSVzF1YVU2VVBNWWV3T0RFTXAtam5EWHNXWjdqbGExcWJudnRCam1YMXRlTTNibmNhckJBM2F1SFMwNDJzZ0gzT1pXOURCMlFjUnNDMU1JREdLU09TUi1HQ3kyQ3ZCYmZoV3c?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews-a",
+   "x": "newsGP - Peptide ED presentations are spiking, what can GPs do? Royal Australian College of General Practitioners (RACGP)"
   },
   {
    "t": "‘Serious adverse effects’: Experts warning after alarming rise in hospital visits from use of black market peptides - Nine.com.au",
@@ -343,20 +364,6 @@ window.FEED_ART={
    "d": "2026-10-18",
    "s": "gnews-a",
    "x": "next generation weight loss drugs after retatrutide 2026 www.polskieradio.pl"
-  },
-  {
-   "t": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides - Pharmabiz.com",
-   "l": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5oSWluYm9xQkJxa2ZDZzdYcG1mbFYyWDBVRzJYczZWcU40VWw1SFVNYmNIakhZWkFObjFuM252QWpncVlkWmFwcFhfbTkwQnh0Mzl5QnpydWx4a2l0UGpSLU4xZnh5cFI1TE1n?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "Telangana DCA issues strict warning against online sale of unapproved weight-loss drugs and peptides Pharmabiz.com"
-  },
-  {
-   "t": "is retatrutide a weight loss drug - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeGF0aGJGeDkzSFBhenhMbFR0S2oxOVlsRTFFVFl6V2lRbEk4NFRkeFh5djFQU2w1TnR1MXRIdkJFc3J2OWZQWi03YThQZ2dQNV9mM19UQlhMRDFlVERhX2dSMWkxN0Y3aVdxeXpDejdiQnNZNmVNZVNqclkzbTV6T2c5X2NDc196cjhHaw?oc=5",
-   "d": "2026-10-17",
-   "s": "gnews-a",
-   "x": "is retatrutide a weight loss drug www.polskieradio.pl"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
