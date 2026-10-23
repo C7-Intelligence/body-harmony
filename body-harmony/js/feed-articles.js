@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-23T17:15Z",
+ "generated": "2026-10-23T21:29Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-23T17:15Z",
+   "checked": "2026-10-23T21:29Z",
    "ok": true,
-   "new": 94,
-   "seen": 124,
-   "lastOk": "2026-10-23T17:15Z"
+   "new": 101,
+   "seen": 131,
+   "lastOk": "2026-10-23T21:29Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-23T17:15Z",
+   "checked": "2026-10-23T21:29Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-23T17:15Z"
+   "lastOk": "2026-10-23T21:29Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-23T17:15Z",
+   "checked": "2026-10-23T21:29Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-23T17:15Z"
+   "lastOk": "2026-10-23T21:29Z"
   }
  ],
  "items": [
@@ -175,6 +175,13 @@ window.FEED_ART={
    "d": "2026-10-21",
    "s": "gnews-a",
    "x": "Some GLP-1 injections recalled due to ‘lack of assurance of sterility’ Los Angeles Times"
+  },
+  {
+   "t": "Health Care Weekly: FDA, Lilly Debate Jurisdiction in Retatrutide Case; Interim Pathway for Wellness Peptide Compounding Mulled; CMS Gains Power to Ban Companies from Government Health Care Programs;…",
+   "l": "https://news.google.com/rss/articles/CBMixgJBVV95cUxQSnpyQkxma0hueWw1YnVuSTZDbUJyb0ctZjF5OEx0a2pPYXVYbjhyQkJIYU02d1ZBNXYwektpMXp5ME1icmJJekZsRGNIZU5LYjRQcGc4cy1mc1dnWEgxTzkyNVJqbG40emo2blRieVJyb2RfQlBuN3EyV1pEaVhxZVdocWtqVjlfX1ZiX0VqQzNvSFR1a0hpLVBWN19tcDNRcXl5bUVIbEhRc01GUHNiV1A5OHowcHA5eE9tNlhBYjR4emUyWkJmSGdDNzFMeUlLMWVTNUM5NWJ4TlVTclg1S1h3SkNvZlA1REJjZTljNTV5WHlHd0gtXy1vUFRiUmt6VEsyZ2w3SmtIb1JDc2pzcTlHS1I2dVU1cmpFd1RtR3lkRnJzdUo0MjAtREQxMWVmVVdJSEVMX2dSMWhmd2JYakRQWV9aUQ?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews-a",
+   "x": "Health Care Weekly: FDA, Lilly Debate Jurisdiction in Retatrutide Case; Interim Pathway for Wellness Peptide Compounding Mulled; CMS Gains Power to Ban Companies from Government Health Care Programs; Rule Proposed to Implement PBM Reimburse The Capitol Forum"
   },
   {
    "t": "Could Retatrutide Break a GLP-1 Weight-Loss Plateau? - Medscape",
@@ -338,6 +345,13 @@ window.FEED_ART={
    "x": "October 19, 2026: Two deaths linked to bootlegged retatrutide Partnership for Safe Medicines"
   },
   {
+   "t": "'This is not minor': Peptide warning after surge in NSW hospital visits - ABC News & Headlines – Australian Broadcasting Corporation",
+   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTEg4aFY1aFRrN2Ffa0Vva2V5RUUtODhIVW5LZ00wVFpyQXVtMFJSWUpHQmpBQ1BySDlyc3lYNFBMS0pQcDBsNmpEdDZyUGl4NDk2b2ZRMzQyUjMwVzF3WnBXeVVKZXJPWVJDNjFjVm9PbzZpeUgxcUhIQjhSM2E0ZHBsY1Zfbk1mdTZfQlp5UnE5WFliUHZBSVBGOTBhSWFIZWFOZ3Nn?oc=5",
+   "d": "2026-10-19",
+   "s": "gnews-a",
+   "x": "'This is not minor': Peptide warning after surge in NSW hospital visits ABC News & Headlines – Australian Broadcasting Corporation"
+  },
+  {
    "t": "University of Missouri doctor warns about buying peptides on the gray market - KCUR",
    "l": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSnlONVZEUXdWYTUySHNDdjhBZlZ5T21GV0EzdVJ1ekJtaXpKOTlvTHo3MmtJVU00Z2h5cGRwOF9HdTlsM0FjQlZmRVRvLXV5Zzlzc2NRYk1hLXdFM25zajJ6U0NmYlR6RlJoLWt4WGhGNldFNkFXd3ZqZk8yVmUyQWp4elMwYm9TOU1iNDVDTzZKeDMzRXNVVUxsaGdWYlRNYVI1el82TENYZjJtMGlFYnJJaUQ3QQ?oc=5",
    "d": "2026-10-18",
@@ -350,20 +364,6 @@ window.FEED_ART={
    "d": "2026-10-18",
    "s": "gnews-a",
    "x": "4 red flags – and 1 truth – amid the peptide hype USA Today"
-  },
-  {
-   "t": "'This is not minor': Peptide warning after surge in NSW hospital visits - ABC News & Headlines – Australian Broadcasting Corporation",
-   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTEg4aFY1aFRrN2Ffa0Vva2V5RUUtODhIVW5LZ00wVFpyQXVtMFJSWUpHQmpBQ1BySDlyc3lYNFBMS0pQcDBsNmpEdDZyUGl4NDk2b2ZRMzQyUjMwVzF3WnBXeVVKZXJPWVJDNjFjVm9PbzZpeUgxcUhIQjhSM2E0ZHBsY1Zfbk1mdTZfQlp5UnE5WFliUHZBSVBGOTBhSWFIZWFOZ3Nn?oc=5",
-   "d": "2026-10-18",
-   "s": "gnews-a",
-   "x": "'This is not minor': Peptide warning after surge in NSW hospital visits ABC News & Headlines – Australian Broadcasting Corporation"
-  },
-  {
-   "t": "NSW Health warns of surge in hospital presentations linked to peptide use - NSW Government",
-   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOWlNsREJQcXVybjlVNWtWOHd1MU93eEcxWmhXeHZCV19Bb3hXamVSdXdVVnR5cXhIM0F4N3pTVl9TR0dpalkyNjVsOGp5X3htYUY3SktaRXIxdlo5amZpN3I2RVpPcWJYVXhZNmlWZ1NDdjRSVWJYWDEtcmo2R1hVcHZPMEM1VDJ1U3g2dTVoWVNvSlNPNVFIR0xMbWNTWFV5YmN0NS1pcFJBYkZISDhHZERhTl8?oc=5",
-   "d": "2026-10-18",
-   "s": "gnews-a",
-   "x": "NSW Health warns of surge in hospital presentations linked to peptide use NSW Government"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",

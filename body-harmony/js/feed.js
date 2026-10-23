@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-23T17:15Z",
+ "generated": "2026-10-23T21:29Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-23T17:15Z",
+   "checked": "2026-10-23T21:29Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-23T17:15Z"
+   "lastOk": "2026-10-23T21:29Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-23T17:15Z",
+   "checked": "2026-10-23T21:29Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-23T17:15Z"
+   "lastOk": "2026-10-23T21:29Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-23T17:15Z",
+   "checked": "2026-10-23T21:29Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-23T17:15Z"
+   "lastOk": "2026-10-23T21:29Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-23T17:15Z",
+   "checked": "2026-10-23T21:29Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-23T17:15Z"
+   "lastOk": "2026-10-23T21:29Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-23T17:15Z",
+   "checked": "2026-10-23T21:29Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-23T17:15Z"
+   "lastOk": "2026-10-23T21:29Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-23T17:15Z",
+   "checked": "2026-10-23T21:29Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-23T17:15Z"
+   "lastOk": "2026-10-23T21:29Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-23T17:15Z",
+   "checked": "2026-10-23T21:29Z",
    "ok": true,
    "new": 167,
    "seen": 193,
-   "lastOk": "2026-10-23T17:15Z"
+   "lastOk": "2026-10-23T21:29Z"
   }
  ],
  "items": [
@@ -86,6 +86,13 @@ window.FEED={
    "d": "2026-10-23",
    "s": "fda-drugs",
    "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
+  },
+  {
+   "t": "Recall alert: Some GLP-1 injections recalled over sterility concerns - WGAU Radio | Athens, GA",
+   "l": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTVcwN2Q4N0Qwa3JfRjd6NjB4UlpIQWtCeHZRdUs4cTI3OVl2eVBHcDkwajFLYlJBdmY3azNIVTA5NXFLYW5ybnFJQ0JyU2p1eVFJYnpqNVEyQWxrNmMzNnJMa195N0tNZTM1OEM0RmF3WDVlSXJVeFFLTHFpSmdLY09IR1UyYm9sNEFUb19XRnNyUmx3Z2Q5UkpnX1ZqYVQxZ0VEazVyNjlldnBFQW5OWDlUTm95amw3RGVqamVQcVRMNlhTMHhYd1M1NjhZRmto0gHkAUFVX3lxTE1zZlZodXRKLWhQQWhVMEVYUlBpZHRKTEt0N2lPRWJoeXlNQnFwbkQ0NUpoSXVLQ01Yc1p6TDhHU011R2hQdGRic2Rib3lGZmJ1X2RJWmFHOUhjNk0xdjJEdnVnODN0WmZDcTBvUVhfbXVjck5ieGIwZWNwcGZpNW1sNUpOcGRoQnB5MU0yUUthVkREaFE3RXZKV19jZlFvUlhqZDkxWjFuVUVKdjhqN1BKSHItOC1XYXhsWlRxX3J6QU9VTTgxUWw0U1pTR3Y4T25pNXkzTHNGWmNMQmNnZzVWMFJQUQ?oc=5",
+   "d": "2026-10-23",
+   "s": "gnews",
+   "x": "Recall alert: Some GLP-1 injections recalled over sterility concerns WGAU Radio | Athens, GA"
   },
   {
    "t": "",
@@ -100,13 +107,6 @@ window.FEED={
    "d": "2026-10-23",
    "s": "fierce",
    "x": "The FDA rebuked Baxter in a lengthy warning letter that outlined a series of production violations that led to a trio of recalls earlier this year."
-  },
-  {
-   "t": "Recall alert: Some GLP-1 injections recalled over sterility concerns - WGAU Radio | Athens, GA",
-   "l": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTVcwN2Q4N0Qwa3JfRjd6NjB4UlpIQWtCeHZRdUs4cTI3OVl2eVBHcDkwajFLYlJBdmY3azNIVTA5NXFLYW5ybnFJQ0JyU2p1eVFJYnpqNVEyQWxrNmMzNnJMa195N0tNZTM1OEM0RmF3WDVlSXJVeFFLTHFpSmdLY09IR1UyYm9sNEFUb19XRnNyUmx3Z2Q5UkpnX1ZqYVQxZ0VEazVyNjlldnBFQW5OWDlUTm95amw3RGVqamVQcVRMNlhTMHhYd1M1NjhZRmto0gHkAUFVX3lxTE1zZlZodXRKLWhQQWhVMEVYUlBpZHRKTEt0N2lPRWJoeXlNQnFwbkQ0NUpoSXVLQ01Yc1p6TDhHU011R2hQdGRic2Rib3lGZmJ1X2RJWmFHOUhjNk0xdjJEdnVnODN0WmZDcTBvUVhfbXVjck5ieGIwZWNwcGZpNW1sNUpOcGRoQnB5MU0yUUthVkREaFE3RXZKV19jZlFvUlhqZDkxWjFuVUVKdjhqN1BKSHItOC1XYXhsWlRxX3J6QU9VTTgxUWw0U1pTR3Y4T25pNXkzTHNGWmNMQmNnZzVWMFJQUQ?oc=5",
-   "d": "2026-10-23",
-   "s": "gnews",
-   "x": "Recall alert: Some GLP-1 injections recalled over sterility concerns WGAU Radio | Athens, GA"
   },
   {
    "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process; Delayed Compliance Extension",
