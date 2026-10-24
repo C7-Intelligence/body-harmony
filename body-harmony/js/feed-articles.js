@@ -1,26 +1,27 @@
 window.FEED_ART={
- "generated": "2026-10-24T04:45Z",
+ "generated": "2026-10-24T11:13Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-24T04:45Z",
+   "checked": "2026-10-24T11:13Z",
    "ok": true,
-   "new": 101,
-   "seen": 128,
-   "lastOk": "2026-10-24T04:45Z"
+   "new": 87,
+   "seen": 119,
+   "lastOk": "2026-10-24T11:13Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-24T04:45Z",
-   "ok": true,
-   "new": 1,
-   "seen": 15,
+   "checked": "2026-10-24T11:13Z",
+   "ok": false,
+   "error": "HTTP Error 503: ",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-10-24T04:45Z"
   },
   {
@@ -28,11 +29,11 @@ window.FEED_ART={
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-24T04:45Z",
+   "checked": "2026-10-24T11:13Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-24T04:45Z"
+   "lastOk": "2026-10-24T11:13Z"
   }
  ],
  "items": [
@@ -140,6 +141,13 @@ window.FEED_ART={
    "d": "2026-10-22",
    "s": "gnews-a",
    "x": "USA Peptides: Kylo Peptides Partners With Freedom Diagnostics for Independent Verification of Research Peptides lincolnjournal.com"
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
@@ -273,13 +281,6 @@ window.FEED_ART={
    "d": "2026-10-19",
    "s": "gnews-a",
    "x": "Peptide warning as emergency department presentations soar Newcastle Herald"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "NSW Logs 1,180 Emergency Presentations Mentioning Unapproved Peptides - https://streamlinefeed.co.ke/",
