@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-24T16:02Z",
+ "generated": "2026-10-24T20:56Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-24T16:02Z",
+   "checked": "2026-10-24T20:56Z",
    "ok": true,
-   "new": 92,
-   "seen": 122,
-   "lastOk": "2026-10-24T16:02Z"
+   "new": 93,
+   "seen": 124,
+   "lastOk": "2026-10-24T20:56Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-24T16:02Z",
+   "checked": "2026-10-24T20:56Z",
    "ok": true,
-   "new": 1,
+   "new": 2,
    "seen": 15,
-   "lastOk": "2026-10-24T16:02Z"
+   "lastOk": "2026-10-24T20:56Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-24T16:02Z",
+   "checked": "2026-10-24T20:56Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-24T16:02Z"
+   "lastOk": "2026-10-24T20:56Z"
   }
  ],
  "items": [
@@ -413,6 +413,13 @@ window.FEED_ART={
    "d": "2026-10-12",
    "s": "epmc",
    "x": "EClinicalMedicine · Nardone M, Kugathasan L, Daunt L, Parikh E, River Zhang H, Pasricha S, Orchanian-Cheff A, Cherney D, Odutayo A, Muskiet M."
+  },
+  {
+   "t": "Weight loss and blood pressure lowering with GLP-1 receptor agonists and multi-hormone receptor modulators in overweight and obesity: a systematic review and meta-regression of phase 3 clinical…",
+   "l": "https://doi.org/10.1016/j.eclinm.2026.104251",
+   "d": "2026-10-12",
+   "s": "epmc",
+   "x": "EClinicalMedicine · Nardone M, Kugathasan L, Daunt L, Parikh EJ, River Zhang HY, Pasricha SV, Orchanian-Cheff A, Cherney DZI, Odutayo A, Muskiet MHA."
   },
   {
    "t": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
