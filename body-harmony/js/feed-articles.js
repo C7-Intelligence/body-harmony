@@ -1,39 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-24T11:13Z",
+ "generated": "2026-10-24T16:02Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-24T11:13Z",
+   "checked": "2026-10-24T16:02Z",
    "ok": true,
-   "new": 87,
-   "seen": 119,
-   "lastOk": "2026-10-24T11:13Z"
+   "new": 92,
+   "seen": 122,
+   "lastOk": "2026-10-24T16:02Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-24T11:13Z",
-   "ok": false,
-   "error": "HTTP Error 503: ",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-10-24T04:45Z"
+   "checked": "2026-10-24T16:02Z",
+   "ok": true,
+   "new": 1,
+   "seen": 15,
+   "lastOk": "2026-10-24T16:02Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-24T11:13Z",
+   "checked": "2026-10-24T16:02Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-24T11:13Z"
+   "lastOk": "2026-10-24T16:02Z"
   }
  ],
  "items": [
@@ -57,6 +56,13 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Someone Ran a Chemical Analysis of Bodega Retatrutide and Dear Lord - Futurism",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPOS1UZWctd0hTNzkwYjdZVFdRVlJTbGxxYVA0YnhKdVZWSVhySjJvWER0WV9fTU1WVVd2d1ZFUUR5dGpKZFNtdnpsWFotd3Q4NXVwZl9UcVloWEE1ZnZoSTlIb2UyZDdNOWNTY01pb2N0ZWdTRTZlZzEwS0RxSElyNHNDWnFJRVBSN2c?oc=5",
+   "d": "2026-10-24",
+   "s": "gnews-a",
+   "x": "Someone Ran a Chemical Analysis of Bodega Retatrutide and Dear Lord Futurism"
   },
   {
    "t": "Retatrutide Cuts Obstructive Sleep Apnea Severity in Patients With & Without Type 2 Diabetes - Physicians Weekly",
@@ -358,13 +364,6 @@ window.FEED_ART={
    "d": "2026-10-18",
    "s": "gnews-a",
    "x": "University of Missouri doctor warns about buying peptides on the gray market KCUR"
-  },
-  {
-   "t": "4 red flags – and 1 truth – amid the peptide hype - USA Today",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWHI2THBQNThoX1VDdFE5azJwYXN0Q1ByQU14TGRhOHZoR2xrenVPOUNHbFJ1MWM2aU8teWdsOXgwV0FtQTlyem1LWUNtWS15RHhlUS1oSDhhWEh5X2lmUFBUTDFEVjV5ZG5tczdvQUt3TFlxbXItdlhuS3JNekZJeFdRcmdZTzA4TE84Q1RMNlNIQnlRYW1QTGRvOG1SaU0ydVFwYTdYdUxhWkNvWEE?oc=5",
-   "d": "2026-10-18",
-   "s": "gnews-a",
-   "x": "4 red flags – and 1 truth – amid the peptide hype USA Today"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
