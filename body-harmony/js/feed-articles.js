@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-23T21:29Z",
+ "generated": "2026-10-24T04:45Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-23T21:29Z",
+   "checked": "2026-10-24T04:45Z",
    "ok": true,
    "new": 101,
-   "seen": 131,
-   "lastOk": "2026-10-23T21:29Z"
+   "seen": 128,
+   "lastOk": "2026-10-24T04:45Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-23T21:29Z",
+   "checked": "2026-10-24T04:45Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-23T21:29Z"
+   "lastOk": "2026-10-24T04:45Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-23T21:29Z",
+   "checked": "2026-10-24T04:45Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-23T21:29Z"
+   "lastOk": "2026-10-24T04:45Z"
   }
  ],
  "items": [
@@ -347,7 +347,7 @@ window.FEED_ART={
   {
    "t": "'This is not minor': Peptide warning after surge in NSW hospital visits - ABC News & Headlines – Australian Broadcasting Corporation",
    "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTEg4aFY1aFRrN2Ffa0Vva2V5RUUtODhIVW5LZ00wVFpyQXVtMFJSWUpHQmpBQ1BySDlyc3lYNFBMS0pQcDBsNmpEdDZyUGl4NDk2b2ZRMzQyUjMwVzF3WnBXeVVKZXJPWVJDNjFjVm9PbzZpeUgxcUhIQjhSM2E0ZHBsY1Zfbk1mdTZfQlp5UnE5WFliUHZBSVBGOTBhSWFIZWFOZ3Nn?oc=5",
-   "d": "2026-10-19",
+   "d": "2026-10-18",
    "s": "gnews-a",
    "x": "'This is not minor': Peptide warning after surge in NSW hospital visits ABC News & Headlines – Australian Broadcasting Corporation"
   },
