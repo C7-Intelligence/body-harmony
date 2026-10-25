@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-25T16:31Z",
+ "generated": "2026-10-25T20:56Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-25T16:31Z",
+   "checked": "2026-10-25T20:56Z",
    "ok": true,
-   "new": 92,
-   "seen": 119,
-   "lastOk": "2026-10-25T16:31Z"
+   "new": 93,
+   "seen": 120,
+   "lastOk": "2026-10-25T20:56Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-25T16:31Z",
+   "checked": "2026-10-25T20:56Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-25T16:31Z"
+   "lastOk": "2026-10-25T20:56Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-25T16:31Z",
+   "checked": "2026-10-25T20:56Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-25T16:31Z"
+   "lastOk": "2026-10-25T20:56Z"
   }
  ],
  "items": [
@@ -63,6 +63,13 @@ window.FEED_ART={
    "d": "2026-10-25",
    "s": "gnews-a",
    "x": "Investigation Reveals Health Risks of Gray Market Peptides in NYC Convenience Stores SSBCrack"
+  },
+  {
+   "t": "BPC-157 and Peptide Stacks: Why Getting the Dose Right Isn’t Enough - Men's Fitness",
+   "l": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9rcTlLR2EwVG9ZOFlnYVNaN0ZQd3A3YjE5ZTRJeGZaQTZMeHBGb2VnNVdOVGhNcF80d2hLRlBJQ1dmb0FXUmJ2V25WYkZXakpiNmlYcDVDN3hjTDBWb3Vzdmg1TVV4SE05NnJ2ZjJSaGFNc3NHcE4xUw?oc=5",
+   "d": "2026-10-25",
+   "s": "gnews-a",
+   "x": "BPC-157 and Peptide Stacks: Why Getting the Dose Right Isn’t Enough Men's Fitness"
   },
   {
    "t": "Someone Ran a Chemical Analysis of Bodega Retatrutide and Dear Lord - Futurism",
@@ -170,11 +177,11 @@ window.FEED_ART={
    "x": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides Regulatory Oversight"
   },
   {
-   "t": "Systematic Review Finds Only 30 Humans Studied For BPC-157 Safety - Dr. Axe",
+   "t": "Every Human BPC-157 Study So Far Reports Improvement With No Treatment Side Effects - Dr. Axe",
    "l": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFB0U25Sa18zR2YyR1BLTndySmtEeVhJUHktZmY4RzE0RTdOLXU4cFBMX25nQ3lUVll1ZlVBVC03UXN3V0VTTkNKREFsa0U2NFlYY2l2eEhQM0NIcVZQeHBmRFR2d28?oc=5",
    "d": "2026-10-21",
    "s": "gnews-a",
-   "x": "Systematic Review Finds Only 30 Humans Studied For BPC-157 Safety Dr. Axe"
+   "x": "Every Human BPC-157 Study So Far Reports Improvement With No Treatment Side Effects Dr. Axe"
   },
   {
    "t": "Unapproved peptides raise health concerns - St. Louis American",
@@ -357,13 +364,6 @@ window.FEED_ART={
    "d": "2026-10-19",
    "s": "gnews-a",
    "x": "October 19, 2026: Two deaths linked to bootlegged retatrutide Partnership for Safe Medicines"
-  },
-  {
-   "t": "'This is not minor': Peptide warning after surge in NSW hospital visits - ABC News & Headlines – Australian Broadcasting Corporation",
-   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTEg4aFY1aFRrN2Ffa0Vva2V5RUUtODhIVW5LZ00wVFpyQXVtMFJSWUpHQmpBQ1BySDlyc3lYNFBMS0pQcDBsNmpEdDZyUGl4NDk2b2ZRMzQyUjMwVzF3WnBXeVVKZXJPWVJDNjFjVm9PbzZpeUgxcUhIQjhSM2E0ZHBsY1Zfbk1mdTZfQlp5UnE5WFliUHZBSVBGOTBhSWFIZWFOZ3Nn?oc=5",
-   "d": "2026-10-18",
-   "s": "gnews-a",
-   "x": "'This is not minor': Peptide warning after surge in NSW hospital visits ABC News & Headlines – Australian Broadcasting Corporation"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",

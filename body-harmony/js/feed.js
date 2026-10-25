@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-25T16:31Z",
+ "generated": "2026-10-25T20:56Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-25T16:31Z",
+   "checked": "2026-10-25T20:56Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-25T16:31Z"
+   "lastOk": "2026-10-25T20:56Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-25T16:31Z",
+   "checked": "2026-10-25T20:56Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-25T16:31Z"
+   "lastOk": "2026-10-25T20:56Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-25T16:31Z",
+   "checked": "2026-10-25T20:56Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-25T16:31Z"
+   "lastOk": "2026-10-25T20:56Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-25T16:31Z",
+   "checked": "2026-10-25T20:56Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-25T16:31Z"
+   "lastOk": "2026-10-25T20:56Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-25T16:31Z",
+   "checked": "2026-10-25T20:56Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-25T16:31Z"
+   "lastOk": "2026-10-25T20:56Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-25T16:31Z",
+   "checked": "2026-10-25T20:56Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-25T16:31Z"
+   "lastOk": "2026-10-25T20:56Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-25T16:31Z",
+   "checked": "2026-10-25T20:56Z",
    "ok": true,
-   "new": 167,
-   "seen": 193,
-   "lastOk": "2026-10-25T16:31Z"
+   "new": 129,
+   "seen": 149,
+   "lastOk": "2026-10-25T20:56Z"
   }
  ],
  "items": [
@@ -107,6 +107,13 @@ window.FEED={
    "d": "2026-10-23",
    "s": "gnews",
    "x": "Recall alert: Some GLP-1 injections recalled over sterility concerns WGAU Radio | Athens, GA"
+  },
+  {
+   "t": "Recall alert: Some GLP-1 injections recalled over sterility concerns - 95.5 WSB",
+   "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPa2JRWEtPYUZqdUZFT1V6T1ZuTUk3NnFwSHdmSU83WEpYZFdkX21YcFhPMVRFLXZ4VEVlRU10aW5Qc09ITWVFZW9aRk9yQmdYMGVGV3FGZm1ISEwxWVB6S1BxYjB3TlFMTjFrNHJycmRwdjhGcWYzZW5GdW1QbTRxaGhkSmxwQ2pEMmZRWWY0a0VVQ2s0WjhqRm9HbzExSkFPcG1hXzhBOVd2UWYzcjFPVTJnT2kzMjQ5WUotMUk4QjVLeWdkeVcwOXBjU1ozUFnSAeMBQVVfeXFMTzFuSGxfcE1zX0NTdW52WUZybzdxcVB1YVVGYWNOY3dKQnp0VjRIV2kyTEFNbmtmMHI1RTA0NllablgweFlONVJDUFNFdlBsWkttUEhLQVMwcmNtaUlCQWs5VllIVzdDWk9TV1ViTkdscW81LWlhb0ZUeWpMYWtxYjZtbV9SSjJzSkVjQkVhVDJnaFpkc1g4TnRZVUlCLVMwY3Fsa2p2SzZFVGhJQU85Y181aEctdHBHWEoxNUdXajl5bVB3bWoxU3ByRlVIdG42bExZeTgwczQ2b09ucGlKYXIwNTA?oc=5",
+   "d": "2026-10-23",
+   "s": "gnews",
+   "x": "Recall alert: Some GLP-1 injections recalled over sterility concerns 95.5 WSB"
   },
   {
    "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process; Delayed Compliance Extension",
@@ -312,6 +319,13 @@ window.FEED={
    "x": "Advertisements for personalized GLP-1 weight-loss drugs are now as pervasive as they are dangerous Yonkers Times"
   },
   {
+   "t": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee - AOL.com",
+   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5xSUNuMGcyUWJaNDBROHpOSnlDQmlDN0tOMW5UYkc1ak9JLVVNRlBPODJNWUFaZUp2bUNpVmF1WmlvMDM0WDF4UUdOY1F5V253TEk3ZWw0YVFMaXJXM09sbTJ1REo1LUVSMm55TVFGc3U3TmJBMlJSeXYtVjg?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews",
+   "x": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee AOL.com"
+  },
+  {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
    "l": "http://www.fda.gov/drugs/counterfeit-medicine/counterfeit-versions-eye-drops-found-several-states",
    "d": "2026-10-19",
@@ -417,25 +431,11 @@ window.FEED={
    "x": "HHS Seeks White House Review of Peptide Compounding Policy SuaraGarut.ID"
   },
   {
-   "t": "FDA Recalls and Warnings: Sterility Issues With Compounded GLP-1s, Foreign Pills in Generic Reglan Bottles - MedShadow Foundation",
-   "l": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbjZlU2lmcjFYRXJQSnRrZ1A3R25Tc0FjR21qbWxtVzJ5S3FIV3dXUk1MMjRENWxxVW1iMy1XUjlKaU5heGlKeVNrelVtSHMyYkJSU0hCS2syUVN6VVVTVlNjQThIOVJXRVUxU3l0VWVjSjhEeWlJVWI0VUVCcUlUTXFpaTRpcUozTmxjaVVva281QzhmSlhQUE9JenVDMkpFUXZxQlQ0dTdiS243WUJLX1N6X0JiYzBu?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews",
-   "x": "FDA Recalls and Warnings: Sterility Issues With Compounded GLP-1s, Foreign Pills in Generic Reglan Bottles MedShadow Foundation"
-  },
-  {
    "t": "Counterfeit Medicine",
    "l": "http://www.fda.gov/drugs/buying-using-medicine-safely/counterfeit-medicine",
    "d": "2026-10-16",
    "s": "fda-drugs",
    "x": "Counterfeit (fake or falsified) medicines may be harmful to your health because while being passed off as authentic, may contain the wrong ingredients, contain too much, too little or no active ingredient at all or contain other harmful ingredients."
-  },
-  {
-   "t": "FDA panel recommends peptides its own scientists rejected, CSPI warns - Nutrition Insight",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOc3I5NHF5eWF6b3FGQkpMcHJpd1FwOGM3c3pQS0NHSTVxSDVZZ3VERmN5ZlJ0LUVLdWpEc2V3VHpscXlSdEZyYVZSbS1EWWhXcE9SRXdOWHFiVnRScGpvanFtVVBkcVRYUUdPR3hZNzNjSkRHeS00UTU2dE54Y2EzMnJZc0RLV2FJYXc?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews",
-   "x": "FDA panel recommends peptides its own scientists rejected, CSPI warns Nutrition Insight"
   },
   {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
