@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-25T04:52Z",
+ "generated": "2026-10-25T11:43Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-25T04:52Z",
+   "checked": "2026-10-25T11:43Z",
    "ok": true,
-   "new": 95,
-   "seen": 123,
-   "lastOk": "2026-10-25T04:52Z"
+   "new": 92,
+   "seen": 120,
+   "lastOk": "2026-10-25T11:43Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-25T04:52Z",
+   "checked": "2026-10-25T11:43Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-25T04:52Z"
+   "lastOk": "2026-10-25T11:43Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-25T04:52Z",
+   "checked": "2026-10-25T11:43Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-25T04:52Z"
+   "lastOk": "2026-10-25T11:43Z"
   }
  ],
  "items": [
@@ -56,6 +56,13 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Investigation Reveals Health Risks of Gray Market Peptides in NYC Convenience Stores - SSBCrack",
+   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQY0JVMTZyRGpSTGpjWl9Oc1phcV94RVNKNkFHaU5Gc2pKOWFFT1cya3dKOExQUTNhcXppc0VnX2M0N2FQajFnY1hja0U5ZE5CME5UajlEZm5pdUFKeFU1YjlJZ3BuUXB6dGcwU1dqUUNBTFFQcmlmXzIzakxHTnFoUkpoTl9qTktUUlhIVWFtVWhBNnNHa0kweThOV1pOUnc1eXU0eW1rQmdjZ29GSXppbA?oc=5",
+   "d": "2026-10-25",
+   "s": "gnews-a",
+   "x": "Investigation Reveals Health Risks of Gray Market Peptides in NYC Convenience Stores SSBCrack"
   },
   {
    "t": "Someone Ran a Chemical Analysis of Bodega Retatrutide and Dear Lord - Futurism",
@@ -357,13 +364,6 @@ window.FEED_ART={
    "d": "2026-10-18",
    "s": "gnews-a",
    "x": "'This is not minor': Peptide warning after surge in NSW hospital visits ABC News & Headlines – Australian Broadcasting Corporation"
-  },
-  {
-   "t": "University of Missouri doctor warns about buying peptides on the gray market - KCUR",
-   "l": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOSnlONVZEUXdWYTUySHNDdjhBZlZ5T21GV0EzdVJ1ekJtaXpKOTlvTHo3MmtJVU00Z2h5cGRwOF9HdTlsM0FjQlZmRVRvLXV5Zzlzc2NRYk1hLXdFM25zajJ6U0NmYlR6RlJoLWt4WGhGNldFNkFXd3ZqZk8yVmUyQWp4elMwYm9TOU1iNDVDTzZKeDMzRXNVVUxsaGdWYlRNYVI1el82TENYZjJtMGlFYnJJaUQ3QQ?oc=5",
-   "d": "2026-10-18",
-   "s": "gnews-a",
-   "x": "University of Missouri doctor warns about buying peptides on the gray market KCUR"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",

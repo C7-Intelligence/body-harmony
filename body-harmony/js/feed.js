@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-25T04:52Z",
+ "generated": "2026-10-25T11:43Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-25T04:52Z",
+   "checked": "2026-10-25T11:43Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-25T04:52Z"
+   "lastOk": "2026-10-25T11:43Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-25T04:52Z",
+   "checked": "2026-10-25T11:43Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-25T04:52Z"
+   "lastOk": "2026-10-25T11:43Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-25T04:52Z",
+   "checked": "2026-10-25T11:43Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-25T04:52Z"
+   "lastOk": "2026-10-25T11:43Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-25T04:52Z",
+   "checked": "2026-10-25T11:43Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-25T04:52Z"
+   "lastOk": "2026-10-25T11:43Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-25T04:52Z",
+   "checked": "2026-10-25T11:43Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-25T04:52Z"
+   "lastOk": "2026-10-25T11:43Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-25T04:52Z",
+   "checked": "2026-10-25T11:43Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-25T04:52Z"
+   "lastOk": "2026-10-25T11:43Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-25T04:52Z",
+   "checked": "2026-10-25T11:43Z",
    "ok": true,
    "new": 167,
    "seen": 193,
-   "lastOk": "2026-10-25T04:52Z"
+   "lastOk": "2026-10-25T11:43Z"
   }
  ],
  "items": [
@@ -305,6 +305,13 @@ window.FEED={
    "x": "GLP-1 injections recalled nationwide over sterility concerns Fox Business"
   },
   {
+   "t": "Advertisements for personalized GLP-1 weight-loss drugs are now as pervasive as they are dangerous - Yonkers Times",
+   "l": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOem1oWG1qc0tUa2dRdjNzM0ZVTEQ2WVdPSTdvVW5tNVBNNEdDdzc5R2hfQk9xV3RaZml3M2IwUGVtRWVaQ3hOZVpiVjZOTTgxQUdzN2owM2l2QlEtQi1tTmFUODJ4OGVKUmlGcEVFZU5XaC1TN1E1VlpMQnM0SExnd1h6WEtWMTlNcVRrNFhiS043UUZoV29TNU1IZG1USnNYLVZ6alR6NTFoYWpXY3luLU9rNXR4RUpOMWF4VnBFSFh6QQ?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews",
+   "x": "Advertisements for personalized GLP-1 weight-loss drugs are now as pervasive as they are dangerous Yonkers Times"
+  },
+  {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
    "l": "http://www.fda.gov/drugs/counterfeit-medicine/counterfeit-versions-eye-drops-found-several-states",
    "d": "2026-10-19",
@@ -429,13 +436,6 @@ window.FEED={
    "d": "2026-10-16",
    "s": "fda-drugs",
    "x": "Counterfeit (fake or falsified) medicines may be harmful to your health because while being passed off as authentic, may contain the wrong ingredients, contain too much, too little or no active ingredient at all or contain other harmful ingredients."
-  },
-  {
-   "t": "FDA Submits Interim Peptide Compounding Policy for White House Review: What Pharmacies Should Know - Buchanan Ingersoll & Rooney PC",
-   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzhBdVVtS2pKeUd2RU5NWEZNTWl4UUtBVGJTVi1NbFpPQ3ZqV0R4Q2w4aU8wQ0VCcE14TDNuWEF4dFJrb1g0Wks0emZoNnYwZV9wMmpDSVpvUmQyTXlZVkZULTFLZFRlTFBLY3F0TGE3UDRaS2NoLXNpUlh6T1g1ZlZ5SENyOENEbU85OUpuUURRVVFVMUZsaEFOcWJaVnhaWjJzWC1pcnlLLVEtQU5taEVGQ1U3emFsd3c?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews",
-   "x": "FDA Submits Interim Peptide Compounding Policy for White House Review: What Pharmacies Should Know Buchanan Ingersoll & Rooney PC"
   },
   {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",
