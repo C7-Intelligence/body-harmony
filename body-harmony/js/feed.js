@@ -1,96 +1,96 @@
 window.FEED={
- "generated": "2026-10-24T20:56Z",
+ "generated": "2026-10-25T04:52Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-24T20:56Z",
+   "checked": "2026-10-25T04:52Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-24T20:56Z"
+   "lastOk": "2026-10-25T04:52Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-24T20:56Z",
+   "checked": "2026-10-25T04:52Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-24T20:56Z"
+   "lastOk": "2026-10-25T04:52Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-24T20:56Z",
+   "checked": "2026-10-25T04:52Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-24T20:56Z"
+   "lastOk": "2026-10-25T04:52Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-24T20:56Z",
+   "checked": "2026-10-25T04:52Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-24T20:56Z"
+   "lastOk": "2026-10-25T04:52Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-24T20:56Z",
+   "checked": "2026-10-25T04:52Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-24T20:56Z"
+   "lastOk": "2026-10-25T04:52Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-24T20:56Z",
+   "checked": "2026-10-25T04:52Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-24T20:56Z"
+   "lastOk": "2026-10-25T04:52Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-24T20:56Z",
+   "checked": "2026-10-25T04:52Z",
    "ok": true,
    "new": 167,
    "seen": 193,
-   "lastOk": "2026-10-24T20:56Z"
+   "lastOk": "2026-10-25T04:52Z"
   }
  ],
  "items": [
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-10-24",
+   "d": "2026-10-25",
    "s": "fierce",
    "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/manufacturing/fda-rebukes-baxter-warning-letter-ongoing-production-problems",
-   "d": "2026-10-24",
+   "d": "2026-10-25",
    "s": "fierce",
    "x": "The FDA rebuked Baxter in a lengthy warning letter that outlined a series of production violations that led to a trio of recalls earlier this year."
   },
@@ -128,13 +128,6 @@ window.FEED={
    "d": "2026-10-22",
    "s": "gnews",
    "x": "files Citizen Petition urging FDA to block compounding of unapproved and uncharacterized peptides – Partnership for Safe Medicines Partnership for Safe Medicines"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-22",
-   "s": "gnews",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs - SuaraGarut.ID",
@@ -436,6 +429,13 @@ window.FEED={
    "d": "2026-10-16",
    "s": "fda-drugs",
    "x": "Counterfeit (fake or falsified) medicines may be harmful to your health because while being passed off as authentic, may contain the wrong ingredients, contain too much, too little or no active ingredient at all or contain other harmful ingredients."
+  },
+  {
+   "t": "FDA Submits Interim Peptide Compounding Policy for White House Review: What Pharmacies Should Know - Buchanan Ingersoll & Rooney PC",
+   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNUzhBdVVtS2pKeUd2RU5NWEZNTWl4UUtBVGJTVi1NbFpPQ3ZqV0R4Q2w4aU8wQ0VCcE14TDNuWEF4dFJrb1g0Wks0emZoNnYwZV9wMmpDSVpvUmQyTXlZVkZULTFLZFRlTFBLY3F0TGE3UDRaS2NoLXNpUlh6T1g1ZlZ5SENyOENEbU85OUpuUURRVVFVMUZsaEFOcWJaVnhaWjJzWC1pcnlLLVEtQU5taEVGQ1U3emFsd3c?oc=5",
+   "d": "2026-10-16",
+   "s": "gnews",
+   "x": "FDA Submits Interim Peptide Compounding Policy for White House Review: What Pharmacies Should Know Buchanan Ingersoll & Rooney PC"
   },
   {
    "t": "Advisory Committee; Cellular, Tissue, and Gene Therapies Advisory Committee; Renewal",

@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-24T20:56Z",
+ "generated": "2026-10-25T04:52Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-24T20:56Z",
+   "checked": "2026-10-25T04:52Z",
    "ok": true,
-   "new": 93,
-   "seen": 124,
-   "lastOk": "2026-10-24T20:56Z"
+   "new": 95,
+   "seen": 123,
+   "lastOk": "2026-10-25T04:52Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-24T20:56Z",
+   "checked": "2026-10-25T04:52Z",
    "ok": true,
-   "new": 2,
+   "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-24T20:56Z"
+   "lastOk": "2026-10-25T04:52Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-24T20:56Z",
+   "checked": "2026-10-25T04:52Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-24T20:56Z"
+   "lastOk": "2026-10-25T04:52Z"
   }
  ],
  "items": [
