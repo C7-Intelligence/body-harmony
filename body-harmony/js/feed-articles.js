@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-26T13:15Z",
+ "generated": "2026-10-26T22:44Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-26T13:15Z",
+   "checked": "2026-10-26T22:44Z",
    "ok": true,
-   "new": 88,
-   "seen": 117,
-   "lastOk": "2026-10-26T13:15Z"
+   "new": 95,
+   "seen": 120,
+   "lastOk": "2026-10-26T22:44Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-26T13:15Z",
+   "checked": "2026-10-26T22:44Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-26T13:15Z"
+   "lastOk": "2026-10-26T22:44Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-26T13:15Z",
+   "checked": "2026-10-26T22:44Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-26T13:15Z"
+   "lastOk": "2026-10-26T22:44Z"
   }
  ],
  "items": [
@@ -56,6 +56,13 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Novo’s Answer to Retatrutide Does Well at Phase II in Type 2 Diabetes - Inside Precision Medicine",
+   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQS2R4ZzJubTg0SVJPZkR3R004bWZycHpISU5CS0prTEhoUW82TXRQdExYOU96c3ZNN3Zaa2lzX0RPRS13SDVsemdSR2ZCSTZBelFNQzdIaWMtMmFpa2FCYXFkNnhERkVQOEpsNnhiWWlNUUhDVmloWDlQbVFBUWFBeUd3Smx5Q0dhN3FRM1pCM3l0aEcyYm9OU214elZUMUtRcHFWY2NWVzIwb3BkREFoYUlOMjlFaU1MQ3kyaTVXVXFNQzZRWFM3WQ?oc=5",
+   "d": "2026-10-26",
+   "s": "gnews-a",
+   "x": "Novo’s Answer to Retatrutide Does Well at Phase II in Type 2 Diabetes Inside Precision Medicine"
   },
   {
    "t": "Investigation Reveals Health Risks of Gray Market Peptides in NYC Convenience Stores - SSBCrack",
@@ -359,13 +366,6 @@ window.FEED_ART={
    "x": "Experts warning after alarming rise in hospitalisations from peptide use WAtoday"
   },
   {
-   "t": "NSW Warns Over Unapproved Peptides After Hospital Surge - Oz Arab Media",
-   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbEZfZ3hkdkhXVEFnNWc4T2tKa2NtNzE0aWZ1MWRsSG02cXVTeGNTeV9QZmpnSS1qNlJJQkcwd1N3OW9ndF9oNXFVVDRCOWVhNXFib19GbkVIUmdPQTd4X2NYbm1relU2bjhqZXB5aFdzU2FLWEcxcEJ3RXZNQWpNbllfTQ?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "NSW Warns Over Unapproved Peptides After Hospital Surge Oz Arab Media"
-  },
-  {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
    "l": "https://www.statnews.com/pharmalot/2026/10/16/hhs-peptide-push-trump-pharma-stock-holdings/?utm_campaign=rss",
    "d": "2026-10-16",
@@ -525,6 +525,13 @@ window.FEED_ART={
    "d": "2026-10-01",
    "s": "epmc",
    "x": "J Diabetes · Bloomgarden ZT, Handelsman Y."
+  },
+  {
+   "t": "Urinary Peptidomic Signature for Noninvasive Diagnosis of Alport Syndrome in Children.",
+   "l": "https://doi.org/10.1016/j.ekir.2026.107093",
+   "d": "2026-09-25",
+   "s": "epmc",
+   "x": "Kidney Int Rep · Byrska J, Boeckhaus J, Voutsadaki K, Breuil B, Delecroix E, Murunga S, Buffin-Meyer B, Becknell B, McLeod D, Burgmaier K, Liebau MC, Schaefer F, Siwy J, Mischak H, Kondyli M, Decramer S, Sanchez-Niño MD, Ortiz A, Gross O, Schanstra JP."
   },
   {
    "t": "FDA PCAC peptide vote: what the 503A recommendations mean",

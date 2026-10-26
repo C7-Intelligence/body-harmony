@@ -1,85 +1,99 @@
 window.FEED={
- "generated": "2026-10-26T13:15Z",
+ "generated": "2026-10-26T22:44Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-26T13:15Z",
+   "checked": "2026-10-26T22:44Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-26T13:15Z"
+   "lastOk": "2026-10-26T22:44Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-26T13:15Z",
+   "checked": "2026-10-26T22:44Z",
    "ok": true,
-   "new": 0,
-   "seen": 1,
-   "lastOk": "2026-10-26T13:15Z"
+   "new": 1,
+   "seen": 3,
+   "lastOk": "2026-10-26T22:44Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-26T13:15Z",
+   "checked": "2026-10-26T22:44Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-26T13:15Z"
+   "lastOk": "2026-10-26T22:44Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-26T13:15Z",
+   "checked": "2026-10-26T22:44Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-26T13:15Z"
+   "lastOk": "2026-10-26T22:44Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-26T13:15Z",
+   "checked": "2026-10-26T22:44Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-26T13:15Z"
+   "lastOk": "2026-10-26T22:44Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-26T13:15Z",
+   "checked": "2026-10-26T22:44Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-26T13:15Z"
+   "lastOk": "2026-10-26T22:44Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-26T13:15Z",
+   "checked": "2026-10-26T22:44Z",
    "ok": true,
-   "new": 134,
-   "seen": 156,
-   "lastOk": "2026-10-26T13:15Z"
+   "new": 168,
+   "seen": 193,
+   "lastOk": "2026-10-26T22:44Z"
   }
  ],
  "items": [
+  {
+   "t": "Registered Outsourcing Facilities",
+   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+   "d": "2026-10-26",
+   "s": "fda-drugs",
+   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
+  },
+  {
+   "t": "Statement on improving adverse event reporting of compounded drugs to protect patients",
+   "l": "http://www.fda.gov/news-events/press-announcements/statement-improving-adverse-event-reporting-compounded-drugs-protect-patients",
+   "d": "2026-10-26",
+   "s": "fda-drugs",
+   "x": "The FDA is working to improve adverse event reporting of compounded drugs to protect patients"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
@@ -93,13 +107,6 @@ window.FEED={
    "d": "2026-10-26",
    "s": "fierce",
    "x": "The FDA rebuked Baxter in a lengthy warning letter that outlined a series of production violations that led to a trio of recalls earlier this year."
-  },
-  {
-   "t": "Registered Outsourcing Facilities",
-   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
-   "d": "2026-10-23",
-   "s": "fda-drugs",
-   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
   },
   {
    "t": "Recall alert: Some GLP-1 injections recalled over sterility concerns - WGAU Radio | Athens, GA",
