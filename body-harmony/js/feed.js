@@ -1,96 +1,96 @@
 window.FEED={
- "generated": "2026-10-25T20:56Z",
+ "generated": "2026-10-26T04:56Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-25T20:56Z",
+   "checked": "2026-10-26T04:56Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-25T20:56Z"
+   "lastOk": "2026-10-26T04:56Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-25T20:56Z",
+   "checked": "2026-10-26T04:56Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-25T20:56Z"
+   "lastOk": "2026-10-26T04:56Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-25T20:56Z",
+   "checked": "2026-10-26T04:56Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-25T20:56Z"
+   "lastOk": "2026-10-26T04:56Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-25T20:56Z",
+   "checked": "2026-10-26T04:56Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-25T20:56Z"
+   "lastOk": "2026-10-26T04:56Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-25T20:56Z",
+   "checked": "2026-10-26T04:56Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-25T20:56Z"
+   "lastOk": "2026-10-26T04:56Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-25T20:56Z",
+   "checked": "2026-10-26T04:56Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-25T20:56Z"
+   "lastOk": "2026-10-26T04:56Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-25T20:56Z",
+   "checked": "2026-10-26T04:56Z",
    "ok": true,
-   "new": 129,
-   "seen": 149,
-   "lastOk": "2026-10-25T20:56Z"
+   "new": 169,
+   "seen": 192,
+   "lastOk": "2026-10-26T04:56Z"
   }
  ],
  "items": [
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-10-25",
+   "d": "2026-10-26",
    "s": "fierce",
    "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/manufacturing/fda-rebukes-baxter-warning-letter-ongoing-production-problems",
-   "d": "2026-10-25",
+   "d": "2026-10-26",
    "s": "fierce",
    "x": "The FDA rebuked Baxter in a lengthy warning letter that outlined a series of production violations that led to a trio of recalls earlier this year."
   },
@@ -130,11 +130,18 @@ window.FEED={
    "x": "This document announces that U.S. Customs and Border Protection (CBP) is modifying the test of the new electronic informal entry type for merchandise entering the United States through the international mail process to permit transmission of the entry with or without electronic…"
   },
   {
-   "t": "files Citizen Petition urging FDA to block compounding of unapproved and uncharacterized peptides – Partnership for Safe Medicines - Partnership for Safe Medicines",
+   "t": "Partnership for Safe Medicines files Citizen Petition urging FDA to block compounding of unapproved and uncharacterized peptides - Partnership for Safe Medicines",
    "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX3BTaEdzTGxLV3VGd3cxMWVDaXBjdHBmdTBva0pfWjZOeEw3cEFLSDhJMk1vYWtTV1hXVTdLR0J6WGlPTUE4SlQyU1NMVGxnUXBDZFpVdUhsWUE3SEx5UGZUb053TlhQTzBXa3Z5ZUZhTXZqMk5DSEFWZW95ZW1aRmRNNlU?oc=5",
    "d": "2026-10-22",
    "s": "gnews",
-   "x": "files Citizen Petition urging FDA to block compounding of unapproved and uncharacterized peptides – Partnership for Safe Medicines Partnership for Safe Medicines"
+   "x": "Partnership for Safe Medicines files Citizen Petition urging FDA to block compounding of unapproved and uncharacterized peptides Partnership for Safe Medicines"
+  },
+  {
+   "t": "RFK Jr.’s Peptide Plan Makes Compounders Report Side Effects - Bloomberg.com",
+   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNUZfb3V6UF9VbUNzT0dWYUFiRTJVTUM3MmNMWnlsUUdqNlNFQ1o2TnZVV2VPNXN0Y3dnSlRXWFB3T0lXczFRRG5iNFoyT0liTm1ma1VPQzF0NWtSZmk3M1FQQmJNX3lRbkFtcHJhYTJYa0pnd1dNVXJmYS1CQmRuU1Z1UGZQUm1XT1NTSWQwYjdVLUdSN2dPdlU0YUYzc3kzNDFKbGhoNk94WmFrMGZR?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews",
+   "x": "RFK Jr.’s Peptide Plan Makes Compounders Report Side Effects Bloomberg.com"
   },
   {
    "t": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs - SuaraGarut.ID",
@@ -422,13 +429,6 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews",
    "x": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market TradingView"
-  },
-  {
-   "t": "HHS Seeks White House Review of Peptide Compounding Policy - SuaraGarut.ID",
-   "l": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1YOEFiYWF1dWRGemRRdmlyT2lFOE9OdXRlbDl1UWd2UXR1eTRwbmIzc3liWlBKdkxTZHdVbzZfVUhLSWRQMTQyZGxxaDZ5c3pUNTRUdGFWVUlqajZYNmpNQlFhRG1EVFpqbmFjSTBnRQ?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews",
-   "x": "HHS Seeks White House Review of Peptide Compounding Policy SuaraGarut.ID"
   },
   {
    "t": "Counterfeit Medicine",

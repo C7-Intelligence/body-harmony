@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-25T20:56Z",
+ "generated": "2026-10-26T04:56Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-25T20:56Z",
+   "checked": "2026-10-26T04:56Z",
    "ok": true,
-   "new": 93,
-   "seen": 120,
-   "lastOk": "2026-10-25T20:56Z"
+   "new": 61,
+   "seen": 86,
+   "lastOk": "2026-10-26T04:56Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-25T20:56Z",
+   "checked": "2026-10-26T04:56Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-25T20:56Z"
+   "lastOk": "2026-10-26T04:56Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-25T20:56Z",
+   "checked": "2026-10-26T04:56Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-25T20:56Z"
+   "lastOk": "2026-10-26T04:56Z"
   }
  ],
  "items": [
@@ -70,6 +70,13 @@ window.FEED_ART={
    "d": "2026-10-25",
    "s": "gnews-a",
    "x": "BPC-157 and Peptide Stacks: Why Getting the Dose Right Isn’t Enough Men's Fitness"
+  },
+  {
+   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - ΕΜΥ",
+   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY2JXWTdReE5sQ3BzbS1adWt3dzgtLVQxbHAxeHo3MVlzSU43UFVlV3N1am1wRkdUcWhXM3lDYmRJR2lqY3p2Y3NCS3VpSkwxUXB3RllreU1vWVk5RUprUWNBSUxaME1pQXoxamJyUlVyLVduRVc5WDhxaEdIV2xKX1Y4bFE5VF9TUVUtbnA3MTZicjh1RE1qcXRhS3k5TXM?oc=5",
+   "d": "2026-10-25",
+   "s": "gnews-a",
+   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss ΕΜΥ"
   },
   {
    "t": "Someone Ran a Chemical Analysis of Bodega Retatrutide and Dear Lord - Futurism",
@@ -170,6 +177,27 @@ window.FEED_ART={
    "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
+   "t": "Retatrutide for Weight Loss: The Rising Star of GLP-1 Drugs - WorldHealth.net",
+   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAydEo4N05rVTlaV1JYQXdZTGNUdncwdWJFU1Z6ZXgwVC1pS0NVa0k1SjlLX050eW9XRzNWNGIyT3JVVUkwdmd4MUZoUFRpNVc3cUV0WnpsTEl1QVM0QjhHYlBIVTR2SjNfZ2FZTENuTy1CV3FkRXg4b191Yjc?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "Retatrutide for Weight Loss: The Rising Star of GLP-1 Drugs WorldHealth.net"
+  },
+  {
+   "t": "fda approved weight loss drugs 2026 tirzepatide semaglutide retatrutide - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQa3E4ZDZfYXg4clA5dGVBZTlNVkdZWXBrY0I4VkJlVUdFNGpmc3d4RlhSQk9lelBjSDc1aVRKaEppbEJEUDU0bExrckMtbEt1MFozM3YxSngxRXVEVG9YOUc4T3VkZ0hBMjhnN2FnWTJXWnJ5eTdubm9qTk5QbXh2TC1SVkZ0YkVFN05PSzhieDJud3VmWHh1eFQ0Sl91OUhuWVpHSHB3VUUyeWpzUS01ZExac2dkYzQ1eXc?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "fda approved weight loss drugs 2026 tirzepatide semaglutide retatrutide BusinessWorld Online"
+  },
+  {
+   "t": "fda concerns unapproved glp-1 drugs weight loss retatrutide - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOaUFlRnMxV1pzN19wdlJxNGp6UWdVM0JCMDNSVjNWZDJUcnAzelU4RkxwcnY1c2xTVVVnei1lR3NURWl3aXlIQ3RKWW1MUHJYTHpmZ2NqY0hOSjB5WW8zaWE3czZtdHZ1RU9ndXpLSzNoN2VYUzJiXzUtd1ZfalBnN2h4cXBvYWt3M1dxb1BlTEloaVNYdHBTUEthNmZnVEd1QzM1MWJ3V04xZw?oc=5",
+   "d": "2026-10-22",
+   "s": "gnews-a",
+   "x": "fda concerns unapproved glp-1 drugs weight loss retatrutide BusinessWorld Online"
+  },
+  {
    "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
    "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTkk5UnJ4dkFlOFR4dzYybmUyekZjSzA3NDR0N3NXbmg0SkF0aFgyQS15S2VrWUlxVmVpaXE4SHJ5N2U5TjZRanUzWW9rOUxfS1o0MWp6SXVwamhBSEFxVFItalFMVFFQRjR5cTRkM2N6cFJNZm1reGlrckFDTWoxanVmcXlEaUJTejZnaWhBY1hPbFBBQVROZnpFbkdBY0E4QVA2bzFXODNaLWd6WlI0Q24yR0xDUzNQUDRRd0Y3RWdvTC0xN1VPM2lyODIzVVBpMkNFTw?oc=5",
    "d": "2026-10-21",
@@ -210,6 +238,20 @@ window.FEED_ART={
    "d": "2026-10-21",
    "s": "gnews-a",
    "x": "Health Care Weekly: FDA, Lilly Debate Jurisdiction in Retatrutide Case; Interim Pathway for Wellness Peptide Compounding Mulled; CMS Gains Power to Ban Companies from Government Health Care Programs; Rule Proposed to Implement PBM Reimburse The Capitol Forum"
+  },
+  {
+   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - BusinessWorld Online",
+   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZmNaei1KRnNsQ1RyR0h3RXpHUlpVMU5JWlAtZU83N20wbl95M1JyZlhpQnczNmpwNUxFZHdFV0tNU2VsN3YwRWZCTWRsVE9QYjhmSlduX1V6bmRfWVdhX1B0WnVsa3FzY1E0cjFBVVFndWJOMlMyWExtcmw4QkZkSUxsY2NJZjRwck5URWsxYjU2dHRWMnkxQ2dqVXpodTUw?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews-a",
+   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss BusinessWorld Online"
+  },
+  {
+   "t": "retatrutide weight loss drug - BusinessWorld",
+   "l": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBdHgtTUh1SXV3SnZPS1ZiMjZ0RE1VSDJWdFA5U3VYSWNxdF9FVWNwZ19kRUFQOS05cGttaWlYczZleTZfc3duOU8tNGxOOTFNbUFRMGRuZ1Jzenh0OXZRVmlFS1dva1pJa3NTbVN2YThhWmE5bkRj?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews-a",
+   "x": "retatrutide weight loss drug BusinessWorld"
   },
   {
    "t": "Could Retatrutide Break a GLP-1 Weight-Loss Plateau? - Medscape",
@@ -322,48 +364,6 @@ window.FEED_ART={
    "d": "2026-10-19",
    "s": "gnews-a",
    "x": "Illegal weight-loss drug retatrutide on the rise in the Netherlands NL Times"
-  },
-  {
-   "t": "Are peptides safe? Missouri doctor urges caution with online trend - NewsBreak: Local News & Alerts",
-   "l": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNZjJ1NExlczZvTWZDZ0xSaGNwTHRjQTVoMFFDYkJnUjF5dFJtNnQxS3dxZ2c3dXkxaVhwVFI3X2RtZ2xSV1BlLUdGTjFHakpUNHUyQ19tZ2tzUDg2dGswYkN5bU9DeTlhTHlYOThvSVdZVFJWQzcwZEdQQTBTSXdReEdqV0tZUV9CMDVJVlZ5ZFhYR3N0NWI2T2F2X2V4TjY5Vk8xNW9Gcjdza0tIN3Jrak9ia3dCQmg3SzcxbTZQOExvNS11SEE?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "Are peptides safe? Missouri doctor urges caution with online trend NewsBreak: Local News & Alerts"
-  },
-  {
-   "t": "NSW health authorities issue unapproved peptide use warning after hospitalisation surge - RNZ",
-   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQQ2ttcDQ4NmJBUGtsd1ozX3phZGR5YW5DNzVuXzhEZk1VTHBDMUJxNkxWSkM3dXRJTWVtd1duckd0endodUxDeE1yZ0tOZ3czd2pZNDU0TXhVbFFnVEZSbGFPa1k0Z3dRc0YzbmM2ZjY1al90cE9nNXduRG8tVG5BWEVxUGlfMDN5M25zYnRrd0VkWW5GX2lBZy1DNVNHZ2FxeUQwRVVpWnU0UnBLemgzUWVWNlUxM3NOU1FYVXM1aDc4ejBrd3gw?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "NSW health authorities issue unapproved peptide use warning after hospitalisation surge RNZ"
-  },
-  {
-   "t": "Peptide Dangers Result in Hospitalizations - Newsmax",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVXBtaGV5NXM4aHdndlo2Uk5EeDNjYkw3NjA0aVU1Vk12NHpjamRMOFd3cjN5b1BGQmxnU085NjV5MklvU1QzWDByZng2dFV0LVMyVFlxR1hvektUUWJPak9SeWNoQUNmNThjTExWYXBRdVY4eGNxMENaZ0xpTURIa2pzQWVHc3YtRGc?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "Peptide Dangers Result in Hospitalizations Newsmax"
-  },
-  {
-   "t": "Experts warning after alarming rise in hospitalisations from peptide use - SMH.com.au",
-   "l": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQUUpEYngySWZrTlZJUkl6cnlCV3pJZ2VTU1Z0b2J6UzByVk5Vb2VZRHZIMGdLMkUwZlNwVHo4elZZaXM5QzB3MzhxWXBibXRkLU5uU1pxc0pnemVaQUxHbVdCandsMDk2U3ZHS1ZSUDVmOGZYR19nU0hCcldlQ1FQRlZibnVjcnhtS0hGZWx4bDR0RVlISE8zem9MX09jT3p6b0xCYkxydFZHbGtob2VteUo2b3gxRmVKdVJva3NQaWVTVE0?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "Experts warning after alarming rise in hospitalisations from peptide use SMH.com.au"
-  },
-  {
-   "t": "Peptide warning after surge in NSW hospital visits | ABC News Top Stories - ABC News & Headlines – Australian Broadcasting Corporation",
-   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNVQ0eHZqTV9oMFFTNFZLZDRUNmMwQnhjd3ZIM250Y1ZHcV93VEppRnFROERadVNid0hHNzFGa3hOR1lweUpmVHJXLTNMdHljUm9GSnRnTjJkVTdCUl9KRFhkeWt3c1BMMk9VT3l5MWN5NjVRV2xCZDdYd042SDhIcHl2LWNaemNORnBmZXAtQmhZTnpKZ0JlakxNeWN6ZjNpYll4bFYyN1hHcVFyUWpsWUZnQkw2bXJoTTRuQjJB?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "Peptide warning after surge in NSW hospital visits | ABC News Top Stories ABC News & Headlines – Australian Broadcasting Corporation"
-  },
-  {
-   "t": "October 19, 2026: Two deaths linked to bootlegged retatrutide - Partnership for Safe Medicines",
-   "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNjREdmNNRWdzZC1JVTNmNjIzZEs4cjFNUEVCaGJIYUdqU0FtMFNKNl9vVFF3Mm94Y1dwaW9LMFBkT1IyN1l0UU03WlkyMDFFdEVtdVhWajJNMFp2N2tFNnM3c3BQZjZxb2EtdjNvcGtHUUNFY2xSX3N5cUpFVVg0TEg2QzZnejVyRXN6cXIxX1dncm5qUllNVFIyM2hVa3Z2WW9GWA?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "October 19, 2026: Two deaths linked to bootlegged retatrutide Partnership for Safe Medicines"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
