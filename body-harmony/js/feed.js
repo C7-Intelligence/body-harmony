@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-26T04:56Z",
+ "generated": "2026-10-26T13:15Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-26T04:56Z",
+   "checked": "2026-10-26T13:15Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-26T04:56Z"
+   "lastOk": "2026-10-26T13:15Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-26T04:56Z",
+   "checked": "2026-10-26T13:15Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-26T04:56Z"
+   "lastOk": "2026-10-26T13:15Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-26T04:56Z",
+   "checked": "2026-10-26T13:15Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-26T04:56Z"
+   "lastOk": "2026-10-26T13:15Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-26T04:56Z",
+   "checked": "2026-10-26T13:15Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-26T04:56Z"
+   "lastOk": "2026-10-26T13:15Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-26T04:56Z",
+   "checked": "2026-10-26T13:15Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-26T04:56Z"
+   "lastOk": "2026-10-26T13:15Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-26T04:56Z",
+   "checked": "2026-10-26T13:15Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-26T04:56Z"
+   "lastOk": "2026-10-26T13:15Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-26T04:56Z",
+   "checked": "2026-10-26T13:15Z",
    "ok": true,
-   "new": 169,
-   "seen": 192,
-   "lastOk": "2026-10-26T04:56Z"
+   "new": 134,
+   "seen": 156,
+   "lastOk": "2026-10-26T13:15Z"
   }
  ],
  "items": [
@@ -249,6 +249,20 @@ window.FEED={
    "x": "Some GLP-1 injections recalled due to ‘lack of assurance of sterility’ Los Angeles Times"
   },
   {
+   "t": "Everybody Wants the Weight Loss Shot, But a Nationwide GLP-1 Recall Just Exposed a Major Safety Concern - Baller Alert",
+   "l": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBEY3N6YlkzSmwyQ3M5dEg3YTJvdU95SXdKOGVobmYzSlpPVllSRVRoNDVlLS1ONnNybG5MLWJYQlRiaTM0R05rSmdXZTNOaFgzTjVNeEVUUElDd1VyYzdSU1hpbTJYbS1iOXduSVNzZmUyNkUzcFA5SE1BWQ?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "Everybody Wants the Weight Loss Shot, But a Nationwide GLP-1 Recall Just Exposed a Major Safety Concern Baller Alert"
+  },
+  {
+   "t": "GLP-1 injections recalled nationwide over sterility risk - Rolling Out",
+   "l": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPeFlBS3BrS054Yk8zV3BrNVRSX0lCVHJfTktZTV8tM1hEV2RWOW1sTk5ENk5jakRyYTM4X0NzQ01RSGhncmZBRVVmdjhPMkZvemxCb01tbXZRZlZ1QWlYWHJTQjJtTWhrSk0tWDNOMmVzRks2c19vclp0TmY5bUpRRA?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews",
+   "x": "GLP-1 injections recalled nationwide over sterility risk Rolling Out"
+  },
+  {
    "t": "GLP-1 injections recalled nationwide: See affected lots and what to know - Democrat and Chronicle",
    "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeG95RGtHdXcxd0xOa1laQ1piVWRmWnU4RlBlaDRIR1BsODFhZFZSdVVHRVNzNHJxUzU5MWprbU5DdmF1UnZjYjYxYTR4M0h6eG8zRWZ2al9nalQ4NGV3ZWY4c3hDTjlucmRzTkdaclhGVEZiSEVON3dwOEpSRThKZlRxS1BoNGJaRHQ0dVowa1duM0hwaWkxLXZta3JQODdaaUNwak1FRmZ1QWFENHkxZg?oc=5",
    "d": "2026-10-20",
@@ -415,20 +429,6 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews",
    "x": "US FDA May Allow Pharmacies To Make Unapproved Peptide Injections: What Are the Safety Concerns? Health and Me"
-  },
-  {
-   "t": "FDA considers interim access for compounded peptides; Enspryng’s label expansion - Endpoints News",
-   "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWmo4Ry1SWVJSOV9ITk9yWjVsYURPNFlzMk9ha2RoNEFCYmZKUEltczlkMHRWSUdZMjRQNFMzMVJXVU5jZjlfQ3lsS3BlbmdoTHYzQjBMUnFZVHN0UDQwWmt0VTNBV0RsUDlzVjZGMU5zdnUwaXV4ZVlFOTRXTDZfVjNsbWhaY2ttX2VITzhyMEFHQW1zQ0p2aW9Mem1GTFVMbGhENw?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews",
-   "x": "FDA considers interim access for compounded peptides; Enspryng’s label expansion Endpoints News"
-  },
-  {
-   "t": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market - TradingView",
-   "l": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNUFotNGNHUHMtLUZBSDB0Vjg5N05hQUdKb1l5aC1CYmZRNUc0aFk1cUVmS0I3NzZxLU5HQWVLQUFRSEx6a3RGZk1PZlI5NUoxMTRvYVkyQ1FreW9TcVJva3RSaWY2dklodW91OEhrajU3ZkdwbW1MUXRubVo4NDhxbTBUS241YkxJQ1ZSeUJnM3ZFcS1nRzJrejVUOHdwUFNfVDN3RHVMOG5aNEtCZUhnbWJrbTM3Snd5d2o5Yzd3cFlFS1hJeWE2cHRMYU1XSzBPU0dmNzZSMjREYVVLRFFmVGR1RXZRaE54aElubzdFX3ZMOHNnYWhnY3Vad1Nadw?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews",
-   "x": "HIMS Stock Snaps 3-Day Slump On Peptide Hopes: Trump Administration Reviews Plan That Could Unlock $2.2B Market TradingView"
   },
   {
    "t": "Counterfeit Medicine",

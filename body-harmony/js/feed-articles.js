@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-26T04:56Z",
+ "generated": "2026-10-26T13:15Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-26T04:56Z",
+   "checked": "2026-10-26T13:15Z",
    "ok": true,
-   "new": 61,
-   "seen": 86,
-   "lastOk": "2026-10-26T04:56Z"
+   "new": 88,
+   "seen": 117,
+   "lastOk": "2026-10-26T13:15Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-26T04:56Z",
+   "checked": "2026-10-26T13:15Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-26T04:56Z"
+   "lastOk": "2026-10-26T13:15Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-26T04:56Z",
+   "checked": "2026-10-26T13:15Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-26T04:56Z"
+   "lastOk": "2026-10-26T13:15Z"
   }
  ],
  "items": [
@@ -86,11 +86,32 @@ window.FEED_ART={
    "x": "Someone Ran a Chemical Analysis of Bodega Retatrutide and Dear Lord Futurism"
   },
   {
+   "t": "People say these peptides hurt them. Their stories are muffled in MAHA's push for medical freedom - Texarkana Gazette",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUHdxX3ZnN3ZQNVhPMDM1cDhQTlVSMFFCYXVGb3U4MVlhX2JPTV9lYzNoNGhHM1dzcXR2dmtpUW16UlZYRnV2VlhBUl9wMWd3Zkl3aTN6TUk4dzFOVnR5Qy1mTnh3TDFHMFNrRWtydDRmRVg0RTFFRXN2RDRsc0t2WkpkTkxGdW5lOERwcTVReUVOb1NnVF9CTEptdEszM0I0WEE?oc=5",
+   "d": "2026-10-24",
+   "s": "gnews-a",
+   "x": "People say these peptides hurt them. Their stories are muffled in MAHA's push for medical freedom Texarkana Gazette"
+  },
+  {
+   "t": "Retatrutide Cuts Sleep Apnea Events in Phase III Trials - EMJ",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUGVZaXJwTWd2eGY2a0hQMWlYems4b2N4aGRFaE84cHk4QVhYNDBNdGxlNF8yR05HWm9qd09DSVI4amZjaWV5Z2s1d2VadnZyV3hYMFcxNVpLNzhUVTJvaWdhOGtuSXUzakdjZmQwVDNJU0Nld0RYOC03akhyZjVvSGNYVG1JS1dCQ0hyemNTRmNOZ2lMdlJyX0ZxcXBURkRfZFE?oc=5",
+   "d": "2026-10-24",
+   "s": "gnews-a",
+   "x": "Retatrutide Cuts Sleep Apnea Events in Phase III Trials EMJ"
+  },
+  {
    "t": "Retatrutide Cuts Obstructive Sleep Apnea Severity in Patients With & Without Type 2 Diabetes - Physicians Weekly",
    "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPX1VackVMMzBrRTlXeDMyeTRyY3ZEVTFkUEl2Q0tzWGU3Z1YwMng1MjlFWmE4LU5VYmFaRHhuRHJGVGxVUXJRNVJEb1l3RlFabjY3YUdNNy1rSTJyaW5KR0pDVUp2UXpiaFdUcnNoSTlCbXVZeGJhQUwxNThhek5CU1h5ZU9wYUlQY2Vxam5RM01PakVEN01hbk9ZdDlRS2J3UFdub2pQTVoxU0lydFQ3cElWYlFUTk5pRmpIUnBMXzFVMkVZYWVF?oc=5",
    "d": "2026-10-23",
    "s": "gnews-a",
    "x": "Retatrutide Cuts Obstructive Sleep Apnea Severity in Patients With & Without Type 2 Diabetes Physicians Weekly"
+  },
+  {
+   "t": "Op-Ed: Florida Will Pay For Washington’s Peptide Shortcut - Tampa Free Press",
+   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORUl1cTEyN0RERFp5bUlTamQyczRaRlJpSlp6bXdRb1ROT3ZnTTY4dnFCdkRhbU1FcGdjRThMcXBDYTBQbXJRalh0RkVJN3hrR2tOZWtnS1NtN2dMWDc1aGdTaWhJTFJ6N3J4dmlSNDltMEpGOFJSSGFROUY0VXR3QldBaUtsWGc?oc=5",
+   "d": "2026-10-23",
+   "s": "gnews-a",
+   "x": "Op-Ed: Florida Will Pay For Washington’s Peptide Shortcut Tampa Free Press"
   },
   {
    "t": "retatrutide weight loss drug latest updates 2026 - Philstar Life",
@@ -254,6 +275,13 @@ window.FEED_ART={
    "x": "retatrutide weight loss drug BusinessWorld"
   },
   {
+   "t": "Kennedy says Trump administration aims for regulated market for peptides - Bilyonaryo Business",
+   "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObm9WZmZLYUVnSnliaVIzZnhUMFBsSFYybHYxNDRHRFUwMGxQSkw2SjBEdHk1ekIwZmFPMHdGNEpMZi14dTFMSlYyd2k4bmhJQUZXeXRXakludF9BV1YwUEZTcm1yRmV3TzNuMngyU0NSYzJuX21TSlZ3NFItb0RETXlZQVd0R1pRMHNqSGpWRkg4dVlQOTNQcHJGS18?oc=5",
+   "d": "2026-10-21",
+   "s": "gnews-a",
+   "x": "Kennedy says Trump administration aims for regulated market for peptides Bilyonaryo Business"
+  },
+  {
    "t": "Could Retatrutide Break a GLP-1 Weight-Loss Plateau? - Medscape",
    "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVJ5eW90QXM2ZWJsM2tCd1hJbkFaZzRGdGpXc0Q3enpNS0ZPU25veVozOGJCMndUSUJfQ2hZcHhkbFB5bUNxVmhjUUVtdmJCRUVGSXJzR1Ryd2RCTURPVVhZbzBaRmlDNWlBRWVUQS1UZzhWbzdISlpYYXg3YmZhbHM1UUNQSEhzOWp1RVJVZnFoSXBHT1I5Ynh0WjVrN2dx?oc=5",
    "d": "2026-10-20",
@@ -336,34 +364,6 @@ window.FEED_ART={
    "d": "2026-10-19",
    "s": "gnews-a",
    "x": "NSW Warns Over Unapproved Peptides After Hospital Surge Oz Arab Media"
-  },
-  {
-   "t": "Peptide warning as emergency department presentations soar - Newcastle Herald",
-   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNeFVYSXBKTnUyelgwNHN3Zm1uQWc2YzNfSUdEOHc0QWU1T0tQTElEcjk4eDYtVTFUVmhWb1dkVDAyMDlsQmFiakJmSnVVTm1OQzl0T0E1eTdhdDBWM0ZlMmRZZ29ycTlmZVhsNTNQWWZPWmU3d1RPRktLeWZfXzNfMEdpZ0dGM1JfVGpNb2J4WW96WGNuSm91X2xEQzdLelp2bWF1cThHNnVGNHMwZFMwSg?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "Peptide warning as emergency department presentations soar Newcastle Herald"
-  },
-  {
-   "t": "NSW Logs 1,180 Emergency Presentations Mentioning Unapproved Peptides - https://streamlinefeed.co.ke/",
-   "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNR2lFblhoVldESVNZOEE4VVNFMkdVakNNQ3FNdEtmanhiRjRZeVZQSmpfODJYeGJSSFp0cnAwc29qZXNkOEllbG44Z2ZTUlZDVW00Z2JlXzIzY0p6QmpUMFZoYkgxbFprZU5xRHlRLVpIZ1NVMnVZbVVFajJYRm9xU3htX1JSc2FMdm9yRlVXMUZVZG93bkpYbktB?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "NSW Logs 1,180 Emergency Presentations Mentioning Unapproved Peptides https://streamlinefeed.co.ke/"
-  },
-  {
-   "t": "fda concerns unapproved glp-1 drugs weight loss retatrutide - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPb05yV0ZHd3h1UVVMcFJzTHU5M3J6eG1FWlZ1aVZSclNDZWhkZFdlaW00N2dNZnN1bV9oZFFsUHZKeGRWR1dZT2dKOEJYcU9Yby1Nd0hzSkt3bFhwWmhzcUJSOU04NlFoTUNUUWQzamtKNTVrRDFJTTdOOWRLeWpCUkF4aTBTU1JDbEFPOVB4NVM2NldHNFhZSEZfbDFTbnY2dkNHMXJhZEFPU0I5ZXc?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "fda concerns unapproved glp-1 drugs weight loss retatrutide www.polskieradio.pl"
-  },
-  {
-   "t": "Illegal weight-loss drug retatrutide on the rise in the Netherlands - NL Times",
-   "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYlNSX252cm9Tc1VJX0NwcWpjd1F3R21uNmtfbW00N0VBc04tQ25ZN0g0UUo0YThsazV4YThPaGZGbXJCOTdYcHE3X2NkWk1vZUVRYjE4di0tbnQ5eTVSSHNYOWZHX1h5bXB3eWJCYi01QnJhUTg3dWZwam5HTXhyc015UU1Od2h2VmVJ?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "Illegal weight-loss drug retatrutide on the rise in the Netherlands NL Times"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
