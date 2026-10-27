@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-27T05:14Z",
+ "generated": "2026-10-27T12:22Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-27T05:14Z",
+   "checked": "2026-10-27T12:22Z",
    "ok": true,
-   "new": 48,
-   "seen": 73,
-   "lastOk": "2026-10-27T05:14Z"
+   "new": 99,
+   "seen": 125,
+   "lastOk": "2026-10-27T12:22Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-27T05:14Z",
+   "checked": "2026-10-27T12:22Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-10-27T05:14Z"
+   "lastOk": "2026-10-27T12:22Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-27T05:14Z",
+   "checked": "2026-10-27T12:22Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-27T05:14Z"
+   "lastOk": "2026-10-27T12:22Z"
   }
  ],
  "items": [
@@ -56,6 +56,20 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-27",
+   "s": "gnews-a",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "Is There Anything BPC-157 Can’t Cure? - The Atlantic",
+   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPMDl0c01va29jWUp1Q1Z1YkJhWHljanFhRUUtSS1vc01mMGI0YzJCSkIyS2N2M2VOeUd0S0JFVFZwLUJoTDB3VWMzY1ZVdVFNaS0ydTRXc0E4MUJuXzA3X28xNmZaakFTNU5kbU05S3JhM2FqSFFJbWp3WnQ3aHR1c0Z0Sms5U3lWYXVrQQ?oc=5",
+   "d": "2026-10-27",
+   "s": "gnews-a",
+   "x": "Is There Anything BPC-157 Can’t Cure? The Atlantic"
   },
   {
    "t": "Novo’s Answer to Retatrutide Does Well at Phase II in Type 2 Diabetes - Inside Precision Medicine",
@@ -84,6 +98,13 @@ window.FEED_ART={
    "d": "2026-10-26",
    "s": "gnews-a",
    "x": "Eli Lilly's retatrutide reduced sleep apnea episodes in study NewsBytes"
+  },
+  {
+   "t": "Novo’s Answer to Retatrutide Does Well at Phase II in Type 2 Diabetes - Inside Precision Medicine",
+   "l": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZjhRbk95QVo2N2pmRTJ6bGRjaUVjUjdRRy1rWmdYc3otT3RhZURHTzlQcEZNaVJmQ1FISHN0VEtpU2pselZqMnJIYUhkS0wtUmx6UjNMR0RZcTRNNzd1cUpJR3BoVmdPTTA4U21VVXpUb0JacFVVOHBVZmo4TEdjdnRBajhUeFRuSVQ2VGZsRjJ2U21JdHVDNEh1N2U3RkphZXlqT3hhVUFlUExzYXhQUzFsY3VRYnhoczgzNDFKMWFXZkppYUE?oc=5",
+   "d": "2026-10-26",
+   "s": "gnews-a",
+   "x": "Novo’s Answer to Retatrutide Does Well at Phase II in Type 2 Diabetes Inside Precision Medicine"
   },
   {
    "t": "Investigation Reveals Health Risks of Gray Market Peptides in NYC Convenience Stores - SSBCrack",
@@ -219,13 +240,6 @@ window.FEED_ART={
    "x": "USA Peptides: Kylo Peptides Partners With Freedom Diagnostics for Independent Verification of Research Peptides lincolnjournal.com"
   },
   {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-22",
-   "s": "gnews-a",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
-  },
-  {
    "t": "Retatrutide for Weight Loss: The Rising Star of GLP-1 Drugs - WorldHealth.net",
    "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTFAydEo4N05rVTlaV1JYQXdZTGNUdncwdWJFU1Z6ZXgwVC1pS0NVa0k1SjlLX050eW9XRzNWNGIyT3JVVUkwdmd4MUZoUFRpNVc3cUV0WnpsTEl1QVM0QjhHYlBIVTR2SjNfZ2FZTENuTy1CV3FkRXg4b191Yjc?oc=5",
    "d": "2026-10-22",
@@ -350,20 +364,6 @@ window.FEED_ART={
    "d": "2026-10-20",
    "s": "gnews-a",
    "x": "GLP-1 injections recalled nationwide. See affected products USA Today"
-  },
-  {
-   "t": "fda concerns unapproved glp-1 drugs retatrutide weight loss - www.polskieradio.pl",
-   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOX0hNcGlrRDRaT01zMm0teDlZSXo4a2RxVVdUWFl1U3RMNU1UMm1mY1huSVBKTk9VdlJPV0U1cWliWE53SmVoRWt4U25JeFhVNm5taThHT1EzVkRJaHJIQ3hhYThXSXV6R3JBSzdJbzdoVDk3bXpRbE5zOEd2d1E0c1NJaHhkcEdRakg3VzE0c0RoMnA4T255bkJ3THZwQXlyZGJBdlUwWGpVQQ?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews-a",
-   "x": "fda concerns unapproved glp-1 drugs retatrutide weight loss www.polskieradio.pl"
-  },
-  {
-   "t": "newsGP - Peptide ED presentations are spiking, what can GPs do? - Royal Australian College of General Practitioners (RACGP)",
-   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSDlhZ2R3c1dVWllhR043VzFKVFB3VUpLc1NYYjNOT3VrN2Uzby1ESUtRYkJSVzF1YVU2VVBNWWV3T0RFTXAtam5EWHNXWjdqbGExcWJudnRCam1YMXRlTTNibmNhckJBM2F1SFMwNDJzZ0gzT1pXOURCMlFjUnNDMU1JREdLU09TUi1HQ3kyQ3ZCYmZoV3c?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews-a",
-   "x": "newsGP - Peptide ED presentations are spiking, what can GPs do? Royal Australian College of General Practitioners (RACGP)"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
