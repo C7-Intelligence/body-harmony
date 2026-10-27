@@ -1,85 +1,99 @@
 window.FEED={
- "generated": "2026-10-27T12:22Z",
+ "generated": "2026-10-27T22:22Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-27T12:22Z",
+   "checked": "2026-10-27T22:22Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-27T12:22Z"
+   "lastOk": "2026-10-27T22:22Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-27T12:22Z",
+   "checked": "2026-10-27T22:22Z",
    "ok": true,
    "new": 0,
-   "seen": 3,
-   "lastOk": "2026-10-27T12:22Z"
+   "seen": 1,
+   "lastOk": "2026-10-27T22:22Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-27T12:22Z",
+   "checked": "2026-10-27T22:22Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-27T12:22Z"
+   "lastOk": "2026-10-27T22:22Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-27T12:22Z",
+   "checked": "2026-10-27T22:22Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-27T12:22Z"
+   "lastOk": "2026-10-27T22:22Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-27T12:22Z",
+   "checked": "2026-10-27T22:22Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-27T12:22Z"
+   "lastOk": "2026-10-27T22:22Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-27T12:22Z",
+   "checked": "2026-10-27T22:22Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-27T12:22Z"
+   "lastOk": "2026-10-27T22:22Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-27T12:22Z",
+   "checked": "2026-10-27T22:22Z",
    "ok": true,
-   "new": 88,
-   "seen": 110,
-   "lastOk": "2026-10-27T12:22Z"
+   "new": 89,
+   "seen": 111,
+   "lastOk": "2026-10-27T22:22Z"
   }
  ],
  "items": [
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-27",
+   "s": "gnews",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/vanda-eyes-glp-1-nausea-indication-nereus-phase-3-win-hand",
+   "d": "2026-10-27",
+   "s": "fierce",
+   "x": "Vanda Pharmaceuticals secured a phase 3 win for its motion sickness medicine, Nereus. The drug reduced GLP-1 related vomiting by 27% for patients on Wegovy."
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
@@ -88,18 +102,11 @@ window.FEED={
    "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/manufacturing/fda-rebukes-baxter-warning-letter-ongoing-production-problems",
-   "d": "2026-10-27",
-   "s": "fierce",
-   "x": "The FDA rebuked Baxter in a lengthy warning letter that outlined a series of production violations that led to a trio of recalls earlier this year."
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "t": "Peptide Advocates Want Fewer FDA Restrictions. But Where’s the Safety Data? - MedShadow Foundation",
+   "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWTk4ZXlqS3FibGs5UHFHTFF2WE5CNWFFeWpmcFkxck9pWHQ5a0NMX0FWQ3RrNDZ1R1paWTdEZlVQbzdLQTdSMlBXbl9jXzY5Z1IweWN4cmtVemxiZmVOQVEzaTNnR0RHS1dNckR3cnZfRkpBZGZEeGJ5U2M0RHJob2oySXUwNDJtbDNtRTFIeTZOTnF5WU1rWFl3?oc=5",
    "d": "2026-10-27",
    "s": "gnews",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+   "x": "Peptide Advocates Want Fewer FDA Restrictions. But Where’s the Safety Data? MedShadow Foundation"
   },
   {
    "t": "Registered Outsourcing Facilities",
@@ -429,13 +436,6 @@ window.FEED={
    "d": "2026-10-17",
    "s": "gnews",
    "x": "hims faces legal action as fda restricts compounded weight-loss drugs Meteo.gr"
-  },
-  {
-   "t": "US FDA takes step to change peptide compounding policy - pharma.economictimes.indiatimes.com",
-   "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPeGcwM1UwNzM1UGVzRWRoRmx1WElnRDdmS1dxZnI1b1BXMjBDc25MVkk3UFhRMk5FdmNLZ1lYQUxsVkxLNE1KclN6MGpoUHMyMF9YcGNyMjNTclV4SXhBZkVtQ3RVZDJGSTlEV2dRVGhObFVhQzRWTzJjZXNaMWtyeWJOM2VYbG1aWE5ET19CbE9saVdQVEVIYkU5T1pjRjhXbGxGb1I4YlBNcjFOVnpvYjhRd3FTQk02QkVDUTYzMzROUS02RGEySDdMOVRtZ9IBzgFBVV95cUxPeGcwM1UwNzM1UGVzRWRoRmx1WElnRDdmS1dxZnI1b1BXMjBDc25MVkk3UFhRMk5FdmNLZ1lYQUxsVkxLNE1KclN6MGpoUHMyMF9YcGNyMjNTclV4SXhBZkVtQ3RVZDJGSTlEV2dRVGhObFVhQzRWTzJjZXNaMWtyeWJOM2VYbG1aWE5ET19CbE9saVdQVEVIYkU5T1pjRjhXbGxGb1I4YlBNcjFOVnpvYjhRd3FTQk02QkVDUTYzMzROUS02RGEySDdMOVRtZw?oc=5",
-   "d": "2026-10-16",
-   "s": "gnews",
-   "x": "US FDA takes step to change peptide compounding policy pharma.economictimes.indiatimes.com"
   },
   {
    "t": "Counterfeit Medicine",
