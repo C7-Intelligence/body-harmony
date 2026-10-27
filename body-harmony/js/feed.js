@@ -1,85 +1,99 @@
 window.FEED={
- "generated": "2026-10-26T22:44Z",
+ "generated": "2026-10-27T05:14Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-26T22:44Z",
+   "checked": "2026-10-27T05:14Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-26T22:44Z"
+   "lastOk": "2026-10-27T05:14Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-26T22:44Z",
+   "checked": "2026-10-27T05:14Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-26T22:44Z"
+   "lastOk": "2026-10-27T05:14Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-26T22:44Z",
+   "checked": "2026-10-27T05:14Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-26T22:44Z"
+   "lastOk": "2026-10-27T05:14Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-26T22:44Z",
+   "checked": "2026-10-27T05:14Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-26T22:44Z"
+   "lastOk": "2026-10-27T05:14Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-26T22:44Z",
+   "checked": "2026-10-27T05:14Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-26T22:44Z"
+   "lastOk": "2026-10-27T05:14Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-26T22:44Z",
+   "checked": "2026-10-27T05:14Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-26T22:44Z"
+   "lastOk": "2026-10-27T05:14Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-26T22:44Z",
+   "checked": "2026-10-27T05:14Z",
    "ok": true,
-   "new": 168,
-   "seen": 193,
-   "lastOk": "2026-10-26T22:44Z"
+   "new": 133,
+   "seen": 156,
+   "lastOk": "2026-10-27T05:14Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-10-27",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/manufacturing/fda-rebukes-baxter-warning-letter-ongoing-production-problems",
+   "d": "2026-10-27",
+   "s": "fierce",
+   "x": "The FDA rebuked Baxter in a lengthy warning letter that outlined a series of production violations that led to a trio of recalls earlier this year."
+  },
   {
    "t": "Registered Outsourcing Facilities",
    "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
@@ -93,20 +107,6 @@ window.FEED={
    "d": "2026-10-26",
    "s": "fda-drugs",
    "x": "The FDA is working to improve adverse event reporting of compounded drugs to protect patients"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-10-26",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/manufacturing/fda-rebukes-baxter-warning-letter-ongoing-production-problems",
-   "d": "2026-10-26",
-   "s": "fierce",
-   "x": "The FDA rebuked Baxter in a lengthy warning letter that outlined a series of production violations that led to a trio of recalls earlier this year."
   },
   {
    "t": "Recall alert: Some GLP-1 injections recalled over sterility concerns - WGAU Radio | Athens, GA",

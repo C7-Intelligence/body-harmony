@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-26T22:44Z",
+ "generated": "2026-10-27T05:14Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-26T22:44Z",
+   "checked": "2026-10-27T05:14Z",
    "ok": true,
-   "new": 95,
-   "seen": 120,
-   "lastOk": "2026-10-26T22:44Z"
+   "new": 48,
+   "seen": 73,
+   "lastOk": "2026-10-27T05:14Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-26T22:44Z",
+   "checked": "2026-10-27T05:14Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 15,
-   "lastOk": "2026-10-26T22:44Z"
+   "lastOk": "2026-10-27T05:14Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-26T22:44Z",
+   "checked": "2026-10-27T05:14Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-26T22:44Z"
+   "lastOk": "2026-10-27T05:14Z"
   }
  ],
  "items": [
@@ -63,6 +63,27 @@ window.FEED_ART={
    "d": "2026-10-26",
    "s": "gnews-a",
    "x": "Novo’s Answer to Retatrutide Does Well at Phase II in Type 2 Diabetes Inside Precision Medicine"
+  },
+  {
+   "t": "The Hollywood Wellness Trend Putting NAD+ and Peptides in the Spotlight at California Trim Clinic - PR Underground",
+   "l": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQYkdnZThfSnZYVERWVE10ZTFxMEpTQkc2eV9HRktYdzBlaUtWX0tzUVByQl9OXzhsVWRZNkNTME4xVjBrbmEtODYweDMzbFBUbXhOXzVzd2tuc0dwbW5XS0ZLTTg3U0dFRVBxLW5TeUN6QXdpTUtIVmZ1Zk1XRXAwaXpOcnZwMXdfcTFzZDZST2UwUUtkLUYxVW5CQkVHNERLYVlYR21OU0VHVERIRlRWQm1JYnZlT0ktNlk3WGlWZEFoVmdjNjFsQzAxNVg?oc=5",
+   "d": "2026-10-26",
+   "s": "gnews-a",
+   "x": "The Hollywood Wellness Trend Putting NAD+ and Peptides in the Spotlight at California Trim Clinic PR Underground"
+  },
+  {
+   "t": "Retatrutide cuts sleep apnea episodes in clinical trials, promotes weight loss - Daijiworld",
+   "l": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5CWUxJSk81WG5lNFpfdkotTTIzRkpTdk90Z3pJS2VlTms1LTF2Wm9pQVVBYU1DTVZESWJyanc0MDlSWEtsRmVWcDJwOFNhMjlQR0xaWFBwSXZCYk5seWN0amhBeWFQWFRuUFE?oc=5",
+   "d": "2026-10-26",
+   "s": "gnews-a",
+   "x": "Retatrutide cuts sleep apnea episodes in clinical trials, promotes weight loss Daijiworld"
+  },
+  {
+   "t": "Eli Lilly's retatrutide reduced sleep apnea episodes in study - NewsBytes",
+   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQU1Vqenczclk2VzcxSmZZREZibllpWEZqeVoyXzNqRVdjeVVTTHB1X0V5NUV2Vkt2WnBmc1FZMk5pVDRxV2hDbW9zRnpZSjU3bHJ5REZISnpNeEJmRGJ6UjY5TE9fVGFTc3pVemk5NDNkcjlSc0MzUWxVVWEzWEtwc2JzM1FPNVhYWjJLZGN5NHdxZmxFWjY3alNXMFRTbHBvZGE5TXRFd01HUHM?oc=5",
+   "d": "2026-10-26",
+   "s": "gnews-a",
+   "x": "Eli Lilly's retatrutide reduced sleep apnea episodes in study NewsBytes"
   },
   {
    "t": "Investigation Reveals Health Risks of Gray Market Peptides in NYC Convenience Stores - SSBCrack",
@@ -343,27 +364,6 @@ window.FEED_ART={
    "d": "2026-10-20",
    "s": "gnews-a",
    "x": "newsGP - Peptide ED presentations are spiking, what can GPs do? Royal Australian College of General Practitioners (RACGP)"
-  },
-  {
-   "t": "Peptide surge hits NSW hospitals - New England Times",
-   "l": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5CcG9yR1M2ckEwNDIyV2VuZXI2UEo3clJybGJEZldjRl9zZUJqUXRTeEhPcnlxTXAtTmxPZXpMUkZIT1ppdVB3Z2ZSRWJkTVJCdDJaMXdGalNqNU1fTmxzUWdlbmR5UUZlajlmQUJRSG0tNnZicXQ5eWE1SQ?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews-a",
-   "x": "Peptide surge hits NSW hospitals New England Times"
-  },
-  {
-   "t": "‘Serious adverse effects’: Experts warning after alarming rise in hospital visits from use of black market peptides - Nine.com.au",
-   "l": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNdk5UdjRVWWw1VlFiNDdNVDFCdUNSNmpUVWxZVHZzTmh1eUp5dUNfdDR2Vy1oNW13bllRcVIxeFZYY2Q3LVdSY21GZXBDdUxWcTdLSy1LQUt5UGlLUlRfOU9SQ1pQeWxvVDdnbE1mRVNxNGg3QUNHcDk3MXhBRE5ZZkRvcDBpaW1PdmV5WlVCNFViRHpmVHVjX1ZwWjFWMGVWdUdUblo3VF9kX2lnTGZQZ2UxbGxldkpsbUdROGVaaEpOTTNsV0lJTlZiSzEzMEpuOFh4RjNtYUl5ZXhBQVp4ZFFPZWpWX01IMUU0cEZmenNTTjM4X0xVNGpLZ25YZ3hlQXBBNUZoWQ?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "‘Serious adverse effects’: Experts warning after alarming rise in hospital visits from use of black market peptides Nine.com.au"
-  },
-  {
-   "t": "Experts warning after alarming rise in hospitalisations from peptide use - WAtoday",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOVlIxNG55TEd5VFczeW8zOWx0dnBLTm9MejE2QVFzUGpmOXhTaGdjdU9FWTgxY0JSQkg3amtkOFZZMGxqRVlXeDFDM2dqeGtoR09BLUsydHljYkQ0MEowOE5qZFN6SE9kZ2pOZm04c0phMTVMQ0M2Z2tDUVItM3YydjBZQ2p2bmZXUGVtbEo4Mm5yOVpHejZFTkJjNHNUSGcxZ1hmMVFEb0txQXFpamZlQy1jUFB6Qm0wTTZVbm9KN2Q0eUZTZGVEMw?oc=5",
-   "d": "2026-10-19",
-   "s": "gnews-a",
-   "x": "Experts warning after alarming rise in hospitalisations from peptide use WAtoday"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
