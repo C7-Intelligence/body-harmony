@@ -31,11 +31,12 @@ function guessSched(freq,start){
 const newProfile=(freq)=>({sched:guessSched(freq,todayStr()),sites:['Left abdomen','Right abdomen','Left thigh','Right thigh'],reconDate:'',budDays:28,vialId:'v0',log:[]});
 
 function html(){return `
-<div id="d-tracker" class="dstep"><div class="dstep-h"><span class="dnum">4</span><div><h2>Track your doses</h2><p>Set a schedule, log each dose, and see when the vial runs out. Uses the peptide, dose and vial from step 3.</p></div></div>
+<div id="d-tracker" class="dstep" data-tab="log"><div class="dstep-h"><span class="dnum">4</span><div><h2>Track your doses</h2><p>Set a schedule, log each dose, and see when the vial runs out. Uses the peptide, dose and vial from step 3.</p></div></div>
  <div class="callout warn disclaimer"><p><b>Saved only in this browser.</b> Nothing is uploaded and there are no accounts. Clearing site data erases it, so use Export to keep a copy. This tool only does arithmetic on the numbers you enter. It does not recommend doses and is not medical advice.</p></div>
  <div id="t-none" class="callout bad" hidden><b>Enter a dose first.</b> Choose a peptide with a typical dose, a common dose, or your own dose in step 3.</div>
+ <div class="m-seg m-only" role="tablist" aria-label="Schedule and log sections"><button type="button" role="tab" data-go="log" class="on">Log</button><button type="button" role="tab" data-go="plan">Plan</button><button type="button" role="tab" data-go="cal">Calendar</button><button type="button" role="tab" data-go="lvl">Level</button><button type="button" role="tab" data-go="hist">History</button></div>
  <div class="calc" id="t-main">
-  <div class="cg">
+  <div class="cg" data-p="log">
    <h4><i>a</i> Today</h4>
    <p id="t-using" class="note" style="margin-top:0"></p>
    <div class="result"><div class="sub">Next dose</div><div class="big" id="t-next" style="font-size:2rem">—</div><div class="sub" id="t-rel"></div></div>
@@ -51,7 +52,7 @@ function html(){return `
    <h4 style="margin-top:16px"><i>b</i> Your vial</h4>
    <dl class="kv" id="t-kv"></dl>
   </div>
-  <div class="cg">
+  <div class="cg" data-p="plan">
    <h4><i>c</i> Your schedule</h4>
    <div class="frow">
     <div class="field"><label for="t-type">How often</label><select id="t-type"><option value="daily">Every day</option><option value="eod">Every other day</option><option value="days">Certain weekdays</option><option value="weekly">Once a week</option><option value="interval">Every N days</option></select></div>
@@ -69,10 +70,11 @@ function html(){return `
    <button class="chip" id="t-newvial" type="button">I opened a new vial today</button>
   </div>
  </div>
- <h3 style="margin-top:22px">Estimated level in your body</h3>
- <div id="t-pk"></div>
- <details class="more" open><summary>History</summary><div id="t-hist"></div></details>
- <details class="more"><summary>Save, share or reset</summary>
+ <div class="m-only" id="t-calbox" data-p="cal"><h3 style="margin-top:22px">Calendar</h3><div id="t-cal"></div></div>
+ <div data-p="lvl"><h3 style="margin-top:22px">Estimated level in your body</h3>
+ <div id="t-pk"></div></div>
+ <details class="more" open data-p="hist"><summary>History</summary><div id="t-hist"></div></details>
+ <details class="more" data-p="hist"><summary>Save, share or reset</summary>
  <div style="display:flex;gap:8px;flex-wrap:wrap;margin-top:10px">
   <button class="chip" id="t-ics" type="button">Add to calendar (.ics)</button>
   <button class="chip" id="t-expj" type="button">Export JSON</button>
@@ -88,7 +90,7 @@ function html(){return `
 function init(root,ctx){
   const $i=id=>root.querySelector('#'+id);if(!$i('t-type'))return;
   const {esc,fmtNum,parseHours,findHalf}=ctx;
-  let state=load(),name=null,calc=null;
+  let state=load(),name=null,calc=null,seen=false;
   const prof=()=>state.profiles[name];
   const msg=t=>{$i('t-msg').textContent=t||''};
   const dl=(fn,type,text)=>{const a=document.createElement('a');a.href=URL.createObjectURL(new Blob([text],{type}));a.download=fn;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(a.href),2000)};
@@ -134,7 +136,7 @@ function init(root,ctx){
     $i('t-warn').innerHTML=w;
     $i('t-kv').innerHTML=`<dt>Concentration</dt><dd>${fmtNum(vm.concMcgPerMl/1000,3)} mg/mL</dd><dt>Per dose</dt><dd>${fmtNum(vm.unitsPerDose,2)} units (${fmtNum(vm.mlPerDose,3)} mL)</dd><dt>Doses in a full vial</dt><dd>${vm.dosesPerVial}</dd><dt>Logged from this vial</dt><dd>${used} · ${left} left</dd><dt>Projected last dose</dt><dd>${life.lastDose?long(life.lastDose):'—'}</dd><dt>Beyond-use date</dt><dd>${life.budDate?long(life.budDate):'set a reconstitution date'}</dd>`;
     siteOptions();
-    renderPK(p,s,next,today);renderHist(p);
+    renderPK(p,s,next,today);renderHist(p);renderCal(p,s,next,today);
   }
 
   function renderPK(p,s,next,today){
@@ -164,6 +166,22 @@ function init(root,ctx){
   }
   function bindBasis(box){const b=box.querySelector('#t-basis');if(b)b.addEventListener('change',()=>{box._basis=b.value;render()})}
 
+  let calM=null;
+  function renderCal(p,s,next,today){
+    const box=$i('t-cal');if(!box)return;
+    if(!calM)calM=today.slice(0,7);
+    const [y,m]=calM.split('-').map(Number);
+    const first=new Date(Date.UTC(y,m-1,1)),dim=new Date(Date.UTC(y,m,0)).getUTCDate(),pad=first.getUTCDay();
+    const taken=new Set(p.log.map(l=>l.date)),sched=new Set(M.dates(s,s.start,500));
+    let cells='<span></span>'.repeat(pad);
+    for(let d=1;d<=dim;d++){
+      const ds=calM+'-'+String(d).padStart(2,'0');
+      const cls=taken.has(ds)?'tk':ds===next?'nx':(sched.has(ds)&&ds<today)?'ms':sched.has(ds)?'sc':'';
+      cells+=`<span class="${cls}${ds===today?' td':''}">${d}</span>`;
+    }
+    box.innerHTML=`<div class="cal-h"><b>${esc(first.toLocaleDateString(undefined,{month:'long',year:'numeric',timeZone:'UTC'}))}</b><span><button type="button" class="chip" data-cal="-1" aria-label="Previous month">&lsaquo;</button> <button type="button" class="chip" data-cal="1" aria-label="Next month">&rsaquo;</button></span></div><div class="cal-g cal-w">${DOW.map((l,i)=>`<span>${['Su','Mo','Tu','We','Th','Fr','Sa'][i]}</span>`).join('')}</div><div class="cal-g">${cells}</div><p class="cal-k"><span class="tk">Taken</span><span class="nx">Next dose</span><span class="ms">Missed</span><span class="sc">Scheduled</span><span class="td">Today</span></p>`;
+    box.querySelectorAll('[data-cal]').forEach(b=>b.addEventListener('click',()=>{const d=new Date(Date.UTC(y,m-1+(+b.dataset.cal),1));calM=d.getUTCFullYear()+'-'+String(d.getUTCMonth()+1).padStart(2,'0');renderCal(p,s,next,today)}));
+  }
   function renderHist(p){
     const rows=p.log.slice().sort((a,b)=>b.date.localeCompare(a.date)||b.id.localeCompare(a.id));
     $i('t-hist').innerHTML=rows.length?`<div class="tw"><table><thead><tr><th class="nosort">Date</th><th class="nosort">Dose</th><th class="nosort">Site</th><th class="nosort">Vial</th><th class="nosort"></th></tr></thead><tbody>${rows.map(l=>`<tr><td>${esc(l.date)}</td><td>${fmtNum(l.doseMcg,2)} mcg</td><td>${esc(l.site||'')}</td><td>${esc(l.vialId)}</td><td><button class="chip" type="button" data-del="${esc(l.id)}">Delete</button></td></tr>`).join('')}</tbody></table></div>`:`<p style="color:var(--muted)">No doses logged for ${esc(calc.name)} yet.</p>`;
@@ -171,7 +189,8 @@ function init(root,ctx){
   }
 
   /* ---- events ---- */
-  function commit(){save(state);render()}
+  function snap(){const p=state.profiles[name];if(p&&calc&&calc.doseMcg>0)p.calc={name:calc.name,doseMcg:calc.doseMcg,vialMg:calc.vialMg,bacMl:calc.bacMl,freq:calc.freq||''}}
+  function commit(){snap();save(state);render()}
   $i('t-type').addEventListener('change',()=>{const p=prof();p.sched.type=$i('t-type').value;$i('t-daysw').hidden=p.sched.type!=='days';$i('t-everyw').hidden=p.sched.type!=='interval';commit()});
   $i('t-start').addEventListener('change',()=>{if(isDate($i('t-start').value)){prof().sched.start=$i('t-start').value;commit()}});
   $i('t-every').addEventListener('input',()=>{prof().sched.every=Math.max(1,Math.min(60,Math.round(num($i('t-every').value,3))));commit()});
@@ -221,14 +240,36 @@ function init(root,ctx){
   $i('t-clr').addEventListener('click',()=>{if(!calc||!confirm(`Clear the schedule and ${prof().log.length} logged dose(s) for ${calc.name}?`))return;state.profiles[name]=newProfile(calc.freq);save(state);syncForm();render();msg('Cleared.')});
   $i('t-clrall').addEventListener('click',()=>{if(!confirm('Clear ALL tracker data for every peptide in this browser?'))return;state={v:1,profiles:{}};try{localStorage.removeItem(KEY)}catch(e){}mem=null;if(calc){state.profiles[calc.name]=newProfile(calc.freq);name=calc.name}syncForm();render();msg('All tracker data cleared.')});
 
+  root.querySelectorAll('.m-seg button').forEach(b=>b.addEventListener('click',()=>{
+    const t=root.querySelector('#d-tracker');t.dataset.tab=b.dataset.go;
+    root.querySelectorAll('.m-seg button').forEach(x=>x.classList.toggle('on',x===b));
+  }));
   /* ---- calculator link ---- */
   root.addEventListener('bh-calc',e=>{
-    calc=e.detail;const changed=calc.name!==name;name=calc.name;
+    calc=e.detail;const changed=calc.name!==name;name=calc.name;if(seen){snap();save(state)}seen=true;
     if(!state.profiles[name]){state.profiles[name]=newProfile(calc.freq);save(state)}
     if(changed){$i('t-pk')._basis=null;syncForm()}
     render();
   });
   if(root._calc){root.dispatchEvent(new CustomEvent('bh-calc',{detail:root._calc}))}
 }
-window.Tracker={html,init};
+
+/* Read-only summary for the Today page. Picks the peptide with the newest logged dose, else any with a saved vial. */
+function summary(){
+  const st=load(),names=Object.keys(st.profiles).filter(n=>st.profiles[n]&&st.profiles[n].calc&&st.profiles[n].sched);
+  if(!names.length)return null;
+  const last=n=>st.profiles[n].log.reduce((m,l)=>l.date>m?l.date:m,'');
+  names.sort((a,b)=>last(b).localeCompare(last(a)));
+  const name=names[0],p=st.profiles[name],calc=p.calc,s=p.sched;
+  if(!(calc.doseMcg>0&&calc.vialMg>0&&calc.bacMl>0))return null;
+  const sch={type:s.type,days:s.days,every:s.every,start:isDate(s.start)?s.start:todayStr()};
+  const vm=M.vialMath(calc),today=todayStr(),lastD=last(name)||null;
+  const used=p.log.filter(l=>l.vialId===p.vialId).length,left=Math.max(0,vm.dosesPerVial-used);
+  const next=M.nextDose(sch,lastD);
+  const life=M.vialLife({s:sch,next,dosesLeft:left,reconDate:isDate(p.reconDate)?p.reconDate:null,budDays:p.budDays});
+  const rel=!next?'':(()=>{const d=M.diffDays(today,next);return d===0?'today':d===1?'tomorrow':d>1?`in ${d} days`:`overdue by ${-d} day${d===-1?'':'s'}`})();
+  const recent=p.log.slice().sort((a,b)=>b.date.localeCompare(a.date)).slice(0,3);
+  return {name,calc,vm,next,rel,site:M.siteFor(p.sites,p.log.length),left,total:vm.dosesPerVial,life,recent,budDays:p.budDays,reconDate:p.reconDate};
+}
+window.Tracker={html,init,summary};
 })();

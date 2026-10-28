@@ -14,9 +14,11 @@ const fmtNum=(n,d=2)=>{if(!isFinite(n))return '—';const r=Math.round(n*10**d)/
 
 /* ---------- sections registry ---------- */
 const SECTIONS=[
+ {id:'today',ic:'◧',name:'Today',modern:true},
  {id:'home',ic:'⌂',name:'Getting Started'},
  {id:'vendors',ic:'⚗',name:'Peptide Vendors'},
  {id:'dosage',ic:'💉',name:'Dosage'},
+ {id:'schedule',ic:'🗓',name:'Schedule and log',modern:true,alias:'dosage'},
  {id:'halflife',ic:'⏱',name:'Half-Life'},
  {id:'peds',ic:'💪',name:'PEDs'},
  {id:'supply',ic:'🧴',name:'Medical Supply Vendors'},
@@ -126,6 +128,37 @@ R.home=()=>{
   ${[['Learn the basics',['Dosage','Terminology','Medical','Nutrition']],['Buy with care',['Peptide Vendors','Medical Supply Vendors','BAC Water Tests - MUST READ!!!']],['Stay informed',['Regulation Info','Forums, Articles, etc.','PEDs','Roadmap']]].map(([g,names])=>`<h3 class="grp">${g}</h3><div class="grid g3 dirgrid">${names.map(n=>s.directory.find(x=>x.name.trim()===n)).filter(Boolean).map(x=>{const id=secOf[x.name.trim()];return `<a class="lc" href="#${id}"><span class="n">${upd[id]?'Updated '+esc(upd[id]):''}</span><span class="t">${esc(x.name.trim().replace(/ - MUST READ!!!/,''))}</span><span class="d">${esc(x.desc)}</span></a>`}).join('')}</div>`).join('')}`;
 };
 
+R.today=()=>{
+  const M=window.DoseMath,S=window.Tracker&&window.Tracker.summary?window.Tracker.summary():null,d=D.dosage,def=d.default;
+  const day=(s,o)=>new Date(M.parse(s)).toLocaleDateString(undefined,Object.assign({timeZone:'UTC'},o));
+  const dstr=new Date().toLocaleDateString(undefined,{weekday:'long',month:'short',day:'numeric'});
+  let units,calcLine;
+  if(S){units=S.vm.unitsPerDose;calcLine=`${S.name}, ${fmtNum(S.calc.vialMg,2)} mg vial, ${fmtNum(S.calc.bacMl,2)} mL, ${fmtNum(S.calc.doseMcg,2)} mcg`}
+  else{const row=d.lookup.find(x=>x.name===def.peptide)||{};const dose=def.desired&&def.desired!=='None Selected'?toMcg(def.desired):toMcg(row.dose||'');const v=parseFloat(def.vial),b=parseFloat(def.bac);units=dose/(v*1000/b)*100;calcLine=`${def.peptide}, ${v} mg vial, ${b} mL, ${fmtNum(dose,2)} mcg`}
+  const frac=S&&S.total?Math.max(0,Math.min(1,S.left/S.total)):0;
+  const next=S?(S.next?`<div class="m-big">${esc(day(S.next,{weekday:'short',month:'short',day:'numeric'}))}</div><div class="m-sub">${esc(S.rel)}${S.site?', '+esc(S.site):''}</div><div class="m-foot">${esc(S.name)}, ${fmtNum(S.calc.doseMcg,2)} mcg, ${fmtNum(S.vm.unitsPerDose,1)} units</div>`:`<div class="m-big">No date</div><div class="m-sub">Pick at least one weekday in your schedule.</div>`):`<div class="m-big">Not set up</div><div class="m-sub">Choose a peptide, set a schedule and log your first dose.</div><div class="m-foot"><a href="#schedule">Set up Schedule and log</a></div>`;
+  const vial=S?`<div class="m-ring"><svg width="84" height="84" viewBox="0 0 92 92" role="img" aria-label="${S.left} of ${S.total} doses left"><circle cx="46" cy="46" r="38" fill="none" stroke="var(--line)" stroke-width="10"/><circle cx="46" cy="46" r="38" fill="none" stroke="var(--accent)" stroke-width="10" stroke-linecap="round" stroke-dasharray="${(238.8*frac).toFixed(1)} 238.8" transform="rotate(-90 46 46)"/></svg><div><div class="m-num">${S.left}</div><div class="m-sub">of ${S.total} doses left</div></div></div><p class="m-sub">${S.life.lastDose?`Runs out ${esc(day(S.life.lastDose,{month:'short',day:'numeric'}))}.`:''}${S.life.budDate?` Use by ${esc(day(S.life.budDate,{month:'short',day:'numeric'}))}.`:''}</p>`:`<p class="m-sub">Your vial progress shows here once you start tracking.</p>`;
+  const bacPct=Math.round(D.bac.stats[3].v*1000)/10;
+  const heads=S&&S.life.budBeforeEmpty?`<div class="m-kick">Heads up</div><p class="m-serif">Your mixed vial passes its ${S.budDays}-day limit before it is empty.</p><a href="#schedule">See the vial details</a>`:`<div class="m-kick">Worth knowing</div><p class="m-serif">${bacPct}% of bacteriostatic water products failed third-party testing.</p><a href="#bac">See the test results</a>`;
+  const recent=S&&S.recent.length?S.recent.map(l=>`<div class="m-row"><span>${esc(day(l.date,{weekday:'short',month:'short',day:'numeric'}))}</span><span class="muted">${fmtNum(l.doseMcg,2)} mcg${l.site?', '+esc(l.site):''}</span></div>`).join(''):`<p class="m-sub">No doses logged yet. <a href="#schedule">Log your first dose</a>.</p>`;
+  const tiles=[['home','Getting Started','The guide in four steps.'],['dosage','Dosage','Store, mix and calculate.'],['schedule','Schedule and log','Calendar, history, vial life.'],['halflife','Half-Life','How long compounds stay active.'],['vendors','Peptide Vendors',D.vendors.vendors.length+' vendors to know.'],['bac','BAC Water Tests','What testing found.'],['reg','Regulation Info','FDA news and timeline.'],['terms','Terminology','Slang and abbreviations.']];
+  return `<div class="m-today">
+  <div class="m-head"><div><div class="eyebrow">${esc(dstr)}</div><h1>Today</h1></div><a class="btn m-cta" href="#schedule">Log a dose</a></div>
+  <div class="m-grid3">
+   <section class="m-card m-dark"><div class="m-kick">Next dose</div>${next}</section>
+   <section class="m-card"><div class="m-kick">Vial life</div>${vial}</section>
+   <section class="m-card m-warn">${heads}</section>
+  </div>
+  <div class="m-grid2">
+   <section class="m-card"><div class="m-ch"><h3>Quick calculator</h3><a href="#dosage/calc">Open full calculator</a></div><p class="m-sub">${esc(calcLine)}</p>
+    <div class="m-calc"><div class="m-units"><span class="m-big">${isFinite(units)?fmtNum(units,units<10?1:0):'-'}</span><span class="m-sub">units on the syringe</span></div>
+    <div class="m-syr"><div class="m-barrel"><i style="width:${Math.min(100,units||0)}%"></i></div><div class="m-ticks"><span>0</span><span>25</span><span>50</span><span>75</span><span>100</span></div></div></div></section>
+   <section class="m-card"><div class="m-ch"><h3>Recent doses</h3></div>${recent}</section>
+  </div>
+  <h2 class="m-h2">Explore the guide</h2>
+  <div class="m-tiles">${tiles.map(([id,n,dsc])=>`<a class="m-tile" href="#${id}"><b>${esc(n)}</b><span>${esc(dsc)}</span></a>`).join('')}</div>
+  </div>`;
+};
 R.vendors=()=>{
   const v=D.vendors;
   v.vendors.forEach(x=>idx('vendors',x.name,x.type,x.url));if(v.alert)idx('vendors',v.alert.title,v.alert.text);
@@ -206,6 +239,8 @@ R.dosage=()=>{
    </div>
    <details class="more"><summary>${esc(d.bacTitle.replace(/:\s*$/,''))}</summary><ul>${d.bacTips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p style="font-size:13px">${esc(d.omitted)}</p></details>`)}
 
+  <div class="m-only m-trackcta"><div><b>4. Track your doses</b><span>Schedule, calendar, log and vial life now live on their own page.</span></div><a class="btn" href="#schedule">Open Schedule and log</a></div>
+  <div class="m-only m-schedhead"><div class="eyebrow">Everything for one peptide</div><h1>Schedule and log</h1><p class="lead">Set a schedule, log each dose and see when the vial runs out. <a href="#dosage/calc">Change the peptide, dose or vial</a> in the dose calculator.</p></div>
   ${window.Tracker?window.Tracker.html():''}
 
   <h2 class="refh">Reference tables <small>Look things up. Tap a title to open it.</small></h2>
@@ -533,9 +568,45 @@ R.links=()=>{const m=D.master;m.links.forEach(u=>idx('links',host(u),u));return 
 
 /* ---------- shell ---------- */
 const main=$('#main'),nav=$('#nav');
-nav.innerHTML=SECTIONS.map(s=>s.sep?`<div class="sep">${s.sep}</div>`:`<a href="#${s.id}" data-id="${s.id}"><span class="ic">${s.ic}</span>${s.name}</a>`).join('');
+nav.innerHTML=SECTIONS.map(s=>s.sep?`<div class="sep">${s.sep}</div>`:`<a href="#${s.id}" data-id="${s.id}"${s.modern?' data-modern':''}><span class="ic">${s.ic}</span>${s.name}</a>`).join('')+'<div class="navfoot"><button class="uibtn" type="button"></button></div>';
+/* ---- interface switch: modern (default) or classic ---- */
+const root=document.documentElement;
+const isModern=()=>root.dataset.ui==='modern';
+const TOP=[['today','Today'],['home','Home'],['dosage','Dosage'],['schedule','Schedule and log'],['halflife','Half-life'],['vendors','Vendors'],['bac','Testing'],['reg','Regulation']];
+const MORE=['peds','supply','terms','forums','nutrition','medical','roadmap','links'];
+const topnav=document.createElement('nav');topnav.id='topnav';topnav.setAttribute('aria-label','Main');
+topnav.innerHTML=TOP.map(([id,n])=>`<a href="#${id}" data-id="${id}">${n}</a>`).join('')+`<details class="more-nav"><summary>More</summary><div>${MORE.map(id=>`<a href="#${id}" data-id="${id}">${nameOf0(id)}</a>`).join('')}</div></details>`;
+function nameOf0(id){return (SECTIONS.find(s=>s.id===id)||{}).name||id}
+$('.top-in .brand').after(topnav);
+const themeBtn=$('#themeBtn');
+function paintSwitches(){
+  const m=isModern();
+  $$('.uibtn').forEach(b=>{b.textContent=m?'Classic interface':'New interface';b.title=m?'Switch back to the classic interface':'Try the new interface'});
+  const dark=root.dataset.theme==='dark';
+  themeBtn.innerHTML=m?`<span class="tl-ic" aria-hidden="true">${dark?'\u2600':'\u263E'}</span><span class="tl-t">${dark?'Light':'Dark'}</span>`:'\u25D0';
+  $('.top-in .brand').setAttribute('href',m?'#today':'#home');
+}
+function setUI(v,keep){
+  root.dataset.ui=v;if(!keep){try{localStorage.setItem('bh-ui',v)}catch(e){}}
+  // theme default follows the interface unless the visitor picked one
+  let st=null;try{st=localStorage.getItem('pg-theme')}catch(e){}
+  if(!st)root.dataset.theme=v==='modern'?'light':'dark';
+  paintSwitches();
+}
+$$('.uibtn').forEach(b=>b.addEventListener('click',()=>{setUI(isModern()?'classic':'modern');route();$('#nav').classList.remove('open')}));
+topnav.addEventListener('click',e=>{if(e.target.closest('a')){const d=$('.more-nav',topnav);if(d)d.open=false}});
+document.addEventListener('click',e=>{const d=$('.more-nav',topnav);if(d&&d.open&&!e.target.closest('.more-nav'))d.open=false});
+const searchBtn=$('#searchBtn');searchBtn.addEventListener('click',()=>{const o=$('.top').classList.toggle('show-search');if(o)gs0().focus()});
+function gs0(){return $('#gs')}
+paintSwitches();
+
 const rendered={};
 function show(id,sub){
+  let view='dosage';
+  if(!isModern()&&id==='today')id='home';
+  if(id==='schedule'){view='schedule';sub='tracker'}
+  const navId=id;
+  if(id==='schedule')id='dosage';
   if(!R[id])id='home';
   if(!rendered[id]){
     const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+id;sec.innerHTML=R[id]();main.appendChild(sec);rendered[id]=sec;
@@ -543,23 +614,26 @@ function show(id,sub){
     ({dosage:initDosage,halflife:initHalf,supply:initSupply,forums:initForums,reg:initReg})[id]?.(sec);
     $$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}));
   }
+  if(id==='today')rendered[id].innerHTML=R.today();
   $$('.sec').forEach(s=>s.classList.toggle('on',s===rendered[id]));
-  $$('nav a').forEach(a=>a.classList.toggle('on',a.dataset.id===id));
+  $$('nav a').forEach(a=>a.classList.toggle('on',a.dataset.id===navId));
   const sec=rendered[id];
+  sec.dataset.view=id==='dosage'?view:'';
   // tabs (terminology)
   const tabs=$('[data-tabs]',sec);
   if(tabs){const k=sub||'slang';$$('a',tabs).forEach(a=>a.classList.toggle('on',a.dataset.tab===k));$$('.tabpane',sec).forEach(p=>p.classList.toggle('on',p.dataset.pane===k))}
-  document.title=(SECTIONS.find(s=>s.id===id)||{}).name+' · Body Harmony';
+  document.title=(SECTIONS.find(s=>s.id===navId)||{}).name+' · Body Harmony';
   if(pending){const inp=$('.tbl-search',sec.querySelector('.tabpane.on')||sec);if(inp){inp.value=pending;inp.dispatchEvent(new Event('input'))}pending=''}
-  if(sub&&!tabs){const el=$('#'+({dosage:'d-',halflife:'h-',reg:'r-',forums:'f-'}[id]||'x-')+sub,sec);if(el){if(el.tagName==='DETAILS')el.open=true;setTimeout(()=>el.scrollIntoView({block:'start'}),60)}}
+  if(view==='schedule'&&isModern())window.scrollTo(0,0);
+  else if(sub&&!tabs){const el=$('#'+({dosage:'d-',halflife:'h-',reg:'r-',forums:'f-'}[id]||'x-')+sub,sec);if(el){if(el.tagName==='DETAILS')el.open=true;setTimeout(()=>el.scrollIntoView({block:'start'}),60)}}
   else window.scrollTo(0,0);
   $('#nav').classList.remove('open');
 }
 let pending='';
-function route(){const [id,sub]=(location.hash.slice(1)||'home').split('/');show(id,sub)}
+function route(){const [id,sub]=(location.hash.slice(1)||(isModern()?'today':'home')).split('/');show(id,sub)}
 addEventListener('hashchange',route);
 // pre-render all sections once so the global search index is complete
-SECTIONS.forEach(s=>{if(s.id&&!rendered[s.id]){const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+s.id;sec.innerHTML=R[s.id]();main.appendChild(sec);rendered[s.id]=sec;wireTables(sec);({dosage:initDosage,halflife:initHalf,supply:initSupply,forums:initForums,reg:initReg})[s.id]?.(sec);$$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}))}});
+SECTIONS.forEach(s=>{if(s.id&&!s.alias&&!rendered[s.id]){const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+s.id;sec.innerHTML=R[s.id]();main.appendChild(sec);rendered[s.id]=sec;wireTables(sec);({dosage:initDosage,halflife:initHalf,supply:initSupply,forums:initForums,reg:initReg})[s.id]?.(sec);$$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}))}});
 route();
 
 /* ---------- global search ---------- */
@@ -593,7 +667,7 @@ gs.addEventListener('keydown',e=>{
 document.addEventListener('keydown',e=>{if((e.key==='/'||(e.key==='k'&&(e.ctrlKey||e.metaKey)))&&!/INPUT|SELECT|TEXTAREA/.test(document.activeElement.tagName)){e.preventDefault();gs.focus();gs.select()}});
 
 /* ---------- misc ui ---------- */
-$('#themeBtn').addEventListener('click',()=>{const r=document.documentElement,n=r.dataset.theme==='dark'?'light':'dark';r.dataset.theme=n;try{localStorage.setItem('pg-theme',n)}catch(e){}});
+themeBtn.addEventListener('click',()=>{const r=document.documentElement,n=r.dataset.theme==='dark'?'light':'dark';r.dataset.theme=n;try{localStorage.setItem('pg-theme',n)}catch(e){}paintSwitches()});
 $('#menuBtn').addEventListener('click',()=>$('#nav').classList.toggle('open'));
 const lb=$('#lightbox');
 document.addEventListener('click',e=>{const i=e.target.closest('img[data-zoom]');if(i){$('img',lb).src=i.src;lb.classList.add('open')}else if(e.target.closest('#lightbox'))lb.classList.remove('open')});
