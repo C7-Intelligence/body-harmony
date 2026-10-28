@@ -8,9 +8,13 @@
     try{var r=JSON.parse(localStorage.getItem(KEY)||'null');return !!(r&&r.v===TERMS_VERSION)}catch(e){return false}
   }
   var root=document.documentElement;
+  // keep --bv = how much of the banner is still on screen, so the mobile menu panel starts below the header
+  function bv(){var b=document.getElementById('rbanner');root.style.setProperty('--bv',(b?Math.max(0,Math.round(b.getBoundingClientRect().bottom)):0)+'px')}
+  bv();addEventListener('scroll',bv,{passive:true});addEventListener('resize',bv);
+  var mb=document.getElementById('menuBtn');if(mb)mb.addEventListener('click',bv,true);
   if(accepted()){root.removeAttribute('data-gate');return}
   root.setAttribute('data-gate','');
-  var dim=['.top','.wrap','body>footer','#lightbox'];
+  var dim=['#rbanner','.top','.wrap','body>footer','#lightbox'];
   function setInert(on){dim.forEach(function(s){var e=document.querySelector(s);if(!e)return;if(on){e.setAttribute('inert','');e.setAttribute('aria-hidden','true')}else{e.removeAttribute('inert');e.removeAttribute('aria-hidden')}})}
   var g=document.createElement('div');g.id='gate';
   g.innerHTML='<div class="gbox" role="dialog" aria-modal="true" aria-labelledby="gate-t">'

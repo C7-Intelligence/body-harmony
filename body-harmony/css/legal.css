@@ -1,0 +1,29 @@
+/* Research banner (top of every page) and detailed disclaimer footer. Both interfaces. */
+#rbanner{background:var(--warn-soft,#f3e4d6);border-bottom:1px solid var(--line);color:var(--ink);font:500 13.5px/1.4 var(--sans);padding:9px 20px;text-align:center}
+#rbanner svg{vertical-align:-3px;margin-right:6px}
+#rbanner b{font-weight:600}
+#rbanner a{font-weight:600;margin-left:8px;white-space:nowrap}
+html[data-ui=modern] #rbanner{background:#F3E4D6;border-bottom-color:#E2C9B2;color:#5E2C12}
+html[data-ui=modern] #rbanner a{color:#5E2C12}
+html[data-theme=dark][data-ui=modern] #rbanner{background:#2B2118;border-bottom-color:#4A3626;color:#F1D9C2}
+html[data-theme=dark][data-ui=modern] #rbanner a{color:#F1D9C2}
+html[data-ui=classic][data-theme=light] #rbanner{background:#f1e6cf;color:#4a3a14}
+
+footer.legal{max-width:none;margin:48px 0 0;padding:40px 20px 32px;border-top:1px solid var(--line);text-align:left;background:var(--deep);color:var(--deep-ink)}
+footer.legal .fl-in{max-width:1100px;margin:0 auto;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,2fr);gap:56px}
+footer.legal .fl-brand{font:600 1.45rem var(--serif);color:var(--deep-ink)}
+footer.legal p{margin:0 0 9px;font-size:13px;line-height:1.65;color:var(--deep-muted,var(--muted))}
+footer.legal p b{color:var(--deep-ink);font-weight:600}
+footer.legal .fl-k{font:600 12px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:#E9C9A8;margin-bottom:8px}
+footer.legal .fl-links{display:flex;flex-direction:column;gap:8px;margin-top:16px;font-weight:600;font-size:14px}
+footer.legal a{color:var(--deep-ink)}
+footer.legal .fl-fine{margin-top:4px}
+html[data-ui=modern] footer.legal{background:var(--deep)}
+@media(max-width:800px){footer.legal{padding:24px 18px 22px}footer.legal .fl-in{grid-template-columns:1fr;gap:18px}footer.legal p{font-size:12.5px;line-height:1.6}footer.legal .fl-links{flex-direction:row;gap:18px;flex-wrap:wrap}}
+
+/* the mobile menu panel sits below the header, which sits below the banner until the banner scrolls away (--bv is set by js/gate.js) */
+@media(max-width:1290px){html[data-ui=modern] nav.side{top:calc(62px + var(--bv,0px))}}
+@media(max-width:720px){html[data-ui=modern] nav.side{top:calc(54px + var(--bv,0px))}}
+@media(max-width:900px){html[data-ui=classic] nav.side{top:calc(60px + var(--bv,0px))}}
+@media(max-width:600px){#rbanner{font-size:12.5px;padding:8px 14px}#rbanner .rb-x{display:none}#rbanner a{margin-left:4px}}
+@media print{#rbanner{display:none}}
