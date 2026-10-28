@@ -1,7 +1,7 @@
 /* Entry disclaimer gate: the visitor must accept before the site is usable.
    Acceptance is stored in this browser only, keyed by TERMS_VERSION; bump the version to ask everyone again. */
 (function(){
-  var TERMS_VERSION='1.0',KEY='bh-terms',CO='J Harmony, LLC';
+  var TERMS_VERSION='1.1',KEY='bh-terms',CO='J Harmony, LLC';
   var memory=false; // used if storage is unavailable, so the gate still works for the page view
   function accepted(){
     if(memory)return true;
@@ -26,12 +26,12 @@
   +'<p><b>3. Unapproved compounds and the law.</b> Many compounds discussed here are not approved by the FDA or other regulators for human use. Their legal status differs by place and changes often. You are responsible for knowing and following the laws that apply to you.</p>'
   +'<p><b>4. No endorsement, no warranty.</b> We do not sell, prescribe or endorse any product, vendor or protocol. Third-party, test and regulatory information may be incomplete, wrong or out of date. The site is provided as is.</p>'
   +'<p><b>5. Your risk.</b> You use this site, and anything you do based on it, entirely at your own risk.</p>'
-  +'<p><b>6. Release and indemnity.</b> To the fullest extent the law allows, you release '+CO+', its owners, members, officers, employees and contributors from all claims arising from your use of, or reliance on, this site. You agree to defend and indemnify them against any claim, loss or cost, including reasonable legal fees, that arises from your use, your reliance, or your breach of these terms.</p>'
+  +'<p><b>6. Release and indemnity.</b> To the fullest extent the law allows, you release '+CO+', its owners, members, officers, employees and contributors from all claims arising from your use of, or reliance on, this site. You agree to defend and indemnify them against any claim, loss or cost, including reasonable legal fees, that arises from your use, your reliance, or your breach of these terms. Disputes are resolved by individual binding arbitration, and you waive any class action, unless you opt out as described in the full terms.</p>'
   +'<p><b>7. Adults only.</b> You must be 18 or older to use this site.</p></div>'
   +'<div class="gchk">'
   +'<label><input type="checkbox" class="gc"><span>I am 18 years of age or older.</span></label>'
   +'<label><input type="checkbox" class="gc"><span>I understand this site is for informational and research purposes only and is not medical advice, and I will not rely on it as medical advice.</span></label>'
-  +'<label><input type="checkbox" class="gc"><span>I have read and agree to the <a href="terms.html" target="_blank" rel="noopener">Terms of Use and Disclaimer</a>, including the release and indemnity in section 6.</span></label></div>'
+  +'<label><input type="checkbox" class="gc"><span>I have read and agree to the <a href="terms.html" target="_blank" rel="noopener">Terms of Use and Disclaimer</a>, including the release, indemnity and arbitration terms.</span></label></div>'
   +'<div class="gact"><button type="button" class="gyes" disabled>I agree and enter the site</button><button type="button" class="gno">Leave site</button></div>'
   +'<div class="gfine">Your acceptance (version '+TERMS_VERSION+') is saved in this browser only. You will be asked again if the terms change.</div></div>';
   document.body.appendChild(g);
