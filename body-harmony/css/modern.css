@@ -5,12 +5,13 @@
 /* ---------- shared: elements that only exist for the modern layer ---------- */
 #topnav,#searchBtn,.m-only{display:none}
 nav.side a[data-modern]{display:none}
+html[data-ui=modern] nav.side a[data-modern]{display:flex}
 .navfoot{display:none}
 .uibtn{border:1px solid var(--line);background:transparent;color:var(--accent);padding:8px 12px;font:500 13px var(--sans);cursor:pointer;white-space:nowrap;border-radius:0}
 .uibtn:hover{border-color:var(--accent)}
-nav.side.open .navfoot{display:block;padding:18px 12px 4px}
+nav.side.open .navfoot{display:block;position:sticky;bottom:-24px;margin:12px -20px -24px;padding:12px 20px 18px;background:var(--bg);border-top:1px solid var(--line);z-index:2}
 nav.side.open .navfoot .uibtn{width:100%;padding:12px}
-@media(max-width:900px){#uiBtn{display:none}}
+@media(max-width:900px){#uiBtn{display:none}nav.side{align-self:stretch;justify-self:stretch;height:auto}}
 
 /* ---------- tokens ---------- */
 html[data-ui=modern],html[data-ui=modern][data-theme=light]{
@@ -195,7 +196,7 @@ html[data-ui=modern] #t-kv{margin:0}
   html[data-ui=modern] #topnav{display:none}
   html[data-ui=modern] .menu-btn{display:grid}
   html[data-ui=modern] #uiBtn{display:none}
-  html[data-ui=modern] nav.side{position:fixed;inset:62px 0 0 0;background:var(--bg);z-index:40;padding:10px 20px 24px;display:none;max-height:none;border:0;overflow:auto}
+  html[data-ui=modern] nav.side{position:fixed;inset:62px 0 0 0;align-self:stretch;justify-self:stretch;height:auto;background:var(--bg);z-index:40;padding:10px 20px 24px;display:none;max-height:none;border:0;overflow:auto}
   html[data-ui=modern] nav.side.open{display:block}
   html[data-ui=modern] nav.side a{border-radius:12px;font-size:16px;padding:12px;border-left:0;color:var(--ink)}
   html[data-ui=modern] nav.side a.on{background:var(--accent-soft);color:var(--accent)}
@@ -282,3 +283,5 @@ html[data-ui=modern] #t-kv{margin:0}
   html[data-ui=modern] .how,html[data-ui=modern] .gl{grid-template-columns:1fr}
 }
 @media print{html[data-ui=modern] #topnav{display:none}}
+html[data-ui=modern] nav.side .nm[data-m]{font-size:0}
+html[data-ui=modern] nav.side .nm[data-m]::after{content:attr(data-m);font-size:16px}

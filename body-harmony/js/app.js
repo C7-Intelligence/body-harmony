@@ -568,7 +568,7 @@ R.links=()=>{const m=D.master;m.links.forEach(u=>idx('links',host(u),u));return 
 
 /* ---------- shell ---------- */
 const main=$('#main'),nav=$('#nav');
-nav.innerHTML=SECTIONS.map(s=>s.sep?`<div class="sep">${s.sep}</div>`:`<a href="#${s.id}" data-id="${s.id}"${s.modern?' data-modern':''}><span class="ic">${s.ic}</span>${s.name}</a>`).join('')+'<div class="navfoot"><button class="uibtn" type="button"></button></div>';
+nav.innerHTML=SECTIONS.map(s=>s.sep?`<div class="sep">${s.sep}</div>`:`<a href="#${s.id}" data-id="${s.id}"${s.modern?' data-modern':''}><span class="ic">${s.ic}</span><span class="nm"${s.id==='home'?' data-m="Home"':''}>${s.name}</span></a>`).join('')+'<div class="navfoot"><button class="uibtn" type="button"></button></div>';
 /* ---- interface switch: modern (default) or classic ---- */
 const root=document.documentElement;
 const isModern=()=>root.dataset.ui==='modern';
