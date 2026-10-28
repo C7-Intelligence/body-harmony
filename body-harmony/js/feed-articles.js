@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-27T22:22Z",
+ "generated": "2026-10-28T05:52Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-27T22:22Z",
+   "checked": "2026-10-28T05:52Z",
    "ok": true,
-   "new": 91,
-   "seen": 118,
-   "lastOk": "2026-10-27T22:22Z"
+   "new": 104,
+   "seen": 130,
+   "lastOk": "2026-10-28T05:52Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-27T22:22Z",
+   "checked": "2026-10-28T05:52Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-10-27T22:22Z"
+   "lastOk": "2026-10-28T05:52Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-27T22:22Z",
+   "checked": "2026-10-28T05:52Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-27T22:22Z"
+   "lastOk": "2026-10-28T05:52Z"
   }
  ],
  "items": [
@@ -58,6 +58,13 @@ window.FEED_ART={
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
   },
   {
+   "t": "Thousands of peptide injecting kits handed out as Health NZ sounds warning - Stuff",
+   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRS1nX2dzdEp3TTd0THBnVTg0bTF4WXhEZTR2aGVrdXFjbjBKbEk4N3A4dUYyZXE1SUVLcEtBcVRjYnp5ZHg1d2ItemQxU1Bab20xc2s1VmZIc0ZFRk5oUFI1N2c0WkFRTG1GQnBYRUluN1h3NEFlZTlWdzVfbkJNbXhDTUF0dUxieEF1dkJiZzRmbHZURnRMZm83ZTlTLVBtMlE4OWdQaWpmeDRkbXhN?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews-a",
+   "x": "Thousands of peptide injecting kits handed out as Health NZ sounds warning Stuff"
+  },
+  {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
    "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
    "d": "2026-10-27",
@@ -70,6 +77,13 @@ window.FEED_ART={
    "d": "2026-10-27",
    "s": "gnews-a",
    "x": "Is There Anything BPC-157 Can’t Cure? The Atlantic"
+  },
+  {
+   "t": "Retatrutide cost in 2026: What a research vial really costs and why the cheapest listing is a red flag - Clinical Trials Arena",
+   "l": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOVTdlUjVYUmVHcmNpME9SSWpYUjBEdFhPRjVoQjY2NE9JLWR1Z2oxVjJhM2d3dkhfZjI3WjR0dkJJdWNINkVVd0F6Qk1sR0RJRzVwY0xrSDQtald4a2NEdlRPMERUc2NxT2pNN1ZPTm9TbkJOT0FxeHFGSXV0MmZmS3pXSm1JMDk2eno0VVNBRWdzcFpXcm9IMWxVSHFOcVdfb1J0cEw1MlFKQ1M5WEtjTUlCaWJmb3ZKLUxVYkxBX3F6M3g5TmhQWDkzU1NIWlhVSWJMR2pJWXF4OFoxb2xoa0FB?oc=5",
+   "d": "2026-10-27",
+   "s": "gnews-a",
+   "x": "Retatrutide cost in 2026: What a research vial really costs and why the cheapest listing is a red flag Clinical Trials Arena"
   },
   {
    "t": "Novo’s Answer to Retatrutide Does Well at Phase II in Type 2 Diabetes - Inside Precision Medicine",
@@ -105,6 +119,13 @@ window.FEED_ART={
    "d": "2026-10-26",
    "s": "gnews-a",
    "x": "Novo’s Answer to Retatrutide Does Well at Phase II in Type 2 Diabetes Inside Precision Medicine"
+  },
+  {
+   "t": "October 26, 2026: PSM files citizen petition asking FDA not to allow compounding of peptides - Partnership for Safe Medicines",
+   "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NRi04bWdNSlowTkNXM1VpQnBybm1mZzdMZ2tTNEIxMEdXd1M1cFVXZHNkaVoxWFgyc3pZbTB1Zzhta1Jhc09vVUd3M3ZPbW1YTTI5LVd4WGg0d3pDMl9vSkNOQmRDenlDelV4cU96eFhiVkE?oc=5",
+   "d": "2026-10-26",
+   "s": "gnews-a",
+   "x": "October 26, 2026: PSM files citizen petition asking FDA not to allow compounding of peptides Partnership for Safe Medicines"
   },
   {
    "t": "Investigation Reveals Health Risks of Gray Market Peptides in NYC Convenience Stores - SSBCrack",
@@ -343,27 +364,6 @@ window.FEED_ART={
    "d": "2026-10-20",
    "s": "gnews-a",
    "x": "GLP-1 injections recalled nationwide over concerning reason New York Post"
-  },
-  {
-   "t": "1 in 4 Army Men Have Low T; GLP-1 in Menopause; Retatrutide Side Effects on Reddit - MedPage Today",
-   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uSTZYcjZTRzhaSGFtaEdlUlkyV1FqNVZaMUVBVzVmTktNNmNkenJhVVd1bGx6TU0ycVo3cFJBMnRvaEx1V0JfUkVjbm1sT1kyLUxRUWFFXzVwVG9zQ2pqbDl3d2hxUW4waXJCaWJpSHU4enp5MTJpaU53?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews-a",
-   "x": "1 in 4 Army Men Have Low T; GLP-1 in Menopause; Retatrutide Side Effects on Reddit MedPage Today"
-  },
-  {
-   "t": "TB-500: Expanding Landscape of Regenerative Signaling - Peninsula Daily News",
-   "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQM3Z0VlA1ZElrUnJ6SFNwTzJYd1JTMW1oaHg5eEhsb1I4bjZ0a2V1eU1kdUJHYUlPOUJPWHdoTlRvdU5tUGRtWS1OT2VzSnd6YWoxUERRaDZXT25EOUhLNWRQVkNxOElTc2tjdjVvaXdoUDdMMVVFdVBwNmF2dWZZczlrUDY2YWlRbXQ2YVQ2dEFWZURjMk9zZ0w5RHI0VEYzNWoxX1RyeFc?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews-a",
-   "x": "TB-500: Expanding Landscape of Regenerative Signaling Peninsula Daily News"
-  },
-  {
-   "t": "GLP-1 injections recalled nationwide. See affected products - USA Today",
-   "l": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORW9HUXlnSWNZdEN0Z25zWUZxRFlMbU9ZY3ZYS0JMS2tZaGtpckEyRklxSGl5MmxoaEp2aTQ2NHlMVnFpM25IcEVmWnU4RVQyT0FLWUp0aThwcHNnb3BTZk9sNHdrX08xMWdMV3JJMHp2N1J6NThGVXJEOVBZcktYeG5PbWZfdUJrQW1QZUJ4R2ZMTkVWdnEzZUpXT3pwMmhxUmxubUtCcXVDTzJlUGJBWG9KQVIzSGZmM01xMzVmX0hETTMxbEJaR25R?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews-a",
-   "x": "GLP-1 injections recalled nationwide. See affected products USA Today"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about an HHS peptide push, Trump’s pharma stock holdings, and more",
