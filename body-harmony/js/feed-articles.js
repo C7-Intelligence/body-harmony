@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-29T05:56Z",
+ "generated": "2026-10-29T13:15Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-29T05:56Z",
+   "checked": "2026-10-29T13:15Z",
    "ok": true,
-   "new": 88,
-   "seen": 106,
-   "lastOk": "2026-10-29T05:56Z"
+   "new": 95,
+   "seen": 131,
+   "lastOk": "2026-10-29T13:15Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-29T05:56Z",
+   "checked": "2026-10-29T13:15Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-10-29T05:56Z"
+   "lastOk": "2026-10-29T13:15Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-29T05:56Z",
+   "checked": "2026-10-29T13:15Z",
    "ok": true,
-   "new": 0,
-   "seen": 2,
-   "lastOk": "2026-10-29T05:56Z"
+   "new": 1,
+   "seen": 3,
+   "lastOk": "2026-10-29T13:15Z"
   }
  ],
  "items": [
@@ -84,6 +84,97 @@ window.FEED_ART={
    "d": "2026-10-29",
    "s": "gnews-a",
    "x": "Eli Lilly (LLY) Stock May Be 25% Undervalued Despite Retatrutide Trial News Yahoo Finance"
+  },
+  {
+   "t": "Health Ministry warns against illegal peptides marketed for weight loss - Ynetnews",
+   "l": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYeExad25seEFlREl6WW91RVV2X21CbzJTaU1xbFlRQ2dlQXlBOW5aSWRnb1lfYndkdlF3ck8tSXZCWGhZU010X294YmhFZ05ETzhzag?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Health Ministry warns against illegal peptides marketed for weight loss Ynetnews"
+  },
+  {
+   "t": "In topline phase 3 results, retatrutide lowered A1C more and reduced weight more than semaglutide 2 mg at 80 weeks - 2 Minute Medicine",
+   "l": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZHhYWl84M3lUNHlaNXpuYzVUU092WVhiY1c4NGFrNWNnUW5qR0hNTnBaUmlyMHFuZzBPS3RFVkdnYlUyN3pyYXlJQTFSZERfZlBnVmhodW9EUDhtLTl1ZEp2S0k4VWtNc0ZZd1M3OW1QNEhJVmdDb2M4bFFnQ29xd0VBM0czSWpIQXFHQVY5M1o5V3pfVkVWYzBBVi1oNmRHVzhXT0JaRGFyaXNxdTltRERLUGk2SDVtR1BNNVpNb2ZkXzRFcU5lbGZYMjJlTVVBVUxZb005dEc1RUstczNZ?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "In topline phase 3 results, retatrutide lowered A1C more and reduced weight more than semaglutide 2 mg at 80 weeks 2 Minute Medicine"
+  },
+  {
+   "t": "RFK Jr. to ease access to unapproved peptides, draft policy states - CBS News",
+   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRnp0Z2pOb2xfXzJ5dVREY1N0bVJlc2Z2MWlRcU42amZjRWtLeEFWdUFtQTc1czJ0bnhmRDhtYlVsUi1JaXY4OGcxUW5aZDBDSU1RemxBMTh3ZVE5ZTBncThyMG55WjJDNnVuZEVXTUFFNHNERi1pMHlVWEtFQTdLV3JCUksxczRXUUNrRg?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "RFK Jr. to ease access to unapproved peptides, draft policy states CBS News"
+  },
+  {
+   "t": "Experimental weight-loss drug retatrutide shows promising results in clinical trial - WFTV",
+   "l": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWHZvcjV2R3dyalNoS0dzSjR6RV9RX2xBaWFNc2ZrWDg0Zl9kVTlhdDdMaUIwQXpxTWRMR2VRT2tNc2lMT0xJQnp3RDNRd3VHZTU1a1BUeTZ2VWdQZHhGYkUwWk5vNUZIYjNLTzBramNjNV9MZENabENLdnd2N1pqSktWN3lxMjdJMFpVazBoRi1VNThEUDJjNzFXR2Z5dUhWTWVFXzdfdFFKMjJfUTRfbEhESGF2TVpSMm9BNVY2Njdwemw3YlIwT1hCRU15SjRxc2FWMEZnUDMxSWpS?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Experimental weight-loss drug retatrutide shows promising results in clinical trial WFTV"
+  },
+  {
+   "t": "Increased Appetite Tops Symptoms Reported by Gray-Market Retatrutide Users in Penn's AI Analysis of Reddit Posts - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORjNXSzFEMGRVZHp2SDlRWC04RmhhNmt3RTFHMEJLU09NWk1oaVlERUJRbTNwRW8zaXh0SjVSanVWbndwS0NldDhHOVp5emYyWlhjemxFMTV2aUF1XzZwaWVGOFRvR1NnamNjV1FzcUgybExKaURESTRBWTF3a1Y4TnBRU0tsTDNkVGtV?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Increased Appetite Tops Symptoms Reported by Gray-Market Retatrutide Users in Penn's AI Analysis of Reddit Posts Medical Daily"
+  },
+  {
+   "t": "Better Than Ozempic? Retatrutide Delivers Double Ozempic's Weight Loss In Phase 3 Trial - NDTV",
+   "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOS3pKYmV1cjVENjNobGFGNTZRQUlsMWVDLVFzMEtFTm50TlJRTE1janoxanl3OXVUZ0ttSkVfaDZYbFd1emxtbE1WTDdCLVp0S0tRdS11ckljVTNWeVFWeG8zbmdIeTNYLVl1eUhoNTdndlprZU1seHNoV0FYSXFTekpETWxsczhZcE9XWGY0ODEzRFhqQnhES0FwMklEV3FKbVVraGsyaVhIWFhQdVJLQy1CZ3hkQjRqVmg1czNGZw?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Better Than Ozempic? Retatrutide Delivers Double Ozempic's Weight Loss In Phase 3 Trial NDTV"
+  },
+  {
+   "t": "Lilly’s retatrutide scores another Phase 3 win, Outperforming Ozempic in head-to-head study - pharma.economictimes.indiatimes.com",
+   "l": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRDlYTklLR3drM1hiaWZGc0YyRkJvZkd1Tkd2V1ZlWlItWnVObDVtc2dYbENCcWhnOHY1bm5GNUppc2ZpTEhudWJVQmE0cE5BQklaN3YzaGM0c0ZZdDdMUktBZ0w4X0dta2F2Z01TZlBXU2ZxYThqXzE4M3RvUzdWSVBKMXZmVGpHdV9GVnlCYnRzWXRXUjJXNXRORHlGYkxVMW5hckNiQUpYRkJGV1hWVWRwV0FSMF9oVDBvNmpUT0hHM05Ha0lTRlhXLXYzelBlWUc2MW1GZnFKc29Ma3NMdzhYZTlMQTh1TTNBcVp0Q2RwOXB5QVZBX2VFVERNUTJ5VmFN0gGIAkFVX3lxTE5rT1ZkaXZXd044Z0J4OTYzVnprYnpzcWlfNHhzSmduYnl2REptWVdCVkhrVXZxdTJsNXB2VHJsX2w4VS1IaDJpdFVEQ2JIUzBKV3Y4cXlfWmgzV2ZfY20yZGhiRU9GMVFiTHB2RTF4VGJWSTVCd0ZsUU5LaEV1SW5aTU1MNmlXclc3QWJ0VUxER3E5N1Z6RUdqUE91a2VLR3p0SUQ4eVJ6NTVhMExjRlJPbDFBRW9OaVEwN1NUZ2RvaHo0RE9vYVpWV1dKX0tIRUZaUTRULVhXRElocGt2YUNWZUxRVU1lOUhtcHdHOEs3eDdHNzJocnYtLWs1QkladlVtTlJZbEhwTQ?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Lilly’s retatrutide scores another Phase 3 win, Outperforming Ozempic in head-to-head study pharma.economictimes.indiatimes.com"
+  },
+  {
+   "t": "Lilly’s retatrutide outperforms Ozempic on weight loss in diabetes trial; safety concerns remain - The Federal",
+   "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSkp3azI4R1NxMjVTWFY3QUVEWHJQbXZlcEJtV19YRnFrLWN0QnVKbG1jQjI2M2hzYXlrNzM4aS0tSHZpamJhaDV3WWE4OTIxLXZjdHU5Ulk3QU14TW16S2VSRlM3QWJiZ1c1OWRsczNKQndsRmdENnUwYkg3UzdfWE01c01IZ3BFamNCSV9fRVhrMUpNOVFLRUpwVGdaZ0xrUnlJbjBJOVI?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Lilly’s retatrutide outperforms Ozempic on weight loss in diabetes trial; safety concerns remain The Federal"
+  },
+  {
+   "t": "Eli Lilly Q3 Earnings Preview: Retatrutide Data and Foundayo Launch in Focus - BigGo Finance",
+   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45SmVpSjBqREZuZHA2bXdObndjM0JENmFfLUN3a2tfVWRqbEMwMldDQXpMWTVNZnJMRUF0bzhBbl9hNzc1WXhieDNVUC1kV1hLWHd6Q3BISktHVVFnR1lTeGF0aEJzaWZPbWpCRk5UTkJ4b1c1OXc?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Eli Lilly Q3 Earnings Preview: Retatrutide Data and Foundayo Launch in Focus BigGo Finance"
+  },
+  {
+   "t": "Eli Lilly’s Retatrutide Outpaces Ozempic on Weight Loss in First Head-to-Head Trial - the deep dive",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOanNSM0xCb2NEMldFOFk2Zkc0cHpmR1ByMHZPWU9XeXpNYUpJZFczc01hQTlOdHQ2TW4zbW03M19ubWU1MUpIcnk0TFlYdVFjMThmdWFYY05JbnJTRnpoWWxzT1djaTZaRlFlc0NCNDJLemlLYmMxRDQ1YWg5ZEVXZ1BUT1dRakl5dXRMZE5CcWdYbWJEcHVzbk1wWTBqNDdZTFR5SW5Bbko5dw?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Eli Lilly’s Retatrutide Outpaces Ozempic on Weight Loss in First Head-to-Head Trial the deep dive"
+  },
+  {
+   "t": "‘Godzilla’ Drug Retatrutide Reverses Sleep Apnea In 1 In 4 Diabetes Patients - Health and Me",
+   "l": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVGIyTy1LSXQzd2EtcVZJMEJ1SkZZR05jZlFvRkoyX09kODdUU0dyWFJobkdCRUc4Nnd0a0R6VVdRRG5YV001aDB4b0hIbVNKaXVRZlBZcEhKcHRlZUhRRlRWRTRLM0lLcEk1SkVaRkl4Q2lHUGxyYUphUG9XM3Z6T2pPeFRLZ2J5RFRtVTMzNDhEcUV1aXdnQXNOVnBOR1VtNUdtTFJVbnQxdmhHQkk1WmNENDBIby1wU1F0ckNodW1ZTGFrWHNsbnIyY3Y?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "‘Godzilla’ Drug Retatrutide Reverses Sleep Apnea In 1 In 4 Diabetes Patients Health and Me"
+  },
+  {
+   "t": "Ozempic vs Retatrutide: Eli Lilly claims 'more than double' the weight loss in latest trial — What's next? - Livemint",
+   "l": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQUdUMmF5c1RpV1AzTkg1dC05UUNMYk1FSjlSU2NONXAySVpzaFA5VU43bUttaHI5TUJubWVpVjdKckNGYjRoLTJyQWo3SV9QZjFvTXBKTTRIRXBZREx2X1dYNmJzaGxGZWJCTzUxZ2Y2OVdXSU9HdV9jRE52RTZwNHMwMmtENkJHd0IyTnZGZmNPU1U4WDhVZV9WYzAybFc5aUw3b09mZ2NRX2RVdHg1aU5xT3B4ZWVLa0F4WXdVZEhEMjlCcl9CSlJYTHU3dWs2aG90aDZDMTBraVh6LXdNV0RJN09pZGR5UlJCazNVNWbSAfYBQVVfeXFMTnJrZU9HTklXRl94MXJsamJ4MXhtZTJ2bXAxbnc5cTBGOW5rTWdyTVpkZ0tuVkwyS2VoOW94UTk0UjhTMWotUks5WktYTGhfWUwyVEZuRGRLeFJvbEhPdXMtcFZHUU1xWUdKM0RyUWhSRjAzWkxMUFVUTlVnYTctY0RPNm5MVVJfVU9YenlDeUpKSEpKUzlyVkFaSnVnaWJWWktJN2I4UkxPZXRvcFk5RGlIRm1IbVktSUZpSFdtRXFjTUpzRDRjSWYtVnc3M1NMTUFOMW8yWTZoR0pPOGFydFZISlcwV3U1WVRJUEtCeTVfRjRuWnBn?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Ozempic vs Retatrutide: Eli Lilly claims 'more than double' the weight loss in latest trial — What's next? Livemint"
+  },
+  {
+   "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
+   "l": "https://www.statnews.com/pharmalot/2026/10/29/peptides-policy-released-by-hhs-pbm-disclosure-requirements/?utm_campaign=rss",
+   "d": "2026-10-29",
+   "s": "stat",
+   "x": "HHS released a policy that will temporarily allow compounding pharmacies to manufacture some peptide products"
   },
   {
    "t": "Thousands of peptide injecting kits handed out as Health NZ sounds warning - Stuff",
@@ -254,90 +345,6 @@ window.FEED_ART={
    "x": "Eli Lilly says retatrutide shows more weight loss compared to Ozempic thv11.com"
   },
   {
-   "t": "The U.S. government will no longer penalize American companies for making six popular peptides - MarketWatch",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZFZIWTZFYU5tdm5FQWZjR00tdk1NMEtHdFJ3ZDhnX0ZBLVZOQjBTeG5na0ZfRjBGQnVJZl9MaENIYjlCaGJFdGVTaEtDNDNaUnBvU3Q0bmNYMllIbDFudkVtdFVYOE9Oa0lxM0kyQjk0YkVoVW95bkNfcEYxYjBFT3o5MUh1aThKRy01b2lBclR0a3M4d3V4U2VkaWFXcVNMR0FxRzFSLXdxaFEzQlNNSDB2STVsakVvWVhfbmNQNFN3eVlaTjZPSg?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "The U.S. government will no longer penalize American companies for making six popular peptides MarketWatch"
-  },
-  {
-   "t": "Retatrutide beats Ozempic on weight loss, blood sugar control, study says - USA Today",
-   "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcmtubEp0WTNJVndmRVV4YmMxZHFwZUpfcUNYdm4wQk1ZVWNGMTA5R0tRYXBUeHRBcjgwbDZ3WnVHV2I1eEZXZ0FrcTZpdmVLVThfYm5OLVNnSjdqdnRLdlZXOWxLeWV4R0ZiS3U3ejB1U2lvaW1jb1hjNDJPUXZfcTc2blY5MG0yNjhEWU82ZnhwSkRTVXBBQ3ladWxfUXdFVmhtWW5ZRWxIZk1UeXR2Mkc3OHBkOWt3VE5Vb2dUYVNpQkJtQTY3UXZZVno1M1NpVkFFUg?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Retatrutide beats Ozempic on weight loss, blood sugar control, study says USA Today"
-  },
-  {
-   "t": "LLY Vs NVO: Lilly’s Retatrutide Beats Novo’s Ozempic In Head-To-Head Trial — Retatrutide More Than Doubles Weight Loss - Yahoo Finance",
-   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNUjFrVmNjNmFnNk1iLTdEQkg3NnZTMTd6THh6bkRFWGh5S1BSWnZPQ2tnWm1vdnRWeHUzTjJpdVRIWlBCMVhjeVFVMEhDZ0ktTXR5Mk51VU8zNEZSYU14N1luTjdnbTJETmpSNmRnbmotV0U5TE5NbnZFZGw0ZTlvNHZub0ZFLTZDWFpNUXZMbnk0Uzg?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "LLY Vs NVO: Lilly’s Retatrutide Beats Novo’s Ozempic In Head-To-Head Trial — Retatrutide More Than Doubles Weight Loss Yahoo Finance"
-  },
-  {
-   "t": "Lilly’s retatrutide beats Ozempic in head-to-head trial - Yahoo Finance",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeHdyX2d3RGV3MkVGdjRuQ3ZYTHpLQUx3V0pqUHVZYWxkS2RRY0hkanRDNkNNUHlNcTBabTJUcGtITElDZ1hfWUxnSG1VSXllWGhJM2NGdFc0dGo3aXpXSWctVW91enB6WEpCNjVuWXF0MmNxNEFfYng4M0Z3S01LT19JZnJyYmp0bWc?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly’s retatrutide beats Ozempic in head-to-head trial Yahoo Finance"
-  },
-  {
-   "t": "Lilly's retatrutide more than doubled Ozempic weight loss in trial - Quartz",
-   "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1hLWNFYWtQMU9HbGdRamYyQnJTeHpLNFZ3MXhneVpGTlZ3S05NRmotZndvSHpieHJiZHFoV0xTSU1pbU1uaGhMVEYzUmNTLW1jUnd1ZkVYcWY1cTh0STJHazRmMl9wclZmdUpaQnJtVUdTYmM?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly's retatrutide more than doubled Ozempic weight loss in trial Quartz"
-  },
-  {
-   "t": "How effective is retatrutide? Eli Lilly weight loss results, Ozempic comparison, side effects, and FDA timeline - Clarin.com",
-   "l": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOcmFlTXo0OUN2aHJmTEpXOXVqdkRCWTlzbERNUnJNMHl3bmczdDcxcXhFMEZfX0VPc2EyQnBYYmdmckp3VlZDT2R5SlRzRzV6RjFiX0hmd3ZySGRJZUl2X2ZFdUVXZWF0d3ZJRUZIQU0yNzFjSnRDU1ktekVWUVNYNUtxaEhuaDFOYURYc3Y5OEc5Tk1ISEJRN0hoZXRLdXkzSDU5T18zTXZVM1ZCdlhNb1NwbjQ4QTZVWEFEMGQ5c19QTDRJRUNsamgxT2RHWTdRaTVCaUZRLVZpZndtb1FaOVFpMEFrS19DcXNvMtIB8gFBVV95cUxPWGZMSzVsYlhoaUpYYVJzRXIwUTdUb3VpQlRDU092X3htcDJYWGEwTWpheURzLVVtSFNKVHcwYnNSdzlDNmJVOUpQNUg4dHNyQ0ItZTlzSll6ZTFJV3NEWGkybEVOT1U3R0duajJsZTIxMXZjZTNCbkZRWXFOOUZCSE5lakd2WlhTQmdCVlVKWFJWYlpuQ3Y0ZVNNUUZBa08zcG9fRnFsYkJMREwzVGE2MFNOMUMxb00xMzZSSmtoMUliUEtCY3g3YmVENFdUSnRlYThaM0xNVHA3ZzhPZHZ4QV9VWUFLUDZfWlVGYU5KcVBvdw?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "How effective is retatrutide? Eli Lilly weight loss results, Ozempic comparison, side effects, and FDA timeline Clarin.com"
-  },
-  {
-   "t": "Lilly's Retatrutide Trounces Ozempic In Head-To-Head Study - Investor's Business Daily",
-   "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOU3ZFLUt2Z3lKOEpSeERfcGRVb0ZBNWNoc0s4VUh2WUlza0RqWXRRdDBIeHFyNzJYbzI4WEs3dFVJZWtuM1ZkTVcwZFEwYmVmUkJfdGVPQlhEN0paMUNNWW5wMVQyNnFnTkVGWWlSTUs0a0tyMG42bDBUdkRfNGVIZTY4WEtMckp6S1JNdnVWcXoxeTlOUER6T2lHVzY?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly's Retatrutide Trounces Ozempic In Head-To-Head Study Investor's Business Daily"
-  },
-  {
-   "t": "Eli Lilly Stocks Rise After Retatrutide's Head-to-Head Trial Results - TradingView",
-   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPbjVoMlZadlpiYXhmTHo1SjBETWRnSDV0d1pqWTNkQUVCQ0l0dFF0NXRDX0tpSjZnUFdCOG53amdrT1lFaU9JcXUteUdxeWtLUWJ5bFA5S2tVMGRLLURZYXB4UkxZc1VHZF9jNVhsLU9aT3dPaDJKTGw1ZXJ0SnJhbnYtVFFUOTN2dGJFaS1oZlVuU21TSWN4ckdKRXpXa3BpaExidjh3OV9oVkQyM0U1VjJDUkkyNmMzMlo1dmJZaU5yTXpMSEpR?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Eli Lilly Stocks Rise After Retatrutide's Head-to-Head Trial Results TradingView"
-  },
-  {
-   "t": "Retatrutide vs Ozempic: Lilly’s triple-acting drug doubled weight loss in a head-to-head trial - Nacionale",
-   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVVg2eVBJUVN1QmRjTFdyTFplc091cnNVSllGVnVmVGpKcXpSZ0hiZU9uUVJZT1Jkal9qbEt4d0xTMnJVVjczckRiT2E0aUNiZGlPd2xFNTVibW9NUHFucVprbU1peDFRdGNBSW5vcGxvVEhpazJ0SDRNODVFTkJNaHh6THVZS1VsbUw2cW5DVDJ4TWtZOHNIX1VIb0R4Y0tjUmR6MTVn?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Retatrutide vs Ozempic: Lilly’s triple-acting drug doubled weight loss in a head-to-head trial Nacionale"
-  },
-  {
-   "t": "FDA scientists opposed the Trump administration’s move to ease peptides access - WHEC.com",
-   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNQTAwVS04d2s1N1NZN3RDOWJmMVpnaGdFbl85eDRiSGpWbUlGSmc3WlU2SXpYX3NhdXVYdUdSamJ5RmhTaTBIanRwOU5ES0c0NEhLeU1lczBlaGxEd2YwMjVWMGFMbjNEMXUwU3lmS1VSTWtjaGczcC1hcktOdEcwMnNBU0x0MWsteXJPZkphMkpYYUZCc0FUaDE2cXpyZTZOMk96ektDMHBQZVdOdVMwNQ?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "FDA scientists opposed the Trump administration’s move to ease peptides access WHEC.com"
-  },
-  {
-   "t": "In Head-to-Head Trial, Retatrutide Crushes Ozempic - Newser",
-   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOdkNnSmdiQUllaXRCVTZhNVI4RmFzNUdUT2t4aHVPclN1clp4TXp5eloyNlItc2o4R1pDRlBpMjdMNi1HQzVyVVZpQkJmRms2ZUZ0WGthWnBtMS16ai1CS1drNDdHa2d0WGgyWmdxVkgtaGtUdDkzTXpNWjFieGEyRDE2RGZ6SS1SUFRKLUxQbmdMdkxaUG0zRg?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "In Head-to-Head Trial, Retatrutide Crushes Ozempic Newser"
-  },
-  {
-   "t": "Lilly’s retatrutide outshines Ozempic on weight loss, blood sugar control in trial - CTV News",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTnBGVUZoVnVMTjhqRGdpLV9pUGZkN2RBemtYRHVhRFVUM1h3Q3JtQ3hLNmVCLXRVZU9YVDEwc1pweVBTQUpidUFvNkJQQlJhM0lWLWhIR2Q5UXY2WlJKaFY2Y3FPOGxaS0Q2T0ZqSkNKdG9jS0doTm9JUjR1LWF6QWhvbHFmSU9UTDYwSmgybXJKeDhQZk1McllYNDVsUExZNEhfT0V6Znh0LTJqZ0w2YUZCTl80bGlRa2R3?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly’s retatrutide outshines Ozempic on weight loss, blood sugar control in trial CTV News"
-  },
-  {
    "t": "STAT+: HHS moves to allow compounding of some unapproved peptides",
    "l": "https://www.statnews.com/2026/10/28/hhs-enforcement-discretion-policy-allows-peptide-compounding/?utm_campaign=rss",
    "d": "2026-10-28",
@@ -443,7 +450,7 @@ window.FEED_ART={
    "x": "JAMA · Rubin R."
   },
   {
-   "t": "GLP-1 Receptor Biology and the Therapeutic Role of Incretin-Based Agonists in Metabolic Diseases.",
+   "t": "GLP-1 receptor biology and the therapeutic role of incretin-based agonists in metabolic diseases.",
    "l": "https://doi.org/10.1016/j.ejphar.2026.179406",
    "d": "2026-10-08",
    "s": "epmc",
