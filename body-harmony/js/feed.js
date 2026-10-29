@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-29T13:15Z",
+ "generated": "2026-10-29T22:50Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-29T13:15Z",
+   "checked": "2026-10-29T22:50Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-29T13:15Z"
+   "lastOk": "2026-10-29T22:50Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-29T13:15Z",
+   "checked": "2026-10-29T22:50Z",
    "ok": true,
    "new": 0,
-   "seen": 1,
-   "lastOk": "2026-10-29T13:15Z"
+   "seen": 0,
+   "lastOk": "2026-10-29T22:50Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-29T13:15Z",
+   "checked": "2026-10-29T22:50Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-29T13:15Z"
+   "lastOk": "2026-10-29T22:50Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-29T13:15Z",
+   "checked": "2026-10-29T22:50Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-29T13:15Z"
+   "lastOk": "2026-10-29T22:50Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-29T13:15Z",
+   "checked": "2026-10-29T22:50Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-29T13:15Z"
+   "lastOk": "2026-10-29T22:50Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-29T13:15Z",
+   "checked": "2026-10-29T22:50Z",
    "ok": true,
-   "new": 3,
-   "seen": 3,
-   "lastOk": "2026-10-29T13:15Z"
+   "new": 4,
+   "seen": 4,
+   "lastOk": "2026-10-29T22:50Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-29T13:15Z",
+   "checked": "2026-10-29T22:50Z",
    "ok": true,
-   "new": 111,
-   "seen": 137,
-   "lastOk": "2026-10-29T13:15Z"
+   "new": 131,
+   "seen": 153,
+   "lastOk": "2026-10-29T22:50Z"
   }
  ],
  "items": [
@@ -109,11 +109,32 @@ window.FEED={
    "x": "HHS Plan for Peptide Drug Access Faces FDA Opposition Amid Safety Concerns SSBCrack"
   },
   {
+   "t": "US Health Secretary RFK Jr to expand access to unapproved peptides - BBC",
+   "l": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XVURqTDEzYXh6NjFMLWNKTXRFYkhldlNQTnFPekgtQzhWeU53LVF0b1BQNUFWLUVzWC1YRW16WUlLQlhjbVFKM2xKMFBQWWo4WWo1WE9lMS1JaHc?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "US Health Secretary RFK Jr to expand access to unapproved peptides BBC"
+  },
+  {
+   "t": "Some wellness peptides will become widely available, HHS says - شبكة تواصل الإخبارية",
+   "l": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZUUNUMmhDTk1fSW5JdzhWWHB2dC1oS3hlM2Z4cWtTUE1QV3ZhNTVFbVhGNlJmN3dUb1YwT1FGMkFsQTJPMkRValUyalJ5REhaY2Zr?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "Some wellness peptides will become widely available, HHS says شبكة تواصل الإخبارية"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/lilly-breaks-down-medicare-bridge-boon-glp-1-sales-drive-another-guidance-lift",
+   "d": "2026-10-29",
+   "s": "fierce",
+   "x": "As Lilly’s tirzepatide franchise continues to deliver strong sales growth, analysts are increasingly turning their attention to new catalysts in the GLP-1 market, including the launch of oral obesity medicines and the rollout of a nationwide access program for seniors."
+  },
+  {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides",
    "d": "2026-10-29",
    "s": "fierce",
-   "x": "Stopping short of a formal declaration allowing their use, Department of Health and Human Services secretary Robert F. Kennedy Jr. has cleared the way for the compounding of six popular wellness peptides."
+   "x": "Stopping short of a formal declaration allowing their use, Department of Health and Human Services Secretary Robert F. Kennedy Jr. has cleared the way for the compounding of six popular wellness peptides."
   },
   {
    "t": "",
@@ -130,18 +151,74 @@ window.FEED={
    "x": "Vanda Pharmaceuticals secured a phase 3 win for its motion sickness medicine, Nereus. The drug reduced GLP-1 related vomiting by 27% for patients on Wegovy."
   },
   {
-   "t": "US Health Secretary RFK Jr to expand access to unapproved peptides - BBC",
-   "l": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5XVURqTDEzYXh6NjFMLWNKTXRFYkhldlNQTnFPekgtQzhWeU53LVF0b1BQNUFWLUVzWC1YRW16WUlLQlhjbVFKM2xKMFBQWWo4WWo1WE9lMS1JaHc?oc=5",
+   "t": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides - The American Journal of Managed Care",
+   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOGJxLVd0bFNOZndDUlRhME5JY1cyMFlNbVg4SUZsT0g3QVRQWk56eG16MElNcVFvUzJFM2ozSENUQmdEd2V6TllycFE0QTlVWmxtaHI3X1h0RWlBUHhDU3ZpSlh3YjBHZVppcDFJSDlsMU1wWHZZdjZzZXJkTnZtRHNsSl9lUDFnc3M2UTd3?oc=5",
    "d": "2026-10-29",
    "s": "gnews",
-   "x": "US Health Secretary RFK Jr to expand access to unapproved peptides BBC"
+   "x": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides The American Journal of Managed Care"
   },
   {
-   "t": "Some wellness peptides will become widely available, HHS says - شبكة تواصل الإخبارية",
-   "l": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBZUUNUMmhDTk1fSW5JdzhWWHB2dC1oS3hlM2Z4cWtTUE1QV3ZhNTVFbVhGNlJmN3dUb1YwT1FGMkFsQTJPMkRValUyalJ5REhaY2Zr?oc=5",
+   "t": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections - The New York Times",
+   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JSWpTV1hKUWtzalplclV0dU96SUJEQURMQVZwSG4ycDZWT01DNDRscUY2b1k4Ykw2SFE1aTVuSkc3ZWxtSFhGZDVhMTlHZEFBb01DX3JUTjJObUxVQ0hmVG5PTHNYaWhucmFMNmFRQzZTTmJtdnc?oc=5",
    "d": "2026-10-29",
    "s": "gnews",
-   "x": "Some wellness peptides will become widely available, HHS says شبكة تواصل الإخبارية"
+   "x": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections The New York Times"
+  },
+  {
+   "t": "Unproven Peptides Opposed By FDA Scientists Could Soon Be Easier To Get - U.S. News & World Report",
+   "l": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNaWNyUTFxOHJ0RlZBbjRuLWFWOU1BUmZRMmlaR1VvQWdpcnpCM2J3MXBoYnA2X2wwX3J1SEFtZWxUZldrTWxyQS1hZWdPSzVhVEdNcEsyT0poVDhPb2JwVU5rRndFd09LQUNMT2RwamdRX3lWcmgzd1dMOVBFTmUycFVDMDNMWXJkOEFNWVBiQXk3QmpZVVRMNV9XTmNIZW9sU1hsdENNd24zSHNmSFZzMzRqdlBiOTRxMUJweU40Y0xqRWN5Wkt4ZmF4SQ?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "Unproven Peptides Opposed By FDA Scientists Could Soon Be Easier To Get U.S. News & World Report"
+  },
+  {
+   "t": "RFK Jr. eases access to unproven peptides despite opposition from FDA scientists - WPTZ",
+   "l": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ONmtPQk5nY09YMXlPSFlNai1MQ2xKeG9kY2RsZkRkcFZJZkpEU2p0bUZzeWVMNHY1QVFTTE1IRW5WSnpzVTk4a0MzOGVwRDFyMTNRRnpoTTBueldUNU5tZlRvekZWV2hVU1pzMXBhSm95X1hVOHpJLV8ybw?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "RFK Jr. eases access to unproven peptides despite opposition from FDA scientists WPTZ"
+  },
+  {
+   "t": "HHS will allow licensed pharmacies to compound six unapproved peptides—but says the policy does not mean they are safe or FDA-approved - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdUxvQVJqOHpzOVpXMVRVUHhHRDZsaTRnV0toLWg1QkhHTkFkaXluenZ2UEFjd3NJZldBQWFaTHRnZkF1QVFpQU93V0ZQQzhveGVvcXF0NE5sR242UkI5YnFMOFhXbkkwMXE2amZwcHVfemNxTUhpNXpWNmRyVS1qdEdBOUlmNHZrRHc?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "HHS will allow licensed pharmacies to compound six unapproved peptides—but says the policy does not mean they are safe or FDA-approved Medical Daily"
+  },
+  {
+   "t": "HHS gave 6 peptides permission without proof - https://www.celinegounder.com/",
+   "l": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zbkVoel9VSHFkc3llNm5uTHpmWlBOXzBwb25XcW5yQmM3X013aHBuZjdYMFp4cGkyelVCT3NHU1plZGhkM0otbW03TzJxcnBxbnZlWU9jRVhXS29BMWc3MzRFWWpNaUJEZmV4WnlRRzA5NVgxQjNvdg?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "HHS gave 6 peptides permission without proof https://www.celinegounder.com/"
+  },
+  {
+   "t": "HHS Lets Pharmacies Compound Peptides as FDA Writes Official Rule - Drug Topics",
+   "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxPcXp3OFlYVkZXN2NkV19RZ1llYlNPdUlwbTROVnVTb2FnQ3p0NnZ3UkRLcUI2SGhBYUZxdnVESlQ5Ulo3Sk8yZE1PRURHZ2NBWGtoZmR4ZUlENE0tQnRXMjY5dlZBdG1SdUtZNDRwZF92Yk9zeThRRXhnS2ZqN1NlYmJreFpqZGdBemVjS2NhcXVfbzRzWlIxWHV4UE5CUQ?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "HHS Lets Pharmacies Compound Peptides as FDA Writes Official Rule Drug Topics"
+  },
+  {
+   "t": "5 Things to Know About HHS's Interim Peptide Compounding Policy - The American Journal of Managed Care",
+   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSnA1YTJWVW53Z1BqVzhIQTBSdktKNmI2c19pb0h4S1IwTklzS2ZNZ096NHhrOGJucWJfeUtMUFFDazRwNnVnTVNWcThBRmF1SHZLd2lJYWJaTmp4ajJZRzM3VW5NRkF5c3pleDZBQnVSX0Y0RFczMHp2MjlZWDJ5MHE3STJVcWd4ZlROeTY4NXREQ3c?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "5 Things to Know About HHS's Interim Peptide Compounding Policy The American Journal of Managed Care"
+  },
+  {
+   "t": "BPC-157 'Wolverine Peptide' Use Rose 33-Fold Despite Scant Evidence - The American Journal of Managed Care",
+   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY2RPMVdCZXJHRnBCNXVHOUxRc3Jia3BmR3B3QVRlbGtrZ3Fwckc2aFRhWUN0dUNrcEpQR2tzaGlSV3NXTU03cHQydTJ1V1B3NDZROS1jRDZPM09MTi1oRlZ3NGI3c2EzWUhNVEJqdWNqZ2JpeFZvM2Q1UG8xMTZoN25uNHFJRF9FME9tQ0tSbFVobHpGR1E?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "BPC-157 'Wolverine Peptide' Use Rose 33-Fold Despite Scant Evidence The American Journal of Managed Care"
+  },
+  {
+   "t": "HHS Lets Pharmacies Compound BPC-157 and Five Other… - inkl",
+   "l": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT2V0THh0a01PWUhVRTBHNmFoUjd2emVaNkprUXhzVXMwb1J6TGEteDByVWRPOWptbXZ3ZFRqNS1WM1NXVHpreWduanJPYnJxY2YxRXFsR0RXNVV2X2dsQWwtXzBwSWZXakxyZFJCVFFoVlhDZUV1RnlMVnp4cHZ4MWJVVHIxT1JCN3BjNTlUTXJyS3B0XzlOczRmdWtvMGZ5UGtDTVE4NmI3b0RpY0JqSXIxR1dWUUVIbVNiWUxuNFNkWm51b2w0X214LTllT2NHbUE?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "HHS Lets Pharmacies Compound BPC-157 and Five Other… inkl"
   },
   {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
@@ -256,11 +333,67 @@ window.FEED={
    "x": "FDA scientists opposed Trump administration plan to ease access to peptides Mezha.net"
   },
   {
-   "t": "Peptide Advocates Are Challenging the FDA's Safety Concerns. Does Their Evidence Hold Up? - MedShadow Foundation",
-   "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWTk4ZXlqS3FibGs5UHFHTFF2WE5CNWFFeWpmcFkxck9pWHQ5a0NMX0FWQ3RrNDZ1R1paWTdEZlVQbzdLQTdSMlBXbl9jXzY5Z1IweWN4cmtVemxiZmVOQVEzaTNnR0RHS1dNckR3cnZfRkpBZGZEeGJ5U2M0RHJob2oySXUwNDJtbDNtRTFIeTZOTnF5WU1rWFl3?oc=5",
-   "d": "2026-10-27",
+   "t": "FDA scientists opposed the Trump administration's effort to ease peptides access - Bozeman Daily Chronicle",
+   "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPZ1dqbUZaaTRDdFg0TjdkWE1kMWVEWU5nNnhEQzVlb3BLX19IQVJSOUt2bTE4d0I4UXdSbjZoTEMwUVo3VEp6V1JYaVF4dE9WcUVwWk1GZTFlWGgtRHluNU53TC0yTlV4MWpSNTNKTUFnYWt3UVhIQ05WcVJQeUxWdE5wUmVUbDlzVktNZjJWUVcxNUp3dnNnUW4zYi1ZT1E5Z0VySFNsUEdGSnFvLWpJTmE1Y3pXRWNOZkplcmIwVWhSZHZyU1ptUzc0Z19rdTMxc0tTemhyVFNjNXJwVm81WlBQeko0YWFwRGVSRW51cnVXWXNkdFpSUmdyNU9JV1pYR3gtdXRJNDFUQU5BLUE?oc=5",
+   "d": "2026-10-28",
    "s": "gnews",
-   "x": "Peptide Advocates Are Challenging the FDA's Safety Concerns. Does Their Evidence Hold Up? MedShadow Foundation"
+   "x": "FDA scientists opposed the Trump administration's effort to ease peptides access Bozeman Daily Chronicle"
+  },
+  {
+   "t": "FDA scientists opposed the Trump administration's effort to ease peptides access - WWLTV.com",
+   "l": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPSUtaME1MTWpDSDR1RVlqVGE1YjZqcFIxN1VsM1pLUFN5WlhNdmk2WWludDREWmJRUjJmSDFyemdZNXFtOU1kMVEzSW1KMHZuN0Y3dk5RS0YxYWxfRC1xTXJ1UEJMTlBZLVhWOVFJY1I5ZnRVdXhJd2NkaEFEV3RSeVZxaV9PaVlnVWdUQnZNT0pfVlgwRFdhSUwyV2hJaEgzU2U1STUtM2FJUDQ2SEZfM0ZQRUlWcWxkb1hMZzJRSl9IakZZdVVjQXcxQl9iaUt6QlBNSVdUN0NRcXZ3X0lkTnVIMFdMUTJIN3R5OTVFaXN1bG9jX3ZTcVZDeVRtdDZFdnNNZWNjQTBtQQ?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "FDA scientists opposed the Trump administration's effort to ease peptides access WWLTV.com"
+  },
+  {
+   "t": "FDA scientists opposed the Trump administration's move to ease peptides access - Yakima Herald-Republic",
+   "l": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOSFNUdklhZnlCWDNCNW0zS3BMYV9VMkdSX1BWLWJ5eDdwRVhidjg3MW5TVEk3Yjk2QnZ5a0lKYXVMeGZYUm1KYzh6NkJhVExfZnc5Q0gzczVETGNBVHdRYk9CU05sSzR3anR3cldxSlJLYURlbThGWW00QjRRMkpvTFEzdGpGTS1UN2FqU3hHQTdNMkJTbmVmeVRkNTRWQmlsOVNxaTZJMkt3REI2cnh3R2NRVmFSaGpLelE4bnJUelUwZHg5c3M4aWRUTlFjOGdkZVE3dmIzZEh3UDVCWW9LUU5DTjJCeEMtVjJHQVdrTVZjY2ZQd01MUXg3NmRQcl9lNUhPZlJtbDZsWlVwX1ppQzFYb9IBmAJBVV95cUxPWEwyMXdEUkRXbzQtQ2x6Ry1Iek5QMDVPRmNVbTV0U1pNMm1KLXk3NURia1h6b3Rpc2JiWW9PSG1WT3V1VkxfejNEZjVoRGdJbEJzTUpxRUMyNXF3dGlBcDNWYmduUklPNmdDTDltZ0s2TFpxUHVvOXZla1VxQkdNVzFiMWU2d3dGY09ZQkx6QVVwb1VwcmEwZkFxb2JLOUt0Qzl5QjBSVDVybkNpTHR2WjBZaXZFRVZYR3h4NFRKMi1xMEJKeU9CTXZmZVJGdWJZanktc2w0SmZ6Q3NNemwycU5RMXg1ZEQ3ckhvODNqVXFEbkcwbF9NSERIWkFZcTdESTdpeGFMNUtaU3VfYjIxOUN3WVJfSFJH?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "FDA scientists opposed the Trump administration's move to ease peptides access Yakima Herald-Republic"
+  },
+  {
+   "t": "FDA scientists opposed the Trump administration’s effort to ease peptides access - myMotherLode.com",
+   "l": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWEJJWFVlU0stc3otdjQ1b1BzSTRqX2MtZWYtZDVxU1RMYTN4Nkd3RlNxS25yOXhjTkwyTTFMZXllc0stVWRMem9OV0ZlZkRaam9kWkI2djJPRXJ0WGw2VDdyam1DV0pDU0dYNXlTR2xqVzBUT1RZSkFrT2ZUcVlWb0dHX2hvTEhlQkFTcThVeG8zX1cxZjgzZm5Nd2F6MzQzYzdaSnNzRGhUU0NXSTlIclZTNHpISlluR0dBQXl1d2dlTzBoQklXdkViTFl4eElKbFHSAdIBQVVfeXFMT1hCSVhVZVNLLXN6LXY0NW9Qc0k0al9jLWVmLWQ1cVNUTGEzeDZHd0ZTcUtucjl4Y05MMk0xTGV5ZXNLLVVkTHpvTldGZWZEWmpvZFpCNnYyT0VydFhsNlQ3cmptQ1dKQ1NHWDV5U0dsalcwVE9UWUpBa09mVHFZVm9HR19ob0xIZUJBU3E4VXhvM19XMWY4M2ZuTXdhejM0M2M3Wkpzc0RoVFNDV0k5SHJWUzR6SEpZbkdHQUF5dXdnZU8waEJJV3ZFYkxZeHhJSmxR?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "FDA scientists opposed the Trump administration’s effort to ease peptides access myMotherLode.com"
+  },
+  {
+   "t": "FDA scientists opposed the Trump administration’s effort to ease peptides access - Los Angeles Daily News",
+   "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wR3p1dEdvQ1p1bEdsUGU2VjlHT3RzU2dieng5MmFfS3Y4ekFoMU0yRmRjV3RqWDJuclZuQjNxV0RwcFFBYkpaWG1fNVBYZmNZeDFJZEViV2R2Ni1uYlY5RkExcmRiOThUcGpJc05QbFhJV2M?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "FDA scientists opposed the Trump administration’s effort to ease peptides access Los Angeles Daily News"
+  },
+  {
+   "t": "Some wellness peptides will become widely available, HHS says - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLVI4SUY3c0gtbkVmWGpLM3Y3TkNxcUFMb0JJNkRocGlwYVlLOFU5WHo0YlhuUktpUGNlNWI5UUtjbzNKRDRIUDhrQ1ZfTnZKaVJBaWVXT1NQMFUyOGtsU1VtSUR1bnhyZWZmWWNGVXRsbE9ySDYza0t1b3RCQWRSTnR2cEFFbHlQRklJbHpB0gGOAUFVX3lxTFAtUjhJRjdzSC1uRWZYakszdjdOQ3FxQUxvQkk2RGhwaXBhWUs4VTlYejRiWG5SS2lQY2U1YjlRS2NvM0pENEhQOGtDVl9OdkppUkFpZVdPU1AwVTI4a2xTVW1JRHVueHJlZmZZY0ZVdGxsT3JINjNrS3VvdEJBZFJOdHZwQUVseVBGSUlsekE?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "Some wellness peptides will become widely available, HHS says ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "FDA scientists opposed the Trump administration's effort to ease peptides access - reflector.com",
+   "l": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcE4xRU1zR19sS216aDhPWTJhM1VqdFgyOUdXU05FZjhXSm94UTFORzhUUlF5aG1LVUNXZnl2Sk9QZk5YWXluc3FkbENETXlaX1lvT09TU1g4dDNwVzRtTmJiWVdGMVIyaFg1SDJ2TlltMHE1eFJGUEtOUWR6THBoNEZ5a0Utd3pHbXpWUHBYdFRlUk41VnFWR002alUwcGdTQ2J2dHdfSnRzR2tpN3J0dk5IRkNfVzB2WkNVdXRpQ0lPcjZSNGZ0cFRvWXltWF81TXdzV3hVTkZGMXpMWUMxRGNzcVNzR2pRQ0hXTlZEQUZ4MUEyOHNXQ3RVckQ?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "FDA scientists opposed the Trump administration's effort to ease peptides access reflector.com"
+  },
+  {
+   "t": "6 Peptides, Including BPC-157, Just Got Easier to Get. Here's What Health Experts Say Happens Next. - Men's Health",
+   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMERfUDBiUE5IYjdocjZDOWgwU3hZckkwWUFTV19HMkNWZUxNTkdlT2xISVYwVU1BbGMxYjVBbVh4bUw1aEl2NjhRYXJqcWx1aUx4QzdTVGpsR083RFRNalpNd29lcFVhUWJXZGI0b0JfYmlYcjR2dkFLZm5xeXRNa21QU2I?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "6 Peptides, Including BPC-157, Just Got Easier to Get. Here's What Health Experts Say Happens Next. Men's Health"
+  },
+  {
+   "t": "RFK Jr. eases access to unproven peptides despite opposition from FDA scientists - The Vacaville Reporter",
+   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tekd0U21nY1R2dkFPQ3Vvb0MzNUR6QnpxSWZLcjdqT1hBNUNFSEVkZkp1N2k0M0I5ZVM4cm8yd0tGZnNMTHpDSWdqRGVsekpUdVM5TUdwd2F6MFNvLUJLM3NYRncwcl9tcjV3X3lEQWh4Z1V4Znc?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "RFK Jr. eases access to unproven peptides despite opposition from FDA scientists The Vacaville Reporter"
   },
   {
    "t": "Registered Outsourcing Facilities",
@@ -277,34 +410,6 @@ window.FEED={
    "x": "The FDA is working to improve adverse event reporting of compounded drugs to protect patients"
   },
   {
-   "t": "October 26, 2026: PSM files citizen petition asking FDA not to allow compounding of peptides - Partnership for Safe Medicines",
-   "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9NRi04bWdNSlowTkNXM1VpQnBybm1mZzdMZ2tTNEIxMEdXd1M1cFVXZHNkaVoxWFgyc3pZbTB1Zzhta1Jhc09vVUd3M3ZPbW1YTTI5LVd4WGg0d3pDMl9vSkNOQmRDenlDelV4cU96eFhiVkE?oc=5",
-   "d": "2026-10-26",
-   "s": "gnews",
-   "x": "October 26, 2026: PSM files citizen petition asking FDA not to allow compounding of peptides Partnership for Safe Medicines"
-  },
-  {
-   "t": "FDA moves on peptides put consumers in harm's way - Center for Science in the Public Interest",
-   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOWlJVkdzQi0zckVLdS1oM01yQzFkTl9QVUZnaThXZ2JYWEpmY3IycWhCdFNHZFpvVFBLTmNnWUZKSkpjc1dQQmg2aXlVTGxaVUtwaFZycXo5ZEpqMEp6YUdiVWhEdHdiZUk1V3NEVzl6U01OOW1LdTM4ZVZCUFFXaUNpbw?oc=5",
-   "d": "2026-10-26",
-   "s": "gnews",
-   "x": "FDA moves on peptides put consumers in harm's way Center for Science in the Public Interest"
-  },
-  {
-   "t": "Recall alert: Some GLP-1 injections recalled over sterility concerns - WGAU Radio | Athens, GA",
-   "l": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPTVcwN2Q4N0Qwa3JfRjd6NjB4UlpIQWtCeHZRdUs4cTI3OVl2eVBHcDkwajFLYlJBdmY3azNIVTA5NXFLYW5ybnFJQ0JyU2p1eVFJYnpqNVEyQWxrNmMzNnJMa195N0tNZTM1OEM0RmF3WDVlSXJVeFFLTHFpSmdLY09IR1UyYm9sNEFUb19XRnNyUmx3Z2Q5UkpnX1ZqYVQxZ0VEazVyNjlldnBFQW5OWDlUTm95amw3RGVqamVQcVRMNlhTMHhYd1M1NjhZRmto0gHkAUFVX3lxTE1zZlZodXRKLWhQQWhVMEVYUlBpZHRKTEt0N2lPRWJoeXlNQnFwbkQ0NUpoSXVLQ01Yc1p6TDhHU011R2hQdGRic2Rib3lGZmJ1X2RJWmFHOUhjNk0xdjJEdnVnODN0WmZDcTBvUVhfbXVjck5ieGIwZWNwcGZpNW1sNUpOcGRoQnB5MU0yUUthVkREaFE3RXZKV19jZlFvUlhqZDkxWjFuVUVKdjhqN1BKSHItOC1XYXhsWlRxX3J6QU9VTTgxUWw0U1pTR3Y4T25pNXkzTHNGWmNMQmNnZzVWMFJQUQ?oc=5",
-   "d": "2026-10-23",
-   "s": "gnews",
-   "x": "Recall alert: Some GLP-1 injections recalled over sterility concerns WGAU Radio | Athens, GA"
-  },
-  {
-   "t": "Recall alert: Some GLP-1 injections recalled over sterility concerns - 95.5 WSB",
-   "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPa2JRWEtPYUZqdUZFT1V6T1ZuTUk3NnFwSHdmSU83WEpYZFdkX21YcFhPMVRFLXZ4VEVlRU10aW5Qc09ITWVFZW9aRk9yQmdYMGVGV3FGZm1ISEwxWVB6S1BxYjB3TlFMTjFrNHJycmRwdjhGcWYzZW5GdW1QbTRxaGhkSmxwQ2pEMmZRWWY0a0VVQ2s0WjhqRm9HbzExSkFPcG1hXzhBOVd2UWYzcjFPVTJnT2kzMjQ5WUotMUk4QjVLeWdkeVcwOXBjU1ozUFnSAeMBQVVfeXFMTzFuSGxfcE1zX0NTdW52WUZybzdxcVB1YVVGYWNOY3dKQnp0VjRIV2kyTEFNbmtmMHI1RTA0NllablgweFlONVJDUFNFdlBsWkttUEhLQVMwcmNtaUlCQWs5VllIVzdDWk9TV1ViTkdscW81LWlhb0ZUeWpMYWtxYjZtbV9SSjJzSkVjQkVhVDJnaFpkc1g4TnRZVUlCLVMwY3Fsa2p2SzZFVGhJQU85Y181aEctdHBHWEoxNUdXajl5bVB3bWoxU3ByRlVIdG42bExZeTgwczQ2b09ucGlKYXIwNTA?oc=5",
-   "d": "2026-10-23",
-   "s": "gnews",
-   "x": "Recall alert: Some GLP-1 injections recalled over sterility concerns 95.5 WSB"
-  },
-  {
    "t": "Indefinite Suspension of the De Minimis Exemption for Mail Shipments and New Postal Informal Entry Process; Delayed Compliance Extension",
    "l": "https://www.federalregister.gov/documents/2026/10/22/2026-21600/indefinite-suspension-of-the-de-minimis-exemption-for-mail-shipments-and-new-postal-informal-entry",
    "d": "2026-10-22",
@@ -319,76 +424,6 @@ window.FEED={
    "x": "This document announces that U.S. Customs and Border Protection (CBP) is modifying the test of the new electronic informal entry type for merchandise entering the United States through the international mail process to permit transmission of the entry with or without electronic…"
   },
   {
-   "t": "RFK Jr.’s Peptide Plan Makes Compounders Report Side Effects - Bloomberg.com",
-   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNUZfb3V6UF9VbUNzT0dWYUFiRTJVTUM3MmNMWnlsUUdqNlNFQ1o2TnZVV2VPNXN0Y3dnSlRXWFB3T0lXczFRRG5iNFoyT0liTm1ma1VPQzF0NWtSZmk3M1FQQmJNX3lRbkFtcHJhYTJYa0pnd1dNVXJmYS1CQmRuU1Z1UGZQUm1XT1NTSWQwYjdVLUdSN2dPdlU0YUYzc3kzNDFKbGhoNk94WmFrMGZR?oc=5",
-   "d": "2026-10-22",
-   "s": "gnews",
-   "x": "RFK Jr.’s Peptide Plan Makes Compounders Report Side Effects Bloomberg.com"
-  },
-  {
-   "t": "Partnership for Safe Medicines files Citizen Petition urging FDA to block compounding of unapproved and uncharacterized peptides - Partnership for Safe Medicines",
-   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX3BTaEdzTGxLV3VGd3cxMWVDaXBjdHBmdTBva0pfWjZOeEw3cEFLSDhJMk1vYWtTV1hXVTdLR0J6WGlPTUE4SlQyU1NMVGxnUXBDZFpVdUhsWUE3SEx5UGZUb053TlhQTzBXa3Z5ZUZhTXZqMk5DSEFWZW95ZW1aRmRNNlU?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "Partnership for Safe Medicines files Citizen Petition urging FDA to block compounding of unapproved and uncharacterized peptides Partnership for Safe Medicines"
-  },
-  {
-   "t": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs - SuaraGarut.ID",
-   "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFAtS3l1X2NJVVM3TXRmbFVPRnpHRzVia2NUSU5mVmRqUWtodjd6anZScDBLUEE2enNGajJsbDA4WTN4TnBYNU4zQ3hVaHRHTXQ0VFh5Qkgxa3NaNDh3Wnc1aHNkd0dXT3o0?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "FDA Flags Safety Risks in Compounded GLP-1 Weight Loss Drugs SuaraGarut.ID"
-  },
-  {
-   "t": "Why 22 vials of compounded GLP-1 weight loss drugs have been recalled across the US - ThePrint",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNaE80a2dVdkRMcllhOXl3SzJHZ0NLbnFnX3NwZTVCTVBYNEdNT2k3VmYxRVctbG4yNEJEZF9HSFRrVVYxWmZMQjRuUXdRT2NmMzlBa3ZtZnNJT29hLWY4b1pncWtfNkFMYkJYVXdJeVFMYlNmUlJQOFpzRXpOQXZnbnVuMzl5N3VhZUhhOXdwd0Qyb194X2o5MW9qZG5vT2M3ejVMbWszZUNVUzVwZS1tWWJGTS0xbGh1ZUZR0gHAAUFVX3lxTFA1VkNQenduWEZTeW8yOVoyTWpzWUZEdGNuZGhOdk53OG1vQktMMG9aS1pBNUFxdFNEY0YzQjJsbFo1RldTYWpQVGpPX2MxRHlTS3FHTElISktrbW5UWHNTVFdVVWhuSnhqdE1RUDhXZjIxaWZRQTVNdmtGTDRzejBVMF8xdDBlNFo3V2tXNGd0Q2F3OFNjOFZvQnJLV1ptQlFtTHBBSUthN3ltXzhINWMtYXNHMEhsd2dKMm1FYzVFNg?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "Why 22 vials of compounded GLP-1 weight loss drugs have been recalled across the US ThePrint"
-  },
-  {
-   "t": "Mounjaro, Zepbound Ingredient Recalled In US Over Sterility Concerns - Health and Me",
-   "l": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNT2ZTTDhnN2hIcUFtOVc5WUVkenFBd3B0UGZ6OWpPTDMwMnBFX0hoNXVMdlVKWVZBZ2N3SE9aSnNNdWxGZWR5NGRFZjFzOGxYWkZNaURMNEkzaFV4bmdpQkNnd2Y0SVhHdTBYY3l0ZkxnQVdiWVhjV1JZeC1JNFNlVVlLNEt3V0hyVXQxVm1nSjlFdnBENUxFUG5VNTZjU2V0YzZuOTZXOGZiYnlNLXNNTXBnWHhUMXhwbkxQV0ppTGZfemFlU0d5V3BwZGs2RFY5aHc?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "Mounjaro, Zepbound Ingredient Recalled In US Over Sterility Concerns Health and Me"
-  },
-  {
-   "t": "Compounded Tirzepatide Recall: Which Vials Are Affected and What Is Known - Around Prague",
-   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQeUYwcXA3NmZEX3ZncEpiRENnd3duNXRpRWpaUFIwYWw1RTRKWlRqb0JxVXl1ZXgzb1ZiZlNYTlBvLW14eUdCVDd4MmphWDJoLWdrektiSDVjM0M5YW9YNHFWd2dndGxpYVl0c3hKNGh2Q3JEX2loMm1LaWREcDZQRTQ5Zy1oN1otTWktTUU2VlJRUlR1dy10XzVxd2VwM3RVWm56ZmxWbUZEN0E?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "Compounded Tirzepatide Recall: Which Vials Are Affected and What Is Known Around Prague"
-  },
-  {
-   "t": "Compounded GLP-1 injections recalled nationwide. Is yours safe? - USA Today",
-   "l": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNXzVkYW8zLS02SWkxNU43UnNfcHJnVkR4MlYzYkRCZDhOUWFpZHJlLV9KeVB6WTNGakdaaVpjWkoxVkcwTVlwUk9GR05lUDJkVTJiaGRQZTA4NUtVZVpseXJHS2J5SWk1Z2ZFcDlzN0tFRDB3alRtUDlVYmdzOTNybllfRHpobmF1eHJwT2JvWG9ZZzFKdnJHVkRudndnbUhLV1dfazRGcGVPWDBhTWVhdFNGVHhoNWE2V0VuNFpVZUE5dWQ0Q09hT3J4UjU?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "Compounded GLP-1 injections recalled nationwide. Is yours safe? USA Today"
-  },
-  {
-   "t": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides - Regulatory Oversight",
-   "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTkk5UnJ4dkFlOFR4dzYybmUyekZjSzA3NDR0N3NXbmg0SkF0aFgyQS15S2VrWUlxVmVpaXE4SHJ5N2U5TjZRanUzWW9rOUxfS1o0MWp6SXVwamhBSEFxVFItalFMVFFQRjR5cTRkM2N6cFJNZm1reGlrckFDTWoxanVmcXlEaUJTejZnaWhBY1hPbFBBQVROZnpFbkdBY0E4QVA2bzFXODNaLWd6WlI0Q24yR0xDUzNQUDRRd0Y3RWdvTC0xN1VPM2lyODIzVVBpMkNFTw?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "Twenty AGs Issue Letter on Chinese-Sourced Ingredients in Some Compounded GLP-1s and Peptides Regulatory Oversight"
-  },
-  {
-   "t": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMWpEVXdRWkQxSU5HenFhWndwRTAxOVNmTW1CRllWaTVWdF9obGJxS084TGdQNFhIMERWOFNXejNrN2gzbG5BX1pOd1FpQzR1OXBhUDdGYUFVVllVLWZkbjBmN3ZEeUNQcXhSbzNZc1lRNnJkU0JUaVRibU9HR1hGYTdFV0NSVHVha3VZUk9lSmVYalpTUzRuNWVuNUw3a3NvblhucVNBdVlhUzlKd1V6ZWFiXzQyRHp2MnE3RUlFbHNDQTB6MEpPeg?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "Hims Stock Slips Overnight As FDA Warns Telehealth Firms Over GLP-1 Claims — Why Traders Think The ‘Overhang’ Won’t Last Stocktwits"
-  },
-  {
-   "t": "Compounded GLP-1 weight-loss drug recalled over sterility concerns - ConsumerAffairs",
-   "l": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQa1NvLVFOQTB2eXNrdjJUUG41TUkzclhRTjlObHZ3UVpRYndyZGtPOVdIb0FrTkQ3cnowTVZpWkdjMUdSbFVMLTdzREFTSnMzV193YWhKMUtNVkNSRzQxU3NNSXNTRUY0MUtXOE9OQjJmaUZ3TFdjZkJvN2Nha21FZWR2WGtfT3QzN3M5cXdBN0hXMkRSRG14SlFWMWZ4R0dqY0l4d2hJYkZEMWd3SXpTMWlVODlpdw?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "Compounded GLP-1 weight-loss drug recalled over sterility concerns ConsumerAffairs"
-  },
-  {
    "t": "Wedgewood Pharmacy Issues Recall of Certain Compounded Veterinary Medications Within Expiry Due to Potential Potency Issues",
    "l": "http://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts/wedgewood-pharmacy-issues-recall-certain-compounded-veterinary-medications-within-expiry-due",
    "d": "2026-10-21",
@@ -401,34 +436,6 @@ window.FEED={
    "d": "2026-10-21",
    "s": "fda-drugs",
    "x": "The Center of Excellence offers two discussion series - one for newly registered outsourcing facilities and one focused on quality, and we encourage outsourcing facilities and related stakeholders to get involved."
-  },
-  {
-   "t": "Compounded GLP-1 drugs recalled amid rising concerns over unapproved weight-loss alternatives - The Boston Globe",
-   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaTIwWkNjcEI0c0xFZ29Sb1N6Wk1LTDVReEdNa1VIMVdMU25QX2FrSUt4SVZaT21YSDBZYTZTNDNIbEZUTXJzY0RKQXFKeEswa0J0c0h4UGhia3NRUWJNQXVLMG8yZ1ZvR2ZYQ3prbEFac0s0X21zMWZneUNWSHJLbnM5QXhJcTZnRnJNMHF2UktTZGpUVVhMYnh1cw?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "Compounded GLP-1 drugs recalled amid rising concerns over unapproved weight-loss alternatives The Boston Globe"
-  },
-  {
-   "t": "PSM files Citizen Petition with FDA to stop unsafe compounding of untested peptides - Partnership for Safe Medicines",
-   "l": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9JeVlIUGR4YUgtSXpUelpmelc1MHVYRjYyMmpWT1dLdU5nTV9DbGxZZzB6SzhOUjkwMDJOMG93aUZNeEV2WHpPeGlqWF9XcVRSMXptSHZGcDMwSXdJREtWTVowRUZnUlN3dWUtQXd5WkRRMXlLX08w?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "PSM files Citizen Petition with FDA to stop unsafe compounding of untested peptides Partnership for Safe Medicines"
-  },
-  {
-   "t": "Apothecary Pharma recalls compounded tirzepatide and NAD+ vials over sterility concerns - Managed Healthcare Executive",
-   "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeXNTcHVMNmVPUlc0NnVBVFJWc0N4UjJqQXVYT2x4TUpUbEtXdXdwRWVTVUxBSGdYc3lKZ1Q0eUtyUWRIYnpocUJqVzZ5UWQ2enBsdnRmSTZYVVVEQ0VuYV9uR1c2X3pmSTJHQWYwd0V4SlhzMzZxcTZkdWw5dnVhOVl5NGdsRG9pdU82NzdnUkxZc0E5ejAteVFBc2haVEpQelJOUEU2SFVKZGRQd2d4MWJzSjdNdTJYNTVJNjJ4VFo5MVpFc0FMOGJ6aE1ZZE0?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "Apothecary Pharma recalls compounded tirzepatide and NAD+ vials over sterility concerns Managed Healthcare Executive"
-  },
-  {
-   "t": "What to know about GLP-1s and cannabis use - LiveNOW from FOX",
-   "l": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1vYTZ6RkM1M19vMXdJV3Y3Q1d2b0djbnV0NDVCbkVfUVhYMDdDYm1sWDUyOTVmTVVTSDdXSHZYMzRpMnJzbFRUQ1pQRjh1amZ6U0RMYzc5OUZHRGc3Y09WaS1CR0Vaa3dKVklQS3NzTk9WT2Z0N0dwMVlCMmY5UdIBgwFBVV95cUxNbDZvLWZSWEE1LVlpXzdKc1Y3YU5KS3g5a21EM2Y0aHJ2LXAyWS15SXcwRWVTc2VBUG4yei1kbnJrdVZCY2FsRE1lQTFKQkxoVDJ1NllURkR4VUNZbGt6aUQ0MzhJRGVodkJfWWdtRE9QWjhkSHdoc1V1ejJTMFpDYzNFbw?oc=5",
-   "d": "2026-10-21",
-   "s": "gnews",
-   "x": "What to know about GLP-1s and cannabis use LiveNOW from FOX"
   },
   {
    "t": "Import Alert for Certain Olympus Medical Devices Manufactured in Japan - Letter to Health Care Providers",

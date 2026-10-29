@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-29T13:15Z",
+ "generated": "2026-10-29T22:50Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-29T13:15Z",
+   "checked": "2026-10-29T22:50Z",
    "ok": true,
-   "new": 95,
-   "seen": 131,
-   "lastOk": "2026-10-29T13:15Z"
+   "new": 98,
+   "seen": 133,
+   "lastOk": "2026-10-29T22:50Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-29T13:15Z",
+   "checked": "2026-10-29T22:50Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-10-29T13:15Z"
+   "lastOk": "2026-10-29T22:50Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-29T13:15Z",
+   "checked": "2026-10-29T22:50Z",
    "ok": true,
-   "new": 1,
-   "seen": 3,
-   "lastOk": "2026-10-29T13:15Z"
+   "new": 2,
+   "seen": 5,
+   "lastOk": "2026-10-29T22:50Z"
   }
  ],
  "items": [
@@ -177,6 +177,83 @@ window.FEED_ART={
    "x": "HHS released a policy that will temporarily allow compounding pharmacies to manufacture some peptide products"
   },
   {
+   "t": "Warning over side-effects from unapproved peptide injections - RNZ",
+   "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSkJ1YklJLW5PcThfMUdUMnlBcl9uNEJ4OGVCYWRrU1A3SkNKUmdZdDhxUlFLWEFHLVcyZzVDaHFZT2YwTWlXTENOeDJBekhqRnVPRXc4R2ZHX0Z0aU81cHEwSVNPOXZKaXlaRDNHZXlFdTdLQUMyZmJaeDV4NVlWamY2WVdYUFB2aTVDUXMyTTIyTzBNY0w5Z2liQVM0NVZ5RV9rdmJ3Y2NEYkI1ZHBJaHpSR3c1X3FhVkpQYmFuWXYxUk5qMHZSal9xc002QQ?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Warning over side-effects from unapproved peptide injections RNZ"
+  },
+  {
+   "t": "Affordable and easy to access: Why peptide users say they’re injecting unregulated drugs - RNZ",
+   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOUlpSWc5MFczN2xnakdDWnNtUHBCUFc0RDdRNHg5WWdFSi1Na3A0WHlKVS1ISnlqNjV0ZjA2dGdUWXhDZ3ZreEN3ZFJRWi0wU3V4SWJIclY5bWdPYUppMkxFZUxCbzE1Y2h0QUtzYU9BTU4zcEFjWDYwYUNEbTg1MTBCZDJUN0l1UDkzOHd3NF9ZNFFXeDVJQ0UxcE5OVDZ6TlZCLTh6S2VDX1F5M2JtNDJUaVZ2R2tkalR6WklQWVR2NnJUa2ZROA?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Affordable and easy to access: Why peptide users say they’re injecting unregulated drugs RNZ"
+  },
+  {
+   "t": "Anaphylaxis cluster sparks new peptide warning - Australian Journal of Pharmacy",
+   "l": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JUktjS19OWGRmcHl5UW1yTVduRkpCYVRjQml5MzZwN2gtbzdVSmdoazdVTW1RMWg1Y2I3YkpYaVBEOHg4WmprcDBDeWtrTkNVWGx4aW0wOEZsZjZiMnRQZ0labGtQNlJNRTROVzhMcG9zQ3Jnd3JubXdycw?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Anaphylaxis cluster sparks new peptide warning Australian Journal of Pharmacy"
+  },
+  {
+   "t": "BPC-157 'Wolverine Peptide' Use Rose 33-Fold Despite Scant Evidence - The American Journal of Managed Care",
+   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY2RPMVdCZXJHRnBCNXVHOUxRc3Jia3BmR3B3QVRlbGtrZ3Fwckc2aFRhWUN0dUNrcEpQR2tzaGlSV3NXTU03cHQydTJ1V1B3NDZROS1jRDZPM09MTi1oRlZ3NGI3c2EzWUhNVEJqdWNqZ2JpeFZvM2Q1UG8xMTZoN25uNHFJRF9FME9tQ0tSbFVobHpGR1E?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "BPC-157 'Wolverine Peptide' Use Rose 33-Fold Despite Scant Evidence The American Journal of Managed Care"
+  },
+  {
+   "t": "HHS will allow licensed pharmacies to compound six unapproved peptides—but says the policy does not mean they are safe or FDA-approved - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdUxvQVJqOHpzOVpXMVRVUHhHRDZsaTRnV0toLWg1QkhHTkFkaXluenZ2UEFjd3NJZldBQWFaTHRnZkF1QVFpQU93V0ZQQzhveGVvcXF0NE5sR242UkI5YnFMOFhXbkkwMXE2amZwcHVfemNxTUhpNXpWNmRyVS1qdEdBOUlmNHZrRHc?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "HHS will allow licensed pharmacies to compound six unapproved peptides—but says the policy does not mean they are safe or FDA-approved Medical Daily"
+  },
+  {
+   "t": "HHS gave 6 peptides permission without proof - https://www.celinegounder.com/",
+   "l": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zbkVoel9VSHFkc3llNm5uTHpmWlBOXzBwb25XcW5yQmM3X013aHBuZjdYMFp4cGkyelVCT3NHU1plZGhkM0otbW03TzJxcnBxbnZlWU9jRVhXS29BMWc3MzRFWWpNaUJEZmV4WnlRRzA5NVgxQjNvdg?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "HHS gave 6 peptides permission without proof https://www.celinegounder.com/"
+  },
+  {
+   "t": "Retatrutide cost per milligram: An evidence-based guide for research buyers - The Coast News Group",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUGlJa1IwMVV5M0lqR0JQR2lrUE1rcHgxV0llTjNjMWNMWjZYX0JERkVpMUhmVzNQRGVtRld3NXNaNWJNUFVKcXp6Si1SY0g1MDdRM2l6aDdhUmV5M3AtelZHYl9VSmxfWEVjQTdJamhIM0hMVFFTbXk1eFphMTlaNG1RT043VGtxdm10NkowTThoM2QxYThMaS1YaXhwLUo0OXc?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Retatrutide cost per milligram: An evidence-based guide for research buyers The Coast News Group"
+  },
+  {
+   "t": "PharmaTher Builds Portfolio of Personalized, 3D-Printed Peptide Products for New U.S. Peptide Pathway, Led by Colon-Targeted KPV and BPC-157 - Investing News Network",
+   "l": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNHJ4VDF2VzNPWEoxUEZXYXJSUHE2TWxTN1padzJBeFA0LTFfS3RRZmRkZGcwRzVfSkxlVFZlcFA0QUhmeDJEYmxCbG1VWjFQUUNCZUtoMWItLWdudnM2UUFXN25JSlZxV0VKT3BuQ3VMTU9kVEZXSEhoamhoU1VIY0RlSXBLdzExZl9ILWpGaFRQdGdlV29GZ01UQkQtMHNleVY0WEVQeHotM2tjSW4xNlZ2U3lOQi1MNzBsQzN5djNnUlptRnZ6c3k3YXluZWJ2NUQ4dG9lVmhkQ0tsWlMxNkUtQmZwQXhrZDRkalI1THk4b0hBNTg4?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "PharmaTher Builds Portfolio of Personalized, 3D-Printed Peptide Products for New U.S. Peptide Pathway, Led by Colon-Targeted KPV and BPC-157 Investing News Network"
+  },
+  {
+   "t": "Lilly’s Retatrutide Delivers Greater Weight Loss Than Ozempic In Trial - BW Healthcare World",
+   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeUtncEplck1VZEpwSEZUQTRCNUd5OXNaMGJ2SkVxU2k1ZjhJa2FRM05wUDY4cDFMTXozM2kzVEtjbk81SVpma2NRZjNQS1NucHI1WS1IbUp0WFpab3c1TVpUQ0Q0UklEd19iRmJ2ZmowdE5MeHZRNXBpNFR4WXhHUURfRXBJZWc1dGN2aXJUXzgzTmdYOHZ5amlNOEtLV2dBRkJ3SU9MS3oyOFNQWFV6R0VMZXFGcjVUWjFn?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Lilly’s Retatrutide Delivers Greater Weight Loss Than Ozempic In Trial BW Healthcare World"
+  },
+  {
+   "t": "STAT+: El-Sayed claps back at RFK Jr., and FDA’s ‘enforcement discretion’ on peptides",
+   "l": "https://www.statnews.com/2026/10/29/el-sayed-claps-back-at-rfk-jr-fda-peptide-policy-dc-diagnosis/?utm_campaign=rss",
+   "d": "2026-10-29",
+   "s": "stat",
+   "x": "Abdul El-Sayed, the Democratic Senate candidate in Michigan, pushes back against the RFK Jr.'s claims, and the new FDA policy around peptides."
+  },
+  {
+   "t": "STAT+: HHS green lights six peptides, despite concerns from FDA scientists",
+   "l": "https://www.statnews.com/2026/10/29/biotech-news-hhs-green-lights-six-peptides-for-now/?utm_campaign=rss",
+   "d": "2026-10-29",
+   "s": "stat",
+   "x": "Great news for peptide fans: The Trump administration is giving the peptide craze a regulatory boost, despite objections from FDA career scientists."
+  },
+  {
    "t": "Thousands of peptide injecting kits handed out as Health NZ sounds warning - Stuff",
    "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRS1nX2dzdEp3TTd0THBnVTg0bTF4WXhEZTR2aGVrdXFjbjBKbEk4N3A4dUYyZXE1SUVLcEtBcVRjYnp5ZHg1d2ItemQxU1Bab20xc2s1VmZIc0ZFRk5oUFI1N2c0WkFRTG1GQnBYRUluN1h3NEFlZTlWdzVfbkJNbXhDTUF0dUxieEF1dkJiZzRmbHZURnRMZm83ZTlTLVBtMlE4OWdQaWpmeDRkbXhN?oc=5",
    "d": "2026-10-28",
@@ -280,69 +357,6 @@ window.FEED_ART={
    "d": "2026-10-28",
    "s": "gnews-a",
    "x": "Eli Lilly tops Ozempic in Ozempic Vs Retatrutide A1c Study شبكة تواصل الإخبارية"
-  },
-  {
-   "t": "Lilly Retatrutide Beats Ozempic on A1C and Weight Loss in Phase 3 Trial - Securities.io",
-   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQjltNDVVT1JFS1dfSS0xUm5FSHBEaGFLdWtoRElJOURFMmJGQkZnYnF4VXVpQnRVX1RQa0E1RUwtTFc2NDdaNHRTQnA2VEdGX3BBZXRXWWRIblduNTZodlI5WFRra2t4ekpPVEloYmMteDZGc05jWHd2TUw3aXBuT2pCRnp6SzdrV1BERnlRNFRpa0pOYnpwS2VCOTFxODg?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly Retatrutide Beats Ozempic on A1C and Weight Loss in Phase 3 Trial Securities.io"
-  },
-  {
-   "t": "Eli Lilly’s Retatrutide Doubles Weight Loss Compared to Ozempic in New Trials - SSBCrack",
-   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQamRkYmVCdFV4azF2RVdtcjV5ak5PcGhUTXgwMkgwSmZWM0xTR1p2ZExMaUoyTjRyUXFLdVBLNk55ZU05aEZGVEJBbWhCYW4wSjFrQXVJVW9nWU4zZkxYZF9HYjlDYmlpbVhpbXZLbnp6cnI5RFlVdEVMWS1ROEFsZXFHemF4ZDJrcE94RVR4dEwweXp1SWdxVURleWxwZ0p3NE5mNm1R?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Eli Lilly’s Retatrutide Doubles Weight Loss Compared to Ozempic in New Trials SSBCrack"
-  },
-  {
-   "t": "RFK Jr. acts to ease access to unproven peptides despite opposition from FDA scientists - CNN",
-   "l": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXTHhEM3p3ajR1MUN2LVNMUWFqQnNGQmZfNFgwanZIeVZ4TzlIbUpBNFRpX0tSem5Ua3NYV0lFQlFfMmVsZ2ZFVVdka3pIcXNJUTVXMURHY1dibDd5Y1hmd1h6NDFXSUk?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "RFK Jr. acts to ease access to unproven peptides despite opposition from FDA scientists CNN"
-  },
-  {
-   "t": "Lilly's retatrutide outshines Ozempic on weight loss, blood sugar control in trial - Reuters",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZ0hwalh5b1g1NFZERG9jUUhSdzNwWHN1RHgyd2JwLXFKRHotc3l5S1JJZ3lpNHJYdGFpb2M1dG8zNzhfeXNjd0ZRUHN2bklUNlo1S05iVjZsbjhUQzlsMUJyLXVCSlNjamtTY2tWRVl3aVhXcXdnc3pEY0tFQ2JrYXdBTFJ1SGlSenllamh2M0JJNTIzQ1Y0WVhuamtIODBGRkFXbzZxRnAxclFvREp6V0pxaFVabnpXZTBQQ2xTTFlGaGlDcFZxMQ?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly's retatrutide outshines Ozempic on weight loss, blood sugar control in trial Reuters"
-  },
-  {
-   "t": "Retatrutide Tops Semaglutide on A1C, Weight in Head-to-Head Trial - The American Journal of Managed Care",
-   "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdTJZREFhZ05qLUlsNDRKTElDamhnTzRmblZMZUlGM0J5ZmlzSVB1ZVAzZk1rekhHTzhZRDdmRGc1dnB4MnQ4NGF1N0E1U0g3NWFpdk95cXUzUURJY2VGWWh3X3JwYW9vSm5xaTBtTXE0REg3R204Y1ZGbU90RktST1ltNjlLakxOenljcWMySzRYTDVW?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Retatrutide Tops Semaglutide on A1C, Weight in Head-to-Head Trial The American Journal of Managed Care"
-  },
-  {
-   "t": "Lilly's retatrutide delivered greater A1C reduction and more than double the weight loss of Ozempic's highest approved dose in head-to-head trial - Eli Lilly",
-   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNYk5FbDBjYW5zTnlROFhkSkRpMlRVb0RsZGQtejd4a3F3bTJtbDU3XzFRbjhTZW51N05qaXhFTWxtd1NKemt1VnNNTjRmZ0Fib3NCNUVVbDlSTmM3Wl9zeDRvQWRaNVppN0gwLXdpZkktTUl0U183SlQ2eVFIcGgyUDZZUlEtMHVtaWU3V08tWGRYX0psaXBlVnRWUlN6UHdBbTZLSlhOaEItdkpkMXJ2VXR2NFdZWjN6aFR1czFn?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly's retatrutide delivered greater A1C reduction and more than double the weight loss of Ozempic's highest approved dose in head-to-head trial Eli Lilly"
-  },
-  {
-   "t": "TRANSCEND-T2D-2: Retatrutide Beats Semaglutide 2 mg on A1C, Weight Loss - HCPLive",
-   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQQkxvQ1FKX0RTVVV5YUdhZnJqUjhiZXhtU1Z1WDJvZHg4VTN3Sm5XYUZzekJwZU9ZZTgzWnRUMjl3YUtXYVViU3djYXktX2VPaWFmUjF0XzRDOGJ1dWF2d3NYQlZuSDVhTkxrXzlCSWRTaG9VOXNmRi1wQnF6dU4yLXd0YXd4cjNJbXRNUnZYeWlhTEF4ajc0WEdFeENncmM?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "TRANSCEND-T2D-2: Retatrutide Beats Semaglutide 2 mg on A1C, Weight Loss HCPLive"
-  },
-  {
-   "t": "Retatrutide Helped People With Diabetes Lose Twice as Much Weight as Ozempic, New Trial Shows - Everyday Health",
-   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORU1KeWtjUjRpeC1fZ0YydlVseEU4ankzRTJkdzN4Tnd2dTZaYzJ0dmVibWdxRE4tOTh6ckh6RFNzbEg0YzhWY1lWa2wyU1p1djV0ZlVCUk9DTkdVdHlSaGtvN2NJV3VzOGlmcTY4MmptTEl2S0s4cW42UXBZdmVFWWZpdmFIdkdYbi1RUG9nejdaM3NGbXJjZlR6NnJ6N1VTZXlReFA1WmtoNUVNMGx3?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Retatrutide Helped People With Diabetes Lose Twice as Much Weight as Ozempic, New Trial Shows Everyday Health"
-  },
-  {
-   "t": "Eli Lilly says retatrutide shows more weight loss compared to Ozempic - thv11.com",
-   "l": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOWXJRZGVPZjJuZFpZblRCLUZRX2EzZGExb3dTbXpnNURBeE5yTWl4aUZKVHZVU1U3SU94bER1WFEyZUlhX0VIaDIyR2tPZHFRUDJ2bTNkNmhKSGdEZHNUWmdQWnc4S1RIeUdxSU8tMHdPS1I5RjZ0NWZwMXh3TW9UTkc4NU93MGdmOWV5TVlielpZNzBfT2Z4WUZXN1JveFFXRUpZMDZYcGtJZUlFZFhhT1FvMVpuXzQtNFpZT1B5WTUzdUMyNzhob3VB?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Eli Lilly says retatrutide shows more weight loss compared to Ozempic thv11.com"
   },
   {
    "t": "STAT+: HHS moves to allow compounding of some unapproved peptides",
