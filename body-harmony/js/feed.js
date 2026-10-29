@@ -1,85 +1,127 @@
 window.FEED={
- "generated": "2026-10-28T22:40Z",
+ "generated": "2026-10-29T05:56Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-28T22:40Z",
+   "checked": "2026-10-29T05:56Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-28T22:40Z"
+   "lastOk": "2026-10-29T05:56Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-28T22:40Z",
+   "checked": "2026-10-29T05:56Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-28T22:40Z"
+   "lastOk": "2026-10-29T05:56Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-28T22:40Z",
+   "checked": "2026-10-29T05:56Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-28T22:40Z"
+   "lastOk": "2026-10-29T05:56Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-28T22:40Z",
+   "checked": "2026-10-29T05:56Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-28T22:40Z"
+   "lastOk": "2026-10-29T05:56Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-28T22:40Z",
+   "checked": "2026-10-29T05:56Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-28T22:40Z"
+   "lastOk": "2026-10-29T05:56Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-28T22:40Z",
+   "checked": "2026-10-29T05:56Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-10-28T22:40Z"
+   "lastOk": "2026-10-29T05:56Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-28T22:40Z",
+   "checked": "2026-10-29T05:56Z",
    "ok": true,
-   "new": 99,
-   "seen": 117,
-   "lastOk": "2026-10-28T22:40Z"
+   "new": 116,
+   "seen": 142,
+   "lastOk": "2026-10-29T05:56Z"
   }
  ],
  "items": [
+  {
+   "t": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale - The Washington Post",
+   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeGFGSWIwWEJzZkswTHlVR2VucWswRnVIOWZxRFZ2TC1iTjhJQ2h1SGpHWTY4RktXME9oQnFELVNkT0Vsa3J3d3RaQmxDaERudGg2Mk9MOXEzV2p4Z1ZLVHA3aDA3VW40WGtyVUpxdjBiMjVidjk2Q2JNeDdmdGhpVE1pUDBUZFc5dDRiQnJ0RVdzU1hBZ25OTzlyOVBrbHJOTkZFWEY3c1VYTWpyQjczN015Tkk2QnJTVUJiMw?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale The Washington Post"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/amgen-hit-fda-warning-letter-misleading-vectibix-promotion",
+   "d": "2026-10-29",
+   "s": "fierce",
+   "x": "Amgen has been handed an FDA warning letter over a video promoting its cancer drug Vectibix, but the company said that the issues stemmed from an “inadvertent” submission and was not made available publicly."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/vanda-eyes-glp-1-nausea-indication-nereus-phase-3-win-hand",
+   "d": "2026-10-29",
+   "s": "fierce",
+   "x": "Vanda Pharmaceuticals secured a phase 3 win for its motion sickness medicine, Nereus. The drug reduced GLP-1 related vomiting by 27% for patients on Wegovy."
+  },
+  {
+   "t": "RFK Jr. to ease access to unapproved peptides, draft policy states - CBS News",
+   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRnp0Z2pOb2xfXzJ5dVREY1N0bVJlc2Z2MWlRcU42amZjRWtLeEFWdUFtQTc1czJ0bnhmRDhtYlVsUi1JaXY4OGcxUW5aZDBDSU1RemxBMTh3ZVE5ZTBncThyMG55WjJDNnVuZEVXTUFFNHNERi1pMHlVWEtFQTdLV3JCUksxczRXUUNrRg?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "RFK Jr. to ease access to unapproved peptides, draft policy states CBS News"
+  },
+  {
+   "t": "Richard Norton’s Peptide-Linked Death Raises Safety Concerns As RFK Jr. Eases US Restrictions, Bypassing US FDA - Health and Me",
+   "l": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNcF9yaXBKaW5BcFhyY0MtM0FZU3g0M2pIekphMXo0WFl5S3FyVmZOOXVWQmQ2S1NndGZUQmhBc05MQ0lkQWtLcTN3dy1VWXZpeF9JYXNRMl9MdnlSRVg2U1NIa3VnLWlmVjFNUzNvc3ZqeHVMNGk1TjB5cV9VSzMxc1ZpbGpxQ1FlMThTYkNCTWJ6LVh5S3ZOWm53TFRtTlBPMHlUN2VfT19aNmJVc1YzQkhFTlkyT1Nfa0I4REVWYXMtcXlfdHBneU1GTDdYV0UxSGZGQ1Q2WE1wWTBDUlNQRWpZWi1BcXdwVmM0WVRxTENSTEdSbDAyUERn?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "Richard Norton’s Peptide-Linked Death Raises Safety Concerns As RFK Jr. Eases US Restrictions, Bypassing US FDA Health and Me"
+  },
+  {
+   "t": "HHS Plan for Peptide Drug Access Faces FDA Opposition Amid Safety Concerns - SSBCrack",
+   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQekwxWEh2bTNIbXpwMjNjQ0ZzSExvRnJTZGU2Y3QtN3pKN2t6OVozalZvdHYyT0JuWkpvdGhRNmJzZFRIcUlWWUUwNjc1a2k1Z2ZMYnVIcGlUdlQ4ZG90TEQ1cmkxd0h6dUVieTdkWVdkS0VlSXVCMmt1emIyc1dxNk1nVlZEc3JqYVptVDJtc0dVRnNzWHQwWVZmMW9PanE3cldR?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "HHS Plan for Peptide Drug Access Faces FDA Opposition Amid Safety Concerns SSBCrack"
+  },
   {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
    "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
@@ -93,20 +135,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "fda-drugs",
    "x": "Counterfeit versions of over-the-counter eye drops have been found in Florida and Georgia in stores serving primarily Spanish-speaking customers. These products also may be in Louisiana, Mississippi, North Carolina and potentially other states."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/amgen-hit-fda-warning-letter-misleading-vectibix-promotion",
-   "d": "2026-10-28",
-   "s": "fierce",
-   "x": "Amgen has been handed an FDA warning letter over a video promoting its cancer drug Vectibix, but the company said that the issues stemmed from an “inadvertent” submission and was not made available publicly."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/vanda-eyes-glp-1-nausea-indication-nereus-phase-3-win-hand",
-   "d": "2026-10-28",
-   "s": "fierce",
-   "x": "Vanda Pharmaceuticals secured a phase 3 win for its motion sickness medicine, Nereus. The drug reduced GLP-1 related vomiting by 27% for patients on Wegovy."
   },
   {
    "t": "US Health Secretary Kennedy opens access to some unapproved peptides - Reuters",
@@ -135,13 +163,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "RFK, Jr., loosens restrictions for six popular peptides, bypassing the FDA Scientific American"
-  },
-  {
-   "t": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale - The Washington Post",
-   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeGFGSWIwWEJzZkswTHlVR2VucWswRnVIOWZxRFZ2TC1iTjhJQ2h1SGpHWTY4RktXME9oQnFELVNkT0Vsa3J3d3RaQmxDaERudGg2Mk9MOXEzV2p4Z1ZLVHA3aDA3VW40WGtyVUpxdjBiMjVidjk2Q2JNeDdmdGhpVE1pUDBUZFc5dDRiQnJ0RVdzU1hBZ25OTzlyOVBrbHJOTkZFWEY3c1VYTWpyQjczN015Tkk2QnJTVUJiMw?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale The Washington Post"
   },
   {
    "t": "RFK Jr. Eases Access to Unproven Peptides Despite Opposition From FDA Scientists - MedPage Today",
@@ -184,6 +205,34 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "How FDA scientists opposed the Trump administration’s push for easier access to peptides Howl.Link"
+  },
+  {
+   "t": "Trump administration will allow pharmacies to make popular peptides - NPR",
+   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMUZyVHplejBMVTJoSW9nTy03R3J2cVBWVXZmY0wtSVNPNFdsTF9DdUVuT1BjUDgxVEZmUm1EMVpua3F6VjItUjA0c0syX0x0RW9EV2NsT1BMWEdkazkyU2lOMGJ6TXJCMWlHTmFsYVczaFpaTS1iaTdwQlJfRFdSbGZpWQ?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "Trump administration will allow pharmacies to make popular peptides NPR"
+  },
+  {
+   "t": "The Peptide Rush Has Begun - Time Magazine",
+   "l": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxc0p4ZlZ4MHJ4ZzhmTHd6QkFVNUd1MVhiYkFySHFZTGgwa0lNcERVUkxnYkxXdUNtREs2c2dTUWFJMlJwN1hWUmt5UjFIbDBzdDBIOG0wNTN3VUNzaTRjLWsySFdLQUFQNkNF?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "The Peptide Rush Has Begun Time Magazine"
+  },
+  {
+   "t": "RFK Jr. acts to ease access to unproven peptides despite opposition from FDA scientists - CNN",
+   "l": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXTHhEM3p3ajR1MUN2LVNMUWFqQnNGQmZfNFgwanZIeVZ4TzlIbUpBNFRpX0tSem5Ua3NYV0lFQlFfMmVsZ2ZFVVdka3pIcXNJUTVXMURHY1dibDd5Y1hmd1h6NDFXSUk?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "RFK Jr. acts to ease access to unproven peptides despite opposition from FDA scientists CNN"
+  },
+  {
+   "t": "HHS to allow sale of unapproved peptides under review - The Hill",
+   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2l4YWRtTHlUd2ZSeTVocTFxRkZwdnl3WC1ILV9BVkZQVmNjSFQ1UnkwSjJBUVo5OEFRSWpUYllpU2k0UnZPazVqdm05czhicG8waWFxNnBVbDNQVnZ2c04yUm9WRjNOc09DVGJYNXNaNDFRV2hEZGsySksyelA2OTV0SUFrdXFERVpwbURsOE5ZNlZCY1FJU0dpN3l3emPSAZ8BQVVfeXFMUGdpeGFkbUx5VHdmUnk1aHExcUZGcHZ5d1gtSC1fQVZGUFZjY0hUNVJ5MEoyQVFaOThBUUlqVGJZaVNpNFJ2T2s1anZtOXM4YnBvMGlhcTZwVWwzUFZ2dnNOMlJvVkYzTnNPQ1RiWDVzWjQxUVdoRGRrMkpLMnpQNjk1dElBa3VxREVacG1EbDhOWTZWQmNRSVNHaTd5d3pj?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "HHS to allow sale of unapproved peptides under review The Hill"
   },
   {
    "t": "Peptide Advocates Are Challenging the FDA's Safety Concerns. Does Their Evidence Hold Up? - MedShadow Foundation",
@@ -375,60 +424,11 @@ window.FEED={
    "x": "GLP-1 injections recalled nationwide over sterility risk Rolling Out"
   },
   {
-   "t": "Some GLP-1 injections recalled due to ‘lack of assurance of sterility’ - Los Angeles Times",
-   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOWUR3YkhMNTkwNzh2ZnFINERjWGQ4RnZ1dXdRdzVLSlpnTjlPVmhQWWtMalZsVnhPbWZPQWZJOUx1YWpHNVhGQ1ZjRTI4QjVMV3A2c0NyVmtvUWxnb2VSOWRqR3loLW13UjV4SkNZT2R5dU9rS1FLWnFlNndsd0ZTYWRlZkxtc0lOQVRlR0ZiSlNKQVhCdE1DcDJPcW9KdjdMbGFZVzUtZFdycVk3U05UdG5vdUJUVlBub0ZEUw?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews",
-   "x": "Some GLP-1 injections recalled due to ‘lack of assurance of sterility’ Los Angeles Times"
-  },
-  {
-   "t": "GLP-1 injections recalled nationwide: See affected lots and what to know - Democrat and Chronicle",
-   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeG95RGtHdXcxd0xOa1laQ1piVWRmWnU4RlBlaDRIR1BsODFhZFZSdVVHRVNzNHJxUzU5MWprbU5DdmF1UnZjYjYxYTR4M0h6eG8zRWZ2al9nalQ4NGV3ZWY4c3hDTjlucmRzTkdaclhGVEZiSEVON3dwOEpSRThKZlRxS1BoNGJaRHQ0dVowa1duM0hwaWkxLXZta3JQODdaaUNwak1FRmZ1QWFENHkxZg?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews",
-   "x": "GLP-1 injections recalled nationwide: See affected lots and what to know Democrat and Chronicle"
-  },
-  {
-   "t": "Compounded tirzepatide recalled after FDA warning - pharmaphorum",
-   "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUWMzc2dNaHlsVnFOaEo0My0wdW1iUHBqZTNMb2VRYkc3UTNWdjhFdmpNUjBYZk42OVRhS184dGwzOEZVU1RrOXE3cDhvSkFvaDdMQnZuaC0zZm1WQkNkbC14UDg0WGw1aUlBRENobVk3MHMxcXVTR1VQVkdYcUM4ZF9tY1NkQQ?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews",
-   "x": "Compounded tirzepatide recalled after FDA warning pharmaphorum"
-  },
-  {
-   "t": "FDA Must End the Compounding Charade - RealClearHealth",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTzlpcFRtUnJ5LWVvckJVMG5JZzdOX0VmR0I3bkdURkJlTjJ1YmdKaC1waDB2bXRDM0RMMEQ0T0szMHdQMy1LZS1TdzFnZ3dtd0dFNW1NMnNxemV5UW43X18tZzI4UWsxUGFWMEZoQ1lHX2lNWUNlbXU2Y1VJUGNpb2FDazVrWG10UklrSmd0WW9hMWF4THNv?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews",
-   "x": "FDA Must End the Compounding Charade RealClearHealth"
-  },
-  {
-   "t": "GLP-1 injections recalled nationwide. See affected products - USA Today",
-   "l": "https://news.google.com/rss/articles/CBMiygFBVV95cUxORW9HUXlnSWNZdEN0Z25zWUZxRFlMbU9ZY3ZYS0JMS2tZaGtpckEyRklxSGl5MmxoaEp2aTQ2NHlMVnFpM25IcEVmWnU4RVQyT0FLWUp0aThwcHNnb3BTZk9sNHdrX08xMWdMV3JJMHp2N1J6NThGVXJEOVBZcktYeG5PbWZfdUJrQW1QZUJ4R2ZMTkVWdnEzZUpXT3pwMmhxUmxubUtCcXVDTzJlUGJBWG9KQVIzSGZmM01xMzVmX0hETTMxbEJaR25R?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews",
-   "x": "GLP-1 injections recalled nationwide. See affected products USA Today"
-  },
-  {
    "t": "Import Alert for Certain Olympus Medical Devices Manufactured in Japan - Letter to Health Care Providers",
    "l": "http://www.fda.gov/medical-devices/letters-health-care-providers/import-alert-certain-olympus-medical-devices-manufactured-japan-letter-health-care-providers",
    "d": "2026-10-20",
    "s": "fda-medwatch",
    "x": "The U.S. Food and Drug Administration (FDA) is alerting health care providers about import alerts for certain medical devices manufactured in Japan by Olympus Medical Systems Corporation (Olympus) and its subsidiaries."
-  },
-  {
-   "t": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee - The Tennessean",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZWlRT2dTcnQ2NFkzcWZrVHl2TXRLa002WWR4Y1RfUDFTN3Vnclg0QlYxZTlqc1RCZ3ZiQXNiRTgyNXctRXFQQ25uSXZTYmxWRUNhSG9FbVRoZFhaZGw5Ui1qbWxHbGNfWkp2OWRqQlBNSW9rTnkxd2ZYRjI5Y3V5X012Q0ZQMjVCWkFfZzJJSkQ3ZmRubG5B?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews",
-   "x": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee The Tennessean"
-  },
-  {
-   "t": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee - AOL.co.uk",
-   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1SSEY5ZzZSaUo3S3dBYmJ3eFdadi0ySzY0YWxrV29Fb0pfZmtEMThzNlRfX0hkLW1xVUpxN1BDS2dfeVBDSjZEZUNFcEgtUXpDS0xBTUc3RGhvdEFOTEN4TTY0VG03clh2eFJscFlTLXVBTDlta3piNGdnRTFYZVU?oc=5",
-   "d": "2026-10-20",
-   "s": "gnews",
-   "x": "Which GLP-1 weight-loss injections have been recalled? What to know in Tennessee AOL.co.uk"
   },
   {
    "t": "Update: Import Alert for Certain Olympus Medical Devices Manufactured in Japan - Letter to Health Care Providers",

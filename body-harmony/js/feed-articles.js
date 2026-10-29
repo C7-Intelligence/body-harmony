@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-28T22:40Z",
+ "generated": "2026-10-29T05:56Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-28T22:40Z",
+   "checked": "2026-10-29T05:56Z",
    "ok": true,
-   "new": 86,
-   "seen": 110,
-   "lastOk": "2026-10-28T22:40Z"
+   "new": 88,
+   "seen": 106,
+   "lastOk": "2026-10-29T05:56Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-28T22:40Z",
+   "checked": "2026-10-29T05:56Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-10-28T22:40Z"
+   "lastOk": "2026-10-29T05:56Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-28T22:40Z",
+   "checked": "2026-10-29T05:56Z",
    "ok": true,
-   "new": 2,
+   "new": 0,
    "seen": 2,
-   "lastOk": "2026-10-28T22:40Z"
+   "lastOk": "2026-10-29T05:56Z"
   }
  ],
  "items": [
@@ -56,6 +56,34 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Aussie actor Richard Norton’s death linked to unapproved peptide use - 7NEWS",
+   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT0NPZmw4dUh0MnluQ2p4Q2pQM0VqS1N3YU1Fd2JsLTB3c3d3WVJxa0UyeUtGWnNqaGItQXltQkJmdEllaW5VSUdleFFfWnVFUUs1U2VVUC1vYXNHc0dhQU1sQVFpN3hHRW1hTENiWVY1enBJUFdnaHMyUzBRNFNtcWp1ZDYtRm9HU1JSV3J4RV9ta3dPaFIwNWRxSUpDWklWTDB1aENWeVMzM25PbGY0Y2FrQzlidFlwMGfSAb8BQVVfeXFMTWI0UU5wLTk1OEpkUTFJWlliOGNvZ1VZc0d2SnZHaERvNE1WOG5oRlNaemZ1WHN0UVhVQ3E5RU9pemFyV1pHVXptQVdQY2VDSDYtRDFTVjFnclE3VmxReFpINnRnQUFmRExteGxwZ3ZZeWprbThkMGU2SHpxa0F3UElNVlg0NThSTnBmWVp0ckFDR2lQZWwyejhsR2dYcnBhdk1ldGh5NHJPdU1MMFhMSGlOODBVUEt3Rl9adHNtSm8?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Aussie actor Richard Norton’s death linked to unapproved peptide use 7NEWS"
+  },
+  {
+   "t": "Australian actor's death linked to unapproved peptides - 1News",
+   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRGNjbHgxVE1LaUM0SXhST0pQSTY3TGpnaVdyQ3Z3SFpuOEh0czVQMTY0MkV6NWg5WGRZVWVOX1BCLUs0bGwwcl9MWjBJWnFpUTRKYUkyUnh1M3VvVmI4TlFQMHJtOUVEcWU3dFhEV3RlU2Itb1dqR2RlcWFrN0JPbTJjOFVPcHh5SnJ1WVRn?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Australian actor's death linked to unapproved peptides 1News"
+  },
+  {
+   "t": "Aussie actor and stuntman’s death attributed to peptide usage - Nine.com.au",
+   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeURONlEzQU9KOTd4aU1ZbURJX0tBOGNicUphMXdYX05WQW5rVXhlUWhBT3cwVUhhODhlMXZQSWZqRXh1U21aYlZrTUlSdXlGNG5zVWxnb01lUzNGY2JVSWEzY1RuaFp6NEZ6eHFidVNKS01lVWd6SlhqV3pXVHNhVmZTZVlYZG5FOVBlTkYySWV0NWJsREIySzlJdDRrQ3JnSDZ0S1R5alJfT0x0SUsyY3ktM0VUdklQazNQOTVNM2JjdFJhcktFVw?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Aussie actor and stuntman’s death attributed to peptide usage Nine.com.au"
+  },
+  {
+   "t": "Eli Lilly (LLY) Stock May Be 25% Undervalued Despite Retatrutide Trial News - Yahoo Finance",
+   "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd3RhVHZLVzEzejYxNjJ6cG9ER3dHVWN0cTUyWE9Gek9Yc1dnMW9aQnhvQi0tMnFGR2M4SVNPX0plbzc4Wm5qTGduSmZHbUxkd2MyaUpPM0RwYVlVdmJ4TWl4OC0tMHR6Vi1YTFdob1JoSEpDY0JyQV9ZVFFxN0FZdEthRHJKS1ZhZWdhZ2xobTd1UQ?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Eli Lilly (LLY) Stock May Be 25% Undervalued Despite Retatrutide Trial News Yahoo Finance"
   },
   {
    "t": "Thousands of peptide injecting kits handed out as Health NZ sounds warning - Stuff",
@@ -308,34 +336,6 @@ window.FEED_ART={
    "d": "2026-10-28",
    "s": "gnews-a",
    "x": "Lilly’s retatrutide outshines Ozempic on weight loss, blood sugar control in trial CTV News"
-  },
-  {
-   "t": "Lilly's retatrutide doubles Ozempic's weight loss and beats it on glucose control in Phase 3 - Dealroom",
-   "l": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQM1puUmhGVXhhaU5DLW56U1hDYTR5Z0lzYmJubExRZ3U4LUh4Zmo4UW5EaWZpOXBjRVlLaHhENTNGTmxDQl9DREZ5ZmtONFZSUDUwN04tZ2xlX094N2RNY1U4cU9XRTJvUl8zbVQ5X3EzQWNVQTRkOXE0cmVGTlM2cWd5bmNYVFd2MEJRVUV5WTlna2d4SU9oWENpaHpiV1MzTjZ0ZjVJTnNEMlFTMzYyWUdwaGhOd04yN0dHUmVrSEV6SjB2?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly's retatrutide doubles Ozempic's weight loss and beats it on glucose control in Phase 3 Dealroom"
-  },
-  {
-   "t": "How Lilly's Retatrutide Compared With Ozempic in a Head-to-Head Diabetes Trial - Around Prague",
-   "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQaElSZlJQd1Yxcy1GX0FMM1NOd0otai1jTlJJLXBxOE81c1g1T1dRMVlwVVdLcU5RZmRiRldUb0xGMkp6MHpKTkZYXzZCWWQtNXNYcHYwVmxjZk9qeVZkbzFCMlRnZlo1WmZzaldEVVo1OWwydjFZbXRGbURjYTBubzJTR3l4T25FeU0yVEdBMXB4dDlpYkI5a0NDUzB1eklVNDBJdTl2bkdsYUhZZ3lDaGVsWQ?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "How Lilly's Retatrutide Compared With Ozempic in a Head-to-Head Diabetes Trial Around Prague"
-  },
-  {
-   "t": "Diabetes and obesity: Eli Lilly's Retatrutide outperforms Ozempic in Phase 3 - marketscreener.com",
-   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdkRYbG95RFpRRElqN29BUmxrNzNrakpKN1kzcUZHeTdiUnBTQXJMTFlLX3ZJYVA5b1hCSlpFMS1vUXVPUnZjTlYwOTlMVDFOaDVVUjdXV0VaU3JXVFNqMTJBM28wcUxHRDZ3YWdBVm1ZUG1zcE5MaDFkWFFuWF9qdGFPb0ZzYnNkeGhJZnUxbFNTbzFwbEFxek0tMUxMSC1nMWpBWENwYXkzMFI0emV2aHAzam9lUDQ1Ri1UQ1VVR1JlOGZrY2I0?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Diabetes and obesity: Eli Lilly's Retatrutide outperforms Ozempic in Phase 3 marketscreener.com"
-  },
-  {
-   "t": "Eli Lilly Says Retatrutide Delivers More Than Double Ozempic’s Weight Loss in Late-Stage Diabetes Trial - Benzinga",
-   "l": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPZjF5WmJHZ1ZKY214Y0tBZDhDS3NVUTQ2dU5IOTAyUnRXSHhlVGdLRWVFNVpmQXNHQjhoUGZJSkZuSmV0cWRVbTVTTzhGVGdzcGZOaGQ2d3EtQU1nV1dPc0pUWVdyOFhlNXg4TXg5cVhKRTd4VjZNazl1bDRSSy1lazY0c3F1SV84VEU2SW5HWlRNQ3p0a2dESGhxTlRJejNUQTIwQ19ad1hZcUpwR1gwMk1KZ3hyenBGc2tpbm92OWx2eFVIN004eGRrY01UTHhzRUo2VzJodTZZRU1BMWk4YlBMMEUyd3NQSEwtN19JWFI?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Eli Lilly Says Retatrutide Delivers More Than Double Ozempic’s Weight Loss in Late-Stage Diabetes Trial Benzinga"
   },
   {
    "t": "STAT+: HHS moves to allow compounding of some unapproved peptides",
