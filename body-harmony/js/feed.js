@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-30T05:58Z",
+ "generated": "2026-10-30T13:07Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-30T05:58Z",
+   "checked": "2026-10-30T13:07Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-30T05:58Z"
+   "lastOk": "2026-10-30T13:07Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-30T05:58Z",
+   "checked": "2026-10-30T13:07Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-30T05:58Z"
+   "lastOk": "2026-10-30T13:07Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-30T05:58Z",
+   "checked": "2026-10-30T13:07Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-30T05:58Z"
+   "lastOk": "2026-10-30T13:07Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-30T05:58Z",
+   "checked": "2026-10-30T13:07Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-30T05:58Z"
+   "lastOk": "2026-10-30T13:07Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-30T05:58Z",
+   "checked": "2026-10-30T13:07Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-30T05:58Z"
+   "lastOk": "2026-10-30T13:07Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-30T05:58Z",
+   "checked": "2026-10-30T13:07Z",
    "ok": true,
    "new": 4,
    "seen": 4,
-   "lastOk": "2026-10-30T05:58Z"
+   "lastOk": "2026-10-30T13:07Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-30T05:58Z",
+   "checked": "2026-10-30T13:07Z",
    "ok": true,
-   "new": 104,
-   "seen": 124,
-   "lastOk": "2026-10-30T05:58Z"
+   "new": 125,
+   "seen": 149,
+   "lastOk": "2026-10-30T13:07Z"
   }
  ],
  "items": [
@@ -114,6 +114,13 @@ window.FEED={
    "d": "2026-10-30",
    "s": "fierce",
    "x": "Vanda Pharmaceuticals secured a phase 3 win for its motion sickness medicine, Nereus. The drug reduced GLP-1 related vomiting by 27% for patients on Wegovy."
+  },
+  {
+   "t": "U.S. eases restrictions on six unapproved peptides despite FDA safety concerns - Qazinform",
+   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFIzdUtsM0VaYzVfM3g1SjRiYUNEOUZnWnNxU04yRV9jTkMxVEQ3VkpPWjJaLXNOdEo2dDRycERzdTAyN19ya3lxVXdRMktLTzhXUGVxMVBmRTRDRHdxS3pLaVNWUVk0N21VQ1NzQy1KSUlvTkpJNzk5V1BlZ0tUVEtCZHBSOE9sNGxNV2k0Y2JyNU5MLWc5ck12T29ZWktJdHBtZzNaNFk5Q3ZaYmVz0gGvAUFVX3lxTE5UUjN1S2wzRVpjNV8zeDVKNGJhQ0Q5Rmdac3FTTjJFX2NOQzFURDdWSk9aMlotc050SjZ0NHJwRHN1MDI3X3JreXFVd1EyS0tPOFdQZXExUGZFNENEd3FLektpU1ZRWTQ3bVVDU3NDLUpJSW9OSkk3OTlXUGVnS1RUS0JkcFI4T2w0bE1XaTRjYnI1TkwtZzlyTXZPb1laS0l0cG1nM1o0WTlDdlpiZXM?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews",
+   "x": "U.S. eases restrictions on six unapproved peptides despite FDA safety concerns Qazinform"
   },
   {
    "t": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale - The Washington Post",
@@ -230,9 +237,30 @@ window.FEED={
   {
    "t": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections - The New York Times",
    "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JSWpTV1hKUWtzalplclV0dU96SUJEQURMQVZwSG4ycDZWT01DNDRscUY2b1k4Ykw2SFE1aTVuSkc3ZWxtSFhGZDVhMTlHZEFBb01DX3JUTjJObUxVQ0hmVG5PTHNYaWhucmFMNmFRQzZTTmJtdnc?oc=5",
-   "d": "2026-10-28",
+   "d": "2026-10-29",
    "s": "gnews",
    "x": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections The New York Times"
+  },
+  {
+   "t": "Verywell | What to Know About the 6 Peptides Backed by an FDA Advisory Panel - UCHealth",
+   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYlRFR281WjdyV3RDUEtiNjdXOUV0QnVySHplU0tzZzMwSjJkZmQ1LWVtQ3dHYkk0X2pKS2xNd200ZEtRX25XTkltNEtqUFRzTkNiNFNWU1JjTmJ5ZUxzYTJJTkw1V0NIclVfWHQyZzZqZko1OHlvYW9XdlBFVElwcWU1MmZBUHhENzhzZFQzb3lqUC1WOVVFMTQzV0FtdnlHY1l2WElTZEpYd0daVUk4?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "Verywell | What to Know About the 6 Peptides Backed by an FDA Advisory Panel UCHealth"
+  },
+  {
+   "t": "Peptides could soon be easier to get in the United States. Here’s what to know - CNN",
+   "l": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5TUGhEVU9BcnU4TXlPOGNBN2tZaEpGNDYyV3RWd2MxZUNhQ0JvclZyaGRCSUo1SGgwU3lpcElBNTZkcWlEVlVKMGx6SkVhazhwLW53OTNfNFVjUjRrNUhiUzkyOFFFN3ZyUjRVYXpNVFQ?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "Peptides could soon be easier to get in the United States. Here’s what to know CNN"
+  },
+  {
+   "t": "RFJ Jr. institutes backdoor approval of 6 peptides - Reason Magazine",
+   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONTlhd2RTQVgyVFIzVXVCdnQzU2FxdVZhWkRBZmtJbWd4eWxWcl9mN3FGVjBMdElnQ2Z0SDlTNkJxTjUyeFdyMmJ2R1Q3aGJtYmJMSURkSHFlS0M3dDlsOHRsRGlPMVU3ZGZETDd5NS0zd1NmakctaC1DM0RUODlLdGViSFVnZWc?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "RFJ Jr. institutes backdoor approval of 6 peptides Reason Magazine"
   },
   {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
@@ -366,34 +394,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "FDA scientists opposed the Trump administration's move to ease peptides access Yakima Herald-Republic"
-  },
-  {
-   "t": "FDA scientists opposed the Trump administration’s effort to ease peptides access - myMotherLode.com",
-   "l": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWEJJWFVlU0stc3otdjQ1b1BzSTRqX2MtZWYtZDVxU1RMYTN4Nkd3RlNxS25yOXhjTkwyTTFMZXllc0stVWRMem9OV0ZlZkRaam9kWkI2djJPRXJ0WGw2VDdyam1DV0pDU0dYNXlTR2xqVzBUT1RZSkFrT2ZUcVlWb0dHX2hvTEhlQkFTcThVeG8zX1cxZjgzZm5Nd2F6MzQzYzdaSnNzRGhUU0NXSTlIclZTNHpISlluR0dBQXl1d2dlTzBoQklXdkViTFl4eElKbFHSAdIBQVVfeXFMT1hCSVhVZVNLLXN6LXY0NW9Qc0k0al9jLWVmLWQ1cVNUTGEzeDZHd0ZTcUtucjl4Y05MMk0xTGV5ZXNLLVVkTHpvTldGZWZEWmpvZFpCNnYyT0VydFhsNlQ3cmptQ1dKQ1NHWDV5U0dsalcwVE9UWUpBa09mVHFZVm9HR19ob0xIZUJBU3E4VXhvM19XMWY4M2ZuTXdhejM0M2M3Wkpzc0RoVFNDV0k5SHJWUzR6SEpZbkdHQUF5dXdnZU8waEJJV3ZFYkxZeHhJSmxR?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "FDA scientists opposed the Trump administration’s effort to ease peptides access myMotherLode.com"
-  },
-  {
-   "t": "FDA scientists opposed the Trump administration’s effort to ease peptides access - Los Angeles Daily News",
-   "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9wR3p1dEdvQ1p1bEdsUGU2VjlHT3RzU2dieng5MmFfS3Y4ekFoMU0yRmRjV3RqWDJuclZuQjNxV0RwcFFBYkpaWG1fNVBYZmNZeDFJZEViV2R2Ni1uYlY5RkExcmRiOThUcGpJc05QbFhJV2M?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "FDA scientists opposed the Trump administration’s effort to ease peptides access Los Angeles Daily News"
-  },
-  {
-   "t": "Some wellness peptides will become widely available, HHS says - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQLVI4SUY3c0gtbkVmWGpLM3Y3TkNxcUFMb0JJNkRocGlwYVlLOFU5WHo0YlhuUktpUGNlNWI5UUtjbzNKRDRIUDhrQ1ZfTnZKaVJBaWVXT1NQMFUyOGtsU1VtSUR1bnhyZWZmWWNGVXRsbE9ySDYza0t1b3RCQWRSTnR2cEFFbHlQRklJbHpB0gGOAUFVX3lxTFAtUjhJRjdzSC1uRWZYakszdjdOQ3FxQUxvQkk2RGhwaXBhWUs4VTlYejRiWG5SS2lQY2U1YjlRS2NvM0pENEhQOGtDVl9OdkppUkFpZVdPU1AwVTI4a2xTVW1JRHVueHJlZmZZY0ZVdGxsT3JINjNrS3VvdEJBZFJOdHZwQUVseVBGSUlsekE?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "Some wellness peptides will become widely available, HHS says ABC News - Breaking News, Latest News and Videos"
-  },
-  {
-   "t": "FDA scientists opposed the Trump administration's effort to ease peptides access - reflector.com",
-   "l": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOcE4xRU1zR19sS216aDhPWTJhM1VqdFgyOUdXU05FZjhXSm94UTFORzhUUlF5aG1LVUNXZnl2Sk9QZk5YWXluc3FkbENETXlaX1lvT09TU1g4dDNwVzRtTmJiWVdGMVIyaFg1SDJ2TlltMHE1eFJGUEtOUWR6THBoNEZ5a0Utd3pHbXpWUHBYdFRlUk41VnFWR002alUwcGdTQ2J2dHdfSnRzR2tpN3J0dk5IRkNfVzB2WkNVdXRpQ0lPcjZSNGZ0cFRvWXltWF81TXdzV3hVTkZGMXpMWUMxRGNzcVNzR2pRQ0hXTlZEQUZ4MUEyOHNXQ3RVckQ?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "FDA scientists opposed the Trump administration's effort to ease peptides access reflector.com"
   },
   {
    "t": "Registered Outsourcing Facilities",
