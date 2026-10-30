@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-30T13:07Z",
+ "generated": "2026-10-30T22:27Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-30T13:07Z",
+   "checked": "2026-10-30T22:27Z",
    "ok": true,
-   "new": 99,
-   "seen": 126,
-   "lastOk": "2026-10-30T13:07Z"
+   "new": 107,
+   "seen": 138,
+   "lastOk": "2026-10-30T22:27Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-30T13:07Z",
+   "checked": "2026-10-30T22:27Z",
    "ok": true,
-   "new": 0,
+   "new": 1,
    "seen": 15,
-   "lastOk": "2026-10-30T13:07Z"
+   "lastOk": "2026-10-30T22:27Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-30T13:07Z",
+   "checked": "2026-10-30T22:27Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-30T13:07Z"
+   "lastOk": "2026-10-30T22:27Z"
   }
  ],
  "items": [
@@ -86,11 +86,11 @@ window.FEED_ART={
    "x": "Retatrutide Beat Ozempic on Blood Sugar and Weight in Diabetes Trial, but More Patients Quit Over Side Effects Medical Daily"
   },
   {
-   "t": "What are peptides? And what’s all the hype about? Here’s what consumers should know - MassLive.com",
+   "t": "What are peptides? And what’s all the hype about? Here’s what consumers should know - MassLive",
    "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTDJ1X1hBeG1aR1ZGWXktRmx4eW9YeU15UDUxb282bnN4VTRWX2Ezbm56X2RjbDF4SXZhUnI3N1FIbTV0N3htZWt5LXgxWUVrTTVPREEzcGlBUDJ4cllua0hQVUN1a2hueHJhNVNHWV8yaFVRcWVrRkVhMEZBUllrNEhEdFhESVYzalRNRlIzbXRfaGJ1VHhxVVZla2ZhMk5ZNHVkY3h3Y3B4RkxDSDBQbTdrWkRxZ1R4OVVBTmpxNNIB0wFBVV95cUxONExicjd3bXlfdUhPeTNjbk5ZbUZFMkF6dWFLRFUxTkRNcE5SNzZyNFRsMXpmSEc4eTNWaGlwWk5sX2tUTDk5U2g2bkJ5d2tTVzR5Wnc4WDJ2alg5VTU5alV6LUNfY3BEdy1pcVRab1JzTnQ5RHFFM2tqYk5acUtWQ29OYm5vTlVHdy12ZGxMZVl5OUxxeTJHOGVGVmpHbnVQaC1RWGxUaTYzclZ6NHdjRVd5TnF0TlVHVk1ZRkRqQWRsSUdxZTk1RVllRE9wZVVSazBr?oc=5",
    "d": "2026-10-30",
    "s": "gnews-a",
-   "x": "What are peptides? And what’s all the hype about? Here’s what consumers should know MassLive.com"
+   "x": "What are peptides? And what’s all the hype about? Here’s what consumers should know MassLive"
   },
   {
    "t": "Retatrutide Tops Ozempic for Weight Loss, A1c in T2D - Medscape",
@@ -105,6 +105,62 @@ window.FEED_ART={
    "d": "2026-10-30",
    "s": "gnews-a",
    "x": "What Distinguishes MOTS-C From Other Mitochondrial Derived Research Peptides? celebrityfigures.co.uk"
+  },
+  {
+   "t": "Richard Norton ignored nurse’s grim warning about peptide use before sudden death at 75 - Page Six",
+   "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNelpZbTN6Z0l4clFKNW5wQnNlT2F4TEVjLUg3X011MFAtWTI4OWpzRmRxUm5iMTlFcV9KVTZtRTJWRlhKVlRKZUstd3htY3UxeHB4ZGE3cUNQemVCVVJybnNxX21aZzFMdHBsQlRpNE0tQUdEeWdaRTdWUDZTMGpzb2xJQ3B0Tmo4ZGJDX2xGZ2Zld3NBYlFuRlZzVW1DTlBZU0k4QVhmZHNneml3OWpTRENfZ2dxZFdaNzZvdWltSWlHYVVuV2RTX2tnaFRWUQ?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Richard Norton ignored nurse’s grim warning about peptide use before sudden death at 75 Page Six"
+  },
+  {
+   "t": "HHS Opens Access to 6 Unapproved Peptide Injections - Health.com",
+   "l": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBR29LSkdkZklwMVZWemlvWFQ3LUlxQnR6RHhkb0pXZGNNR0NyR1huSWNXYzZxSi15YVllSFZGRVhjbGNEWnU2S3RNMVVoeDhxdVlMNGp2UHp1Um02V21j?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "HHS Opens Access to 6 Unapproved Peptide Injections Health.com"
+  },
+  {
+   "t": "Peptides get a green light — and 50 red flags - Politico",
+   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQlBfNnpQOGFxaW5kajFseTY5Y3JpaFFJSFJmRXJkbDN0ZUFDNUozakc0TTRRQktwUGhtc2lCbHYyV1ZNZnltWXROVkU5N0V4Z3F1Z2w4YUtPbHBidFI1YjFWWlRFUTdOX2QyNzM2M3NhRkx6TDIyREUzZXhCSHBFbTFMdnAwTjhWNUUxTTlOczFJOWkzUl9MVGRaenB5RklZWXBPSEZQZjhjc2FzdkRGQTV3SXkyaFJOLWNB?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Peptides get a green light — and 50 red flags Politico"
+  },
+  {
+   "t": "Actor Richard Norton Was Warned About Peptide Dosage Before Tragic Death - TMZ",
+   "l": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yRXBIVmxfVTJucVlWb25HWDlqOVk5VEEyeFpKOEVVM3NCWlEzcnZ4cmdVMzJCNEtUdVBaZzA4WHdJcU5rSHNYYnZpYVVCLUFKT2ZQZlVGWmlsbkVKVjNvMmZLWkhlVWl1N1FlWkJIOGNTa2NzaEx2RC1vMG1odw?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Actor Richard Norton Was Warned About Peptide Dosage Before Tragic Death TMZ"
+  },
+  {
+   "t": "Experimental weight-loss drug retatrutide may help improve sleep apnea - AOL.com",
+   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOEQ0VVZaNGRFUmNhUmpCd1BMeVJrSTlUYVlDa1YzNF8tZGp6SFlUdGh1T2hHQmRBTUVHOFNib1JlWXR5VERCSzVVRDVUUEVSTmVPVTlyY05ZRXJvZzY3dEFGay1QRnJVV2V3dFhjWWVOWE1YZ19MbEdTRmRIYXpfY19JZWxnMlhMdE5RZ0d3?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Experimental weight-loss drug retatrutide may help improve sleep apnea AOL.com"
+  },
+  {
+   "t": "I injected a peptide to lose weight — my liver started failing just days later - New York Post",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTEF0OE1fdUNBeXVGYkh3NVdRWVRtNHZDSmVFTHRwVG90aS1xUFVnOEx6QklsX25GMUoxOXYtOHdqWmZ5RGZ5aTdwdUFqck44ZnRfRkRpNG5UOFctcmNRb2QxTGJWSVFkeDlBaFpjdU9TamNkUWgwMXRHaVFpVlI3a04yY2MtMThFWmFRNjh1S0Y4S0ZaQjdic29fdklNalREU2JTWUxfNHdQdw?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "I injected a peptide to lose weight — my liver started failing just days later New York Post"
+  },
+  {
+   "t": "Lilly's Retatrutide Delivers Double The Weight Loss Of Ozempic, Raising Competitive Stakes For Novo Nordisk (NYSE: NVO) - Foreign Policy Journal",
+   "l": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPNGluLVIwaExBWGhJUW8wbl96ajZUYUNMZmlINHVaaDZiYkkzRGozLWRzdjRUcWtvYm5QXzdEQTE1Wk5uUmlvMlNQR2FBbjZHbm5VdUdHTzNJbm1pVlJicG9Tc0pPNUpGVFdOZXQ3Yml3UFpJcUxFZmItMi1PVHBRVlp1OFh5aUZUMUdxWDF2ZHozdDYwaWdmWlQtdmxIREVxZXNhYjhQeko3NTVsWVpndHF4aU1YOFpRYlhaaWpuajZneldzS0FOWTlYbnBxcDhMeHZuM3RVV3FWYkJoZ1lwWFh0SUcwRWRCVjhocUhoLUU2VXVRYlE?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Lilly's Retatrutide Delivers Double The Weight Loss Of Ozempic, Raising Competitive Stakes For Novo Nordisk (NYSE: NVO) Foreign Policy Journal"
+  },
+  {
+   "t": "6 Experimental Peptides Just Became Legal to Get in the US (But the FDA Still Hasn't Approved Them for Safety) - BoxLife Magazine",
+   "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zVmpSSWp4MU5Db0N2UHh3RHFsT3o3bnZDeW1vNmxPQ2d4emI5eklkLXJiTjNodHFpaW1zOEdoRWpOaDQ4SFhkSkliY3dUS2dQQU1FaThLelIzMWp0NExuSEw5dWRsZjdF?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "6 Experimental Peptides Just Became Legal to Get in the US (But the FDA Still Hasn't Approved Them for Safety) BoxLife Magazine"
   },
   {
    "t": "Aussie actor Richard Norton’s death linked to unapproved peptide use - 7NEWS",
@@ -301,62 +357,6 @@ window.FEED_ART={
    "d": "2026-10-29",
    "s": "stat",
    "x": "Great news for peptide fans: The Trump administration is giving the peptide craze a regulatory boost, despite objections from FDA career scientists."
-  },
-  {
-   "t": "Warning: Illegal Peptides Marketed for Weight Loss and Bodybuilding May Pose Health Risks - Gov.il",
-   "l": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2UmwyYkpZdEpzd3ZRYmJHdkVsb3VKVHIxZXZKR2pCOC1Rb01GUTJOVUs2blpjMFFja01YRUgzYlhuMEZzbUdiaE9wTFRYR1J5?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Warning: Illegal Peptides Marketed for Weight Loss and Bodybuilding May Pose Health Risks Gov.il"
-  },
-  {
-   "t": "Richard Norton Cause of Death: Coroner Says ‘Mad Max’ Star Injected Double His Prescribed Dose of Peptides - Men's Journal",
-   "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbFRDNmdYd29YZnhwS0JHeEtNb1RIVFlkS1BqV2FxYmZha09rNUNhQk9YdFU5a2pNLW9vY3RrNjU1Y2FwVHpBUU1VV2QtaWJRb1ZISGRMdFhGQjVQSUFrNnlMaTBDLVZLTmhNN2RkZkdkZVhOSHFMMGF2SXdwRGN2bkNjWXFpdw?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Richard Norton Cause of Death: Coroner Says ‘Mad Max’ Star Injected Double His Prescribed Dose of Peptides Men's Journal"
-  },
-  {
-   "t": "RFK Jr. Wants to Make Popular Wellness Peptides Easier to Get - Men's Journal",
-   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObXNLbTlGbXFCUXRIY2U0RlBLRlN5aVBwVFNuNGJBU0lDT0czdS0xQzVfNmhDdFlfcWNSekM5dEVUWHdWLWRkcExUV2REZC1pQllhbEJSNnVJYUlNYjFYYUhRU2ZvSWNWTi01T05XT3V1U3p2Y2FZS2NUWDlNdGRHeUl0NXUwNW1jZG1Ub0t1SDd4TjFYeUpXVg?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "RFK Jr. Wants to Make Popular Wellness Peptides Easier to Get Men's Journal"
-  },
-  {
-   "t": "Lilly’s Retatrutide Doubles Ozempic’s Weight Loss in First Phase 3 Head-to-Head Trial - BioPharm International",
-   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcFJ1TGVFeTJjSW04RVVBQ292Z0dINjQ4V3I5bmh0WlpHT3gtUVFpeEM1SlVWbUZ1b3VZME1iMV93dWY0QURRazVmMUJjb3JTMGhna29vckctdGJ5NXdtdTZBQm1UY1Myb0d2T3lJbmdiWWlpWmszOFJRa2QzSXBtLVBwY1p6UkJ5VW9RVGx4dmJxMEItTG5Rc2dPb0tyRTJnZWw5VWtON2xBcjNnUmZ1dDFMak5yT3A3QXM0SHQxVG1YZzZEVUIw?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Lilly’s Retatrutide Doubles Ozempic’s Weight Loss in First Phase 3 Head-to-Head Trial BioPharm International"
-  },
-  {
-   "t": "New weight loss drug retatrutide provides double the weight loss of Ozempic, Lilly says - ABC13 Houston",
-   "l": "https://news.google.com/rss/articles/CBMi4wJBVV95cUxNdmJYMHVrWUNvTVJVNGRBaDduZ19BQkR5VjhqQks4OU51eXB1TjRMNjRLWjRibWE2X19lV2ZmRUdQQmhaSjNrejNFQlVYcXFwZExyTnEtNFVzTjVQYVFlRG9qMmExYXRyOEk3X1VocWFhdnI2Uml3WGFtaElXaXBFUnVtakJIZEtxTWtuN2xaeGV1MGtVOFZoQW9Vd0NUWWVYWVQ2MURkT2QtMmVlTlluZ2RqRjJBZVdXTHJDUENoNXRuNkdsUWRPRnFSdTBmUy1EV1ZUS3lWdUdXaE83bURXSkhIX0tGLUEyUzVLRDF4OWRyLUt4aFZTRTF5OF9sUGRycGJxYlBZUTdUdHB3ZXBSS3JpVmpYU216WEhLOERibXp3WmRtSXQydFN0RHZ2T01STGp4cTk3RmJDVjJSTmFudlIwU2ZRcGpmUkJrRW45cFU5Z1ExSDlqMDRST0FacEM0UFRR?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "New weight loss drug retatrutide provides double the weight loss of Ozempic, Lilly says ABC13 Houston"
-  },
-  {
-   "t": "Lilly’s retatrutide outshines Ozempic on weight loss, blood sugar control in trial - CTV News",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPTnBGVUZoVnVMTjhqRGdpLV9pUGZkN2RBemtYRHVhRFVUM1h3Q3JtQ3hLNmVCLXRVZU9YVDEwc1pweVBTQUpidUFvNkJQQlJhM0lWLWhIR2Q5UXY2WlJKaFY2Y3FPOGxaS0Q2T0ZqSkNKdG9jS0doTm9JUjR1LWF6QWhvbHFmSU9UTDYwSmgybXJKeDhQZk1McllYNDVsUExZNEhfT0V6Znh0LTJqZ0w2YUZCTl80bGlRa2R3?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Lilly’s retatrutide outshines Ozempic on weight loss, blood sugar control in trial CTV News"
-  },
-  {
-   "t": "Lilly’s Retatrutide Beat Ozempic Head to Head. Before You Cheer, Check the Comparator. - Moomoo",
-   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ2lZbGpIdl9VbXN1dEl5TVY0UXIxbUtfQzIxSFhYUV93dUNmbUNBd0ViVWwwRC1GUTM5RlpyMTZwMVF0UHA2LWNTVC16U1MwY1h0TWZOVEVDa0x5SEFyUFhodnpMbl96ZWxORUxxcGJaV0tTb0UxdUhiWE5yZlUtSjdOVVF3MXNWY3dTSkpXYVc0dEdNeFdINnJvRGJGWmtka0V1Umc5X3hTSlJqMm80?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Lilly’s Retatrutide Beat Ozempic Head to Head. Before You Cheer, Check the Comparator. Moomoo"
-  },
-  {
-   "t": "Thousands of peptide injecting kits handed out as Health NZ sounds warning - Stuff",
-   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRS1nX2dzdEp3TTd0THBnVTg0bTF4WXhEZTR2aGVrdXFjbjBKbEk4N3A4dUYyZXE1SUVLcEtBcVRjYnp5ZHg1d2ItemQxU1Bab20xc2s1VmZIc0ZFRk5oUFI1N2c0WkFRTG1GQnBYRUluN1h3NEFlZTlWdzVfbkJNbXhDTUF0dUxieEF1dkJiZzRmbHZURnRMZm83ZTlTLVBtMlE4OWdQaWpmeDRkbXhN?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Thousands of peptide injecting kits handed out as Health NZ sounds warning Stuff"
   },
   {
    "t": "STAT+: HHS moves to allow compounding of some unapproved peptides",
@@ -567,6 +567,13 @@ window.FEED_ART={
    "d": "2026-09-25",
    "s": "epmc",
    "x": "Kidney Int Rep · Byrska J, Boeckhaus J, Voutsadaki K, Breuil B, Delecroix E, Murunga S, Buffin-Meyer B, Becknell B, McLeod D, Burgmaier K, Liebau MC, Schaefer F, Siwy J, Mischak H, Kondyli M, Decramer S, Sanchez-Niño MD, Ortiz A, Gross O, Schanstra JP."
+  },
+  {
+   "t": "Unimolecular GLP-1/APJ receptor co-agonism improves metabolism and dyslipidaemia as well as normalising hepatic triglyceride and aminotransferase elevation in high-fat-fed mice.",
+   "l": "https://doi.org/10.1007/s00125-026-06863-7",
+   "d": "2026-09-18",
+   "s": "epmc",
+   "x": "Diabetologia · Sridhar A, Palmer ES, Craig SL, Tanday N, O'Harte FPM, Irwin N."
   },
   {
    "t": "FDA PCAC peptide vote: what the 503A recommendations mean",
