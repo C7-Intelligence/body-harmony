@@ -1,85 +1,120 @@
 window.FEED={
- "generated": "2026-10-29T22:50Z",
+ "generated": "2026-10-30T05:58Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-29T22:50Z",
+   "checked": "2026-10-30T05:58Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-29T22:50Z"
+   "lastOk": "2026-10-30T05:58Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-29T22:50Z",
+   "checked": "2026-10-30T05:58Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-29T22:50Z"
+   "lastOk": "2026-10-30T05:58Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-29T22:50Z",
+   "checked": "2026-10-30T05:58Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-29T22:50Z"
+   "lastOk": "2026-10-30T05:58Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-29T22:50Z",
+   "checked": "2026-10-30T05:58Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-29T22:50Z"
+   "lastOk": "2026-10-30T05:58Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-29T22:50Z",
+   "checked": "2026-10-30T05:58Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-29T22:50Z"
+   "lastOk": "2026-10-30T05:58Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-29T22:50Z",
+   "checked": "2026-10-30T05:58Z",
    "ok": true,
    "new": 4,
    "seen": 4,
-   "lastOk": "2026-10-29T22:50Z"
+   "lastOk": "2026-10-30T05:58Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-29T22:50Z",
+   "checked": "2026-10-30T05:58Z",
    "ok": true,
-   "new": 131,
-   "seen": 153,
-   "lastOk": "2026-10-29T22:50Z"
+   "new": 104,
+   "seen": 124,
+   "lastOk": "2026-10-30T05:58Z"
   }
  ],
  "items": [
+  {
+   "t": "5 Things to Know About HHS's Interim Peptide Compounding Policy - The American Journal of Managed Care",
+   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSnA1YTJWVW53Z1BqVzhIQTBSdktKNmI2c19pb0h4S1IwTklzS2ZNZ096NHhrOGJucWJfeUtMUFFDazRwNnVnTVNWcThBRmF1SHZLd2lJYWJaTmp4ajJZRzM3VW5NRkF5c3pleDZBQnVSX0Y0RFczMHp2MjlZWDJ5MHE3STJVcWd4ZlROeTY4NXREQ3c?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews",
+   "x": "5 Things to Know About HHS's Interim Peptide Compounding Policy The American Journal of Managed Care"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/lilly-breaks-down-medicare-bridge-boon-glp-1-sales-drive-another-guidance-lift",
+   "d": "2026-10-30",
+   "s": "fierce",
+   "x": "As Lilly’s tirzepatide franchise continues to deliver strong sales growth, analysts are increasingly turning their attention to new catalysts in the GLP-1 market, including the launch of oral obesity medicines and the rollout of a nationwide access program for seniors."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides",
+   "d": "2026-10-30",
+   "s": "fierce",
+   "x": "Stopping short of a formal declaration allowing their use, Department of Health and Human Services Secretary Robert F. Kennedy Jr. has cleared the way for the compounding of six popular wellness peptides."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/amgen-hit-fda-warning-letter-misleading-vectibix-promotion",
+   "d": "2026-10-30",
+   "s": "fierce",
+   "x": "Amgen has been handed an FDA warning letter over a video promoting its cancer drug Vectibix, but the company said that the issues stemmed from an “inadvertent” submission and was not made available publicly."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/vanda-eyes-glp-1-nausea-indication-nereus-phase-3-win-hand",
+   "d": "2026-10-30",
+   "s": "fierce",
+   "x": "Vanda Pharmaceuticals secured a phase 3 win for its motion sickness medicine, Nereus. The drug reduced GLP-1 related vomiting by 27% for patients on Wegovy."
+  },
   {
    "t": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale - The Washington Post",
    "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeGFGSWIwWEJzZkswTHlVR2VucWswRnVIOWZxRFZ2TC1iTjhJQ2h1SGpHWTY4RktXME9oQnFELVNkT0Vsa3J3d3RaQmxDaERudGg2Mk9MOXEzV2p4Z1ZLVHA3aDA3VW40WGtyVUpxdjBiMjVidjk2Q2JNeDdmdGhpVE1pUDBUZFc5dDRiQnJ0RVdzU1hBZ25OTzlyOVBrbHJOTkZFWEY3c1VYTWpyQjczN015Tkk2QnJTVUJiMw?oc=5",
@@ -123,46 +158,11 @@ window.FEED={
    "x": "Some wellness peptides will become widely available, HHS says شبكة تواصل الإخبارية"
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/lilly-breaks-down-medicare-bridge-boon-glp-1-sales-drive-another-guidance-lift",
-   "d": "2026-10-29",
-   "s": "fierce",
-   "x": "As Lilly’s tirzepatide franchise continues to deliver strong sales growth, analysts are increasingly turning their attention to new catalysts in the GLP-1 market, including the launch of oral obesity medicines and the rollout of a nationwide access program for seniors."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides",
-   "d": "2026-10-29",
-   "s": "fierce",
-   "x": "Stopping short of a formal declaration allowing their use, Department of Health and Human Services Secretary Robert F. Kennedy Jr. has cleared the way for the compounding of six popular wellness peptides."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/amgen-hit-fda-warning-letter-misleading-vectibix-promotion",
-   "d": "2026-10-29",
-   "s": "fierce",
-   "x": "Amgen has been handed an FDA warning letter over a video promoting its cancer drug Vectibix, but the company said that the issues stemmed from an “inadvertent” submission and was not made available publicly."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/vanda-eyes-glp-1-nausea-indication-nereus-phase-3-win-hand",
-   "d": "2026-10-29",
-   "s": "fierce",
-   "x": "Vanda Pharmaceuticals secured a phase 3 win for its motion sickness medicine, Nereus. The drug reduced GLP-1 related vomiting by 27% for patients on Wegovy."
-  },
-  {
    "t": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides - The American Journal of Managed Care",
    "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOGJxLVd0bFNOZndDUlRhME5JY1cyMFlNbVg4SUZsT0g3QVRQWk56eG16MElNcVFvUzJFM2ozSENUQmdEd2V6TllycFE0QTlVWmxtaHI3X1h0RWlBUHhDU3ZpSlh3YjBHZVppcDFJSDlsMU1wWHZZdjZzZXJkTnZtRHNsSl9lUDFnc3M2UTd3?oc=5",
    "d": "2026-10-29",
    "s": "gnews",
    "x": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides The American Journal of Managed Care"
-  },
-  {
-   "t": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections - The New York Times",
-   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JSWpTV1hKUWtzalplclV0dU96SUJEQURMQVZwSG4ycDZWT01DNDRscUY2b1k4Ykw2SFE1aTVuSkc3ZWxtSFhGZDVhMTlHZEFBb01DX3JUTjJObUxVQ0hmVG5PTHNYaWhucmFMNmFRQzZTTmJtdnc?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews",
-   "x": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections The New York Times"
   },
   {
    "t": "Unproven Peptides Opposed By FDA Scientists Could Soon Be Easier To Get - U.S. News & World Report",
@@ -200,13 +200,6 @@ window.FEED={
    "x": "HHS Lets Pharmacies Compound Peptides as FDA Writes Official Rule Drug Topics"
   },
   {
-   "t": "5 Things to Know About HHS's Interim Peptide Compounding Policy - The American Journal of Managed Care",
-   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSnA1YTJWVW53Z1BqVzhIQTBSdktKNmI2c19pb0h4S1IwTklzS2ZNZ096NHhrOGJucWJfeUtMUFFDazRwNnVnTVNWcThBRmF1SHZLd2lJYWJaTmp4ajJZRzM3VW5NRkF5c3pleDZBQnVSX0Y0RFczMHp2MjlZWDJ5MHE3STJVcWd4ZlROeTY4NXREQ3c?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews",
-   "x": "5 Things to Know About HHS's Interim Peptide Compounding Policy The American Journal of Managed Care"
-  },
-  {
    "t": "BPC-157 'Wolverine Peptide' Use Rose 33-Fold Despite Scant Evidence - The American Journal of Managed Care",
    "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY2RPMVdCZXJHRnBCNXVHOUxRc3Jia3BmR3B3QVRlbGtrZ3Fwckc2aFRhWUN0dUNrcEpQR2tzaGlSV3NXTU03cHQydTJ1V1B3NDZROS1jRDZPM09MTi1oRlZ3NGI3c2EzWUhNVEJqdWNqZ2JpeFZvM2Q1UG8xMTZoN25uNHFJRF9FME9tQ0tSbFVobHpGR1E?oc=5",
    "d": "2026-10-29",
@@ -219,6 +212,27 @@ window.FEED={
    "d": "2026-10-29",
    "s": "gnews",
    "x": "HHS Lets Pharmacies Compound BPC-157 and Five Other… inkl"
+  },
+  {
+   "t": "Kennedy's HHS relaxes enforcement on 6 popular wellness peptides - Fierce Pharma",
+   "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeVF3QXBIdE50TFdUckNRSUMxeUxFUDJoMFhhQ280ekpLQTI1QXl1VjdIdF95dzNNZlU4UXI5YnJPN1BsUHMtTjAtb21mUUdnekZkaXY2ZllBalVwNVJ4eTF1ZTgxV2xIOTNKUEpaUGNWMURvZXBXUmQ5bkNCZWVFTmN0QV8zb0YzcFlBdVR3NWdqNHNFN3g0VFgyYkM?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "Kennedy's HHS relaxes enforcement on 6 popular wellness peptides Fierce Pharma"
+  },
+  {
+   "t": "US Health Secretary RFK Jr to expand access to unapproved peptides - BBC",
+   "l": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE9ZRVZpbm44dWQ2dEppajFKaklZQVEta3pnQXhPbXJqcTdPZUlJeTJvUnhId0k2TEtGVjB4ejRiYmVKUFVLT2JBeVdLbExHRjVGVXlJMDNTQktsWWRDa0E?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews",
+   "x": "US Health Secretary RFK Jr to expand access to unapproved peptides BBC"
+  },
+  {
+   "t": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections - The New York Times",
+   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JSWpTV1hKUWtzalplclV0dU96SUJEQURMQVZwSG4ycDZWT01DNDRscUY2b1k4Ykw2SFE1aTVuSkc3ZWxtSFhGZDVhMTlHZEFBb01DX3JUTjJObUxVQ0hmVG5PTHNYaWhucmFMNmFRQzZTTmJtdnc?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections The New York Times"
   },
   {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
@@ -380,20 +394,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "FDA scientists opposed the Trump administration's effort to ease peptides access reflector.com"
-  },
-  {
-   "t": "6 Peptides, Including BPC-157, Just Got Easier to Get. Here's What Health Experts Say Happens Next. - Men's Health",
-   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNMERfUDBiUE5IYjdocjZDOWgwU3hZckkwWUFTV19HMkNWZUxNTkdlT2xISVYwVU1BbGMxYjVBbVh4bUw1aEl2NjhRYXJqcWx1aUx4QzdTVGpsR083RFRNalpNd29lcFVhUWJXZGI0b0JfYmlYcjR2dkFLZm5xeXRNa21QU2I?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "6 Peptides, Including BPC-157, Just Got Easier to Get. Here's What Health Experts Say Happens Next. Men's Health"
-  },
-  {
-   "t": "RFK Jr. eases access to unproven peptides despite opposition from FDA scientists - The Vacaville Reporter",
-   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1tekd0U21nY1R2dkFPQ3Vvb0MzNUR6QnpxSWZLcjdqT1hBNUNFSEVkZkp1N2k0M0I5ZVM4cm8yd0tGZnNMTHpDSWdqRGVsekpUdVM5TUdwd2F6MFNvLUJLM3NYRncwcl9tcjV3X3lEQWh4Z1V4Znc?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "RFK Jr. eases access to unproven peptides despite opposition from FDA scientists The Vacaville Reporter"
   },
   {
    "t": "Registered Outsourcing Facilities",

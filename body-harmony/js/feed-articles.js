@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-29T22:50Z",
+ "generated": "2026-10-30T05:58Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-29T22:50Z",
+   "checked": "2026-10-30T05:58Z",
    "ok": true,
-   "new": 98,
-   "seen": 133,
-   "lastOk": "2026-10-29T22:50Z"
+   "new": 77,
+   "seen": 114,
+   "lastOk": "2026-10-30T05:58Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-29T22:50Z",
+   "checked": "2026-10-30T05:58Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-10-29T22:50Z"
+   "lastOk": "2026-10-30T05:58Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-29T22:50Z",
+   "checked": "2026-10-30T05:58Z",
    "ok": true,
-   "new": 2,
+   "new": 0,
    "seen": 5,
-   "lastOk": "2026-10-29T22:50Z"
+   "lastOk": "2026-10-30T05:58Z"
   }
  ],
  "items": [
@@ -56,6 +56,34 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Viewpoint: Peptides and medical freedom: The MAHA obsession that can damage your health - Genetic Literacy Project",
+   "l": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSHNjYzhScWJLa2dySTdyTld2XzdwVXBOVlFSUl8ydGp2elgyU3BvWVhjT3piZWd0ZVVyZzZ0dXBRQ09pbVJNd2w1SVFGR1FuLUVsUU5RanVNRGFQYTJDck1zODRSQWlwbTNPYVNuTlNrWUdzYzlUZWh5Vy1QcFRsa0c3UWk0UFpkWEtMRkVIN2VUUnp5OFpPVUhDV3NKY1JWQU1BN2hsOUQ1alBNeHl3TzQyTGp4bmFaZ3JaNnBfazdlUlFraWctbFNRaFY?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Viewpoint: Peptides and medical freedom: The MAHA obsession that can damage your health Genetic Literacy Project"
+  },
+  {
+   "t": "Australian actor Richard Norton's death linked to peptide usage, coroner finds - LADbible",
+   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObDRiTlpPdnI4ZDZnMU8xaWNEYnNNd2U1MGQtaExwZUs2WVZoa2dZQlVyV3c4T0U2Y1lsYVRhQWt4TE5pX1FQOGlrbHNaYXZSX0ZWdk50NHRzdzFRLUhwamN5NGVEcGprNk9LMEFkWnNQOGpfUlAxWWlnZXhhWFdyU2I1d2J6MVc4eDdJaWdiODhXTlYwX2RmZU5LdllZbGVLckR2RGlnMjdpaFdDV013NjVKa3Nva1pJc3p3U1hTdWdDdmtfSzBwQg?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Australian actor Richard Norton's death linked to peptide usage, coroner finds LADbible"
+  },
+  {
+   "t": "New weight loss drug retatrutide could be one of the strongest ever developed - FOX5 Vegas",
+   "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNDYwWXFhOFRvNWhuTEVZMllkbWlGdzRHWVE0Z2RhSWpfR3piR3VmZzNMNndDNnQxd2NMLTVKN2F5ckFJVWVxM1AySVpPRlBPXzYxdGpvWEoxcTl4Nm1TSE1UeTVrS2JMRHNXSFhVdFpQYjF1ZFZiaTJoSW9YQ0hZNjRmLWJRbnNraFh2MHBLcW1yQ0pMbjVqcjhtZjFEY0doaldzRjRzV042NDk00gHAAUFVX3lxTE9QOEp3T3ZEbk10dnloMWRYc3cySlJMUW9SalhXTnY2VWZSZ205SzJFZnJKdFBFMVFrMkxEM3o3Y3N2YUtSMEs5OVlKVHBwaVZaVDdMMDRod0tDTENGRzRYMWwtc1lYa2tzQ3ZJek1qYUEyRTI0b0ptNWkwTGs2LXk1U2prMk5mLWNCNjNBMkNES1VfdDBSSHBkajJPTHJBOGtqc1RoRW9OOEZYcWtWWGFBRVRaNGZnQjFUdWdQN1Mzcw?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "New weight loss drug retatrutide could be one of the strongest ever developed FOX5 Vegas"
+  },
+  {
+   "t": "Retatrutide Beat Ozempic on Blood Sugar and Weight in Diabetes Trial, but More Patients Quit Over Side Effects - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVUJnM0I5UzVwSTlzVkFhMmZSc2FGdXg3SXV0cm5DaDRxY0Zxa1A1YnZDU1YxaVVCc0RUWGFWNGpZcWRrSFl6ckZRSXQxQVRMeXhwNDd0NzlpZmdtZFZwOGRXenVURllJU1pLLW0zYmdfVDIydXk0QjYyVkFQRkYyYnVuUGI?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Retatrutide Beat Ozempic on Blood Sugar and Weight in Diabetes Trial, but More Patients Quit Over Side Effects Medical Daily"
   },
   {
    "t": "Aussie actor Richard Norton’s death linked to unapproved peptide use - 7NEWS",
@@ -254,6 +282,27 @@ window.FEED_ART={
    "x": "Great news for peptide fans: The Trump administration is giving the peptide craze a regulatory boost, despite objections from FDA career scientists."
   },
   {
+   "t": "Warning: Illegal Peptides Marketed for Weight Loss and Bodybuilding May Pose Health Risks - Gov.il",
+   "l": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB2UmwyYkpZdEpzd3ZRYmJHdkVsb3VKVHIxZXZKR2pCOC1Rb01GUTJOVUs2blpjMFFja01YRUgzYlhuMEZzbUdiaE9wTFRYR1J5?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Warning: Illegal Peptides Marketed for Weight Loss and Bodybuilding May Pose Health Risks Gov.il"
+  },
+  {
+   "t": "Richard Norton Cause of Death: Coroner Says ‘Mad Max’ Star Injected Double His Prescribed Dose of Peptides - Men's Journal",
+   "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbFRDNmdYd29YZnhwS0JHeEtNb1RIVFlkS1BqV2FxYmZha09rNUNhQk9YdFU5a2pNLW9vY3RrNjU1Y2FwVHpBUU1VV2QtaWJRb1ZISGRMdFhGQjVQSUFrNnlMaTBDLVZLTmhNN2RkZkdkZVhOSHFMMGF2SXdwRGN2bkNjWXFpdw?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "Richard Norton Cause of Death: Coroner Says ‘Mad Max’ Star Injected Double His Prescribed Dose of Peptides Men's Journal"
+  },
+  {
+   "t": "RFK Jr. Wants to Make Popular Wellness Peptides Easier to Get - Men's Journal",
+   "l": "https://news.google.com/rss/articles/CBMimAFBVV95cUxObXNLbTlGbXFCUXRIY2U0RlBLRlN5aVBwVFNuNGJBU0lDT0czdS0xQzVfNmhDdFlfcWNSekM5dEVUWHdWLWRkcExUV2REZC1pQllhbEJSNnVJYUlNYjFYYUhRU2ZvSWNWTi01T05XT3V1U3p2Y2FZS2NUWDlNdGRHeUl0NXUwNW1jZG1Ub0t1SDd4TjFYeUpXVg?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-a",
+   "x": "RFK Jr. Wants to Make Popular Wellness Peptides Easier to Get Men's Journal"
+  },
+  {
    "t": "Thousands of peptide injecting kits handed out as Health NZ sounds warning - Stuff",
    "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNRS1nX2dzdEp3TTd0THBnVTg0bTF4WXhEZTR2aGVrdXFjbjBKbEk4N3A4dUYyZXE1SUVLcEtBcVRjYnp5ZHg1d2ItemQxU1Bab20xc2s1VmZIc0ZFRk5oUFI1N2c0WkFRTG1GQnBYRUluN1h3NEFlZTlWdzVfbkJNbXhDTUF0dUxieEF1dkJiZzRmbHZURnRMZm83ZTlTLVBtMlE4OWdQaWpmeDRkbXhN?oc=5",
    "d": "2026-10-28",
@@ -308,55 +357,6 @@ window.FEED_ART={
    "d": "2026-10-28",
    "s": "gnews-a",
    "x": "Lilly's retatrutide delivered greater A1C reduction and more than double the weight loss of Ozempic's highest approved dose in head-to-head trial PR Newswire"
-  },
-  {
-   "t": "Lilly says retatrutide outperformed Ozempic in diabetes study — STAT News - UA.NEWS",
-   "l": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPWmdXLVFxM3l5UXNBYmRlY2FUV01IbXNyQmtqTkRuQnZQRXBSRGltNnlKNUZ2SWhQdTZ1b1NmNHFkOUxDRVNuMDBmZTNKbG81SjFHWnJ5NFlSSWVueGtmRmdnR3gta0NpV0dpY1pZRFliTEVVQ1pXRkg2ckg5T0lqN0k1RFU3MWpqR0p5cnY3RE5KeXYxRlpNanlfaWpOSDNSZ1FfZzdyR2lWaXNOMGJLcHhZRmhKcGtQ?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly says retatrutide outperformed Ozempic in diabetes study — STAT News UA.NEWS"
-  },
-  {
-   "t": "Lilly's retatrutide beats Ozempic in Phase 3 trial (LLY:NYSE) - Seeking Alpha",
-   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOS3ExVDE2ZEZCYmNxblZSSDlMNFRlRXBrSFprRjJfTHAyU3E3SXJxS1QwRGNMOVdlNTFmM3FPTi1oc3E2eVlSLTM2ek9FUFpTejhUbnUtXzZ5aF9rVjFMbmdNb3F4cno1czFjNkpiX0pSYjFzQ196ZWRGMWhiSWFwSEVLcTVmYndnUVlQSg?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly's retatrutide beats Ozempic in Phase 3 trial (LLY:NYSE) Seeking Alpha"
-  },
-  {
-   "t": "Lilly’s retatrutide shows greater efficacy than Ozempic in trial - Investing.com",
-   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTkpKVURZeXhBMEs3Qk9qYklhaXF6MThhZnBIdEp4QnhpdW1MLXpCZFdnaEUwZzdNRE5NVjJQdk1fUzQzbjVqYlc3QnB3ZXVoRUFmWHB3NGozWmtYaVRFY0xCaGdoQi14QU14V1hXTkpCWTdrVWdma2RUNnU3U0Nmajhzd084SmE4QjV1ajRVSmQ0WlVUR1loUUtoZEdtSEh1QlRJTnI0SW5Rb1JQYVJrMUNFdC0zMFVKZHJ1Yw?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly’s retatrutide shows greater efficacy than Ozempic in trial Investing.com"
-  },
-  {
-   "t": "LLY Vs NVO: Lilly’s Retatrutide Beats Novo’s Ozempic In Head-To-Head Trial — Retatrutide More Than Doubles Weight Loss - Stocktwits",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNNDNwelNXZS1WNFVBQThsVm1UZDFWbC13TjFIOXNHVmVwcWdVNnN5SjlubUc2N2hWakNKNDEtQVhPOTZHaUtHNG5pR1NyY045U1JvMVgtV09OWExFTWhBQ1RDOTZ2MVJ5alcwNVljeFZBaEZ6eGp5eVJsSERPenhCUFBKX1A1M1IyWFBGWHMyblRyYTQ1VlNKb3ZpQmg1V3R2WWVuVzBIYVpuQmxKUkVUQlQxZ08zX1VrZW44?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "LLY Vs NVO: Lilly’s Retatrutide Beats Novo’s Ozempic In Head-To-Head Trial — Retatrutide More Than Doubles Weight Loss Stocktwits"
-  },
-  {
-   "t": "Lilly's retatrutide outperforms Ozempic in phase 3 diabetes trial - StreetInsider",
-   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPbXFEY2hwd0N1aTZycnI4UFRLQmtfWFRnb3dySWVhSDktLXhqeHBNUDA0dm52aGRMNWdwV0dIT0RwUnZlaU91LUhpZ2NBVnR3RVBjSXk5U2FsWHNCWkVidVdlOGV4OGJCNmMzMHlQRGtlZEF1WHZybHRNSUtBY1UxelJxZmFhS21NRm9FM2JLSEFHRFdydlRNejJEQXVNa2FCXzlYdkNxMUFhTElLdWI3MWdzMWhrTU1JalhsamRGYVA?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Lilly's retatrutide outperforms Ozempic in phase 3 diabetes trial StreetInsider"
-  },
-  {
-   "t": "Eli Lilly's Retatrutide Outperforms Ozempic in Phase 3 Trial, Bo - GuruFocus",
-   "l": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPNHV1UkhWQzAwam11cEt6YTZ3eDBlejQ3dEtoM3h0Rl9hY21HVWhYaFV6eWIyLUpDdTFqRHRteEFYVmgzdTBHVkEyNFVCZjItVnhGc2c2REQzVnFhWE5kZFNZZ1dpMUQycjR6ZEZtVGtVY1pCRGx4dG83bmlRdEc1eVdsTVRURWpoOUNhdVRuQTctWDBOZTdZajVncnZPMXpORXpDVnVQeGQtbEhsMG9YNVU2bjhzaVd4ZElyQktyWFI5QzgyVXc?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Eli Lilly's Retatrutide Outperforms Ozempic in Phase 3 Trial, Bo GuruFocus"
-  },
-  {
-   "t": "Eli Lilly tops Ozempic in Ozempic Vs Retatrutide A1c Study - شبكة تواصل الإخبارية",
-   "l": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LZkp2M01kdDMtOWZHR201R2ZDNTdqaFhXU2Q0OFoxcmJWT0c1cW1WY2ZETWV3QXlSeUc1TFVyVWpYUjZEdjU2MXNPZk80RURWeHNF?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-a",
-   "x": "Eli Lilly tops Ozempic in Ozempic Vs Retatrutide A1c Study شبكة تواصل الإخبارية"
   },
   {
    "t": "STAT+: HHS moves to allow compounding of some unapproved peptides",
