@@ -1,85 +1,120 @@
 window.FEED={
- "generated": "2026-10-30T22:27Z",
+ "generated": "2026-10-31T05:54Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-30T22:27Z",
+   "checked": "2026-10-31T05:54Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-30T22:27Z"
+   "lastOk": "2026-10-31T05:54Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-30T22:27Z",
+   "checked": "2026-10-31T05:54Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-30T22:27Z"
+   "lastOk": "2026-10-31T05:54Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-30T22:27Z",
+   "checked": "2026-10-31T05:54Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-30T22:27Z"
+   "lastOk": "2026-10-31T05:54Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-30T22:27Z",
+   "checked": "2026-10-31T05:54Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-30T22:27Z"
+   "lastOk": "2026-10-31T05:54Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-30T22:27Z",
+   "checked": "2026-10-31T05:54Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-30T22:27Z"
+   "lastOk": "2026-10-31T05:54Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-30T22:27Z",
+   "checked": "2026-10-31T05:54Z",
    "ok": true,
    "new": 4,
    "seen": 4,
-   "lastOk": "2026-10-30T22:27Z"
+   "lastOk": "2026-10-31T05:54Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-30T22:27Z",
+   "checked": "2026-10-31T05:54Z",
    "ok": true,
-   "new": 124,
-   "seen": 152,
-   "lastOk": "2026-10-30T22:27Z"
+   "new": 122,
+   "seen": 151,
+   "lastOk": "2026-10-31T05:54Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-10-31",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/lilly-breaks-down-medicare-bridge-boon-glp-1-sales-drive-another-guidance-lift",
+   "d": "2026-10-31",
+   "s": "fierce",
+   "x": "As Lilly’s tirzepatide franchise continues to deliver strong sales growth, analysts are increasingly turning their attention to new catalysts in the GLP-1 market, including the launch of oral obesity medicines and the rollout of a nationwide access program for seniors."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides",
+   "d": "2026-10-31",
+   "s": "fierce",
+   "x": "Stopping short of a formal declaration allowing their use, Department of Health and Human Services Secretary Robert F. Kennedy Jr. has cleared the way for the compounding of six popular wellness peptides."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/amgen-hit-fda-warning-letter-misleading-vectibix-promotion",
+   "d": "2026-10-31",
+   "s": "fierce",
+   "x": "Amgen has been handed an FDA warning letter over a video promoting its cancer drug Vectibix, but the company said that the issues stemmed from an “inadvertent” submission and was not made available publicly."
+  },
+  {
+   "t": "GLP-1 Compounding After Drug Shortages - The Regulatory Review",
+   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnlPVy1ieWNSczJSSTltd1l2aUI2dWlYZzNYeWVPcW5jckhseWxzejRTQnpTbWtQQXNXZk5NWkNhMGVzMkgxanJjSUhGNjI5TE1aYjZSeHRqRmtDcnZSUkpwZk5qRzNyeUx2eG1QZ2RmX1ZrQWpSNmxxc2hieURHaGZpUjViZ2V1VTIta1lMWEQ?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews",
+   "x": "GLP-1 Compounding After Drug Shortages The Regulatory Review"
+  },
   {
    "t": "5 Things to Know About HHS's Interim Peptide Compounding Policy - The American Journal of Managed Care",
    "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSnA1YTJWVW53Z1BqVzhIQTBSdktKNmI2c19pb0h4S1IwTklzS2ZNZ096NHhrOGJucWJfeUtMUFFDazRwNnVnTVNWcThBRmF1SHZLd2lJYWJaTmp4ajJZRzM3VW5NRkF5c3pleDZBQnVSX0Y0RFczMHp2MjlZWDJ5MHE3STJVcWd4ZlROeTY4NXREQ3c?oc=5",
@@ -93,34 +128,6 @@ window.FEED={
    "d": "2026-10-30",
    "s": "gnews",
    "x": "U.S. eases restrictions on six unapproved peptides despite FDA safety concerns Qazinform"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-10-30",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/lilly-breaks-down-medicare-bridge-boon-glp-1-sales-drive-another-guidance-lift",
-   "d": "2026-10-30",
-   "s": "fierce",
-   "x": "As Lilly’s tirzepatide franchise continues to deliver strong sales growth, analysts are increasingly turning their attention to new catalysts in the GLP-1 market, including the launch of oral obesity medicines and the rollout of a nationwide access program for seniors."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides",
-   "d": "2026-10-30",
-   "s": "fierce",
-   "x": "Stopping short of a formal declaration allowing their use, Department of Health and Human Services Secretary Robert F. Kennedy Jr. has cleared the way for the compounding of six popular wellness peptides."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/amgen-hit-fda-warning-letter-misleading-vectibix-promotion",
-   "d": "2026-10-30",
-   "s": "fierce",
-   "x": "Amgen has been handed an FDA warning letter over a video promoting its cancer drug Vectibix, but the company said that the issues stemmed from an “inadvertent” submission and was not made available publicly."
   },
   {
    "t": "6 Experimental Peptides Just Became Legal to Get in the US (But the FDA Still Hasn't Approved Them for Safety) - BoxLife Magazine",
@@ -242,13 +249,6 @@ window.FEED={
    "x": "US Health Secretary RFK Jr to expand access to unapproved peptides BBC"
   },
   {
-   "t": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections - The New York Times",
-   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JSWpTV1hKUWtzalplclV0dU96SUJEQURMQVZwSG4ycDZWT01DNDRscUY2b1k4Ykw2SFE1aTVuSkc3ZWxtSFhGZDVhMTlHZEFBb01DX3JUTjJObUxVQ0hmVG5PTHNYaWhucmFMNmFRQzZTTmJtdnc?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews",
-   "x": "RFK Jr. to Allow Broad Use of Unapproved Peptide Injections The New York Times"
-  },
-  {
    "t": "Verywell | What to Know About the 6 Peptides Backed by an FDA Advisory Panel - UCHealth",
    "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYlRFR281WjdyV3RDUEtiNjdXOUV0QnVySHplU0tzZzMwSjJkZmQ1LWVtQ3dHYkk0X2pKS2xNd200ZEtRX25XTkltNEtqUFRzTkNiNFNWU1JjTmJ5ZUxzYTJJTkw1V0NIclVfWHQyZzZqZko1OHlvYW9XdlBFVElwcWU1MmZBUHhENzhzZFQzb3lqUC1WOVVFMTQzV0FtdnlHY1l2WElTZEpYd0daVUk4?oc=5",
    "d": "2026-10-29",
@@ -268,6 +268,13 @@ window.FEED={
    "d": "2026-10-29",
    "s": "gnews",
    "x": "RFJ Jr. institutes backdoor approval of 6 peptides Reason Magazine"
+  },
+  {
+   "t": "Kennedy to Allow Broad Use of Unapproved Peptide Injections - The New York Times",
+   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JSWpTV1hKUWtzalplclV0dU96SUJEQURMQVZwSG4ycDZWT01DNDRscUY2b1k4Ykw2SFE1aTVuSkc3ZWxtSFhGZDVhMTlHZEFBb01DX3JUTjJObUxVQ0hmVG5PTHNYaWhucmFMNmFRQzZTTmJtdnc?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "Kennedy to Allow Broad Use of Unapproved Peptide Injections The New York Times"
   },
   {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
@@ -387,13 +394,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "FDA scientists opposed the Trump administration's effort to ease peptides access Bozeman Daily Chronicle"
-  },
-  {
-   "t": "FDA scientists opposed the Trump administration's effort to ease peptides access - WWLTV.com",
-   "l": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPSUtaME1MTWpDSDR1RVlqVGE1YjZqcFIxN1VsM1pLUFN5WlhNdmk2WWludDREWmJRUjJmSDFyemdZNXFtOU1kMVEzSW1KMHZuN0Y3dk5RS0YxYWxfRC1xTXJ1UEJMTlBZLVhWOVFJY1I5ZnRVdXhJd2NkaEFEV3RSeVZxaV9PaVlnVWdUQnZNT0pfVlgwRFdhSUwyV2hJaEgzU2U1STUtM2FJUDQ2SEZfM0ZQRUlWcWxkb1hMZzJRSl9IakZZdVVjQXcxQl9iaUt6QlBNSVdUN0NRcXZ3X0lkTnVIMFdMUTJIN3R5OTVFaXN1bG9jX3ZTcVZDeVRtdDZFdnNNZWNjQTBtQQ?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "FDA scientists opposed the Trump administration's effort to ease peptides access WWLTV.com"
   },
   {
    "t": "Registered Outsourcing Facilities",

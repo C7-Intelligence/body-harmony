@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-30T22:27Z",
+ "generated": "2026-10-31T05:54Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-30T22:27Z",
+   "checked": "2026-10-31T05:54Z",
    "ok": true,
    "new": 107,
-   "seen": 138,
-   "lastOk": "2026-10-30T22:27Z"
+   "seen": 132,
+   "lastOk": "2026-10-31T05:54Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-30T22:27Z",
+   "checked": "2026-10-31T05:54Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 15,
-   "lastOk": "2026-10-30T22:27Z"
+   "lastOk": "2026-10-31T05:54Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-30T22:27Z",
+   "checked": "2026-10-31T05:54Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-30T22:27Z"
+   "lastOk": "2026-10-31T05:54Z"
   }
  ],
  "items": [
@@ -86,11 +86,11 @@ window.FEED_ART={
    "x": "Retatrutide Beat Ozempic on Blood Sugar and Weight in Diabetes Trial, but More Patients Quit Over Side Effects Medical Daily"
   },
   {
-   "t": "What are peptides? And what’s all the hype about? Here’s what consumers should know - MassLive",
+   "t": "What are peptides? And what’s all the hype about? Here’s what consumers should know - MassLive.com",
    "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTDJ1X1hBeG1aR1ZGWXktRmx4eW9YeU15UDUxb282bnN4VTRWX2Ezbm56X2RjbDF4SXZhUnI3N1FIbTV0N3htZWt5LXgxWUVrTTVPREEzcGlBUDJ4cllua0hQVUN1a2hueHJhNVNHWV8yaFVRcWVrRkVhMEZBUllrNEhEdFhESVYzalRNRlIzbXRfaGJ1VHhxVVZla2ZhMk5ZNHVkY3h3Y3B4RkxDSDBQbTdrWkRxZ1R4OVVBTmpxNNIB0wFBVV95cUxONExicjd3bXlfdUhPeTNjbk5ZbUZFMkF6dWFLRFUxTkRNcE5SNzZyNFRsMXpmSEc4eTNWaGlwWk5sX2tUTDk5U2g2bkJ5d2tTVzR5Wnc4WDJ2alg5VTU5alV6LUNfY3BEdy1pcVRab1JzTnQ5RHFFM2tqYk5acUtWQ29OYm5vTlVHdy12ZGxMZVl5OUxxeTJHOGVGVmpHbnVQaC1RWGxUaTYzclZ6NHdjRVd5TnF0TlVHVk1ZRkRqQWRsSUdxZTk1RVllRE9wZVVSazBr?oc=5",
    "d": "2026-10-30",
    "s": "gnews-a",
-   "x": "What are peptides? And what’s all the hype about? Here’s what consumers should know MassLive"
+   "x": "What are peptides? And what’s all the hype about? Here’s what consumers should know MassLive.com"
   },
   {
    "t": "Retatrutide Tops Ozempic for Weight Loss, A1c in T2D - Medscape",
@@ -161,6 +161,13 @@ window.FEED_ART={
    "d": "2026-10-30",
    "s": "gnews-a",
    "x": "6 Experimental Peptides Just Became Legal to Get in the US (But the FDA Still Hasn't Approved Them for Safety) BoxLife Magazine"
+  },
+  {
+   "t": "Experimental weight-loss drug retatrutide may help improve sleep apnea - Medical News Today",
+   "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOWdxeng3NjlWUm8tUzU2NTFHeDlLaF94bV9CNW1LREkzR2s4eGw5b3Z3YUVqUUY4VU5Ta2ZrMl91Ni1nUy1kZjdzeGlQVlkyVVVoQW5iU2dsRnc2b3U0SkZkSldSVnA0Z2dlM1Bxa1FMc3ptVGdKYmJCY0ZRLUJlYVBISlRGd1NpTW9kVUY1VmQySnVTTUgzT29sSEVRNUQ0bE1fMXpnMzdQeDhQVVRwUDFn?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Experimental weight-loss drug retatrutide may help improve sleep apnea Medical News Today"
   },
   {
    "t": "Aussie actor Richard Norton’s death linked to unapproved peptide use - 7NEWS",
@@ -336,13 +343,6 @@ window.FEED_ART={
    "d": "2026-10-29",
    "s": "gnews-a",
    "x": "PharmaTher Builds Portfolio of Personalized, 3D-Printed Peptide Products for New U.S. Peptide Pathway, Led by Colon-Targeted KPV and BPC-157 Investing News Network"
-  },
-  {
-   "t": "Lilly’s Retatrutide Delivers Greater Weight Loss Than Ozempic In Trial - BW Healthcare World",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNeUtncEplck1VZEpwSEZUQTRCNUd5OXNaMGJ2SkVxU2k1ZjhJa2FRM05wUDY4cDFMTXozM2kzVEtjbk81SVpma2NRZjNQS1NucHI1WS1IbUp0WFpab3c1TVpUQ0Q0UklEd19iRmJ2ZmowdE5MeHZRNXBpNFR4WXhHUURfRXBJZWc1dGN2aXJUXzgzTmdYOHZ5amlNOEtLV2dBRkJ3SU9MS3oyOFNQWFV6R0VMZXFGcjVUWjFn?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Lilly’s Retatrutide Delivers Greater Weight Loss Than Ozempic In Trial BW Healthcare World"
   },
   {
    "t": "STAT+: El-Sayed claps back at RFK Jr., and FDA’s ‘enforcement discretion’ on peptides",
