@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-31T12:44Z",
+ "generated": "2026-10-31T21:41Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-31T12:44Z",
+   "checked": "2026-10-31T21:41Z",
    "ok": true,
-   "new": 92,
-   "seen": 119,
-   "lastOk": "2026-10-31T12:44Z"
+   "new": 101,
+   "seen": 134,
+   "lastOk": "2026-10-31T21:41Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-31T12:44Z",
+   "checked": "2026-10-31T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-10-31T12:44Z"
+   "lastOk": "2026-10-31T21:41Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-31T12:44Z",
+   "checked": "2026-10-31T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-31T12:44Z"
+   "lastOk": "2026-10-31T21:41Z"
   }
  ],
  "items": [
@@ -72,6 +72,34 @@ window.FEED_ART={
    "x": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. Business Insider"
   },
   {
+   "t": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. - Yahoo News UK",
+   "l": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOM0JKU3Jlclo4VVhQYkZ5RW16V0lqYjBsbC1qUHQ4Ym9ka3hoaTJOZTVrdWo5bUM0eUpTdEIteU9lcXI0V2phUHoxWkRsZ0ZEcHNVSkY1cDJXcjUyaVEydm1EZ3duaFNQVG16X1ZmUQ?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. Yahoo News UK"
+  },
+  {
+   "t": "Retatrutide Vs Ozempic: Next-generation Jab Doubles Weight Loss In Trial - News18",
+   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVXRoLXF0YVJGNURTOEFHRWphcUdjanlIV3ZVbHVEbFUzNnFSa1loQnd4akRmVjNRTkFDX0xZT2JWNzJOajAySDFGSDI0dUd3Nl9XZjVXbVJwandnTGdvbkFvdVJaMlBVX0tiX3JhMW9NZG5oa3BoSk5OVnJHS3phNFE3ZkxCbExwMWRTZ05ZZXVaUE16S0JUcURnWFNORTVsYndWa2NFWW1qdy0ycDN0Y0lMNEVFTkc1TVp30gHAAUFVX3lxTFByeVk0QTJBTkZqdmFsTXJyTU9SLVpkOUtrMWtPeHhMZlFWOTFrSjNnMGhwM2lnZ251ZDVDQ0dwZEp5NDVGd05PcmJSa3I2Z0Q4LWtRaFVuVVYtckIycGJ0UUs5dnpVRGxhd3pGdjZuNEVhdlpaYmtCVGV3X3N2a3pUY0psTGdaTXlrRm1wTHNUM2RjWEVUNmltVk9aSmd6ZGczdmZ5Yko4a3BsRFVqYjdVd216VGw3V1d6YkE0TndFUQ?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "Retatrutide Vs Ozempic: Next-generation Jab Doubles Weight Loss In Trial News18"
+  },
+  {
+   "t": "Novo Nordisk's Buyback, a Pediatric Insulin Approval and the Retatrutide Question All Point to Novem - ad-hoc-news.de",
+   "l": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTXZGa0FQRE1GX1VIZmNTTU1IWWxsN0twSWc3eEZGeWN3S1BzWFliUTVhbFJyOFZzdHdtRkF4aWFXbzZsNU94VFF0MXZMeFhXU0dXaEhwQTk3TkhqNkhCeHMtTFNRTzlFcTZmQkhDY21zUURDU1V6bG1MX2IxUU4xRHRhTmpuZ21IS18yLXVJeVY3VmMwUmN4QXNYWUJwX2QtTmU3SHhYemJHSGY0cC1KZlJ6dEszeDZZS0EwdjJIZjRIRnVxSHVpcFhiSDUzRW80eXJNQUdZVHFWVFBXWDNWbmFKQXp3QzlhOGVSU19tbDlrY2dvTGM4UQ?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "Novo Nordisk's Buyback, a Pediatric Insulin Approval and the Retatrutide Question All Point to Novem ad-hoc-news.de"
+  },
+  {
+   "t": "Novo Nordisk's Clinical Ledger: Retatrutide's Head-to-Head Win, a Pediatric Insulin Approval and the - ad-hoc-news.de",
+   "l": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNcnFGYXhxZHNYeVA4WWcwdnh3NUpPeEQ5MktTRXV0V1Q3NTRBUWJtc19CNkhSb050UjdNRnFPaUNVSUI0NDFrMjQyaXdzU0hkWXkxTnhsY1dNZEJpWFhUcTd0VHhUTEsxUGp5LXlRb0YtTTFFRjRRZWZqVG44bXYxVFdGaEFUU1ZKT09TWGRoYTUtbHRNdTI3RmlaUWRDcUgycnZOMFRuVkl4bGNTR01LSkczM2QzZndRZUJ4TVRyOUVJZHJleGJnT051dzA1VGllUFcwOW1wb1JGYXpjbUJXSWp2QThGd3dwMFZ2QVQtZmN6STVaaGYtRHl3VTVxZmtGWGc?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "Novo Nordisk's Clinical Ledger: Retatrutide's Head-to-Head Win, a Pediatric Insulin Approval and the ad-hoc-news.de"
+  },
+  {
    "t": "Viewpoint: Peptides and medical freedom: The MAHA obsession that can damage your health - Genetic Literacy Project",
    "l": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSHNjYzhScWJLa2dySTdyTld2XzdwVXBOVlFSUl8ydGp2elgyU3BvWVhjT3piZWd0ZVVyZzZ0dXBRQ09pbVJNd2w1SVFGR1FuLUVsUU5RanVNRGFQYTJDck1zODRSQWlwbTNPYVNuTlNrWUdzYzlUZWh5Vy1QcFRsa0c3UWk0UFpkWEtMRkVIN2VUUnp5OFpPVUhDV3NKY1JWQU1BN2hsOUQ1alBNeHl3TzQyTGp4bmFaZ3JaNnBfazdlUlFraWctbFNRaFY?oc=5",
    "d": "2026-10-30",
@@ -100,11 +128,11 @@ window.FEED_ART={
    "x": "Retatrutide Beat Ozempic on Blood Sugar and Weight in Diabetes Trial, but More Patients Quit Over Side Effects Medical Daily"
   },
   {
-   "t": "What are peptides? And what’s all the hype about? Here’s what consumers should know - MassLive.com",
+   "t": "What are peptides? And what’s all the hype about? Here’s what consumers should know - MassLive",
    "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTDJ1X1hBeG1aR1ZGWXktRmx4eW9YeU15UDUxb282bnN4VTRWX2Ezbm56X2RjbDF4SXZhUnI3N1FIbTV0N3htZWt5LXgxWUVrTTVPREEzcGlBUDJ4cllua0hQVUN1a2hueHJhNVNHWV8yaFVRcWVrRkVhMEZBUllrNEhEdFhESVYzalRNRlIzbXRfaGJ1VHhxVVZla2ZhMk5ZNHVkY3h3Y3B4RkxDSDBQbTdrWkRxZ1R4OVVBTmpxNNIB0wFBVV95cUxONExicjd3bXlfdUhPeTNjbk5ZbUZFMkF6dWFLRFUxTkRNcE5SNzZyNFRsMXpmSEc4eTNWaGlwWk5sX2tUTDk5U2g2bkJ5d2tTVzR5Wnc4WDJ2alg5VTU5alV6LUNfY3BEdy1pcVRab1JzTnQ5RHFFM2tqYk5acUtWQ29OYm5vTlVHdy12ZGxMZVl5OUxxeTJHOGVGVmpHbnVQaC1RWGxUaTYzclZ6NHdjRVd5TnF0TlVHVk1ZRkRqQWRsSUdxZTk1RVllRE9wZVVSazBr?oc=5",
    "d": "2026-10-30",
    "s": "gnews-a",
-   "x": "What are peptides? And what’s all the hype about? Here’s what consumers should know MassLive.com"
+   "x": "What are peptides? And what’s all the hype about? Here’s what consumers should know MassLive"
   },
   {
    "t": "Retatrutide Tops Ozempic for Weight Loss, A1c in T2D - Medscape",
@@ -315,34 +343,6 @@ window.FEED_ART={
    "d": "2026-10-29",
    "s": "stat",
    "x": "HHS released a policy that will temporarily allow compounding pharmacies to manufacture some peptide products"
-  },
-  {
-   "t": "Warning over side-effects from unapproved peptide injections - RNZ",
-   "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOSkJ1YklJLW5PcThfMUdUMnlBcl9uNEJ4OGVCYWRrU1A3SkNKUmdZdDhxUlFLWEFHLVcyZzVDaHFZT2YwTWlXTENOeDJBekhqRnVPRXc4R2ZHX0Z0aU81cHEwSVNPOXZKaXlaRDNHZXlFdTdLQUMyZmJaeDV4NVlWamY2WVdYUFB2aTVDUXMyTTIyTzBNY0w5Z2liQVM0NVZ5RV9rdmJ3Y2NEYkI1ZHBJaHpSR3c1X3FhVkpQYmFuWXYxUk5qMHZSal9xc002QQ?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Warning over side-effects from unapproved peptide injections RNZ"
-  },
-  {
-   "t": "Affordable and easy to access: Why peptide users say they’re injecting unregulated drugs - RNZ",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOOUlpSWc5MFczN2xnakdDWnNtUHBCUFc0RDdRNHg5WWdFSi1Na3A0WHlKVS1ISnlqNjV0ZjA2dGdUWXhDZ3ZreEN3ZFJRWi0wU3V4SWJIclY5bWdPYUppMkxFZUxCbzE1Y2h0QUtzYU9BTU4zcEFjWDYwYUNEbTg1MTBCZDJUN0l1UDkzOHd3NF9ZNFFXeDVJQ0UxcE5OVDZ6TlZCLTh6S2VDX1F5M2JtNDJUaVZ2R2tkalR6WklQWVR2NnJUa2ZROA?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Affordable and easy to access: Why peptide users say they’re injecting unregulated drugs RNZ"
-  },
-  {
-   "t": "Anaphylaxis cluster sparks new peptide warning - Australian Journal of Pharmacy",
-   "l": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1JUktjS19OWGRmcHl5UW1yTVduRkpCYVRjQml5MzZwN2gtbzdVSmdoazdVTW1RMWg1Y2I3YkpYaVBEOHg4WmprcDBDeWtrTkNVWGx4aW0wOEZsZjZiMnRQZ0labGtQNlJNRTROVzhMcG9zQ3Jnd3JubXdycw?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Anaphylaxis cluster sparks new peptide warning Australian Journal of Pharmacy"
-  },
-  {
-   "t": "BPC-157 'Wolverine Peptide' Use Rose 33-Fold Despite Scant Evidence - The American Journal of Managed Care",
-   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNY2RPMVdCZXJHRnBCNXVHOUxRc3Jia3BmR3B3QVRlbGtrZ3Fwckc2aFRhWUN0dUNrcEpQR2tzaGlSV3NXTU03cHQydTJ1V1B3NDZROS1jRDZPM09MTi1oRlZ3NGI3c2EzWUhNVEJqdWNqZ2JpeFZvM2Q1UG8xMTZoN25uNHFJRF9FME9tQ0tSbFVobHpGR1E?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "BPC-157 'Wolverine Peptide' Use Rose 33-Fold Despite Scant Evidence The American Journal of Managed Care"
   },
   {
    "t": "STAT+: El-Sayed claps back at RFK Jr., and FDA’s ‘enforcement discretion’ on peptides",
