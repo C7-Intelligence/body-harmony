@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-31T05:54Z",
+ "generated": "2026-10-31T12:44Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-31T05:54Z",
+   "checked": "2026-10-31T12:44Z",
    "ok": true,
-   "new": 107,
-   "seen": 132,
-   "lastOk": "2026-10-31T05:54Z"
+   "new": 92,
+   "seen": 119,
+   "lastOk": "2026-10-31T12:44Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-31T05:54Z",
+   "checked": "2026-10-31T12:44Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-10-31T05:54Z"
+   "lastOk": "2026-10-31T12:44Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-31T05:54Z",
+   "checked": "2026-10-31T12:44Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-31T05:54Z"
+   "lastOk": "2026-10-31T12:44Z"
   }
  ],
  "items": [
@@ -56,6 +56,20 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "'Mad Max' actor Richard Norton ignored nurse's warning about peptide treatment which he began days before - The Economic Times",
+   "l": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQWjJqczF2RWEtdUcwNHd6Ty1hN1lCdXpIa1hDSVJ4LXBtRUVibE93ZnlKck03ckd2M2FWVl9FVUpOU2dQaWJqbGJkMERIQjFIck9vcXZPY1RfMWstOHVmajZUZTI5UHB2c1ktcjB5VW1DWG9rTVMwVGhTY0FIVlVfRW84bFQtNXY4eWNOUDloZ2dkaTVFZEVuSWt0V291THJLdko4R3ZuV1VwNlBrYnUyYW1KWlFPeU05dnIwZWVfSlM4aGRhUGNNZmRjZTZtaDgyNUZzMkh4LU0tTVVRZHFtYWRVWWs4bGVVUEc5aV9qeGczNHNVa1hXY2tYc1M2UTFIYVhTTU9IMExHUm9mMkR6X3MyWC1WRzRwcnduTE9GYnBhZGxucEVvZ9IBrgJBVV95cUxQeGpDYTZ3aDdkNmVvLW1jQmF2MERpc0xSQk93REVnaWdIT0RnNDk1eVdZWmF0UlZDczMyOWdyeldIUnRqazRha09ZMWF2ZnRoMlE2MW1mRUgzbzRna2tMQWwxSTVUU0ZvNHh3NHlWdUpob1RlOTFiYVZiaWpkWXUyY09Qa2g0TzB6VnBuUkFIZzhkbjVRMEJKWWZyV2ZRQlR3aEdObmFhcTR6aENyVkFrNEJVS0VFRnktaXp3WTd2UXlUYjFQQkFnNjRPSk1MOHBrWDEtLXJQanJKQ3hucGIzOTFhemZ1MDFBUU9SUkZnVXdHOVpmT0RIcUdrN3dibnlCYzVtMVV0c2pZcldhWnV2Q1dPeDdRUHBic2xtV1JzeUozd2duV05TWmpPblRxdw?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "'Mad Max' actor Richard Norton ignored nurse's warning about peptide treatment which he began days before The Economic Times"
+  },
+  {
+   "t": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. - Business Insider",
+   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY3ptSnJ6RDlpNEJHQzExNjJ0MlZpVnNKWWZGMHFYZzRZTXNMa2lNZXFlZUZoelZkdHE3SDloSE8zbVVnVGxJbjc3VjFzRG93Vk85RFZhVUUyVGFfbzZJNWV6a05MUVdEZnhNZzFyUTZhLVpjVS1ZNmVqcGxJRUZ2RC1LTkVjdkVvdjNaVg?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. Business Insider"
   },
   {
    "t": "Viewpoint: Peptides and medical freedom: The MAHA obsession that can damage your health - Genetic Literacy Project",
@@ -168,6 +182,20 @@ window.FEED_ART={
    "d": "2026-10-30",
    "s": "gnews-a",
    "x": "Experimental weight-loss drug retatrutide may help improve sleep apnea Medical News Today"
+  },
+  {
+   "t": "Actor Richard Norton looked fit and healthy in final photos taken just days before shock peptide death - Page Six",
+   "l": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORXVTc0thc09EY1hNLUp6VDMxN0NSdjdMZ09UTTdUT1ZNZWRIX1lteHFybk45cXhNLW9hci0xVTQ3X3IzMDVOVnNDM0RiQXBHU25YWmVDVWZDV1NsSm0tUWVpUWVUMFRPNVZBamQxYjhnYnNzQ3U3Tnlnd2Z3UXgxLWROQlhWbnNraXJaRmZUbnpBeDJXa3duT3doUHItM2JONlBMYmd5dXhnZ3BQR2tSV2l0LXJab0ZvZFBjMThYZmU5dzIxd2RWX21oNHgtOVMxSWZjWFBWNFJ5RjY5Vzh2aDNfQQ?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Actor Richard Norton looked fit and healthy in final photos taken just days before shock peptide death Page Six"
+  },
+  {
+   "t": "Renowned Martial Artist Richard Norton Died of Cardiac Arrest and Severe Anaphylaxis After Doubling Prescribed Peptides, Coroner Confirms - Istituto Impariamo",
+   "l": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZ3BySFlWemswOV9NQzAwMWF1dGd6a3l2Rnc3ZUdxdnBrRVZkTzBUczIyc2IzSVM4SWF2Sk1tMy1yRXdvNTV4NEl1ZmpMRUEzend3aVZ0eDZtT1psQm5GTHB5RlpuLXFJYlZXUHB4dFpKb1NKUEN3SWlIdkZ4MnN2ZGtuYlhrWTd6TjFZQzlQUkwtZDdLSXhpY056RC1GS3BTTGpSeEV6MDl0UVdpUkMxY0JIX1RYM25Sd0ZSbjNsSXY4QnNJVndvMVRDQkNzaFJ2LURRemZObndwNks1OFlEcXFBdkJwdTh2Ul82WDgwdEl2WElCZVpHMEpNRk1WckU?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Renowned Martial Artist Richard Norton Died of Cardiac Arrest and Severe Anaphylaxis After Doubling Prescribed Peptides, Coroner Confirms Istituto Impariamo"
   },
   {
    "t": "Aussie actor Richard Norton’s death linked to unapproved peptide use - 7NEWS",
@@ -315,34 +343,6 @@ window.FEED_ART={
    "d": "2026-10-29",
    "s": "gnews-a",
    "x": "BPC-157 'Wolverine Peptide' Use Rose 33-Fold Despite Scant Evidence The American Journal of Managed Care"
-  },
-  {
-   "t": "HHS will allow licensed pharmacies to compound six unapproved peptides—but says the policy does not mean they are safe or FDA-approved - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdUxvQVJqOHpzOVpXMVRVUHhHRDZsaTRnV0toLWg1QkhHTkFkaXluenZ2UEFjd3NJZldBQWFaTHRnZkF1QVFpQU93V0ZQQzhveGVvcXF0NE5sR242UkI5YnFMOFhXbkkwMXE2amZwcHVfemNxTUhpNXpWNmRyVS1qdEdBOUlmNHZrRHc?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "HHS will allow licensed pharmacies to compound six unapproved peptides—but says the policy does not mean they are safe or FDA-approved Medical Daily"
-  },
-  {
-   "t": "HHS gave 6 peptides permission without proof - https://www.celinegounder.com/",
-   "l": "https://news.google.com/rss/articles/CBMieEFVX3lxTE8zbkVoel9VSHFkc3llNm5uTHpmWlBOXzBwb25XcW5yQmM3X013aHBuZjdYMFp4cGkyelVCT3NHU1plZGhkM0otbW03TzJxcnBxbnZlWU9jRVhXS29BMWc3MzRFWWpNaUJEZmV4WnlRRzA5NVgxQjNvdg?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "HHS gave 6 peptides permission without proof https://www.celinegounder.com/"
-  },
-  {
-   "t": "Retatrutide cost per milligram: An evidence-based guide for research buyers - The Coast News Group",
-   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUGlJa1IwMVV5M0lqR0JQR2lrUE1rcHgxV0llTjNjMWNMWjZYX0JERkVpMUhmVzNQRGVtRld3NXNaNWJNUFVKcXp6Si1SY0g1MDdRM2l6aDdhUmV5M3AtelZHYl9VSmxfWEVjQTdJamhIM0hMVFFTbXk1eFphMTlaNG1RT043VGtxdm10NkowTThoM2QxYThMaS1YaXhwLUo0OXc?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Retatrutide cost per milligram: An evidence-based guide for research buyers The Coast News Group"
-  },
-  {
-   "t": "PharmaTher Builds Portfolio of Personalized, 3D-Printed Peptide Products for New U.S. Peptide Pathway, Led by Colon-Targeted KPV and BPC-157 - Investing News Network",
-   "l": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNNHJ4VDF2VzNPWEoxUEZXYXJSUHE2TWxTN1padzJBeFA0LTFfS3RRZmRkZGcwRzVfSkxlVFZlcFA0QUhmeDJEYmxCbG1VWjFQUUNCZUtoMWItLWdudnM2UUFXN25JSlZxV0VKT3BuQ3VMTU9kVEZXSEhoamhoU1VIY0RlSXBLdzExZl9ILWpGaFRQdGdlV29GZ01UQkQtMHNleVY0WEVQeHotM2tjSW4xNlZ2U3lOQi1MNzBsQzN5djNnUlptRnZ6c3k3YXluZWJ2NUQ4dG9lVmhkQ0tsWlMxNkUtQmZwQXhrZDRkalI1THk4b0hBNTg4?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "PharmaTher Builds Portfolio of Personalized, 3D-Printed Peptide Products for New U.S. Peptide Pathway, Led by Colon-Targeted KPV and BPC-157 Investing News Network"
   },
   {
    "t": "STAT+: El-Sayed claps back at RFK Jr., and FDA’s ‘enforcement discretion’ on peptides",

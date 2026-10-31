@@ -1,85 +1,99 @@
 window.FEED={
- "generated": "2026-10-31T05:54Z",
+ "generated": "2026-10-31T12:44Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-31T05:54Z",
+   "checked": "2026-10-31T12:44Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-31T05:54Z"
+   "lastOk": "2026-10-31T12:44Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-31T05:54Z",
+   "checked": "2026-10-31T12:44Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-31T05:54Z"
+   "lastOk": "2026-10-31T12:44Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-31T05:54Z",
+   "checked": "2026-10-31T12:44Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-31T05:54Z"
+   "lastOk": "2026-10-31T12:44Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-31T05:54Z",
+   "checked": "2026-10-31T12:44Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-10-31T05:54Z"
+   "lastOk": "2026-10-31T12:44Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-31T05:54Z",
+   "checked": "2026-10-31T12:44Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-31T05:54Z"
+   "lastOk": "2026-10-31T12:44Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-31T05:54Z",
+   "checked": "2026-10-31T12:44Z",
    "ok": true,
    "new": 4,
    "seen": 4,
-   "lastOk": "2026-10-31T05:54Z"
+   "lastOk": "2026-10-31T12:44Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-31T05:54Z",
+   "checked": "2026-10-31T12:44Z",
    "ok": true,
-   "new": 122,
-   "seen": 151,
-   "lastOk": "2026-10-31T05:54Z"
+   "new": 97,
+   "seen": 120,
+   "lastOk": "2026-10-31T12:44Z"
   }
  ],
  "items": [
+  {
+   "t": "Infant Formula Nutrient Requirements",
+   "l": "https://www.federalregister.gov/documents/2026/11/02/2026-22273/infant-formula-nutrient-requirements",
+   "d": "2026-11-02",
+   "s": "fr-fda",
+   "x": "The Food and Drug Administration (FDA or we) proposes to amend the regulations on nutrient specifications and labeling for infant formula as part of its phased, comprehensive review of infant formula nutrients. This action, if finalized, would amend the minimum and/or maximum…"
+  },
+  {
+   "t": "GLP-1 Compounding After Drug Shortages - The Regulatory Review",
+   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnlPVy1ieWNSczJSSTltd1l2aUI2dWlYZzNYeWVPcW5jckhseWxzejRTQnpTbWtQQXNXZk5NWkNhMGVzMkgxanJjSUhGNjI5TE1aYjZSeHRqRmtDcnZSUkpwZk5qRzNyeUx2eG1QZ2RmX1ZrQWpSNmxxc2hieURHaGZpUjViZ2V1VTIta1lMWEQ?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews",
+   "x": "GLP-1 Compounding After Drug Shortages The Regulatory Review"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
@@ -109,13 +123,6 @@ window.FEED={
    "x": "Amgen has been handed an FDA warning letter over a video promoting its cancer drug Vectibix, but the company said that the issues stemmed from an “inadvertent” submission and was not made available publicly."
   },
   {
-   "t": "GLP-1 Compounding After Drug Shortages - The Regulatory Review",
-   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnlPVy1ieWNSczJSSTltd1l2aUI2dWlYZzNYeWVPcW5jckhseWxzejRTQnpTbWtQQXNXZk5NWkNhMGVzMkgxanJjSUhGNjI5TE1aYjZSeHRqRmtDcnZSUkpwZk5qRzNyeUx2eG1QZ2RmX1ZrQWpSNmxxc2hieURHaGZpUjViZ2V1VTIta1lMWEQ?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews",
-   "x": "GLP-1 Compounding After Drug Shortages The Regulatory Review"
-  },
-  {
    "t": "5 Things to Know About HHS's Interim Peptide Compounding Policy - The American Journal of Managed Care",
    "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOSnA1YTJWVW53Z1BqVzhIQTBSdktKNmI2c19pb0h4S1IwTklzS2ZNZ096NHhrOGJucWJfeUtMUFFDazRwNnVnTVNWcThBRmF1SHZLd2lJYWJaTmp4ajJZRzM3VW5NRkF5c3pleDZBQnVSX0Y0RFczMHp2MjlZWDJ5MHE3STJVcWd4ZlROeTY4NXREQ3c?oc=5",
    "d": "2026-10-30",
@@ -135,6 +142,13 @@ window.FEED={
    "d": "2026-10-30",
    "s": "gnews",
    "x": "6 Experimental Peptides Just Became Legal to Get in the US (But the FDA Still Hasn't Approved Them for Safety) BoxLife Magazine"
+  },
+  {
+   "t": "U.S. eases restrictions on six unapproved peptides despite FDA safety concerns - Qazinform",
+   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa01XZl9CY2dGRWdlMDhXTnV3MlZFZnhaVlZMd0VNblkzRGFGaGZVNWhLMno2NDJwNmNndkFwamVPdlA0NWlzTDNsSTZDY0VjWWVxZ3JlUUxieEFLajhFQ0NlTGRmR0taa3VCRzMtMmZHd3FYYml5dkpBbkpKNVJmSFB5Q3UwMzQwRGFmWXFGbmJVckFNOUtpVHpxY1lEWVB3SS1jZnU4OTlnTFZrU2xR0gGvAUFVX3lxTE5UUjN1S2wzRVpjNV8zeDVKNGJhQ0Q5Rmdac3FTTjJFX2NOQzFURDdWSk9aMlotc050SjZ0NHJwRHN1MDI3X3JreXFVd1EyS0tPOFdQZXExUGZFNENEd3FLektpU1ZRWTQ3bVVDU3NDLUpJSW9OSkk3OTlXUGVnS1RUS0JkcFI4T2w0bE1XaTRjYnI1TkwtZzlyTXZPb1laS0l0cG1nM1o0WTlDdlpiZXM?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews",
+   "x": "U.S. eases restrictions on six unapproved peptides despite FDA safety concerns Qazinform"
   },
   {
    "t": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale - The Washington Post",
@@ -387,13 +401,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "FDA scientists opposed Trump administration plan to ease access to peptides Mezha.net"
-  },
-  {
-   "t": "FDA scientists opposed the Trump administration's effort to ease peptides access - Bozeman Daily Chronicle",
-   "l": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPZ1dqbUZaaTRDdFg0TjdkWE1kMWVEWU5nNnhEQzVlb3BLX19IQVJSOUt2bTE4d0I4UXdSbjZoTEMwUVo3VEp6V1JYaVF4dE9WcUVwWk1GZTFlWGgtRHluNU53TC0yTlV4MWpSNTNKTUFnYWt3UVhIQ05WcVJQeUxWdE5wUmVUbDlzVktNZjJWUVcxNUp3dnNnUW4zYi1ZT1E5Z0VySFNsUEdGSnFvLWpJTmE1Y3pXRWNOZkplcmIwVWhSZHZyU1ptUzc0Z19rdTMxc0tTemhyVFNjNXJwVm81WlBQeko0YWFwRGVSRW51cnVXWXNkdFpSUmdyNU9JV1pYR3gtdXRJNDFUQU5BLUE?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "FDA scientists opposed the Trump administration's effort to ease peptides access Bozeman Daily Chronicle"
   },
   {
    "t": "Registered Outsourcing Facilities",
