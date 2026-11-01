@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-01T06:20Z",
+ "generated": "2026-11-01T17:58Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-01T06:20Z",
+   "checked": "2026-11-01T17:58Z",
    "ok": true,
-   "new": 119,
-   "seen": 143,
-   "lastOk": "2026-11-01T06:20Z"
+   "new": 89,
+   "seen": 110,
+   "lastOk": "2026-11-01T17:58Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-01T06:20Z",
+   "checked": "2026-11-01T17:58Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-11-01T06:20Z"
+   "lastOk": "2026-11-01T17:58Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-01T06:20Z",
+   "checked": "2026-11-01T17:58Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-01T06:20Z"
+   "lastOk": "2026-11-01T17:58Z"
   }
  ],
  "items": [
@@ -119,6 +119,13 @@ window.FEED_ART={
    "d": "2026-10-31",
    "s": "gnews-a",
    "x": "Certified-PEP Wins Best Place to Buy Research Peptides in 2026 Guide After 10-Vendor Checkout Test FinancialContent"
+  },
+  {
+   "t": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. - Yahoo Health",
+   "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOWpHYmxSa1ZESk91VVlkOC0yNTdoT2xwbnE4WXF5WUlPU2F2UnVrekU3QTBhQ2xYMDZmaEF3czhIaTBWbmctMHJOVEpUTEItbmg5SW9ycE1sMkFSXzVra0EyQTAxcG1JeDdoeEIzRHlnVTV1cGFmQTg0N01FdzhmVW1fc2xEWXN2TTRHeGVMdWNkbWd2aFNfMGxvUDJUdkNBNElIZA?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. Yahoo Health"
   },
   {
    "t": "Viewpoint: Peptides and medical freedom: The MAHA obsession that can damage your health - Genetic Literacy Project",
@@ -329,13 +336,6 @@ window.FEED_ART={
    "d": "2026-10-29",
    "s": "gnews-a",
    "x": "Lilly’s retatrutide scores another Phase 3 win, Outperforming Ozempic in head-to-head study pharma.economictimes.indiatimes.com"
-  },
-  {
-   "t": "Lilly’s retatrutide outperforms Ozempic on weight loss in diabetes trial; safety concerns remain - The Federal",
-   "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSkp3azI4R1NxMjVTWFY3QUVEWHJQbXZlcEJtV19YRnFrLWN0QnVKbG1jQjI2M2hzYXlrNzM4aS0tSHZpamJhaDV3WWE4OTIxLXZjdHU5Ulk3QU14TW16S2VSRlM3QWJiZ1c1OWRsczNKQndsRmdENnUwYkg3UzdfWE01c01IZ3BFamNCSV9fRVhrMUpNOVFLRUpwVGdaZ0xrUnlJbjBJOVI?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Lilly’s retatrutide outperforms Ozempic on weight loss in diabetes trial; safety concerns remain The Federal"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
