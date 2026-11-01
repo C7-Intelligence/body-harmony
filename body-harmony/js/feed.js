@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-10-31T21:41Z",
+ "generated": "2026-11-01T06:19Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-10-31T21:41Z",
+   "checked": "2026-11-01T06:19Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-10-31T21:41Z"
+   "lastOk": "2026-11-01T06:19Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-10-31T21:41Z",
+   "checked": "2026-11-01T06:19Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-10-31T21:41Z"
+   "lastOk": "2026-11-01T06:19Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-10-31T21:41Z",
+   "checked": "2026-11-01T06:19Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-31T21:41Z"
+   "lastOk": "2026-11-01T06:19Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-10-31T21:41Z",
+   "checked": "2026-11-01T06:19Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-10-31T21:41Z"
+   "lastOk": "2026-11-01T06:19Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-10-31T21:41Z",
+   "checked": "2026-11-01T06:19Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-10-31T21:41Z"
+   "lastOk": "2026-11-01T06:19Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-10-31T21:41Z",
+   "checked": "2026-11-01T06:19Z",
    "ok": true,
    "new": 4,
    "seen": 4,
-   "lastOk": "2026-10-31T21:41Z"
+   "lastOk": "2026-11-01T06:19Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-31T21:41Z",
+   "checked": "2026-11-01T06:19Z",
    "ok": true,
-   "new": 149,
-   "seen": 175,
-   "lastOk": "2026-10-31T21:41Z"
+   "new": 97,
+   "seen": 123,
+   "lastOk": "2026-11-01T06:19Z"
   }
  ],
  "items": [
@@ -88,39 +88,39 @@ window.FEED={
    "x": "The Food and Drug Administration (FDA or we) proposes to amend the regulations on nutrient specifications and labeling for infant formula as part of its phased, comprehensive review of infant formula nutrients. This action, if finalized, would amend the minimum and/or maximum…"
   },
   {
-   "t": "GLP-1 Compounding After Drug Shortages - The Regulatory Review",
-   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnlPVy1ieWNSczJSSTltd1l2aUI2dWlYZzNYeWVPcW5jckhseWxzejRTQnpTbWtQQXNXZk5NWkNhMGVzMkgxanJjSUhGNjI5TE1aYjZSeHRqRmtDcnZSUkpwZk5qRzNyeUx2eG1QZ2RmX1ZrQWpSNmxxc2hieURHaGZpUjViZ2V1VTIta1lMWEQ?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews",
-   "x": "GLP-1 Compounding After Drug Shortages The Regulatory Review"
-  },
-  {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-10-31",
+   "d": "2026-11-01",
    "s": "fierce",
    "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/lilly-breaks-down-medicare-bridge-boon-glp-1-sales-drive-another-guidance-lift",
-   "d": "2026-10-31",
+   "d": "2026-11-01",
    "s": "fierce",
    "x": "As Lilly’s tirzepatide franchise continues to deliver strong sales growth, analysts are increasingly turning their attention to new catalysts in the GLP-1 market, including the launch of oral obesity medicines and the rollout of a nationwide access program for seniors."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides",
-   "d": "2026-10-31",
+   "d": "2026-11-01",
    "s": "fierce",
    "x": "Stopping short of a formal declaration allowing their use, Department of Health and Human Services Secretary Robert F. Kennedy Jr. has cleared the way for the compounding of six popular wellness peptides."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/marketing/amgen-hit-fda-warning-letter-misleading-vectibix-promotion",
-   "d": "2026-10-31",
+   "d": "2026-11-01",
    "s": "fierce",
    "x": "Amgen has been handed an FDA warning letter over a video promoting its cancer drug Vectibix, but the company said that the issues stemmed from an “inadvertent” submission and was not made available publicly."
+  },
+  {
+   "t": "GLP-1 Compounding After Drug Shortages - The Regulatory Review",
+   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnlPVy1ieWNSczJSSTltd1l2aUI2dWlYZzNYeWVPcW5jckhseWxzejRTQnpTbWtQQXNXZk5NWkNhMGVzMkgxanJjSUhGNjI5TE1aYjZSeHRqRmtDcnZSUkpwZk5qRzNyeUx2eG1QZ2RmX1ZrQWpSNmxxc2hieURHaGZpUjViZ2V1VTIta1lMWEQ?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews",
+   "x": "GLP-1 Compounding After Drug Shortages The Regulatory Review"
   },
   {
    "t": "5 Things to Know About HHS's Interim Peptide Compounding Policy - The American Journal of Managed Care",
@@ -193,11 +193,11 @@ window.FEED={
    "x": "Some wellness peptides will become widely available, HHS says شبكة تواصل الإخبارية"
   },
   {
-   "t": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides - The American Journal of Managed Care",
+   "t": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides - The American Journal of Managed Care® (AJMC®)",
    "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOGJxLVd0bFNOZndDUlRhME5JY1cyMFlNbVg4SUZsT0g3QVRQWk56eG16MElNcVFvUzJFM2ozSENUQmdEd2V6TllycFE0QTlVWmxtaHI3X1h0RWlBUHhDU3ZpSlh3YjBHZVppcDFJSDlsMU1wWHZZdjZzZXJkTnZtRHNsSl9lUDFnc3M2UTd3?oc=5",
    "d": "2026-10-29",
    "s": "gnews",
-   "x": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides The American Journal of Managed Care"
+   "x": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides The American Journal of Managed Care® (AJMC®)"
   },
   {
    "t": "Unproven Peptides Opposed By FDA Scientists Could Soon Be Easier To Get - U.S. News & World Report",

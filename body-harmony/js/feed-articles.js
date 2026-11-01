@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-10-31T21:41Z",
+ "generated": "2026-11-01T06:20Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-10-31T21:41Z",
+   "checked": "2026-11-01T06:20Z",
    "ok": true,
-   "new": 101,
-   "seen": 134,
-   "lastOk": "2026-10-31T21:41Z"
+   "new": 119,
+   "seen": 143,
+   "lastOk": "2026-11-01T06:20Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-10-31T21:41Z",
+   "checked": "2026-11-01T06:20Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-10-31T21:41Z"
+   "lastOk": "2026-11-01T06:20Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-10-31T21:41Z",
+   "checked": "2026-11-01T06:20Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-10-31T21:41Z"
+   "lastOk": "2026-11-01T06:20Z"
   }
  ],
  "items": [
@@ -56,6 +56,13 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
+  },
+  {
+   "t": "Richard Norton. Social networks and the danger of injecting peptides. - Organización Mundial Bullying Sin Fronteras",
+   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX1ZqUUtLbWRFT1FZQjAtQmd5WUVza1FQcDZLOXZvOHR2d2thelZBdE11Q2pFT1BHZ3M2Vl9MS2EzcmFtRnpOSHh1Zm9uREdrZHg2QUNMM2J6cFVLNC1GcmR0bkhtSUd0QzNsWkZKUzkxNjdPMGxTYjMyRl9xNkR2RlJRSzI2b0NaOUQ5MkNFSE9QMWM?oc=5",
+   "d": "2026-11-01",
+   "s": "gnews-a",
+   "x": "Richard Norton. Social networks and the danger of injecting peptides. Organización Mundial Bullying Sin Fronteras"
   },
   {
    "t": "'Mad Max' actor Richard Norton ignored nurse's warning about peptide treatment which he began days before - The Economic Times",
@@ -98,6 +105,20 @@ window.FEED_ART={
    "d": "2026-10-31",
    "s": "gnews-a",
    "x": "Novo Nordisk's Clinical Ledger: Retatrutide's Head-to-Head Win, a Pediatric Insulin Approval and the ad-hoc-news.de"
+  },
+  {
+   "t": "Two out of five clients asking for help with peptides, needle exchange, agency says - RNZ",
+   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcGdWbEY0Vm43MGF4ZHV4elVpRmtZRmdZZzEzMng5Rmd6cWZOclVCRDJQbWU3ckJGZ2swNU1IdmZuMTBnQWljLTNlTnVGUm5hRjBlR194MzI5d3RBTEFWRW9JaFhlWkRBSkJrNUpfU2VXeUZvbE02TXVKRUNIcEhLMUY5LTRvSVM2RWZpT3dTdC1DYjhDeFBFMWdCOE5sTnoteGhFMW9Zc2RzZTRVcC1oMWRuY1JxcWx6bHJtd1kwNXo?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "Two out of five clients asking for help with peptides, needle exchange, agency says RNZ"
+  },
+  {
+   "t": "Certified-PEP Wins Best Place to Buy Research Peptides in 2026 Guide After 10-Vendor Checkout Test - FinancialContent",
+   "l": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYlBkQnctNlZZNzFCdERqM2JFQUYyRkdEVTltb3U4SGYwQkdXSnprc0JCOU9KRF9lVTBSaHdwWEh4QnZpOTZfZDU3ZUkwcU92MG5XM0M5RWE3MUd6QzdYendOZUItaWNXTFUzMWphZzRFdHZYZ3hKZFBseUFhRWZUdnVvVHhqWDFNRWhMODVZSGtrdms2bDFNODA5ZFRCUTA4am8tUTFxY1B3S2ZISk9MVE5ncklvNzRHTXhvaFdYejBEeUNyTFlHSU9jVTRKR3hDRkxVVzNxZkJnTktTd29JNktVaVlieWI3VlVHaHpGUnlIWjN5Y2gwUw?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "Certified-PEP Wins Best Place to Buy Research Peptides in 2026 Guide After 10-Vendor Checkout Test FinancialContent"
   },
   {
    "t": "Viewpoint: Peptides and medical freedom: The MAHA obsession that can damage your health - Genetic Literacy Project",
@@ -226,6 +247,13 @@ window.FEED_ART={
    "x": "Renowned Martial Artist Richard Norton Died of Cardiac Arrest and Severe Anaphylaxis After Doubling Prescribed Peptides, Coroner Confirms Istituto Impariamo"
   },
   {
+   "t": "Actor Richard Norton Was Warned About Peptide Dosage Before Tragic Death - AOL.com",
+   "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRHFmWWEwdFUzSDQzZE05OHpaTmxGQk9VYXpMYWtBcmM4Ykt3ZDY1LVExckR0d0tYbDhwUUlrQ1ZoeFRzcE4zd0tvb1NaaVVtVXhtZV9fSDlGZ2pRUzJtTTI3UGFCbXZNaGdFYnl3a0pyOFFxLWtkRG45RzRYQmEwNGQzVU04QQ?oc=5",
+   "d": "2026-10-30",
+   "s": "gnews-a",
+   "x": "Actor Richard Norton Was Warned About Peptide Dosage Before Tragic Death AOL.com"
+  },
+  {
    "t": "Aussie actor Richard Norton’s death linked to unapproved peptide use - 7NEWS",
    "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT0NPZmw4dUh0MnluQ2p4Q2pQM0VqS1N3YU1Fd2JsLTB3c3d3WVJxa0UyeUtGWnNqaGItQXltQkJmdEllaW5VSUdleFFfWnVFUUs1U2VVUC1vYXNHc0dhQU1sQVFpN3hHRW1hTENiWVY1enBJUFdnaHMyUzBRNFNtcWp1ZDYtRm9HU1JSV3J4RV9ta3dPaFIwNWRxSUpDWklWTDB1aENWeVMzM25PbGY0Y2FrQzlidFlwMGfSAb8BQVVfeXFMTWI0UU5wLTk1OEpkUTFJWlliOGNvZ1VZc0d2SnZHaERvNE1WOG5oRlNaemZ1WHN0UVhVQ3E5RU9pemFyV1pHVXptQVdQY2VDSDYtRDFTVjFnclE3VmxReFpINnRnQUFmRExteGxwZ3ZZeWprbThkMGU2SHpxa0F3UElNVlg0NThSTnBmWVp0ckFDR2lQZWwyejhsR2dYcnBhdk1ldGh5NHJPdU1MMFhMSGlOODBVUEt3Rl9adHNtSm8?oc=5",
    "d": "2026-10-29",
@@ -308,34 +336,6 @@ window.FEED_ART={
    "d": "2026-10-29",
    "s": "gnews-a",
    "x": "Lilly’s retatrutide outperforms Ozempic on weight loss in diabetes trial; safety concerns remain The Federal"
-  },
-  {
-   "t": "Eli Lilly Q3 Earnings Preview: Retatrutide Data and Foundayo Launch in Focus - BigGo Finance",
-   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45SmVpSjBqREZuZHA2bXdObndjM0JENmFfLUN3a2tfVWRqbEMwMldDQXpMWTVNZnJMRUF0bzhBbl9hNzc1WXhieDNVUC1kV1hLWHd6Q3BISktHVVFnR1lTeGF0aEJzaWZPbWpCRk5UTkJ4b1c1OXc?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Eli Lilly Q3 Earnings Preview: Retatrutide Data and Foundayo Launch in Focus BigGo Finance"
-  },
-  {
-   "t": "Eli Lilly’s Retatrutide Outpaces Ozempic on Weight Loss in First Head-to-Head Trial - the deep dive",
-   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOanNSM0xCb2NEMldFOFk2Zkc0cHpmR1ByMHZPWU9XeXpNYUpJZFczc01hQTlOdHQ2TW4zbW03M19ubWU1MUpIcnk0TFlYdVFjMThmdWFYY05JbnJTRnpoWWxzT1djaTZaRlFlc0NCNDJLemlLYmMxRDQ1YWg5ZEVXZ1BUT1dRakl5dXRMZE5CcWdYbWJEcHVzbk1wWTBqNDdZTFR5SW5Bbko5dw?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Eli Lilly’s Retatrutide Outpaces Ozempic on Weight Loss in First Head-to-Head Trial the deep dive"
-  },
-  {
-   "t": "‘Godzilla’ Drug Retatrutide Reverses Sleep Apnea In 1 In 4 Diabetes Patients - Health and Me",
-   "l": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVGIyTy1LSXQzd2EtcVZJMEJ1SkZZR05jZlFvRkoyX09kODdUU0dyWFJobkdCRUc4Nnd0a0R6VVdRRG5YV001aDB4b0hIbVNKaXVRZlBZcEhKcHRlZUhRRlRWRTRLM0lLcEk1SkVaRkl4Q2lHUGxyYUphUG9XM3Z6T2pPeFRLZ2J5RFRtVTMzNDhEcUV1aXdnQXNOVnBOR1VtNUdtTFJVbnQxdmhHQkk1WmNENDBIby1wU1F0ckNodW1ZTGFrWHNsbnIyY3Y?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "‘Godzilla’ Drug Retatrutide Reverses Sleep Apnea In 1 In 4 Diabetes Patients Health and Me"
-  },
-  {
-   "t": "Ozempic vs Retatrutide: Eli Lilly claims 'more than double' the weight loss in latest trial — What's next? - Livemint",
-   "l": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQQUdUMmF5c1RpV1AzTkg1dC05UUNMYk1FSjlSU2NONXAySVpzaFA5VU43bUttaHI5TUJubWVpVjdKckNGYjRoLTJyQWo3SV9QZjFvTXBKTTRIRXBZREx2X1dYNmJzaGxGZWJCTzUxZ2Y2OVdXSU9HdV9jRE52RTZwNHMwMmtENkJHd0IyTnZGZmNPU1U4WDhVZV9WYzAybFc5aUw3b09mZ2NRX2RVdHg1aU5xT3B4ZWVLa0F4WXdVZEhEMjlCcl9CSlJYTHU3dWs2aG90aDZDMTBraVh6LXdNV0RJN09pZGR5UlJCazNVNWbSAfYBQVVfeXFMTnJrZU9HTklXRl94MXJsamJ4MXhtZTJ2bXAxbnc5cTBGOW5rTWdyTVpkZ0tuVkwyS2VoOW94UTk0UjhTMWotUks5WktYTGhfWUwyVEZuRGRLeFJvbEhPdXMtcFZHUU1xWUdKM0RyUWhSRjAzWkxMUFVUTlVnYTctY0RPNm5MVVJfVU9YenlDeUpKSEpKUzlyVkFaSnVnaWJWWktJN2I4UkxPZXRvcFk5RGlIRm1IbVktSUZpSFdtRXFjTUpzRDRjSWYtVnc3M1NMTUFOMW8yWTZoR0pPOGFydFZISlcwV3U1WVRJUEtCeTVfRjRuWnBn?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Ozempic vs Retatrutide: Eli Lilly claims 'more than double' the weight loss in latest trial — What's next? Livemint"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
