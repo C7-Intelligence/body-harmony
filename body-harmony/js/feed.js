@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-11-01T17:57Z",
+ "generated": "2026-11-01T22:09Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-01T17:57Z",
+   "checked": "2026-11-01T22:09Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-01T17:57Z"
+   "lastOk": "2026-11-01T22:09Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-01T17:57Z",
+   "checked": "2026-11-01T22:09Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-01T17:57Z"
+   "lastOk": "2026-11-01T22:09Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-01T17:57Z",
+   "checked": "2026-11-01T22:09Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-01T17:57Z"
+   "lastOk": "2026-11-01T22:09Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-01T17:57Z",
+   "checked": "2026-11-01T22:09Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-01T17:57Z"
+   "lastOk": "2026-11-01T22:09Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-01T17:57Z",
+   "checked": "2026-11-01T22:09Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-11-01T17:57Z"
+   "lastOk": "2026-11-01T22:09Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-01T17:57Z",
+   "checked": "2026-11-01T22:09Z",
    "ok": true,
    "new": 4,
    "seen": 4,
-   "lastOk": "2026-11-01T17:57Z"
+   "lastOk": "2026-11-01T22:09Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-01T17:57Z",
+   "checked": "2026-11-01T22:09Z",
    "ok": true,
-   "new": 120,
-   "seen": 148,
-   "lastOk": "2026-11-01T17:57Z"
+   "new": 147,
+   "seen": 174,
+   "lastOk": "2026-11-01T22:09Z"
   }
  ],
  "items": [
@@ -193,11 +193,11 @@ window.FEED={
    "x": "Some wellness peptides will become widely available, HHS says شبكة تواصل الإخبارية"
   },
   {
-   "t": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides - The American Journal of Managed Care® (AJMC®)",
+   "t": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides - The American Journal of Managed Care",
    "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOGJxLVd0bFNOZndDUlRhME5JY1cyMFlNbVg4SUZsT0g3QVRQWk56eG16MElNcVFvUzJFM2ozSENUQmdEd2V6TllycFE0QTlVWmxtaHI3X1h0RWlBUHhDU3ZpSlh3YjBHZVppcDFJSDlsMU1wWHZZdjZzZXJkTnZtRHNsSl9lUDFnc3M2UTd3?oc=5",
    "d": "2026-10-29",
    "s": "gnews",
-   "x": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides The American Journal of Managed Care® (AJMC®)"
+   "x": "HHS Draft Policy Eases Enforcement on 6 Compounded Peptides The American Journal of Managed Care"
   },
   {
    "t": "Unproven Peptides Opposed By FDA Scientists Could Soon Be Easier To Get - U.S. News & World Report",

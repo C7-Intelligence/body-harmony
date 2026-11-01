@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-01T17:58Z",
+ "generated": "2026-11-01T22:09Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-01T17:58Z",
+   "checked": "2026-11-01T22:09Z",
    "ok": true,
-   "new": 89,
-   "seen": 110,
-   "lastOk": "2026-11-01T17:58Z"
+   "new": 99,
+   "seen": 127,
+   "lastOk": "2026-11-01T22:09Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-01T17:58Z",
+   "checked": "2026-11-01T22:09Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-11-01T17:58Z"
+   "lastOk": "2026-11-01T22:09Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-01T17:58Z",
+   "checked": "2026-11-01T22:09Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-01T17:58Z"
+   "lastOk": "2026-11-01T22:09Z"
   }
  ],
  "items": [
@@ -63,6 +63,13 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "gnews-a",
    "x": "Richard Norton. Social networks and the danger of injecting peptides. Organización Mundial Bullying Sin Fronteras"
+  },
+  {
+   "t": "Retatrutide Vs Ozempic: Eli Lilly’s Experimental Drug Delivers More Than Double The Weight Loss - Health and Me",
+   "l": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQd3YwalFmSlRIN3lNSE9XVlBoQVN4RUNuX1djMlI4WlhWLUlNQUd6bjNUUFJhXzZrd2o3cDFUR0NONThIS2RMQmFxdy05TU9SQmRsQU04d1BZbWpjSGI2LWJ6UEhERkE5RXB6ZG5IcDE4dzM4WTJQMUFYS2VHbUlmYzBWb2Fid1lWWmxicUdSbi1oZ3NOQ3B3NTNFckdjVFBxRlpCaTRwX2R4Q0ZaQWVwX3BVak0xTWRGY25VNzNJTU5lMmlrdkNtSnBiTkFGaWh4cm9zSk5waTI4UURpdk1qVE5HaThMc3ptLXEw?oc=5",
+   "d": "2026-11-01",
+   "s": "gnews-a",
+   "x": "Retatrutide Vs Ozempic: Eli Lilly’s Experimental Drug Delivers More Than Double The Weight Loss Health and Me"
   },
   {
    "t": "'Mad Max' actor Richard Norton ignored nurse's warning about peptide treatment which he began days before - The Economic Times",
@@ -126,6 +133,20 @@ window.FEED_ART={
    "d": "2026-10-31",
    "s": "gnews-a",
    "x": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. Yahoo Health"
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "Lilly's retatrutide beats Ozempic on weight loss in trial - Big News Network.com",
+   "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcmRZMUYySmFkdGQ3eExBdFZZQVFodUt6WDBTMEF6U3UydG54WHFmaVBZNzFYUDhNRWw3dFdrdlVIM0JXREMxU19MV1diMFpvTmh5SUluSzZyVEMwYVdpRkh4SzFuQXk0ZmhURi1ZREtzb2haVEZ5UHJnM2dTY2hPbDA4b3pDUXZwUlA5MFZpUzBudG1IeGhSYjZHeTU2Wmk1azQtUg?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "Lilly's retatrutide beats Ozempic on weight loss in trial Big News Network.com"
   },
   {
    "t": "Viewpoint: Peptides and medical freedom: The MAHA obsession that can damage your health - Genetic Literacy Project",
@@ -315,27 +336,6 @@ window.FEED_ART={
    "d": "2026-10-29",
    "s": "gnews-a",
    "x": "Experimental weight-loss drug retatrutide shows promising results in clinical trial WFTV"
-  },
-  {
-   "t": "Increased Appetite Tops Symptoms Reported by Gray-Market Retatrutide Users in Penn's AI Analysis of Reddit Posts - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORjNXSzFEMGRVZHp2SDlRWC04RmhhNmt3RTFHMEJLU09NWk1oaVlERUJRbTNwRW8zaXh0SjVSanVWbndwS0NldDhHOVp5emYyWlhjemxFMTV2aUF1XzZwaWVGOFRvR1NnamNjV1FzcUgybExKaURESTRBWTF3a1Y4TnBRU0tsTDNkVGtV?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Increased Appetite Tops Symptoms Reported by Gray-Market Retatrutide Users in Penn's AI Analysis of Reddit Posts Medical Daily"
-  },
-  {
-   "t": "Better Than Ozempic? Retatrutide Delivers Double Ozempic's Weight Loss In Phase 3 Trial - NDTV",
-   "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOS3pKYmV1cjVENjNobGFGNTZRQUlsMWVDLVFzMEtFTm50TlJRTE1janoxanl3OXVUZ0ttSkVfaDZYbFd1emxtbE1WTDdCLVp0S0tRdS11ckljVTNWeVFWeG8zbmdIeTNYLVl1eUhoNTdndlprZU1seHNoV0FYSXFTekpETWxsczhZcE9XWGY0ODEzRFhqQnhES0FwMklEV3FKbVVraGsyaVhIWFhQdVJLQy1CZ3hkQjRqVmg1czNGZw?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Better Than Ozempic? Retatrutide Delivers Double Ozempic's Weight Loss In Phase 3 Trial NDTV"
-  },
-  {
-   "t": "Lilly’s retatrutide scores another Phase 3 win, Outperforming Ozempic in head-to-head study - pharma.economictimes.indiatimes.com",
-   "l": "https://news.google.com/rss/articles/CBMigwJBVV95cUxNRDlYTklLR3drM1hiaWZGc0YyRkJvZkd1Tkd2V1ZlWlItWnVObDVtc2dYbENCcWhnOHY1bm5GNUppc2ZpTEhudWJVQmE0cE5BQklaN3YzaGM0c0ZZdDdMUktBZ0w4X0dta2F2Z01TZlBXU2ZxYThqXzE4M3RvUzdWSVBKMXZmVGpHdV9GVnlCYnRzWXRXUjJXNXRORHlGYkxVMW5hckNiQUpYRkJGV1hWVWRwV0FSMF9oVDBvNmpUT0hHM05Ha0lTRlhXLXYzelBlWUc2MW1GZnFKc29Ma3NMdzhYZTlMQTh1TTNBcVp0Q2RwOXB5QVZBX2VFVERNUTJ5VmFN0gGIAkFVX3lxTE5rT1ZkaXZXd044Z0J4OTYzVnprYnpzcWlfNHhzSmduYnl2REptWVdCVkhrVXZxdTJsNXB2VHJsX2w4VS1IaDJpdFVEQ2JIUzBKV3Y4cXlfWmgzV2ZfY20yZGhiRU9GMVFiTHB2RTF4VGJWSTVCd0ZsUU5LaEV1SW5aTU1MNmlXclc3QWJ0VUxER3E5N1Z6RUdqUE91a2VLR3p0SUQ4eVJ6NTVhMExjRlJPbDFBRW9OaVEwN1NUZ2RvaHo0RE9vYVpWV1dKX0tIRUZaUTRULVhXRElocGt2YUNWZUxRVU1lOUhtcHdHOEs3eDdHNzJocnYtLWs1QkladlVtTlJZbEhwTQ?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Lilly’s retatrutide scores another Phase 3 win, Outperforming Ozempic in head-to-head study pharma.economictimes.indiatimes.com"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
