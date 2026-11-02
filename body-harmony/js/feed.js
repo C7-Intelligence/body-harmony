@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-11-01T22:09Z",
+ "generated": "2026-11-02T06:21Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-01T22:09Z",
+   "checked": "2026-11-02T06:21Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-01T22:09Z"
+   "lastOk": "2026-11-02T06:21Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-01T22:09Z",
+   "checked": "2026-11-02T06:21Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-01T22:09Z"
+   "lastOk": "2026-11-02T06:21Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-01T22:09Z",
+   "checked": "2026-11-02T06:21Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-01T22:09Z"
+   "lastOk": "2026-11-02T06:21Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-01T22:09Z",
+   "checked": "2026-11-02T06:21Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-01T22:09Z"
+   "lastOk": "2026-11-02T06:21Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-01T22:09Z",
+   "checked": "2026-11-02T06:21Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-11-01T22:09Z"
+   "lastOk": "2026-11-02T06:21Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-01T22:09Z",
+   "checked": "2026-11-02T06:21Z",
    "ok": true,
    "new": 4,
    "seen": 4,
-   "lastOk": "2026-11-01T22:09Z"
+   "lastOk": "2026-11-02T06:21Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-01T22:09Z",
+   "checked": "2026-11-02T06:21Z",
    "ok": true,
-   "new": 147,
-   "seen": 174,
-   "lastOk": "2026-11-01T22:09Z"
+   "new": 122,
+   "seen": 150,
+   "lastOk": "2026-11-02T06:21Z"
   }
  ],
  "items": [
@@ -90,28 +90,28 @@ window.FEED={
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-11-01",
+   "d": "2026-11-02",
    "s": "fierce",
    "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/lilly-breaks-down-medicare-bridge-boon-glp-1-sales-drive-another-guidance-lift",
-   "d": "2026-11-01",
+   "d": "2026-11-02",
    "s": "fierce",
    "x": "As Lilly’s tirzepatide franchise continues to deliver strong sales growth, analysts are increasingly turning their attention to new catalysts in the GLP-1 market, including the launch of oral obesity medicines and the rollout of a nationwide access program for seniors."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides",
-   "d": "2026-11-01",
+   "d": "2026-11-02",
    "s": "fierce",
    "x": "Stopping short of a formal declaration allowing their use, Department of Health and Human Services Secretary Robert F. Kennedy Jr. has cleared the way for the compounding of six popular wellness peptides."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/marketing/amgen-hit-fda-warning-letter-misleading-vectibix-promotion",
-   "d": "2026-11-01",
+   "d": "2026-11-02",
    "s": "fierce",
    "x": "Amgen has been handed an FDA warning letter over a video promoting its cancer drug Vectibix, but the company said that the issues stemmed from an “inadvertent” submission and was not made available publicly."
   },
@@ -121,6 +121,13 @@ window.FEED={
    "d": "2026-10-31",
    "s": "gnews",
    "x": "GLP-1 Compounding After Drug Shortages The Regulatory Review"
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "5 Things to Know About HHS's Interim Peptide Compounding Policy - The American Journal of Managed Care",
@@ -394,13 +401,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "HHS to allow sale of unapproved peptides under review The Hill"
-  },
-  {
-   "t": "FDA scientists opposed Trump administration plan to ease access to peptides - Mezha.net",
-   "l": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOMTBoUDQ2elpkWlhMc2o2dlVGNFNSSDg3eVA3cVU2SEdJVTFSVXByQTVSZ0lydFBKa3Y4bkNQTXg4c0ZrRDJQMG9pdlNxM1BXZWZDc09FNW56MjlNSHlrRVM3QTVCOWVxUXpGc1BZbFVMWENwbGRHbmtyLVZncEtXZkRJb2JNcTdp?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "FDA scientists opposed Trump administration plan to ease access to peptides Mezha.net"
   },
   {
    "t": "Registered Outsourcing Facilities",
