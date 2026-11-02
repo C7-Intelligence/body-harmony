@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-02T06:21Z",
+ "generated": "2026-11-02T21:46Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-02T06:21Z",
+   "checked": "2026-11-02T21:46Z",
    "ok": true,
-   "new": 100,
-   "seen": 125,
-   "lastOk": "2026-11-02T06:21Z"
+   "new": 119,
+   "seen": 152,
+   "lastOk": "2026-11-02T21:46Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-02T06:21Z",
+   "checked": "2026-11-02T21:46Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-11-02T06:21Z"
+   "lastOk": "2026-11-02T21:46Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-02T06:21Z",
+   "checked": "2026-11-02T21:46Z",
    "ok": true,
    "new": 0,
-   "seen": 3,
-   "lastOk": "2026-11-02T06:21Z"
+   "seen": 0,
+   "lastOk": "2026-11-02T21:46Z"
   }
  ],
  "items": [
@@ -49,6 +49,55 @@ window.FEED_ART={
    "d": "2026-12-01",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D."
+  },
+  {
+   "t": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee - The Columbus Dispatch",
+   "l": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxObjJGWUpIOFE2YWxhLWhXR1MtVmVOY29aRUY2MHFCeUI1dFVfZUkzMmxuZ0RUbTNSNjZvYk03b3B0bXhLLUhTQVV2c2Vsa3J1VkQ1clZJQjRLZTRUSUxUTnNZVzVkTWRoaDVGbzdwWXA4c0xqckQtYjVNWDBnMy03MzBLbHE5eWFLcEp0ZlMyRTZIT1JVbDRjam5VMnBwY1h5czdDcEN3T2NvbWZicWxnMHZ5SUZNaWtSVHQ3WTZhRWczNnZrNEMxMzBKTm4xSTl5ZVNlNmZJQ1FTQ25heTdmZVhPRnREd044UXV0YWVUOTdRS3JU?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews-a",
+   "x": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee The Columbus Dispatch"
+  },
+  {
+   "t": "AI Used To Discover Side Effects Of Unapproved Weight-Loss Drug Retatrutide - MiNDFOOD",
+   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOczB2UVBjcHQya3hjUG4ybkFfaW05OVFJc1ZieDFhd08xejFYVXdYZE9DYWFxQjNfOUh3aTRmM0Q5WlkwRjdEWkc3T3pXR1dLY2dIWlN5NTdQOU9mNnVHRVFldl90TWtEeFR2QjFvdGlGYmRibWpEanRHa1BodWdlckU0aEh3cFRDZlZsYWtSLUlFUXBEb2dPWjJGSlZ6SzhWam45SGtTZExicVB3WHc?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews-a",
+   "x": "AI Used To Discover Side Effects Of Unapproved Weight-Loss Drug Retatrutide MiNDFOOD"
+  },
+  {
+   "t": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee - TradingView",
+   "l": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQdlBYMHkwZElRQi0xQnlOLXI5QmN2UFpBeGVjcC1kalFjVzdMLWRuNzJDbFgyQTdEcnV2MUktdXNSZnkyVGJtc2tqLTUxYnN6WEt2SGEzRUVrS012eVhLZ0pvZzFDWHh3eWpUaXUyYkFVMHZVaUcwd1FUZ0YzZUpLYnQtSUs5U1I1Z1ZRQ3pZVER4R1BJcHgxUjM4eFNOT3QwVWUtNnpLLXh3am8tZVhSTDNoa0JYM2JaRFUzVkxnUklBTF9sbDBfMzdmRWNIaWRodUx5RkV2ekcxYzZWdjJoWUV0eUVXelplVlU2X3BIbk84X2IwYjlFV1dtbWwwUQ?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews-a",
+   "x": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee TradingView"
+  },
+  {
+   "t": "Health Ministry seizes 697 units of unapproved Retatrutide worth RM341,000 - The Sun Malaysia",
+   "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRklTMjhZbjJueVVpSEFwTVE0OWpzWFNNdmlkRndzc0pBRE8zZFJZWkhtMFNtNllqMGRudHYyUFR1NDg1RS1VT2l0Q21rZnhudktVYWhrYm5KNnBmbTljUWxSWWZLdjNESm1SRGZDdVlVdEU0cURoRDZndDEwa0w1WEdHYjNGQ1NodWQxY29uWk5vMlpnalRlc1Z4ZkZJUQ?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews-a",
+   "x": "Health Ministry seizes 697 units of unapproved Retatrutide worth RM341,000 The Sun Malaysia"
+  },
+  {
+   "t": "Health Ministry seizes RM341,000 worth of weight-loss drug retatrutide, Parliament told - The Star",
+   "l": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUzBwRk81Rk9wN2ZCUkhLQkFrWFM3TE9tRnFjcDkwai1scndvT0xEdWxsSzg0dkpmZXlUb09oT2lyZ09GRzFDQVRHRHhYWHYxcDBTb2QxVXlheFpsQTI0VVMwYnRMYVE0WUEtLUxSU0I5TUwyWWtINVhfOEF1LUh6d0EwMWZabHRxZHI3aklLYzlGQ29nS2ZreDBCU3hndDE0ek9Uc0dVVnlBQ1FfSk5WQ3E1TVlxODRfRXkwWXhjUlRkYVlWWS10Z0ZDMnl2Unln?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews-a",
+   "x": "Health Ministry seizes RM341,000 worth of weight-loss drug retatrutide, Parliament told The Star"
+  },
+  {
+   "t": "MOH seizes RM341,000 worth of retatrutide in 12 raids - The Malaysian Reserve",
+   "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX3FNcWxlZEtLU2NZZjVDQjFJUWs5ME01X1lCbmRCbTdibW1OdGpiWjktTjFYbE9pNjhfc1VFNlVSRy05SGk0STJla0NhV09pdTh4RnNnYmxUSHJMUWRQYnBNQmdNM1BWVDBqUHBtT2RzSEQtYi1WbWRfSzFvSkR1XzJpV20zWnZ2cGlySHk2VXFyeVI2TVY0a1diRG8?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews-a",
+   "x": "MOH seizes RM341,000 worth of retatrutide in 12 raids The Malaysian Reserve"
+  },
+  {
+   "t": "Peptides Costa Rica Expands Access to Research Peptides Through Its Dedicated Online Catalog - FinancialContent",
+   "l": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRVQ3NDBRc1I4VHBrUm94WFNPaVFHaWFsY2NNdHFwb2RCd3JjekVfSWdZTUVOcllidnhSTHRQd3VfZG5qZ0NKS0huRUJ4U21QRzBQQ2QxYjhYcWtuMFdHcjRfVmI4MHdQMjdRSWkyUUptWEhteVZzVlJPSmtWVU5pSUN4U0lQNHVFeFZrVWt5b2V6MHFac1U1dlJmbmFydldIc2pma2xWX3RTbGxVS1dXZ2FNY3FqRU53a1diOEFuVVZwUzdqdzk4YzJiYmdxckxWcS1xRHlhOTktc3ZmV2I3SnVkc3VkMlNpM3pyOVAwcw?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews-a",
+   "x": "Peptides Costa Rica Expands Access to Research Peptides Through Its Dedicated Online Catalog FinancialContent"
   },
   {
    "t": "Global Landscape and Thematic Evolution of Selective GLP-1 Receptor Agonists and GLP-1-Based Multi-Receptor Agonists in Type 2 Diabetes Mellitus: A Bibliometric Analysis.",
@@ -287,55 +336,6 @@ window.FEED_ART={
    "d": "2026-10-29",
    "s": "gnews-a",
    "x": "Aussie actor Richard Norton’s death linked to unapproved peptide use 7NEWS"
-  },
-  {
-   "t": "Australian actor's death linked to unapproved peptides - 1News",
-   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRGNjbHgxVE1LaUM0SXhST0pQSTY3TGpnaVdyQ3Z3SFpuOEh0czVQMTY0MkV6NWg5WGRZVWVOX1BCLUs0bGwwcl9MWjBJWnFpUTRKYUkyUnh1M3VvVmI4TlFQMHJtOUVEcWU3dFhEV3RlU2Itb1dqR2RlcWFrN0JPbTJjOFVPcHh5SnJ1WVRn?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Australian actor's death linked to unapproved peptides 1News"
-  },
-  {
-   "t": "Aussie actor and stuntman’s death attributed to peptide usage - Nine.com.au",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPeURONlEzQU9KOTd4aU1ZbURJX0tBOGNicUphMXdYX05WQW5rVXhlUWhBT3cwVUhhODhlMXZQSWZqRXh1U21aYlZrTUlSdXlGNG5zVWxnb01lUzNGY2JVSWEzY1RuaFp6NEZ6eHFidVNKS01lVWd6SlhqV3pXVHNhVmZTZVlYZG5FOVBlTkYySWV0NWJsREIySzlJdDRrQ3JnSDZ0S1R5alJfT0x0SUsyY3ktM0VUdklQazNQOTVNM2JjdFJhcktFVw?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Aussie actor and stuntman’s death attributed to peptide usage Nine.com.au"
-  },
-  {
-   "t": "Eli Lilly (LLY) Stock May Be 25% Undervalued Despite Retatrutide Trial News - Yahoo Finance",
-   "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOd3RhVHZLVzEzejYxNjJ6cG9ER3dHVWN0cTUyWE9Gek9Yc1dnMW9aQnhvQi0tMnFGR2M4SVNPX0plbzc4Wm5qTGduSmZHbUxkd2MyaUpPM0RwYVlVdmJ4TWl4OC0tMHR6Vi1YTFdob1JoSEpDY0JyQV9ZVFFxN0FZdEthRHJKS1ZhZWdhZ2xobTd1UQ?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Eli Lilly (LLY) Stock May Be 25% Undervalued Despite Retatrutide Trial News Yahoo Finance"
-  },
-  {
-   "t": "Health Ministry warns against illegal peptides marketed for weight loss - Ynetnews",
-   "l": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBYeExad25seEFlREl6WW91RVV2X21CbzJTaU1xbFlRQ2dlQXlBOW5aSWRnb1lfYndkdlF3ck8tSXZCWGhZU010X294YmhFZ05ETzhzag?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Health Ministry warns against illegal peptides marketed for weight loss Ynetnews"
-  },
-  {
-   "t": "In topline phase 3 results, retatrutide lowered A1C more and reduced weight more than semaglutide 2 mg at 80 weeks - 2 Minute Medicine",
-   "l": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZHhYWl84M3lUNHlaNXpuYzVUU092WVhiY1c4NGFrNWNnUW5qR0hNTnBaUmlyMHFuZzBPS3RFVkdnYlUyN3pyYXlJQTFSZERfZlBnVmhodW9EUDhtLTl1ZEp2S0k4VWtNc0ZZd1M3OW1QNEhJVmdDb2M4bFFnQ29xd0VBM0czSWpIQXFHQVY5M1o5V3pfVkVWYzBBVi1oNmRHVzhXT0JaRGFyaXNxdTltRERLUGk2SDVtR1BNNVpNb2ZkXzRFcU5lbGZYMjJlTVVBVUxZb005dEc1RUstczNZ?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "In topline phase 3 results, retatrutide lowered A1C more and reduced weight more than semaglutide 2 mg at 80 weeks 2 Minute Medicine"
-  },
-  {
-   "t": "RFK Jr. to ease access to unapproved peptides, draft policy states - CBS News",
-   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRnp0Z2pOb2xfXzJ5dVREY1N0bVJlc2Z2MWlRcU42amZjRWtLeEFWdUFtQTc1czJ0bnhmRDhtYlVsUi1JaXY4OGcxUW5aZDBDSU1RemxBMTh3ZVE5ZTBncThyMG55WjJDNnVuZEVXTUFFNHNERi1pMHlVWEtFQTdLV3JCUksxczRXUUNrRg?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "RFK Jr. to ease access to unapproved peptides, draft policy states CBS News"
-  },
-  {
-   "t": "Experimental weight-loss drug retatrutide shows promising results in clinical trial - WFTV",
-   "l": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPWHZvcjV2R3dyalNoS0dzSjR6RV9RX2xBaWFNc2ZrWDg0Zl9kVTlhdDdMaUIwQXpxTWRMR2VRT2tNc2lMT0xJQnp3RDNRd3VHZTU1a1BUeTZ2VWdQZHhGYkUwWk5vNUZIYjNLTzBramNjNV9MZENabENLdnd2N1pqSktWN3lxMjdJMFpVazBoRi1VNThEUDJjNzFXR2Z5dUhWTWVFXzdfdFFKMjJfUTRfbEhESGF2TVpSMm9BNVY2Njdwemw3YlIwT1hCRU15SjRxc2FWMEZnUDMxSWpS?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Experimental weight-loss drug retatrutide shows promising results in clinical trial WFTV"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",

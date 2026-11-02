@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-11-02T06:21Z",
+ "generated": "2026-11-02T21:46Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-02T06:21Z",
+   "checked": "2026-11-02T21:46Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-02T06:21Z"
+   "lastOk": "2026-11-02T21:46Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-02T06:21Z",
+   "checked": "2026-11-02T21:46Z",
    "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-02T06:21Z"
+   "seen": 1,
+   "lastOk": "2026-11-02T21:46Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-02T06:21Z",
+   "checked": "2026-11-02T21:46Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-02T06:21Z"
+   "lastOk": "2026-11-02T21:46Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-02T06:21Z",
+   "checked": "2026-11-02T21:46Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-02T06:21Z"
+   "lastOk": "2026-11-02T21:46Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-02T06:21Z",
+   "checked": "2026-11-02T21:46Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-11-02T06:21Z"
+   "lastOk": "2026-11-02T21:46Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-02T06:21Z",
+   "checked": "2026-11-02T21:46Z",
    "ok": true,
-   "new": 4,
-   "seen": 4,
-   "lastOk": "2026-11-02T06:21Z"
+   "new": 2,
+   "seen": 2,
+   "lastOk": "2026-11-02T21:46Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-02T06:21Z",
+   "checked": "2026-11-02T21:46Z",
    "ok": true,
-   "new": 122,
-   "seen": 150,
-   "lastOk": "2026-11-02T06:21Z"
+   "new": 95,
+   "seen": 120,
+   "lastOk": "2026-11-02T21:46Z"
   }
  ],
  "items": [
@@ -86,6 +86,13 @@ window.FEED={
    "d": "2026-11-02",
    "s": "fr-fda",
    "x": "The Food and Drug Administration (FDA or we) proposes to amend the regulations on nutrient specifications and labeling for infant formula as part of its phased, comprehensive review of infant formula nutrients. This action, if finalized, would amend the minimum and/or maximum…"
+  },
+  {
+   "t": "Registered Outsourcing Facilities",
+   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+   "d": "2026-11-02",
+   "s": "fda-drugs",
+   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
   },
   {
    "t": "",
@@ -102,18 +109,32 @@ window.FEED={
    "x": "As Lilly’s tirzepatide franchise continues to deliver strong sales growth, analysts are increasingly turning their attention to new catalysts in the GLP-1 market, including the launch of oral obesity medicines and the rollout of a nationwide access program for seniors."
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/kennedys-hhs-relaxes-enforcement-6-popular-wellness-peptides",
+   "t": "Compounding Peptides: What Compounding Pharmacies Need to Know About the HHS Interim Enforcement Discretion Policy for Six Peptides - Buchanan Ingersoll & Rooney PC",
+   "l": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMGdHNUpPTndqS19NZGtQZ0U0UmtFODZzZWRWbnU0a3BwZzR3NG1KbXJjRW5oWERWaHpQMXVHUW5FT0VweVk3WEg3bHhuX3Z2a016VzNwek1kUGRoTzIzZ3A3UjJueGN4WUF5em0yTG1LRFRBQVR4UEJYQ3JRS3NxOEhXYzY1ZFpObUhUNnRmM2lTNlgzLUZ4bFZaaW11UUMzMF9Nb1hHWHM1eVJQdk5JZ2ZWazJpc2VtMXVTQXpKVENVSGU2bGhabVhLRHROVEt3S3RRbnlsZ1hIZ3RFOXpybkZEc2szUQ?oc=5",
    "d": "2026-11-02",
-   "s": "fierce",
-   "x": "Stopping short of a formal declaration allowing their use, Department of Health and Human Services Secretary Robert F. Kennedy Jr. has cleared the way for the compounding of six popular wellness peptides."
+   "s": "gnews",
+   "x": "Compounding Peptides: What Compounding Pharmacies Need to Know About the HHS Interim Enforcement Discretion Policy for Six Peptides Buchanan Ingersoll & Rooney PC"
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/amgen-hit-fda-warning-letter-misleading-vectibix-promotion",
+   "t": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee - The Courier-Journal",
+   "l": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNS25zaGRNSTdyS1Foc2NlYlBkZDZ5SDNmY3RkQ3o2c0lFTjZYWTBfa3dhb2NwTldsTXppOTVTSi0tbE1LQ1lqMGgwUWloa0FweGRWS09hUmd5UDJSbklqQWF3cWYwa2g2dnU2LV9XNDNqZ0FHZWNjQk9XbW8ya25YN25aUDluSFJ5amlJV2t5dEJQa21KaVIxaG9zRnRXeEk5NXlLNDBRWDNNREdBTGJfLUVSUUV1cnN1a1hTTHVZUmVaU0RjZjZfNVA3SGh1QVRLUlZsdFd5bThXOGdweUZZZUdyNnVIczV5R21ONXRZRFhqYllYenliTkJxdHFMQQ?oc=5",
    "d": "2026-11-02",
-   "s": "fierce",
-   "x": "Amgen has been handed an FDA warning letter over a video promoting its cancer drug Vectibix, but the company said that the issues stemmed from an “inadvertent” submission and was not made available publicly."
+   "s": "gnews",
+   "x": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee The Courier-Journal"
+  },
+  {
+   "t": "A pharmacy plans to start dispensing six compounded drugs in November. They are not FDA-approved. - Stock Titan",
+   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNeXNxR0tlaHo0SlhNc3RkRUNoRl9DVDUyeWRKaHpNY0hjOEdNN25KcFlmWTF3bFFMekczTzg5eDlVYUhCWlhISmN0Z2pyT3dmSEFvRkk1VmNMVUtVd3VvRUE4NkFubTJ0QUhnMlVBUXJickMxcE1LSEd0bm5tZ0dZak9XT2xYSEVoT281dDBqWm9hUjZIVlB0dFFlcV9DcklxRlgxc1BaY3ZodUIycC1vVzkzd3VJWFhzZGc?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews",
+   "x": "A pharmacy plans to start dispensing six compounded drugs in November. They are not FDA-approved. Stock Titan"
+  },
+  {
+   "t": "FDA Sends New Round of Warning Letters Over Compounded GLP-1 Marketing Claims - Telehealth.org",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQaVhxYkpWWVVLVHl2Z0FrZEd4LVEzN2ZHdV9RSlM0dkRpV21VWnJRSWpRc2pPcFh3ekZkVFllaVQzQnhTa3VRRnNubkRtSjhHUUZtVUJINXZxTWpfMmJxWjZ2WTF3ME5kUTdtdDhJZGlKUFZtdTJSWktiUjJXNDBSQzAxdHNuRF84NEgtTFBfTGRiVUdubzFXVDdHSktvVmRUUDBNbFB1ckFDZw?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews",
+   "x": "FDA Sends New Round of Warning Letters Over Compounded GLP-1 Marketing Claims Telehealth.org"
   },
   {
    "t": "GLP-1 Compounding After Drug Shortages - The Regulatory Review",
@@ -373,41 +394,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "How FDA scientists opposed the Trump administration’s push for easier access to peptides Howl.Link"
-  },
-  {
-   "t": "Trump administration will allow pharmacies to make popular peptides - NPR",
-   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMUZyVHplejBMVTJoSW9nTy03R3J2cVBWVXZmY0wtSVNPNFdsTF9DdUVuT1BjUDgxVEZmUm1EMVpua3F6VjItUjA0c0syX0x0RW9EV2NsT1BMWEdkazkyU2lOMGJ6TXJCMWlHTmFsYVczaFpaTS1iaTdwQlJfRFdSbGZpWQ?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "Trump administration will allow pharmacies to make popular peptides NPR"
-  },
-  {
-   "t": "The Peptide Rush Has Begun - Time Magazine",
-   "l": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBxc0p4ZlZ4MHJ4ZzhmTHd6QkFVNUd1MVhiYkFySHFZTGgwa0lNcERVUkxnYkxXdUNtREs2c2dTUWFJMlJwN1hWUmt5UjFIbDBzdDBIOG0wNTN3VUNzaTRjLWsySFdLQUFQNkNF?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "The Peptide Rush Has Begun Time Magazine"
-  },
-  {
-   "t": "RFK Jr. acts to ease access to unproven peptides despite opposition from FDA scientists - CNN",
-   "l": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXTHhEM3p3ajR1MUN2LVNMUWFqQnNGQmZfNFgwanZIeVZ4TzlIbUpBNFRpX0tSem5Ua3NYV0lFQlFfMmVsZ2ZFVVdka3pIcXNJUTVXMURHY1dibDd5Y1hmd1h6NDFXSUk?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "RFK Jr. acts to ease access to unproven peptides despite opposition from FDA scientists CNN"
-  },
-  {
-   "t": "HHS to allow sale of unapproved peptides under review - The Hill",
-   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZ2l4YWRtTHlUd2ZSeTVocTFxRkZwdnl3WC1ILV9BVkZQVmNjSFQ1UnkwSjJBUVo5OEFRSWpUYllpU2k0UnZPazVqdm05czhicG8waWFxNnBVbDNQVnZ2c04yUm9WRjNOc09DVGJYNXNaNDFRV2hEZGsySksyelA2OTV0SUFrdXFERVpwbURsOE5ZNlZCY1FJU0dpN3l3emPSAZ8BQVVfeXFMUGdpeGFkbUx5VHdmUnk1aHExcUZGcHZ5d1gtSC1fQVZGUFZjY0hUNVJ5MEoyQVFaOThBUUlqVGJZaVNpNFJ2T2s1anZtOXM4YnBvMGlhcTZwVWwzUFZ2dnNOMlJvVkYzTnNPQ1RiWDVzWjQxUVdoRGRrMkpLMnpQNjk1dElBa3VxREVacG1EbDhOWTZWQmNRSVNHaTd5d3pj?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "HHS to allow sale of unapproved peptides under review The Hill"
-  },
-  {
-   "t": "Registered Outsourcing Facilities",
-   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
-   "d": "2026-10-26",
-   "s": "fda-drugs",
-   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
   },
   {
    "t": "Statement on improving adverse event reporting of compounded drugs to protect patients",
