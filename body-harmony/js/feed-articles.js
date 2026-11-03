@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-03T06:56Z",
+ "generated": "2026-11-03T19:34Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-03T06:56Z",
+   "checked": "2026-11-03T19:34Z",
    "ok": true,
-   "new": 92,
-   "seen": 119,
-   "lastOk": "2026-11-03T06:56Z"
+   "new": 105,
+   "seen": 136,
+   "lastOk": "2026-11-03T19:34Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-03T06:56Z",
+   "checked": "2026-11-03T19:34Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-11-03T06:56Z"
+   "lastOk": "2026-11-03T19:34Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-03T06:56Z",
+   "checked": "2026-11-03T19:34Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-03T06:56Z"
+   "lastOk": "2026-11-03T19:34Z"
   }
  ],
  "items": [
@@ -49,6 +49,20 @@ window.FEED_ART={
    "d": "2026-12-01",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D."
+  },
+  {
+   "t": "Compounding Oversight Bill advances amid FDA warnings on unapproved retatrutide - Generics and Biosimilars Initiative",
+   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQODZGYkZFemhwc3JUWWx1UHp4eHBsY1NMaEpCWkx0QnVlT2tWY3NHTmwyaXVFeWc4VWZYUGhYUVpSTEhGQ2lKSGdNVm5QRHRDSVkxVjJNZGc1RlZsS251ZEZwYmFGX2stV1JmdGRMWE5PcnNjLWFPLVBhdUtqdWdEYmN5dVZTQVkyZnZ6QTlQcDZFU01BODNENFktUmtKblZKRHpfVDlwb3RZdWxCYkU2b0tDaVM?oc=5",
+   "d": "2026-11-03",
+   "s": "gnews-a",
+   "x": "Compounding Oversight Bill advances amid FDA warnings on unapproved retatrutide Generics and Biosimilars Initiative"
+  },
+  {
+   "t": "Volta Peptides Launches U.S. Warehouse, Expands Research Peptide Shipping Across USA and Canada - USA Today",
+   "l": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU1dkWG42SGdGeGtHTl9zSElSTWt6OGRZeTFBdDRDZEVvOUFoZlN5Vndxb1pqS0JTX2hyMktyQ2hPNnYzd1hOd3cxU1FaUGVNcVUxbF9XYjYySHRKVlRGODZmZld0MEpHQ1FvMG5GVkxfMG1CVExDR3ZUblY2RXJfMmlqWWFfakJITVhFLThrZ2Zna1pkQS1Ld2QzRzVyTW9udDU1ZExIbHFBSVRVZmtNYldFMG12RXAzTU5XS2Jsa1ROZ2szX2d5QTMxMXkxZFRSdUwtcjQxTDI4REtnNkE?oc=5",
+   "d": "2026-11-03",
+   "s": "gnews-a",
+   "x": "Volta Peptides Launches U.S. Warehouse, Expands Research Peptide Shipping Across USA and Canada USA Today"
   },
   {
    "t": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee - The Columbus Dispatch",
@@ -98,6 +112,13 @@ window.FEED_ART={
    "d": "2026-11-02",
    "s": "gnews-a",
    "x": "Peptides Costa Rica Expands Access to Research Peptides Through Its Dedicated Online Catalog FinancialContent"
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews-a",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "Global Landscape and Thematic Evolution of Selective GLP-1 Receptor Agonists and GLP-1-Based Multi-Receptor Agonists in Type 2 Diabetes Mellitus: A Bibliometric Analysis.",
@@ -182,13 +203,6 @@ window.FEED_ART={
    "d": "2026-10-31",
    "s": "gnews-a",
    "x": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. Yahoo Health"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "Lilly's retatrutide beats Ozempic on weight loss in trial - Big News Network.com",
@@ -322,20 +336,6 @@ window.FEED_ART={
    "d": "2026-10-30",
    "s": "gnews-a",
    "x": "Renowned Martial Artist Richard Norton Died of Cardiac Arrest and Severe Anaphylaxis After Doubling Prescribed Peptides, Coroner Confirms Istituto Impariamo"
-  },
-  {
-   "t": "Actor Richard Norton Was Warned About Peptide Dosage Before Tragic Death - AOL.com",
-   "l": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQRHFmWWEwdFUzSDQzZE05OHpaTmxGQk9VYXpMYWtBcmM4Ykt3ZDY1LVExckR0d0tYbDhwUUlrQ1ZoeFRzcE4zd0tvb1NaaVVtVXhtZV9fSDlGZ2pRUzJtTTI3UGFCbXZNaGdFYnl3a0pyOFFxLWtkRG45RzRYQmEwNGQzVU04QQ?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Actor Richard Norton Was Warned About Peptide Dosage Before Tragic Death AOL.com"
-  },
-  {
-   "t": "Aussie actor Richard Norton’s death linked to unapproved peptide use - 7NEWS",
-   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOT0NPZmw4dUh0MnluQ2p4Q2pQM0VqS1N3YU1Fd2JsLTB3c3d3WVJxa0UyeUtGWnNqaGItQXltQkJmdEllaW5VSUdleFFfWnVFUUs1U2VVUC1vYXNHc0dhQU1sQVFpN3hHRW1hTENiWVY1enBJUFdnaHMyUzBRNFNtcWp1ZDYtRm9HU1JSV3J4RV9ta3dPaFIwNWRxSUpDWklWTDB1aENWeVMzM25PbGY0Y2FrQzlidFlwMGfSAb8BQVVfeXFMTWI0UU5wLTk1OEpkUTFJWlliOGNvZ1VZc0d2SnZHaERvNE1WOG5oRlNaemZ1WHN0UVhVQ3E5RU9pemFyV1pHVXptQVdQY2VDSDYtRDFTVjFnclE3VmxReFpINnRnQUFmRExteGxwZ3ZZeWprbThkMGU2SHpxa0F3UElNVlg0NThSTnBmWVp0ckFDR2lQZWwyejhsR2dYcnBhdk1ldGh5NHJPdU1MMFhMSGlOODBVUEt3Rl9adHNtSm8?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-a",
-   "x": "Aussie actor Richard Norton’s death linked to unapproved peptide use 7NEWS"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",

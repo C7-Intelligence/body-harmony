@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-11-03T06:56Z",
+ "generated": "2026-11-03T19:34Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-03T06:56Z",
+   "checked": "2026-11-03T19:34Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-03T06:56Z"
+   "lastOk": "2026-11-03T19:34Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-03T06:56Z",
+   "checked": "2026-11-03T19:34Z",
    "ok": true,
    "new": 0,
-   "seen": 1,
-   "lastOk": "2026-11-03T06:56Z"
+   "seen": 0,
+   "lastOk": "2026-11-03T19:34Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-03T06:56Z",
+   "checked": "2026-11-03T19:34Z",
    "ok": true,
    "new": 0,
-   "seen": 3,
-   "lastOk": "2026-11-03T06:56Z"
+   "seen": 2,
+   "lastOk": "2026-11-03T19:34Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-03T06:56Z",
+   "checked": "2026-11-03T19:34Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-03T06:56Z"
+   "lastOk": "2026-11-03T19:34Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-03T06:56Z",
+   "checked": "2026-11-03T19:34Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-11-03T06:56Z"
+   "lastOk": "2026-11-03T19:34Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-03T06:56Z",
+   "checked": "2026-11-03T19:34Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-11-03T06:56Z"
+   "lastOk": "2026-11-03T19:34Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-03T06:56Z",
+   "checked": "2026-11-03T19:34Z",
    "ok": true,
-   "new": 80,
-   "seen": 107,
-   "lastOk": "2026-11-03T06:56Z"
+   "new": 133,
+   "seen": 161,
+   "lastOk": "2026-11-03T19:34Z"
   }
  ],
  "items": [
+  {
+   "t": "Bypassing the FDA, RFK Jr. Makes Peptides Easier to Access - The Scientist",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWTRuWURMSEFCcTR6UFFpQ2tJOTI1Q2c0ZElqNWpOVV9sMGFITlRoRnVTS2FoSzlmNVN6UXo0U2otd0xpZDg4S2NTajNjUHJhNmdRWkplTWUyWm9rQmp0RlpVMkdjd0tZaThueGZwa0dsaHIyQ2NsNTZrZGlxUXU5YkU5RWxwdXNDRHpvVlJMbVJ1dVBuM08w?oc=5",
+   "d": "2026-11-03",
+   "s": "gnews",
+   "x": "Bypassing the FDA, RFK Jr. Makes Peptides Easier to Access The Scientist"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
@@ -93,13 +100,6 @@ window.FEED={
    "d": "2026-11-03",
    "s": "fierce",
    "x": "As Lilly’s tirzepatide franchise continues to deliver strong sales growth, analysts are increasingly turning their attention to new catalysts in the GLP-1 market, including the launch of oral obesity medicines and the rollout of a nationwide access program for seniors."
-  },
-  {
-   "t": "Bypassing the FDA, RFK Jr. Makes Peptides Easier to Access - The Scientist",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWTRuWURMSEFCcTR6UFFpQ2tJOTI1Q2c0ZElqNWpOVV9sMGFITlRoRnVTS2FoSzlmNVN6UXo0U2otd0xpZDg4S2NTajNjUHJhNmdRWkplTWUyWm9rQmp0RlpVMkdjd0tZaThueGZwa0dsaHIyQ2NsNTZrZGlxUXU5YkU5RWxwdXNDRHpvVlJMbVJ1dVBuM08w?oc=5",
-   "d": "2026-11-03",
-   "s": "gnews",
-   "x": "Bypassing the FDA, RFK Jr. Makes Peptides Easier to Access The Scientist"
   },
   {
    "t": "Infant Formula Nutrient Requirements",
@@ -144,18 +144,18 @@ window.FEED={
    "x": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee The Detroit News"
   },
   {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
    "t": "GLP-1 Compounding After Drug Shortages - The Regulatory Review",
    "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnlPVy1ieWNSczJSSTltd1l2aUI2dWlYZzNYeWVPcW5jckhseWxzejRTQnpTbWtQQXNXZk5NWkNhMGVzMkgxanJjSUhGNjI5TE1aYjZSeHRqRmtDcnZSUkpwZk5qRzNyeUx2eG1QZ2RmX1ZrQWpSNmxxc2hieURHaGZpUjViZ2V1VTIta1lMWEQ?oc=5",
    "d": "2026-10-31",
    "s": "gnews",
    "x": "GLP-1 Compounding After Drug Shortages The Regulatory Review"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "5 Things to Know About HHS's Interim Peptide Compounding Policy - The American Journal of Managed Care",
