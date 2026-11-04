@@ -1,105 +1,105 @@
 window.FEED={
- "generated": "2026-11-03T19:34Z",
+ "generated": "2026-11-04T06:38Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-03T19:34Z",
+   "checked": "2026-11-04T06:38Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-03T19:34Z"
+   "lastOk": "2026-11-04T06:38Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-03T19:34Z",
+   "checked": "2026-11-04T06:38Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-03T19:34Z"
+   "lastOk": "2026-11-04T06:38Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-03T19:34Z",
+   "checked": "2026-11-04T06:38Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-03T19:34Z"
+   "lastOk": "2026-11-04T06:38Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-03T19:34Z",
+   "checked": "2026-11-04T06:38Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-03T19:34Z"
+   "lastOk": "2026-11-04T06:38Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-03T19:34Z",
+   "checked": "2026-11-04T06:38Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-11-03T19:34Z"
+   "lastOk": "2026-11-04T06:38Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-03T19:34Z",
+   "checked": "2026-11-04T06:38Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-11-03T19:34Z"
+   "lastOk": "2026-11-04T06:38Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-03T19:34Z",
+   "checked": "2026-11-04T06:38Z",
    "ok": true,
-   "new": 133,
-   "seen": 161,
-   "lastOk": "2026-11-03T19:34Z"
+   "new": 131,
+   "seen": 160,
+   "lastOk": "2026-11-04T06:38Z"
   }
  ],
  "items": [
   {
-   "t": "Bypassing the FDA, RFK Jr. Makes Peptides Easier to Access - The Scientist",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWTRuWURMSEFCcTR6UFFpQ2tJOTI1Q2c0ZElqNWpOVV9sMGFITlRoRnVTS2FoSzlmNVN6UXo0U2otd0xpZDg4S2NTajNjUHJhNmdRWkplTWUyWm9rQmp0RlpVMkdjd0tZaThueGZwa0dsaHIyQ2NsNTZrZGlxUXU5YkU5RWxwdXNDRHpvVlJMbVJ1dVBuM08w?oc=5",
-   "d": "2026-11-03",
-   "s": "gnews",
-   "x": "Bypassing the FDA, RFK Jr. Makes Peptides Easier to Access The Scientist"
-  },
-  {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-11-03",
+   "d": "2026-11-04",
    "s": "fierce",
    "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/lilly-breaks-down-medicare-bridge-boon-glp-1-sales-drive-another-guidance-lift",
-   "d": "2026-11-03",
+   "d": "2026-11-04",
    "s": "fierce",
    "x": "As Lilly’s tirzepatide franchise continues to deliver strong sales growth, analysts are increasingly turning their attention to new catalysts in the GLP-1 market, including the launch of oral obesity medicines and the rollout of a nationwide access program for seniors."
+  },
+  {
+   "t": "Bypassing the FDA, RFK Jr. Makes Peptides Easier to Access - The Scientist",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPWTRuWURMSEFCcTR6UFFpQ2tJOTI1Q2c0ZElqNWpOVV9sMGFITlRoRnVTS2FoSzlmNVN6UXo0U2otd0xpZDg4S2NTajNjUHJhNmdRWkplTWUyWm9rQmp0RlpVMkdjd0tZaThueGZwa0dsaHIyQ2NsNTZrZGlxUXU5YkU5RWxwdXNDRHpvVlJMbVJ1dVBuM08w?oc=5",
+   "d": "2026-11-03",
+   "s": "gnews",
+   "x": "Bypassing the FDA, RFK Jr. Makes Peptides Easier to Access The Scientist"
   },
   {
    "t": "Infant Formula Nutrient Requirements",
@@ -149,6 +149,13 @@ window.FEED={
    "d": "2026-11-02",
    "s": "gnews",
    "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "HHS Announces Draft Enforcement Discretion Policy Paving Way for Pharmacies to Compound Certain Peptides While FDA Rulemaking Is Pending - Arnold & Porter",
+   "l": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSy00SU1wM285QmJnVHVrRGkzUElYb1RkSlV3ZDRrU0pJZnhYdkt1RzlWMk9IeUxub0Vnd2h4MVE3ZTdsbnRtaWV2TEVGb0hSdmxFdEpsM3hQak5WMmtUMzR5STQtWG9iWkQxWnhydzdkdV9QVV9URkhwTFNJQWMyMWRkNVgxeUpPVEZjTnFKT1lzZFNFSWo1ZmdIc0J0RUt2a2ppeGExNV9sRWhrZ3FIMURSalJ0MmIxUF9ybjFQNm9tSmVkSTNCamZCZVU3bko0N2gxaXdB?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews",
+   "x": "HHS Announces Draft Enforcement Discretion Policy Paving Way for Pharmacies to Compound Certain Peptides While FDA Rulemaking Is Pending Arnold & Porter"
   },
   {
    "t": "GLP-1 Compounding After Drug Shortages - The Regulatory Review",
@@ -387,13 +394,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "HIMS Stock Jumps 5% After HHS Temporarily Clears Compounding Of Six Peptides TradingView"
-  },
-  {
-   "t": "Some wellness peptides will become widely available, HHS says - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNWUo5a0NsV2NNM3RwZHM0b042bWdacUZhR0Q4UzhnNEw2LV93eVRQcVFFS2tSd3VCb1JQRWRxcnlvX3ZRVGVDQW5TOGhycmNlV3NZVUNZQTM5eEhoR1FYSUFIeFB4Y1NTSnYzb0xCWGlsTGRUU2ZKYzR4RHBjWHFfc29HUmlsTjFF0gGOAUFVX3lxTFAtUjhJRjdzSC1uRWZYakszdjdOQ3FxQUxvQkk2RGhwaXBhWUs4VTlYejRiWG5SS2lQY2U1YjlRS2NvM0pENEhQOGtDVl9OdkppUkFpZVdPU1AwVTI4a2xTVW1JRHVueHJlZmZZY0ZVdGxsT3JINjNrS3VvdEJBZFJOdHZwQUVseVBGSUlsekE?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "Some wellness peptides will become widely available, HHS says ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "Statement on improving adverse event reporting of compounded drugs to protect patients",

@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-03T19:34Z",
+ "generated": "2026-11-04T06:38Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-03T19:34Z",
+   "checked": "2026-11-04T06:38Z",
    "ok": true,
-   "new": 105,
-   "seen": 136,
-   "lastOk": "2026-11-03T19:34Z"
+   "new": 121,
+   "seen": 150,
+   "lastOk": "2026-11-04T06:38Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-03T19:34Z",
+   "checked": "2026-11-04T06:38Z",
    "ok": true,
    "new": 0,
    "seen": 15,
-   "lastOk": "2026-11-03T19:34Z"
+   "lastOk": "2026-11-04T06:38Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-03T19:34Z",
+   "checked": "2026-11-04T06:38Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-03T19:34Z"
+   "lastOk": "2026-11-04T06:38Z"
   }
  ],
  "items": [
@@ -49,6 +49,34 @@ window.FEED_ART={
    "d": "2026-12-01",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D."
+  },
+  {
+   "t": "Celltrion Unveils First Quadruple-Action Obesity Drug Candidate, Outperforming Retatrutide in Animal Study - Businesskorea",
+   "l": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9HQlJwTlFGVzJNaVZNR3JJNkp3MS1ENG5sbnpiZWVxeTZUZlcxVGZlV1pXalAyaHZYWDBYaWVPTTRkNTVXMkFjRDJHaVFxV0tfZlRQMWFnZ3QtTUdhUWE0N0NoSGpScUVPby1EUV9fQjhuMmRk?oc=5",
+   "d": "2026-11-04",
+   "s": "gnews-a",
+   "x": "Celltrion Unveils First Quadruple-Action Obesity Drug Candidate, Outperforming Retatrutide in Animal Study Businesskorea"
+  },
+  {
+   "t": "BPC-157 and TB-500 in Laboratory Research: Product Documentation and Handling Considerations - openPR.com",
+   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTkNacHZIN0JDQ1h6NU11Nnd1RWpwTWxuenlTMlFPWkNlbFZkMUFCUGJGdnlLZ3h3T1B5VTRWNDhLbkVMTldzc2ZuRjViYi1LU0ZYMng4SHpzSS1YNDRTUmcyZlFyeVI5X29rQXVWZFpIM054Uy0yakdqbUdGd09wSVp1R0l3VzF4MF9JRUln?oc=5",
+   "d": "2026-11-04",
+   "s": "gnews-a",
+   "x": "BPC-157 and TB-500 in Laboratory Research: Product Documentation and Handling Considerations openPR.com"
+  },
+  {
+   "t": "Metabolic Research Peptides for In Vitro Studies: Quality Documentation and Selection Considerations - openPR.com",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVGpLRllqRU9zekNnYkZZVi1iaDM3ZVR4RTFtdE5aalhISWp6bjY5VXBjU1FBRy1uaDdESDNWbk5Rend0RGJDQnUwT2xkNFB4cnBzTl9XdmFFS1ZQankzSlJUd2stYUlmZ1c3OVpmNFZwNDkzdzU4VmtiLWJFYWFXTm14bHZCWVpabjk1QjFjWGdtRF9lYUFz?oc=5",
+   "d": "2026-11-04",
+   "s": "gnews-a",
+   "x": "Metabolic Research Peptides for In Vitro Studies: Quality Documentation and Selection Considerations openPR.com"
+  },
+  {
+   "t": "Research Peptides Available Through USA, UK and EU Local Fulfillment - openPR.com",
+   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRU5nUDU4eWphSFVjbWswTklBYUNyNjRETzAxQkM4QVVZbDFRNVZiN1RMTXo4T3E5YWRvRVdHeHRacmJkcjdLZU1MUld2YTVSSURMZmpWV3dLRHRJQXQySDNZbURsVENudHNfRU44N0hLNGo4YlM3akJCUFRHUDlRS3JNS21WbU5KYUdOd1ZhREE4S3UtSHc?oc=5",
+   "d": "2026-11-04",
+   "s": "gnews-a",
+   "x": "Research Peptides Available Through USA, UK and EU Local Fulfillment openPR.com"
   },
   {
    "t": "Compounding Oversight Bill advances amid FDA warnings on unapproved retatrutide - Generics and Biosimilars Initiative",
@@ -142,6 +170,13 @@ window.FEED_ART={
    "x": "Retatrutide Vs Ozempic: Eli Lilly’s Experimental Drug Delivers More Than Double The Weight Loss Health and Me"
   },
   {
+   "t": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
+   "l": "https://doi.org/10.1001/jama.2026.20514",
+   "d": "2026-11-01",
+   "s": "epmc",
+   "x": "JAMA · Rubin R."
+  },
+  {
    "t": "'Mad Max' actor Richard Norton ignored nurse's warning about peptide treatment which he began days before - The Economic Times",
    "l": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQWjJqczF2RWEtdUcwNHd6Ty1hN1lCdXpIa1hDSVJ4LXBtRUVibE93ZnlKck03ckd2M2FWVl9FVUpOU2dQaWJqbGJkMERIQjFIck9vcXZPY1RfMWstOHVmajZUZTI5UHB2c1ktcjB5VW1DWG9rTVMwVGhTY0FIVlVfRW84bFQtNXY4eWNOUDloZ2dkaTVFZEVuSWt0V291THJLdko4R3ZuV1VwNlBrYnUyYW1KWlFPeU05dnIwZWVfSlM4aGRhUGNNZmRjZTZtaDgyNUZzMkh4LU0tTVVRZHFtYWRVWWs4bGVVUEc5aV9qeGczNHNVa1hXY2tYc1M2UTFIYVhTTU9IMExHUm9mMkR6X3MyWC1WRzRwcnduTE9GYnBhZGxucEVvZ9IBrgJBVV95cUxQeGpDYTZ3aDdkNmVvLW1jQmF2MERpc0xSQk93REVnaWdIT0RnNDk1eVdZWmF0UlZDczMyOWdyeldIUnRqazRha09ZMWF2ZnRoMlE2MW1mRUgzbzRna2tMQWwxSTVUU0ZvNHh3NHlWdUpob1RlOTFiYVZiaWpkWXUyY09Qa2g0TzB6VnBuUkFIZzhkbjVRMEJKWWZyV2ZRQlR3aEdObmFhcTR6aENyVkFrNEJVS0VFRnktaXp3WTd2UXlUYjFQQkFnNjRPSk1MOHBrWDEtLXJQanJKQ3hucGIzOTFhemZ1MDFBUU9SUkZnVXdHOVpmT0RIcUdrN3dibnlCYzVtMVV0c2pZcldhWnV2Q1dPeDdRUHBic2xtV1JzeUozd2duV05TWmpPblRxdw?oc=5",
    "d": "2026-10-31",
@@ -210,6 +245,13 @@ window.FEED_ART={
    "d": "2026-10-31",
    "s": "gnews-a",
    "x": "Lilly's retatrutide beats Ozempic on weight loss in trial Big News Network.com"
+  },
+  {
+   "t": "Retatrutide Nearly Erased Fatty Liver Disease in 93% of Patients. That's Not Even the Most Surprising Thing It Did - BoxLife Magazine",
+   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtU0RkbGZMN1BfSkc5dEhFSW52MTFDXzJCd3FLRnFBQk9Wc1hoMHBrc3RFRm1ZdTNkQVhDWmF0bVBQMU9kQXFhVWNiRkdKOVVQN2Z1Z0JzMFo3LTVVUl9hZG11TXhOV25tQlZkZTVoZU9DTTRobWVHVFNjNUZuTnc?oc=5",
+   "d": "2026-10-31",
+   "s": "gnews-a",
+   "x": "Retatrutide Nearly Erased Fatty Liver Disease in 93% of Patients. That's Not Even the Most Surprising Thing It Did BoxLife Magazine"
   },
   {
    "t": "Viewpoint: Peptides and medical freedom: The MAHA obsession that can damage your health - Genetic Literacy Project",
@@ -301,41 +343,6 @@ window.FEED_ART={
    "d": "2026-10-30",
    "s": "gnews-a",
    "x": "I injected a peptide to lose weight — my liver started failing just days later New York Post"
-  },
-  {
-   "t": "Lilly's Retatrutide Delivers Double The Weight Loss Of Ozempic, Raising Competitive Stakes For Novo Nordisk (NYSE: NVO) - Foreign Policy Journal",
-   "l": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPNGluLVIwaExBWGhJUW8wbl96ajZUYUNMZmlINHVaaDZiYkkzRGozLWRzdjRUcWtvYm5QXzdEQTE1Wk5uUmlvMlNQR2FBbjZHbm5VdUdHTzNJbm1pVlJicG9Tc0pPNUpGVFdOZXQ3Yml3UFpJcUxFZmItMi1PVHBRVlp1OFh5aUZUMUdxWDF2ZHozdDYwaWdmWlQtdmxIREVxZXNhYjhQeko3NTVsWVpndHF4aU1YOFpRYlhaaWpuajZneldzS0FOWTlYbnBxcDhMeHZuM3RVV3FWYkJoZ1lwWFh0SUcwRWRCVjhocUhoLUU2VXVRYlE?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Lilly's Retatrutide Delivers Double The Weight Loss Of Ozempic, Raising Competitive Stakes For Novo Nordisk (NYSE: NVO) Foreign Policy Journal"
-  },
-  {
-   "t": "6 Experimental Peptides Just Became Legal to Get in the US (But the FDA Still Hasn't Approved Them for Safety) - BoxLife Magazine",
-   "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zVmpSSWp4MU5Db0N2UHh3RHFsT3o3bnZDeW1vNmxPQ2d4emI5eklkLXJiTjNodHFpaW1zOEdoRWpOaDQ4SFhkSkliY3dUS2dQQU1FaThLelIzMWp0NExuSEw5dWRsZjdF?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "6 Experimental Peptides Just Became Legal to Get in the US (But the FDA Still Hasn't Approved Them for Safety) BoxLife Magazine"
-  },
-  {
-   "t": "Experimental weight-loss drug retatrutide may help improve sleep apnea - Medical News Today",
-   "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOWdxeng3NjlWUm8tUzU2NTFHeDlLaF94bV9CNW1LREkzR2s4eGw5b3Z3YUVqUUY4VU5Ta2ZrMl91Ni1nUy1kZjdzeGlQVlkyVVVoQW5iU2dsRnc2b3U0SkZkSldSVnA0Z2dlM1Bxa1FMc3ptVGdKYmJCY0ZRLUJlYVBISlRGd1NpTW9kVUY1VmQySnVTTUgzT29sSEVRNUQ0bE1fMXpnMzdQeDhQVVRwUDFn?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Experimental weight-loss drug retatrutide may help improve sleep apnea Medical News Today"
-  },
-  {
-   "t": "Actor Richard Norton looked fit and healthy in final photos taken just days before shock peptide death - Page Six",
-   "l": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxORXVTc0thc09EY1hNLUp6VDMxN0NSdjdMZ09UTTdUT1ZNZWRIX1lteHFybk45cXhNLW9hci0xVTQ3X3IzMDVOVnNDM0RiQXBHU25YWmVDVWZDV1NsSm0tUWVpUWVUMFRPNVZBamQxYjhnYnNzQ3U3Tnlnd2Z3UXgxLWROQlhWbnNraXJaRmZUbnpBeDJXa3duT3doUHItM2JONlBMYmd5dXhnZ3BQR2tSV2l0LXJab0ZvZFBjMThYZmU5dzIxd2RWX21oNHgtOVMxSWZjWFBWNFJ5RjY5Vzh2aDNfQQ?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Actor Richard Norton looked fit and healthy in final photos taken just days before shock peptide death Page Six"
-  },
-  {
-   "t": "Renowned Martial Artist Richard Norton Died of Cardiac Arrest and Severe Anaphylaxis After Doubling Prescribed Peptides, Coroner Confirms - Istituto Impariamo",
-   "l": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxOZ3BySFlWemswOV9NQzAwMWF1dGd6a3l2Rnc3ZUdxdnBrRVZkTzBUczIyc2IzSVM4SWF2Sk1tMy1yRXdvNTV4NEl1ZmpMRUEzend3aVZ0eDZtT1psQm5GTHB5RlpuLXFJYlZXUHB4dFpKb1NKUEN3SWlIdkZ4MnN2ZGtuYlhrWTd6TjFZQzlQUkwtZDdLSXhpY056RC1GS3BTTGpSeEV6MDl0UVdpUkMxY0JIX1RYM25Sd0ZSbjNsSXY4QnNJVndvMVRDQkNzaFJ2LURRemZObndwNks1OFlEcXFBdkJwdTh2Ul82WDgwdEl2WElCZVpHMEpNRk1WckU?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Renowned Martial Artist Richard Norton Died of Cardiac Arrest and Severe Anaphylaxis After Doubling Prescribed Peptides, Coroner Confirms Istituto Impariamo"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
@@ -455,13 +462,6 @@ window.FEED_ART={
    "d": "2026-10-12",
    "s": "epmc",
    "x": "EClinicalMedicine · Nardone M, Kugathasan L, Daunt L, Parikh EJ, River Zhang HY, Pasricha SV, Orchanian-Cheff A, Cherney DZI, Odutayo A, Muskiet MHA."
-  },
-  {
-   "t": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
-   "l": "https://doi.org/10.1001/jama.2026.20514",
-   "d": "2026-10-09",
-   "s": "epmc",
-   "x": "JAMA · Rubin R."
   },
   {
    "t": "GLP-1 receptor biology and the therapeutic role of incretin-based agonists in metabolic diseases.",
