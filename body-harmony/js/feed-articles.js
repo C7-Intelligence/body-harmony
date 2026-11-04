@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-04T06:38Z",
+ "generated": "2026-11-04T19:51Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-04T06:38Z",
+   "checked": "2026-11-04T19:51Z",
    "ok": true,
-   "new": 121,
-   "seen": 150,
-   "lastOk": "2026-11-04T06:38Z"
+   "new": 84,
+   "seen": 112,
+   "lastOk": "2026-11-04T19:51Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-04T06:38Z",
+   "checked": "2026-11-04T19:51Z",
    "ok": true,
-   "new": 0,
+   "new": 2,
    "seen": 15,
-   "lastOk": "2026-11-04T06:38Z"
+   "lastOk": "2026-11-04T19:51Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-04T06:38Z",
+   "checked": "2026-11-04T19:51Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-04T06:38Z"
+   "lastOk": "2026-11-04T19:51Z"
   }
  ],
  "items": [
@@ -79,6 +79,20 @@ window.FEED_ART={
    "x": "Research Peptides Available Through USA, UK and EU Local Fulfillment openPR.com"
   },
   {
+   "t": "Best Retatrutide Supplier in Canada: Top 5 for Researchers - Caribbean National Weekly",
+   "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTXQzc190RlVfNnVySlRvMGFJR1ZpMmhFdVBydWtlMERNc05xa0JiN3pGeDVNZGZGcVE2M0ItV3BEbTVOSW84TThaMUxuNnpaVXhjNi04ak9naGpHRmFRWjVfTGs5Uzh5azdmejNqMEp0ZVFPa0dBTkVzREwyOGkyMl9RSUZCWVFyWDlDVlBBVXItcmxOSF9XUkh4U3doOU4wVU5Oa2Fnb3U?oc=5",
+   "d": "2026-11-04",
+   "s": "gnews-a",
+   "x": "Best Retatrutide Supplier in Canada: Top 5 for Researchers Caribbean National Weekly"
+  },
+  {
+   "t": "Navigating peptide hype vs. evidence - American Council on Science and Health",
+   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdlhlNVpOandfWUNQNHZPeTVHOEhjQy1XcVc0OXNvTDFHQ1pRUnp5Z3l4dFg2T095OXdsOWt4bUhvVzhyNDd2RnVqV1prb3pWaFlkcHBDU1o2RVM4a2xmYUVkY19UMTE0S1hBV3Fnc3hnV2UtaHFhSlA2WjFqQkpDNUlveUU?oc=5",
+   "d": "2026-11-04",
+   "s": "gnews-a",
+   "x": "Navigating peptide hype vs. evidence American Council on Science and Health"
+  },
+  {
    "t": "Compounding Oversight Bill advances amid FDA warnings on unapproved retatrutide - Generics and Biosimilars Initiative",
    "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQODZGYkZFemhwc3JUWWx1UHp4eHBsY1NMaEpCWkx0QnVlT2tWY3NHTmwyaXVFeWc4VWZYUGhYUVpSTEhGQ2lKSGdNVm5QRHRDSVkxVjJNZGc1RlZsS251ZEZwYmFGX2stV1JmdGRMWE5PcnNjLWFPLVBhdUtqdWdEYmN5dVZTQVkyZnZ6QTlQcDZFU01BODNENFktUmtKblZKRHpfVDlwb3RZdWxCYkU2b0tDaVM?oc=5",
    "d": "2026-11-03",
@@ -91,6 +105,13 @@ window.FEED_ART={
    "d": "2026-11-03",
    "s": "gnews-a",
    "x": "Volta Peptides Launches U.S. Warehouse, Expands Research Peptide Shipping Across USA and Canada USA Today"
+  },
+  {
+   "t": "Next-generation incretin therapeutics for polyendocrine metabolic ovarian syndrome: navigating current pipeline and clinical considerations.",
+   "l": "https://doi.org/10.1080/14656566.2026.2760042",
+   "d": "2026-11-03",
+   "s": "epmc",
+   "x": "Expert Opin Pharmacother · Ozgen Saydam B, Yıldız BO."
   },
   {
    "t": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee - The Columbus Dispatch",
@@ -147,6 +168,13 @@ window.FEED_ART={
    "d": "2026-11-02",
    "s": "gnews-a",
    "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "Dzulkefly: 19 Health Ministry raids uncovered illegal sales of retatrutide, Ozempic worth RM405,170 - NST Online",
+   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV2U4bE5PcU03U0ZuMWdYNm9OQVdQaXo5SXRUVVQ2T2lPeFRlV2dtRXpQQ3BPbVhHVnoybXdpZ1lLWnJ3YmZPYXNxbFZkZDV6cFpYVWJfbzNwYlBTQWEwWW84V3NkS3RMdFJKcHo2UmxDWXlvZUNvZkpWVk93Y0tpQUJxOHRqOFNJRWxPY1dGNFhzcnF3NHkxVy1lY0d1aG9UTm9vb0dPSHhoclFZOXEyaWQ3b2dma21CaDNwTjR30gHDAUFVX3lxTE9HdHl5QVRXaDhpbWVLQUQzbk1lVnVqRUtHZjZiMVVhSlVKQ2p5ZmMxemRhRnFOUkdDcU1uNUNIbkFja1RNX1k5TU9zNGlnbDdHUjV2NThtY1BRbmFMWFBnMXgxa2tzdmFVQllwVWw2TktVcXQxbWRUWHl5QTlTakRZdW1veC1iZGNrNUtPOHFQdGhkQXMwb25OQlpnbjNZVFNJMWgwUHM1emZyNTFnLWo2bkU5QU5PUDBNWUYya2NGY1BNVQ?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews-a",
+   "x": "Dzulkefly: 19 Health Ministry raids uncovered illegal sales of retatrutide, Ozempic worth RM405,170 NST Online"
   },
   {
    "t": "Global Landscape and Thematic Evolution of Selective GLP-1 Receptor Agonists and GLP-1-Based Multi-Receptor Agonists in Type 2 Diabetes Mellitus: A Bibliometric Analysis.",
@@ -322,27 +350,6 @@ window.FEED_ART={
    "d": "2026-10-30",
    "s": "gnews-a",
    "x": "Peptides get a green light — and 50 red flags Politico"
-  },
-  {
-   "t": "Actor Richard Norton Was Warned About Peptide Dosage Before Tragic Death - TMZ",
-   "l": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8yRXBIVmxfVTJucVlWb25HWDlqOVk5VEEyeFpKOEVVM3NCWlEzcnZ4cmdVMzJCNEtUdVBaZzA4WHdJcU5rSHNYYnZpYVVCLUFKT2ZQZlVGWmlsbkVKVjNvMmZLWkhlVWl1N1FlWkJIOGNTa2NzaEx2RC1vMG1odw?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Actor Richard Norton Was Warned About Peptide Dosage Before Tragic Death TMZ"
-  },
-  {
-   "t": "Experimental weight-loss drug retatrutide may help improve sleep apnea - AOL.com",
-   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOEQ0VVZaNGRFUmNhUmpCd1BMeVJrSTlUYVlDa1YzNF8tZGp6SFlUdGh1T2hHQmRBTUVHOFNib1JlWXR5VERCSzVVRDVUUEVSTmVPVTlyY05ZRXJvZzY3dEFGay1QRnJVV2V3dFhjWWVOWE1YZ19MbEdTRmRIYXpfY19JZWxnMlhMdE5RZ0d3?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Experimental weight-loss drug retatrutide may help improve sleep apnea AOL.com"
-  },
-  {
-   "t": "I injected a peptide to lose weight — my liver started failing just days later - New York Post",
-   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOTEF0OE1fdUNBeXVGYkh3NVdRWVRtNHZDSmVFTHRwVG90aS1xUFVnOEx6QklsX25GMUoxOXYtOHdqWmZ5RGZ5aTdwdUFqck44ZnRfRkRpNG5UOFctcmNRb2QxTGJWSVFkeDlBaFpjdU9TamNkUWgwMXRHaVFpVlI3a04yY2MtMThFWmFRNjh1S0Y4S0ZaQjdic29fdklNalREU2JTWUxfNHdQdw?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "I injected a peptide to lose weight — my liver started failing just days later New York Post"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
@@ -584,6 +591,13 @@ window.FEED_ART={
    "x": "Law-firm explainer. The committee's recommendations are advisory and do not change the legal status of any peptide; FDA must still go through formal rulemaking before they can be compounded under section 503A."
   },
   {
+   "t": "Exit Interviews Examining Patient Experiences with Tirzepatide and Dulaglutide for Treatment of Type 2 Diabetes in the SURPASS-CVOT Trial.",
+   "l": "https://doi.org/10.1007/s13300-026-01907-y",
+   "d": "2026-09-17",
+   "s": "epmc",
+   "x": "Diabetes Ther · Stewart KD, Matza LS, Chinthammit C, Pavo I, Bartee AK, Boye KS."
+  },
+  {
    "t": "Sustained weight loss exceeding 100 kg with sequential incretin-based therapy in Prader-Willi syndrome.",
    "l": "https://doi.org/10.1210/jcemcr/luag260",
    "d": "2026-09-16",
@@ -745,13 +759,6 @@ window.FEED_ART={
    "s": "curated",
    "p": "Medsafe (New Zealand)",
    "x": "New Zealand's regulator warns that unapproved peptides and SARMs are illegal to import, sell or use, whatever the 'research use only' label says."
-  },
-  {
-   "t": "Advances in pharmacological interventions for hepatic fibrosis: from pathogenic mechanisms to novel therapeutic targets.",
-   "l": "https://doi.org/10.1080/07853890.2026.2613502",
-   "d": "2026-01-26",
-   "s": "epmc",
-   "x": "Ann Med · Zhang W, Shao T, Wang C, Wang S, An L."
   }
  ]
 };
