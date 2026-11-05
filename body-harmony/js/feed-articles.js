@@ -1,39 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-05T06:58Z",
+ "generated": "2026-11-05T20:04Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-05T06:58Z",
+   "checked": "2026-11-05T20:04Z",
    "ok": true,
-   "new": 78,
-   "seen": 105,
-   "lastOk": "2026-11-05T06:58Z"
+   "new": 67,
+   "seen": 87,
+   "lastOk": "2026-11-05T20:04Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-05T06:58Z",
-   "ok": false,
-   "error": "HTTP Error 503: ",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-04T19:51Z"
+   "checked": "2026-11-05T20:04Z",
+   "ok": true,
+   "new": 1,
+   "seen": 15,
+   "lastOk": "2026-11-05T20:04Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-05T06:58Z",
+   "checked": "2026-11-05T20:04Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-05T06:58Z"
+   "lastOk": "2026-11-05T20:04Z"
   }
  ],
  "items": [
@@ -57,6 +56,34 @@ window.FEED_ART={
    "d": "2026-11-05",
    "s": "gnews-a",
    "x": "‘Serious risk’: Lab tests on popular peptide revealed Herald Sun"
+  },
+  {
+   "t": "Lilly to showcase new retatrutide, Taltz (ixekizumab) and Zepbound (tirzepatide) data at ACR Convergence 2026, advancing science at the intersection of rheumatologic conditions and obesity - PR…",
+   "l": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPSmJHN3FaOHJLX012ckVTcjZsVUpLZ1JvdkJwVUdUQUJfTHZzbUpMOXNxVk5NUmVBemR2ejhIWHRVTWpSVm02MFBweWNLWVJHRks4Q3JGMDVKenFRZzNQaEloVC0xcVpjMnFpTEthZDdtYnpKcW1Ob0xFVG5NSmVDS1RUWlYwSTdMNkFMdGg0WENabXVURnh2ZU5XZHpUdm5yVWZfTjZ2NzJCOG1qOE9Va0VXS0RzS0N6aW1SeEhMdE5ETmdyRFlGQjVoczRvLXh3Q0RTNXFmUEpUWG5mVERIeGZ6Q2JPT2MzN0VUUE5tYUc5WXhsdEdTVDVkUk1sZXNuOWtYYWwzQzhwbmFtdzJOamZqdDcyRXhkZU9pZ2hMNjN0cHVOUzE1OFpFQnBDblkwQ01ENVZySTl6ZWQ3dDhGajhmdzR3NlRvMDRkMFRRTExBU3ZBLTE3eElR?oc=5",
+   "d": "2026-11-05",
+   "s": "gnews-a",
+   "x": "Lilly to showcase new retatrutide, Taltz (ixekizumab) and Zepbound (tirzepatide) data at ACR Convergence 2026, advancing science at the intersection of rheumatologic conditions and obesity PR Newswire"
+  },
+  {
+   "t": "Lilly to present retatrutide and combo drug data at ACR 2026 - StreetInsider",
+   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZHE5NlctZkU5RGZibmx6UEpaTHN2cG1OUEVrcnpzaDFHZG9QOFpmZTV0OXBYcktfREE3QU9Hall6TWJrLWdaVU0yOFVLXzZaWFRZRnp1QXdoTVN4TDVBVDNSMWlXS3JlaXNqYWZvSU9NQ3otejdCUW9jOEM3RUNMVnBPcUVyODVIOUJZaXEydFZwUTZBSmkwTnRpQmhmcGg1ZWFwVnBWYzdlcms5Y1JDaEpxdGpyZjVUUVk0?oc=5",
+   "d": "2026-11-05",
+   "s": "gnews-a",
+   "x": "Lilly to present retatrutide and combo drug data at ACR 2026 StreetInsider"
+  },
+  {
+   "t": "New trials show retatrutide and combined Taltz-Zepbound improve pain and weight in arthritis patients with obesity. - Pluang",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdEFxRFNJdUNpaFY3dVFrQlVFTnVxY1lyTXZOYVhIX0lKb184T29IYkYxRWJCdnJycUozMjJfYUlnbXEwT29SU01OZmJNbDdnQmFMblVzZGtfYklpSkdUd2pUTDJ6Q2Vac2dvSkRsU2RacVNCLVlUbUpqRU5IZTZBVmU2Q2YxYnA3S29WM0xzZERVSjdFVjdrVk5wQQ?oc=5",
+   "d": "2026-11-05",
+   "s": "gnews-a",
+   "x": "New trials show retatrutide and combined Taltz-Zepbound improve pain and weight in arthritis patients with obesity. Pluang"
+  },
+  {
+   "t": "Why Your GLP-1 Fat Loss Might Backfire: The Cortisol Problem Canceling Out Your Results - BoxLife Magazine",
+   "l": "https://news.google.com/rss/articles/CBMickFVX3lxTE42eHBLb3U2YXN0MGNNRS1tVlVFajEwVXFCU2ptdmw2dmRyZ0JFbmN4SGlyWHdmbzNJWE54NGFWN2hTYUNnLXVPN0ZzODZ5U1Vnb1hYMnUzQlFFYi04WnB6MDhPeF92dERrUXdQVU1pYnRpQQ?oc=5",
+   "d": "2026-11-05",
+   "s": "gnews-a",
+   "x": "Why Your GLP-1 Fat Loss Might Backfire: The Cortisol Problem Canceling Out Your Results BoxLife Magazine"
   },
   {
    "t": "Celltrion Unveils First Quadruple-Action Obesity Drug Candidate, Outperforming Retatrutide in Animal Study - Businesskorea",
@@ -323,34 +350,6 @@ window.FEED_ART={
    "d": "2026-10-30",
    "s": "gnews-a",
    "x": "Australian actor Richard Norton's death linked to peptide usage, coroner finds LADbible"
-  },
-  {
-   "t": "New weight loss drug retatrutide could be one of the strongest ever developed - FOX5 Vegas",
-   "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNDYwWXFhOFRvNWhuTEVZMllkbWlGdzRHWVE0Z2RhSWpfR3piR3VmZzNMNndDNnQxd2NMLTVKN2F5ckFJVWVxM1AySVpPRlBPXzYxdGpvWEoxcTl4Nm1TSE1UeTVrS2JMRHNXSFhVdFpQYjF1ZFZiaTJoSW9YQ0hZNjRmLWJRbnNraFh2MHBLcW1yQ0pMbjVqcjhtZjFEY0doaldzRjRzV042NDk00gHAAUFVX3lxTE9QOEp3T3ZEbk10dnloMWRYc3cySlJMUW9SalhXTnY2VWZSZ205SzJFZnJKdFBFMVFrMkxEM3o3Y3N2YUtSMEs5OVlKVHBwaVZaVDdMMDRod0tDTENGRzRYMWwtc1lYa2tzQ3ZJek1qYUEyRTI0b0ptNWkwTGs2LXk1U2prMk5mLWNCNjNBMkNES1VfdDBSSHBkajJPTHJBOGtqc1RoRW9OOEZYcWtWWGFBRVRaNGZnQjFUdWdQN1Mzcw?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "New weight loss drug retatrutide could be one of the strongest ever developed FOX5 Vegas"
-  },
-  {
-   "t": "Retatrutide Beat Ozempic on Blood Sugar and Weight in Diabetes Trial, but More Patients Quit Over Side Effects - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVUJnM0I5UzVwSTlzVkFhMmZSc2FGdXg3SXV0cm5DaDRxY0Zxa1A1YnZDU1YxaVVCc0RUWGFWNGpZcWRrSFl6ckZRSXQxQVRMeXhwNDd0NzlpZmdtZFZwOGRXenVURllJU1pLLW0zYmdfVDIydXk0QjYyVkFQRkYyYnVuUGI?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Retatrutide Beat Ozempic on Blood Sugar and Weight in Diabetes Trial, but More Patients Quit Over Side Effects Medical Daily"
-  },
-  {
-   "t": "What are peptides? And what’s all the hype about? Here’s what consumers should know - MassLive",
-   "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPTDJ1X1hBeG1aR1ZGWXktRmx4eW9YeU15UDUxb282bnN4VTRWX2Ezbm56X2RjbDF4SXZhUnI3N1FIbTV0N3htZWt5LXgxWUVrTTVPREEzcGlBUDJ4cllua0hQVUN1a2hueHJhNVNHWV8yaFVRcWVrRkVhMEZBUllrNEhEdFhESVYzalRNRlIzbXRfaGJ1VHhxVVZla2ZhMk5ZNHVkY3h3Y3B4RkxDSDBQbTdrWkRxZ1R4OVVBTmpxNNIB0wFBVV95cUxONExicjd3bXlfdUhPeTNjbk5ZbUZFMkF6dWFLRFUxTkRNcE5SNzZyNFRsMXpmSEc4eTNWaGlwWk5sX2tUTDk5U2g2bkJ5d2tTVzR5Wnc4WDJ2alg5VTU5alV6LUNfY3BEdy1pcVRab1JzTnQ5RHFFM2tqYk5acUtWQ29OYm5vTlVHdy12ZGxMZVl5OUxxeTJHOGVGVmpHbnVQaC1RWGxUaTYzclZ6NHdjRVd5TnF0TlVHVk1ZRkRqQWRsSUdxZTk1RVllRE9wZVVSazBr?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "What are peptides? And what’s all the hype about? Here’s what consumers should know MassLive"
-  },
-  {
-   "t": "Retatrutide Tops Ozempic for Weight Loss, A1c in T2D - Medscape",
-   "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNbTRscy1qcVdMcWNZU3lyaUl6Qk0tMGVZek1LRzVWYVI3RjhHZEIwWGlKMWVqVnRnejNPTEJ3X1VHMlp4WWczRWs2bHBFYnZaOGU1d3Uyb2hmcmRCa1lKbHRTZmJMWGtPU0VYeWRQRE5ob210SHJHUUdmQmxpTlQzdGh3TTlncmx1cHJ3S0t6c2Z0b1JtdnNLLVhn?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Retatrutide Tops Ozempic for Weight Loss, A1c in T2D Medscape"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",

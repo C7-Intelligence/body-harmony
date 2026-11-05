@@ -1,82 +1,82 @@
 window.FEED={
- "generated": "2026-11-05T06:58Z",
+ "generated": "2026-11-05T20:04Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-05T06:58Z",
+   "checked": "2026-11-05T20:04Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-05T06:58Z"
+   "lastOk": "2026-11-05T20:04Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-05T06:58Z",
+   "checked": "2026-11-05T20:04Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-05T06:58Z"
+   "lastOk": "2026-11-05T20:04Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-05T06:58Z",
+   "checked": "2026-11-05T20:04Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-05T06:58Z"
+   "lastOk": "2026-11-05T20:04Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-05T06:58Z",
+   "checked": "2026-11-05T20:04Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-05T06:58Z"
+   "lastOk": "2026-11-05T20:04Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-05T06:58Z",
+   "checked": "2026-11-05T20:04Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-11-05T06:58Z"
+   "lastOk": "2026-11-05T20:04Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-05T06:58Z",
+   "checked": "2026-11-05T20:04Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-11-05T06:58Z"
+   "lastOk": "2026-11-05T20:04Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-05T06:58Z",
+   "checked": "2026-11-05T20:04Z",
    "ok": true,
-   "new": 97,
-   "seen": 123,
-   "lastOk": "2026-11-05T06:58Z"
+   "new": 96,
+   "seen": 115,
+   "lastOk": "2026-11-05T20:04Z"
   }
  ],
  "items": [
@@ -144,6 +144,13 @@ window.FEED={
    "x": "HHS Announces Draft Enforcement Discretion Policy Paving Way for Pharmacies to Compound Certain Peptides While FDA Rulemaking Is Pending Arnold & Porter"
   },
   {
+   "t": "Unproven Peptides Opposed by FDA Scientists Could Soon Be Easier to Get - Infectious Disease Advisor",
+   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMEtVX1hSSXNOVExkdXpYb2UtTXpLemg2T200eWJ2N0tZdndRNkF0NW9TZFh0cEJEOVE4Q29NU29rekJWWG83SzVyMUtIRVZpMDJfOE1vX3FKdGktVE1BWnRWel9sYkxPcnU0TzNzMHpFOFJRYjd1TnhVN1U4NE9YQVpvRmV1X2E4bkFPYmR5c0ZpbWZyZVoxR1NiR2IwVXZpWmVMVWpxOENiQlNNaEFRVEhSNmRyRFNtRVE?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews",
+   "x": "Unproven Peptides Opposed by FDA Scientists Could Soon Be Easier to Get Infectious Disease Advisor"
+  },
+  {
    "t": "GLP-1 Compounding After Drug Shortages - The Regulatory Review",
    "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnlPVy1ieWNSczJSSTltd1l2aUI2dWlYZzNYeWVPcW5jckhseWxzejRTQnpTbWtQQXNXZk5NWkNhMGVzMkgxanJjSUhGNjI5TE1aYjZSeHRqRmtDcnZSUkpwZk5qRzNyeUx2eG1QZ2RmX1ZrQWpSNmxxc2hieURHaGZpUjViZ2V1VTIta1lMWEQ?oc=5",
    "d": "2026-10-31",
@@ -177,13 +184,6 @@ window.FEED={
    "d": "2026-10-30",
    "s": "gnews",
    "x": "U.S. eases restrictions on six unapproved peptides despite FDA safety concerns Qazinform"
-  },
-  {
-   "t": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale - The Washington Post",
-   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeGFGSWIwWEJzZkswTHlVR2VucWswRnVIOWZxRFZ2TC1iTjhJQ2h1SGpHWTY4RktXME9oQnFELVNkT0Vsa3J3d3RaQmxDaERudGg2Mk9MOXEzV2p4Z1ZLVHA3aDA3VW40WGtyVUpxdjBiMjVidjk2Q2JNeDdmdGhpVE1pUDBUZFc5dDRiQnJ0RVdzU1hBZ25OTzlyOVBrbHJOTkZFWEY3c1VYTWpyQjczN015Tkk2QnJTVUJiMw?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews",
-   "x": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale The Washington Post"
   },
   {
    "t": "RFK Jr. to ease access to unapproved peptides, draft policy states - CBS News",
@@ -312,6 +312,13 @@ window.FEED={
    "x": "RFJ Jr. institutes backdoor approval of 6 peptides Reason Magazine"
   },
   {
+   "t": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale - The Washington Post",
+   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeGFGSWIwWEJzZkswTHlVR2VucWswRnVIOWZxRFZ2TC1iTjhJQ2h1SGpHWTY4RktXME9oQnFELVNkT0Vsa3J3d3RaQmxDaERudGg2Mk9MOXEzV2p4Z1ZLVHA3aDA3VW40WGtyVUpxdjBiMjVidjk2Q2JNeDdmdGhpVE1pUDBUZFc5dDRiQnJ0RVdzU1hBZ25OTzlyOVBrbHJOTkZFWEY3c1VYTWpyQjczN015Tkk2QnJTVUJiMw?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale The Washington Post"
+  },
+  {
    "t": "Kennedy to Allow Broad Use of Unapproved Peptide Injections - The New York Times",
    "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JSWpTV1hKUWtzalplclV0dU96SUJEQURMQVZwSG4ycDZWT01DNDRscUY2b1k4Ykw2SFE1aTVuSkc3ZWxtSFhGZDVhMTlHZEFBb01DX3JUTjJObUxVQ0hmVG5PTHNYaWhucmFMNmFRQzZTTmJtdnc?oc=5",
    "d": "2026-10-28",
@@ -380,13 +387,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "HIMS Stock Jumps 5% After HHS Temporarily Clears Compounding Of Six Peptides TradingView"
-  },
-  {
-   "t": "Trump administration will allow pharmacies to make popular peptides - NPR",
-   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQMUZyVHplejBMVTJoSW9nTy03R3J2cVBWVXZmY0wtSVNPNFdsTF9DdUVuT1BjUDgxVEZmUm1EMVpua3F6VjItUjA0c0syX0x0RW9EV2NsT1BMWEdkazkyU2lOMGJ6TXJCMWlHTmFsYVczaFpaTS1iaTdwQlJfRFdSbGZpWQ?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "Trump administration will allow pharmacies to make popular peptides NPR"
   },
   {
    "t": "Statement on improving adverse event reporting of compounded drugs to protect patients",
