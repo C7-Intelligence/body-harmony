@@ -1,26 +1,27 @@
 window.FEED_ART={
- "generated": "2026-11-04T19:51Z",
+ "generated": "2026-11-05T06:58Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-04T19:51Z",
+   "checked": "2026-11-05T06:58Z",
    "ok": true,
-   "new": 84,
-   "seen": 112,
-   "lastOk": "2026-11-04T19:51Z"
+   "new": 78,
+   "seen": 105,
+   "lastOk": "2026-11-05T06:58Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-04T19:51Z",
-   "ok": true,
-   "new": 2,
-   "seen": 15,
+   "checked": "2026-11-05T06:58Z",
+   "ok": false,
+   "error": "HTTP Error 503: ",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-04T19:51Z"
   },
   {
@@ -28,11 +29,11 @@ window.FEED_ART={
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-04T19:51Z",
+   "checked": "2026-11-05T06:58Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-04T19:51Z"
+   "lastOk": "2026-11-05T06:58Z"
   }
  ],
  "items": [
@@ -49,6 +50,13 @@ window.FEED_ART={
    "d": "2026-12-01",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D."
+  },
+  {
+   "t": "‘Serious risk’: Lab tests on popular peptide revealed - Herald Sun",
+   "l": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUnFVQmpiN1VfS2VFLXloaURkdk1KZ283QzZsNWV2UUZaM0ZqZV8xOTRkVmF1RGY3R2pHZk94OHpOQWloMW13a1Q1SGpNMzM0djMxa1pHZXpUQ2g5U2kyejV1Nm9LWjFUQWxicXJsUm5HRzVaMjVhN0UtSWtkSjFhSkVORHRmN2xKa1hLeGNYWEcyNzA0aHJNSXBzT1E0Nk45SkZiSnF3MWtLWnU5a1paZDFhdzBJMDV6NVpvT1dBc1N4WVNlS1lVWmZ5VndWZktRbXU0d2FOYThVTlViQWhuMFpZMy1LRW5tX2VUVXZob25VR1R5TFQ4VG9n?oc=5",
+   "d": "2026-11-05",
+   "s": "gnews-a",
+   "x": "‘Serious risk’: Lab tests on popular peptide revealed Herald Sun"
   },
   {
    "t": "Celltrion Unveils First Quadruple-Action Obesity Drug Candidate, Outperforming Retatrutide in Animal Study - Businesskorea",
@@ -91,6 +99,27 @@ window.FEED_ART={
    "d": "2026-11-04",
    "s": "gnews-a",
    "x": "Navigating peptide hype vs. evidence American Council on Science and Health"
+  },
+  {
+   "t": "Retatrutide: What To Know About Online Sales, Safety Risks and More - Forbes",
+   "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SRGxrVG83dG1qc2EzcW5kdzB2RGxwajctT3EwZkV4WFhGLThnbnVEVjdfRlBBQkdMQ1VwSkkwV2xicEpLTEQzY0dxMHVsYkhwSlFsQ0pDbVJMUm9EU0Qxa3dialBCZ0Q5cDB0NlhaY0FHTnc?oc=5",
+   "d": "2026-11-04",
+   "s": "gnews-a",
+   "x": "Retatrutide: What To Know About Online Sales, Safety Risks and More Forbes"
+  },
+  {
+   "t": "Diabetics on retatrutide lose double the weight of those on Ozempic - Juta MedicalBrief",
+   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMnppbl9KQXhhV1dQd3hoZGZ0ZDJWZ2dYSFRrRG40UUc2QlBqOTlEX2RUTlRjeVFSQzNuRFRSblljWnNnazJreDladXRyeEMyT0p5R1VscnR3M015SkZaNWVLNG1KN0h6b0xxSHo4SjdBUGFEVDdZRzFBSGJxUzZoZkV3QjRQZzRORW1QczhXMDI1Rmk3T2JJZVMzME5IUEdC?oc=5",
+   "d": "2026-11-04",
+   "s": "gnews-a",
+   "x": "Diabetics on retatrutide lose double the weight of those on Ozempic Juta MedicalBrief"
+  },
+  {
+   "t": "Why UK Labs Are Taking a Closer Look at Where Their Research Peptides Come From - The Edinburgh Reporter",
+   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQUYwMGk4Z016N215bUxuY2NiVU9QNlBRNVl4NFR2M0xxT2RKN0dlSkY3S0dheXdEWlA4bGc5c3RRWXQ2MFdUQ2haWDE4TG4wbVZQMVRSVS1TNFhpV0FyeGpMUG1EVkc3cTd3NmgxTzY5NENlcTVueGtTWkxHWUNXeFR5UHhJbXB2aDI2TmlYU012WEtiUEhidDNPaEJNTjg4V25rTTRUcGdTOW9QTGVMT3N2cU1Lb3hMaTlXM2lNaVI?oc=5",
+   "d": "2026-11-04",
+   "s": "gnews-a",
+   "x": "Why UK Labs Are Taking a Closer Look at Where Their Research Peptides Come From The Edinburgh Reporter"
   },
   {
    "t": "Compounding Oversight Bill advances amid FDA warnings on unapproved retatrutide - Generics and Biosimilars Initiative",
@@ -322,34 +351,6 @@ window.FEED_ART={
    "d": "2026-10-30",
    "s": "gnews-a",
    "x": "Retatrutide Tops Ozempic for Weight Loss, A1c in T2D Medscape"
-  },
-  {
-   "t": "What Distinguishes MOTS-C From Other Mitochondrial Derived Research Peptides? - celebrityfigures.co.uk",
-   "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPc2xORldLWjFza3ZaT2k4WDdyRXlLazk5cHpJUFRrelE4TUp5V21NSWFURDJRbkJ1ajBmM1JuRHl6Y0NwM2RNTWpaWkxjS092NXFqSHM4UkEyN0YxLXBwUTZSZS1jOVFxcWZOWXdsdUc2clo0dE85NV9aSHdHdnRsMWpCV2dUY0JxYlRVR3ZYd2t1cmFBY0RiVFhhUlV5eGNuOEJSN3Zrb3Z5RzN1?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "What Distinguishes MOTS-C From Other Mitochondrial Derived Research Peptides? celebrityfigures.co.uk"
-  },
-  {
-   "t": "Richard Norton ignored nurse’s grim warning about peptide use before sudden death at 75 - Page Six",
-   "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNelpZbTN6Z0l4clFKNW5wQnNlT2F4TEVjLUg3X011MFAtWTI4OWpzRmRxUm5iMTlFcV9KVTZtRTJWRlhKVlRKZUstd3htY3UxeHB4ZGE3cUNQemVCVVJybnNxX21aZzFMdHBsQlRpNE0tQUdEeWdaRTdWUDZTMGpzb2xJQ3B0Tmo4ZGJDX2xGZ2Zld3NBYlFuRlZzVW1DTlBZU0k4QVhmZHNneml3OWpTRENfZ2dxZFdaNzZvdWltSWlHYVVuV2RTX2tnaFRWUQ?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Richard Norton ignored nurse’s grim warning about peptide use before sudden death at 75 Page Six"
-  },
-  {
-   "t": "HHS Opens Access to 6 Unapproved Peptide Injections - Health.com",
-   "l": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBBR29LSkdkZklwMVZWemlvWFQ3LUlxQnR6RHhkb0pXZGNNR0NyR1huSWNXYzZxSi15YVllSFZGRVhjbGNEWnU2S3RNMVVoeDhxdVlMNGp2UHp1Um02V21j?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "HHS Opens Access to 6 Unapproved Peptide Injections Health.com"
-  },
-  {
-   "t": "Peptides get a green light — and 50 red flags - Politico",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPQlBfNnpQOGFxaW5kajFseTY5Y3JpaFFJSFJmRXJkbDN0ZUFDNUozakc0TTRRQktwUGhtc2lCbHYyV1ZNZnltWXROVkU5N0V4Z3F1Z2w4YUtPbHBidFI1YjFWWlRFUTdOX2QyNzM2M3NhRkx6TDIyREUzZXhCSHBFbTFMdnAwTjhWNUUxTTlOczFJOWkzUl9MVGRaenB5RklZWXBPSEZQZjhjc2FzdkRGQTV3SXkyaFJOLWNB?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Peptides get a green light — and 50 red flags Politico"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",

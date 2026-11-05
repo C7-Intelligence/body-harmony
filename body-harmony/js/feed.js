@@ -1,89 +1,89 @@
 window.FEED={
- "generated": "2026-11-04T19:51Z",
+ "generated": "2026-11-05T06:58Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-04T19:51Z",
+   "checked": "2026-11-05T06:58Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-04T19:51Z"
+   "lastOk": "2026-11-05T06:58Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-04T19:51Z",
+   "checked": "2026-11-05T06:58Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-04T19:51Z"
+   "lastOk": "2026-11-05T06:58Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-04T19:51Z",
+   "checked": "2026-11-05T06:58Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-04T19:51Z"
+   "lastOk": "2026-11-05T06:58Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-04T19:51Z",
+   "checked": "2026-11-05T06:58Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-04T19:51Z"
+   "lastOk": "2026-11-05T06:58Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-04T19:51Z",
+   "checked": "2026-11-05T06:58Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-11-04T19:51Z"
+   "lastOk": "2026-11-05T06:58Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-04T19:51Z",
+   "checked": "2026-11-05T06:58Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-11-04T19:51Z"
+   "lastOk": "2026-11-05T06:58Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-04T19:51Z",
+   "checked": "2026-11-05T06:58Z",
    "ok": true,
-   "new": 98,
-   "seen": 122,
-   "lastOk": "2026-11-04T19:51Z"
+   "new": 97,
+   "seen": 123,
+   "lastOk": "2026-11-05T06:58Z"
   }
  ],
  "items": [
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/novo-catches-wegovy-pill-tailwind-q3-ceo-eyes-new-launch-horizons-2027",
-   "d": "2026-11-04",
+   "d": "2026-11-05",
    "s": "fierce",
    "x": "With a modest improvement to guidance and rosy launch expectations for 2027 girding a solid quarter for its GLP-1 franchise, Novo appears to be gradually winning back the confidence of some of its shareholders."
   },
