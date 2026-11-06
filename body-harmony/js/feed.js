@@ -1,89 +1,89 @@
 window.FEED={
- "generated": "2026-11-05T20:04Z",
+ "generated": "2026-11-06T06:57Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-05T20:04Z",
+   "checked": "2026-11-06T06:57Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-05T20:04Z"
+   "lastOk": "2026-11-06T06:57Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-05T20:04Z",
+   "checked": "2026-11-06T06:57Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-05T20:04Z"
+   "lastOk": "2026-11-06T06:57Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-05T20:04Z",
+   "checked": "2026-11-06T06:57Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-05T20:04Z"
+   "lastOk": "2026-11-06T06:57Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-05T20:04Z",
+   "checked": "2026-11-06T06:57Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-05T20:04Z"
+   "lastOk": "2026-11-06T06:57Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-05T20:04Z",
+   "checked": "2026-11-06T06:57Z",
    "ok": true,
    "new": 0,
    "seen": 10,
-   "lastOk": "2026-11-05T20:04Z"
+   "lastOk": "2026-11-06T06:57Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-05T20:04Z",
+   "checked": "2026-11-06T06:57Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-11-05T20:04Z"
+   "lastOk": "2026-11-06T06:57Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-05T20:04Z",
+   "checked": "2026-11-06T06:57Z",
    "ok": true,
    "new": 96,
-   "seen": 115,
-   "lastOk": "2026-11-05T20:04Z"
+   "seen": 114,
+   "lastOk": "2026-11-06T06:57Z"
   }
  ],
  "items": [
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/novo-catches-wegovy-pill-tailwind-q3-ceo-eyes-new-launch-horizons-2027",
-   "d": "2026-11-05",
+   "d": "2026-11-06",
    "s": "fierce",
    "x": "With a modest improvement to guidance and rosy launch expectations for 2027 girding a solid quarter for its GLP-1 franchise, Novo appears to be gradually winning back the confidence of some of its shareholders."
   },
@@ -184,13 +184,6 @@ window.FEED={
    "d": "2026-10-30",
    "s": "gnews",
    "x": "U.S. eases restrictions on six unapproved peptides despite FDA safety concerns Qazinform"
-  },
-  {
-   "t": "RFK Jr. to ease access to unapproved peptides, draft policy states - CBS News",
-   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRnp0Z2pOb2xfXzJ5dVREY1N0bVJlc2Z2MWlRcU42amZjRWtLeEFWdUFtQTc1czJ0bnhmRDhtYlVsUi1JaXY4OGcxUW5aZDBDSU1RemxBMTh3ZVE5ZTBncThyMG55WjJDNnVuZEVXTUFFNHNERi1pMHlVWEtFQTdLV3JCUksxczRXUUNrRg?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews",
-   "x": "RFK Jr. to ease access to unapproved peptides, draft policy states CBS News"
   },
   {
    "t": "Richard Norton’s Peptide-Linked Death Raises Safety Concerns As RFK Jr. Eases US Restrictions, Bypassing US FDA - Health and Me",
@@ -310,6 +303,13 @@ window.FEED={
    "d": "2026-10-29",
    "s": "gnews",
    "x": "RFJ Jr. institutes backdoor approval of 6 peptides Reason Magazine"
+  },
+  {
+   "t": "RFK Jr. to ease access to unapproved peptides, draft policy states - CBS News",
+   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNRnp0Z2pOb2xfXzJ5dVREY1N0bVJlc2Z2MWlRcU42amZjRWtLeEFWdUFtQTc1czJ0bnhmRDhtYlVsUi1JaXY4OGcxUW5aZDBDSU1RemxBMTh3ZVE5ZTBncThyMG55WjJDNnVuZEVXTUFFNHNERi1pMHlVWEtFQTdLV3JCUksxczRXUUNrRg?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "RFK Jr. to ease access to unapproved peptides, draft policy states CBS News"
   },
   {
    "t": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale - The Washington Post",
