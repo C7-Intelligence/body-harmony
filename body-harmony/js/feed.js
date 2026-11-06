@@ -1,85 +1,99 @@
 window.FEED={
- "generated": "2026-11-06T06:57Z",
+ "generated": "2026-11-06T19:29Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-06T06:57Z",
+   "checked": "2026-11-06T19:29Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-06T06:57Z"
+   "lastOk": "2026-11-06T19:29Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-06T06:57Z",
+   "checked": "2026-11-06T19:29Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-06T06:57Z"
+   "lastOk": "2026-11-06T19:29Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-06T06:57Z",
+   "checked": "2026-11-06T19:29Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-06T06:57Z"
+   "lastOk": "2026-11-06T19:29Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-06T06:57Z",
+   "checked": "2026-11-06T19:29Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-06T06:57Z"
+   "lastOk": "2026-11-06T19:29Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-06T06:57Z",
+   "checked": "2026-11-06T19:29Z",
    "ok": true,
    "new": 0,
-   "seen": 10,
-   "lastOk": "2026-11-06T06:57Z"
+   "seen": 9,
+   "lastOk": "2026-11-06T19:29Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-06T06:57Z",
+   "checked": "2026-11-06T19:29Z",
    "ok": true,
-   "new": 1,
-   "seen": 1,
-   "lastOk": "2026-11-06T06:57Z"
+   "new": 3,
+   "seen": 3,
+   "lastOk": "2026-11-06T19:29Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-06T06:57Z",
+   "checked": "2026-11-06T19:29Z",
    "ok": true,
-   "new": 96,
-   "seen": 114,
-   "lastOk": "2026-11-06T06:57Z"
+   "new": 95,
+   "seen": 110,
+   "lastOk": "2026-11-06T19:29Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-11-06",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/eli-lilly-forces-compounding-rival-shed-weight-loss-claims",
+   "d": "2026-11-06",
+   "s": "fierce",
+   "x": "Eli Lilly has successfully challenged Good Life Meds’ claims about the health benefits and personalization of a compounded tirzepatide product."
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/novo-catches-wegovy-pill-tailwind-q3-ceo-eyes-new-launch-horizons-2027",

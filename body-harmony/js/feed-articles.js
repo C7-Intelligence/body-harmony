@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-06T06:57Z",
+ "generated": "2026-11-06T19:29Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-06T06:57Z",
+   "checked": "2026-11-06T19:29Z",
    "ok": true,
-   "new": 63,
-   "seen": 83,
-   "lastOk": "2026-11-06T06:57Z"
+   "new": 45,
+   "seen": 59,
+   "lastOk": "2026-11-06T19:29Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-06T06:57Z",
+   "checked": "2026-11-06T19:29Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-11-06T06:57Z"
+   "lastOk": "2026-11-06T19:29Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-06T06:57Z",
+   "checked": "2026-11-06T19:29Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-06T06:57Z"
+   "lastOk": "2026-11-06T19:29Z"
   }
  ],
  "items": [
@@ -49,6 +49,13 @@ window.FEED_ART={
    "d": "2026-12-01",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D."
+  },
+  {
+   "t": "Retatrutide could be the biggest selling drug ever, Jonah Lupton says - Traders Union",
+   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONkR2U1pBVXRxaU9UbUE4T1ZQRkRuRnF3OFFUMlVqUUNWUXpMNnBhbXlyREk0RXB3cnRzREpUa0VVd1BEeHYtT1lXUGFjV1VGRHR1T25lZFdpd0J1MHY4VkJPY2txUnZ0aHl5Mk5PNDVfa3JMc2NxOUoybVZwTEw2blhmalgzUFBkaERqWVhYV3phM29xY3c?oc=5",
+   "d": "2026-11-06",
+   "s": "gnews-a",
+   "x": "Retatrutide could be the biggest selling drug ever, Jonah Lupton says Traders Union"
   },
   {
    "t": "‘Serious risk’: Lab tests on popular peptide revealed - Herald Sun",
@@ -343,13 +350,6 @@ window.FEED_ART={
    "d": "2026-10-30",
    "s": "gnews-a",
    "x": "Viewpoint: Peptides and medical freedom: The MAHA obsession that can damage your health Genetic Literacy Project"
-  },
-  {
-   "t": "Australian actor Richard Norton's death linked to peptide usage, coroner finds - LADbible",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObDRiTlpPdnI4ZDZnMU8xaWNEYnNNd2U1MGQtaExwZUs2WVZoa2dZQlVyV3c4T0U2Y1lsYVRhQWt4TE5pX1FQOGlrbHNaYXZSX0ZWdk50NHRzdzFRLUhwamN5NGVEcGprNk9LMEFkWnNQOGpfUlAxWWlnZXhhWFdyU2I1d2J6MVc4eDdJaWdiODhXTlYwX2RmZU5LdllZbGVLckR2RGlnMjdpaFdDV013NjVKa3Nva1pJc3p3U1hTdWdDdmtfSzBwQg?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Australian actor Richard Norton's death linked to peptide usage, coroner finds LADbible"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
