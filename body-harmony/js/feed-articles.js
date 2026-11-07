@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-07T13:14Z",
+ "generated": "2026-11-07T21:57Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-07T13:14Z",
+   "checked": "2026-11-07T21:57Z",
    "ok": true,
    "new": 44,
-   "seen": 52,
-   "lastOk": "2026-11-07T13:14Z"
+   "seen": 50,
+   "lastOk": "2026-11-07T21:57Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-07T13:14Z",
+   "checked": "2026-11-07T21:57Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-11-07T13:14Z"
+   "lastOk": "2026-11-07T21:57Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-07T13:14Z",
+   "checked": "2026-11-07T21:57Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-07T13:14Z"
+   "lastOk": "2026-11-07T21:57Z"
   }
  ],
  "items": [
@@ -51,11 +51,32 @@ window.FEED_ART={
    "x": "Glia · Colbert R, Di Stefano J, Dooley D."
   },
   {
-   "t": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say - MassLive",
+   "t": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say - MassLive.com",
    "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWE52S0Y1cUhNOU03NGNGeXQxNmNVTjZhS2J0Uy1nSm5ndHdyRUhGYWlqaEZsUXUwS1dTakNRVC1QRl9LMlpBNlctVGZNeVZJaGpWSWhvWWRRYUxIdWxzX1JwYVU3ZXB2QU0tM3N4eHh6TEtOdVFuX0xzSUdBSzJwcVFBS2dCTW5QLXIwQkI3TDk0OVFhSjNzMzh4alBzcE1DYUEzVFJDYmhYSUpmLXpubGhlUHZVVTYzb3pzTW44RGtoN1JqUzFQMXFxYlBXTjVNc0xESw?oc=5",
    "d": "2026-11-07",
    "s": "gnews-a",
-   "x": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say MassLive"
+   "x": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say MassLive.com"
+  },
+  {
+   "t": "Opinion | Retatrutide Is One Click Away. That Doesn't Make it Safe. - MedPage Today",
+   "l": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyYnRIa3FvNzFURjk0c0I0eFg4U3Nlak04NFVacl8xM3U1clFpZzVKRkNoR1RRNXBSNG5mS1E1aFdHSXN0Qk9pS25wZTZsZFlEMXBjYUlGR3p3eTk2TTJ4bGhzeWUxM1pYTFB3?oc=5",
+   "d": "2026-11-07",
+   "s": "gnews-a",
+   "x": "Opinion | Retatrutide Is One Click Away. That Doesn't Make it Safe. MedPage Today"
+  },
+  {
+   "t": "Buy BPC-157: What Does BPC-157 Do to the Body? - TechBullion",
+   "l": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96bi01WTU5cGFlRm1aYk93bEpYMHR6UVRHc0NqU09iejlRX1JZTGI4LVpIdlY3NURxMzhDaDJGcnlpVFEtdWFRMm91QVVTVmNhcFY3Q0VZeU1rcFVuT0RVSjk1cFotZXhUVzZqME9WRkozMUI3TlN4Wg?oc=5",
+   "d": "2026-11-07",
+   "s": "gnews-a",
+   "x": "Buy BPC-157: What Does BPC-157 Do to the Body? TechBullion"
+  },
+  {
+   "t": "Evaluating HPLC Purity and LC-MS Identification in Research Peptides: A Buyer's Guide - openPR.com",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNUpCSXBoNjQ3aEJoQnNFQTBQS2Y3aVNBVk90UjZjRWEzRFBqcHMtc2Exdk9Yc2YxLWVHc3ZlTlVick9tbUJoSFZWcTZySE1rTHFGX3hYdHRFODYyX3o1ZWEzd2o2RHpOdDg5eFRPVlJXNndHS0lJM19sQkJzeWNwZmNqMlU4ZmZ6MF9BajE3S2xqZVdTeElId1lsSQ?oc=5",
+   "d": "2026-11-07",
+   "s": "gnews-a",
+   "x": "Evaluating HPLC Purity and LC-MS Identification in Research Peptides: A Buyer's Guide openPR.com"
   },
   {
    "t": "Retatrutide could be the biggest selling drug ever, Jonah Lupton says - Traders Union",
@@ -329,27 +350,6 @@ window.FEED_ART={
    "d": "2026-10-31",
    "s": "gnews-a",
    "x": "Two out of five clients asking for help with peptides, needle exchange, agency says RNZ"
-  },
-  {
-   "t": "Certified-PEP Wins Best Place to Buy Research Peptides in 2026 Guide After 10-Vendor Checkout Test - FinancialContent",
-   "l": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOYlBkQnctNlZZNzFCdERqM2JFQUYyRkdEVTltb3U4SGYwQkdXSnprc0JCOU9KRF9lVTBSaHdwWEh4QnZpOTZfZDU3ZUkwcU92MG5XM0M5RWE3MUd6QzdYendOZUItaWNXTFUzMWphZzRFdHZYZ3hKZFBseUFhRWZUdnVvVHhqWDFNRWhMODVZSGtrdms2bDFNODA5ZFRCUTA4am8tUTFxY1B3S2ZISk9MVE5ncklvNzRHTXhvaFdYejBEeUNyTFlHSU9jVTRKR3hDRkxVVzNxZkJnTktTd29JNktVaVlieWI3VlVHaHpGUnlIWjN5Y2gwUw?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "Certified-PEP Wins Best Place to Buy Research Peptides in 2026 Guide After 10-Vendor Checkout Test FinancialContent"
-  },
-  {
-   "t": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. - Yahoo Health",
-   "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQOWpHYmxSa1ZESk91VVlkOC0yNTdoT2xwbnE4WXF5WUlPU2F2UnVrekU3QTBhQ2xYMDZmaEF3czhIaTBWbmctMHJOVEpUTEItbmg5SW9ycE1sMkFSXzVra0EyQTAxcG1JeDdoeEIzRHlnVTV1cGFmQTg0N01FdzhmVW1fc2xEWXN2TTRHeGVMdWNkbWd2aFNfMGxvUDJUdkNBNElIZA?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. Yahoo Health"
-  },
-  {
-   "t": "Lilly's retatrutide beats Ozempic on weight loss in trial - Big News Network.com",
-   "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNcmRZMUYySmFkdGQ3eExBdFZZQVFodUt6WDBTMEF6U3UydG54WHFmaVBZNzFYUDhNRWw3dFdrdlVIM0JXREMxU19MV1diMFpvTmh5SUluSzZyVEMwYVdpRkh4SzFuQXk0ZmhURi1ZREtzb2haVEZ5UHJnM2dTY2hPbDA4b3pDUXZwUlA5MFZpUzBudG1IeGhSYjZHeTU2Wmk1azQtUg?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "Lilly's retatrutide beats Ozempic on weight loss in trial Big News Network.com"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
