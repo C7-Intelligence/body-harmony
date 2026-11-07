@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-06T19:29Z",
+ "generated": "2026-11-07T06:09Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-06T19:29Z",
+   "checked": "2026-11-07T06:09Z",
    "ok": true,
-   "new": 45,
-   "seen": 59,
-   "lastOk": "2026-11-06T19:29Z"
+   "new": 40,
+   "seen": 47,
+   "lastOk": "2026-11-07T06:09Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-06T19:29Z",
+   "checked": "2026-11-07T06:09Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-11-06T19:29Z"
+   "lastOk": "2026-11-07T06:09Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-06T19:29Z",
+   "checked": "2026-11-07T06:09Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-06T19:29Z"
+   "lastOk": "2026-11-07T06:09Z"
   }
  ],
  "items": [
@@ -56,6 +56,13 @@ window.FEED_ART={
    "d": "2026-11-06",
    "s": "gnews-a",
    "x": "Retatrutide could be the biggest selling drug ever, Jonah Lupton says Traders Union"
+  },
+  {
+   "t": "What's retatrutide? The illegal weight-loss drug sweeping social media - Sky News",
+   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWNrdXdTRllyTWRLYXViUkw3QzVmUmFVYWRaWUlWbXo0WkthSjJMSUNrTGdodU1lQi01TkhEVHBoYXZhU2JvVjhTZEtlY3JDZElZbmdyZ1M3OU1ZNk0zQTFXMXNmUjdCa3d4TlhYY0pYOEh2Y1AxTGh4Xy1MQV9QVHQwUXpvVlFXcWo1MzNYNHpfTmtSVVQ2VzJjVTIxRURHQmNHQ3IxWQ?oc=5",
+   "d": "2026-11-06",
+   "s": "gnews-a",
+   "x": "What's retatrutide? The illegal weight-loss drug sweeping social media Sky News"
   },
   {
    "t": "‘Serious risk’: Lab tests on popular peptide revealed - Herald Sun",
@@ -343,13 +350,6 @@ window.FEED_ART={
    "d": "2026-10-31",
    "s": "gnews-a",
    "x": "Retatrutide Nearly Erased Fatty Liver Disease in 93% of Patients. That's Not Even the Most Surprising Thing It Did BoxLife Magazine"
-  },
-  {
-   "t": "Viewpoint: Peptides and medical freedom: The MAHA obsession that can damage your health - Genetic Literacy Project",
-   "l": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSHNjYzhScWJLa2dySTdyTld2XzdwVXBOVlFSUl8ydGp2elgyU3BvWVhjT3piZWd0ZVVyZzZ0dXBRQ09pbVJNd2w1SVFGR1FuLUVsUU5RanVNRGFQYTJDck1zODRSQWlwbTNPYVNuTlNrWUdzYzlUZWh5Vy1QcFRsa0c3UWk0UFpkWEtMRkVIN2VUUnp5OFpPVUhDV3NKY1JWQU1BN2hsOUQ1alBNeHl3TzQyTGp4bmFaZ3JaNnBfazdlUlFraWctbFNRaFY?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews-a",
-   "x": "Viewpoint: Peptides and medical freedom: The MAHA obsession that can damage your health Genetic Literacy Project"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
