@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-07T06:09Z",
+ "generated": "2026-11-07T13:14Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-07T06:09Z",
+   "checked": "2026-11-07T13:14Z",
    "ok": true,
-   "new": 40,
-   "seen": 47,
-   "lastOk": "2026-11-07T06:09Z"
+   "new": 44,
+   "seen": 52,
+   "lastOk": "2026-11-07T13:14Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-07T06:09Z",
+   "checked": "2026-11-07T13:14Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-11-07T06:09Z"
+   "lastOk": "2026-11-07T13:14Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-07T06:09Z",
+   "checked": "2026-11-07T13:14Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-07T06:09Z"
+   "lastOk": "2026-11-07T13:14Z"
   }
  ],
  "items": [
@@ -49,6 +49,13 @@ window.FEED_ART={
    "d": "2026-12-01",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D."
+  },
+  {
+   "t": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say - MassLive",
+   "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWE52S0Y1cUhNOU03NGNGeXQxNmNVTjZhS2J0Uy1nSm5ndHdyRUhGYWlqaEZsUXUwS1dTakNRVC1QRl9LMlpBNlctVGZNeVZJaGpWSWhvWWRRYUxIdWxzX1JwYVU3ZXB2QU0tM3N4eHh6TEtOdVFuX0xzSUdBSzJwcVFBS2dCTW5QLXIwQkI3TDk0OVFhSjNzMzh4alBzcE1DYUEzVFJDYmhYSUpmLXpubGhlUHZVVTYzb3pzTW44RGtoN1JqUzFQMXFxYlBXTjVNc0xESw?oc=5",
+   "d": "2026-11-07",
+   "s": "gnews-a",
+   "x": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say MassLive"
   },
   {
    "t": "Retatrutide could be the biggest selling drug ever, Jonah Lupton says - Traders Union",
@@ -343,13 +350,6 @@ window.FEED_ART={
    "d": "2026-10-31",
    "s": "gnews-a",
    "x": "Lilly's retatrutide beats Ozempic on weight loss in trial Big News Network.com"
-  },
-  {
-   "t": "Retatrutide Nearly Erased Fatty Liver Disease in 93% of Patients. That's Not Even the Most Surprising Thing It Did - BoxLife Magazine",
-   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBtU0RkbGZMN1BfSkc5dEhFSW52MTFDXzJCd3FLRnFBQk9Wc1hoMHBrc3RFRm1ZdTNkQVhDWmF0bVBQMU9kQXFhVWNiRkdKOVVQN2Z1Z0JzMFo3LTVVUl9hZG11TXhOV25tQlZkZTVoZU9DTTRobWVHVFNjNUZuTnc?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "Retatrutide Nearly Erased Fatty Liver Disease in 93% of Patients. That's Not Even the Most Surprising Thing It Did BoxLife Magazine"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
