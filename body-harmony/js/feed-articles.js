@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-07T21:57Z",
+ "generated": "2026-11-08T06:15Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-07T21:57Z",
+   "checked": "2026-11-08T06:15Z",
    "ok": true,
    "new": 44,
-   "seen": 50,
-   "lastOk": "2026-11-07T21:57Z"
+   "seen": 51,
+   "lastOk": "2026-11-08T06:15Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-07T21:57Z",
+   "checked": "2026-11-08T06:15Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-11-07T21:57Z"
+   "lastOk": "2026-11-08T06:15Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-07T21:57Z",
+   "checked": "2026-11-08T06:15Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-07T21:57Z"
+   "lastOk": "2026-11-08T06:15Z"
   }
  ],
  "items": [
@@ -51,11 +51,11 @@ window.FEED_ART={
    "x": "Glia · Colbert R, Di Stefano J, Dooley D."
   },
   {
-   "t": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say - MassLive.com",
+   "t": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say - MassLive",
    "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWE52S0Y1cUhNOU03NGNGeXQxNmNVTjZhS2J0Uy1nSm5ndHdyRUhGYWlqaEZsUXUwS1dTakNRVC1QRl9LMlpBNlctVGZNeVZJaGpWSWhvWWRRYUxIdWxzX1JwYVU3ZXB2QU0tM3N4eHh6TEtOdVFuX0xzSUdBSzJwcVFBS2dCTW5QLXIwQkI3TDk0OVFhSjNzMzh4alBzcE1DYUEzVFJDYmhYSUpmLXpubGhlUHZVVTYzb3pzTW44RGtoN1JqUzFQMXFxYlBXTjVNc0xESw?oc=5",
    "d": "2026-11-07",
    "s": "gnews-a",
-   "x": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say MassLive.com"
+   "x": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say MassLive"
   },
   {
    "t": "Opinion | Retatrutide Is One Click Away. That Doesn't Make it Safe. - MedPage Today",
@@ -91,6 +91,13 @@ window.FEED_ART={
    "d": "2026-11-06",
    "s": "gnews-a",
    "x": "What's retatrutide? The illegal weight-loss drug sweeping social media Sky News"
+  },
+  {
+   "t": "Health Canada warns of bacteria found in unauthorized peptides sold online - National - Global News",
+   "l": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOenNQb1ZMWDhZS0d0cDBvQ0EzNjZ0QVdiTlNpeWtwMVNkc3ZvWHVDZkVVRjYwZkFSOHZBNFM2ei15anZXdTFjWEhzeHNzS3pfZlpvYlBrUmdubC1uVWlHV0w3bDBKV1FaUTEtV3VtLUdTc29pdGhubXZqOWJVQ2hJZnBqNGtYQnlM?oc=5",
+   "d": "2026-11-06",
+   "s": "gnews-a",
+   "x": "Health Canada warns of bacteria found in unauthorized peptides sold online - National Global News"
   },
   {
    "t": "‘Serious risk’: Lab tests on popular peptide revealed - Herald Sun",
@@ -343,13 +350,6 @@ window.FEED_ART={
    "d": "2026-10-31",
    "s": "gnews-a",
    "x": "Novo Nordisk's Clinical Ledger: Retatrutide's Head-to-Head Win, a Pediatric Insulin Approval and the ad-hoc-news.de"
-  },
-  {
-   "t": "Two out of five clients asking for help with peptides, needle exchange, agency says - RNZ",
-   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNcGdWbEY0Vm43MGF4ZHV4elVpRmtZRmdZZzEzMng5Rmd6cWZOclVCRDJQbWU3ckJGZ2swNU1IdmZuMTBnQWljLTNlTnVGUm5hRjBlR194MzI5d3RBTEFWRW9JaFhlWkRBSkJrNUpfU2VXeUZvbE02TXVKRUNIcEhLMUY5LTRvSVM2RWZpT3dTdC1DYjhDeFBFMWdCOE5sTnoteGhFMW9Zc2RzZTRVcC1oMWRuY1JxcWx6bHJtd1kwNXo?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "Two out of five clients asking for help with peptides, needle exchange, agency says RNZ"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
