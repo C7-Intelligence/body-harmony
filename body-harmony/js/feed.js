@@ -1,85 +1,92 @@
 window.FEED={
- "generated": "2026-11-08T13:38Z",
+ "generated": "2026-11-08T22:14Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-08T13:38Z",
+   "checked": "2026-11-08T22:14Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-08T13:38Z"
+   "lastOk": "2026-11-08T22:14Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-08T13:38Z",
+   "checked": "2026-11-08T22:14Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-08T13:38Z"
+   "lastOk": "2026-11-08T22:14Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-08T13:38Z",
+   "checked": "2026-11-08T22:14Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-08T13:38Z"
+   "lastOk": "2026-11-08T22:14Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-08T13:38Z",
+   "checked": "2026-11-08T22:14Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-08T13:38Z"
+   "lastOk": "2026-11-08T22:14Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-08T13:38Z",
+   "checked": "2026-11-08T22:14Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-08T13:38Z"
+   "lastOk": "2026-11-08T22:14Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-08T13:38Z",
+   "checked": "2026-11-08T22:14Z",
    "ok": true,
    "new": 3,
    "seen": 3,
-   "lastOk": "2026-11-08T13:38Z"
+   "lastOk": "2026-11-08T22:14Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-08T13:38Z",
+   "checked": "2026-11-08T22:14Z",
    "ok": true,
-   "new": 88,
-   "seen": 90,
-   "lastOk": "2026-11-08T13:38Z"
+   "new": 84,
+   "seen": 89,
+   "lastOk": "2026-11-08T22:14Z"
   }
  ],
  "items": [
+  {
+   "t": "Is BPC-157 legal now? What the new HHS peptide policy means if you want it - Nacionale",
+   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeUJpX1VRSkM5X01rS1ZPWmtkVDMzTldRcXFrdDVxNjNZWktjWm83ZmpnZlpMZUdvSzUyam9FdEdqVkZ3ZGJla0pXOUpLVnpRdFJ4NUp1RmtPQmFJQW9yX3RlWTlBTGlOWTJidjNDbWd5cFR3elhGSkVwTjM2M2NoaUZLWmJ3cE9TYkwxMFA5S1lHSVFuUzN4ckdWRk5EOUVvZGtJdjY0Z3BqdU5Wa1E?oc=5",
+   "d": "2026-11-08",
+   "s": "gnews",
+   "x": "Is BPC-157 legal now? What the new HHS peptide policy means if you want it Nacionale"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
@@ -104,16 +111,16 @@ window.FEED={
   {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
    "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-11-08",
+   "d": "2026-11-07",
    "s": "gnews",
    "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
-   "t": "Is BPC-157 legal now? What the new HHS peptide policy means if you want it - Nacionale",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeUJpX1VRSkM5X01rS1ZPWmtkVDMzTldRcXFrdDVxNjNZWktjWm83ZmpnZlpMZUdvSzUyam9FdEdqVkZ3ZGJla0pXOUpLVnpRdFJ4NUp1RmtPQmFJQW9yX3RlWTlBTGlOWTJidjNDbWd5cFR3elhGSkVwTjM2M2NoaUZLWmJ3cE9TYkwxMFA5S1lHSVFuUzN4ckdWRk5EOUVvZGtJdjY0Z3BqdU5Wa1E?oc=5",
-   "d": "2026-11-06",
+   "t": "RFK Jr. Just Made Peptides Easier To Get—7 Things Patients Should Know - Forbes",
+   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPN3VOdHRwRUtyUi13a3R2QmJfYUxyZlNNZW13eWs3QXRmLThHeFJpazN1VE1ydU4zd0NRSHM5MU5odjFVNDBiUmF2eXJ2dW1EY2RRYzB4dnowcXFTV0lQQkZoY0Vuemw4S2ZZOU1jQ2VEdVVybUpFc0oyeXdqV25JYk9FdlpaQXdfWVpIa3dlN1kybXBLS193S01iUDNiMEV4NFZGS3YwaDhPX191ZE4taHUtaHpPTU05VGZfRnlR?oc=5",
+   "d": "2026-11-05",
    "s": "gnews",
-   "x": "Is BPC-157 legal now? What the new HHS peptide policy means if you want it Nacionale"
+   "x": "RFK Jr. Just Made Peptides Easier To Get—7 Things Patients Should Know Forbes"
   },
   {
    "t": "Bypassing the FDA, RFK Jr. Makes Peptides Easier to Access - The Scientist",
@@ -394,13 +401,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "RFK Jr. Eases Access to Unproven Peptides Despite Opposition From FDA Scientists MedPage Today"
-  },
-  {
-   "t": "The U.S. government will no longer penalize American companies for making six popular peptides - MarketWatch",
-   "l": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZFZIWTZFYU5tdm5FQWZjR00tdk1NMEtHdFJ3ZDhnX0ZBLVZOQjBTeG5na0ZfRjBGQnVJZl9MaENIYjlCaGJFdGVTaEtDNDNaUnBvU3Q0bmNYMllIbDFudkVtdFVYOE9Oa0lxM0kyQjk0YkVoVW95bkNfcEYxYjBFT3o5MUh1aThKRy01b2lBclR0a3M4d3V4U2VkaWFXcVNMR0FxRzFSLXdxaFEzQlNNSDB2STVsakVvWVhfbmNQNFN3eVlaTjZPSg?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "The U.S. government will no longer penalize American companies for making six popular peptides MarketWatch"
   },
   {
    "t": "Statement on improving adverse event reporting of compounded drugs to protect patients",

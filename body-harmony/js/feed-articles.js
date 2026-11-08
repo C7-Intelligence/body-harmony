@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-08T13:38Z",
+ "generated": "2026-11-08T22:14Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-08T13:38Z",
+   "checked": "2026-11-08T22:14Z",
    "ok": true,
    "new": 42,
    "seen": 51,
-   "lastOk": "2026-11-08T13:38Z"
+   "lastOk": "2026-11-08T22:14Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-08T13:38Z",
+   "checked": "2026-11-08T22:14Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-11-08T13:38Z"
+   "lastOk": "2026-11-08T22:14Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-08T13:38Z",
+   "checked": "2026-11-08T22:14Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-08T13:38Z"
+   "lastOk": "2026-11-08T22:14Z"
   }
  ],
  "items": [
@@ -51,9 +51,23 @@ window.FEED_ART={
    "x": "Glia · Colbert R, Di Stefano J, Dooley D."
   },
   {
+   "t": "Retatrutide Reduces Knee Pain in Obesity and Osteoarthritis Trials - Bioengineer.org",
+   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcmF4cDRJbjN1WjgwTGlVV0dMN0s1eHYxM3Q4WlB5eVd5WjBabE93THdpcTFoMV85RERycHJsMDY4Y1JoUWxiWklxclJEWThxVHB2S2xyOUQ3X3hiOUtneDk3Zk1ueTdweGVsOFBtMlFDOERGWmd1R1Bfclljc3FPM3JWT1Vya0xqVk81bk9XWE1lTUd0Z2c?oc=5",
+   "d": "2026-11-08",
+   "s": "gnews-a",
+   "x": "Retatrutide Reduces Knee Pain in Obesity and Osteoarthritis Trials Bioengineer.org"
+  },
+  {
+   "t": "Retatrutide shows up to 25% weight loss, eases knee pain - NewsBytes",
+   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPQ0lGUklibkFlOVZSTTdQMURUTkpKM2ZJcDJaVC1CZVoyeTQ2eTl3VWR3aFo0ZWh0V1JNeHBzZUJib01FcnhXRXhVaGZqNDYtUW9SUDg3bDJEQ0ZYbTBSTkpJSFNDdnFUdTFwOUlYRGlfM0RIWU1RME4yWHdfN3NfQy1lOVFGd0ZYcFRTU21NZFZPbWxtdTk2Mm01Y1ZLQTJDQU1n?oc=5",
+   "d": "2026-11-08",
+   "s": "gnews-a",
+   "x": "Retatrutide shows up to 25% weight loss, eases knee pain NewsBytes"
+  },
+  {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
    "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-11-08",
+   "d": "2026-11-07",
    "s": "gnews-a",
    "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
@@ -336,20 +350,6 @@ window.FEED_ART={
    "d": "2026-10-31",
    "s": "gnews-a",
    "x": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. Business Insider"
-  },
-  {
-   "t": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. - Yahoo News UK",
-   "l": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBOM0JKU3Jlclo4VVhQYkZ5RW16V0lqYjBsbC1qUHQ4Ym9ka3hoaTJOZTVrdWo5bUM0eUpTdEIteU9lcXI0V2phUHoxWkRsZ0ZEcHNVSkY1cDJXcjUyaVEydm1EZ3duaFNQVG16X1ZmUQ?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. Yahoo News UK"
-  },
-  {
-   "t": "Retatrutide Vs Ozempic: Next-generation Jab Doubles Weight Loss In Trial - News18",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQVXRoLXF0YVJGNURTOEFHRWphcUdjanlIV3ZVbHVEbFUzNnFSa1loQnd4akRmVjNRTkFDX0xZT2JWNzJOajAySDFGSDI0dUd3Nl9XZjVXbVJwandnTGdvbkFvdVJaMlBVX0tiX3JhMW9NZG5oa3BoSk5OVnJHS3phNFE3ZkxCbExwMWRTZ05ZZXVaUE16S0JUcURnWFNORTVsYndWa2NFWW1qdy0ycDN0Y0lMNEVFTkc1TVp30gHAAUFVX3lxTFByeVk0QTJBTkZqdmFsTXJyTU9SLVpkOUtrMWtPeHhMZlFWOTFrSjNnMGhwM2lnZ251ZDVDQ0dwZEp5NDVGd05PcmJSa3I2Z0Q4LWtRaFVuVVYtckIycGJ0UUs5dnpVRGxhd3pGdjZuNEVhdlpaYmtCVGV3X3N2a3pUY0psTGdaTXlrRm1wTHNUM2RjWEVUNmltVk9aSmd6ZGczdmZ5Yko4a3BsRFVqYjdVd216VGw3V1d6YkE0TndFUQ?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "Retatrutide Vs Ozempic: Next-generation Jab Doubles Weight Loss In Trial News18"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
