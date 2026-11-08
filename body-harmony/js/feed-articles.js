@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-08T06:15Z",
+ "generated": "2026-11-08T13:38Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-08T06:15Z",
+   "checked": "2026-11-08T13:38Z",
    "ok": true,
-   "new": 44,
+   "new": 42,
    "seen": 51,
-   "lastOk": "2026-11-08T06:15Z"
+   "lastOk": "2026-11-08T13:38Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-08T06:15Z",
+   "checked": "2026-11-08T13:38Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-11-08T06:15Z"
+   "lastOk": "2026-11-08T13:38Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-08T06:15Z",
+   "checked": "2026-11-08T13:38Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-08T06:15Z"
+   "lastOk": "2026-11-08T13:38Z"
   }
  ],
  "items": [
@@ -49,6 +49,13 @@ window.FEED_ART={
    "d": "2026-12-01",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D."
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-11-08",
+   "s": "gnews-a",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
   },
   {
    "t": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say - MassLive",
@@ -100,6 +107,13 @@ window.FEED_ART={
    "x": "Health Canada warns of bacteria found in unauthorized peptides sold online - National Global News"
   },
   {
+   "t": "Is BPC-157 legal now? What the new HHS peptide policy means if you want it - Nacionale",
+   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeUJpX1VRSkM5X01rS1ZPWmtkVDMzTldRcXFrdDVxNjNZWktjWm83ZmpnZlpMZUdvSzUyam9FdEdqVkZ3ZGJla0pXOUpLVnpRdFJ4NUp1RmtPQmFJQW9yX3RlWTlBTGlOWTJidjNDbWd5cFR3elhGSkVwTjM2M2NoaUZLWmJ3cE9TYkwxMFA5S1lHSVFuUzN4ckdWRk5EOUVvZGtJdjY0Z3BqdU5Wa1E?oc=5",
+   "d": "2026-11-06",
+   "s": "gnews-a",
+   "x": "Is BPC-157 legal now? What the new HHS peptide policy means if you want it Nacionale"
+  },
+  {
    "t": "‘Serious risk’: Lab tests on popular peptide revealed - Herald Sun",
    "l": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUnFVQmpiN1VfS2VFLXloaURkdk1KZ283QzZsNWV2UUZaM0ZqZV8xOTRkVmF1RGY3R2pHZk94OHpOQWloMW13a1Q1SGpNMzM0djMxa1pHZXpUQ2g5U2kyejV1Nm9LWjFUQWxicXJsUm5HRzVaMjVhN0UtSWtkSjFhSkVORHRmN2xKa1hLeGNYWEcyNzA0aHJNSXBzT1E0Nk45SkZiSnF3MWtLWnU5a1paZDFhdzBJMDV6NVpvT1dBc1N4WVNlS1lVWmZ5VndWZktRbXU0d2FOYThVTlViQWhuMFpZMy1LRW5tX2VUVXZob25VR1R5TFQ4VG9n?oc=5",
    "d": "2026-11-05",
@@ -133,6 +147,13 @@ window.FEED_ART={
    "d": "2026-11-05",
    "s": "gnews-a",
    "x": "Why Your GLP-1 Fat Loss Might Backfire: The Cortisol Problem Canceling Out Your Results BoxLife Magazine"
+  },
+  {
+   "t": "Lilly to showcase new retatrutide, Taltz (ixekizumab) and Zepbound (tirzepatide) data at ACR Convergence 2026, advancing science at the intersection of rheumatologic conditions and obesity - Eli Lilly",
+   "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONW0zckVoYndtZlBsLVB0MEVlRkQtUlFaYWMzbEVQT0VfR3lkUm1lU0NqcHFaek40REVhQ0lkeUFBNlJ2MlVReTZudkY3dmU2NjJucWRQcmJsNk96YzJFMWRXcXRJUUxGRnY3YURBM3Jld0tQRjE0MVpHUzNoX3QxTkh0Y2NnMzRWNjlLUHNXb2QyZE0zYmRySHM3RkwtblZQNjhZMjcwcmxKYTRTZV9NWEZzQWJqaEZZd3RMUXZSYw?oc=5",
+   "d": "2026-11-05",
+   "s": "gnews-a",
+   "x": "Lilly to showcase new retatrutide, Taltz (ixekizumab) and Zepbound (tirzepatide) data at ACR Convergence 2026, advancing science at the intersection of rheumatologic conditions and obesity Eli Lilly"
   },
   {
    "t": "Celltrion Unveils First Quadruple-Action Obesity Drug Candidate, Outperforming Retatrutide in Animal Study - Businesskorea",
@@ -268,13 +289,6 @@ window.FEED_ART={
    "x": "Peptides Costa Rica Expands Access to Research Peptides Through Its Dedicated Online Catalog FinancialContent"
   },
   {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-11-02",
-   "s": "gnews-a",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
-  },
-  {
    "t": "Dzulkefly: 19 Health Ministry raids uncovered illegal sales of retatrutide, Ozempic worth RM405,170 - NST Online",
    "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV2U4bE5PcU03U0ZuMWdYNm9OQVdQaXo5SXRUVVQ2T2lPeFRlV2dtRXpQQ3BPbVhHVnoybXdpZ1lLWnJ3YmZPYXNxbFZkZDV6cFpYVWJfbzNwYlBTQWEwWW84V3NkS3RMdFJKcHo2UmxDWXlvZUNvZkpWVk93Y0tpQUJxOHRqOFNJRWxPY1dGNFhzcnF3NHkxVy1lY0d1aG9UTm9vb0dPSHhoclFZOXEyaWQ3b2dma21CaDNwTjR30gHDAUFVX3lxTE9HdHl5QVRXaDhpbWVLQUQzbk1lVnVqRUtHZjZiMVVhSlVKQ2p5ZmMxemRhRnFOUkdDcU1uNUNIbkFja1RNX1k5TU9zNGlnbDdHUjV2NThtY1BRbmFMWFBnMXgxa2tzdmFVQllwVWw2TktVcXQxbWRUWHl5QTlTakRZdW1veC1iZGNrNUtPOHFQdGhkQXMwb25OQlpnbjNZVFNJMWgwUHM1emZyNTFnLWo2bkU5QU5PUDBNWUYya2NGY1BNVQ?oc=5",
    "d": "2026-11-02",
@@ -336,20 +350,6 @@ window.FEED_ART={
    "d": "2026-10-31",
    "s": "gnews-a",
    "x": "Retatrutide Vs Ozempic: Next-generation Jab Doubles Weight Loss In Trial News18"
-  },
-  {
-   "t": "Novo Nordisk's Buyback, a Pediatric Insulin Approval and the Retatrutide Question All Point to Novem - ad-hoc-news.de",
-   "l": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQTXZGa0FQRE1GX1VIZmNTTU1IWWxsN0twSWc3eEZGeWN3S1BzWFliUTVhbFJyOFZzdHdtRkF4aWFXbzZsNU94VFF0MXZMeFhXU0dXaEhwQTk3TkhqNkhCeHMtTFNRTzlFcTZmQkhDY21zUURDU1V6bG1MX2IxUU4xRHRhTmpuZ21IS18yLXVJeVY3VmMwUmN4QXNYWUJwX2QtTmU3SHhYemJHSGY0cC1KZlJ6dEszeDZZS0EwdjJIZjRIRnVxSHVpcFhiSDUzRW80eXJNQUdZVHFWVFBXWDNWbmFKQXp3QzlhOGVSU19tbDlrY2dvTGM4UQ?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "Novo Nordisk's Buyback, a Pediatric Insulin Approval and the Retatrutide Question All Point to Novem ad-hoc-news.de"
-  },
-  {
-   "t": "Novo Nordisk's Clinical Ledger: Retatrutide's Head-to-Head Win, a Pediatric Insulin Approval and the - ad-hoc-news.de",
-   "l": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNcnFGYXhxZHNYeVA4WWcwdnh3NUpPeEQ5MktTRXV0V1Q3NTRBUWJtc19CNkhSb050UjdNRnFPaUNVSUI0NDFrMjQyaXdzU0hkWXkxTnhsY1dNZEJpWFhUcTd0VHhUTEsxUGp5LXlRb0YtTTFFRjRRZWZqVG44bXYxVFdGaEFUU1ZKT09TWGRoYTUtbHRNdTI3RmlaUWRDcUgycnZOMFRuVkl4bGNTR01LSkczM2QzZndRZUJ4TVRyOUVJZHJleGJnT051dzA1VGllUFcwOW1wb1JGYXpjbUJXSWp2QThGd3dwMFZ2QVQtZmN6STVaaGYtRHl3VTVxZmtGWGc?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "Novo Nordisk's Clinical Ledger: Retatrutide's Head-to-Head Win, a Pediatric Insulin Approval and the ad-hoc-news.de"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
