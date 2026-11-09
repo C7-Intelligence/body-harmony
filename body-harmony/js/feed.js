@@ -1,85 +1,106 @@
 window.FEED={
- "generated": "2026-11-08T22:14Z",
+ "generated": "2026-11-09T06:48Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-08T22:14Z",
+   "checked": "2026-11-09T06:48Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-08T22:14Z"
+   "lastOk": "2026-11-09T06:48Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-08T22:14Z",
+   "checked": "2026-11-09T06:48Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-08T22:14Z"
+   "lastOk": "2026-11-09T06:48Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-08T22:14Z",
+   "checked": "2026-11-09T06:48Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-08T22:14Z"
+   "lastOk": "2026-11-09T06:48Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-08T22:14Z",
+   "checked": "2026-11-09T06:48Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-08T22:14Z"
+   "lastOk": "2026-11-09T06:48Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-08T22:14Z",
+   "checked": "2026-11-09T06:48Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-08T22:14Z"
+   "lastOk": "2026-11-09T06:48Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-08T22:14Z",
+   "checked": "2026-11-09T06:48Z",
    "ok": true,
    "new": 3,
    "seen": 3,
-   "lastOk": "2026-11-08T22:14Z"
+   "lastOk": "2026-11-09T06:48Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-08T22:14Z",
+   "checked": "2026-11-09T06:48Z",
    "ok": true,
    "new": 84,
-   "seen": 89,
-   "lastOk": "2026-11-08T22:14Z"
+   "seen": 90,
+   "lastOk": "2026-11-09T06:48Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-11-09",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/eli-lilly-forces-compounding-rival-shed-weight-loss-claims",
+   "d": "2026-11-09",
+   "s": "fierce",
+   "x": "Eli Lilly has successfully challenged Good Life Meds’ claims about the health benefits and personalization of a compounded tirzepatide product."
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/novo-catches-wegovy-pill-tailwind-q3-ceo-eyes-new-launch-horizons-2027",
+   "d": "2026-11-09",
+   "s": "fierce",
+   "x": "With a modest improvement to guidance and rosy launch expectations for 2027 girding a solid quarter for its GLP-1 franchise, Novo appears to be gradually winning back the confidence of some of its shareholders."
+  },
   {
    "t": "Is BPC-157 legal now? What the new HHS peptide policy means if you want it - Nacionale",
    "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeUJpX1VRSkM5X01rS1ZPWmtkVDMzTldRcXFrdDVxNjNZWktjWm83ZmpnZlpMZUdvSzUyam9FdEdqVkZ3ZGJla0pXOUpLVnpRdFJ4NUp1RmtPQmFJQW9yX3RlWTlBTGlOWTJidjNDbWd5cFR3elhGSkVwTjM2M2NoaUZLWmJ3cE9TYkwxMFA5S1lHSVFuUzN4ckdWRk5EOUVvZGtJdjY0Z3BqdU5Wa1E?oc=5",
@@ -88,25 +109,11 @@ window.FEED={
    "x": "Is BPC-157 legal now? What the new HHS peptide policy means if you want it Nacionale"
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "t": "RFK Jr.’s HHS Is Allowing These 6 Unapproved Peptides To Be Sold - Forbes",
+   "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ3JSaERMQUJOOEN2UTlOQVJLVFVSU25PZS1fQXdoc2tNaFRxRFpmeThwMy1iMFVuQzR4aWo4RE1VT0JCMnA1NUlYZG01WDVjM2plQ3g0Q082YzJYVUhuRTFZMlVvY1ZsejhYOW84N2MyRGZsQktEekhqeWJiV2wwdG9VR09uQTJhRW1hdzljTnpSbHBDNUMyc0M5Nm9UV2t0cFdFWVZLWFJvTzZEX19YNTNYekhtZFE?oc=5",
    "d": "2026-11-08",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/eli-lilly-forces-compounding-rival-shed-weight-loss-claims",
-   "d": "2026-11-08",
-   "s": "fierce",
-   "x": "Eli Lilly has successfully challenged Good Life Meds’ claims about the health benefits and personalization of a compounded tirzepatide product."
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/novo-catches-wegovy-pill-tailwind-q3-ceo-eyes-new-launch-horizons-2027",
-   "d": "2026-11-08",
-   "s": "fierce",
-   "x": "With a modest improvement to guidance and rosy launch expectations for 2027 girding a solid quarter for its GLP-1 franchise, Novo appears to be gradually winning back the confidence of some of its shareholders."
+   "s": "gnews",
+   "x": "RFK Jr.’s HHS Is Allowing These 6 Unapproved Peptides To Be Sold Forbes"
   },
   {
    "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
@@ -114,6 +121,13 @@ window.FEED={
    "d": "2026-11-07",
    "s": "gnews",
    "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos"
+  },
+  {
+   "t": "Empower Pharmacy Sued Over Compounded GLP-1 Marketing - openclassactions.com",
+   "l": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQUzYyN091ZW14NmlhT2lVdXI3WldoSC1iUnpySEJ6S19XRy13NzhIRjJpb2VTeHZCQ2NobHdVQzNWSFpjMGROajRLeWwwYjQyRmJSLUFjdFBBWHNvOTVxS3REdWtRUWxFeDJiR2ZhRmJKTjg2eWpadHBBQ21QaGRmVEFybG1yM3hneWt5SDhPVUdKMzZJVkNGQXJnWG9WZG1UMGFIX0FvTHdBOGlqUjNjcW9DWVBqQ0VsYkhSam9XaVBocUw5M3VreUMzak5BRWwzM3Z3?oc=5",
+   "d": "2026-11-07",
+   "s": "gnews",
+   "x": "Empower Pharmacy Sued Over Compounded GLP-1 Marketing openclassactions.com"
   },
   {
    "t": "RFK Jr. Just Made Peptides Easier To Get—7 Things Patients Should Know - Forbes",
@@ -387,20 +401,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "RFK Jr. takes shortcut to make some unapproved peptides available for use NBC News"
-  },
-  {
-   "t": "RFK, Jr., loosens restrictions for six popular peptides, bypassing the FDA - Scientific American",
-   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQN3J0ei1zMGdUaXYxU2d1Z0NYcEZVVk45a1VYNUYyZTFXSFRndmJCOTM1a1pTRmZLbHVBbnBhdnQydFVTU1hiWG5ZN0FBVW53a0ZubTZTQk5vOXc0QnZBUnRzQmV6a0ZKMkFLOGo0dU1lRk82UThCdEk5czBmN3NjOV9INjhOdmNPTWU2U2tkMGJpWWJwM0ptT3lseUhsZThkNF93YzlRS3poSkFEZGU4Z3g2U2Q?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "RFK, Jr., loosens restrictions for six popular peptides, bypassing the FDA Scientific American"
-  },
-  {
-   "t": "RFK Jr. Eases Access to Unproven Peptides Despite Opposition From FDA Scientists - MedPage Today",
-   "l": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBiZ1A2MDhYUzBidmVPaGh3UFY3d2NHQjdCSDkzMDYwZXR5M09DalVYRGJITFp2Q1N3Q3VMbFRvZnNueko0NE9JZlprZ1VIdjVlYzRWY080OG5BOExrSUlweERlMzY2X1REM29qSWRnTG4?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "RFK Jr. Eases Access to Unproven Peptides Despite Opposition From FDA Scientists MedPage Today"
   },
   {
    "t": "Statement on improving adverse event reporting of compounded drugs to protect patients",

@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-08T22:14Z",
+ "generated": "2026-11-09T06:48Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-08T22:14Z",
+   "checked": "2026-11-09T06:48Z",
    "ok": true,
-   "new": 42,
-   "seen": 51,
-   "lastOk": "2026-11-08T22:14Z"
+   "new": 43,
+   "seen": 53,
+   "lastOk": "2026-11-09T06:48Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-08T22:14Z",
+   "checked": "2026-11-09T06:48Z",
    "ok": true,
    "new": 1,
    "seen": 15,
-   "lastOk": "2026-11-08T22:14Z"
+   "lastOk": "2026-11-09T06:48Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-08T22:14Z",
+   "checked": "2026-11-09T06:48Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-08T22:14Z"
+   "lastOk": "2026-11-09T06:48Z"
   }
  ],
  "items": [
@@ -49,6 +49,34 @@ window.FEED_ART={
    "d": "2026-12-01",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D."
+  },
+  {
+   "t": "Retatrutide reduces knee pain and body weight in osteoarthritis patients - News-Medical",
+   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdnFONUxMWTY5cWxPaDhfQ2VoRjRwbV9kNHZrZFgtUjB6djlfLXU1QjFVVFQxLV9WVUxXZ1hWMm5BSVp6bk5tcFRyRkQyS3BORFdHbkplRTRLdTVDa0t6aHlSaURWbkI0anNRYklGTFphRGFTSWxBRkRMZzg1MV9fVlI1R0s0dlg0ZnJYQ2RHQlo4LUdSOEhlUVcyd3dSZ2kxd1owSHl0STRDNmo4T21xTnRyRUVvWWU1X0h5aA?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-a",
+   "x": "Retatrutide reduces knee pain and body weight in osteoarthritis patients News-Medical"
+  },
+  {
+   "t": "Eli Lilly's Retatrutide Reduces Weight, Knee Pain - 조선일보",
+   "l": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbXhZR1h4TnhBdTlFMzZoZ3FtY29mOHk5azNnTWlaWHlVYW9Cdm54TksxeEhybnZDbFNxaVMtSy1WZUNDTmxYc0NGS0tSSWlIeWhrR1VOS3RuLXNJbGV0VEYxYXY2ODk2aTdaTlVzR29PMjk2QjZ4M3FTbFAzWnF6SHQtdWlkS3Y2?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-a",
+   "x": "Eli Lilly's Retatrutide Reduces Weight, Knee Pain 조선일보"
+  },
+  {
+   "t": "Retatrutide reduced knee pain and body weight in trials — News-Medical - UA.NEWS",
+   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNGlPREl5dWdiaUZmaWtWeUJQdDY2c3R6NTJDYVZUWjRnSXk2Uk1iVThha0kwLTZ4Zkl5QXQ2Rlp1cHFnaVVZcHllWklZRmV0aUlJenlpTzVSVmxVUFBodWZZWG8xZGozdFo1dlBCNnpoekJISVhBRVdsaFpkbFBBOHk2b3FhcGlVb1A5UWdkT1VWSXNYQWpudndZQWp3YkN4UlZNcDBqZmFadmhhRlE?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-a",
+   "x": "Retatrutide reduced knee pain and body weight in trials — News-Medical UA.NEWS"
+  },
+  {
+   "t": "Triple-Action Obesity Drug Retatrutide Shows 21.9% Weight Loss and Blood Sugar Benefits in Phase 3 Trial - 헬스조선",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVVlxYkRYb0FrcmItWUtkalZ1Y1FZZk5icjYwSld3MC1WbkJVMk5BM3A3Q21YTTVPQWtwVmpQVW4zcEFuZU5sWThybnBudXozVEVGanVTMzRWbWZYYUhYUlJ5b1doZkN6Z1lJR0xJSE9wb2RFcG84X1g3M0Q3S1V5QkxXbHFFdWo4bHc?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-a",
+   "x": "Triple-Action Obesity Drug Retatrutide Shows 21.9% Weight Loss and Blood Sugar Benefits in Phase 3 Trial 헬스조선"
   },
   {
    "t": "Retatrutide Reduces Knee Pain in Obesity and Osteoarthritis Trials - Bioengineer.org",
@@ -317,39 +345,11 @@ window.FEED_ART={
    "x": "Endocrinol Diabetes Metab · Wang Y, Liu Z, Wang S, Lv C, El-Seedi HR, Khalifa SAM, Wang H."
   },
   {
-   "t": "Richard Norton. Social networks and the danger of injecting peptides. - Organización Mundial Bullying Sin Fronteras",
-   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX1ZqUUtLbWRFT1FZQjAtQmd5WUVza1FQcDZLOXZvOHR2d2thelZBdE11Q2pFT1BHZ3M2Vl9MS2EzcmFtRnpOSHh1Zm9uREdrZHg2QUNMM2J6cFVLNC1GcmR0bkhtSUd0QzNsWkZKUzkxNjdPMGxTYjMyRl9xNkR2RlJRSzI2b0NaOUQ5MkNFSE9QMWM?oc=5",
-   "d": "2026-11-01",
-   "s": "gnews-a",
-   "x": "Richard Norton. Social networks and the danger of injecting peptides. Organización Mundial Bullying Sin Fronteras"
-  },
-  {
-   "t": "Retatrutide Vs Ozempic: Eli Lilly’s Experimental Drug Delivers More Than Double The Weight Loss - Health and Me",
-   "l": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQd3YwalFmSlRIN3lNSE9XVlBoQVN4RUNuX1djMlI4WlhWLUlNQUd6bjNUUFJhXzZrd2o3cDFUR0NONThIS2RMQmFxdy05TU9SQmRsQU04d1BZbWpjSGI2LWJ6UEhERkE5RXB6ZG5IcDE4dzM4WTJQMUFYS2VHbUlmYzBWb2Fid1lWWmxicUdSbi1oZ3NOQ3B3NTNFckdjVFBxRlpCaTRwX2R4Q0ZaQWVwX3BVak0xTWRGY25VNzNJTU5lMmlrdkNtSnBiTkFGaWh4cm9zSk5waTI4UURpdk1qVE5HaThMc3ptLXEw?oc=5",
-   "d": "2026-11-01",
-   "s": "gnews-a",
-   "x": "Retatrutide Vs Ozempic: Eli Lilly’s Experimental Drug Delivers More Than Double The Weight Loss Health and Me"
-  },
-  {
    "t": "Unapproved GLP-1 Drugs Retatrutide and Zenagamtide Sold Online Are No Bargain.",
    "l": "https://doi.org/10.1001/jama.2026.20514",
    "d": "2026-11-01",
    "s": "epmc",
    "x": "JAMA · Rubin R."
-  },
-  {
-   "t": "'Mad Max' actor Richard Norton ignored nurse's warning about peptide treatment which he began days before - The Economic Times",
-   "l": "https://news.google.com/rss/articles/CBMiqAJBVV95cUxQWjJqczF2RWEtdUcwNHd6Ty1hN1lCdXpIa1hDSVJ4LXBtRUVibE93ZnlKck03ckd2M2FWVl9FVUpOU2dQaWJqbGJkMERIQjFIck9vcXZPY1RfMWstOHVmajZUZTI5UHB2c1ktcjB5VW1DWG9rTVMwVGhTY0FIVlVfRW84bFQtNXY4eWNOUDloZ2dkaTVFZEVuSWt0V291THJLdko4R3ZuV1VwNlBrYnUyYW1KWlFPeU05dnIwZWVfSlM4aGRhUGNNZmRjZTZtaDgyNUZzMkh4LU0tTVVRZHFtYWRVWWs4bGVVUEc5aV9qeGczNHNVa1hXY2tYc1M2UTFIYVhTTU9IMExHUm9mMkR6X3MyWC1WRzRwcnduTE9GYnBhZGxucEVvZ9IBrgJBVV95cUxQeGpDYTZ3aDdkNmVvLW1jQmF2MERpc0xSQk93REVnaWdIT0RnNDk1eVdZWmF0UlZDczMyOWdyeldIUnRqazRha09ZMWF2ZnRoMlE2MW1mRUgzbzRna2tMQWwxSTVUU0ZvNHh3NHlWdUpob1RlOTFiYVZiaWpkWXUyY09Qa2g0TzB6VnBuUkFIZzhkbjVRMEJKWWZyV2ZRQlR3aEdObmFhcTR6aENyVkFrNEJVS0VFRnktaXp3WTd2UXlUYjFQQkFnNjRPSk1MOHBrWDEtLXJQanJKQ3hucGIzOTFhemZ1MDFBUU9SUkZnVXdHOVpmT0RIcUdrN3dibnlCYzVtMVV0c2pZcldhWnV2Q1dPeDdRUHBic2xtV1JzeUozd2duV05TWmpPblRxdw?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "'Mad Max' actor Richard Norton ignored nurse's warning about peptide treatment which he began days before The Economic Times"
-  },
-  {
-   "t": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. - Business Insider",
-   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNY3ptSnJ6RDlpNEJHQzExNjJ0MlZpVnNKWWZGMHFYZzRZTXNMa2lNZXFlZUZoelZkdHE3SDloSE8zbVVnVGxJbjc3VjFzRG93Vk85RFZhVUUyVGFfbzZJNWV6a05MUVdEZnhNZzFyUTZhLVpjVS1ZNmVqcGxJRUZ2RC1LTkVjdkVvdjNaVg?oc=5",
-   "d": "2026-10-31",
-   "s": "gnews-a",
-   "x": "Gym bros love BPC-157, the peptide in the 'Wolverine shot.' Now it could go mainstream. Business Insider"
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
