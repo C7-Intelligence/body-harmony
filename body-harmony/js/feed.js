@@ -1,85 +1,99 @@
 window.FEED={
- "generated": "2026-11-09T06:48Z",
+ "generated": "2026-11-09T22:28Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-09T06:48Z",
+   "checked": "2026-11-09T22:28Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-09T06:48Z"
+   "lastOk": "2026-11-09T22:28Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-09T06:48Z",
+   "checked": "2026-11-09T22:28Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-09T06:48Z"
+   "lastOk": "2026-11-09T22:28Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-09T06:48Z",
+   "checked": "2026-11-09T22:28Z",
    "ok": true,
-   "new": 0,
-   "seen": 2,
-   "lastOk": "2026-11-09T06:48Z"
+   "new": 1,
+   "seen": 3,
+   "lastOk": "2026-11-09T22:28Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-09T06:48Z",
+   "checked": "2026-11-09T22:28Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-09T06:48Z"
+   "lastOk": "2026-11-09T22:28Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-09T06:48Z",
+   "checked": "2026-11-09T22:28Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-09T06:48Z"
+   "lastOk": "2026-11-09T22:28Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-09T06:48Z",
+   "checked": "2026-11-09T22:28Z",
    "ok": true,
    "new": 3,
    "seen": 3,
-   "lastOk": "2026-11-09T06:48Z"
+   "lastOk": "2026-11-09T22:28Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-09T06:48Z",
+   "checked": "2026-11-09T22:28Z",
    "ok": true,
-   "new": 84,
-   "seen": 90,
-   "lastOk": "2026-11-09T06:48Z"
+   "new": 85,
+   "seen": 92,
+   "lastOk": "2026-11-09T22:28Z"
   }
  ],
  "items": [
+  {
+   "t": "MedWatch Alert: FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) Due to Potential Increased Risk of Rare But Serious Eye Condition: FDA Safety…",
+   "l": "http://www.fda.gov/safety/medical-product-safety-information/medwatch-alert-fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras",
+   "d": "2026-11-09",
+   "s": "fda-medwatch",
+   "x": "FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) Due to Potential Increased Risk of Rare But Serious Eye Condition: FDA Safety Communication"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/lilly-heads-fda-phase-3-foundayo-win-sleep-apnea",
+   "d": "2026-11-09",
+   "s": "fierce",
+   "x": "Lilly's oral GLP-1 Foundayo significantly reduced sleep apnea severity in a phase 3 study presented at the AHA Scientific Sessions on Monday. Now, the pharma is approaching the FDA in hopes of a label expansion."
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
@@ -95,11 +109,25 @@ window.FEED={
    "x": "Eli Lilly has successfully challenged Good Life Meds’ claims about the health benefits and personalization of a compounded tirzepatide product."
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/novo-catches-wegovy-pill-tailwind-q3-ceo-eyes-new-launch-horizons-2027",
+   "t": "DataMEDS AI Announces Corexa Pharmacy's First Commercial Sale of Compounded Peptides Under FDA Enforcement Discretion Policy - The Detroit News",
+   "l": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNUGZ0U2IzLTZGRUMzYmtTRnhqdGJscGkwbDBFRWUwLUtPX19VMUN5V2xwOWoydXNxdGRkRko3VG1HZmlneFR5a1I5REEyNkJkTktYUzNid3pxZVJqLTVEZlVoblJpdUhNOXRDYWJJYS1TOFdOcDA1Yjl3Y3cxNzl1bjVpcVhEWGhBN1N3UWxjR2dsTktYOEU3QW94Wm1JVjFzOUNRVE4xV0pVSnVZMXFwdU5zM19paHZfamU3c2FZWUs3Qi01UnFjQWFXMkJVYXJva2F0Q3NoTEM5YkJlOXdZZUlWR3lLeTFpNzAzVnMyUzZWbkktNGVKMzlWa3Z6dVVqU09pUVRfX21GTzQ?oc=5",
    "d": "2026-11-09",
-   "s": "fierce",
-   "x": "With a modest improvement to guidance and rosy launch expectations for 2027 girding a solid quarter for its GLP-1 franchise, Novo appears to be gradually winning back the confidence of some of its shareholders."
+   "s": "gnews",
+   "x": "DataMEDS AI Announces Corexa Pharmacy's First Commercial Sale of Compounded Peptides Under FDA Enforcement Discretion Policy The Detroit News"
+  },
+  {
+   "t": "DataMEDS Completes First Compounded Peptide Sale - grafa.com",
+   "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUHdtUzE0WHNhczFoVkFZRjZpdGlCRGdvY3hWLUoyWERGNlhuQ00xd1RmdDVWRmxGZ0x1WE9SSTUyVXJldk5yS2VVX2l6LVNqSWZjNVJkMFJ6clZaVTRnX3BKQXFVeEpObGZEOW11OEhIeHBYQWJmSGVXYjR6d2tUTW5UZWdDQ2N1Z0FpRm9nT0YzNUFxWkRDUUJYLUV0UQ?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews",
+   "x": "DataMEDS Completes First Compounded Peptide Sale grafa.com"
+  },
+  {
+   "t": "A pharmacy made its first sale of a compounded peptide. The FDA has not approved these drugs. - Stock Titan",
+   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQOHJHcmNaXy02dWNzamo5Ynl3djNwZTl2SktUeUdaVXlkMlYwMDg4UmxQM3FnckVxN0FtX2hvdnROcTZBV0tHZnVaVW5lWEU1LTE3enFGNHZoR2pGc0xqOHE5b2JZSzZORTZyUVBteE0temR1eHVUZ2NsaHhjLWZBbThtNHJkVFNQc3dVMlRjZHNPM3V1bWgwQnJ4NTBTdTF0bjRXQzR6WjN5QnE5Q1lKYXp3U08yZ2JTQlY1Rg?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews",
+   "x": "A pharmacy made its first sale of a compounded peptide. The FDA has not approved these drugs. Stock Titan"
   },
   {
    "t": "Is BPC-157 legal now? What the new HHS peptide policy means if you want it - Nacionale",
@@ -128,6 +156,13 @@ window.FEED={
    "d": "2026-11-07",
    "s": "gnews",
    "x": "Empower Pharmacy Sued Over Compounded GLP-1 Marketing openclassactions.com"
+  },
+  {
+   "t": "RFK Jr. eases access to unproven peptides despite opposition from FDA scientists - Findlay News | The Courier",
+   "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOUVM3QThqZGhneFhjMTZXSkNINkdKTTZ0ZkNLdnRkQldCc3Z3M05MQWpsOExZVUVSREJESHA4REhoTDB5cjNTUXF5cDFLRlJuWGJLLWZiMFRCZWlxNmNyc2h5bHN5dmRDSlZneUFhU0EtU0Fkc2FDcW1leE1RSXFpUUgyeV9pYU5CSHdYREtRamZDUU1hdENwM1JnUGxDcDNvaTZIVy1IVzRGOVVkOHFUeVM4MGtVUlk?oc=5",
+   "d": "2026-11-07",
+   "s": "gnews",
+   "x": "RFK Jr. eases access to unproven peptides despite opposition from FDA scientists Findlay News | The Courier"
   },
   {
    "t": "RFK Jr. Just Made Peptides Easier To Get—7 Things Patients Should Know - Forbes",
@@ -368,39 +403,11 @@ window.FEED={
    "x": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale The Washington Post"
   },
   {
-   "t": "Kennedy to Allow Broad Use of Unapproved Peptide Injections - The New York Times",
-   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JSWpTV1hKUWtzalplclV0dU96SUJEQURMQVZwSG4ycDZWT01DNDRscUY2b1k4Ykw2SFE1aTVuSkc3ZWxtSFhGZDVhMTlHZEFBb01DX3JUTjJObUxVQ0hmVG5PTHNYaWhucmFMNmFRQzZTTmJtdnc?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "Kennedy to Allow Broad Use of Unapproved Peptide Injections The New York Times"
-  },
-  {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
    "l": "http://www.fda.gov/drugs/counterfeit-medicine/counterfeit-versions-eye-drops-found-several-states",
    "d": "2026-10-28",
    "s": "fda-drugs",
    "x": "Counterfeit versions of over-the-counter eye drops have been found in Florida and Georgia in stores serving primarily Spanish-speaking customers. These products also may be in Louisiana, Mississippi, North Carolina and potentially other states."
-  },
-  {
-   "t": "US Health Secretary Kennedy opens access to some unapproved peptides - Reuters",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPWFVsRUVKR19XanFDd1RoMTJyVVVFVWFNRlZtdExJNjhxVDB6cUxLUmpST2xNVnhwdzlXNWtOZFVXTDVtMTZrcF8xcVBBam5tWk1na3RSbEhrQ012NGNhTDlZOTJqSUlhVkFUUmhlendXZ0VLUGRqVWM4YXktNTJxYm9PUGRYb3FBLWViT2xwY2kwbV9DNlVGQUdMVXRvN2NrdTNaRzBSLWl1Q3lia3ozR1N0NXdzb0dhT0pz?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "US Health Secretary Kennedy opens access to some unapproved peptides Reuters"
-  },
-  {
-   "t": "AP report: FDA scientists opposed the Trump administration's move to ease peptides access - PBS",
-   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQMmVTNmpnYmIxNnZTS3lpVm15NnJJdm9Qd3VmMUlxMnMwczdJRmVjZ2xmZGRuR2lYS21LbDMxQWx3YVg5QTZSSkxKNldGVzhYMEdGLUpNNkpEWjl1RnVhV2VWV09BVTZudngzNi1sVWdXMHJTVVVzRXl5SlpnWVRfZkJjMGV6ZFNseGtqS3NnYkZ5MmpJVnVXQkJIbFMxTmxtYjA1a0RsQkk4ZE1lVGxCZnNROHNIWWNLV244Rllwa1k?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "AP report: FDA scientists opposed the Trump administration's move to ease peptides access PBS"
-  },
-  {
-   "t": "RFK Jr. takes shortcut to make some unapproved peptides available for use - NBC News",
-   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcTFaMHRHMnh0QnNPWlI0eFdjalgxWUxuQ1NFaEFiQlNEYzVocnFRNTRsMzMxQjYwQmxrNHJtb3NxMF9Ed1JzcUxhb1FPTU5PTkpCTU1jcmw5Y2w2Sk5YeFlfTElrenNFSGx1Rmt1U1FpWmxZVmF2R2ZyR1hQaEltWWR4dUpSNkk5ajl3VWVrV0REYy1obEt3VEVIRmF2cWUyc09DSkRKTkV2QQ?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "RFK Jr. takes shortcut to make some unapproved peptides available for use NBC News"
   },
   {
    "t": "Statement on improving adverse event reporting of compounded drugs to protect patients",

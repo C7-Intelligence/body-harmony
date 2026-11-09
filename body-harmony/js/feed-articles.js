@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-09T06:48Z",
+ "generated": "2026-11-09T22:28Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-09T06:48Z",
+   "checked": "2026-11-09T22:28Z",
    "ok": true,
-   "new": 43,
-   "seen": 53,
-   "lastOk": "2026-11-09T06:48Z"
+   "new": 44,
+   "seen": 51,
+   "lastOk": "2026-11-09T22:28Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-09T06:48Z",
+   "checked": "2026-11-09T22:28Z",
    "ok": true,
-   "new": 1,
+   "new": 5,
    "seen": 15,
-   "lastOk": "2026-11-09T06:48Z"
+   "lastOk": "2026-11-09T22:28Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-09T06:48Z",
+   "checked": "2026-11-09T22:28Z",
    "ok": true,
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-09T06:48Z"
+   "new": 2,
+   "seen": 2,
+   "lastOk": "2026-11-09T22:28Z"
   }
  ],
  "items": [
@@ -77,6 +77,48 @@ window.FEED_ART={
    "d": "2026-11-09",
    "s": "gnews-a",
    "x": "Triple-Action Obesity Drug Retatrutide Shows 21.9% Weight Loss and Blood Sugar Benefits in Phase 3 Trial 헬스조선"
+  },
+  {
+   "t": "Weekly Retatrutide Reduces Knee Osteoarthritis Pain and Weight - Medical Professionals Reference",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZGxDdmZzU3FodC1CVDhqME9wNVdRX0NfWXdITi1UZFZ2X19Ga08yOWNuUmR1MVlTQXVtams5ZzdxOHJOdjAzbkhVY3hycEJ3ODBUNVdKLTFGVGpyZnNmMDNmVnJfa2xPenQ2UDAxTnBmSjZwcGlDYnNJbXpqNnlIRzZWVFN2OWZzaUE?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-a",
+   "x": "Weekly Retatrutide Reduces Knee Osteoarthritis Pain and Weight Medical Professionals Reference"
+  },
+  {
+   "t": "Retatrutide Improves Knee OA Pain, Physical Function - Medscape",
+   "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd3p1emJDT0JCUkc1VHNmc2duNnN5bFJmTnpZS0pIYVRVREl5aHA5MlNUUm11UE9lUHR0MDZYaU5OdEVUUGI5M1VWRERoYTktNkFOd3Y1ZGN3OXJjMF9INEJmTGd4a2Z1dWlnMnFzOVRpdXlIbVhMZjBiajM3RThTWjJQQUU1M3VPUTJ1WmRpRXNnVHZZMXZfRXRZelpBdFdQU0ljbUowWmo?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-a",
+   "x": "Retatrutide Improves Knee OA Pain, Physical Function Medscape"
+  },
+  {
+   "t": "Retatrutide ‘Significantly’ Eases Knee Pain in People With Obesity, Studies Show - Yahoo News Singapore",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdUQ1aVFmeXotZHE0WHA5WVhQbkR1VVJ0RFZ2Q19CWjE3Tk1xT19IUTFLRk1sN1VhRDZaUFRhbzI0ek9aWDlJNTFja0lpdjNzU05teTJOR0JGWFJZRXNya01FdTJUNDlWQmF5NDR1VzFIV0hGWkVoOUhwRFY2dDZFb01Sck00YThaYWc?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-a",
+   "x": "Retatrutide ‘Significantly’ Eases Knee Pain in People With Obesity, Studies Show Yahoo News Singapore"
+  },
+  {
+   "t": "BPC-157 for Tested Athletes: What a Research Peptide Label Really Means - the5krunner",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd3p6TWxyeUVSbldDNVV4M2NualIyX3lnemhDcVdtemJNQVh5ZklvbE5GSGxMWmdzZklnQUZvUG1yZ0hMNTVabjBLa1cyZU03VktvTUhSVHNxdkx4aTFuSmd1bVNTMm9PbndOZmlpOFVGcTZGOFVDcU9BTjBEOFRkNm1HQzZCQXpQekxManNabnA1b29meGZRMm5WeTFXcVVkc3ljaENlM3U0QQ?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-a",
+   "x": "BPC-157 for Tested Athletes: What a Research Peptide Label Really Means the5krunner"
+  },
+  {
+   "t": "STAT+: FDA warns GLP-1 drugs carry potential risk of rare eye condition",
+   "l": "https://www.statnews.com/2026/11/09/glp-1-drugs-potential-risk-rare-eye-condition-naion-fda/?utm_campaign=rss",
+   "d": "2026-11-09",
+   "s": "stat",
+   "x": "The FDA on Monday warned that GLP-1 drugs carry a potential risk for a rare but serious eye condition that's sometimes referred to as an \"eye stroke.\""
+  },
+  {
+   "t": "STAT+: Eli Lilly’s GLP-1 pill Foundayo helped alleviate sleep apnea in studies",
+   "l": "https://www.statnews.com/2026/11/09/eli-lilly-foundayo-sleep-apnea/?utm_campaign=rss",
+   "d": "2026-11-09",
+   "s": "stat",
+   "x": "Eli Lilly’s GLP-1 pill Foundayo helped alleviate sleep apnea in two late-stage studies, but it doesn’t appear as effective as Lilly’s injectable drug Zepbound."
   },
   {
    "t": "Retatrutide Reduces Knee Pain in Obesity and Osteoarthritis Trials - Bioengineer.org",
@@ -310,34 +352,6 @@ window.FEED_ART={
    "x": "Health Ministry seizes 697 units of unapproved Retatrutide worth RM341,000 The Sun Malaysia"
   },
   {
-   "t": "Health Ministry seizes RM341,000 worth of weight-loss drug retatrutide, Parliament told - The Star",
-   "l": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPUzBwRk81Rk9wN2ZCUkhLQkFrWFM3TE9tRnFjcDkwai1scndvT0xEdWxsSzg0dkpmZXlUb09oT2lyZ09GRzFDQVRHRHhYWHYxcDBTb2QxVXlheFpsQTI0VVMwYnRMYVE0WUEtLUxSU0I5TUwyWWtINVhfOEF1LUh6d0EwMWZabHRxZHI3aklLYzlGQ29nS2ZreDBCU3hndDE0ek9Uc0dVVnlBQ1FfSk5WQ3E1TVlxODRfRXkwWXhjUlRkYVlWWS10Z0ZDMnl2Unln?oc=5",
-   "d": "2026-11-02",
-   "s": "gnews-a",
-   "x": "Health Ministry seizes RM341,000 worth of weight-loss drug retatrutide, Parliament told The Star"
-  },
-  {
-   "t": "MOH seizes RM341,000 worth of retatrutide in 12 raids - The Malaysian Reserve",
-   "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX3FNcWxlZEtLU2NZZjVDQjFJUWs5ME01X1lCbmRCbTdibW1OdGpiWjktTjFYbE9pNjhfc1VFNlVSRy05SGk0STJla0NhV09pdTh4RnNnYmxUSHJMUWRQYnBNQmdNM1BWVDBqUHBtT2RzSEQtYi1WbWRfSzFvSkR1XzJpV20zWnZ2cGlySHk2VXFyeVI2TVY0a1diRG8?oc=5",
-   "d": "2026-11-02",
-   "s": "gnews-a",
-   "x": "MOH seizes RM341,000 worth of retatrutide in 12 raids The Malaysian Reserve"
-  },
-  {
-   "t": "Peptides Costa Rica Expands Access to Research Peptides Through Its Dedicated Online Catalog - FinancialContent",
-   "l": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNRVQ3NDBRc1I4VHBrUm94WFNPaVFHaWFsY2NNdHFwb2RCd3JjekVfSWdZTUVOcllidnhSTHRQd3VfZG5qZ0NKS0huRUJ4U21QRzBQQ2QxYjhYcWtuMFdHcjRfVmI4MHdQMjdRSWkyUUptWEhteVZzVlJPSmtWVU5pSUN4U0lQNHVFeFZrVWt5b2V6MHFac1U1dlJmbmFydldIc2pma2xWX3RTbGxVS1dXZ2FNY3FqRU53a1diOEFuVVZwUzdqdzk4YzJiYmdxckxWcS1xRHlhOTktc3ZmV2I3SnVkc3VkMlNpM3pyOVAwcw?oc=5",
-   "d": "2026-11-02",
-   "s": "gnews-a",
-   "x": "Peptides Costa Rica Expands Access to Research Peptides Through Its Dedicated Online Catalog FinancialContent"
-  },
-  {
-   "t": "Dzulkefly: 19 Health Ministry raids uncovered illegal sales of retatrutide, Ozempic worth RM405,170 - NST Online",
-   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV2U4bE5PcU03U0ZuMWdYNm9OQVdQaXo5SXRUVVQ2T2lPeFRlV2dtRXpQQ3BPbVhHVnoybXdpZ1lLWnJ3YmZPYXNxbFZkZDV6cFpYVWJfbzNwYlBTQWEwWW84V3NkS3RMdFJKcHo2UmxDWXlvZUNvZkpWVk93Y0tpQUJxOHRqOFNJRWxPY1dGNFhzcnF3NHkxVy1lY0d1aG9UTm9vb0dPSHhoclFZOXEyaWQ3b2dma21CaDNwTjR30gHDAUFVX3lxTE9HdHl5QVRXaDhpbWVLQUQzbk1lVnVqRUtHZjZiMVVhSlVKQ2p5ZmMxemRhRnFOUkdDcU1uNUNIbkFja1RNX1k5TU9zNGlnbDdHUjV2NThtY1BRbmFMWFBnMXgxa2tzdmFVQllwVWw2TktVcXQxbWRUWHl5QTlTakRZdW1veC1iZGNrNUtPOHFQdGhkQXMwb25OQlpnbjNZVFNJMWgwUHM1emZyNTFnLWo2bkU5QU5PUDBNWUYya2NGY1BNVQ?oc=5",
-   "d": "2026-11-02",
-   "s": "gnews-a",
-   "x": "Dzulkefly: 19 Health Ministry raids uncovered illegal sales of retatrutide, Ozempic worth RM405,170 NST Online"
-  },
-  {
    "t": "Global Landscape and Thematic Evolution of Selective GLP-1 Receptor Agonists and GLP-1-Based Multi-Receptor Agonists in Type 2 Diabetes Mellitus: A Bibliometric Analysis.",
    "l": "https://doi.org/10.1002/edm2.70351",
    "d": "2026-11-01",
@@ -350,6 +364,13 @@ window.FEED_ART={
    "d": "2026-11-01",
    "s": "epmc",
    "x": "JAMA · Rubin R."
+  },
+  {
+   "t": "Digital Health Technologies and the Widening Universe of Clinical Trial Data: From Data to Decision.",
+   "l": "https://doi.org/10.1111/cts.70773",
+   "d": "2026-11-01",
+   "s": "epmc",
+   "x": "Clin Transl Sci · Wagner JA, Benko C, Hurry DB."
   },
   {
    "t": "STAT+: Pharmalittle: We’re reading about a new policy for compounding peptides, a PBM disclosure rule, and more",
@@ -569,6 +590,13 @@ window.FEED_ART={
    "x": "J Diabetes · Bloomgarden ZT, Handelsman Y."
   },
   {
+   "t": "Efficacy and Safety of Dual GLP-1/Glucagon Receptor Agonism in Overweight and Obesity: A Class-Specific Systematic Review and Meta-Analysis.",
+   "l": "https://doi.org/10.1111/dom.71400",
+   "d": "2026-09-29",
+   "s": "epmc",
+   "x": "Diabetes Obes Metab · Amjad MM, Khan MM, Sarwar F, Ali A, Ali M, Bakhash F, Abid H, Ibrahim F, Mustafa K, Ali DE, Fayyaz MMN, Hassan H, Mian SM, Yaseen M, Qamar I, Khan AH, Ullah S, Khan BW."
+  },
+  {
    "t": "Urinary Peptidomic Signature for Noninvasive Diagnosis of Alport Syndrome in Children.",
    "l": "https://doi.org/10.1016/j.ekir.2026.107093",
    "d": "2026-09-25",
@@ -612,11 +640,25 @@ window.FEED_ART={
    "x": "Neth Heart J · Salih M, Sloots YAJ, Hemels MEW, Meems LMG, Leening MJG, Ghossein-Doha C."
   },
   {
+   "t": "A Biweekly GLP-1R Agonist Designed With Drug-Free Intervals for Enhanced Efficacy, Receptor Homeostasis and Gastrointestinal Tolerability.",
+   "l": "https://doi.org/10.1111/dom.71304",
+   "d": "2026-09-08",
+   "s": "epmc",
+   "x": "Diabetes Obes Metab · Ding W, Liu Q, Luo Q, Yao X, Fan X."
+  },
+  {
    "t": "Patient and healthcare professional perceptions of weight reduction in the treatment of knee osteoarthritis: A systematic literature review.",
    "l": "https://doi.org/10.1016/j.ocarto.2026.100875",
    "d": "2026-09-07",
    "s": "epmc",
    "x": "Osteoarthr Cartil Open · Conaghan PG, Rolland C, Frampton J, Lavoie L, Giblin K, Robinson R, Perez-Nieves M."
+  },
+  {
+   "t": "Incretin-Based Therapies as Cardiometabolic Interventions: Outcome Hierarchy, Receptor-Network Pharmacology and Phenotype-Based Clinical Positioning.",
+   "l": "https://doi.org/10.1111/dom.71277",
+   "d": "2026-09-01",
+   "s": "epmc",
+   "x": "Diabetes Obes Metab · Sztanek F, Lőrincz H, Harangi M, Nagy AC."
   },
   {
    "t": "Heterogeneous nuclear ribonucleoprotein A1 as a candidate associated with pulmonary vascular remodeling in pulmonary arterial hypertension.",
@@ -685,13 +727,6 @@ window.FEED_ART={
    "x": "Diabetes Obes Metab · Ruotolo G, Harris C, Lin Y, Wilson JM, Pirro V, Duffin KL, Thomas MK, Hartman ML, Neill CO, Coskun T, Milicevic Z, Haupt A, Sattar N, Nicholls SJ."
   },
   {
-   "t": "Survodutide for Obesity in Chinese Adults: Phase 3 Randomized Trial Design and Baseline Characteristics (SYNCHRONIZE™-CN).",
-   "l": "https://doi.org/10.1007/s13300-026-01908-x",
-   "d": "2026-08-14",
-   "s": "epmc",
-   "x": "Diabetes Ther · Ji L, Chen L, Cheng Z, Lu Y, Yang Y, Fu F, Zhu Y, Jin L, Kloer IM."
-  },
-  {
    "t": "Lilly sues over 'illegal sales' of obesity drug retatrutide",
    "l": "https://pharmaphorum.com/news/lilly-sues-over-illegal-sales-obesity-drug-retatrutide",
    "d": "2026-08-12",
@@ -722,27 +757,6 @@ window.FEED_ART={
    "s": "curated",
    "p": "ABC News",
    "x": "Reports the 8–6 vote on BPC-157, the first of seven peptides reviewed. The vote is non-binding and still needs FDA action."
-  },
-  {
-   "t": "Development and validation of a multiplexed LC-HRMS method for nine GLP-1 receptor agonists and its pharmaceutical application.",
-   "l": "https://doi.org/10.1016/j.chroma.2026.467288",
-   "d": "2026-07-21",
-   "s": "epmc",
-   "x": "J Chromatogr A · Tong LH, Leung KK, Hung CT."
-  },
-  {
-   "t": "Pharmacological treatment of MASH.",
-   "l": "https://doi.org/10.1007/s00125-026-06796-1",
-   "d": "2026-07-17",
-   "s": "epmc",
-   "x": "Diabetologia · Stefan N, Targher G."
-  },
-  {
-   "t": "Experimental peptides, GLP-1s and polypharmacy: Future directions for image- and performance-enhancing drug harm reduction.",
-   "l": "https://doi.org/10.1111/add.70545",
-   "d": "2026-07-09",
-   "s": "epmc",
-   "x": "Addiction · Turnock LA, Lazuras L."
   },
   {
    "t": "FDA advisory committee for peptides stocked with conflicts of interest",
