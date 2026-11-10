@@ -1,6 +1,6 @@
 {
  "keepDays": 365,
- "maxItems": 150,
+ "maxItems": 250,
  "keywords": [
   "peptide",
   "compounding",
@@ -31,7 +31,25 @@
   "mounjaro",
   "glutathione",
   "endotoxin",
-  "bacteriostatic"
+  "bacteriostatic",
+  "misbranded",
+  "unapproved drug",
+  "anabolic",
+  "steroid",
+  "sarms",
+  "selective androgen",
+  "ostarine",
+  "ligandrol",
+  "rad-140",
+  "doping",
+  "prohibited list",
+  "growth hormone",
+  "hcg",
+  "testosterone",
+  "nad+",
+  "human chorionic",
+  "telehealth",
+  "drug shortage"
  ],
  "sources": [
   {
@@ -39,21 +57,24 @@
    "name": "FDA Press Announcements (RSS)",
    "type": "rss",
    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/press-releases/rss.xml",
-   "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements"
+   "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
+   "cat": "Regulation"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "type": "rss",
    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/drugs/rss.xml",
-   "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs"
+   "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
+   "cat": "Regulation"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "type": "rss",
    "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/medwatch/rss.xml",
-   "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program"
+   "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
+   "cat": "Safety"
   },
   {
    "id": "fr-fda",
@@ -69,7 +90,8 @@
    "agencies": [
     "food-and-drug-administration"
    ],
-   "home": "https://www.federalregister.gov/agencies/food-and-drug-administration"
+   "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
+   "cat": "Regulation"
   },
   {
    "id": "fr-cbp",
@@ -91,14 +113,16 @@
     "pharmaceutical",
     "medication",
     "prescription"
-   ]
+   ],
+   "cat": "Regulation"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "type": "rss",
    "url": "https://www.fiercepharma.com/rss/xml",
-   "home": "https://www.fiercepharma.com"
+   "home": "https://www.fiercepharma.com",
+   "cat": "Industry"
   },
   {
    "id": "gnews",
@@ -111,7 +135,116 @@
     "https://news.google.com/rss/search?q=CBP+de+minimis+peptide+shipments&hl=en-US&gl=US&ceid=US:en"
    ],
    "home": "https://news.google.com",
-   "maxItems": 40
+   "maxItems": 40,
+   "cat": "Industry"
+  },
+  {
+   "id": "fda-recalls",
+   "name": "FDA Recalls and Safety Alerts (RSS)",
+   "type": "rss",
+   "cat": "Safety",
+   "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/recalls/rss.xml",
+   "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts"
+  },
+  {
+   "id": "fda-consumer",
+   "name": "FDA Consumer Updates (RSS)",
+   "type": "rss",
+   "cat": "Safety",
+   "url": "https://www.fda.gov/about-fda/contact-fda/stay-informed/rss-feeds/consumer-updates/rss.xml",
+   "home": "https://www.fda.gov/consumers/consumer-updates"
+  },
+  {
+   "id": "fr-dea",
+   "name": "Federal Register: DEA rules and notices (API)",
+   "type": "fr_api",
+   "cat": "Regulation",
+   "queries": [
+    "anabolic steroid",
+    "testosterone",
+    "schedule III",
+    "selective androgen receptor modulator"
+   ],
+   "agencies": [
+    "drug-enforcement-administration"
+   ],
+   "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration"
+  },
+  {
+   "id": "fr-hhs",
+   "name": "Federal Register: HHS and FTC notices (API)",
+   "type": "fr_api",
+   "cat": "Regulation",
+   "queries": [
+    "compounded drugs",
+    "telehealth prescribing",
+    "dietary supplement unapproved drug"
+   ],
+   "agencies": [
+    "health-and-human-services-department",
+    "federal-trade-commission"
+   ],
+   "require": [
+    "compound",
+    "telehealth",
+    "peptide",
+    "supplement",
+    "glp-1",
+    "semaglutide",
+    "tirzepatide"
+   ],
+   "home": "https://www.federalregister.gov/agencies/health-and-human-services-department"
+  },
+  {
+   "id": "doj",
+   "name": "Justice Department press releases (RSS)",
+   "type": "rss",
+   "cat": "Safety",
+   "url": "https://www.justice.gov/news/rss?type=press_release&m=1",
+   "home": "https://www.justice.gov/news"
+  },
+  {
+   "id": "usada",
+   "name": "USADA anti-doping news (RSS)",
+   "type": "rss",
+   "cat": "Safety",
+   "url": "https://www.usada.org/feed/",
+   "filter": false,
+   "home": "https://www.usada.org/news/"
+  },
+  {
+   "id": "mhra",
+   "name": "UK MHRA news (Atom)",
+   "type": "rss",
+   "cat": "Regulation",
+   "url": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency.atom",
+   "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency"
+  },
+  {
+   "id": "gnews-state",
+   "name": "Google News: state boards and telehealth (aggregated RSS)",
+   "type": "rss",
+   "cat": "Regulation",
+   "filter": true,
+   "maxItems": 30,
+   "urls": [
+    "https://news.google.com/rss/search?q=%22medical+board%22+OR+%22board+of+pharmacy%22+peptides+OR+compounded+when:30d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=FDA+%22warning+letters%22+peptides+OR+%22research+use+only%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+   ],
+   "home": "https://news.google.com"
+  },
+  {
+   "id": "gnews-anab",
+   "name": "Google News: anabolic steroids and SARMs (aggregated RSS)",
+   "type": "rss",
+   "cat": "Safety",
+   "filter": false,
+   "maxItems": 30,
+   "urls": [
+    "https://news.google.com/rss/search?q=SARMs+FDA+OR+warning+OR+seizure+OR+arrested+when:30d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=%22anabolic+steroids%22+seized+OR+charged+OR+indicted+OR+%22warning+letter%22+when:30d&hl=en-US&gl=US&ceid=US:en"
+   ],
+   "home": "https://news.google.com"
   }
  ],
  "perSource": 30

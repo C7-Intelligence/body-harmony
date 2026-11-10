@@ -394,3 +394,26 @@ details.ref.alert-sec{border-color:var(--warn)}
 details.ref .tools{margin-top:0}
 details.ref[open]{margin-bottom:14px}
 details.ref>summary:hover b{color:var(--accent)}
+
+/* no scrolling inside tables: too-wide tables become stacked cards (see fitTables in app.js) */
+.tw{max-height:none;overflow-x:auto;overflow-y:visible}
+.tw.stack{border:0;background:transparent;overflow:visible}
+.tw.stack table,.tw.stack tbody,.tw.stack tr,.tw.stack td{display:block;width:100%}
+.tw.stack thead{display:none}
+.tw.stack tr{border:1px solid var(--line);background:var(--surface);padding:10px 14px;margin:0 0 10px}
+.tw.stack td{border:0;padding:4px 0;min-width:0;white-space:normal}
+.tw.stack td.name{font-weight:700;font-size:1.02em;padding-bottom:6px}
+.tw.stack td[data-label]:not(.name):not(:empty)::before{content:attr(data-label);display:block;font:600 11px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);margin-top:4px}
+html[data-ui=modern] .tw.stack tr{border-radius:14px}
+html[data-ui=modern] .tw{max-height:none}
+/* news feed */
+.stream .yr{list-style:none;font:700 .95rem var(--sans);letter-spacing:.04em;text-transform:uppercase;color:var(--muted);padding:22px 0 6px;border-bottom:2px solid var(--line)}
+.stream .yr:first-child{padding-top:4px}
+.story .sm{display:flex;gap:8px;align-items:center;margin-bottom:3px}
+.cat{font:600 11px var(--sans);letter-spacing:.05em;text-transform:uppercase;color:var(--accent)}
+.cat.c-Safety{color:var(--bad)}.cat.c-Research{color:var(--info)}.cat.c-Industry{color:var(--muted)}
+.chip small{opacity:.7;margin-left:3px}
+#n-fresh{margin:8px 0}
+.lead-grid.one{grid-template-columns:1fr}
+.lead-story h2{color:var(--deep-ink)}
+html[data-ui=modern] .lead-story .kick{color:var(--deep-hi)}

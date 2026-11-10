@@ -1,6 +1,6 @@
 {
  "keepDays": 365,
- "maxItems": 120,
+ "maxItems": 200,
  "perSource": 40,
  "keywords": [
   "peptide",
@@ -23,7 +23,21 @@
   "epitalon",
   "medical board",
   "endotoxin",
-  "glutathione"
+  "glutathione",
+  "sarms",
+  "ostarine",
+  "ligandrol",
+  "anabolic",
+  "steroid",
+  "hcg",
+  "growth hormone",
+  "ghk",
+  "ipamorelin",
+  "cjc-1295",
+  "tesamorelin",
+  "nad+",
+  "telehealth",
+  "longevity clinic"
  ],
  "sources": [
   {
@@ -37,7 +51,8 @@
     "https://news.google.com/rss/search?q=peptides+warning+OR+seizure+OR+recall+OR+%22warning+letter%22+when:30d&hl=en-US&gl=US&ceid=US:en",
     "https://news.google.com/rss/search?q=%22BPC-157%22+OR+%22TB-500%22+OR+retatrutide+when:30d&hl=en-US&gl=US&ceid=US:en",
     "https://news.google.com/rss/search?q=%22research+peptides%22+OR+%22gray+market%22+peptides+OR+%22medical+board%22+peptides+when:30d&hl=en-US&gl=US&ceid=US:en"
-   ]
+   ],
+   "cat": "Industry"
   },
   {
    "id": "epmc",
@@ -45,9 +60,12 @@
    "home": "https://europepmc.org",
    "type": "epmc",
    "queries": [
-    "(\"BPC-157\" OR \"TB-500\" OR \"thymosin beta-4\" OR retatrutide) AND (PUB_YEAR:2026 OR PUB_YEAR:2025)"
+    "(\"BPC-157\" OR \"TB-500\" OR \"thymosin beta-4\" OR retatrutide) AND (PUB_YEAR:2026 OR PUB_YEAR:2025)",
+    "(\"GHK-Cu\" OR \"semax\" OR \"epitalon\" OR \"MOTS-c\" OR \"SS-31\" OR \"ipamorelin\" OR \"tesamorelin\" OR \"CJC-1295\") AND (PUB_YEAR:2026 OR PUB_YEAR:2025)",
+    "(\"selective androgen receptor modulator\" OR ostarine OR ligandrol OR \"anabolic androgenic steroids\") AND (PUB_YEAR:2026 OR PUB_YEAR:2025)"
    ],
-   "pageSize": 15
+   "pageSize": 15,
+   "cat": "Research"
   },
   {
    "id": "stat",
@@ -55,7 +73,30 @@
    "home": "https://www.statnews.com",
    "type": "rss",
    "url": "https://www.statnews.com/feed/",
-   "filter": true
+   "filter": true,
+   "cat": "Industry"
+  },
+  {
+   "id": "bpd",
+   "name": "BioPharma Dive (RSS)",
+   "type": "rss",
+   "cat": "Industry",
+   "url": "https://www.biopharmadive.com/feeds/news/",
+   "filter": true,
+   "home": "https://www.biopharmadive.com"
+  },
+  {
+   "id": "gnews-gh",
+   "name": "Google News: GLP-1, longevity and hormone clinics (aggregated RSS)",
+   "type": "rss",
+   "cat": "Industry",
+   "filter": false,
+   "maxItems": 30,
+   "urls": [
+    "https://news.google.com/rss/search?q=peptide+therapy+clinics+OR+%22longevity+clinic%22+OR+%22compounded+tirzepatide%22+when:14d&hl=en-US&gl=US&ceid=US:en",
+    "https://news.google.com/rss/search?q=HCG+OR+%22HGH%22+OR+%22testosterone+therapy%22+telehealth+FDA+when:14d&hl=en-US&gl=US&ceid=US:en"
+   ],
+   "home": "https://news.google.com"
   }
  ]
 }

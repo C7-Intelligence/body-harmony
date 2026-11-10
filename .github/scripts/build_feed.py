@@ -113,13 +113,15 @@ def _keep(i):
 items = {k: v for k, v in items.items() if _keep(v)}
 status = []
 for src in CFG['sources']:
-    st = {'id': src['id'], 'name': src['name'], 'home': src.get('home', ''), 'type': src['type'], 'checked': NOW.strftime('%Y-%m-%dT%H:%MZ')}
+    st = {'id': src['id'], 'name': src['name'], 'home': src.get('home', ''), 'type': src['type'], 'cat': src.get('cat', ''), 'checked': NOW.strftime('%Y-%m-%dT%H:%MZ')}
     try:
         got = fetch_fr(src) if src['type'] == 'fr_api' else fetch_epmc(src) if src['type'] == 'epmc' else fetch_rss(src)
         n = 0
         for g in got:
             if not g['l']: continue
-            rec = {'t': g['t'], 'l': g['l'], 'd': (g['d'] or NOW).strftime('%Y-%m-%d'), 's': src['id'], 'x': g['x']}
+            d = g['d'] if g['d'] and g['d'] <= NOW else NOW  # clamp future publication dates (journals list ahead-of-print dates)
+            rec = {'t': g['t'], 'l': g['l'], 'd': d.strftime('%Y-%m-%d'), 's': src['id'], 'x': g['x']}
+            if src.get('cat'): rec['c'] = src['cat']
             if g['l'] not in items: n += 1
             if g['l'] in items and items[g['l']].get('p'): rec['p'] = items[g['l']]['p']
             items[g['l']] = rec

@@ -24,8 +24,7 @@ const SECTIONS=[
  {id:'supply',ic:'🧴',name:'Medical Supply Vendors'},
  {id:'bac',ic:'⚠',name:'BAC Water Tests'},
  {id:'terms',ic:'📖',name:'Terminology'},
- {id:'reg',ic:'⚖',name:'Regulation Info'},
- {id:'forums',ic:'💬',name:'Forums, Articles, etc.'},
+ {id:'news',ic:'📰',name:'News & Updates'},
  {sep:'More'},
  {id:'nutrition',ic:'🥤',name:'Nutrition'},
  {id:'medical',ic:'🩺',name:'Medical'},
@@ -104,8 +103,8 @@ const R={};
 R.home=()=>{
   const s=D.start;
   s.directory.forEach(x=>idx('home',x.name,x.desc));
-  const secOf={'Peptide Vendors':'vendors','Dosage':'dosage','Anabolics':'peds','Medical Supply Vendors':'supply','BAC Water Tests - MUST READ!!!':'bac','Terminology':'terms','Regulation Info':'reg','Forums, Articles, etc.':'forums','Nutrition':'nutrition','Medical':'medical','Roadmap':'roadmap'};
-  const upd={vendors:D.vendors.updated,dosage:D.dosage.updated,peds:D.peds.updated,supply:D.supply.updated,bac:D.bac.updated,terms:D.term.updated,reg:D.reg.updated,forums:D.forums.updated,nutrition:D.nutrition.updated,medical:D.medical.updated,roadmap:D.roadmap.updated};
+  const secOf={'Peptide Vendors':'vendors','Dosage':'dosage','Anabolics':'peds','Medical Supply Vendors':'supply','BAC Water Tests - MUST READ!!!':'bac','Terminology':'terms','News & Updates':'news','Nutrition':'nutrition','Medical':'medical','Roadmap':'roadmap'};
+  const upd={vendors:D.vendors.updated,dosage:D.dosage.updated,peds:D.peds.updated,supply:D.supply.updated,bac:D.bac.updated,terms:D.term.updated,news:D.reg.updated,nutrition:D.nutrition.updated,medical:D.medical.updated,roadmap:D.roadmap.updated};
   const must=D.bac;
   return `<div class="hero"><div class="mono-mark">B · H</div><h1>Body Harmony</h1><div class="rule"></div><p class="tag-line"><b>Peptide vendors, dosing, half-lives, testing results and regulation news</b> in one reference. Use the directory to jump to a section.</p><button class="btn" onclick="document.getElementById('dir').scrollIntoView({behavior:'smooth'})">Browse the guide</button><br><span class="upd">Last updated ${esc(s.updated)}</span></div>
   <div class="callout warn disclaimer"><h4>Disclaimer</h4><p>${esc(s.disclaimer.replace(/^Disclaimer:\s*/,''))}</p></div>
@@ -121,11 +120,11 @@ R.home=()=>{
   <div class="steps">
    <a class="stp" href="#terms"><span class="dnum">1</span><b>Learn the words</b><small>Slang and abbreviations explained</small></a>
    <a class="stp" href="#bac"><span class="dnum">2</span><b>Know the risks</b><small>What testing found in BAC water</small></a>
-   <a class="stp" href="#reg"><span class="dnum">3</span><b>Check the rules</b><small>What regulators are doing</small></a>
+   <a class="stp" href="#news"><span class="dnum">3</span><b>Check the rules</b><small>What regulators are doing</small></a>
    <a class="stp" href="#dosage"><span class="dnum">4</span><b>Measure and track</b><small>Calculator and dose tracker</small></a>
   </div>
   <h2 id="dir" style="margin-top:30px">Everything in the guide</h2>
-  ${[['Learn the basics',['Dosage','Terminology','Medical','Nutrition']],['Buy with care',['Peptide Vendors','Medical Supply Vendors','BAC Water Tests - MUST READ!!!']],['Stay informed',['Regulation Info','Forums, Articles, etc.','Anabolics','Roadmap']]].map(([g,names])=>`<h3 class="grp">${g}</h3><div class="grid g3 dirgrid">${names.map(n=>s.directory.find(x=>x.name.trim()===n)).filter(Boolean).map(x=>{const id=secOf[x.name.trim()];return `<a class="lc" href="#${id}"><span class="n">${upd[id]?'Updated '+esc(upd[id]):''}</span><span class="t">${esc(x.name.trim().replace(/ - MUST READ!!!/,''))}</span><span class="d">${esc(x.desc)}</span></a>`}).join('')}</div>`).join('')}`;
+  ${[['Learn the basics',['Dosage','Terminology','Medical','Nutrition']],['Buy with care',['Peptide Vendors','Medical Supply Vendors','BAC Water Tests - MUST READ!!!']],['Stay informed',['News & Updates','Anabolics','Roadmap']]].map(([g,names])=>`<h3 class="grp">${g}</h3><div class="grid g3 dirgrid">${names.map(n=>s.directory.find(x=>x.name.trim()===n)).filter(Boolean).map(x=>{const id=secOf[x.name.trim()];return `<a class="lc" href="#${id}"><span class="n">${upd[id]?'Updated '+esc(upd[id]):''}</span><span class="t">${esc(x.name.trim().replace(/ - MUST READ!!!/,''))}</span><span class="d">${esc(x.desc)}</span></a>`}).join('')}</div>`).join('')}`;
 };
 
 R.today=()=>{
@@ -141,7 +140,7 @@ R.today=()=>{
   const bacPct=Math.round(D.bac.stats[3].v*1000)/10;
   const heads=S&&S.life.budBeforeEmpty?`<div class="m-kick">Heads up</div><p class="m-serif">Your mixed vial passes its ${S.budDays}-day limit before it is empty.</p><a href="#schedule">See the vial details</a>`:`<div class="m-kick">Worth knowing</div><p class="m-serif">${bacPct}% of bacteriostatic water products failed third-party testing.</p><a href="#bac">See the test results</a>`;
   const recent=S&&S.recent.length?S.recent.map(l=>`<div class="m-row"><span>${esc(day(l.date,{weekday:'short',month:'short',day:'numeric'}))}</span><span class="muted">${fmtNum(l.doseMcg,2)} ${S.calc.unit==='IU'?'IU':'mcg'}${l.site?', '+esc(l.site):''}</span></div>`).join(''):`<p class="m-sub">No doses logged yet. <a href="#schedule">Log your first dose</a>.</p>`;
-  const tiles=[['home','Getting Started','The guide in four steps.'],['dosage','Dosage','Store, mix and calculate.'],['schedule','Schedule and log','Calendar, history, vial life.'],['halflife','Half-Life','How long compounds stay active.'],['vendors','Peptide Vendors',D.vendors.vendors.length+' vendors to know.'],['bac','BAC Water Tests','What testing found.'],['reg','Regulation Info','FDA news and timeline.'],['terms','Terminology','Slang and abbreviations.']];
+  const tiles=[['home','Getting Started','The guide in four steps.'],['dosage','Dosage','Store, mix and calculate.'],['schedule','Schedule and log','Calendar, history, vial life.'],['halflife','Half-Life','How long compounds stay active.'],['vendors','Peptide Vendors',D.vendors.vendors.length+' vendors to know.'],['bac','BAC Water Tests','What testing found.'],['news','News & Updates','Latest rules, recalls and research.'],['terms','Terminology','Slang and abbreviations.']];
   return `<div class="m-today">
   <div class="m-head"><div><div class="eyebrow">${esc(dstr)}</div><h1>Today</h1></div><a class="btn m-cta" href="#schedule">Log a dose</a></div>
   <div class="m-grid3">
@@ -474,30 +473,6 @@ function feedModel(F0){
   F.items=(F.items||[]).filter(i=>i.t);
   return {F,srcs,num,nameOf};
 }
-function leadBlock(g,m){
-  const L=g.lead;if(!L)return '';
-  const top=m.F.items.slice(0,6);
-  return `<div class="lead-grid"><article class="lead-story"><span class="kick">${esc(L.kicker)}</span><h2>${esc(L.headline)}</h2><p class="dek">${esc(L.dek)}</p>
-  <ul>${L.points.map(p=>`<li>${fnMark(p,'fn')}</li>`).join('')}</ul><a class="lead-cta" href="#reg/updates">Read the full update</a></article>
-  <aside class="latest"><h3>Latest headlines</h3><ol>${top.map(i=>`<li><a href="${esc(i.l)}" target="_blank" rel="noopener">${esc(i.t)}</a><span>${esc(m.nameOf(i))} · ${esc(fmtD(i.d))}</span></li>`).join('')||'<li class="muted">No headlines yet.</li>'}</ol><a class="more-link" href="#reg/feed">All headlines</a></aside></div>`;
-}
-function statusStrip(m,g){
-  const ok=m.srcs.filter(s=>s.ok).length,tot=m.srcs.filter(s=>s.type!=='manual').length;
-  return `<div class="strip"><span class="dot ${m.F.seed?'idle':'live'}"></span><span>${m.F.seed?'Feed starting up':`Monitoring ${tot} sources`}</span><span class="sep">|</span><span>Headlines refreshed ${esc(fmtT(m.F.generated)||'not yet')}</span><span class="sep">|</span><span>${ok} of ${tot} sources responded on the last check</span></div>`;
-}
-function newsStream(m,sec='r',title='Headlines'){
-  const {F,srcs,num,nameOf}=m;
-  F.items.forEach(i=>idx('reg',i.t,nameOf(i),i.x,i.d));
-  const names=[...new Set(F.items.map(nameOf))].filter(Boolean);
-  const when=t=>t?fmtT(t):'not yet run';
-  const fs=srcs.map((s,i)=>`<li id="${sec}-fs${i+1}">${s.home?ext(s.home,s.name):esc(s.name)} <span class="muted">${s.type==='manual'?'added by hand':s.type==='fr_api'?'API':'RSS'}</span> ${s.ok===null?'<span class="pill muted">waiting for first run</span>':s.ok?`<span class="pill good">ok</span> <span class="muted">checked ${esc(when(s.checked))}${s.new?`, ${s.new} new`:''}</span>`:`<span class="pill bad">last check failed</span>${s.lastOk?` <span class="muted">last ok ${esc(when(s.lastOk))}</span>`:''}`}</li>`).join('');
-  return `<section id="${sec}-feed" class="sect"><div class="sect-h"><h2>${esc(title)}</h2><p class="muted">Collected automatically and not reviewed. Treat them as leads and check the source.</p></div>
-  <div class="tools" data-list="${sec}stream"><input type="search" class="tbl-search ls-q" placeholder="Search headlines…" aria-label="Search headlines"><div class="chips">${['All',...names].map((c,k)=>`<button class="chip${k?'':' on'}" data-v="${esc(c)}">${esc(c)}</button>`).join('')}</div><span class="count"></span></div>
-  <ol class="stream" id="${sec}stream">${F.items.map(i=>`<li class="story" data-c="${esc(nameOf(i))}" data-t="${esc((i.t+' '+nameOf(i)+' '+(i.x||'')).toLowerCase())}"><time>${esc(fmtD(i.d))}</time><div><a class="hl" href="${esc(i.l)}" target="_blank" rel="noopener">${esc(i.t)}</a>${i.x?`<p>${esc(i.x)}</p>`:''}<span class="srcb">${esc(nameOf(i))}<sup class="fn"><a href="#${sec==='r'?'reg':'forums'}/fs${num[i.s]||''}" data-fn="${sec}-fs${num[i.s]||''}">${num[i.s]||'?'}</a></sup></span></div></li>`).join('')}</ol>
-  <div class="empty" hidden>No headlines match.</div><button class="btn ghost more" hidden>Show more headlines</button>
-  <h3 class="fnh">Where headlines come from</h3><ol class="fnlist">${fs}</ol>
-  ${sec==='r'?`<div class="live"><button class="chip" id="fr-live">Check the Federal Register now</button> <span class="muted" id="fr-live-msg"></span><div id="fr-live-out"></div></div>`:''}</section>`;
-}
 function vTimeline(g){
   const rows=g.timeline,ent=r=>r[1].trim().replace(/\s*\(.*$/,'');
   const ents=[...new Set(rows.map(ent))];
@@ -511,7 +486,7 @@ function initReg(root){
   $$('a[data-fn]',root).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();const el=document.getElementById(a.dataset.fn);if(el){const dd=el.closest('details');if(dd)dd.open=true;el.scrollIntoView({block:'center'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1600)}}));
   $$('.tools[data-list]',root).forEach(tools=>{
     const list=document.getElementById(tools.dataset.list),items=$$('li:not(.yr)',list),q=$('.ls-q',tools),sel=$('.ls-sel',tools),cnt=$('.count',tools),empty=tools.parentElement.querySelector('.empty'),more=tools.parentElement.querySelector('.more');
-    let chip='All',all=false;const LIM=15;
+    let chip='All',all=false;const LIM=+tools.dataset.lim||15;
     const run=()=>{const w=q.value.trim().toLowerCase().split(/\s+/).filter(Boolean);const c=sel?sel.value:chip;let n=0,shown=0;
       items.forEach(li=>{const ok=(c==='All'||li.dataset.c===c)&&w.every(x=>li.dataset.t.includes(x));if(ok)n++;const vis=ok&&(!more||all||w.length||c!=='All'||shown<LIM);if(vis&&ok)shown++;li.hidden=!vis});
       $$('li.yr',list).forEach(y=>{let e=y.nextElementSibling,any=false;while(e&&!e.classList.contains('yr')){if(!e.hidden)any=true;e=e.nextElementSibling}y.hidden=!any});
@@ -533,55 +508,114 @@ function initReg(root){
     }catch(e){msg.textContent='Could not reach the Federal Register from this browser ('+e.message+'). The scheduled feed still updates.'}
   });
 }
-R.reg=()=>{
-  const g=D.reg,m=feedModel();
-  if(g.alert){idx('reg',g.alert.title,g.alert.intro);g.alert.claims.forEach(c=>idx('reg',c[0],c[1],c[2]))}
-  g.timeline.forEach(r=>idx('reg',r[0]+' — '+r[1],r[2],r[3]));g.status.forEach(r=>idx('reg',r[0],r[1],r[2],r[4]));
-  g.article.forEach(a=>a.x&&idx('reg','PCAC July 2026',a.x));
-  if(g.updates){g.updates.blocks.forEach(b=>idx('reg',g.updates.title,b.x.replace(/\[\^\d+\]/g,'')));g.updates.footnotes.forEach(f=>idx('reg',f.label,f.pub,f.url))}
+/* ----- news: regulation, safety, research and industry in one newest-first feed ----- */
+const NCAT=[['Regulation','Regulation'],['Safety','Safety & enforcement'],['Research','Research'],['Industry','Industry news']];
+const NCATMAP={'fda-press':'Regulation','fda-drugs':'Regulation','fr-fda':'Regulation','fr-cbp':'Regulation','fr-dea':'Regulation','fr-hhs':'Regulation','mhra':'Regulation','gnews-state':'Regulation','fda-medwatch':'Safety','fda-recalls':'Safety','fda-consumer':'Safety','doj':'Safety','usada':'Safety','gnews-anab':'Safety','epmc':'Research'};
+const shortSrc=n=>String(n||'').replace(/^Federal Register:.*/,'Federal Register').replace(/^Google News.*/,'Google News').replace(/^FDA Drugs.*/,'FDA Drugs').replace(/^FDA MedWatch.*/,'FDA MedWatch').replace(/^FDA Press.*/,'FDA press releases').replace(/^FDA Recalls.*/,'FDA recalls').replace(/^FDA Consumer.*/,'FDA consumer updates').replace(/^Justice Department.*/,'Justice Department').replace(/^USADA.*/,'USADA').replace(/^UK MHRA.*/,'UK MHRA').replace(/^Europe PMC.*/,'Europe PMC').replace(/\s*\((RSS|API|Atom|aggregated RSS)\)$/,'').replace(/^Curated by the guide.*/,'Curated');
+function newsModel(){
+  const A=window.FEED||{},B=window.FEED_ART||{};
+  const srcs=[...(A.sources||[]),...(B.sources||[])];
+  const sm={};srcs.forEach((x,k)=>sm[x.id]=Object.assign({},x,{n:k+1}));
+  const seen={},items=[],td=new Date().toISOString().slice(0,10);
+  [...(A.items||[]),...(B.items||[])].forEach(i=>{
+    if(!i.t||!i.l)return;
+    const key=i.t.toLowerCase().replace(/[^a-z0-9]+/g,' ').trim();
+    if(seen[i.l]||seen[key])return;seen[i.l]=seen[key]=1;
+    const src=sm[i.s]||{};let t=i.t,pub=i.p||shortSrc(src.name||i.s);
+    if(/^Google News/.test(src.name||'')&&!i.p){const k=t.lastIndexOf(' - ');if(k>20){pub=t.slice(k+3);t=t.slice(0,k)}}
+    items.push(Object.assign({},i,{d:i.d>td?td:i.d,t,pub,cat:i.c||src.cat||NCATMAP[i.s]||'Industry',n:src.n}));
+  });
+  items.sort((x,y)=>(y.d||'').localeCompare(x.d||''));
+  const gen=[A.generated,B.generated].filter(Boolean).sort().pop()||'';
+  return {srcs,sm,items,gen};
+}
+function dayGroup(d){
+  const m=/^(\d{4})-(\d\d)-(\d\d)/.exec(d||'');if(!m)return 'Earlier';
+  const t=new Date(),today=new Date(t.getFullYear(),t.getMonth(),t.getDate()),dt=new Date(+m[1],+m[2]-1,+m[3]);
+  const n=Math.round((today-dt)/864e5);
+  if(n<=0)return 'Today';if(n===1)return 'Yesterday';if(n<7)return 'Past week';
+  return dt.toLocaleDateString('en-US',{month:'long',year:'numeric'});
+}
+let lastPull=0;
+async function pullFeed(){
+  if(location.protocol==='file:'||Date.now()-lastPull<6e5)return;lastPull=Date.now();
+  try{
+    const get=async u=>{const r=await fetch(u+'?t='+Date.now(),{cache:'no-store'});if(!r.ok)return null;const t=await r.text();return JSON.parse(t.slice(t.indexOf('=')+1).trim().replace(/;$/,''))};
+    const [a,b]=await Promise.all([get('js/feed.js'),get('js/feed-articles.js')]);
+    const gen=[a&&a.generated,b&&b.generated].filter(Boolean).sort().pop();
+    if(!gen||gen<=newsModel().gen)return;
+    window.FEED=a||window.FEED;window.FEED_ART=b||window.FEED_ART;
+    const el=document.getElementById('n-fresh');if(!el)return;
+    el.innerHTML='<button class="chip on" type="button">Newer headlines are available. Show them</button>';
+    el.firstChild.addEventListener('click',()=>{
+      searchIndex.splice(0,searchIndex.length,...searchIndex.filter(x=>x.sec!=='news'));
+      const sec=rendered.news;sec.innerHTML=R.news();wireTables(sec);initNews(sec);
+    });
+  }catch(e){}
+}
+R.news=()=>{
+  const g=D.reg,f=D.forums,m=newsModel(),{srcs,sm,items}=m;
+  if(g.alert){idx('news',g.alert.title,g.alert.intro);g.alert.claims.forEach(c=>idx('news',c[0],c[1],c[2]))}
+  g.timeline.forEach(r=>idx('news',r[0]+' — '+r[1],r[2],r[3]));g.status.forEach(r=>idx('news',r[0],r[1],r[2],r[4]));
+  g.article.forEach(a=>a.x&&idx('news','PCAC July 2026',a.x));
+  if(g.updates){g.updates.blocks.forEach(b=>idx('news',g.updates.title,b.x.replace(/\[\^\d+\]/g,'')));g.updates.footnotes.forEach(x=>idx('news',x.label,x.pub,x.url))}
+  f.articles.forEach(a=>idx('news',a.title,a.site,a.date,a.summary));f.communities.forEach(c=>idx('news',c.name,c.desc));f.videos.forEach(v=>idx('news',v.title,v.url));
+  if(f.updates){f.updates.blocks.forEach(b=>idx('news',f.updates.title,b.x.replace(/\[\^\d+\]/g,'')));f.updates.footnotes.forEach(x=>idx('news',x.label,x.pub,x.url))}
+  items.forEach(i=>idx('news',i.t,i.pub,i.x,i.d));
   const art=g.article.map(a=>{
     if(a.t==='h')return `<h3>${esc(a.x)}</h3>`;
     if(a.t==='score')return `<div class="tw" style="margin:14px 0">${'<table><thead><tr>'+g.scoreHdr.map(h=>`<th class="nosort">${esc(h)}</th>`).join('')+'</tr></thead><tbody>'+g.score.map(r=>`<tr><td class="name">${esc(r[0])}</td><td class="mono">${esc(r[1])}</td><td><span class="pill ${r[2]==='Include'?'good':'bad'}">${esc(r[2])}</span></td></tr>`).join('')+'</tbody></table>'}</div>`;
     return `<p>${a.u?ext(a.u):urlize(a.x)}</p>`;
   }).join('');
-  return `<div class="masthead"><div class="mh-top"><h1>Regulation Info</h1><span class="upd">Page reviewed ${esc(g.updated)}</span></div>${statusStrip(m,g)}<p class="lead">${urlize(g.intro)}</p></div>
-  ${leadBlock(g,m)}
-  <div class="subnav tabs" data-spy>${g.alert?'<a href="#reg/alert">Import alert</a>':''}<a href="#reg/updates">Analysis</a><a href="#reg/feed">Headlines</a><a href="#reg/timeline">Timeline</a><a href="#reg/status">Peptide status</a><a href="#reg/pcac">July 2026 vote</a></div>
-  ${plain('How to read this page',['<b>Peptide rules are unsettled and change often.</b> Many compounds sold online are not FDA-approved for human use, and some have been restricted from compounding.','Each section below opens when you tap its title. <b>Shipping alert</b> and <b>Analysis</b> are open first because they change fastest.','Use <b>Peptide status</b> to look up one compound, and <b>Timeline</b> for how we got here.','Headlines are collected automatically and not reviewed. Treat them as leads and check the source.'])}
-  ${g.alert?foldSect(alertCard(g.alert),true):''}
-  ${foldSect(updatesCard(g.updates),true)}
-  ${foldSect(newsStream(m),false)}
+  const L=g.lead;
+  const lead=L?`<div class="lead-grid one"><article class="lead-story"><span class="kick">${esc(L.kicker)}</span><h2>${esc(L.headline)}</h2><p class="dek">${esc(L.dek)}</p><ul>${L.points.map(p=>`<li>${fnMark(p,'fn')}</li>`).join('')}</ul><a class="lead-cta" href="#news/updates">Read the full analysis</a></article></div>`:'';
+  const ok=srcs.filter(s=>s.ok).length,tot=srcs.filter(s=>s.type!=='manual').length;
+  const strip=`<div class="strip"><span class="dot live"></span><span>Monitoring ${tot} sources</span><span class="sep">|</span><span>Refreshed ${esc(fmtT(m.gen)||'not yet')}</span><span class="sep">|</span><span>${ok} of ${tot} responded on the last check</span></div>`;
+  const cnt={};items.forEach(i=>cnt[i.cat]=(cnt[i.cat]||0)+1);
+  const cats=NCAT.filter(c=>cnt[c[0]]);
+  let cur='';
+  const rows=items.map(i=>{
+    const gp=dayGroup(i.d),h=gp!==cur?(cur=gp,`<li class="yr">${esc(gp)}</li>`):'';
+    const fresh=gp==='Today'||gp==='Yesterday';
+    return h+`<li class="story" data-c="${esc(i.cat)}" data-t="${esc((i.t+' '+i.pub+' '+(i.x||'')).toLowerCase())}"><time>${esc(fmtD(i.d))}</time><div><div class="sm"><span class="cat c-${esc(i.cat)}">${esc((NCAT.find(c=>c[0]===i.cat)||[0,i.cat])[1])}</span>${fresh?'<span class="pill info">New</span>':''}</div><a class="hl" href="${esc(i.l)}" target="_blank" rel="noopener">${esc(i.t)}</a>${i.x?`<p>${esc(i.x)}</p>`:''}<span class="srcb">${esc(i.pub)}${i.n?`<sup class="fn"><a href="#news/fs${i.n}" data-fn="n-fs${i.n}">${i.n}</a></sup>`:''}</span></div></li>`;
+  }).join('');
+  const when=t=>t?fmtT(t):'not yet run';
+  const fs=srcs.map((s,i)=>`<li id="n-fs${i+1}">${s.home?ext(s.home,s.name):esc(s.name)} <span class="muted">${s.type==='manual'?'added by hand':s.type==='fr_api'?'API':s.type==='epmc'?'research index':'RSS'}</span> ${s.ok===null?'<span class="pill muted">waiting for first run</span>':s.ok?`<span class="pill good">ok</span> <span class="muted">checked ${esc(when(s.checked))}${s.new?`, ${s.new} new`:''}</span>`:`<span class="pill bad">last check failed</span>${s.lastOk?` <span class="muted">last ok ${esc(when(s.lastOk))}</span>`:''}`}</li>`).join('');
+  const feed=`<section id="n-feed" class="sect"><div class="sect-h"><h2>Latest</h2><p class="muted">Newest first. Collected automatically every few hours from ${tot} sources and not reviewed. Treat each one as a lead and check the source.</p></div>
+  <div id="n-fresh"></div>
+  <div class="tools" data-list="nstream" data-lim="30"><input type="search" class="tbl-search ls-q" placeholder="Search the news…" aria-label="Search the news"><div class="chips"><button class="chip on" data-v="All">All</button>${cats.map(c=>`<button class="chip" data-v="${c[0]}">${c[1]} <small>${cnt[c[0]]}</small></button>`).join('')}</div><span class="count"></span></div>
+  <ol class="stream" id="nstream">${rows||'<li class="muted">No headlines yet. The feed refreshes on a schedule.</li>'}</ol>
+  <div class="empty" hidden>No headlines match.</div><button class="btn ghost more" hidden>Show more</button>
+  <div class="live"><button class="chip" id="fr-live">Check the Federal Register now</button> <span class="muted" id="fr-live-msg"></span><div id="fr-live-out"></div></div></section>`;
+  return `<div class="masthead"><div class="mh-top"><h1>News &amp; Updates</h1><span class="upd">Analysis reviewed ${esc(g.updated)}</span></div>${strip}<p class="lead">Regulation, safety alerts, enforcement, research and industry news for peptides, compounded drugs and anabolics, newest first. Below the feed: written analysis, the regulation timeline, FDA status by peptide and the older reading list.</p></div>
+  <div class="subnav tabs" data-spy><a href="#news/feed">Latest</a>${g.alert?'<a href="#news/alert">Import alert</a>':''}<a href="#news/updates">Analysis</a><a href="#news/timeline">Timeline</a><a href="#news/status">Peptide status</a><a href="#news/pcac">July 2026 vote</a><a href="#news/articles">Reading list</a><a href="#news/communities">Communities</a><a href="#news/videos">Videos</a></div>
+  ${feed}
+  ${lead}
+  ${plain('Rules change often',['Many compounds sold online are not FDA-approved for human use, and some have been restricted from compounding.','The sections below open when you tap their title. Use <b>Peptide status</b> to look up one compound and <b>Timeline</b> for how we got here.'])}
+  ${g.alert?foldSect(alertCard(g.alert),false):''}
+  ${foldSect(updatesCard(g.updates),false)}
   ${foldSect(vTimeline(g),false)}
   ${foldSect(`<section id="r-status" class="sect"><div class="sect-h"><h2>FDA status by peptide</h2><p class="muted">Look up one compound</p></div>
    ${table({cols:[{h:g.statusHdr[0],f:r=>esc(r[0]),cls:'name',s:r=>r[0]},{h:g.statusHdr[1],f:r=>`<span class="pill ${statCls(r[1])}">${esc(r[1])}</span>`,s:r=>r[1]},{h:g.statusHdr[2],f:r=>esc(r[2]),s:r=>r[2]},{h:g.statusHdr[3],f:r=>esc(r[3]),s:r=>r[3]},{h:g.statusHdr[4],f:r=>esc(r[4]),s:r=>r[4]}],rows:g.status,chip:{get:r=>r[1]},searchPh:'Search peptides…'})}
    ${fig('pcac-peptide-table.jpg','Table of peptides, health uses and outcome from the PCAC review','Peptide, health uses and outcome summary (image from the guide).')}</section>`,false)}
-  ${foldSect(`<section id="r-pcac" class="sect prose"><div class="sect-h"><h2>FDA advisory committee review (July 2026)</h2><p class="muted">How the committee voted on each peptide</p></div>${art}</section>`,false)}`;
-};
-
-/* ----- forums ----- */
-R.forums=()=>{
-  const f=D.forums;f.articles.forEach(a=>idx('forums',a.title,a.site,a.date,a.summary));f.communities.forEach(c=>idx('forums',c.name,c.desc));f.videos.forEach(v=>idx('forums',v.title,v.url));
-  const fm=feedModel(window.FEED_ART);
-  if(f.updates){f.updates.blocks.forEach(b=>idx('forums',f.updates.title,b.x.replace(/\[\^\d+\]/g,'')));f.updates.footnotes.forEach(x=>idx('forums',x.label,x.pub,x.url))}
-  return head('Forums, Articles, etc.',f.updated)+statusStrip(fm)+`
-  <div class="subnav tabs" data-spy><a href="#forums/updates">Latest developments</a><a href="#forums/feed">Headlines</a><a href="#forums/articles">Roundup</a><a href="#forums/communities">Communities</a><a href="#forums/videos">Videos & links</a></div>
-  ${plain('How to read this page',['<b>Latest developments</b> is a short written summary with numbered sources.','<b>Headlines</b> are collected automatically and not reviewed.','<b>Roundup</b> is a dated list of articles, newest first. <b>Communities</b> and <b>Videos</b> are places to read more.'])}
-  ${foldSect(updatesCard(f.updates,'f','xfn'),true)}
-  ${foldSect(newsStream(fm,'f','Latest headlines (auto-feed)'),false)}
-  ${foldSect(`<section id="f-articles" class="sect"><div class="sect-h"><h2>${esc(f.title)}</h2><p class="muted">${f.articles.length} articles</p></div>
+  ${foldSect(`<section id="r-pcac" class="sect prose"><div class="sect-h"><h2>FDA advisory committee review (July 2026)</h2><p class="muted">How the committee voted on each peptide</p></div>${art}</section>`,false)}
+  ${foldSect(updatesCard(f.updates,'f','xfn'),false)}
+  ${foldSect(`<section id="f-articles" class="sect"><div class="sect-h"><h2>${esc(f.title)}</h2><p class="muted">${f.articles.length} older articles, hand-picked</p></div>
    <div class="tools" data-tbl="ft" data-custom><input type="search" class="tbl-search" placeholder="Search articles…"><span class="count"></span></div>
    <table id="ft" hidden><tbody>${f.articles.map(a=>`<tr data-t="${esc((a.title+' '+a.site+' '+a.date+' '+a.summary).toLowerCase())}"></tr>`).join('')}</tbody></table>
    <div class="grid g2" id="f-grid">${f.articles.map(a=>`<article class="art"><span class="num">#${a.n}</span><h4>${esc(a.title)}</h4><div class="meta"><span>🌐 ${esc(a.site)}</span><span>📅 ${esc(a.date)}</span></div><p style="margin:4px 0">${esc(a.summary)}</p><div>${a.url?ext(a.url,a.linkText||host(a.url)):esc(a.linkText)}</div></article>`).join('')}</div><div class="empty" hidden>No matches.</div></section>`,false)}
   ${refBox('f-communities',esc(f.commTitle),esc(f.commIntro),`<div class="grid g2">${f.communities.map(c=>`<div class="art"><h4>${ext(c.url,c.name)}</h4><p style="margin:0">${esc(c.desc)}</p></div>`).join('')}</div>`,false)}
-  ${refBox('f-videos',esc(f.videosTitle),`${f.videos.length} videos`,`<div class="grid g2">${f.videos.map(v=>linkCard(v.url,v.title.trim()+' ▶')).join('')}</div>`,false)}`;
+  ${refBox('f-videos',esc(f.videosTitle),`${f.videos.length} videos`,`<div class="grid g2">${f.videos.map(v=>linkCard(v.url,v.title.trim()+' ▶')).join('')}</div>`,false)}
+  ${refBox('n-src','Where the news comes from',`${srcs.length} sources`,`<ol class="fnlist">${fs}</ol>`,false)}`;
 };
 function initForums(root){
   initReg(root);
   const tools=$('.tools[data-tbl=ft]',root);if(!tools)return;const q=$('input',tools),cnt=$('.count',tools);
-  const cards=$$('#f-grid .art',root),rows=$$('#ft tbody tr',root);
-  const run=()=>{const w=q.value.toLowerCase().split(/\s+/).filter(Boolean);let n=0;cards.forEach((c,i)=>{const ok=w.every(x=>rows[i].dataset.t.includes(x));c.hidden=!ok;if(ok)n++});cnt.textContent=n+' of '+cards.length;$('.empty',root).hidden=n>0};
+  const cards=$$('#f-grid .art',root),rows=$$('#ft tbody tr',root),empty=$('#f-articles .empty',root);
+  const run=()=>{const w=q.value.toLowerCase().split(/\s+/).filter(Boolean);let n=0;cards.forEach((c,i)=>{const ok=w.every(x=>rows[i].dataset.t.includes(x));c.hidden=!ok;if(ok)n++});cnt.textContent=n+' of '+cards.length;empty.hidden=n>0};
   q.addEventListener('input',run);run();
 }
+function initNews(root){initForums(root)}
 
 /* ----- small sheets ----- */
 R.nutrition=()=>{const n=D.nutrition;n.items.forEach(i=>idx('nutrition',i.name,i.url));return head('Nutrition',n.updated,'Nutritional information and guidelines.')+plain('About these links',['Product pages for reference. Open one to see the full nutrition label.'])+`<div class="grid g3">${n.items.map(i=>linkCard(i.url,i.name,'Sam\u2019s Club')).join('')}</div>`};
@@ -601,8 +635,8 @@ nav.innerHTML=SECTIONS.map(s=>s.sep?`<div class="sep">${s.sep}</div>`:`<a href="
 /* ---- interface switch: modern (default) or classic ---- */
 const root=document.documentElement;
 const isModern=()=>root.dataset.ui==='modern';
-const TOP=[['today','Today'],['home','Home'],['dosage','Dosage'],['schedule','Schedule and log'],['halflife','Half-life'],['vendors','Vendors'],['bac','Testing'],['reg','Regulation']];
-const MORE=['peds','supply','terms','forums','nutrition','medical','roadmap','links'];
+const TOP=[['today','Today'],['home','Home'],['dosage','Dosage'],['schedule','Schedule and log'],['halflife','Half-life'],['vendors','Vendors'],['bac','Testing'],['news','News']];
+const MORE=['peds','supply','terms','nutrition','medical','roadmap','links'];
 const topnav=document.createElement('nav');topnav.id='topnav';topnav.setAttribute('aria-label','Main');
 topnav.innerHTML=TOP.map(([id,n])=>`<a href="#${id}" data-id="${id}">${n}</a>`).join('')+`<details class="more-nav"><summary>More</summary><div>${MORE.map(id=>`<a href="#${id}" data-id="${id}">${nameOf0(id)}</a>`).join('')}</div></details>`;
 function nameOf0(id){return (SECTIONS.find(s=>s.id===id)||{}).name||id}
@@ -632,6 +666,8 @@ paintSwitches();
 const rendered={};
 function show(id,sub){
   let view='dosage';
+  if(id==='reg'||id==='forums')id='news'; // links from the old separate pages
+  if(id==='news')pullFeed();
   if(!isModern()&&id==='today')id='home';
   if(id==='schedule'){view='schedule';sub='tracker'}
   const navId=id;
@@ -640,7 +676,7 @@ function show(id,sub){
   if(!rendered[id]){
     const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+id;sec.innerHTML=R[id]();main.appendChild(sec);rendered[id]=sec;
     wireTables(sec);
-    ({dosage:initDosage,halflife:initHalf,supply:initSupply,forums:initForums,reg:initReg})[id]?.(sec);
+    ({dosage:initDosage,halflife:initHalf,supply:initSupply,news:initNews})[id]?.(sec);
     $$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}));
   }
   if(id==='today')rendered[id].innerHTML=R.today();
@@ -654,7 +690,7 @@ function show(id,sub){
   document.title=(SECTIONS.find(s=>s.id===navId)||{}).name+' · Body Harmony';
   if(pending){const inp=$('.tbl-search',sec.querySelector('.tabpane.on')||sec);if(inp){inp.value=pending;inp.dispatchEvent(new Event('input'))}pending=''}
   if(view==='schedule'&&isModern())window.scrollTo(0,0);
-  else if(sub&&!tabs){const el=$('#'+({dosage:'d-',halflife:'h-',reg:'r-',forums:'f-'}[id]||'x-')+sub,sec);if(el){if(el.tagName==='DETAILS')el.open=true;setTimeout(()=>el.scrollIntoView({block:'start'}),60)}}
+  else if(sub&&!tabs){const el=$('#'+({dosage:'d-',halflife:'h-'}[id]||'x-')+sub,sec)||(id==='news'?['n-','r-','f-'].map(q=>$('#'+q+sub,sec)).find(Boolean):null);if(el){if(el.tagName==='DETAILS')el.open=true;setTimeout(()=>el.scrollIntoView({block:'start'}),60)}}
   else window.scrollTo(0,0);
   $('#nav').classList.remove('open');
 }
@@ -662,8 +698,15 @@ let pending='';
 function route(){const [id,sub]=(location.hash.slice(1)||(isModern()?'today':'home')).split('/');show(id,sub)}
 addEventListener('hashchange',route);
 // pre-render all sections once so the global search index is complete
-SECTIONS.forEach(s=>{if(s.id&&!s.alias&&!rendered[s.id]){const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+s.id;sec.innerHTML=R[s.id]();main.appendChild(sec);rendered[s.id]=sec;wireTables(sec);({dosage:initDosage,halflife:initHalf,supply:initSupply,forums:initForums,reg:initReg})[s.id]?.(sec);$$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}))}});
-route();
+SECTIONS.forEach(s=>{if(s.id&&!s.alias&&!rendered[s.id]){const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+s.id;sec.innerHTML=R[s.id]();main.appendChild(sec);rendered[s.id]=sec;wireTables(sec);({dosage:initDosage,halflife:initHalf,supply:initSupply,news:initNews})[s.id]?.(sec);$$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}))}});
+/* tables never scroll inside the page: when one is too wide it becomes a stack of cards */
+function fitTables(){
+  $$('.tw table').forEach(t=>{const hs=[...t.querySelectorAll('thead th')].map(h=>h.textContent.replace(/[\u2195\u25B2\u25BC]/g,'').trim());
+    t.querySelectorAll('tbody tr').forEach(tr=>[...tr.children].forEach((td,i)=>{if(!td.dataset.label&&hs[i])td.dataset.label=hs[i]}))});
+  $$('.tw').forEach(tw=>{const t=tw.querySelector('table');if(!t||t.id==='mx'||!tw.offsetParent)return;tw.classList.remove('stack');if(t.offsetWidth>tw.clientWidth+1)tw.classList.add('stack')});
+}
+document.addEventListener('toggle',fitTables,true);addEventListener('resize',fitTables);addEventListener('hashchange',()=>setTimeout(fitTables,80));
+route();setTimeout(fitTables,0);
 
 /* ---------- global search ---------- */
 const gs=$('#gs'),res=$('#results');let sel=-1;
