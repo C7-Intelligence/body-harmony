@@ -1,38 +1,38 @@
 window.FEED_ART={
- "generated": "2026-11-09T22:28Z",
+ "generated": "2026-11-10T07:27Z",
  "sources": [
   {
    "id": "gnews-a",
    "name": "Google News: peptide safety and enforcement (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-09T22:28Z",
+   "checked": "2026-11-10T07:27Z",
    "ok": true,
-   "new": 44,
-   "seen": 51,
-   "lastOk": "2026-11-09T22:28Z"
+   "new": 39,
+   "seen": 48,
+   "lastOk": "2026-11-10T07:27Z"
   },
   {
    "id": "epmc",
    "name": "Europe PMC: new research papers",
    "home": "https://europepmc.org",
    "type": "epmc",
-   "checked": "2026-11-09T22:28Z",
+   "checked": "2026-11-10T07:27Z",
    "ok": true,
-   "new": 5,
+   "new": 1,
    "seen": 15,
-   "lastOk": "2026-11-09T22:28Z"
+   "lastOk": "2026-11-10T07:27Z"
   },
   {
    "id": "stat",
    "name": "STAT News (RSS)",
    "home": "https://www.statnews.com",
    "type": "rss",
-   "checked": "2026-11-09T22:28Z",
+   "checked": "2026-11-10T07:27Z",
    "ok": true,
-   "new": 2,
+   "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-09T22:28Z"
+   "lastOk": "2026-11-10T07:27Z"
   }
  ],
  "items": [
@@ -119,6 +119,20 @@ window.FEED_ART={
    "d": "2026-11-09",
    "s": "stat",
    "x": "Eli Lilly’s GLP-1 pill Foundayo helped alleviate sleep apnea in two late-stage studies, but it doesn’t appear as effective as Lilly’s injectable drug Zepbound."
+  },
+  {
+   "t": "Retatrutide Significantly Eased Knee Pain in Two Major New Trials - Everyday Health",
+   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZXRtbTYzcjRXTEJycDIxMjZBdGJrRXl2MFRtMUQ5OUFCdFlLNHhwNTBDcXN5QkZFSHBiU2JodldOdE1jV3B0UlNsaF8xSEZOSkRORllRM2pyLTFuMGEwbzZvOTVoVWFJeVBIb1NNWmxBdWhQYzU2TkNnMVNyUHgtSGpkOWdFdWdib2tEdE5Ja0lsdUQ4dFF4MDJhOS0yWktNSFpwVjhldw?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-a",
+   "x": "Retatrutide Significantly Eased Knee Pain in Two Major New Trials Everyday Health"
+  },
+  {
+   "t": "Retatrutide and knee osteoarthritis: two phase 3 trials - srpske.rs",
+   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNHBQUF83TDl5ZUU3TlVqMG5iLU5WSnZlV0pUTTNxSy1HbDJRS2o5WFFxS0R0UHNla1ZOWWhxQnRjM3JSSE5vUEg4ZTNfS0JlSTE1TU9wcE5DYlZxLWNqaGJpalJsMEJ1Y05oM0Q4dGpnMHVPUG1QRlJVc1BKb3NCclcyVVpWRzY0YzhzaXJSTUZuUjhQaV9qdTZOZF94VlcwRl9B?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-a",
+   "x": "Retatrutide and knee osteoarthritis: two phase 3 trials srpske.rs"
   },
   {
    "t": "Retatrutide Reduces Knee Pain in Obesity and Osteoarthritis Trials - Bioengineer.org",
@@ -336,20 +350,6 @@ window.FEED_ART={
    "d": "2026-11-02",
    "s": "gnews-a",
    "x": "AI Used To Discover Side Effects Of Unapproved Weight-Loss Drug Retatrutide MiNDFOOD"
-  },
-  {
-   "t": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee - TradingView",
-   "l": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQdlBYMHkwZElRQi0xQnlOLXI5QmN2UFpBeGVjcC1kalFjVzdMLWRuNzJDbFgyQTdEcnV2MUktdXNSZnkyVGJtc2tqLTUxYnN6WEt2SGEzRUVrS012eVhLZ0pvZzFDWHh3eWpUaXUyYkFVMHZVaUcwd1FUZ0YzZUpLYnQtSUs5U1I1Z1ZRQ3pZVER4R1BJcHgxUjM4eFNOT3QwVWUtNnpLLXh3am8tZVhSTDNoa0JYM2JaRFUzVkxnUklBTF9sbDBfMzdmRWNIaWRodUx5RkV2ekcxYzZWdjJoWUV0eUVXelplVlU2X3BIbk84X2IwYjlFV1dtbWwwUQ?oc=5",
-   "d": "2026-11-02",
-   "s": "gnews-a",
-   "x": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee TradingView"
-  },
-  {
-   "t": "Health Ministry seizes 697 units of unapproved Retatrutide worth RM341,000 - The Sun Malaysia",
-   "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRklTMjhZbjJueVVpSEFwTVE0OWpzWFNNdmlkRndzc0pBRE8zZFJZWkhtMFNtNllqMGRudHYyUFR1NDg1RS1VT2l0Q21rZnhudktVYWhrYm5KNnBmbTljUWxSWWZLdjNESm1SRGZDdVlVdEU0cURoRDZndDEwa0w1WEdHYjNGQ1NodWQxY29uWk5vMlpnalRlc1Z4ZkZJUQ?oc=5",
-   "d": "2026-11-02",
-   "s": "gnews-a",
-   "x": "Health Ministry seizes 697 units of unapproved Retatrutide worth RM341,000 The Sun Malaysia"
   },
   {
    "t": "Global Landscape and Thematic Evolution of Selective GLP-1 Receptor Agonists and GLP-1-Based Multi-Receptor Agonists in Type 2 Diabetes Mellitus: A Bibliometric Analysis.",

@@ -1,112 +1,112 @@
 window.FEED={
- "generated": "2026-11-09T22:28Z",
+ "generated": "2026-11-10T07:27Z",
  "sources": [
   {
    "id": "fda-press",
    "name": "FDA Press Announcements (RSS)",
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
-   "checked": "2026-11-09T22:28Z",
+   "checked": "2026-11-10T07:27Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-09T22:28Z"
+   "lastOk": "2026-11-10T07:27Z"
   },
   {
    "id": "fda-drugs",
    "name": "FDA Drugs: What's New (RSS)",
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
-   "checked": "2026-11-09T22:28Z",
+   "checked": "2026-11-10T07:27Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-09T22:28Z"
+   "lastOk": "2026-11-10T07:27Z"
   },
   {
    "id": "fda-medwatch",
    "name": "FDA MedWatch Safety Alerts (RSS)",
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
-   "checked": "2026-11-09T22:28Z",
+   "checked": "2026-11-10T07:27Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-09T22:28Z"
+   "lastOk": "2026-11-10T07:27Z"
   },
   {
    "id": "fr-fda",
    "name": "Federal Register: FDA notices & rules (API)",
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
-   "checked": "2026-11-09T22:28Z",
+   "checked": "2026-11-10T07:27Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-09T22:28Z"
+   "lastOk": "2026-11-10T07:27Z"
   },
   {
    "id": "fr-cbp",
    "name": "Federal Register: CBP import rules (API)",
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
-   "checked": "2026-11-09T22:28Z",
+   "checked": "2026-11-10T07:27Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-09T22:28Z"
+   "lastOk": "2026-11-10T07:27Z"
   },
   {
    "id": "fierce",
    "name": "Fierce Pharma (RSS)",
    "home": "https://www.fiercepharma.com",
    "type": "rss",
-   "checked": "2026-11-09T22:28Z",
+   "checked": "2026-11-10T07:27Z",
    "ok": true,
    "new": 3,
    "seen": 3,
-   "lastOk": "2026-11-09T22:28Z"
+   "lastOk": "2026-11-10T07:27Z"
   },
   {
    "id": "gnews",
    "name": "Google News search (aggregated RSS)",
    "home": "https://news.google.com",
    "type": "rss",
-   "checked": "2026-11-09T22:28Z",
+   "checked": "2026-11-10T07:27Z",
    "ok": true,
    "new": 85,
-   "seen": 92,
-   "lastOk": "2026-11-09T22:28Z"
+   "seen": 94,
+   "lastOk": "2026-11-10T07:27Z"
   }
  ],
  "items": [
   {
-   "t": "MedWatch Alert: FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) Due to Potential Increased Risk of Rare But Serious Eye Condition: FDA Safety…",
-   "l": "http://www.fda.gov/safety/medical-product-safety-information/medwatch-alert-fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras",
-   "d": "2026-11-09",
-   "s": "fda-medwatch",
-   "x": "FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) Due to Potential Increased Risk of Rare But Serious Eye Condition: FDA Safety Communication"
-  },
-  {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/lilly-heads-fda-phase-3-foundayo-win-sleep-apnea",
-   "d": "2026-11-09",
+   "d": "2026-11-10",
    "s": "fierce",
    "x": "Lilly's oral GLP-1 Foundayo significantly reduced sleep apnea severity in a phase 3 study presented at the AHA Scientific Sessions on Monday. Now, the pharma is approaching the FDA in hopes of a label expansion."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-11-09",
+   "d": "2026-11-10",
    "s": "fierce",
    "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions."
   },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/marketing/eli-lilly-forces-compounding-rival-shed-weight-loss-claims",
-   "d": "2026-11-09",
+   "d": "2026-11-10",
    "s": "fierce",
    "x": "Eli Lilly has successfully challenged Good Life Meds’ claims about the health benefits and personalization of a compounded tirzepatide product."
+  },
+  {
+   "t": "MedWatch Alert: FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) Due to Potential Increased Risk of Rare But Serious Eye Condition: FDA Safety…",
+   "l": "http://www.fda.gov/safety/medical-product-safety-information/medwatch-alert-fda-requires-safety-labeling-changes-glucagon-peptide-1-receptor-agonists-glp-1-ras",
+   "d": "2026-11-09",
+   "s": "fda-medwatch",
+   "x": "FDA Requires Safety Labeling Changes for Glucagon-Like Peptide-1 Receptor Agonists (GLP-1 RAs) Due to Potential Increased Risk of Rare But Serious Eye Condition: FDA Safety Communication"
   },
   {
    "t": "DataMEDS AI Announces Corexa Pharmacy's First Commercial Sale of Compounded Peptides Under FDA Enforcement Discretion Policy - The Detroit News",
@@ -163,6 +163,13 @@ window.FEED={
    "d": "2026-11-07",
    "s": "gnews",
    "x": "RFK Jr. eases access to unproven peptides despite opposition from FDA scientists Findlay News | The Courier"
+  },
+  {
+   "t": "‘I'm always going to wonder': Santa Cruz woman with cancer warns against unapproved peptides - NBC Bay Area",
+   "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNd2oxZ0ZyWHFPTU40UzlXQm5DUHVIazZCNDRheEdJQks4em9WejBRdGs2aU9MYUJiZDl3M2pRZHd0UzVzYWhRMV82Wmx6UFVnZ2FJaS1oUWxkRFNiR0RTN2w2aHZSbUdwVlc4c0thNVJScHd2dWp4bXNPd2ZXbmJlRnl3YUlwSENXQktNYTNLTm9BQmE0OTNNaFBB0gGiAUFVX3lxTFBuSHl2MEdObDVBVHc0OEViZTFtUVhiNHY4RzBqaTB3RE10eWstd0NkdlVMOW43YmhudnFaOU82WEh3bXVEQmVMMVVsNDA2aGZQWkhLV2MtTXpuOHJmbDF5R0pJWW9hYU94Z0l5aVdod0lRY0ZkYWIzM0VkdjZwOTExZ0hoNUFfY0g0eEIwSkxjZ1l0WjB1cGFwa1lGTUd2QXJ2dw?oc=5",
+   "d": "2026-11-06",
+   "s": "gnews",
+   "x": "‘I'm always going to wonder': Santa Cruz woman with cancer warns against unapproved peptides NBC Bay Area"
   },
   {
    "t": "RFK Jr. Just Made Peptides Easier To Get—7 Things Patients Should Know - Forbes",
@@ -394,13 +401,6 @@ window.FEED={
    "d": "2026-10-28",
    "s": "gnews",
    "x": "RFK Jr. to ease access to unapproved peptides, draft policy states CBS News"
-  },
-  {
-   "t": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale - The Washington Post",
-   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPeGFGSWIwWEJzZkswTHlVR2VucWswRnVIOWZxRFZ2TC1iTjhJQ2h1SGpHWTY4RktXME9oQnFELVNkT0Vsa3J3d3RaQmxDaERudGg2Mk9MOXEzV2p4Z1ZLVHA3aDA3VW40WGtyVUpxdjBiMjVidjk2Q2JNeDdmdGhpVE1pUDBUZFc5dDRiQnJ0RVdzU1hBZ25OTzlyOVBrbHJOTkZFWEY3c1VYTWpyQjczN015Tkk2QnJTVUJiMw?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "RFK Jr. plans to make 6 unapproved peptides available for temporary sale The Washington Post"
   },
   {
    "t": "Counterfeit Versions of Eye Drops Found in Several States",
