@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-10T15:57Z",
+ "generated": "2026-11-10T19:50Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-10T15:57Z",
+   "checked": "2026-11-10T19:50Z",
    "ok": true,
-   "new": 43,
+   "new": 41,
    "seen": 60,
-   "lastOk": "2026-11-10T15:57Z"
+   "lastOk": "2026-11-10T19:50Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-10T15:57Z",
+   "checked": "2026-11-10T19:50Z",
    "ok": true,
-   "new": 31,
+   "new": 23,
    "seen": 45,
-   "lastOk": "2026-11-10T15:57Z"
+   "lastOk": "2026-11-10T19:50Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-10T15:57Z",
+   "checked": "2026-11-10T19:50Z",
    "ok": true,
-   "new": 2,
-   "seen": 4,
-   "lastOk": "2026-11-10T15:57Z"
+   "new": 0,
+   "seen": 3,
+   "lastOk": "2026-11-10T19:50Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-10T15:57Z",
+   "checked": "2026-11-10T19:50Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-10T15:57Z"
+   "lastOk": "2026-11-10T19:50Z"
   },
   {
    "id": "gnews-gh",
@@ -55,11 +55,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-10T15:57Z",
+   "checked": "2026-11-10T19:50Z",
    "ok": true,
-   "new": 7,
-   "seen": 8,
-   "lastOk": "2026-11-10T15:57Z"
+   "new": 0,
+   "seen": 7,
+   "lastOk": "2026-11-10T19:50Z"
   }
  ],
  "items": [
@@ -101,6 +101,14 @@ window.FEED_ART={
    "d": "2026-11-10",
    "s": "stat",
    "x": "The FDA approved a novel drug to reduce recurrence of stroke, the agency is warning that GLP-1s carry a potential risk for an eye condition, and more pharma news of…",
+   "c": "Industry"
+  },
+  {
+   "t": "Opinion | RFK Jr. Is Ushering in Peptides. As an Oncologist, Here Are My Concerns. - MedPage Today",
+   "l": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1nay1XYlk4Wi15aTkxeVNDNm5MSmpKMGxiUk05dlpRNDRDcjdhMlVkOUhDVjEya3liSnRBU21TNWRuNTJtU3JuUFVQZFJVTTZHbDlWZkpBSFlPVUpZLUpUdEhQNWVBMGhBYlpJ?oc=5",
+   "d": "2026-11-10",
+   "s": "gnews-a",
+   "x": "Opinion | RFK Jr. Is Ushering in Peptides. As an Oncologist, Here Are My Concerns. MedPage Today",
    "c": "Industry"
   },
   {
@@ -179,11 +187,11 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Retatrutide Significantly Eased Knee Pain in Two Major New Trials - Everyday Health",
+   "t": "Retatrutide ‘Significantly’ Eases Knee Pain in People With Obesity, Studies Show - Everyday Health",
    "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZXRtbTYzcjRXTEJycDIxMjZBdGJrRXl2MFRtMUQ5OUFCdFlLNHhwNTBDcXN5QkZFSHBiU2JodldOdE1jV3B0UlNsaF8xSEZOSkRORllRM2pyLTFuMGEwbzZvOTVoVWFJeVBIb1NNWmxBdWhQYzU2TkNnMVNyUHgtSGpkOWdFdWdib2tEdE5Ja0lsdUQ4dFF4MDJhOS0yWktNSFpwVjhldw?oc=5",
    "d": "2026-11-09",
    "s": "gnews-a",
-   "x": "Retatrutide Significantly Eased Knee Pain in Two Major New Trials Everyday Health",
+   "x": "Retatrutide ‘Significantly’ Eases Knee Pain in People With Obesity, Studies Show Everyday Health",
    "c": "Industry"
   },
   {
@@ -457,13 +465,6 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Wien Med Wochenschr · Cuba L, Hasslinger S, Plieger M, Zaekova A, Ferlitsch M.",
    "c": "Research"
-  },
-  {
-   "t": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee - The Columbus Dispatch",
-   "l": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxObjJGWUpIOFE2YWxhLWhXR1MtVmVOY29aRUY2MHFCeUI1dFVfZUkzMmxuZ0RUbTNSNjZvYk03b3B0bXhLLUhTQVV2c2Vsa3J1VkQ1clZJQjRLZTRUSUxUTnNZVzVkTWRoaDVGbzdwWXA4c0xqckQtYjVNWDBnMy03MzBLbHE5eWFLcEp0ZlMyRTZIT1JVbDRjam5VMnBwY1h5czdDcEN3T2NvbWZicWxnMHZ5SUZNaWtSVHQ3WTZhRWczNnZrNEMxMzBKTm4xSTl5ZVNlNmZJQ1FTQ25heTdmZVhPRnREd044UXV0YWVUOTdRS3JU?oc=5",
-   "d": "2026-11-02",
-   "s": "gnews-a",
-   "x": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee The Columbus Dispatch"
   },
   {
    "t": "Anabolic Androgenic Steroid Use and Myocardial Flow Reserve Among Women.",
