@@ -256,6 +256,78 @@
    "~5 days",
    "~5 days",
    "Dual GLP-1/GIP agonist (matches plasma profile)"
+  ],
+  [
+   "Mazdutide",
+   "About 6 – 7 days",
+   "Not established",
+   "Long-acting dual agonist"
+  ],
+  [
+   "Survodutide",
+   "About 6 days",
+   "Not established",
+   "Long-acting dual agonist"
+  ],
+  [
+   "Adipotide",
+   "2 – 4 hours",
+   "Not established",
+   "Not established"
+  ],
+  [
+   "Setmelanotide",
+   "About 11 hours",
+   "Not established",
+   "Not established"
+  ],
+  [
+   "HGH 191AA",
+   "3 – 4 hours",
+   "Not established",
+   "Not established"
+  ],
+  [
+   "MGF",
+   "5 – 7 minutes",
+   "Not established",
+   "Extremely short-lived; acts locally"
+  ],
+  [
+   "ACE-031",
+   "10 – 15 days",
+   "Not established",
+   "Long-acting fusion protein"
+  ],
+  [
+   "CJC-1295 DAC",
+   "About 8 days",
+   "Not established",
+   "DAC binds albumin, extending action"
+  ],
+  [
+   "Thymosin Beta-4 (full length)",
+   "About 2 hours",
+   "Not established",
+   "Not established"
+  ],
+  [
+   "FOXO4-DRI",
+   "2 – 4 hours",
+   "Not established",
+   "Short pulse courses, not continuous dosing"
+  ],
+  [
+   "LL-37",
+   "Under 30 minutes",
+   "Not established",
+   "Not established"
+  ],
+  [
+   "Alpha-MSH",
+   "About 20 minutes",
+   "Not established",
+   "Not established"
   ]
  ],
  "notes": [

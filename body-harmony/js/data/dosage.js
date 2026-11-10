@@ -208,7 +208,7 @@
   {
    "name": "GLOW",
    "cat": "Cosmetic & Healing",
-   "dose": "Varies based on the blended ratio",
+   "dose": "About 2.33 mg total injected daily for 4 weeks, then a break. Dose shown is the blend total.",
    "desc": "A synergistic blend of BPC-157 and GHK-Cu focused on rapid tissue healing and skin improvement."
   },
   {
@@ -238,7 +238,7 @@
   {
    "name": "Humanin",
    "cat": "Anti-aging & Neuro",
-   "dose": "Varies by research protocol",
+   "dose": "1 to 5 mg injected every other day to 3 times weekly (doses are extrapolated)",
    "desc": "A mitochondrial-derived peptide studied for protecting against oxidative stress and cognitive decline."
   },
   {
@@ -268,7 +268,7 @@
   {
    "name": "KLOW",
    "cat": "Healing & Immunity",
-   "dose": "Varies based on the blended ratio",
+   "dose": "About 2 mg total (250 mcg each of BPC-157, TB-500 and KPV plus 1.25 mg GHK-Cu) rising to 6 mg total, injected daily. Dose shown is the blend total.",
    "desc": "A formulated blend consisting of TB-500, BPC-157, and KPV for comprehensive healing and anti-inflammatory action."
   },
   {
@@ -402,6 +402,84 @@
    "cat": "Metabolic & Weight",
    "dose": "2.5 to 15 mg injected once weekly (titrated)",
    "desc": "A dual GIP/GLP-1 receptor agonist that yields significant weight loss and regulates blood glucose levels."
+  },
+  {
+   "name": "Mazdutide",
+   "cat": "Metabolic & Weight",
+   "dose": "3 to 9 mg injected once weekly, stepped up over time",
+   "desc": "A dual GLP-1 and glucagon receptor agonist studied for weight loss. Approved in China only."
+  },
+  {
+   "name": "Survodutide",
+   "cat": "Metabolic & Weight",
+   "dose": "0.6 mg stepping up to 2.4 mg or more, injected once weekly",
+   "desc": "An investigational dual GLP-1 and glucagon agonist studied for weight loss and fatty liver disease. Not approved."
+  },
+  {
+   "name": "Adipotide",
+   "cat": "Metabolic & Weight",
+   "dose": "0.5 to 2 mg injected daily (extrapolated from primate data; no safe human dose is known)",
+   "desc": "An investigational peptide that cut body fat in monkeys by targeting blood supply to fat tissue. Human development stopped in 2019 after kidney toxicity."
+  },
+  {
+   "name": "Setmelanotide",
+   "cat": "Metabolic & Weight",
+   "dose": "2 to 3 mg injected daily (prescription use; 0.5 mg start in some cases)",
+   "desc": "An FDA-approved MC4R agonist for rare genetic forms of obesity. Prescription use only, after genetic testing."
+  },
+  {
+   "name": "HGH 191AA",
+   "cat": "Growth Hormone",
+   "dose": "200 to 1000 mcg (about 0.6 to 3 IU) injected daily",
+   "desc": "Recombinant human growth hormone. FDA-approved for growth hormone deficiency; higher doses are off-label. 1 mg is about 3 IU."
+  },
+  {
+   "name": "MGF",
+   "cat": "Healing & Recovery",
+   "dose": "100 to 300 mcg injected daily, often IM near the trained muscle",
+   "desc": "Mechano growth factor, a short-lived IGF-1 splice variant studied for muscle repair."
+  },
+  {
+   "name": "ACE-031",
+   "cat": "Growth & Muscle",
+   "dose": "500 to 1500 mcg injected every 2 to 4 weeks (community doses; trials were halted for safety)",
+   "desc": "A myostatin blocker studied for muscle gain. Development stopped over blood-vessel safety signals."
+  },
+  {
+   "name": "CJC-1295 DAC",
+   "cat": "Growth Hormone",
+   "dose": "1 to 2 mg injected once or twice weekly",
+   "desc": "CJC-1295 with a drug-affinity complex, so its growth hormone signal lasts for days instead of hours. Can cause water retention."
+  },
+  {
+   "name": "Thymosin Beta-4 (full length)",
+   "cat": "Healing & Recovery",
+   "dose": "750 mcg to 3 mg injected 2 to 3 times weekly",
+   "desc": "The full 43-amino-acid healing peptide, distinct from the shorter TB-500 fragment. Many products sold under this name may actually be TB-500."
+  },
+  {
+   "name": "FOXO4-DRI",
+   "cat": "Anti-aging",
+   "dose": "1 to 3 mg injected every other day for 3 doses (community doses; mouse data only)",
+   "desc": "A stabilized peptide designed to clear aging (senescent) cells. No human trials."
+  },
+  {
+   "name": "LL-37",
+   "cat": "Healing & Immunity",
+   "dose": "50 to 200 mcg injected daily (community doses)",
+   "desc": "A human antimicrobial peptide studied for immune and wound-healing roles. Not approved."
+  },
+  {
+   "name": "Alpha-MSH",
+   "cat": "Healing & Immunity",
+   "dose": "100 to 500 mcg injected daily (speculative doses)",
+   "desc": "A natural melanocortin peptide studied for anti-inflammatory effects. KPV is its shorter fragment."
+  },
+  {
+   "name": "Wolverine (BPC-157 + TB-500)",
+   "cat": "Healing & Recovery",
+   "dose": "500 mcg total (about 250 mcg of each) rising to 1000 mcg total, injected daily. Dose shown is the blend total.",
+   "desc": "A 1:1 blend of BPC-157 and TB-500, usually a 20 mg vial (10 mg of each). No controlled human trial tested the blend."
   }
  ],
  "matrixHdr": [
@@ -1156,6 +1234,166 @@
    "vial": "10mg",
    "bac": "1mL",
    "units": "25 units"
+  },
+  {
+   "name": "5-Amino-1MQ",
+   "dose": "50 mg **",
+   "freq": "Daily",
+   "vial": "50mg",
+   "bac": "5mL",
+   "units": "50 units"
+  },
+  {
+   "name": "Mazdutide",
+   "dose": "3 mg **",
+   "freq": "Once weekly",
+   "vial": "100mg",
+   "bac": "5mL",
+   "units": "15 units"
+  },
+  {
+   "name": "Survodutide",
+   "dose": "0.6 mg **",
+   "freq": "Once weekly",
+   "vial": "10mg",
+   "bac": "2mL",
+   "units": "12 units"
+  },
+  {
+   "name": "Adipotide",
+   "dose": "0.5 mg **",
+   "freq": "Daily",
+   "vial": "5mg",
+   "bac": "2mL",
+   "units": "20 units"
+  },
+  {
+   "name": "Setmelanotide",
+   "dose": "2 mg **",
+   "freq": "Once daily",
+   "vial": "10mg",
+   "bac": "1mL",
+   "units": "20 units"
+  },
+  {
+   "name": "HGH 191AA",
+   "dose": "200 mcg **",
+   "freq": "Daily",
+   "vial": "5mg",
+   "bac": "2mL",
+   "units": "8 units"
+  },
+  {
+   "name": "MGF",
+   "dose": "100 mcg **",
+   "freq": "Daily",
+   "vial": "2mg",
+   "bac": "1mL",
+   "units": "5 units"
+  },
+  {
+   "name": "ACE-031",
+   "dose": "500 mcg **",
+   "freq": "Every 2 to 4 weeks",
+   "vial": "5mg",
+   "bac": "2mL",
+   "units": "20 units"
+  },
+  {
+   "name": "CJC-1295 DAC",
+   "dose": "1 mg **",
+   "freq": "Once weekly",
+   "vial": "2mg",
+   "bac": "1mL",
+   "units": "50 units"
+  },
+  {
+   "name": "Thymosin Beta-4 (full length)",
+   "dose": "750 mcg **",
+   "freq": "2 to 3 times weekly",
+   "vial": "5mg",
+   "bac": "2mL",
+   "units": "30 units"
+  },
+  {
+   "name": "AHK-Cu",
+   "dose": "100 mcg **",
+   "freq": "Daily",
+   "vial": "5mg",
+   "bac": "2mL",
+   "units": "4 units"
+  },
+  {
+   "name": "Glutathione",
+   "dose": "200 mg **",
+   "freq": "2 times weekly",
+   "vial": "1500mg",
+   "bac": "10mL",
+   "units": "133 units"
+  },
+  {
+   "name": "Humanin",
+   "dose": "1 mg **",
+   "freq": "Every other day",
+   "vial": "5mg",
+   "bac": "2mL",
+   "units": "40 units"
+  },
+  {
+   "name": "AICAR",
+   "dose": "10 mg **",
+   "freq": "Daily",
+   "vial": "50mg",
+   "bac": "2mL",
+   "units": "40 units"
+  },
+  {
+   "name": "FOXO4-DRI",
+   "dose": "1 mg **",
+   "freq": "Every other day (3 doses)",
+   "vial": "10mg",
+   "bac": "2mL",
+   "units": "20 units"
+  },
+  {
+   "name": "LL-37",
+   "dose": "50 mcg **",
+   "freq": "Daily",
+   "vial": "5mg",
+   "bac": "2mL",
+   "units": "2 units"
+  },
+  {
+   "name": "Alpha-MSH",
+   "dose": "100 mcg **",
+   "freq": "Daily",
+   "vial": "5mg",
+   "bac": "2mL",
+   "units": "4 units"
+  },
+  {
+   "name": "Wolverine (BPC-157 + TB-500)",
+   "dose": "500 mcg **",
+   "freq": "Daily",
+   "vial": "20mg",
+   "bac": "3mL",
+   "units": "7.5 units"
+  },
+  {
+   "name": "KLOW",
+   "dose": "2 mg **",
+   "freq": "Daily",
+   "vial": "80mg",
+   "bac": "3mL",
+   "units": "7.5 units"
+  },
+  {
+   "name": "GLOW",
+   "dose": "2.33 mg **",
+   "freq": "Daily",
+   "vial": "70mg",
+   "bac": "3mL",
+   "units": "10 units"
   }
  ],
  "optDose": [
@@ -1191,7 +1429,9 @@
   "200mg"
  ],
  "optVial": [
+  "1mg",
   "2mg",
+  "3mg",
   "5mg",
   "10mg",
   "12mg",
@@ -1200,10 +1440,14 @@
   "40mg",
   "50mg",
   "60mg",
+  "70mg",
+  "80mg",
+  "100mg",
   "120mg",
   "250mg",
   "500mg",
-  "1000mg"
+  "1000mg",
+  "1500mg"
  ],
  "optBac": [
   "1mL",

@@ -191,7 +191,7 @@ R.dosage=()=>{
   idx('dosage','Dosage calculator','calculator reconstitution units syringe U-100 BAC water vial');
   const sub=[['storage','Storage'],['recon','Reconstitution'],['calc','Calculator'],['tracker','Tracker'],['matrix','Dosage matrix'],['protocols','Protocols'],['concentration','Concentration tables'],['mix','Mix chart'],['titration','Titration']];
   const opts=l=>l.map(o=>`<option>${esc(o)}</option>`).join('');
-  const names=d.lookup.map(x=>x.name);
+  const names=d.lookup.map(x=>x.name).sort((x,y)=>x.localeCompare(y,'en',{sensitivity:'base',numeric:true}));
   const vt=v=>`<h3>${esc(v.title)}</h3><p>${esc(v.sub)}</p><div class="tw"><table><thead><tr>${v.hdr.map(h=>`<th class="nosort">${esc(h)}</th>`).join('')}</tr></thead><tbody>${v.rows.map(r=>`<tr>${r.map((c,i)=>`<td class="${i?'':'name'}">${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div><h4 style="margin-top:14px">${esc(v.exTitle)}</h4>${v.ex.map(x=>`<p style="margin:.2em 0">${esc(x)}</p>`).join('')}`;
   const mh=d.matrixHdr;
   const groups=['5mg','10mg','20mg'];
