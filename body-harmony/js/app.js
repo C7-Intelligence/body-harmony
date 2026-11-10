@@ -20,7 +20,7 @@ const SECTIONS=[
  {id:'dosage',ic:'💉',name:'Dosage'},
  {id:'schedule',ic:'🗓',name:'Schedule and log',modern:true,alias:'dosage'},
  {id:'halflife',ic:'⏱',name:'Half-Life'},
- {id:'peds',ic:'💪',name:'PEDs'},
+ {id:'peds',ic:'💪',name:'Anabolics'},
  {id:'supply',ic:'🧴',name:'Medical Supply Vendors'},
  {id:'bac',ic:'⚠',name:'BAC Water Tests'},
  {id:'terms',ic:'📖',name:'Terminology'},
@@ -104,7 +104,7 @@ const R={};
 R.home=()=>{
   const s=D.start;
   s.directory.forEach(x=>idx('home',x.name,x.desc));
-  const secOf={'Peptide Vendors':'vendors','Dosage':'dosage','PEDs':'peds','Medical Supply Vendors':'supply','BAC Water Tests - MUST READ!!!':'bac','Terminology':'terms','Regulation Info':'reg','Forums, Articles, etc.':'forums','Nutrition':'nutrition','Medical':'medical','Roadmap':'roadmap'};
+  const secOf={'Peptide Vendors':'vendors','Dosage':'dosage','Anabolics':'peds','Medical Supply Vendors':'supply','BAC Water Tests - MUST READ!!!':'bac','Terminology':'terms','Regulation Info':'reg','Forums, Articles, etc.':'forums','Nutrition':'nutrition','Medical':'medical','Roadmap':'roadmap'};
   const upd={vendors:D.vendors.updated,dosage:D.dosage.updated,peds:D.peds.updated,supply:D.supply.updated,bac:D.bac.updated,terms:D.term.updated,reg:D.reg.updated,forums:D.forums.updated,nutrition:D.nutrition.updated,medical:D.medical.updated,roadmap:D.roadmap.updated};
   const must=D.bac;
   return `<div class="hero"><div class="mono-mark">B · H</div><h1>Body Harmony</h1><div class="rule"></div><p class="tag-line"><b>Peptide vendors, dosing, half-lives, testing results and regulation news</b> in one reference. Use the directory to jump to a section.</p><button class="btn" onclick="document.getElementById('dir').scrollIntoView({behavior:'smooth'})">Browse the guide</button><br><span class="upd">Last updated ${esc(s.updated)}</span></div>
@@ -125,7 +125,7 @@ R.home=()=>{
    <a class="stp" href="#dosage"><span class="dnum">4</span><b>Measure and track</b><small>Calculator and dose tracker</small></a>
   </div>
   <h2 id="dir" style="margin-top:30px">Everything in the guide</h2>
-  ${[['Learn the basics',['Dosage','Terminology','Medical','Nutrition']],['Buy with care',['Peptide Vendors','Medical Supply Vendors','BAC Water Tests - MUST READ!!!']],['Stay informed',['Regulation Info','Forums, Articles, etc.','PEDs','Roadmap']]].map(([g,names])=>`<h3 class="grp">${g}</h3><div class="grid g3 dirgrid">${names.map(n=>s.directory.find(x=>x.name.trim()===n)).filter(Boolean).map(x=>{const id=secOf[x.name.trim()];return `<a class="lc" href="#${id}"><span class="n">${upd[id]?'Updated '+esc(upd[id]):''}</span><span class="t">${esc(x.name.trim().replace(/ - MUST READ!!!/,''))}</span><span class="d">${esc(x.desc)}</span></a>`}).join('')}</div>`).join('')}`;
+  ${[['Learn the basics',['Dosage','Terminology','Medical','Nutrition']],['Buy with care',['Peptide Vendors','Medical Supply Vendors','BAC Water Tests - MUST READ!!!']],['Stay informed',['Regulation Info','Forums, Articles, etc.','Anabolics','Roadmap']]].map(([g,names])=>`<h3 class="grp">${g}</h3><div class="grid g3 dirgrid">${names.map(n=>s.directory.find(x=>x.name.trim()===n)).filter(Boolean).map(x=>{const id=secOf[x.name.trim()];return `<a class="lc" href="#${id}"><span class="n">${upd[id]?'Updated '+esc(upd[id]):''}</span><span class="t">${esc(x.name.trim().replace(/ - MUST READ!!!/,''))}</span><span class="d">${esc(x.desc)}</span></a>`}).join('')}</div>`).join('')}`;
 };
 
 R.today=()=>{
@@ -369,11 +369,20 @@ function initHalf(root){
 
 /* ----- peds ----- */
 R.peds=()=>{
-  const p=D.peds;p.links.forEach(u=>idx('peds',host(u),u));idx('peds','Growth hormone pathway',p.caption);
-  return head('PEDs',p.updated,'Information regarding performance-enhancing drugs and medical use.')+plain('How to use this page',['Links to reference material on performance-enhancing drugs, followed by a diagram of how the body regulates growth hormone.','The glossary on the <a href="#terms">Terminology page</a> explains the abbreviations.'])+`
-  <h2>Primary reference</h2><div class="grid g3">${p.links.slice(0,1).map(u=>linkCard(u)).join('')}</div>
+  const p=D.peds,A=D.anabolics;p.links.forEach(u=>idx('peds',host(u),u));idx('peds','Growth hormone pathway',p.caption);
+  A.steroids.forEach(r=>idx('peds',r[0],r[2]));A.sarms.forEach(r=>idx('peds',r[0],r[1]));A.dangers.forEach(r=>idx('peds',r[0],r[1]));A.how.forEach(r=>idx('peds',r[0],r[1]));
+  const tbl=(h,rows)=>`<div class="tw"><table><thead><tr>${h.map(x=>`<th class="nosort">${x}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr>${r.map((c,i)=>`<td class="${i?'':'name'}">${esc(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  const dl=rows=>`<dl class="gl">${rows.map(([k,v])=>`<dt>${esc(k)}</dt><dd>${esc(v)}</dd>`).join('')}</dl>`;
+  return head('Anabolics',p.updated,'Anabolic steroids, SARMs and related drugs: what they are, how they work and what can go wrong.')+plain('Read this first',[esc(A.notice),'The glossary on the <a href="#terms">Terminology page</a> explains the abbreviations.'])+`
+  ${refBox('a-how','How they work','Receptors, muscle growth and why side effects happen',dl(A.how),true)}
+  ${refBox('a-ster','Anabolic steroids commonly used in bodybuilding',`${A.steroids.length} compounds`,tbl(['Compound','Form','What it does and what to know'],A.steroids),false)}
+  ${refBox('a-sarm','SARMs and look-alikes',`${A.sarms.length} compounds`,'<p>SARMs (selective androgen receptor modulators) are designed to act on muscle and bone more than on other tissues. None is approved by the FDA, and the FDA has warned about products sold as supplements.</p>'+tbl(['Compound','What it does and what to know'],A.sarms),false)}
+  ${refBox('a-anc','Drugs often used alongside them','Ancillaries and add-ons',tbl(['Drug','Why it is used and what to know'],A.ancillary),false)}
+  ${refBox('a-dang','Dangers and health risks',`${A.dangers.length} areas`,dl(A.dangers),true)}
+  ${refBox('a-more','Other things worth knowing','Medical use, blood work, recovery, counterfeits and help',dl(A.worth),true)}
+  <h2>Reference links</h2><div class="grid g3">${p.links.slice(0,1).map(u=>linkCard(u)).join('')}</div>
   ${refBox('p-more','Other sources',`${p.links.length-1} more links`,`<div class="grid g3">${p.links.slice(1).map(u=>linkCard(u)).join('')}</div>`,false)}
-  ${refBox('p-gh','Growth hormone secretion pathway','Diagram of how the body controls GH release',fig('gh-pathway.jpg','Biological pathway regulating growth hormone secretion',p.caption),true)}`;
+  ${refBox('p-gh','Growth hormone secretion pathway','Diagram of how the body controls GH release',fig('gh-pathway.jpg','Biological pathway regulating growth hormone secretion',p.caption),false)}`;
 };
 
 /* ----- supply ----- */

@@ -12,8 +12,8 @@
    "desc": "Tools to calculate peptide dosages and reconstitution volumes."
   },
   {
-   "name": "PEDs",
-   "desc": "Information regarding performance-enhancing drugs and medical use."
+   "name": "Anabolics",
+   "desc": "Anabolic steroids and SARMs: how they work, commonly used compounds and the dangers."
   },
   {
    "name": "Medical Supply Vendors",
