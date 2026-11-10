@@ -96,6 +96,18 @@
    "Telomerase activation and pineal gland restoration"
   ],
   [
+   "GHRP-2",
+   "About 30 minutes",
+   "Not established",
+   "Triggers growth hormone release pulses"
+  ],
+  [
+   "Gonadorelin",
+   "2 – 10 minutes",
+   "Not established",
+   "Short GnRH pulses that prompt LH and FSH release"
+  ],
+  [
    "GHRP-6 / Ipamorelin",
    "20 mins – 2 hours",
    "3 – 5 hours",
@@ -120,10 +132,22 @@
    "Mitochondrial protection and anti-apoptotic signaling"
   ],
   [
+   "Hexarelin",
+   "About 70 minutes",
+   "Not established",
+   "Triggers growth hormone release pulses"
+  ],
+  [
    "IGF-1 LR3",
    "20 – 30 hours",
    "24 – 48 hours",
    "Reduced binding to IGFBPs allows extended receptor binding"
+  ],
+  [
+   "IGF-1 DES",
+   "20 – 30 minutes",
+   "Not established",
+   "Very short-lived; acts mainly at the injection site"
   ],
   [
    "Kisspeptin-10",
@@ -166,6 +190,12 @@
    "~1.5 hours",
    "6 – 12 hours",
    "TREK-1 channel inhibition, mediating antidepressant effect"
+  ],
+  [
+   "PEG-MGF",
+   "About 5 days",
+   "Not established",
+   "PEG attachment slows clearance"
   ],
   [
    "PT141 (Bremelanotide)",

@@ -194,6 +194,12 @@
    "desc": "A naturally occurring copper peptide highly effective in skin remodeling, collagen synthesis, and tissue repair."
   },
   {
+   "name": "GHRP-2",
+   "cat": "Growth Hormone",
+   "dose": "100 to 200 mcg injected 2 to 3 times daily",
+   "desc": "A synthetic growth hormone secretagogue that triggers growth hormone release pulses, with a milder effect on appetite than GHRP-6."
+  },
+  {
    "name": "GHRP-6",
    "cat": "Growth Hormone",
    "dose": "100 to 300 mcg injected 1 to 3 times daily",
@@ -212,6 +218,18 @@
    "desc": "The body's \"master antioxidant,\" essential for cellular defense and liver detoxification."
   },
   {
+   "name": "Gonadorelin",
+   "cat": "Hormonal",
+   "dose": "100 mcg injected 2 to 3 times weekly (as an add-on to testosterone replacement)",
+   "desc": "A lab-made version of GnRH, the brain signal that tells the pituitary to release LH and FSH."
+  },
+  {
+   "name": "Hexarelin",
+   "cat": "Growth Hormone",
+   "dose": "100 to 200 mcg injected 2 to 3 times daily",
+   "desc": "A synthetic growth hormone secretagogue described as the strongest releaser in the GHRP class; short cycles are usually discussed."
+  },
+  {
    "name": "HCG",
    "cat": "Hormonal",
    "dose": "250 to 500 IU injected 2 to 3 times weekly",
@@ -222,6 +240,12 @@
    "cat": "Anti-aging & Neuro",
    "dose": "Varies by research protocol",
    "desc": "A mitochondrial-derived peptide studied for protecting against oxidative stress and cognitive decline."
+  },
+  {
+   "name": "IGF-1 DES",
+   "cat": "Growth & Muscle",
+   "dose": "50 to 150 mcg injected daily (no established human dose)",
+   "desc": "A shortened form of IGF-1 with a very short half-life, discussed for local muscle effects around workouts. Studied mainly in animals and cells."
   },
   {
    "name": "IGF-1 LR3",
@@ -294,6 +318,12 @@
    "cat": "Cognitive & Mood",
    "dose": "400 mcg daily",
    "desc": "A synthetic peptide acting as a TREK-1 channel antagonist, studied for rapid-acting antidepressant effects."
+  },
+  {
+   "name": "PEG-MGF",
+   "cat": "Healing & Recovery",
+   "dose": "200 to 400 mcg injected 1 to 2 times weekly (sources differ)",
+   "desc": "A PEG-modified form of mechano growth factor, an IGF-1 splice variant studied for muscle repair. Human efficacy is not established."
   },
   {
    "name": "Pinealon",
@@ -912,9 +942,33 @@
    "units": "20 units"
   },
   {
+   "name": "GHRP-2",
+   "dose": "100 mcg **",
+   "freq": "2 to 3 times daily",
+   "vial": "5mg",
+   "bac": "1mL",
+   "units": "2 units"
+  },
+  {
    "name": "GHRP-6",
    "dose": "100 mcg **",
    "freq": "1 to 3 times daily",
+   "vial": "5mg",
+   "bac": "1mL",
+   "units": "2 units"
+  },
+  {
+   "name": "Gonadorelin",
+   "dose": "100 mcg **",
+   "freq": "2 to 3 times weekly",
+   "vial": "2mg",
+   "bac": "2mL",
+   "units": "5 units"
+  },
+  {
+   "name": "Hexarelin",
+   "dose": "100 mcg **",
+   "freq": "2 to 3 times daily",
    "vial": "5mg",
    "bac": "1mL",
    "units": "2 units"
@@ -934,6 +988,14 @@
    "vial": "5mg",
    "bac": "1mL",
    "units": "4 units"
+  },
+  {
+   "name": "IGF-1 DES",
+   "dose": "100 mcg **",
+   "freq": "Daily",
+   "vial": "1mg",
+   "bac": "1mL",
+   "units": "10 units"
   },
   {
    "name": "Kisspeptin-10",
@@ -990,6 +1052,14 @@
    "vial": "5mg",
    "bac": "1mL",
    "units": "8 units"
+  },
+  {
+   "name": "PEG-MGF",
+   "dose": "300 mcg **",
+   "freq": "1 to 2 times weekly",
+   "vial": "2mg",
+   "bac": "1mL",
+   "units": "15 units"
   },
   {
    "name": "Pinealon",
