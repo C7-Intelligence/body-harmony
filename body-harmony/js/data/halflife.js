@@ -328,6 +328,18 @@
    "About 20 minutes",
    "Not established",
    "Not established"
+  ],
+  [
+   "HGH (Somatropin)",
+   "2 – 4 hours",
+   "Not established",
+   "Short-acting; usually dosed daily"
+  ],
+  [
+   "Triptorelin",
+   "3 – 8 hours",
+   "Not established",
+   "GnRH agonist"
   ]
  ],
  "notes": [

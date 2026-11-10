@@ -480,6 +480,18 @@
    "cat": "Healing & Recovery",
    "dose": "500 mcg total (about 250 mcg of each) rising to 1000 mcg total, injected daily. Dose shown is the blend total.",
    "desc": "A 1:1 blend of BPC-157 and TB-500, usually a 20 mg vial (10 mg of each). No controlled human trial tested the blend."
+  },
+  {
+   "name": "HGH (Somatropin)",
+   "cat": "Growth Hormone",
+   "dose": "1 to 6 IU injected daily (community ranges; label doses are lower). Measured in IU, not mcg.",
+   "desc": "Recombinant human growth hormone, FDA-approved for growth hormone deficiency. Vials are labeled in IU (10, 30 or 36 IU); some brands also print mg."
+  },
+  {
+   "name": "Triptorelin",
+   "cat": "Hormonal",
+   "dose": "100 mcg injected once (community post-cycle use; higher doses are labeled for prostate cancer)",
+   "desc": "A GnRH agonist. The FDA approves much higher depot doses for prostate cancer; the 100 mcg use rests mainly on community experience."
   }
  ],
  "matrixHdr": [
@@ -1394,6 +1406,32 @@
    "vial": "70mg",
    "bac": "3mL",
    "units": "10 units"
+  },
+  {
+   "name": "HCG",
+   "dose": "250 IU **",
+   "freq": "Every other day",
+   "unit": "IU",
+   "vial": "5000IU",
+   "bac": "2mL",
+   "units": "10 units"
+  },
+  {
+   "name": "HGH (Somatropin)",
+   "dose": "1 IU **",
+   "freq": "Daily",
+   "unit": "IU",
+   "vial": "10IU",
+   "bac": "1mL",
+   "units": "10 units"
+  },
+  {
+   "name": "Triptorelin",
+   "dose": "100 mcg **",
+   "freq": "Single dose",
+   "vial": "1mg",
+   "bac": "2mL",
+   "units": "20 units"
   }
  ],
  "optDose": [
@@ -1462,6 +1500,8 @@
   "9mL",
   "10mL"
  ],
+ "optVialIU": ["10IU","15IU","30IU","36IU","75IU","100IU","150IU","1000IU","5000IU","10000IU"],
+ "optDoseIU": ["None Selected","0.5IU","1IU","2IU","3IU","4IU","6IU","250IU","500IU","1000IU","1500IU","2000IU"],
  "default": {
   "peptide": "Ipamorelin",
   "desired": "None Selected",

@@ -133,14 +133,14 @@ R.today=()=>{
   const day=(s,o)=>new Date(M.parse(s)).toLocaleDateString(undefined,Object.assign({timeZone:'UTC'},o));
   const dstr=new Date().toLocaleDateString(undefined,{weekday:'long',month:'short',day:'numeric'});
   let units,calcLine;
-  if(S){units=S.vm.unitsPerDose;calcLine=`${S.name}, ${fmtNum(S.calc.vialMg,2)} mg vial, ${fmtNum(S.calc.bacMl,2)} mL, ${fmtNum(S.calc.doseMcg,2)} mcg`}
+  if(S){units=S.vm.unitsPerDose;calcLine=S.calc.unit==='IU'?`${S.name}, ${fmtNum(S.calc.vialMg*1000,0)} IU vial, ${fmtNum(S.calc.bacMl,2)} mL, ${fmtNum(S.calc.doseMcg,2)} IU`:`${S.name}, ${fmtNum(S.calc.vialMg,2)} mg vial, ${fmtNum(S.calc.bacMl,2)} mL, ${fmtNum(S.calc.doseMcg,2)} mcg`}
   else{const row=d.lookup.find(x=>x.name===def.peptide)||{};const dose=def.desired&&def.desired!=='None Selected'?toMcg(def.desired):toMcg(row.dose||'');const v=parseFloat(def.vial),b=parseFloat(def.bac);units=dose/(v*1000/b)*100;calcLine=`${def.peptide}, ${v} mg vial, ${b} mL, ${fmtNum(dose,2)} mcg`}
   const frac=S&&S.total?Math.max(0,Math.min(1,S.left/S.total)):0;
-  const next=S?(S.next?`<div class="m-big">${esc(day(S.next,{weekday:'short',month:'short',day:'numeric'}))}</div><div class="m-sub">${esc(S.rel)}${S.site?', '+esc(S.site):''}</div><div class="m-foot">${esc(S.name)}, ${fmtNum(S.calc.doseMcg,2)} mcg, ${fmtNum(S.vm.unitsPerDose,1)} units</div>`:`<div class="m-big">No date</div><div class="m-sub">Pick at least one weekday in your schedule.</div>`):`<div class="m-big">Not set up</div><div class="m-sub">Choose a peptide, set a schedule and log your first dose.</div><div class="m-foot"><a href="#schedule">Set up Schedule and log</a></div>`;
+  const next=S?(S.next?`<div class="m-big">${esc(day(S.next,{weekday:'short',month:'short',day:'numeric'}))}</div><div class="m-sub">${esc(S.rel)}${S.site?', '+esc(S.site):''}</div><div class="m-foot">${esc(S.name)}, ${fmtNum(S.calc.doseMcg,2)} ${S.calc.unit==='IU'?'IU':'mcg'}, ${fmtNum(S.vm.unitsPerDose,1)} units</div>`:`<div class="m-big">No date</div><div class="m-sub">Pick at least one weekday in your schedule.</div>`):`<div class="m-big">Not set up</div><div class="m-sub">Choose a peptide, set a schedule and log your first dose.</div><div class="m-foot"><a href="#schedule">Set up Schedule and log</a></div>`;
   const vial=S?`<div class="m-ring"><svg width="84" height="84" viewBox="0 0 92 92" role="img" aria-label="${S.left} of ${S.total} doses left"><circle cx="46" cy="46" r="38" fill="none" stroke="var(--line)" stroke-width="10"/><circle cx="46" cy="46" r="38" fill="none" stroke="var(--accent)" stroke-width="10" stroke-linecap="round" stroke-dasharray="${(238.8*frac).toFixed(1)} 238.8" transform="rotate(-90 46 46)"/></svg><div><div class="m-num">${S.left}</div><div class="m-sub">of ${S.total} doses left</div></div></div><p class="m-sub">${S.life.lastDose?`Runs out ${esc(day(S.life.lastDose,{month:'short',day:'numeric'}))}.`:''}${S.life.budDate?` Use by ${esc(day(S.life.budDate,{month:'short',day:'numeric'}))}.`:''}</p>`:`<p class="m-sub">Your vial progress shows here once you start tracking.</p>`;
   const bacPct=Math.round(D.bac.stats[3].v*1000)/10;
   const heads=S&&S.life.budBeforeEmpty?`<div class="m-kick">Heads up</div><p class="m-serif">Your mixed vial passes its ${S.budDays}-day limit before it is empty.</p><a href="#schedule">See the vial details</a>`:`<div class="m-kick">Worth knowing</div><p class="m-serif">${bacPct}% of bacteriostatic water products failed third-party testing.</p><a href="#bac">See the test results</a>`;
-  const recent=S&&S.recent.length?S.recent.map(l=>`<div class="m-row"><span>${esc(day(l.date,{weekday:'short',month:'short',day:'numeric'}))}</span><span class="muted">${fmtNum(l.doseMcg,2)} mcg${l.site?', '+esc(l.site):''}</span></div>`).join(''):`<p class="m-sub">No doses logged yet. <a href="#schedule">Log your first dose</a>.</p>`;
+  const recent=S&&S.recent.length?S.recent.map(l=>`<div class="m-row"><span>${esc(day(l.date,{weekday:'short',month:'short',day:'numeric'}))}</span><span class="muted">${fmtNum(l.doseMcg,2)} ${S.calc.unit==='IU'?'IU':'mcg'}${l.site?', '+esc(l.site):''}</span></div>`).join(''):`<p class="m-sub">No doses logged yet. <a href="#schedule">Log your first dose</a>.</p>`;
   const tiles=[['home','Getting Started','The guide in four steps.'],['dosage','Dosage','Store, mix and calculate.'],['schedule','Schedule and log','Calendar, history, vial life.'],['halflife','Half-Life','How long compounds stay active.'],['vendors','Peptide Vendors',D.vendors.vendors.length+' vendors to know.'],['bac','BAC Water Tests','What testing found.'],['reg','Regulation Info','FDA news and timeline.'],['terms','Terminology','Slang and abbreviations.']];
   return `<div class="m-today">
   <div class="m-head"><div><div class="eyebrow">${esc(dstr)}</div><h1>Today</h1></div><a class="btn m-cta" href="#schedule">Log a dose</a></div>
@@ -225,9 +225,9 @@ R.dosage=()=>{
         <div class="field"><label for="c-cust">Or type your own</label><div style="display:flex;gap:6px"><input id="c-cust" type="number" min="0" step="any" placeholder="e.g. 250"><select id="c-cu" style="width:84px"><option>mcg</option><option>mg</option></select></div></div></div>
         <p class="hint">Leave both empty to use the typical dose.</p></div>
       <div class="cg"><h4><i>c</i> What is in your vial?</h4>
-        <div class="frow"><div class="field"><label for="c-vial">Powder in the vial (mg)</label><select id="c-vial">${opts(d.optVial)}</select></div>
+        <div class="frow"><div class="field"><label for="c-vial" id="c-vial-l">Powder in the vial (mg)</label><select id="c-vial">${opts(d.optVial)}</select></div>
         <div class="field"><label for="c-bac">BAC water you added (mL)</label><select id="c-bac">${opts(d.optBac)}</select></div></div>
-        <p class="hint">The mg amount is printed on the vial label.</p></div>
+        <p class="hint" id="c-vial-h">The mg amount is printed on the vial label.</p></div>
     </div>
     <div class="cres">
       <div class="result"><div class="sub">Draw up to</div><div class="big" id="c-units">—</div><div class="sub">units on a U-100 insulin syringe</div></div>
@@ -261,16 +261,32 @@ function initDosage(root){
   const d=D.dosage;const $i=id=>root.querySelector('#'+id);
   const pep=$i('c-pep');if(!pep)return;
   pep.value=d.default.peptide;$i('c-vial').value=d.default.vial;$i('c-bac').value=d.default.bac;$i('c-des').value=d.default.desired;
+  // IU mode: some compounds (HCG, HGH) are dosed and labeled in IU, not mcg or mg.
+  // The tracker and Today page keep one number scale: dose in "doseMcg" and vial in "vialMg" (= IU / 1000), so the vial math is unchanged.
+  let mode='mass';
+  const fillOpts=(el,list)=>{el.innerHTML=list.map(o=>`<option>${esc(o)}</option>`).join('')};
+  const setMode=(iu,row)=>{
+    const want=iu?'iu':'mass';if(want===mode)return;mode=want;
+    fillOpts($i('c-vial'),iu?d.optVialIU:d.optVial);fillOpts($i('c-des'),iu?d.optDoseIU:d.optDose);
+    $i('c-cu').innerHTML=iu?'<option>IU</option>':'<option>mcg</option><option>mg</option>';
+    $i('c-vial-l').textContent=iu?'Powder in the vial (IU)':'Powder in the vial (mg)';
+    $i('c-vial-h').textContent=iu?'The IU amount is printed on the vial label. HGH labels may show mg as well; use the IU figure.':'The mg amount is printed on the vial label.';
+    $i('c-cust').placeholder=iu?'e.g. 500':'e.g. 250';
+    const want2=iu?row.vial:d.default.vial,sel=$i('c-vial');if([...sel.options].some(o=>o.value===want2))sel.value=want2;
+    const bsel=$i('c-bac'),wb=iu?row.bac:d.default.bac;if([...bsel.options].some(o=>o.value===wb))bsel.value=wb;
+  };
   const calc=()=>{
     const row=d.lookup.find(x=>x.name===pep.value)||{};
+    const iu=row.unit==='IU';setMode(iu,row);
     $i('c-base').value=row.dose||'';$i('c-freq').value=row.freq||'';
     const comp=findCompound(pep.value);$i('c-desc').textContent=comp?comp.desc:'';
     let dose=NaN,src='baseline';
     const cust=parseFloat($i('c-cust').value);
-    if(cust>0){dose=$i('c-cu').value==='mg'?cust*1000:cust;src='custom'}
-    else if($i('c-des').value!=='None Selected'){dose=toMcg($i('c-des').value);src='desired'}
-    else dose=toMcg(row.dose||'');
-    const vialMg=parseFloat($i('c-vial').value),bac=parseFloat($i('c-bac').value);
+    if(cust>0){dose=(!iu&&$i('c-cu').value==='mg')?cust*1000:cust;src='custom'}
+    else if($i('c-des').value!=='None Selected'){dose=iu?parseFloat($i('c-des').value):toMcg($i('c-des').value);src='desired'}
+    else dose=iu?parseFloat(row.dose):toMcg(row.dose||'');
+    const vialRaw=parseFloat($i('c-vial').value),bac=parseFloat($i('c-bac').value),vialMg=iu?vialRaw/1000:vialRaw;
+    const du=iu?'IU':'mcg';
     const conc=vialMg*1000/bac; // mcg per mL
     const units=dose/conc*100;
     $i('c-units').textContent=isFinite(units)?fmtNum(units,2):'—';
@@ -278,13 +294,17 @@ function initDosage(root){
     const w=$i('c-warn');w.innerHTML='';
     if(units>100)w.innerHTML=`<div class="callout bad"><b>Exceeds 100 units.</b> A standard 1 mL syringe cannot hold this volume. Use less BAC water or a larger vial.</div>`;
     else if(units>0&&units<2)w.innerHTML=`<div class="callout warn"><b>Very small volume.</b> Under 2 units is hard to measure accurately. Add more BAC water.</div>`;
-    const sayEl=$i('c-say');if(sayEl)sayEl.innerHTML=isFinite(units)&&units>0?(units>100?'This is more than one syringe holds. Change the vial or BAC water.':`Fill the syringe to the <b>${fmtNum(units,units<10?1:0)}</b> mark. That is <b>${fmtNum(units/100,3)} mL</b> of liquid and <b>${fmtNum(dose,dose<10?2:0)} mcg</b> of peptide.`):'Pick a peptide and a dose to see your syringe mark.';
-    root._calc={name:pep.value,doseMcg:dose,vialMg,bacMl:bac,freq:row.freq||''};root.dispatchEvent(new CustomEvent('bh-calc',{detail:root._calc}));
-    $i('c-kv').innerHTML=`<dt>Dose used</dt><dd>${fmtNum(dose,2)} mcg (${fmtNum(dose/1000,3)} mg) · ${src}</dd><dt>Concentration</dt><dd>${fmtNum(conc/1000,3)} mg/mL (${fmtNum(conc,1)} mcg/mL)</dd><dt>Volume to draw</dt><dd>${fmtNum(units/100,3)} mL</dd><dt>Per 1 unit</dt><dd>${fmtNum(conc/100,2)} mcg</dd><dt>Per 10 units</dt><dd>${fmtNum(conc/10,1)} mcg</dd>`;
+    const sayEl=$i('c-say');if(sayEl)sayEl.innerHTML=isFinite(units)&&units>0?(units>100?'This is more than one syringe holds. Change the vial or BAC water.':`Fill the syringe to the <b>${fmtNum(units,units<10?1:0)}</b> mark. That is <b>${fmtNum(units/100,3)} mL</b> of liquid and <b>${fmtNum(dose,dose<10?2:0)} ${du}</b> of ${iu?esc(pep.value):'peptide'}.`):'Pick a peptide and a dose to see your syringe mark.';
+    root._calc={name:pep.value,doseMcg:dose,vialMg,bacMl:bac,freq:row.freq||'',unit:iu?'IU':'mcg'};root.dispatchEvent(new CustomEvent('bh-calc',{detail:root._calc}));
+    $i('c-kv').innerHTML=iu?`<dt>Dose used</dt><dd>${fmtNum(dose,2)} IU · ${src}</dd><dt>Concentration</dt><dd>${fmtNum(conc,1)} IU/mL</dd><dt>Volume to draw</dt><dd>${fmtNum(units/100,3)} mL</dd><dt>Per 1 unit</dt><dd>${fmtNum(conc/100,2)} IU</dd><dt>Per 10 units</dt><dd>${fmtNum(conc/10,1)} IU</dd>`:`<dt>Dose used</dt><dd>${fmtNum(dose,2)} mcg (${fmtNum(dose/1000,3)} mg) · ${src}</dd><dt>Concentration</dt><dd>${fmtNum(conc/1000,3)} mg/mL (${fmtNum(conc,1)} mcg/mL)</dd><dt>Volume to draw</dt><dd>${fmtNum(units/100,3)} mL</dd><dt>Per 1 unit</dt><dd>${fmtNum(conc/100,2)} mcg</dd><dt>Per 10 units</dt><dd>${fmtNum(conc/10,1)} mcg</dd>`;
   };
   ['c-pep','c-des','c-vial','c-bac','c-cu'].forEach(i=>$i(i).addEventListener('change',calc));
   $i('c-cust').addEventListener('input',calc);
-  $i('c-pep').addEventListener('change',()=>{$i('c-des').value='None Selected';$i('c-cust').value='';calc()});
+  $i('c-pep').addEventListener('change',()=>{
+    $i('c-des').value='None Selected';$i('c-cust').value='';
+    const r=d.lookup.find(x=>x.name===pep.value)||{};
+    if(r.unit==='IU'){const v=$i('c-vial'),b=$i('c-bac');if([...v.options].some(o=>o.value===r.vial))v.value=r.vial;if([...b.options].some(o=>o.value===r.bac))b.value=r.bac}
+    calc()});
   calc();
   if(window.Tracker)window.Tracker.init(root,{esc,fmtNum,parseHours,findHalf});
 }

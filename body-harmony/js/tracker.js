@@ -45,7 +45,7 @@ function html(){return `
     <div class="field"><label for="t-lsite">Injection site</label><select id="t-lsite"></select></div>
    </div>
    <div class="frow">
-    <div class="field"><label for="t-ldose">Dose (mcg) <small>blank = step 3</small></label><input id="t-ldose" type="number" min="0" step="any"></div>
+    <div class="field"><label for="t-ldose" id="t-ldose-l">Dose (mcg) <small>blank = step 3</small></label><input id="t-ldose" type="number" min="0" step="any"></div>
     <div class="field" style="align-self:end"><button class="chip on" id="t-log" type="button" style="width:100%;padding:10px">Log this dose</button></div>
    </div>
    <div id="t-warn"></div>
@@ -120,7 +120,9 @@ function init(root,ctx){
     ['t-pk','t-hist'].forEach(i=>{$i(i).hidden=none});
     if(none){$i('t-pk').innerHTML='';$i('t-hist').innerHTML='';return}
     const p=prof(),s=schedOf(p),today=todayStr();
-    $i('t-using').innerHTML=`<b>${esc(calc.name)}</b> · ${fmtNum(calc.doseMcg,2)} mcg per dose · ${fmtNum(calc.vialMg,2)} mg vial in ${fmtNum(calc.bacMl,2)} mL`;
+    const IU=calc.unit==='IU',DU=IU?'IU':'mcg';
+    $i('t-ldose-l').firstChild.textContent=`Dose (${DU}) `;
+    $i('t-using').innerHTML=`<b>${esc(calc.name)}</b> · ${fmtNum(calc.doseMcg,2)} ${DU} per dose · ${IU?fmtNum(calc.vialMg*1000,0)+' IU':fmtNum(calc.vialMg,2)+' mg'} vial in ${fmtNum(calc.bacMl,2)} mL`;
     const vm=M.vialMath(calc);
     const used=p.log.filter(l=>l.vialId===p.vialId).length,left=Math.max(0,vm.dosesPerVial-used);
     const next=M.nextDose(s,lastLogged(p));
@@ -134,7 +136,7 @@ function init(root,ctx){
     if(left===0)w+=`<div class="callout warn"><b>This vial is used up.</b> Start a new vial when you open the next one.</div>`;
     else if(life.budBeforeEmpty)w+=`<div class="callout warn"><b>Beyond-use date comes first.</b> Only ${life.dosesBeforeBud} of the ${left} remaining doses fall on or before ${long(life.budDate)}. Check the storage guidance and your clinician or pharmacist before using later doses.</div>`;
     $i('t-warn').innerHTML=w;
-    $i('t-kv').innerHTML=`<dt>Concentration</dt><dd>${fmtNum(vm.concMcgPerMl/1000,3)} mg/mL</dd><dt>Per dose</dt><dd>${fmtNum(vm.unitsPerDose,2)} units (${fmtNum(vm.mlPerDose,3)} mL)</dd><dt>Doses in a full vial</dt><dd>${vm.dosesPerVial}</dd><dt>Logged from this vial</dt><dd>${used} · ${left} left</dd><dt>Projected last dose</dt><dd>${life.lastDose?long(life.lastDose):'—'}</dd><dt>Beyond-use date</dt><dd>${life.budDate?long(life.budDate):'set a reconstitution date'}</dd>`;
+    $i('t-kv').innerHTML=`<dt>Concentration</dt><dd>${IU?fmtNum(vm.concMcgPerMl,1)+' IU/mL':fmtNum(vm.concMcgPerMl/1000,3)+' mg/mL'}</dd><dt>Per dose</dt><dd>${fmtNum(vm.unitsPerDose,2)} units (${fmtNum(vm.mlPerDose,3)} mL)</dd><dt>Doses in a full vial</dt><dd>${vm.dosesPerVial}</dd><dt>Logged from this vial</dt><dd>${used} · ${left} left</dd><dt>Projected last dose</dt><dd>${life.lastDose?long(life.lastDose):'—'}</dd><dt>Beyond-use date</dt><dd>${life.budDate?long(life.budDate):'set a reconstitution date'}</dd>`;
     siteOptions();
     renderPK(p,s,next,today);renderHist(p);renderCal(p,s,next,today);
   }
@@ -183,13 +185,14 @@ function init(root,ctx){
     box.querySelectorAll('[data-cal]').forEach(b=>b.addEventListener('click',()=>{const d=new Date(Date.UTC(y,m-1+(+b.dataset.cal),1));calM=d.getUTCFullYear()+'-'+String(d.getUTCMonth()+1).padStart(2,'0');renderCal(p,s,next,today)}));
   }
   function renderHist(p){
+    const DU=calc&&calc.unit==='IU'?'IU':'mcg';
     const rows=p.log.slice().sort((a,b)=>b.date.localeCompare(a.date)||b.id.localeCompare(a.id));
-    $i('t-hist').innerHTML=rows.length?`<div class="tw"><table><thead><tr><th class="nosort">Date</th><th class="nosort">Dose</th><th class="nosort">Site</th><th class="nosort">Vial</th><th class="nosort"></th></tr></thead><tbody>${rows.map(l=>`<tr><td>${esc(l.date)}</td><td>${fmtNum(l.doseMcg,2)} mcg</td><td>${esc(l.site||'')}</td><td>${esc(l.vialId)}</td><td><button class="chip" type="button" data-del="${esc(l.id)}">Delete</button></td></tr>`).join('')}</tbody></table></div>`:`<p style="color:var(--muted)">No doses logged for ${esc(calc.name)} yet.</p>`;
+    $i('t-hist').innerHTML=rows.length?`<div class="tw"><table><thead><tr><th class="nosort">Date</th><th class="nosort">Dose</th><th class="nosort">Site</th><th class="nosort">Vial</th><th class="nosort"></th></tr></thead><tbody>${rows.map(l=>`<tr><td>${esc(l.date)}</td><td>${fmtNum(l.doseMcg,2)} ${DU}</td><td>${esc(l.site||'')}</td><td>${esc(l.vialId)}</td><td><button class="chip" type="button" data-del="${esc(l.id)}">Delete</button></td></tr>`).join('')}</tbody></table></div>`:`<p style="color:var(--muted)">No doses logged for ${esc(calc.name)} yet.</p>`;
     $i('t-hist').querySelectorAll('[data-del]').forEach(b=>b.addEventListener('click',()=>{p.log=p.log.filter(l=>l.id!==b.dataset.del);save(state);render()}));
   }
 
   /* ---- events ---- */
-  function snap(){const p=state.profiles[name];if(p&&calc&&calc.doseMcg>0)p.calc={name:calc.name,doseMcg:calc.doseMcg,vialMg:calc.vialMg,bacMl:calc.bacMl,freq:calc.freq||''}}
+  function snap(){const p=state.profiles[name];if(p&&calc&&calc.doseMcg>0)p.calc={name:calc.name,doseMcg:calc.doseMcg,vialMg:calc.vialMg,bacMl:calc.bacMl,freq:calc.freq||'',unit:calc.unit==='IU'?'IU':'mcg'}}
   function commit(){snap();save(state);render()}
   $i('t-type').addEventListener('change',()=>{const p=prof();p.sched.type=$i('t-type').value;$i('t-daysw').hidden=p.sched.type!=='days';$i('t-everyw').hidden=p.sched.type!=='interval';commit()});
   $i('t-start').addEventListener('change',()=>{if(isDate($i('t-start').value)){prof().sched.start=$i('t-start').value;commit()}});
@@ -207,14 +210,14 @@ function init(root,ctx){
   });
   $i('t-ics').addEventListener('click',()=>{
     const p=prof(),s=schedOf(p),next=M.nextDose(s,lastLogged(p));if(!next||!calc){msg('Nothing to export yet.');return}
-    dl(`bodyharmony-${slug(calc.name)}.ics`,'text/calendar',M.ics({name:calc.name,dates:M.dates(s,next,60),sites:p.sites,siteStart:p.log.length,doseLabel:fmtNum(calc.doseMcg,2)+' mcg'}));
+    dl(`bodyharmony-${slug(calc.name)}.ics`,'text/calendar',M.ics({name:calc.name,dates:M.dates(s,next,60),sites:p.sites,siteStart:p.log.length,doseLabel:fmtNum(calc.doseMcg,2)+(calc.unit==='IU'?' IU':' mcg')}));
     msg('Calendar file downloaded with the next 60 scheduled doses. Dates are all-day events.');
   });
   $i('t-expj').addEventListener('click',()=>{dl('bodyharmony-tracker.json','application/json',JSON.stringify(state,null,1));msg('Exported all peptides.')});
   const csvCell=v=>{let t=String(v==null?'':v);if(/^[=+\-@\t\r]/.test(t))t="'"+t;return /[",\n]/.test(t)?'"'+t.replace(/"/g,'""')+'"':t};
   $i('t-expc').addEventListener('click',()=>{
-    const rows=[['peptide','date','dose_mcg','site','vial']];
-    Object.entries(state.profiles).forEach(([n,p])=>p.log.slice().sort((a,b)=>a.date.localeCompare(b.date)).forEach(l=>rows.push([n,l.date,l.doseMcg,l.site,l.vialId])));
+    const rows=[['peptide','date','dose','unit','site','vial']];
+    Object.entries(state.profiles).forEach(([n,p])=>p.log.slice().sort((a,b)=>a.date.localeCompare(b.date)).forEach(l=>rows.push([n,l.date,l.doseMcg,p.calc&&p.calc.unit==='IU'?'IU':'mcg',l.site,l.vialId])));
     dl('bodyharmony-dose-log.csv','text/csv',rows.map(r=>r.map(csvCell).join(',')).join('\r\n')+'\r\n');msg('Exported the dose log for all peptides.');
   });
   $i('t-imp').addEventListener('click',()=>$i('t-file').click());
