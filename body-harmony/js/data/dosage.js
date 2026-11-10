@@ -280,7 +280,7 @@
   {
    "name": "NAD+",
    "cat": "Anti-aging & Energy",
-   "dose": "Varies (frequently administered via IV or SC)",
+   "dose": "About 30 to 100 mg injected 2 to 3 times weekly (SC or IM); higher doses and IV use are also reported",
    "desc": "A critical coenzyme for cellular metabolism, mitochondrial function, and longevity pathways."
   },
   {
@@ -976,6 +976,14 @@
    "units": "100 units"
   },
   {
+   "name": "NAD+",
+   "dose": "50 mg **",
+   "freq": "2 to 3 times weekly",
+   "vial": "500mg",
+   "bac": "5mL",
+   "units": "50 units"
+  },
+  {
    "name": "PE-22-28",
    "dose": "400 mcg **",
    "freq": "Daily",
@@ -1106,8 +1114,11 @@
   "18mg",
   "19mg",
   "20mg",
+  "30mg",
   "50mg",
-  "100mg"
+  "100mg",
+  "150mg",
+  "200mg"
  ],
  "optVial": [
   "2mg",
@@ -1119,11 +1130,15 @@
   "40mg",
   "50mg",
   "60mg",
-  "120mg"
+  "120mg",
+  "250mg",
+  "500mg",
+  "1000mg"
  ],
  "optBac": [
   "1mL",
   "2mL",
+  "2.5mL",
   "3mL",
   "4mL",
   "5mL",
