@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-11T06:40Z",
+ "generated": "2026-11-11T19:41Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
-   "new": 43,
-   "seen": 63,
-   "lastOk": "2026-11-11T06:40Z"
+   "new": 46,
+   "seen": 70,
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 23,
    "seen": 45,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
-   "new": 0,
-   "seen": 1,
-   "lastOk": "2026-11-11T06:40Z"
+   "new": 1,
+   "seen": 2,
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "gnews-gh",
@@ -55,11 +55,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
-   "new": 1,
-   "seen": 8,
-   "lastOk": "2026-11-11T06:40Z"
+   "new": 3,
+   "seen": 7,
+   "lastOk": "2026-11-11T19:41Z"
   }
  ],
  "items": [
@@ -78,6 +78,54 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
+  },
+  {
+   "t": "TB-500 and Football Injuries: What Does the Research Actually Show? - NFL Draft Diamonds",
+   "l": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xSGhvbGlrU3ZMT0VWN1lYQTZIcldqWFdWaW9nOEl5RGtlakNhcDM4c2w0Ykp5Zm5kUkthdVNWNFMzQk4tZ3UxZFZNQXpvVXlfOTJieDYzZmN3eFlIR1A2UFI4Nno5QQ?oc=5",
+   "d": "2026-11-11",
+   "s": "gnews-a",
+   "x": "TB-500 and Football Injuries: What Does the Research Actually Show? NFL Draft Diamonds",
+   "c": "Industry"
+  },
+  {
+   "t": "6 Peptides Just Became Legal in the U.S. (BPC-157, TB-500, and More). Here's What Changed and How to Actually Get Them - BoxLife Magazine",
+   "l": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBOYjZLbWN1RkFmM19uR19Ja2sxLVR5RHk0b3UyTHJNSFZ0Si1tM0g3d25WR0FUWjhpeXJYaWpEeG1RUHY5YS13dGljaURLa05NVEpMMEY5YlhnQ1lvZmRxNDdIa3FCR1RCOHlTME13?oc=5",
+   "d": "2026-11-11",
+   "s": "gnews-a",
+   "x": "6 Peptides Just Became Legal in the U.S. (BPC-157, TB-500, and More). Here's What Changed and How to Actually Get Them BoxLife Magazine",
+   "c": "Industry"
+  },
+  {
+   "t": "Core Peptides Releases Research Peptides Overview Focused on Experimental Design - The Detroit News",
+   "l": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbDhERVF1cGVfcUVrZlZQbkwtN3YxSzV2elVUdENBLTAxOTZlOWY0WWRPUmdkcWtyQ05TcnlIcmtIT1ExODJ2Z2dITVdURHdRWm9FemdDLXFaOFNOdF95NUVEUlNFajh5RkNtWHhWZVN4bHAyMThmYXVDd1pYYnlxbVNqS1Y1Q0dJeDRBUTVYblEzY01PcC1CcktDckJmNUR6dkJTaVktWWFZd25pcG16MFdKM3V4dzNTNWFEVFFDTXRJUXN0WXpyWjdHdktxRmpNMnc?oc=5",
+   "d": "2026-11-11",
+   "s": "gnews-a",
+   "x": "Core Peptides Releases Research Peptides Overview Focused on Experimental Design The Detroit News",
+   "c": "Industry"
+  },
+  {
+   "t": "Core Peptides Releases Research Peptides Overview Focused on Experimental Design - lincolnjournal.com",
+   "l": "https://news.google.com/rss/articles/CBMinAJBVV95cUxON052alJYU3UzQnFUejNPa0s2aktvWUtkX2FJb2lzYUJpTVFwMHZNSV9uTS1USk4wdnpUWUtzZHFDaG95bUVyc25vOHYxblZIOGlyV3ZBTExxbERxaTdOSnVHSDdmQ0Y5VWEtUzNFSHZiajR6Q3daRVA2TGhkXzMtc0wzNElwYjRIeWhHeVJBU2NfRExFRWlncm03amFOekNXNXNKa25aQ1RLdHZaeXptQWJyV3QwTkFldXNWWmZzazNZV3I2dlFzTVVRbXRLRDdUakZSUmdQQUMtV0E2MEN6QndBR3ByZHZVVkdqSlJMdVFpS3JORmhXQlU1eVFlQmNuT2JTbThjdE44NUJBNFF6OHdtLWVoMmdHeVcyRw?oc=5",
+   "d": "2026-11-11",
+   "s": "gnews-a",
+   "x": "Core Peptides Releases Research Peptides Overview Focused on Experimental Design lincolnjournal.com",
+   "c": "Industry"
+  },
+  {
+   "t": "AstraZeneca buys vaccine startup; FDA issues GLP-1 safety warning",
+   "l": "https://www.biopharmadive.com/news/glp1-naion-compass-zura-abeona/874076/",
+   "d": "2026-11-11",
+   "s": "bpd",
+   "x": "The deal gives AstraZeneca a simpler way to make conjugate vaccines. Elsewhere, a psychedelic depression drug was submitted to the FDA and an autoimmune disease-focused biotech’s shares collapsed.",
+   "c": "Industry"
+  },
+  {
+   "t": "Tomo Marjanovic to Address Longevity and Medical Tourism in the Gulf at Forbes Middle East Summit - The National Law Review",
+   "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNeDBnblpzd2xUdHh1WWFYak5GM2dVSGlRc1o3Zm9OVzFka1R5X1NhNzVzbDF3U3JoT3pWa0pLZDNBOWh6Yk9kd292T19uN1lDZ2VYRmw2cFFMbExwOGpEajNrNC1jQWFobzRyRTBWaXQzLTJVa1BNSTQxbHgxZFYyV2VaNDF6QUQ5QW1Vd1NZSVQ3Y2JDalhyTEp3LVNnTDZmakM3dzhxNDdlTkd3WnkzN0ln?oc=5",
+   "d": "2026-11-11",
+   "s": "gnews-gh",
+   "x": "Tomo Marjanovic to Address Longevity and Medical Tourism in the Gulf at Forbes Middle East Summit The National Law Review",
+   "c": "Industry"
   },
   {
    "t": "Incredible Peptides Announces New Educational Overview on BPC-157 Research - The Manila Times",
@@ -170,7 +218,8 @@ window.FEED_ART={
    "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVVlxYkRYb0FrcmItWUtkalZ1Y1FZZk5icjYwSld3MC1WbkJVMk5BM3A3Q21YTTVPQWtwVmpQVW4zcEFuZU5sWThybnBudXozVEVGanVTMzRWbWZYYUhYUlJ5b1doZkN6Z1lJR0xJSE9wb2RFcG84X1g3M0Q3S1V5QkxXbHFFdWo4bHc?oc=5",
    "d": "2026-11-09",
    "s": "gnews-a",
-   "x": "Triple-Action Obesity Drug Retatrutide Shows 21.9% Weight Loss and Blood Sugar Benefits in Phase 3 Trial 헬스조선"
+   "x": "Triple-Action Obesity Drug Retatrutide Shows 21.9% Weight Loss and Blood Sugar Benefits in Phase 3 Trial 헬스조선",
+   "c": "Industry"
   },
   {
    "t": "Weekly Retatrutide Reduces Knee Osteoarthritis Pain and Weight - Medical Professionals Reference",
@@ -436,34 +485,6 @@ window.FEED_ART={
    "x": "Metabolic Research Peptides for In Vitro Studies: Quality Documentation and Selection Considerations openPR.com"
   },
   {
-   "t": "Research Peptides Available Through USA, UK and EU Local Fulfillment - openPR.com",
-   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRU5nUDU4eWphSFVjbWswTklBYUNyNjRETzAxQkM4QVVZbDFRNVZiN1RMTXo4T3E5YWRvRVdHeHRacmJkcjdLZU1MUld2YTVSSURMZmpWV3dLRHRJQXQySDNZbURsVENudHNfRU44N0hLNGo4YlM3akJCUFRHUDlRS3JNS21WbU5KYUdOd1ZhREE4S3UtSHc?oc=5",
-   "d": "2026-11-04",
-   "s": "gnews-a",
-   "x": "Research Peptides Available Through USA, UK and EU Local Fulfillment openPR.com"
-  },
-  {
-   "t": "Best Retatrutide Supplier in Canada: Top 5 for Researchers - Caribbean National Weekly",
-   "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTXQzc190RlVfNnVySlRvMGFJR1ZpMmhFdVBydWtlMERNc05xa0JiN3pGeDVNZGZGcVE2M0ItV3BEbTVOSW84TThaMUxuNnpaVXhjNi04ak9naGpHRmFRWjVfTGs5Uzh5azdmejNqMEp0ZVFPa0dBTkVzREwyOGkyMl9RSUZCWVFyWDlDVlBBVXItcmxOSF9XUkh4U3doOU4wVU5Oa2Fnb3U?oc=5",
-   "d": "2026-11-04",
-   "s": "gnews-a",
-   "x": "Best Retatrutide Supplier in Canada: Top 5 for Researchers Caribbean National Weekly"
-  },
-  {
-   "t": "Navigating peptide hype vs. evidence - American Council on Science and Health",
-   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPdlhlNVpOandfWUNQNHZPeTVHOEhjQy1XcVc0OXNvTDFHQ1pRUnp5Z3l4dFg2T095OXdsOWt4bUhvVzhyNDd2RnVqV1prb3pWaFlkcHBDU1o2RVM4a2xmYUVkY19UMTE0S1hBV3Fnc3hnV2UtaHFhSlA2WjFqQkpDNUlveUU?oc=5",
-   "d": "2026-11-04",
-   "s": "gnews-a",
-   "x": "Navigating peptide hype vs. evidence American Council on Science and Health"
-  },
-  {
-   "t": "Retatrutide: What To Know About Online Sales, Safety Risks and More - Forbes",
-   "l": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5SRGxrVG83dG1qc2EzcW5kdzB2RGxwajctT3EwZkV4WFhGLThnbnVEVjdfRlBBQkdMQ1VwSkkwV2xicEpLTEQzY0dxMHVsYkhwSlFsQ0pDbVJMUm9EU0Qxa3dialBCZ0Q5cDB0NlhaY0FHTnc?oc=5",
-   "d": "2026-11-04",
-   "s": "gnews-a",
-   "x": "Retatrutide: What To Know About Online Sales, Safety Risks and More Forbes"
-  },
-  {
    "t": "Next-generation incretin therapeutics for polyendocrine metabolic ovarian syndrome: navigating current pipeline and clinical considerations.",
    "l": "https://doi.org/10.1080/14656566.2026.2760042",
    "d": "2026-11-03",
@@ -493,6 +514,14 @@ window.FEED_ART={
    "d": "2026-11-02",
    "s": "gnews-gh",
    "x": "Peptide therapy for healing and longevity: What the new US policy means for India The Indian Express",
+   "c": "Industry"
+  },
+  {
+   "t": "Clinic-Delivered Psoriatic Arthritis Biologic: Sun Pharma Expands ILUMYA's U.S. Label - Trend Hunter",
+   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNaGI5LXVTeHJ4SVM4STJULTdNNzhDeG9QNlhFa3ZEQVdTMUh2eFdtMHF0cldYMlNCcTJONGt4TlpaVWUtUlVud2xNZTNOVDl1N0E3Y1VMaUdnR3FRTTQ0YnE2Qng3LVZKWERzam1rdzZQSFF5dHl0QXhJelR3LWZ2QWhxc3hicVk?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews-gh",
+   "x": "Clinic-Delivered Psoriatic Arthritis Biologic: Sun Pharma Expands ILUMYA's U.S. Label Trend Hunter",
    "c": "Industry"
   },
   {
@@ -560,6 +589,14 @@ window.FEED_ART={
    "d": "2026-10-29",
    "s": "gnews-gh",
    "x": "Actor dies suddenly after injecting peptides — despite doctor’s approval New York Post",
+   "c": "Industry"
+  },
+  {
+   "t": "Stem Cells vs. Peptides: BioRestore Health Explores the Science Behind the Future of Anti-Aging Medicine - The Des Moines Register",
+   "l": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeFVDd0hONHdMRENnUFlLUmtZZmtKaVp3RHRDU05hYkN2VmhuT0RxYjVEdHlwUmwxbm9zbUZhUWdZVno3MWZXb1lHODhRdFYzSVM2X2Juc0U0eHJaMmo3QnRIODIwdzBVUS1lSHJGbHFiUWlsOXRUWHAxYU1NRHJrQzhPUUtob2o3OHdkTFhod1ZSM3I3ZkJsZExCVUpPUy13TEdtQmdFRzc1SnUyWkozbWNqYWhmMnhkS0hOTm0xNG5OUHI5d0hYMEVWeWlJR1NLSzhuMC0xX09oYUFqMUdzVThJbFYxS3JkcXNRN0JGeUNlY2pzTjFR?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-gh",
+   "x": "Stem Cells vs. Peptides: BioRestore Health Explores the Science Behind the Future of Anti-Aging Medicine The Des Moines Register",
    "c": "Industry"
   },
   {

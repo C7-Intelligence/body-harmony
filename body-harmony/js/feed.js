@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-11T06:40Z",
+ "generated": "2026-11-11T19:41Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "fierce",
@@ -67,11 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
-   "new": 4,
-   "seen": 4,
-   "lastOk": "2026-11-11T06:40Z"
+   "new": 3,
+   "seen": 3,
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "gnews",
@@ -79,11 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
-   "new": 89,
-   "seen": 98,
-   "lastOk": "2026-11-11T06:40Z"
+   "new": 90,
+   "seen": 100,
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "fda-recalls",
@@ -91,11 +91,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "fda-consumer",
@@ -103,7 +103,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -115,11 +115,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
-   "new": 18,
+   "new": 20,
    "seen": 33,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "fr-hhs",
@@ -127,11 +127,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "doj",
@@ -139,11 +139,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "usada",
@@ -151,11 +151,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "mhra",
@@ -163,11 +163,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "gnews-state",
@@ -175,11 +175,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
-   "new": 1,
-   "seen": 9,
-   "lastOk": "2026-11-11T06:40Z"
+   "new": 0,
+   "seen": 8,
+   "lastOk": "2026-11-11T19:41Z"
   },
   {
    "id": "gnews-anab",
@@ -187,11 +187,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-11T06:40Z",
+   "checked": "2026-11-11T19:41Z",
    "ok": true,
-   "new": 1,
+   "new": 2,
    "seen": 12,
-   "lastOk": "2026-11-11T06:40Z"
+   "lastOk": "2026-11-11T19:41Z"
   }
  ],
  "items": [
@@ -220,12 +220,36 @@ window.FEED={
    "c": "Industry"
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "t": "Schedules of Controlled Substances: Placement of Oveporexton in Schedule IV",
+   "l": "https://www.federalregister.gov/documents/2026/11/12/2026-23075/schedules-of-controlled-substances-placement-of-oveporexton-in-schedule-iv",
    "d": "2026-11-11",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions.",
-   "c": "Industry"
+   "s": "fr-dea",
+   "x": "On August 5, 2026, the United States Food and Drug Administration (FDA) approved a new drug application for Orzeyful (oveporexton) for the treatment of narcolepsy type 1 in adults. The Department of Health and Human Services (HHS) provided the Drug Enforcement Administration…",
+   "c": "Regulation"
+  },
+  {
+   "t": "Troy R. Lehman, D.O.; Decision and Order",
+   "l": "https://www.federalregister.gov/documents/2026/11/12/2026-22955/troy-r-lehman-do-decision-and-order",
+   "d": "2026-11-11",
+   "s": "fr-dea",
+   "x": "Notice · Justice Department, Drug Enforcement Administration",
+   "c": "Regulation"
+  },
+  {
+   "t": "Basildon: Man charged after £67,500 cocaine recovered during warrant - Essex Police",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQlc0S3QwRVMyY1pmQ19hUnB6RjIyNlp3aWx2bERzbEdwa2pwcjdEYUItRnYycXdBU2tOUWNZWTZDWGZMZjJrTVV4ZkpvaDkxWWRHMXR2ODFkMzJ3aTB4a19ES01CVUFGR3ZaZFd3RUQ2UUlENFpwb3ptemU2TkFNaDZRcW5tTzBzTGNUdklEVEZlQ1hOMk0tbVlxNA?oc=5",
+   "d": "2026-11-11",
+   "s": "gnews-anab",
+   "x": "Basildon: Man charged after £67,500 cocaine recovered during warrant Essex Police",
+   "c": "Safety"
+  },
+  {
+   "t": "Man charged after £67.5k worth of cocaine found at Basildon home - Southend Echo",
+   "l": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNblpiZENJUWowaEJFZW9GcmRrTzlNaDJ3Sjc1dHpJOEZwVjh5ZVRSWG82b2dsdG9aUG1ORWl5SWtBakdvRHgwYlBPc09wMFJfMFcxWF9teDl3VUJwcmo3MXdmRmtPZE1EQUY5UWMwSWlTVDNhdEZ5VnBLN2tsNEx5b3B2OThXRXhDeEd2d0l6R3k4eElR?oc=5",
+   "d": "2026-11-11",
+   "s": "gnews-anab",
+   "x": "Man charged after £67.5k worth of cocaine found at Basildon home Southend Echo",
+   "c": "Safety"
   },
   {
    "t": "RFK Jr. loosens access to unapproved peptides: A health law scholar explains what consumers need to know - The Conversation",
@@ -304,14 +328,6 @@ window.FEED={
    "d": "2026-11-08",
    "s": "gnews",
    "x": "RFK Jr.’s HHS Is Allowing These 6 Unapproved Peptides To Be Sold Forbes",
-   "c": "Industry"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-11-07",
-   "s": "gnews",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos",
    "c": "Industry"
   },
   {
@@ -396,7 +412,8 @@ window.FEED={
    "l": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxPMGdHNUpPTndqS19NZGtQZ0U0UmtFODZzZWRWbnU0a3BwZzR3NG1KbXJjRW5oWERWaHpQMXVHUW5FT0VweVk3WEg3bHhuX3Z2a016VzNwek1kUGRoTzIzZ3A3UjJueGN4WUF5em0yTG1LRFRBQVR4UEJYQ3JRS3NxOEhXYzY1ZFpObUhUNnRmM2lTNlgzLUZ4bFZaaW11UUMzMF9Nb1hHWHM1eVJQdk5JZ2ZWazJpc2VtMXVTQXpKVENVSGU2bGhabVhLRHROVEt3S3RRbnlsZ1hIZ3RFOXpybkZEc2szUQ?oc=5",
    "d": "2026-11-02",
    "s": "gnews",
-   "x": "Compounding Peptides: What Compounding Pharmacies Need to Know About the HHS Interim Enforcement Discretion Policy for Six Peptides Buchanan Ingersoll & Rooney PC"
+   "x": "Compounding Peptides: What Compounding Pharmacies Need to Know About the HHS Interim Enforcement Discretion Policy for Six Peptides Buchanan Ingersoll & Rooney PC",
+   "c": "Industry"
   },
   {
    "t": "DataMEDS AI Enters Into Agreement for Commercial Supply of Six Peptides Recommended by FDA Advisory Committee - The Courier-Journal",
@@ -598,7 +615,8 @@ window.FEED={
    "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeVF3QXBIdE50TFdUckNRSUMxeUxFUDJoMFhhQ280ekpLQTI1QXl1VjdIdF95dzNNZlU4UXI5YnJPN1BsUHMtTjAtb21mUUdnekZkaXY2ZllBalVwNVJ4eTF1ZTgxV2xIOTNKUEpaUGNWMURvZXBXUmQ5bkNCZWVFTmN0QV8zb0YzcFlBdVR3NWdqNHNFN3g0VFgyYkM?oc=5",
    "d": "2026-10-29",
    "s": "gnews",
-   "x": "Kennedy's HHS relaxes enforcement on 6 popular wellness peptides Fierce Pharma"
+   "x": "Kennedy's HHS relaxes enforcement on 6 popular wellness peptides Fierce Pharma",
+   "c": "Industry"
   },
   {
    "t": "US Health Secretary RFK Jr to expand access to unapproved peptides - BBC",
@@ -650,6 +668,14 @@ window.FEED={
    "s": "gnews-state",
    "x": "Here's How The FDA's Temporary Peptide Compounding Policy Impacts Access, Costs And Safety Blavity News",
    "c": "Regulation"
+  },
+  {
+   "t": "Kennedy to Allow Broad Use of Unapproved Peptide Injections - The New York Times",
+   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JSWpTV1hKUWtzalplclV0dU96SUJEQURMQVZwSG4ycDZWT01DNDRscUY2b1k4Ykw2SFE1aTVuSkc3ZWxtSFhGZDVhMTlHZEFBb01DX3JUTjJObUxVQ0hmVG5PTHNYaWhucmFMNmFRQzZTTmJtdnc?oc=5",
+   "d": "2026-10-28",
+   "s": "gnews",
+   "x": "Kennedy to Allow Broad Use of Unapproved Peptide Injections The New York Times",
+   "c": "Industry"
   },
   {
    "t": "What Labs Need to Know about Peptides in 2027 - Labcompare",
