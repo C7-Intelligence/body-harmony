@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-10T19:50Z",
+ "generated": "2026-11-11T06:40Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-10T19:50Z",
+   "checked": "2026-11-11T06:40Z",
    "ok": true,
-   "new": 41,
-   "seen": 60,
-   "lastOk": "2026-11-10T19:50Z"
+   "new": 43,
+   "seen": 63,
+   "lastOk": "2026-11-11T06:40Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-10T19:50Z",
+   "checked": "2026-11-11T06:40Z",
    "ok": true,
    "new": 23,
    "seen": 45,
-   "lastOk": "2026-11-10T19:50Z"
+   "lastOk": "2026-11-11T06:40Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-10T19:50Z",
+   "checked": "2026-11-11T06:40Z",
    "ok": true,
    "new": 0,
-   "seen": 3,
-   "lastOk": "2026-11-10T19:50Z"
+   "seen": 2,
+   "lastOk": "2026-11-11T06:40Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-10T19:50Z",
+   "checked": "2026-11-11T06:40Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-10T19:50Z"
+   "lastOk": "2026-11-11T06:40Z"
   },
   {
    "id": "gnews-gh",
@@ -55,18 +55,18 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-10T19:50Z",
+   "checked": "2026-11-11T06:40Z",
    "ok": true,
-   "new": 0,
-   "seen": 7,
-   "lastOk": "2026-11-10T19:50Z"
+   "new": 1,
+   "seen": 8,
+   "lastOk": "2026-11-11T06:40Z"
   }
  ],
  "items": [
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-10",
+   "d": "2026-11-11",
    "s": "epmc",
    "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
    "c": "Research"
@@ -74,7 +74,7 @@ window.FEED_ART={
   {
    "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
    "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-10",
+   "d": "2026-11-11",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
@@ -109,6 +109,38 @@ window.FEED_ART={
    "d": "2026-11-10",
    "s": "gnews-a",
    "x": "Opinion | RFK Jr. Is Ushering in Peptides. As an Oncologist, Here Are My Concerns. MedPage Today",
+   "c": "Industry"
+  },
+  {
+   "t": "How Plans, Clinicians Should Handle Gray-Market Retatrutide - The American Journal of Managed Care",
+   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOC1nNXpLTllSSDJpUElTNG5UZHFlMzQ0Rmc3QzBBcGdzb0JFdEV0bGRnbWVteXlIdjIwSUpWLXZUbDZDNGItLTBKcUo1bDYxSHM5U19HdmRjMlJ2NWVReVBIZlZ1VmV0V0xlVjItOWxRcXlBMEU3ZXZ0SUJXdTFVWmFVc1pqUUZLMkxVWQ?oc=5",
+   "d": "2026-11-10",
+   "s": "gnews-a",
+   "x": "How Plans, Clinicians Should Handle Gray-Market Retatrutide The American Journal of Managed Care",
+   "c": "Industry"
+  },
+  {
+   "t": "Retatrutide Cuts Knee Pain as Trial Participants Lose Weight - JournalArta",
+   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNak5lcGcxRDFON1BKMkIya1dRZXU4bWtKekZMQUx0Zk90ak52aEw4aVhwS3FYdGRQdWpEZnVsLWJmdEU1ZzVudGlpQ2ttTEdPeGtnRk5rS0QtZERnc0JOLVFxWmpoOEViUHpuS1Fsa1ZRMDV5ZTM2MkI2ZmpjaXlxa0RURXBMaE5ZUlN1b21CNTFEY0g5Tlhlam1ONllRY1Bm?oc=5",
+   "d": "2026-11-10",
+   "s": "gnews-a",
+   "x": "Retatrutide Cuts Knee Pain as Trial Participants Lose Weight JournalArta",
+   "c": "Industry"
+  },
+  {
+   "t": "Who tests the testers? How laboratory verification works for research peptides - Fingerlakes1.com",
+   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZW4yVUJ6Q05HQllNZzdfUi1Pck95RVpMbTFuN1lhZC1ETkJwYXlGQ0RyWF9pb0I4VExkTGFyRlpZRU5xMm9jRG90bTcyTHNGYlJfWFdqeWk1MHhVWFFVTHlqMnh6Z0tPV1RRSDBkdFprc1puMVU0MkZqRUlkMTR5VV9uMzhUdFhZa05zUElVdjgwWV9BUHFvLXhLV2VtaVJRMDZEZ3R5WS1Gcmh3RmVKeHo5YmZPQ0s0UXc?oc=5",
+   "d": "2026-11-10",
+   "s": "gnews-a",
+   "x": "Who tests the testers? How laboratory verification works for research peptides Fingerlakes1.com",
+   "c": "Industry"
+  },
+  {
+   "t": "Tomo Marjanovic to Address Longevity and Medical Tourism in the Gulf at Forbes Middle East Summit - EIN Presswire",
+   "l": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbGtuTF96c1dHUUdfbUM1WjB1Y2xhYnNjM253cmNfeVFoYTNBQ3p0LWJKcWRPeU1qd0tSeXhSQXFYTHZHZnFHUlB0QU5NVDRYV2xwUkNHc0xYMHl2aUw5MWdsMzhUZV9ybEpScjFXYVBZbllyMUREOTlNWW9yTW0xX2xzMi1RckJ4ZHYySVlUQU5Fa213UU44Sk9GeEVEZGtjMHg0dnJMaUJQamlyWTB4V0ZCWFh2MWJxWTFIU0VPVmZNanJ6TFctcF80NnJodzNwWVBhemdfRlNXS25p?oc=5",
+   "d": "2026-11-10",
+   "s": "gnews-gh",
+   "x": "Tomo Marjanovic to Address Longevity and Medical Tourism in the Gulf at Forbes Middle East Summit EIN Presswire",
    "c": "Industry"
   },
   {
@@ -227,6 +259,14 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "Health Canada finds bacteria in injectable peptides sold online, seizes 11,400 vials - ThinkPol",
+   "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORFBWTVhGTnRrVk1oUndnN254WUswbTJUMmMzZElqWDExb3o2TnJEQTh5c1lKNU8zVTE5REFOSEVzenRZOEdxMGJGcXRfdEJSZF9oMDVWSXNZQzBKLTA0R29Qd2tVWE5DWUE2QXRnX0xOVHUtcGVQZ3FlYXVCWkJyQ0NJMXJocUJtdXc3QnVmUW5qMTF6bEN2cS1BTzRwV0V5eC01Y0tza3RKcGl5emNTdXNn0gG3AUFVX3lxTE01MU1wVXRpdFJTa3NzRVFKMDd3UmdvY0YxMjZxcVpNQ3lHT2J0WkR2bm5raXRLUUhSeGJPZmZYMGVTcmoyZzlmZGp5X3R2aGV6ZjU1MHd3NFFhbEF5QzFSUzVEa0FLSWhta1dTcHY4U3NmY01tUGFuVUZIVTFxd2pDYlBNR1BaNGhhMmpIWVIySWd3OTBkTGJLREVpMzBBenFtYnd1Ym1kcTdiYmxMczlWR2wwcXgtYw?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-a",
+   "x": "Health Canada finds bacteria in injectable peptides sold online, seizes 11,400 vials ThinkPol",
+   "c": "Industry"
+  },
+  {
    "t": "Retatrutide Reduces Knee Pain in Obesity and Osteoarthritis Trials - Bioengineer.org",
    "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPcmF4cDRJbjN1WjgwTGlVV0dMN0s1eHYxM3Q4WlB5eVd5WjBabE93THdpcTFoMV85RERycHJsMDY4Y1JoUWxiWklxclJEWThxVHB2S2xyOUQ3X3hiOUtneDk3Zk1ueTdweGVsOFBtMlFDOERGWmd1R1Bfclljc3FPM3JWT1Vya0xqVk81bk9XWE1lTUd0Z2c?oc=5",
    "d": "2026-11-08",
@@ -259,19 +299,19 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say - MassLive",
+   "t": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say - MassLive.com",
    "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWE52S0Y1cUhNOU03NGNGeXQxNmNVTjZhS2J0Uy1nSm5ndHdyRUhGYWlqaEZsUXUwS1dTakNRVC1QRl9LMlpBNlctVGZNeVZJaGpWSWhvWWRRYUxIdWxzX1JwYVU3ZXB2QU0tM3N4eHh6TEtOdVFuX0xzSUdBSzJwcVFBS2dCTW5QLXIwQkI3TDk0OVFhSjNzMzh4alBzcE1DYUEzVFJDYmhYSUpmLXpubGhlUHZVVTYzb3pzTW44RGtoN1JqUzFQMXFxYlBXTjVNc0xESw?oc=5",
    "d": "2026-11-07",
    "s": "gnews-a",
-   "x": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say MassLive",
+   "x": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say MassLive.com",
    "c": "Industry"
   },
   {
-   "t": "Opinion | Retatrutide Is One Click Away. That Doesn't Make it Safe. - MedPage Today",
+   "t": "Opinion | Retatrutide Is One Click Away. That Doesn't Make It Safe. - MedPage Today",
    "l": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyYnRIa3FvNzFURjk0c0I0eFg4U3Nlak04NFVacl8xM3U1clFpZzVKRkNoR1RRNXBSNG5mS1E1aFdHSXN0Qk9pS25wZTZsZFlEMXBjYUlGR3p3eTk2TTJ4bGhzeWUxM1pYTFB3?oc=5",
    "d": "2026-11-07",
    "s": "gnews-a",
-   "x": "Opinion | Retatrutide Is One Click Away. That Doesn't Make it Safe. MedPage Today",
+   "x": "Opinion | Retatrutide Is One Click Away. That Doesn't Make It Safe. MedPage Today",
    "c": "Industry"
   },
   {
@@ -363,7 +403,8 @@ window.FEED_ART={
    "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONW0zckVoYndtZlBsLVB0MEVlRkQtUlFaYWMzbEVQT0VfR3lkUm1lU0NqcHFaek40REVhQ0lkeUFBNlJ2MlVReTZudkY3dmU2NjJucWRQcmJsNk96YzJFMWRXcXRJUUxGRnY3YURBM3Jld0tQRjE0MVpHUzNoX3QxTkh0Y2NnMzRWNjlLUHNXb2QyZE0zYmRySHM3RkwtblZQNjhZMjcwcmxKYTRTZV9NWEZzQWJqaEZZd3RMUXZSYw?oc=5",
    "d": "2026-11-05",
    "s": "gnews-a",
-   "x": "Lilly to showcase new retatrutide, Taltz (ixekizumab) and Zepbound (tirzepatide) data at ACR Convergence 2026, advancing science at the intersection of rheumatologic conditions and obesity Eli Lilly"
+   "x": "Lilly to showcase new retatrutide, Taltz (ixekizumab) and Zepbound (tirzepatide) data at ACR Convergence 2026, advancing science at the intersection of rheumatologic conditions and obesity Eli Lilly",
+   "c": "Industry"
   },
   {
    "t": "Acute coronary thrombosis following anabolic-androgenic steroid use in a female athlete: A case report.",
@@ -421,34 +462,6 @@ window.FEED_ART={
    "d": "2026-11-04",
    "s": "gnews-a",
    "x": "Retatrutide: What To Know About Online Sales, Safety Risks and More Forbes"
-  },
-  {
-   "t": "Diabetics on retatrutide lose double the weight of those on Ozempic - Juta MedicalBrief",
-   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMnppbl9KQXhhV1dQd3hoZGZ0ZDJWZ2dYSFRrRG40UUc2QlBqOTlEX2RUTlRjeVFSQzNuRFRSblljWnNnazJreDladXRyeEMyT0p5R1VscnR3M015SkZaNWVLNG1KN0h6b0xxSHo4SjdBUGFEVDdZRzFBSGJxUzZoZkV3QjRQZzRORW1QczhXMDI1Rmk3T2JJZVMzME5IUEdC?oc=5",
-   "d": "2026-11-04",
-   "s": "gnews-a",
-   "x": "Diabetics on retatrutide lose double the weight of those on Ozempic Juta MedicalBrief"
-  },
-  {
-   "t": "Why UK Labs Are Taking a Closer Look at Where Their Research Peptides Come From - The Edinburgh Reporter",
-   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQUYwMGk4Z016N215bUxuY2NiVU9QNlBRNVl4NFR2M0xxT2RKN0dlSkY3S0dheXdEWlA4bGc5c3RRWXQ2MFdUQ2haWDE4TG4wbVZQMVRSVS1TNFhpV0FyeGpMUG1EVkc3cTd3NmgxTzY5NENlcTVueGtTWkxHWUNXeFR5UHhJbXB2aDI2TmlYU012WEtiUEhidDNPaEJNTjg4V25rTTRUcGdTOW9QTGVMT3N2cU1Lb3hMaTlXM2lNaVI?oc=5",
-   "d": "2026-11-04",
-   "s": "gnews-a",
-   "x": "Why UK Labs Are Taking a Closer Look at Where Their Research Peptides Come From The Edinburgh Reporter"
-  },
-  {
-   "t": "Compounding Oversight Bill advances amid FDA warnings on unapproved retatrutide - Generics and Biosimilars Initiative",
-   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQODZGYkZFemhwc3JUWWx1UHp4eHBsY1NMaEpCWkx0QnVlT2tWY3NHTmwyaXVFeWc4VWZYUGhYUVpSTEhGQ2lKSGdNVm5QRHRDSVkxVjJNZGc1RlZsS251ZEZwYmFGX2stV1JmdGRMWE5PcnNjLWFPLVBhdUtqdWdEYmN5dVZTQVkyZnZ6QTlQcDZFU01BODNENFktUmtKblZKRHpfVDlwb3RZdWxCYkU2b0tDaVM?oc=5",
-   "d": "2026-11-03",
-   "s": "gnews-a",
-   "x": "Compounding Oversight Bill advances amid FDA warnings on unapproved retatrutide Generics and Biosimilars Initiative"
-  },
-  {
-   "t": "Volta Peptides Launches U.S. Warehouse, Expands Research Peptide Shipping Across USA and Canada - USA Today",
-   "l": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU1dkWG42SGdGeGtHTl9zSElSTWt6OGRZeTFBdDRDZEVvOUFoZlN5Vndxb1pqS0JTX2hyMktyQ2hPNnYzd1hOd3cxU1FaUGVNcVUxbF9XYjYySHRKVlRGODZmZld0MEpHQ1FvMG5GVkxfMG1CVExDR3ZUblY2RXJfMmlqWWFfakJITVhFLThrZ2Zna1pkQS1Ld2QzRzVyTW9udDU1ZExIbHFBSVRVZmtNYldFMG12RXAzTU5XS2Jsa1ROZ2szX2d5QTMxMXkxZFRSdUwtcjQxTDI4REtnNkE?oc=5",
-   "d": "2026-11-03",
-   "s": "gnews-a",
-   "x": "Volta Peptides Launches U.S. Warehouse, Expands Research Peptide Shipping Across USA and Canada USA Today"
   },
   {
    "t": "Next-generation incretin therapeutics for polyendocrine metabolic ovarian syndrome: navigating current pipeline and clinical considerations.",
