@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-11T19:41Z",
+ "generated": "2026-11-12T07:22Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-11T19:41Z",
+   "checked": "2026-11-12T07:22Z",
    "ok": true,
-   "new": 46,
-   "seen": 70,
-   "lastOk": "2026-11-11T19:41Z"
+   "new": 43,
+   "seen": 69,
+   "lastOk": "2026-11-12T07:22Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-11T19:41Z",
+   "checked": "2026-11-12T07:22Z",
    "ok": true,
    "new": 23,
    "seen": 45,
-   "lastOk": "2026-11-11T19:41Z"
+   "lastOk": "2026-11-12T07:22Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-11T19:41Z",
+   "checked": "2026-11-12T07:22Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-11T19:41Z"
+   "lastOk": "2026-11-12T07:22Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-11T19:41Z",
+   "checked": "2026-11-12T07:22Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-11T19:41Z"
+   "lastOk": "2026-11-12T07:22Z"
   },
   {
    "id": "gnews-gh",
@@ -55,18 +55,18 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-11T19:41Z",
+   "checked": "2026-11-12T07:22Z",
    "ok": true,
-   "new": 3,
-   "seen": 7,
-   "lastOk": "2026-11-11T19:41Z"
+   "new": 0,
+   "seen": 6,
+   "lastOk": "2026-11-12T07:22Z"
   }
  ],
  "items": [
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-11",
+   "d": "2026-11-12",
    "s": "epmc",
    "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
    "c": "Research"
@@ -74,10 +74,18 @@ window.FEED_ART={
   {
    "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
    "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-11",
+   "d": "2026-11-12",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
+  },
+  {
+   "t": "Retatrutide shows knee osteoarthritis pain relief in trials - 디지털투데이",
+   "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUG5JS212ZS1GZHpiSGNRUmU2N21JWV9LUFlZS3kxd3U0NDJpOFFTb3JjZXdlQ2pTOEhDQm4zQ2hWbDEtWXBrWjJYR0JWQ3FNTENscmtneGhZOGlnT0lzLTl6RVdTZGh3amFPQjlFbk5aZnJjUGtCalc4cUJWdkw3QXNqamstSWtmZ0UwcGtCWHdTSU9ncTRxRDRjbWtUanJCcF91ZlFlcno?oc=5",
+   "d": "2026-11-12",
+   "s": "gnews-a",
+   "x": "Retatrutide shows knee osteoarthritis pain relief in trials 디지털투데이",
+   "c": "Industry"
   },
   {
    "t": "TB-500 and Football Injuries: What Does the Research Actually Show? - NFL Draft Diamonds",
@@ -125,6 +133,14 @@ window.FEED_ART={
    "d": "2026-11-11",
    "s": "gnews-gh",
    "x": "Tomo Marjanovic to Address Longevity and Medical Tourism in the Gulf at Forbes Middle East Summit The National Law Review",
+   "c": "Industry"
+  },
+  {
+   "t": "Retatrutide reduced chronic knee pain in trials, researchers say - Mezha.net",
+   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUEwtdmRwbFYtZTZFLXlpUzRMYjJhRnd3M0tOZHNkS3lTMnJkT3c1UHFxUk1DZjRuZWhZYldVVnFyTl9USUQydUhhNW9nNWFNNHB0V0tiT1UycktJMzRmTzBiam1XSGZHZjBoOWlEblg0X1h3djdKR2FPTzk3b1VPZF9XTWYxajNrdkt5NlhOVQ?oc=5",
+   "d": "2026-11-11",
+   "s": "gnews-a",
+   "x": "Retatrutide reduced chronic knee pain in trials, researchers say Mezha.net",
    "c": "Industry"
   },
   {
@@ -469,20 +485,6 @@ window.FEED_ART={
    "d": "2026-11-04",
    "s": "gnews-a",
    "x": "Celltrion Unveils First Quadruple-Action Obesity Drug Candidate, Outperforming Retatrutide in Animal Study Businesskorea"
-  },
-  {
-   "t": "BPC-157 and TB-500 in Laboratory Research: Product Documentation and Handling Considerations - openPR.com",
-   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOTkNacHZIN0JDQ1h6NU11Nnd1RWpwTWxuenlTMlFPWkNlbFZkMUFCUGJGdnlLZ3h3T1B5VTRWNDhLbkVMTldzc2ZuRjViYi1LU0ZYMng4SHpzSS1YNDRTUmcyZlFyeVI5X29rQXVWZFpIM054Uy0yakdqbUdGd09wSVp1R0l3VzF4MF9JRUln?oc=5",
-   "d": "2026-11-04",
-   "s": "gnews-a",
-   "x": "BPC-157 and TB-500 in Laboratory Research: Product Documentation and Handling Considerations openPR.com"
-  },
-  {
-   "t": "Metabolic Research Peptides for In Vitro Studies: Quality Documentation and Selection Considerations - openPR.com",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVGpLRllqRU9zekNnYkZZVi1iaDM3ZVR4RTFtdE5aalhISWp6bjY5VXBjU1FBRy1uaDdESDNWbk5Rend0RGJDQnUwT2xkNFB4cnBzTl9XdmFFS1ZQankzSlJUd2stYUlmZ1c3OVpmNFZwNDkzdzU4VmtiLWJFYWFXTm14bHZCWVpabjk1QjFjWGdtRF9lYUFz?oc=5",
-   "d": "2026-11-04",
-   "s": "gnews-a",
-   "x": "Metabolic Research Peptides for In Vitro Studies: Quality Documentation and Selection Considerations openPR.com"
   },
   {
    "t": "Next-generation incretin therapeutics for polyendocrine metabolic ovarian syndrome: navigating current pipeline and clinical considerations.",
