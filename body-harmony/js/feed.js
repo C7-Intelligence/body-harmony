@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-12T07:21Z",
+ "generated": "2026-11-12T20:03Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "fierce",
@@ -67,11 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
-   "new": 3,
-   "seen": 3,
-   "lastOk": "2026-11-12T07:21Z"
+   "new": 2,
+   "seen": 2,
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "gnews",
@@ -79,11 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
-   "new": 92,
-   "seen": 102,
-   "lastOk": "2026-11-12T07:21Z"
+   "new": 90,
+   "seen": 97,
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "fda-recalls",
@@ -91,11 +91,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "fda-consumer",
@@ -103,7 +103,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -115,11 +115,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "fr-hhs",
@@ -127,11 +127,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "doj",
@@ -139,11 +139,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "usada",
@@ -151,11 +151,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "mhra",
@@ -163,11 +163,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "gnews-state",
@@ -175,11 +175,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
-   "new": 1,
-   "seen": 9,
-   "lastOk": "2026-11-12T07:21Z"
+   "new": 0,
+   "seen": 10,
+   "lastOk": "2026-11-12T20:03Z"
   },
   {
    "id": "gnews-anab",
@@ -187,11 +187,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T07:21Z",
+   "checked": "2026-11-12T20:03Z",
    "ok": true,
-   "new": 0,
+   "new": 1,
    "seen": 13,
-   "lastOk": "2026-11-12T07:21Z"
+   "lastOk": "2026-11-12T20:03Z"
   }
  ],
  "items": [
@@ -212,6 +212,14 @@ window.FEED={
    "c": "Regulation"
   },
   {
+   "t": "What's New Related to Drugs",
+   "l": "http://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
+   "d": "2026-11-12",
+   "s": "fda-drugs",
+   "x": "Want to know what's new on drugs from FDA? This page provides quick links to the latest on a variety of topics including: drug approvals, safety warnings, drug shortages, etc.",
+   "c": "Regulation"
+  },
+  {
    "t": "",
    "l": "https://www.fiercepharma.com/marketing/lillys-foundayo-marketing-push-keeps-pace-another-celeb-spokesperson-comedian-leanne",
    "d": "2026-11-12",
@@ -225,14 +233,6 @@ window.FEED={
    "d": "2026-11-12",
    "s": "fierce",
    "x": "After an internal investigation, the FDA is calling for 12 GLP-1s to add a new and rare eye risk to the \"warnings and precautions\" section of their labels.",
-   "c": "Industry"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/lilly-heads-fda-phase-3-foundayo-win-sleep-apnea",
-   "d": "2026-11-12",
-   "s": "fierce",
-   "x": "Lilly's oral GLP-1 Foundayo significantly reduced sleep apnea severity in a phase 3 study presented at the AHA Scientific Sessions on Monday. Now, the pharma is approaching the FDA in hopes of a label expansion.",
    "c": "Industry"
   },
   {
@@ -273,14 +273,6 @@ window.FEED={
    "d": "2026-11-10",
    "s": "gnews-state",
    "x": "HHS Draws New Lines for Peptide Compounding: What Changes for 503A Pharmacies The National Law Review",
-   "c": "Regulation"
-  },
-  {
-   "t": "What's New Related to Drugs",
-   "l": "http://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
-   "d": "2026-11-10",
-   "s": "fda-drugs",
-   "x": "Want to know what's new on drugs from FDA? This page provides quick links to the latest on a variety of topics including: drug approvals, safety warnings, drug shortages, etc.",
    "c": "Regulation"
   },
   {
@@ -919,6 +911,14 @@ window.FEED={
    "d": "2026-10-15",
    "s": "gnews-anab",
    "x": "‘Trading drugs for weapons’: Police charge CFMEU delegate over union HQ deals SMH.com.au",
+   "c": "Safety"
+  },
+  {
+   "t": "CFMEU delegate charged with drug trafficking - News24",
+   "l": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOOUZMZnlVdEV2cjFnd1p1b1YxY1dLU2E0Ui1hVUIwWWtxWFoxbkR3RDNJR19EVl9sQmxGWEUzbEY0QnkxbTRXRHRGSnBzU0RsaklOenFnOUsxcVZYZkgwNUV3bTRSZlByMzItMURCaVNfeEM4WHFramxXX0dud0prZEVDSEVjY0JvUXhXaU8wSkZvOTMzMEJjMHNhem4xZm9wQU5CRXlHdTE3dTZCZTVmb2ZucnBiRlJ0dnFGaE9kRW1xeUlhQXFINHNoY2ZiN3c3a09MSkE0VWhKbnQ2Unk4S3hsVXpRamVxdTdvbHhKWXh4bTV20gH6AUFVX3lxTE8xSHNhYXRUV3FWejl1ODQyalBhejlsVklEekFwdERRWFZtaTlXU3d1LUxiZ0tEYUpEQldlbGJ0QzlFRlRKVDRUcGw1MlZTRWRxcFNQRGcyUF9FUW5BRWZEN2VLMk01blJTQk8tUzEzeWFzbWVvQUI1TU92Ukk5ZTZFOW55MmJuU2hETkJyajd0V1NWdDZfQ2l0elJYZjRNd0V6OXM4dEo2dlFtME9QTDFCZzd5WmRwNWtvOXJ2d0xtcHJDallKazk4LUg4WGg5M0xBNFhyWWt5ZWRjeVlDX2dmNW9aMmFuN0lSc1dOVFFOSFAydWpuNGQ5N2c?oc=5",
+   "d": "2026-10-15",
+   "s": "gnews-anab",
+   "x": "CFMEU delegate charged with drug trafficking News24",
    "c": "Safety"
   },
   {
