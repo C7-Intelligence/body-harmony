@@ -36,6 +36,20 @@ function html(){return `
  <div id="t-none" class="callout bad" hidden><b>Enter a dose first.</b> Type your dose in My vial below, or choose a peptide that has a typical dose.</div>
  <div class="m-seg m-only" role="tablist" aria-label="Schedule and log sections"><button type="button" role="tab" data-go="log" class="on">Log</button><button type="button" role="tab" data-go="plan">Plan</button><button type="button" role="tab" data-go="cal">Calendar</button><button type="button" role="tab" data-go="lvl">Level</button><button type="button" role="tab" data-go="hist">History</button></div>
  <div class="calc" id="t-main">
+  <div class="cg vdash" data-p="log" id="vd">
+   <div class="vd-hero"><svg class="vd-vial" viewBox="0 0 96 150" aria-hidden="true"><rect x="30" y="4" width="36" height="14" rx="4" class="vd-cap"/><rect x="24" y="16" width="48" height="10" rx="3" class="vd-neck"/><path d="M26 26h44v96a12 12 0 0 1-12 12H38a12 12 0 0 1-12-12z" class="vd-glass"/><clipPath id="vd-clip"><path d="M27 27h42v95a11 11 0 0 1-11 11H38a11 11 0 0 1-11-11z"/></clipPath><g clip-path="url(#vd-clip)"><rect id="vd-liq" x="26" y="130" width="44" height="106" class="vd-liq"/></g><g class="vd-tick"><path d="M70 50h8M70 70h8M70 90h8M70 110h8"/></g></svg>
+    <div class="vd-ht"><div class="vd-k" id="vd-k"></div><div class="vd-big" id="vd-big"></div><div class="vd-s" id="vd-s"></div><span class="vd-pill" id="vd-pill"></span></div></div>
+   <div class="vd-row"><div class="vd-card vd-ringc"><svg viewBox="0 0 92 92" aria-hidden="true"><circle cx="46" cy="46" r="38" class="vd-rt"/><circle id="vd-rc" cx="46" cy="46" r="38" class="vd-rp" stroke-dasharray="239" stroke-dashoffset="239" transform="rotate(-90 46 46)"/><text id="vd-rn" x="46" y="51" text-anchor="middle" class="vd-rnum">—</text><text id="vd-rl" x="46" y="67" text-anchor="middle" class="vd-rlab"></text></svg><div class="vd-rs" id="vd-rs"></div></div>
+    <div class="vd-card"><div class="vd-k">Stored in</div><div class="vd-st" id="vd-st"><button type="button" data-st="fridge">Fridge</button><button type="button" data-st="freezer">Freezer</button><button type="button" data-st="shelf">Room temp</button></div></div></div>
+   <div class="callout bad vd-freeze"><p><b>Never freeze a mixed vial.</b> Freezing can destroy the peptide. Only freeze unmixed powder.</p></div>
+   <div id="vd-warn"></div>
+   <div class="vd-next"><div class="vd-nh"><span class="vd-k">Next dose</span><span id="vd-rel"></span></div><div class="vd-nd" id="vd-nd">—</div>
+    <div class="vd-week" id="vd-week"></div>
+    <div class="vd-k vd-site-h">Where to inject (tap to change)</div>
+    <div class="vd-sites"><svg class="vd-body" viewBox="0 0 64 92" aria-hidden="true"><circle cx="32" cy="10" r="8" class="vd-bd"/><rect x="18" y="20" width="28" height="36" rx="10" class="vd-bd"/><rect x="20" y="56" width="10" height="32" rx="5" class="vd-bd"/><rect x="34" y="56" width="10" height="32" rx="5" class="vd-bd"/><circle data-spot="la" cx="25" cy="42" r="6"/><circle data-spot="ra" cx="39" cy="42" r="6"/><circle data-spot="lt" cx="25" cy="66" r="4"/><circle data-spot="rt" cx="39" cy="66" r="4"/></svg><div class="vd-chips" id="vd-chips"></div></div>
+    <button type="button" class="vd-log" id="vd-log">Log dose</button></div>
+   <div class="vd-act"><button type="button" class="chip" id="vd-new">I mixed a new vial</button><button type="button" class="chip" id="vd-edit" aria-expanded="false">Edit vial details</button></div>
+  </div>
   <div class="cg" data-p="log">
    <h4><i>a</i> Today</h4>
    <p id="t-using" class="note" hidden></p>
@@ -141,9 +155,36 @@ function init(root,ctx){
     sel.value=opts.includes(cur)&&cur?cur:planned;
   }
 
+  function renderDash(p,o){
+    const {left,total,mixed,place,budDate,next,rel,s,calc,DU,w,long,today}=o;
+    const set=(id,v)=>{$i(id).textContent=v};
+    set('vd-k',`${calc.name} · ${o.vialTxt}`);set('vd-big',`${left} of ${total} doses left`);
+    set('vd-s',`${fmtNum(calc.doseMcg,2)} ${DU} · ${fmtNum(calc.bacMl,2)} mL water · ${fmtNum(o.vm.unitsPerDose,1)} units (${fmtNum(o.vm.mlPerDose,3)} mL) per dose`);
+    const pill=mixed?(place==='fridge'?'Fridge':place==='freezer'?'Freezer':'Room temp')+' · mixed '+long(p.reconDate).replace(/,\s*\d{4}$/,''):'Not mixed yet';
+    set('vd-pill',pill);
+    const frac=total>0?Math.max(0,Math.min(1,left/total)):0;$i('vd-liq').setAttribute('y',String(Math.round(130-frac*100)));
+    let rn='—',rl='',rs='',off=239;
+    if(mixed&&place==='fridge'&&budDate){const dl=M.diffDays(today,budDate);const ov=dl<0;rn=ov?'0':String(dl);rl=ov?'past limit':'days left';rs=ov?'Passed '+long(budDate):'Good until '+long(budDate);off=ov?239:Math.round(239*(1-Math.max(0,Math.min(1,dl/p.budDays))))}
+    else if(mixed){rn='!';rl=place==='freezer'?'do not freeze':'use fridge';rs='Mixed vials belong in the fridge'}
+    else{rn='';rl='not mixed';rs='Add a mixed-on date to start the countdown'}
+    set('vd-rn',rn);set('vd-rl',rl);set('vd-rs',rs);$i('vd-rc').setAttribute('stroke-dashoffset',String(off));
+    $i('vd-st').querySelectorAll('button').forEach(b=>{const on=b.dataset.st===place;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
+    $i('vd-warn').innerHTML=w;
+    set('vd-nd',next?new Date(M.parse(next)).toLocaleDateString(undefined,{weekday:'short',month:'short',day:'numeric',timeZone:'UTC'}):'—');set('vd-rel',rel);
+    const taken=new Set(p.log.map(l=>l.date)),sched=new Set(M.dates(s,s.start,500));
+    const dow=new Date(M.parse(today)).getUTCDay(),mon=M.addDays(today,-((dow+6)%7));let wk='';
+    for(let i=0;i<7;i++){const d=M.addDays(mon,i),L=['M','T','W','T','F','S','S'][i];const t=taken.has(d),isn=d===next,isT=d===today;
+      wk+=`<span class="${t?'tk':isn?'nx':sched.has(d)?'sc':''}${isT?' td':''}">${L}<br>${t?'✓':isn?'●':sched.has(d)?'·':'–'}</span>`}
+    $i('vd-week').innerHTML=wk;
+    const sel=$i('t-lsite').value;
+    $i('vd-chips').innerHTML=p.sites.map(x=>`<button type="button" class="${x===sel?'on':''}" data-site="${esc(x)}">${esc(x)}</button>`).join('');
+    const key=x=>{x=x.toLowerCase();const side=/left/.test(x)?'l':/right/.test(x)?'r':'';const part=/abdom|belly|stomach/.test(x)?'a':/thigh|leg/.test(x)?'t':'';return side&&part?side+part:''};
+    $i('vd').querySelectorAll('[data-spot]').forEach(c=>c.classList.toggle('on',c.dataset.spot===key(sel)));
+    set('vd-log',`Log ${fmtNum(calc.doseMcg,2)} ${DU} dose`);
+  }
   function render(){
     const none=!(calc&&calc.doseMcg>0&&calc.vialMg>0&&calc.bacMl>0);
-    $i('t-none').hidden=!none;root.querySelectorAll('#t-main>.cg:not(.vcard)').forEach(c=>{c.hidden=none});const vb=$i('vialbar');if(vb&&none)vb.hidden=true;
+    $i('t-none').hidden=!none;$i('d-tracker').classList.toggle('noset',none);root.querySelectorAll('#t-main>.cg:not(.vcard)').forEach(c=>{c.hidden=none});const vb=$i('vialbar');if(vb&&none)vb.hidden=true;
     ['t-pk','t-hist'].forEach(i=>{$i(i).hidden=none});
     if(none){$i('t-pk').innerHTML='';$i('t-hist').innerHTML='';syncVial();return}
     const p=prof(),s=schedOf(p),today=todayStr();
@@ -180,6 +221,7 @@ function init(root,ctx){
     root._budDays=p.budDays;syncVial();root.dispatchEvent(new CustomEvent('bh-vial'));
     $i('t-kv').innerHTML=`<dt>Concentration</dt><dd>${IU?fmtNum(vm.concMcgPerMl,1)+' IU/mL':fmtNum(vm.concMcgPerMl/1000,3)+' mg/mL'}</dd><dt>Per dose</dt><dd>${fmtNum(vm.unitsPerDose,2)} units (${fmtNum(vm.mlPerDose,3)} mL)</dd><dt>Doses in a full vial</dt><dd>${vm.dosesPerVial}</dd><dt>Logged from this vial</dt><dd>${used} · ${left} left</dd><dt>Projected last dose</dt><dd>${life.lastDose?long(life.lastDose):'—'}</dd><dt>Beyond-use date</dt><dd>${life.budDate?long(life.budDate):'set a reconstitution date'}</dd>`;
     siteOptions();
+    renderDash(p,{left,total:vm.dosesPerVial,mixed,place,budDate,next,rel,s,calc,DU,w,long,today,vm,vialTxt:IU?fmtNum(calc.vialMg*1000,0)+' IU':fmtNum(calc.vialMg,2)+' mg'});
     renderPK(p,s,next,today);renderHist(p);renderCal(p,s,next,today);
   }
 
@@ -241,6 +283,11 @@ function init(root,ctx){
   $i('v-bac').addEventListener('change',()=>{cEl('c-bac').value=$i('v-bac').value;fire(cEl('c-bac'),'change')});
   $i('v-dose').addEventListener('input',()=>{const n=parseFloat($i('v-dose').value);if(!(n>0))return;
     const cu=cEl('c-cu');cu.value=calc&&calc.unit==='IU'?'IU':'mcg';cEl('c-des').value='None Selected';cEl('c-cust').value=n;fire(cEl('c-cust'),'input')});
+  $i('vd-st').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{prof().storage=b.dataset.st;commit()}));
+  $i('vd-chips').addEventListener('click',e=>{const b=e.target.closest('[data-site]');if(!b)return;const sel=$i('t-lsite');sel.value=b.dataset.site;render()});
+  $i('vd-log').addEventListener('click',()=>$i('t-log').click());
+  $i('vd-new').addEventListener('click',()=>$i('t-newvial').click());
+  $i('vd-edit').addEventListener('click',()=>{const t=$i('d-tracker'),on=t.classList.toggle('vedit');$i('vd-edit').setAttribute('aria-expanded',on);$i('vd-edit').textContent=on?'Done editing':'Edit vial details'});
   $i('t-store').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{prof().storage=b.dataset.st;commit()}));
   const vbar=$i('vialbar');
   if(vbar)vbar.addEventListener('click',e=>{
@@ -261,7 +308,7 @@ function init(root,ctx){
     const p=prof(),d=$i('t-ldate').value;if(!isDate(d)){msg('Pick the date the dose was taken.');return}
     const dose=num($i('t-ldose').value,calc.doseMcg);if(!(dose>0)){msg('Dose must be above zero.');return}
     p.log.push({id:uid(),date:d,doseMcg:dose,site:$i('t-lsite').value,vialId:p.vialId});
-    $i('t-ldose').value='';commit();msg('Logged.');
+    $i('t-ldose').value='';$i('t-lsite').value='';commit();msg('Logged.');
   });
   $i('t-ics').addEventListener('click',()=>{
     const p=prof(),s=schedOf(p),next=M.nextDose(s,lastLogged(p));if(!next||!calc){msg('Nothing to export yet.');return}

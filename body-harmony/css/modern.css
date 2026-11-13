@@ -379,3 +379,51 @@ html[data-ui=modern] #sec-dosage[data-view=calc]>*:not(.syr):not(.vialbar),html[
 .syr-pills button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
 .syr .jr-btn.solid{margin-top:14px}
 .syr .more{margin-top:14px}
+
+/* ---- My vial & log: visual dashboard (modern UI) ---- */
+.vdash{display:none}
+html[data-ui=modern] #d-tracker[data-tab=log] .vdash{display:block}
+html[data-ui=modern] #d-tracker:not(.vedit):not(.noset) #t-main>.cg[data-p=log]:not(.vdash){display:none!important}
+html[data-ui=modern] #d-tracker.vedit .vdash,html[data-ui=modern] #d-tracker.noset .vdash{margin-bottom:14px}
+html[data-ui=modern] #d-tracker .vdash{background:none;border:0;padding:0;box-shadow:none}
+.vd-hero{display:flex;gap:16px;align-items:center;padding:18px;border-radius:22px;background:linear-gradient(160deg,var(--accent-soft),var(--surface));border:1px solid var(--line)}
+.vd-vial{width:92px;flex:none}
+.vd-cap{fill:var(--muted)}.vd-neck{fill:var(--line)}
+.vd-glass{fill:var(--bg);stroke:var(--muted);stroke-width:2}
+.vd-liq{fill:var(--accent);opacity:.85;transition:y .5s}
+.vd-tick path{stroke:var(--muted);stroke-width:1.5}
+.vd-ht{flex:1;min-width:0}
+.vd-k{font:600 11px var(--sans);letter-spacing:.1em;text-transform:uppercase;color:var(--muted)}
+.vd-hero .vd-k{color:var(--accent)}
+.vd-big{font-family:var(--serif);font-size:28px;font-weight:600;line-height:1.1;margin-top:4px}
+.vd-s{color:var(--muted);font-size:13px;margin-top:6px}
+.vd-pill{display:inline-block;margin-top:10px;padding:5px 12px;border-radius:999px;background:var(--accent-soft);color:var(--accent);border:1px solid var(--accent);font-size:12px;font-weight:600}
+.vd-row{display:flex;gap:12px;margin-top:12px}
+.vd-card{flex:1;border-radius:20px;background:var(--surface);border:1px solid var(--line);padding:14px;min-width:0}
+.vd-ringc{text-align:center}.vd-ringc svg{width:92px;height:92px}
+.vd-rt{fill:none;stroke:var(--line);stroke-width:9}
+.vd-rp{fill:none;stroke:var(--accent);stroke-width:9;stroke-linecap:round;transition:stroke-dashoffset .5s}
+.vd-rnum{fill:var(--ink);font:600 26px var(--serif)}.vd-rlab{fill:var(--muted);font:10px var(--sans)}
+.vd-rs{font-size:12px;color:var(--muted);margin-top:4px}
+.vd-st{display:flex;flex-direction:column;gap:6px;margin-top:8px}
+.vd-st button{padding:9px 10px;border-radius:12px;border:1px solid var(--line);background:none;color:var(--muted);font:500 13px var(--sans);text-align:left}
+.vd-st button.on{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:600}
+.vd-freeze{margin:12px 0 0!important}
+#vd-warn{margin-top:12px}
+.vd-next{margin-top:14px;border-radius:22px;background:var(--ink);color:var(--bg);padding:18px}
+.vd-next .vd-k{color:var(--accent-soft)}
+.vd-nh{display:flex;justify-content:space-between;align-items:baseline;font-size:12px}
+.vd-nd{font-family:var(--serif);font-weight:600;font-size:32px;margin:2px 0 10px}
+.vd-week{display:flex;gap:6px;margin-bottom:14px}
+.vd-week span{flex:1;text-align:center;padding:6px 0;border-radius:10px;background:rgba(127,127,127,.25);font:600 11px/1.3 var(--sans)}
+.vd-week .tk{background:var(--accent);color:var(--accent-ink)}.vd-week .sc{background:rgba(127,127,127,.4)}
+.vd-week .nx{outline:2px solid var(--bg)}.vd-week .td{box-shadow:0 0 0 2px var(--accent-soft)}
+.vd-site-h{margin-bottom:6px}
+.vd-sites{display:flex;gap:10px;align-items:center}
+.vd-body{width:60px;flex:none}.vd-bd{fill:var(--muted);opacity:.7}
+.vd-body [data-spot]{fill:none;stroke:var(--accent);stroke-width:2}.vd-body [data-spot].on{fill:var(--accent)}
+.vd-chips{display:flex;flex-wrap:wrap;gap:6px;flex:1}
+.vd-chips button{padding:8px 12px;border-radius:999px;border:1px solid var(--muted);background:none;color:var(--bg);font:500 12px var(--sans)}
+.vd-chips button.on{background:var(--bg);color:var(--ink);border-color:var(--bg);font-weight:700}
+.vd-log{margin-top:14px;width:100%;height:54px;border-radius:16px;border:0;background:var(--bg);color:var(--ink);font:600 17px var(--sans)}
+.vd-act{display:flex;gap:8px;margin-top:14px}.vd-act .chip{flex:1;padding:12px;border-radius:14px;justify-content:center;text-align:center}
