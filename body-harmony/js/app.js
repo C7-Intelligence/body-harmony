@@ -196,9 +196,77 @@ R.dosage=()=>{
   const groups=['5mg','10mg','20mg'];
   const gl=[['Peptide','A short chain of amino acids, usually sold as a freeze-dried powder in a small glass vial.'],['BAC water','Bacteriostatic water: sterile water with a little benzyl alcohol, used to dissolve the powder.'],['Reconstitute','Mix the powder with BAC water so it can be drawn into a syringe.'],['mcg and mg','Units of weight. 1 mg = 1,000 mcg. Doses are often in mcg; vials are labelled in mg.'],['Unit (U-100)','The tick marks on an insulin syringe. 100 units = 1 mL, so 10 units = 0.1 mL.'],['Concentration','How much peptide is in each mL once mixed. More BAC water means a weaker mix, so you draw more volume.']];
   const sec=(n,id,t,sub,body)=>`<div id="${id}" class="dstep"><div class="dstep-h"><span class="dnum">${n}</span><div><h2>${t}</h2><p>${sub}</p></div></div>${body}</div>`;
+  const lifeBlock=()=>`<div class="life" data-life><h3>How long is it good for?</h3>
+    <p class="hint" style="margin-top:0">Pick what you have. The answer updates right away.</p>
+    <div class="lseg" role="group" aria-label="Is the vial mixed?"><button type="button" data-mixed="0">Unmixed powder</button><button type="button" data-mixed="1">Mixed with BAC water</button></div>
+    <div class="lseg l3" role="group" aria-label="Where is it stored?"><button type="button" data-place="shelf">Room temp</button><button type="button" data-place="fridge">Fridge</button><button type="button" data-place="freezer">Freezer</button></div>
+    <div class="lans" aria-live="polite"></div>
+    <p class="hint">General guidance from this guide, not medical advice. Your product label, pharmacist or clinician has the final word.</p>
+   </div>`;
+  const bacTips=()=>`<details class="more"><summary>${esc(d.bacTitle.replace(/:\s*$/,''))}</summary><ul>${d.bacTips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p style="font-size:13px">${esc(d.omitted)}</p></details>`;
+  const ico={zoom:'<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg>',nofreeze:'<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><path d="M12 3v18M4.5 7.5l15 9M19.5 7.5l-15 9"/></svg>'};
   const ref=(id,t,sub,body)=>`<details class="ref" id="${id}"><summary><span><b>${t}</b><small>${sub}</small></span></summary><div class="ref-b">${body}</div></details>`;
   return head(d.title.trim(),d.updated)+`
   <a class="vialbar" id="vialbar" href="#schedule" hidden></a>
+  <div class="jr" id="jr">
+   <div class="jr-head"><div class="eyebrow">Learn &amp; calculate</div><h1>Three steps to your syringe mark</h1><p>Store it, mix it, measure it. Tap a card for the full guide.</p></div>
+   <ol class="jr-list">
+    <li class="jr-i" id="jr-storage"><span class="jr-n">1</span><div class="jr-card">
+     <img id="jr-img1" class="jr-img" src="img/storage-guide.png" alt="Storage guide infographic: shelf under 1 year, fridge 1 to 2 years, freezer years" data-zoom>
+     <div class="jr-b"><div class="jr-t"><h2>Store your vials</h2><span>Powder</span></div>
+      <div class="jr-chips"><span>Shelf · under 1 yr</span><span>Fridge · 1 to 2 yrs</span><span>Freezer · years</span></div>
+      <div class="jr-warn" role="note">${ico.nofreeze}<span><b>Only freeze unmixed powder.</b> Freezing a mixed vial can destroy the peptide.</span></div>
+      <button class="jr-btn" type="button" data-zoom-for="jr-img1">${ico.zoom} View full infographic</button>
+      <details class="more"><summary>How long is it good for?</summary>${lifeBlock()}</details>
+     </div></div></li>
+    <li class="jr-i" id="jr-recon"><span class="jr-n">2</span><div class="jr-card">
+     <img id="jr-img2" class="jr-img" src="img/reconstitution-guide.jpg" alt="Reconstitution step-by-step guide: wash hands, sanitize vial tops, draw BAC water" data-zoom>
+     <div class="jr-b"><div class="jr-t"><h2>Mix it</h2><span>6 steps</span></div>
+      <p class="jr-p">Wash, wipe, draw the water, inject slowly down the glass, swirl gently, refrigerate.</p>
+      <div class="jr-2"><a class="jr-btn solid" href="#dosage/mix">Start checklist</a><button class="jr-btn" type="button" data-zoom-for="jr-img2">Full infographic</button></div>
+     </div></div></li>
+    <li class="jr-i" id="jr-calc"><span class="jr-n">3</span><div class="jr-calc">
+     <h2>Calculate your dose</h2>
+     <div class="jr-row"><div class="jr-big"><span id="j-units">—</span><small>units</small></div><div class="jr-side"><span id="j-sub">—</span><br><span id="j-sub2"></span></div></div>
+     <svg class="jr-sv" viewBox="0 0 342 40" role="img" aria-label="Syringe fill preview"><rect x="0" y="18" width="30" height="3" rx="1.5" fill="currentColor" opacity=".7"/><rect x="30" y="8" width="270" height="24" rx="6" fill="none" stroke="currentColor" stroke-opacity=".6" stroke-width="1.5"/><rect id="j-fill" x="31" y="9" width="10" height="22" rx="4" fill="currentColor" opacity=".85"/><rect id="j-head" x="38" y="4" width="7" height="32" rx="3" fill="currentColor"/><rect id="j-rod" x="45" y="18" width="274" height="4" fill="currentColor" opacity=".7"/><rect x="319" y="9" width="6" height="22" rx="3" fill="currentColor"/></svg>
+     <a class="jr-btn" href="#dosage/calc">Open the calculator</a>
+    </div></li>
+   </ol>
+  </div>
+  <div class="mixv" id="mixv">
+   <a class="syr-back" href="#dosage">&lsaquo; Learn &amp; calculate</a>
+   <h1>Mix it</h1><p class="jr-p">Turning the powder into a liquid you can measure. Tap each step as you go.</p>
+   <div id="mx-list">${['<b>Wash your hands</b> and clean the work surface.','<b>Wipe the vial tops</b> with an alcohol swab.','<b>Draw the BAC water</b> into a syringe (you choose the amount in the calculator).','<b>Inject it slowly</b> down the inside wall of the vial, not onto the powder.','<b>Let it dissolve.</b> Swirl gently and wait. Do not shake.','<b>Refrigerate</b> the mixed vial.'].map((t,i)=>`<button type="button" class="mx-step" aria-pressed="false"><span class="mx-dot">${i+1}</span><span>${t}</span></button>`).join('')}</div>
+   <div class="jr-warn" role="note">${ico.nofreeze}<span><b>Never freeze a mixed vial.</b> Freezing can destroy the peptide. Only unmixed powder goes in the freezer.</span></div>
+   <button class="jr-btn" type="button" data-zoom-for="jr-img2">${ico.zoom} Show the full step-by-step infographic</button>
+   <a class="jr-btn solid" href="#dosage/calc">Next: calculate your dose</a>
+  </div>
+  <div class="syr" id="syr">
+   <a class="syr-back" href="#dosage">&lsaquo; Learn &amp; calculate</a>
+   <div class="syr-pick"><label for="s-pep">Peptide</label><select id="s-pep"></select></div>
+   <div class="syr-hero">
+    <div class="syr-top"><div><div class="syr-k">Draw to</div><div class="syr-num"><span id="s-units">—</span><small>units</small></div></div><div class="syr-side"><b id="s-ml">—</b><span id="s-dose">—</span></div></div>
+    <svg class="syr-svg" id="s-svg" viewBox="0 0 342 96" role="img" aria-label="Syringe">
+     <rect class="sy-n" x="0" y="42" width="30" height="3" rx="1.5"/><rect class="sy-hub" x="28" y="30" width="6" height="27" rx="2"/>
+     <rect class="sy-b" x="30" y="22" width="240" height="44" rx="8"/><rect class="sy-f" id="s-fill" x="31" y="23" width="10" height="42" rx="6"/>
+     <g id="s-ticks"></g>
+     <rect class="sy-h" id="s-head" x="30" y="24" width="8" height="40" rx="3"/><rect class="sy-r" id="s-rod" x="38" y="42" width="288" height="4"/><rect class="sy-t" x="326" y="30" width="6" height="28" rx="3"/>
+     <text class="sy-l" x="30" y="86">0</text><text class="sy-l" x="90" y="86">25</text><text class="sy-l" x="150" y="86">50</text><text class="sy-l" x="210" y="86">75</text><text class="sy-l" x="270" y="86">100</text>
+    </svg>
+    <p id="s-warn" class="syr-warn" role="status"></p>
+   </div>
+   <div class="syr-grid">
+    <div class="syr-vial"><svg viewBox="0 0 70 104" width="62" height="92" role="img" aria-label="Vial with water level"><rect class="sy-cap" x="22" y="2" width="26" height="10" rx="3"/><rect class="sy-neck" x="26" y="12" width="18" height="8"/><path class="sy-glass" d="M14 22 H56 V94 a8 8 0 0 1 -8 8 H22 a8 8 0 0 1 -8 -8 Z"/><rect class="sy-liq" id="s-liq" x="16" y="52" width="38" height="48" rx="3"/></svg><b id="s-conc">—</b><span id="s-cu">mg per mL</span></div>
+    <div class="syr-col">
+     <div class="syr-card"><span>BAC water added</span><div class="syr-step"><button type="button" id="s-bm" aria-label="Less water">&minus;</button><b id="s-bac">—</b><button type="button" id="s-bp" class="p" aria-label="More water">+</button></div></div>
+     <div class="syr-card"><span id="s-vl">Powder in vial</span><div class="syr-pills" id="s-vials"></div></div>
+    </div>
+   </div>
+   <div class="syr-card wide"><div class="syr-row"><span id="s-dl">Dose per injection</span><em id="s-typ"></em></div><div class="syr-step big"><button type="button" id="s-dm" aria-label="Lower dose">&minus;</button><b id="s-dosev">—</b><button type="button" id="s-dp" class="p" aria-label="Higher dose">+</button></div></div>
+   <a class="jr-btn solid" href="#schedule">Use this for my schedule</a>
+   <p class="hint" style="text-align:center">Saves these numbers to My vial &amp; log.</p>
+   ${bacTips()}
+  </div>
   <div class="callout warn disclaimer"><p>${esc(d.disclaimer)}</p></div>
   <div class="subnav" data-spy>${[['storage','1 · Store'],['recon','2 · Mix'],['calc','3 · Calculate'],['tracker','4 · Track'],['matrix','Matrix'],['protocols','Protocols'],['concentration','Concentration'],['mix','Mix chart'],['titration','Titration']].map(([i,t])=>`<a href="#dosage/${i}">${t}</a>`).join('')}</div>
 
@@ -238,14 +306,8 @@ R.dosage=()=>{
       <details class="more"><summary>Show the full numbers</summary><dl class="kv" id="c-kv"></dl></details>
     </div>
    </div>
-   <div class="life" id="c-life"><h3>How long is it good for?</h3>
-    <p class="hint" style="margin-top:0">Pick what you have. The answer updates right away.</p>
-    <div class="lseg" role="group" aria-label="Is the vial mixed?"><button type="button" data-mixed="0">Unmixed powder</button><button type="button" data-mixed="1">Mixed with BAC water</button></div>
-    <div class="lseg l3" role="group" aria-label="Where is it stored?"><button type="button" data-place="shelf">Room temp</button><button type="button" data-place="fridge">Fridge</button><button type="button" data-place="freezer">Freezer</button></div>
-    <div class="lans" id="c-lans" aria-live="polite"></div>
-    <p class="hint">General guidance from this guide, not medical advice. Your product label, pharmacist or clinician has the final word.</p>
-   </div>
-   <details class="more"><summary>${esc(d.bacTitle.replace(/:\s*$/,''))}</summary><ul>${d.bacTips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p style="font-size:13px">${esc(d.omitted)}</p></details>`)}
+   ${lifeBlock()}
+   ${bacTips()}`)}
 
   <div class="m-only m-schedhead"><div class="eyebrow">Everything for one vial</div><h1>My vial &amp; log</h1><p class="lead">Set up your vial once, log each dose and see how long it is good for. <a href="#dosage/calc">Need help with the BAC water amount?</a> Open the calculator.</p></div>
   ${window.Tracker?window.Tracker.html():''}
@@ -314,19 +376,77 @@ function initDosage(root){
     if(r.unit==='IU'){const v=$i('c-vial'),b=$i('c-bac');if([...v.options].some(o=>o.value===r.vial))v.value=r.vial;if([...b.options].some(o=>o.value===r.bac))b.value=r.bac}
     calc()});
   calc();
-  // "How long is it good for?" explorer
-  const life={mixed:true,place:'fridge'},lans=$i('c-lans');
-  const paintLife=()=>{
-    root.querySelectorAll('#c-life [data-mixed]').forEach(b=>{const on=(b.dataset.mixed==='1')===life.mixed;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
-    root.querySelectorAll('#c-life [data-place]').forEach(b=>{const on=b.dataset.place===life.place;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
-    const r=window.DoseMath.shelfLife({mixed:life.mixed,place:life.place,budDays:root._budDays||28});
-    lans.className='lans '+r.level;
-    lans.innerHTML=`<div class="lh">${esc(r.headline)}</div><div class="lbig">${esc(r.answer)}</div><p>${esc(r.detail)}</p>`;
-  };
-  root.querySelectorAll('#c-life [data-mixed]').forEach(b=>b.addEventListener('click',()=>{life.mixed=b.dataset.mixed==='1';paintLife()}));
-  root.querySelectorAll('#c-life [data-place]').forEach(b=>b.addEventListener('click',()=>{life.place=b.dataset.place;paintLife()}));
-  root.addEventListener('bh-vial',paintLife);paintLife();
+  // "How long is it good for?" explorer (one copy per [data-life] block)
+  root.querySelectorAll('[data-life]').forEach(box=>{
+    const life={mixed:true,place:'fridge'},lans=box.querySelector('.lans');
+    const paint=()=>{
+      box.querySelectorAll('[data-mixed]').forEach(b=>{const on=(b.dataset.mixed==='1')===life.mixed;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
+      box.querySelectorAll('[data-place]').forEach(b=>{const on=b.dataset.place===life.place;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
+      const r=window.DoseMath.shelfLife({mixed:life.mixed,place:life.place,budDays:root._budDays||28});
+      lans.className='lans '+r.level;
+      lans.innerHTML=`<div class="lh">${esc(r.headline)}</div><div class="lbig">${esc(r.answer)}</div><p>${esc(r.detail)}</p>`;
+    };
+    box.querySelectorAll('[data-mixed]').forEach(b=>b.addEventListener('click',()=>{life.mixed=b.dataset.mixed==='1';paint()}));
+    box.querySelectorAll('[data-place]').forEach(b=>b.addEventListener('click',()=>{life.place=b.dataset.place;paint()}));
+    root.addEventListener('bh-vial',paint);paint();
+  });
+  initLearn(root,$i,{esc,fmtNum});
   if(window.Tracker)window.Tracker.init(root,{esc,fmtNum,parseHours,findHalf});
+}
+/* Learn & calculate (modern UI): syringe-first calculator, journey card and mixing checklist.
+   They read and write the same #c-* calculator inputs, so there is still one source of truth. */
+function initLearn(root,$i,{esc,fmtNum}){
+  const box=root.querySelector('#syr');if(!box)return;
+  const q=id=>root.querySelector('#'+id),NS='http://www.w3.org/2000/svg';
+  const fire=(el,t)=>el.dispatchEvent(new Event(t,{bubbles:true}));
+  const num=v=>parseFloat(String(v).replace(/[^0-9.]/g,''));
+  const ticks=q('s-ticks');
+  for(let i=0;i<=20;i++){const l=document.createElementNS(NS,'line');const major=i%5===0;l.setAttribute('x1',30+i*12);l.setAttribute('x2',30+i*12);l.setAttribute('y1',66);l.setAttribute('y2',major?52:58);l.setAttribute('class','sy-tk');ticks.appendChild(l)}
+  // peptide list mirrors the calculator's
+  q('s-pep').innerHTML=$i('c-pep').innerHTML;
+  q('s-pep').addEventListener('change',()=>{$i('c-pep').value=q('s-pep').value;fire($i('c-pep'),'change')});
+  q('s-bm').addEventListener('click',()=>{const s=$i('c-bac');if(s.selectedIndex>0){s.selectedIndex--;fire(s,'change')}});
+  q('s-bp').addEventListener('click',()=>{const s=$i('c-bac');if(s.selectedIndex<s.options.length-1){s.selectedIndex++;fire(s,'change')}});
+  const nudge=dir=>{
+    const c=root._calc;if(!c)return;const d=c.doseMcg>0?c.doseMcg:1;
+    const t=d/10,st=[0.05,0.1,0.25,0.5,1,2.5,5,10,25,50,100,250,500].find(x=>x>=t)||500;
+    const nv=Math.max(st,Math.round((d+dir*st)*100)/100);
+    $i('c-cu').value=c.unit==='IU'?'IU':'mcg';$i('c-des').value='None Selected';$i('c-cust').value=nv;fire($i('c-cust'),'input');
+  };
+  q('s-dm').addEventListener('click',()=>nudge(-1));q('s-dp').addEventListener('click',()=>nudge(1));
+  q('s-vials').addEventListener('click',e=>{const b=e.target.closest('button[data-v]');if(!b)return;$i('c-vial').value=b.dataset.v;fire($i('c-vial'),'change')});
+  // mixing checklist
+  root.querySelectorAll('#mx-list .mx-step').forEach((b,i)=>b.addEventListener('click',()=>{
+    const on=b.getAttribute('aria-pressed')!=='true';b.setAttribute('aria-pressed',on);b.querySelector('.mx-dot').textContent=on?'\u2713':String(i+1);
+  }));
+  const paint=()=>{
+    const c=root._calc;if(!c)return;
+    const IU=c.unit==='IU',conc=c.vialMg*1000/c.bacMl,units=c.doseMcg/conc*100,ok=isFinite(units)&&units>=0;
+    const cl=ok?Math.max(0,Math.min(100,units)):0;
+    q('s-units').textContent=ok?fmtNum(units,units<10?1:0):'—';
+    q('s-ml').textContent=ok?fmtNum(units/100,3)+' mL':'—';
+    q('s-dose').textContent=c.doseMcg>0?fmtNum(c.doseMcg,c.doseMcg<10?2:0)+(IU?' IU':' mcg'):'';
+    q('s-fill').setAttribute('width',Math.max(2,cl/100*238));
+    const hx=30+cl/100*240;q('s-head').setAttribute('x',hx);q('s-rod').setAttribute('x',hx+8);q('s-rod').setAttribute('width',Math.max(0,326-(hx+8)));
+    q('s-svg').setAttribute('aria-label',`Syringe filled to ${ok?fmtNum(units,1):0} units`);
+    q('s-warn').textContent=units>100?'More than one syringe holds. Use less water or a bigger vial.':(units>0&&units<2?'Under 2 units is hard to measure. Add more water.':'');
+    if(document.activeElement!==q('s-pep'))q('s-pep').value=c.name;
+    const bs=$i('c-bac');q('s-bac').textContent=bs.value;q('s-bm').disabled=bs.selectedIndex<=0;q('s-bp').disabled=bs.selectedIndex>=bs.options.length-1;
+    q('s-vl').textContent=IU?'Powder in vial (IU)':'Powder in vial';
+    q('s-vials').innerHTML=[...$i('c-vial').options].map(o=>`<button type="button" data-v="${esc(o.value)}" aria-pressed="${o.value===$i('c-vial').value}">${esc(o.textContent)}</button>`).join('');
+    const sel=q('s-vials').querySelector('[aria-pressed=true]');if(sel&&box.offsetParent){const pl=q('s-vials');pl.scrollLeft=sel.offsetLeft-(pl.clientWidth-sel.offsetWidth)/2}
+    q('s-conc').textContent=fmtNum(IU?conc:conc/1000,1);q('s-cu').textContent=IU?'IU per mL':'mg per mL';
+    const lh=14+(Math.min(Math.max(c.bacMl,0.5),5)-0.5)/4.5*58;q('s-liq').setAttribute('height',lh);q('s-liq').setAttribute('y',100-lh);q('s-liq').setAttribute('opacity',(0.55+Math.min(0.4,conc/10000)).toFixed(2));
+    q('s-dosev').textContent=c.doseMcg>0?fmtNum(c.doseMcg,2)+' '+(IU?'IU':'mcg'):'—';
+    q('s-typ').textContent=$i('c-base').value?'typical '+$i('c-base').value.replace(/\*+/g,'').trim():'';
+    q('s-dl').textContent='Dose per injection';
+    // journey card 3
+    q('j-units').textContent=ok?fmtNum(units,units<10?1:0):'—';
+    q('j-sub').textContent=(c.doseMcg>0?fmtNum(c.doseMcg,c.doseMcg<10?2:0)+(IU?' IU':' mcg'):'')+' · '+c.name;
+    q('j-sub2').textContent=(IU?fmtNum(c.vialMg*1000,0)+' IU':fmtNum(c.vialMg,2)+' mg')+' in '+fmtNum(c.bacMl,2)+' mL';
+    const jx=30+cl/100*270;q('j-fill').setAttribute('width',Math.max(2,cl/100*268));q('j-head').setAttribute('x',jx);q('j-rod').setAttribute('x',jx+7);q('j-rod').setAttribute('width',Math.max(0,319-(jx+7)));
+  };
+  root.addEventListener('bh-calc',paint);root.addEventListener('bh-view',paint);paint();
 }
 function findHalf(name){
   const n=norm(name);if(n.length<3)return null;
@@ -691,6 +811,7 @@ function show(id,sub){
   if(id==='news')pullFeed();
   if(!isModern()&&id==='today')id='home';
   if(id==='schedule'){view='schedule';sub='tracker'}
+  if(isModern()&&id==='dosage'&&(sub==='calc'||sub==='mix'))view=sub;
   const navId=id;
   if(id==='schedule')id='dosage';
   if(!R[id])id='home';
@@ -710,8 +831,9 @@ function show(id,sub){
   if(tabs){const k=sub||'slang';$$('a',tabs).forEach(a=>a.classList.toggle('on',a.dataset.tab===k));$$('.tabpane',sec).forEach(p=>p.classList.toggle('on',p.dataset.pane===k))}
   document.title=(SECTIONS.find(s=>s.id===navId)||{}).name+' · Body Harmony';
   if(pending){const inp=$('.tbl-search',sec.querySelector('.tabpane.on')||sec);if(inp){inp.value=pending;inp.dispatchEvent(new Event('input'))}pending=''}
-  if(view==='schedule'&&isModern())window.scrollTo(0,0);
-  else if(sub&&!tabs){const el=$('#'+({dosage:'d-',halflife:'h-'}[id]||'x-')+sub,sec)||(id==='news'?['n-','r-','f-'].map(q=>$('#'+q+sub,sec)).find(Boolean):null);if(el){if(el.tagName==='DETAILS')el.open=true;setTimeout(()=>el.scrollIntoView({block:'start'}),60)}}
+  if(view==='calc')sec.dispatchEvent(new CustomEvent('bh-view'));
+  if(view!=='dosage'&&isModern())window.scrollTo(0,0);
+  else if(sub&&!tabs){const el=(isModern()&&id==='dosage'?$('#jr-'+sub,sec):null)||$('#'+({dosage:'d-',halflife:'h-'}[id]||'x-')+sub,sec)||(id==='news'?['n-','r-','f-'].map(q=>$('#'+q+sub,sec)).find(Boolean):null);if(el){if(el.tagName==='DETAILS')el.open=true;setTimeout(()=>el.scrollIntoView({block:'start'}),60)}}
   else window.scrollTo(0,0);
   $('#nav').classList.remove('open');
 }
@@ -763,6 +885,6 @@ document.addEventListener('keydown',e=>{if((e.key==='/'||(e.key==='k'&&(e.ctrlKe
 themeBtn.addEventListener('click',()=>{const r=document.documentElement,n=r.dataset.theme==='dark'?'light':'dark';r.dataset.theme=n;try{localStorage.setItem('pg-theme',n)}catch(e){}paintSwitches()});
 $('#menuBtn').addEventListener('click',()=>$('#nav').classList.toggle('open'));
 const lb=$('#lightbox');
-document.addEventListener('click',e=>{const i=e.target.closest('img[data-zoom]');if(i){$('img',lb).src=i.src;lb.classList.add('open')}else if(e.target.closest('#lightbox'))lb.classList.remove('open')});
+document.addEventListener('click',e=>{const zb=e.target.closest('[data-zoom-for]');if(zb){const im=document.getElementById(zb.dataset.zoomFor);if(im){$('img',lb).src=im.src;lb.classList.add('open')}return}const i=e.target.closest('img[data-zoom]');if(i){$('img',lb).src=i.src;lb.classList.add('open')}else if(e.target.closest('#lightbox'))lb.classList.remove('open')});
 addEventListener('keydown',e=>{if(e.key==='Escape')lb.classList.remove('open')});
 })();
