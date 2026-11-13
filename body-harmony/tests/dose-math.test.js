@@ -38,3 +38,10 @@ assert.ok(isFinite(M.single(10,M.absorptionHalfLifeH(4)*1)));assert.ok(isFinite(
 const c=M.ics({name:'BPC157',dates:['2026-10-05'],sites:['Left abdomen'],doseLabel:'250 mcg'});
 assert.match(c,/BEGIN:VCALENDAR/);assert.match(c,/DTSTART;VALUE=DATE:20261005/);assert.match(c,/DTEND;VALUE=DATE:20261006/);assert.match(c,/SUMMARY:Dose: BPC157 250 mcg \(Left abdomen\)/);
 console.log('dose-math: all tests passed');
+
+// shelf life: freezing a mixed vial is flagged, unmixed powder may be frozen
+let sl=M.shelfLife({mixed:true,place:'freezer',budDays:28});assert.equal(sl.level,'bad');assert.match(sl.detail,/destroy the peptide/);assert.match(sl.detail,/Only unmixed/);
+sl=M.shelfLife({mixed:true,place:'fridge',budDays:21});assert.equal(sl.answer,'Up to 21 days');assert.equal(sl.level,'ok');
+sl=M.shelfLife({mixed:true,place:'shelf',budDays:28});assert.equal(sl.level,'warn');
+sl=M.shelfLife({mixed:false,place:'freezer',budDays:28});assert.equal(sl.level,'ok');assert.equal(sl.answer,'Years');
+sl=M.shelfLife({mixed:false,place:'fridge'});assert.equal(sl.answer,'1 to 2 years');
