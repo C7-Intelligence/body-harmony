@@ -427,3 +427,59 @@ html[data-ui=modern] #d-tracker .vdash{background:none;border:0;padding:0;box-sh
 .vd-chips button.on{background:var(--bg);color:var(--ink);border-color:var(--bg);font-weight:700}
 .vd-log{margin-top:14px;width:100%;height:54px;border-radius:16px;border:0;background:var(--bg);color:var(--ink);font:600 17px var(--sans)}
 .vd-act{display:flex;gap:8px;margin-top:14px}.vd-act .chip{flex:1;padding:12px;border-radius:14px;justify-content:center;text-align:center}
+
+/* ---- Other pages: richer layer (modern UI) ---- */
+html[data-ui=modern] .page-head{position:relative;border-radius:24px;padding:20px;background:linear-gradient(160deg,var(--accent-soft),var(--surface));border:1px solid var(--line)}
+html[data-ui=modern] .page-head[data-ic]::before{content:attr(data-ic);display:grid;place-items:center;width:52px;height:52px;border-radius:16px;background:var(--accent-soft);border:1px solid var(--line);font-size:26px;margin-bottom:12px}
+html[data-ui=modern] .page-head h1{font-size:2rem;line-height:1.1;margin:0 0 8px}
+html[data-ui=modern] #sec-dosage .page-head::before{display:none}
+/* long intro boxes fold */
+.plain-more{display:none}
+html[data-ui=modern] .plain-clamp:not(.open){max-height:170px;overflow:hidden;position:relative;padding-bottom:44px}
+html[data-ui=modern] .plain-clamp:not(.open)::after{content:"";position:absolute;left:0;right:0;bottom:0;height:80px;background:linear-gradient(transparent,var(--surface));pointer-events:none}
+html[data-ui=modern] .plain-more{display:block;position:relative;z-index:2;margin:8px 0 0;padding:8px 16px;border-radius:999px;border:1px solid var(--accent);background:var(--accent-soft);color:var(--accent);font:600 13px var(--sans)}
+html[data-ui=modern] .plain-clamp:not(.open) .plain-more{position:absolute;left:16px;bottom:10px;margin:0}
+/* Getting started */
+.bh-ring{display:none}
+html[data-ui=modern] .bh-ring{display:flex;gap:14px;align-items:center;margin:16px 0;padding:16px;border-radius:22px;background:var(--surface);border:1px solid var(--line)}
+.bh-ring svg{width:84px;flex:none}.bh-ring .rg-t{fill:none;stroke:var(--line);stroke-width:10}
+.bh-ring .rg-p{fill:none;stroke:var(--warn);stroke-width:10;stroke-linecap:round}
+.bh-ring text{fill:var(--ink);font:600 20px var(--serif)}
+.bh-ring a{display:block;color:var(--accent);font-size:13px;margin-top:2px}
+@media(max-width:720px){
+html[data-ui=modern] .steps{display:block;border-top:0}
+html[data-ui=modern] .stp{display:block;position:relative;margin:0 0 10px 46px;padding:14px 16px;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
+html[data-ui=modern] .stp .dnum{position:absolute;left:-46px;top:10px;width:34px;height:34px;border-radius:50%;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font:700 15px var(--sans)}
+html[data-ui=modern] .stp::before{content:"";position:absolute;left:-30px;top:46px;bottom:-12px;width:2px;background:var(--line)}
+html[data-ui=modern] .stp:last-child::before{display:none}
+html[data-ui=modern] .dirgrid{grid-template-columns:1fr 1fr!important;gap:10px}
+html[data-ui=modern] .dirgrid .lc{padding:14px;border-radius:18px}
+}
+/* BAC dot grid */
+.bh-dots{display:none}
+html[data-ui=modern] .bh-dots{display:block;margin:0 0 16px;padding:18px;border-radius:22px;background:var(--surface);border:1px solid var(--line)}
+.bd-big{font-family:var(--serif);font-size:20px;color:var(--muted)}.bd-big span{font-size:44px;font-weight:600;color:var(--warn);margin-right:6px}
+.bh-dots p{color:var(--muted);font-size:13px;margin:4px 0 12px}
+.bd-grid{display:grid;grid-template-columns:repeat(14,1fr);gap:6px}
+.bd-grid i{aspect-ratio:1;border-radius:50%;background:var(--warn);opacity:.85}.bd-grid i.ok{background:var(--accent);opacity:1}
+.bd-keys{display:flex;gap:10px;margin-top:14px}.bd-keys div{flex:1;padding:10px 12px;border-radius:14px;border:1px solid var(--line)}
+.bd-keys small{display:block;font:600 10px var(--sans);letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}.bd-keys b{font-size:13px;color:var(--accent)}
+/* link cards */
+html[data-ui=modern] a.lc{position:relative;padding:14px 44px 14px 64px;min-height:62px;justify-content:center;border-radius:18px}
+html[data-ui=modern] a.lc::before{content:attr(data-i);position:absolute;left:14px;top:50%;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;border:1px solid var(--accent);display:grid;place-items:center;font:700 16px var(--sans);color:var(--accent)}
+html[data-ui=modern] a.lc::after{content:"↗";position:absolute;right:16px;top:50%;transform:translateY(-50%);color:var(--accent);font-size:18px}
+html[data-ui=modern] .dirgrid a.lc{padding:14px}html[data-ui=modern] .dirgrid a.lc::before,html[data-ui=modern] .dirgrid a.lc::after{display:none}
+/* tables become cards on phones */
+@media(max-width:720px){
+html[data-ui=modern] .tw{border:0;background:none;overflow:visible}
+html[data-ui=modern] .tw table,html[data-ui=modern] .tw tbody{display:block;width:auto}
+html[data-ui=modern] .tw thead{display:none}
+html[data-ui=modern] .tw tbody tr{display:block;margin:0 0 10px;padding:14px;border:1px solid var(--line);border-radius:18px;background:var(--surface)}
+html[data-ui=modern] .tw tbody tr[hidden]{display:none}
+html[data-ui=modern] .tw td{display:flex;justify-content:space-between;gap:14px;padding:5px 0;border:0;text-align:right;word-break:break-word}
+html[data-ui=modern] .tw td::before{content:attr(data-l);flex:none;max-width:42%;text-align:left;font:600 11px var(--sans);letter-spacing:.06em;text-transform:uppercase;color:var(--muted);padding-top:2px}
+html[data-ui=modern] .tw td:first-child{display:block;text-align:left;font-weight:600;font-size:15px;padding-bottom:8px;margin-bottom:4px;border-bottom:1px solid var(--line)}
+html[data-ui=modern] .tw td:first-child::before{display:none}
+html[data-ui=modern] .tw td:empty{display:none}
+html[data-ui=modern] #sec-dosage .tw tbody tr{padding:12px}
+}

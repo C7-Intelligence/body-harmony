@@ -40,7 +40,7 @@ function table(o){ // {cols:[{h,k|f,cls,sort:'num'|'txt',nosort}], rows:[...], f
   const id='t'+(++tid);
   const chips=o.chip?`<div class="chips" data-chips="${id}">${['All',...[...new Set(o.rows.map(o.chip.get))].filter(Boolean)].map((c,i)=>`<button class="chip${i?'':' on'}" data-v="${esc(c)}">${esc(c)}</button>`).join('')}</div>`:'';
   const body=o.rows.map((r,i)=>{
-    const cells=o.cols.map(c=>{const raw=c.f?c.f(r,i):esc(r[c.k]);return `<td class="${c.cls||''}">${raw}</td>`}).join('');
+    const cells=o.cols.map(c=>{const raw=c.f?c.f(r,i):esc(r[c.k]);return `<td class="${c.cls||''}" data-l="${esc(c.h)}">${raw}</td>`}).join('');
     const chipv=o.chip?esc(o.chip.get(r)):'';
     const text=o.cols.map(c=>c.s?c.s(r):(c.k!=null?r[c.k]:'')).join(' ').toLowerCase();
     return `<tr data-t="${esc(text)}"${chipv?` data-c="${chipv}"`:''}>${cells}</tr>`;
@@ -85,7 +85,7 @@ function wireTables(root){
 }
 const head=(title,upd,lead)=>`<div class="page-head"><h1>${esc(title)}</h1>${upd?`<span class="upd">Last updated ${esc(upd)}</span>`:''}${lead?`<p class="lead">${urlize(lead)}</p>`:''}</div>`;
 const fig=(src,alt,cap)=>`<figure><img src="img/${src}" alt="${esc(alt)}" data-zoom>${cap?`<figcaption>${esc(cap)}</figcaption>`:''}</figure>`;
-const linkCard=(u,t,d)=>`<a class="lc" href="${esc(u)}" target="_blank" rel="noopener"><span class="t">${esc(t||host(u))}</span>${d?`<span class="d">${esc(d)}</span>`:''}<span class="u">${esc(u)}</span></a>`;
+const linkCard=(u,t,d)=>`<a class="lc" data-i="${esc((String(t||host(u)).trim()[0]||'•').toUpperCase())}" href="${esc(u)}" target="_blank" rel="noopener"><span class="t">${esc(t||host(u))}</span>${d?`<span class="d">${esc(d)}</span>`:''}<span class="u">${esc(u)}</span></a>`;
 
 /* ---------- shared page helpers ---------- */
 const plain=(title,items,foot)=>`<aside class="plain"><span class="kick-s">${esc(title)}</span><ul>${items.map(i=>`<li>${i}</li>`).join('')}</ul>${foot?`<p class="pfoot">${foot}</p>`:''}</aside>`;
@@ -107,6 +107,7 @@ R.home=()=>{
   const upd={vendors:D.vendors.updated,dosage:D.dosage.updated,peds:D.peds.updated,supply:D.supply.updated,bac:D.bac.updated,terms:D.term.updated,news:D.reg.updated,nutrition:D.nutrition.updated,medical:D.medical.updated,roadmap:D.roadmap.updated};
   const must=D.bac;
   return `<div class="hero"><div class="mono-mark">B · H</div><h1>Body Harmony</h1><div class="rule"></div><p class="tag-line"><b>Peptide vendors, dosing, half-lives, testing results and regulation news</b> in one reference. Use the directory to jump to a section.</p><button class="btn" onclick="document.getElementById('dir').scrollIntoView({behavior:'smooth'})">Browse the guide</button><br><span class="upd">Last updated ${esc(s.updated)}</span></div>
+  <div class="m-only bh-ring"><svg viewBox="0 0 92 92" aria-hidden="true"><circle cx="46" cy="46" r="38" class="rg-t"/><circle cx="46" cy="46" r="38" class="rg-p" stroke-dasharray="239" stroke-dashoffset="${Math.round(239*(1-must.stats[3].v))}" transform="rotate(-90 46 46)"/><text x="46" y="52" text-anchor="middle">${Math.round(must.stats[3].v*100)}%</text></svg><div><b>of BAC water products failed testing</b><a href="#bac">See the results →</a></div></div>
   <div class="callout warn disclaimer"><h4>Disclaimer</h4><p>${esc(s.disclaimer.replace(/^Disclaimer:\s*/,''))}</p></div>
   <div class="grid g4" style="margin:18px 0">
     <a class="stat bad" href="#bac" style="text-decoration:none;color:inherit"><div class="v">${Math.round(must.stats[3].v*1000)/10}%</div><div class="l">BAC water products failed</div></a>
@@ -549,6 +550,7 @@ R.bac=()=>{
   const pct=x=>(x*100).toFixed(2)+'%';
   const phBad=p=>p<4||p>7,baBad=a=>a<.0072||a>.0108;
   return head('BAC Water Tests — MUST READ!!!',b.updated)+`
+  <div class="m-only bh-dots"><div class="bd-big"><span>${b.stats[0].v-b.stats[1].v}</span> of ${b.stats[0].v} failed</div><p>One dot per product tested. Green passed.</p><div class="bd-grid">${Array.from({length:b.stats[0].v},(_,i)=>`<i class="${i<b.stats[1].v?'ok':''}"></i>`).join('')}</div><div class="bd-keys"><div><small>Acidity (pH)</small><b>Should be 4 to 7</b></div><div><small>Benzyl alcohol</small><b>0.72 to 1.08%</b></div></div></div>
   ${plain('In plain English',['<b>BAC water</b> (bacteriostatic water) is sterile water with a small amount of benzyl alcohol. It is used to dissolve peptide powder and keeps a multi-use vial from growing germs.','<b>A third-party lab tested '+b.stats[0].v+' brands.</b> Only '+b.stats[1].v+' passed.','<b>Two things were measured:</b> acidity (pH, should be 4 to 7) and benzyl alcohol (should be 0.72% to 1.08%). Outside those ranges the water can break down the peptide or fail to protect it.'],esc(b.intro))}
   <h2>${esc(b.title)}</h2><h3 style="color:var(--muted)">${esc(b.summaryTitle)}</h3>
   <div class="grid g4" style="margin-bottom:18px">${b.stats.map((s,i)=>`<div class="stat ${['','good','bad','bad'][i]}"><div class="v">${i===3?(s.v*100).toFixed(1)+'%':s.v}</div><div class="l">${esc(s.l)}</div></div>`).join('')}</div>
@@ -776,6 +778,19 @@ nav.innerHTML=SECTIONS.map(s=>s.sep?`<div class="sep">${s.sep}</div>`:`<a href="
 /* ---- interface switch: modern (default) or classic ---- */
 const root=document.documentElement;
 const isModern=()=>root.dataset.ui==='modern';
+/* modern UI: icon on page headers; long intro boxes fold to a short preview */
+function enrich(sec,id){
+  const d=SECTIONS.find(x=>x.id===id),ph=sec.querySelector('.page-head');
+  if(ph&&d&&d.ic)ph.dataset.ic=d.ic;
+  sec.querySelectorAll('aside.plain').forEach(p=>{
+    if(id==='bac'||p.querySelectorAll('li').length<3)return;
+    p.classList.add('plain-clamp');
+    const b=document.createElement('button');b.type='button';b.className='plain-more';b.textContent='Read more';b.setAttribute('aria-expanded','false');
+    b.addEventListener('click',()=>{const o=p.classList.toggle('open');b.textContent=o?'Show less':'Read more';b.setAttribute('aria-expanded',o)});
+    p.appendChild(b);
+  });
+}
+
 const TOP=[['today','Today'],['home','Home'],['dosage','Learn & calculate'],['schedule','My vial & log'],['halflife','Half-life'],['vendors','Vendors'],['bac','Testing'],['news','News']];
 const MORE=['peds','supply','terms','nutrition','medical','roadmap','links'];
 const topnav=document.createElement('nav');topnav.id='topnav';topnav.setAttribute('aria-label','Main');
@@ -817,7 +832,7 @@ function show(id,sub){
   if(!R[id])id='home';
   if(!rendered[id]){
     const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+id;sec.innerHTML=R[id]();main.appendChild(sec);rendered[id]=sec;
-    wireTables(sec);
+    enrich(sec,id);wireTables(sec);
     ({dosage:initDosage,halflife:initHalf,supply:initSupply,news:initNews})[id]?.(sec);
     $$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}));
   }
@@ -841,7 +856,7 @@ let pending='';
 function route(){const [id,sub]=(location.hash.slice(1)||(isModern()?'today':'home')).split('/');show(id,sub)}
 addEventListener('hashchange',route);
 // pre-render all sections once so the global search index is complete
-SECTIONS.forEach(s=>{if(s.id&&!s.alias&&!rendered[s.id]){const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+s.id;sec.innerHTML=R[s.id]();main.appendChild(sec);rendered[s.id]=sec;wireTables(sec);({dosage:initDosage,halflife:initHalf,supply:initSupply,news:initNews})[s.id]?.(sec);$$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}))}});
+SECTIONS.forEach(s=>{if(s.id&&!s.alias&&!rendered[s.id]){const sec=document.createElement('section');sec.className='sec';sec.id='sec-'+s.id;sec.innerHTML=R[s.id]();main.appendChild(sec);rendered[s.id]=sec;enrich(sec,s.id);wireTables(sec);({dosage:initDosage,halflife:initHalf,supply:initSupply,news:initNews})[s.id]?.(sec);$$('a[data-tab]',sec).forEach(a=>a.addEventListener('click',e=>{e.preventDefault();location.hash=a.getAttribute('href')}))}});
 /* tables never scroll inside the page: when one is too wide it becomes a stack of cards */
 function fitTables(){
   $$('.tw table').forEach(t=>{const hs=[...t.querySelectorAll('thead th')].map(h=>h.textContent.replace(/[\u2195\u25B2\u25BC]/g,'').trim());
