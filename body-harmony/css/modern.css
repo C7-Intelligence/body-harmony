@@ -295,3 +295,87 @@ html[data-ui=modern] #t-kv{margin:0}
 @media print{html[data-ui=modern] #topnav{display:none}}
 html[data-ui=modern] nav.side .nm[data-m]{font-size:0}
 html[data-ui=modern] nav.side .nm[data-m]::after{content:attr(data-m);font-size:16px}
+
+/* ---------- Learn & calculate: journey, mixing checklist, syringe calculator (modern UI) ---------- */
+.jr,.syr,.mixv{display:none}
+html[data-ui=modern] #sec-dosage[data-view=dosage] .jr,html[data-ui=modern] #sec-dosage[data-view=calc] .syr,html[data-ui=modern] #sec-dosage[data-view=mix] .mixv{display:block}
+html[data-ui=modern] #sec-dosage[data-view=dosage]>.page-head,html[data-ui=modern] #sec-dosage[data-view=dosage]>.disclaimer,html[data-ui=modern] #sec-dosage[data-view=dosage] .subnav,html[data-ui=modern] #sec-dosage[data-view=dosage] .steps,html[data-ui=modern] #sec-dosage[data-view=dosage] details.ref.terms,html[data-ui=modern] #sec-dosage[data-view=dosage] #d-storage,html[data-ui=modern] #sec-dosage[data-view=dosage] #d-recon,html[data-ui=modern] #sec-dosage[data-view=dosage] #d-calc{display:none}
+html[data-ui=modern] #sec-dosage[data-view=calc]>*:not(.syr):not(.vialbar),html[data-ui=modern] #sec-dosage[data-view=mix]>*:not(.mixv):not(.vialbar){display:none}
+.jr,.syr,.mixv{max-width:640px;margin:0 auto}
+.jr-head h1,.mixv h1{margin:4px 0 6px;font:500 clamp(30px,8vw,38px)/1.08 var(--serif)}
+.jr-head p,.jr-p{margin:0;color:var(--muted)}
+.jr-list{list-style:none;margin:22px 0 0;padding:0 0 0 44px;position:relative}
+.jr-list::before{content:'';position:absolute;left:15px;top:16px;bottom:70px;width:2px;background:var(--line)}
+.jr-i{position:relative;margin:0 0 18px;padding:0}
+.jr-i::marker{content:''}
+.jr-n{position:absolute;left:-44px;top:0;width:32px;height:32px;border-radius:999px;background:var(--accent);color:var(--accent-ink);display:grid;place-items:center;font:700 15px var(--sans)}
+.jr-card{border-radius:22px;background:var(--surface);border:1px solid var(--line);overflow:hidden;box-shadow:0 6px 18px rgba(0,0,0,.08)}
+.jr-img{display:block;width:100%;height:152px;object-fit:cover;object-position:center top;background:#fff;cursor:zoom-in;border:0;border-radius:0}
+.jr-b{padding:14px 16px 16px}
+.jr-t{display:flex;align-items:baseline;justify-content:space-between;gap:8px}
+.jr-t h2,.jr-calc h2{margin:0;padding:0;border:0;font:600 22px/1.2 var(--serif)}
+.jr-t span{font-size:12.5px;color:var(--muted)}
+.jr-chips{display:flex;gap:6px;flex-wrap:wrap;margin-top:8px}
+.jr-chips span{padding:5px 10px;border-radius:999px;background:var(--surface2);font:600 12.5px var(--sans)}
+.jr-warn{margin:10px 0 0;display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border-radius:12px;background:var(--bad-soft);border:1px solid var(--bad);font-size:13.5px}
+.jr-warn svg{flex:none;margin-top:1px;color:var(--bad)}
+.jr-btn{margin-top:12px;display:flex;align-items:center;justify-content:center;gap:8px;min-height:46px;width:100%;box-sizing:border-box;padding:0 14px;border-radius:999px;border:2px solid var(--accent);color:var(--accent);background:transparent;font:700 15px var(--sans);text-decoration:none;cursor:pointer;text-align:center}
+.jr-btn.solid{background:var(--accent);color:var(--accent-ink)}
+.jr-btn:focus-visible,.mx-step:focus-visible,.syr-step button:focus-visible,.syr-pills button:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.jr-2{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-top:12px}
+.jr-2 .jr-btn{margin-top:0}
+.jr-b .more{margin:12px 0 0}
+.jr-calc{border-radius:22px;background:var(--accent);color:var(--accent-ink);padding:18px 16px 16px;box-shadow:0 10px 24px rgba(0,0,0,.2)}
+.jr-row{margin-top:10px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.jr-big{display:flex;align-items:baseline;gap:8px}
+.jr-big span{font:500 64px/.95 var(--serif)}
+.jr-big small{font-size:18px;opacity:.85}
+.jr-side{text-align:right;font-size:13px;opacity:.85}
+.jr-sv{display:block;width:100%;margin-top:10px;color:var(--accent-ink)}
+.jr-calc .jr-btn{background:var(--accent-ink);color:var(--accent);border-color:var(--accent-ink)}
+.syr-back{display:inline-flex;align-items:center;min-height:44px;font-weight:600;text-decoration:none}
+#mx-list{margin-top:14px}
+.mx-step{display:flex;align-items:center;gap:12px;width:100%;min-height:54px;box-sizing:border-box;padding:8px 14px;border-radius:14px;border:1px solid var(--line);background:var(--surface);color:var(--ink);font:400 15px var(--sans);text-align:left;cursor:pointer;margin-bottom:8px}
+.mx-step[aria-pressed=true]{border-color:var(--accent);background:var(--accent-soft)}
+.mx-dot{width:30px;height:30px;border-radius:999px;border:1.5px solid var(--accent);color:var(--accent);display:grid;place-items:center;font-weight:700;font-size:13px;flex:none}
+.mx-step[aria-pressed=true] .mx-dot{background:var(--accent);color:var(--accent-ink)}
+.mixv .jr-warn{margin-top:14px}
+.syr-pick{display:flex;align-items:center;gap:10px;margin:2px 0 10px}
+.syr-pick label{font-size:13px;color:var(--muted)}
+.syr-pick select{flex:1;min-width:0;height:46px;border-radius:12px;border:1px solid var(--line);background:var(--surface);color:var(--ink);padding:0 12px;font:600 15px var(--sans)}
+.syr-hero{border-radius:26px;background:var(--surface);border:1px solid var(--line);padding:18px 16px 12px}
+.syr-top{display:flex;align-items:flex-end;justify-content:space-between;gap:12px}
+.syr-k{font:600 12px var(--sans);letter-spacing:.14em;text-transform:uppercase;color:var(--accent)}
+.syr-num{display:flex;align-items:baseline;gap:8px}
+.syr-num span{font:500 78px/.95 var(--serif)}
+.syr-num small{font-size:20px;color:var(--muted)}
+.syr-side{text-align:right;font-size:13px;color:var(--muted);padding-bottom:8px;display:flex;flex-direction:column}
+.syr-side b{color:var(--ink);font-size:15px}
+.syr-svg{display:block;width:100%;margin-top:12px}
+.sy-n,.sy-r{fill:var(--muted)}.sy-hub{fill:var(--line)}.sy-b{fill:var(--bg);stroke:var(--muted);stroke-width:2}
+.sy-f{fill:var(--accent);opacity:.9}.sy-h{fill:var(--ink)}.sy-t{fill:var(--ink)}.sy-tk{stroke:var(--ink);stroke-width:1.4;opacity:.65}
+.sy-l{font:500 11px var(--sans);fill:var(--muted);text-anchor:middle}
+.syr-warn{margin:4px 0 0;min-height:20px;font-size:13px;color:var(--warn)}
+.syr-grid{display:flex;gap:12px;margin-top:12px}
+.syr-vial{flex:none;width:112px;border-radius:20px;border:1px solid var(--line);background:var(--surface);padding:10px 0 8px;display:flex;flex-direction:column;align-items:center}
+.syr-vial b{margin-top:6px;font:600 22px/1 var(--serif)}
+.syr-vial span{font-size:11.5px;color:var(--muted)}
+.sy-cap{fill:var(--muted)}.sy-neck{fill:var(--line)}.sy-glass{fill:var(--bg);stroke:var(--muted);stroke-width:2}.sy-liq{fill:var(--accent)}
+.syr-col{flex:1;min-width:0;display:flex;flex-direction:column;gap:8px}
+.syr-card{border-radius:20px;border:1px solid var(--line);background:var(--surface);padding:10px 12px;display:flex;flex-direction:column;justify-content:center;min-width:0}
+.syr-col .syr-card{flex:1}
+.syr-card>span,.syr-row span{font-size:12.5px;color:var(--muted)}
+.syr-card.wide{margin-top:12px;padding:10px 14px 12px}
+.syr-row{display:flex;align-items:center;justify-content:space-between;gap:8px}
+.syr-row em{font-style:normal;font-size:12.5px;color:var(--accent);font-weight:600}
+.syr-step{display:flex;align-items:center;justify-content:space-between;margin-top:4px}
+.syr-step b{font:500 28px var(--serif)}
+.syr-step.big b{font-size:34px}
+.syr-step button{width:44px;height:44px;border-radius:999px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);font:600 22px var(--sans);padding:0;cursor:pointer}
+.syr-step button.p{border:0;background:var(--accent);color:var(--accent-ink);font-weight:700}
+.syr-step button:disabled{opacity:.35;cursor:default}
+.syr-pills{position:relative;display:flex;gap:5px;margin-top:6px;overflow-x:auto;padding-bottom:2px;scrollbar-width:thin}
+.syr-pills button{flex:none;min-width:52px;height:38px;padding:0 10px;border-radius:10px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);font:500 14px var(--sans);cursor:pointer}
+.syr-pills button[aria-pressed=true]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink);font-weight:700}
+.syr .jr-btn.solid{margin-top:14px}
+.syr .more{margin-top:14px}
