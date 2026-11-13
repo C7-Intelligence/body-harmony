@@ -93,6 +93,25 @@ function ics({name,dates:ds,sites,siteStart=0,doseLabel,prodId='-//Body Harmony/
   L.push('END:VCALENDAR');return L.join('\r\n')+'\r\n';
 }
 
-const api={parse,fmt,addDays,diffDays,weekday,vialMath,isDue,onOrAfter,dates,nextDose,vialLife,siteFor,absorptionHalfLifeH,single,pkSeries,ics};
+/* Shelf life by state and storage place. Uses only the guide's general ranges.
+   mixed: true once the powder has been dissolved in BAC water. place: 'shelf' | 'fridge' | 'freezer'.
+   level: 'ok' | 'warn' | 'bad'. Freezing a mixed vial can destroy the peptide, so that case is 'bad'. */
+const FREEZE_WARNING='Never freeze a mixed (reconstituted) vial. Freezing can destroy the peptide. Only unmixed, freeze-dried powder should be frozen. Keep mixed vials in the fridge.';
+function shelfLife({mixed,place,budDays}){
+  const pl=place==='freezer'||place==='shelf'?place:'fridge';
+  const where=pl==='shelf'?'room temp':pl;
+  if(mixed){
+    const head='Mixed · '+where;
+    if(pl==='fridge')return {headline:head,answer:'Up to '+(budDays>0?budDays:28)+' days',detail:'A common limit once mixed. Check what applies to yours.',level:'ok'};
+    if(pl==='freezer')return {headline:head,answer:'Do not freeze it',detail:FREEZE_WARNING,level:'bad'};
+    return {headline:head,answer:'Move it to the fridge',detail:'Once mixed with BAC water, keep the vial in the fridge.',level:'warn'};
+  }
+  const head='Unmixed powder · '+where;
+  if(pl==='shelf')return {headline:head,answer:'Under about 1 year',detail:'Freeze-dried powder lasts longest when it is kept cold, so room temp is the shortest option.',level:'ok'};
+  if(pl==='fridge')return {headline:head,answer:'1 to 2 years',detail:'A good everyday spot for unopened powder.',level:'ok'};
+  return {headline:head,answer:'Years',detail:'Longest shelf life, and the only state that is safe to freeze. Once you mix it, move it to the fridge and never freeze it again.',level:'ok'};
+}
+
+const api={parse,fmt,addDays,diffDays,weekday,vialMath,isDue,onOrAfter,dates,nextDose,vialLife,shelfLife,FREEZE_WARNING,siteFor,absorptionHalfLifeH,single,pkSeries,ics};
 if(typeof module!=='undefined'&&module.exports)module.exports=api;else root.DoseMath=api;
 })(typeof window!=='undefined'?window:globalThis);

@@ -18,7 +18,7 @@ const SECTIONS=[
  {id:'home',ic:'⌂',name:'Getting Started'},
  {id:'vendors',ic:'⚗',name:'Peptide Vendors'},
  {id:'dosage',ic:'💉',name:'Dosage'},
- {id:'schedule',ic:'🗓',name:'Schedule and log',modern:true,alias:'dosage'},
+ {id:'schedule',ic:'🗓',name:'My vial & log',modern:true,alias:'dosage'},
  {id:'halflife',ic:'⏱',name:'Half-Life'},
  {id:'peds',ic:'💪',name:'Anabolics'},
  {id:'supply',ic:'🧴',name:'Medical Supply Vendors'},
@@ -140,7 +140,7 @@ R.today=()=>{
   const bacPct=Math.round(D.bac.stats[3].v*1000)/10;
   const heads=S&&S.life.budBeforeEmpty?`<div class="m-kick">Heads up</div><p class="m-serif">Your mixed vial passes its ${S.budDays}-day limit before it is empty.</p><a href="#schedule">See the vial details</a>`:`<div class="m-kick">Worth knowing</div><p class="m-serif">${bacPct}% of bacteriostatic water products failed third-party testing.</p><a href="#bac">See the test results</a>`;
   const recent=S&&S.recent.length?S.recent.map(l=>`<div class="m-row"><span>${esc(day(l.date,{weekday:'short',month:'short',day:'numeric'}))}</span><span class="muted">${fmtNum(l.doseMcg,2)} ${S.calc.unit==='IU'?'IU':'mcg'}${l.site?', '+esc(l.site):''}</span></div>`).join(''):`<p class="m-sub">No doses logged yet. <a href="#schedule">Log your first dose</a>.</p>`;
-  const tiles=[['home','Getting Started','The guide in four steps.'],['dosage','Dosage','Store, mix and calculate.'],['schedule','Schedule and log','Calendar, history, vial life.'],['halflife','Half-Life','How long compounds stay active.'],['vendors','Peptide Vendors',D.vendors.vendors.length+' vendors to know.'],['bac','BAC Water Tests','What testing found.'],['news','News & Updates','Latest rules, recalls and research.'],['terms','Terminology','Slang and abbreviations.']];
+  const tiles=[['home','Getting Started','The guide in four steps.'],['dosage','Learn & calculate','Store, mix and find your syringe mark.'],['schedule','My vial & log','Your vial, doses and how long it lasts.'],['halflife','Half-Life','How long compounds stay active.'],['vendors','Peptide Vendors',D.vendors.vendors.length+' vendors to know.'],['bac','BAC Water Tests','What testing found.'],['news','News & Updates','Latest rules, recalls and research.'],['terms','Terminology','Slang and abbreviations.']];
   return `<div class="m-today">
   <div class="m-head"><div><div class="eyebrow">${esc(dstr)}</div><h1>Today</h1></div><a class="btn m-cta" href="#schedule">Log a dose</a></div>
   <div class="m-grid3">
@@ -198,6 +198,7 @@ R.dosage=()=>{
   const sec=(n,id,t,sub,body)=>`<div id="${id}" class="dstep"><div class="dstep-h"><span class="dnum">${n}</span><div><h2>${t}</h2><p>${sub}</p></div></div>${body}</div>`;
   const ref=(id,t,sub,body)=>`<details class="ref" id="${id}"><summary><span><b>${t}</b><small>${sub}</small></span></summary><div class="ref-b">${body}</div></details>`;
   return head(d.title.trim(),d.updated)+`
+  <a class="vialbar" id="vialbar" href="#schedule" hidden></a>
   <div class="callout warn disclaimer"><p>${esc(d.disclaimer)}</p></div>
   <div class="subnav" data-spy>${[['storage','1 · Store'],['recon','2 · Mix'],['calc','3 · Calculate'],['tracker','4 · Track'],['matrix','Matrix'],['protocols','Protocols'],['concentration','Concentration'],['mix','Mix chart'],['titration','Titration']].map(([i,t])=>`<a href="#dosage/${i}">${t}</a>`).join('')}</div>
 
@@ -209,9 +210,9 @@ R.dosage=()=>{
   </div>
   <details class="ref terms"><summary><span><b>New to this? Key terms in plain English</b><small>Six words you will see on this page</small></span></summary><div class="ref-b"><dl class="gl">${gl.map(([k,v])=>`<dt>${k}</dt><dd>${v}</dd>`).join('')}</dl></div></details>
 
-  ${sec(1,'d-storage','Store your vials','Freeze-dried powder lasts longest when it is kept cold.',`<div class="tri"><div><b>Shelf</b><span>under about 1 year</span></div><div><b>Fridge</b><span>1 to 2 years</span></div><div><b>Freezer</b><span>years</span></div></div><p class="note">Once mixed with BAC water, keep the vial in the fridge.</p><details class="more"><summary>Show the full storage infographic</summary>${fig('storage-guide.png','Easy guidelines for storing lyophilized vials: shelf (<1 year-ish), fridge (1-2 years), freezer (years)','Easy guidelines for storing lyophilized vials ("the powder")')}</details>`)}
+  ${sec(1,'d-storage','Store your vials','Freeze-dried powder lasts longest when it is kept cold.',`<div class="tri"><div><b>Shelf</b><span>under about 1 year</span></div><div><b>Fridge</b><span>1 to 2 years</span></div><div><b>Freezer</b><span>years (unmixed powder only)</span></div></div><div class="callout bad freezewarn" role="note"><b>Only freeze unmixed powder.</b> Never freeze a mixed (reconstituted) vial. Freezing can destroy the peptide. Once the powder is mixed with BAC water, keep the vial in the fridge.</div><details class="more"><summary>Show the full storage infographic</summary>${fig('storage-guide.png','Easy guidelines for storing lyophilized vials: shelf (<1 year-ish), fridge (1-2 years), freezer (years)','Easy guidelines for storing lyophilized vials ("the powder")')}</details>`)}
 
-  ${sec(2,'d-recon','Mix it (reconstitution)','Turning the powder into a liquid you can measure.',`<ol class="how"><li><b>Wash your hands</b> and clean the work surface.</li><li><b>Wipe the vial tops</b> with an alcohol swab.</li><li><b>Draw the BAC water</b> into a syringe (the amount is up to you; see step 3).</li><li><b>Inject it slowly</b> down the inside wall of the vial, not onto the powder.</li><li><b>Let it dissolve.</b> Swirl gently and wait. Do not shake.</li><li><b>Refrigerate</b> the mixed vial.</li></ol><details class="more"><summary>Show the full step-by-step infographic</summary>${fig('reconstitution-guide.jpg','Peptide reconstitution step-by-step guide infographic','Wash hands, sanitize vial tops, draw BAC water, inject, let dissolve, refrigerate; concentration, dose conversion and syringe conversion tables; injection sites.')}</details>`)}
+  ${sec(2,'d-recon','Mix it (reconstitution)','Turning the powder into a liquid you can measure.',`<ol class="how"><li><b>Wash your hands</b> and clean the work surface.</li><li><b>Wipe the vial tops</b> with an alcohol swab.</li><li><b>Draw the BAC water</b> into a syringe (the amount is up to you; see step 3).</li><li><b>Inject it slowly</b> down the inside wall of the vial, not onto the powder.</li><li><b>Let it dissolve.</b> Swirl gently and wait. Do not shake.</li><li><b>Refrigerate</b> the mixed vial. Never freeze it.</li></ol><details class="more"><summary>Show the full step-by-step infographic</summary>${fig('reconstitution-guide.jpg','Peptide reconstitution step-by-step guide infographic','Wash hands, sanitize vial tops, draw BAC water, inject, let dissolve, refrigerate; concentration, dose conversion and syringe conversion tables; injection sites.')}</details>`)}
 
   ${sec(3,'d-calc','Calculate your dose',esc(d.calcIntro),`<div class="calc">
     <div class="cgroup">
@@ -233,13 +234,20 @@ R.dosage=()=>{
       <p id="c-say" class="say"></p>
       <div class="syringe"><div class="barrel"><div class="fill" id="c-fill"></div><div class="ticks"></div></div><div class="lab"><span>0</span><span>25</span><span>50</span><span>75</span><span>100 u</span></div></div>
       <div id="c-warn"></div>
+      <a class="btn m-only m-usebtn" href="#schedule">Use this for my schedule</a><p class="m-only hint m-usehint">Saves these numbers to My vial &amp; log.</p>
       <details class="more"><summary>Show the full numbers</summary><dl class="kv" id="c-kv"></dl></details>
     </div>
    </div>
+   <div class="life" id="c-life"><h3>How long is it good for?</h3>
+    <p class="hint" style="margin-top:0">Pick what you have. The answer updates right away.</p>
+    <div class="lseg" role="group" aria-label="Is the vial mixed?"><button type="button" data-mixed="0">Unmixed powder</button><button type="button" data-mixed="1">Mixed with BAC water</button></div>
+    <div class="lseg l3" role="group" aria-label="Where is it stored?"><button type="button" data-place="shelf">Room temp</button><button type="button" data-place="fridge">Fridge</button><button type="button" data-place="freezer">Freezer</button></div>
+    <div class="lans" id="c-lans" aria-live="polite"></div>
+    <p class="hint">General guidance from this guide, not medical advice. Your product label, pharmacist or clinician has the final word.</p>
+   </div>
    <details class="more"><summary>${esc(d.bacTitle.replace(/:\s*$/,''))}</summary><ul>${d.bacTips.map(t=>`<li>${esc(t)}</li>`).join('')}</ul><p style="font-size:13px">${esc(d.omitted)}</p></details>`)}
 
-  <div class="m-only m-trackcta"><div><b>4. Track your doses</b><span>Schedule, calendar, log and vial life now live on their own page.</span></div><a class="btn" href="#schedule">Open Schedule and log</a></div>
-  <div class="m-only m-schedhead"><div class="eyebrow">Everything for one peptide</div><h1>Schedule and log</h1><p class="lead">Set a schedule, log each dose and see when the vial runs out. <a href="#dosage/calc">Change the peptide, dose or vial</a> in the dose calculator.</p></div>
+  <div class="m-only m-schedhead"><div class="eyebrow">Everything for one vial</div><h1>My vial &amp; log</h1><p class="lead">Set up your vial once, log each dose and see how long it is good for. <a href="#dosage/calc">Need help with the BAC water amount?</a> Open the calculator.</p></div>
   ${window.Tracker?window.Tracker.html():''}
 
   <h2 class="refh">Reference tables <small>Look things up. Tap a title to open it.</small></h2>
@@ -297,6 +305,7 @@ function initDosage(root){
     root._calc={name:pep.value,doseMcg:dose,vialMg,bacMl:bac,freq:row.freq||'',unit:iu?'IU':'mcg'};root.dispatchEvent(new CustomEvent('bh-calc',{detail:root._calc}));
     $i('c-kv').innerHTML=iu?`<dt>Dose used</dt><dd>${fmtNum(dose,2)} IU · ${src}</dd><dt>Concentration</dt><dd>${fmtNum(conc,1)} IU/mL</dd><dt>Volume to draw</dt><dd>${fmtNum(units/100,3)} mL</dd><dt>Per 1 unit</dt><dd>${fmtNum(conc/100,2)} IU</dd><dt>Per 10 units</dt><dd>${fmtNum(conc/10,1)} IU</dd>`:`<dt>Dose used</dt><dd>${fmtNum(dose,2)} mcg (${fmtNum(dose/1000,3)} mg) · ${src}</dd><dt>Concentration</dt><dd>${fmtNum(conc/1000,3)} mg/mL (${fmtNum(conc,1)} mcg/mL)</dd><dt>Volume to draw</dt><dd>${fmtNum(units/100,3)} mL</dd><dt>Per 1 unit</dt><dd>${fmtNum(conc/100,2)} mcg</dd><dt>Per 10 units</dt><dd>${fmtNum(conc/10,1)} mcg</dd>`;
   };
+  $i('c-des').addEventListener('change',()=>{if($i('c-des').value!=='None Selected')$i('c-cust').value=''}); // a common dose should win over an old typed one
   ['c-pep','c-des','c-vial','c-bac','c-cu'].forEach(i=>$i(i).addEventListener('change',calc));
   $i('c-cust').addEventListener('input',calc);
   $i('c-pep').addEventListener('change',()=>{
@@ -305,6 +314,18 @@ function initDosage(root){
     if(r.unit==='IU'){const v=$i('c-vial'),b=$i('c-bac');if([...v.options].some(o=>o.value===r.vial))v.value=r.vial;if([...b.options].some(o=>o.value===r.bac))b.value=r.bac}
     calc()});
   calc();
+  // "How long is it good for?" explorer
+  const life={mixed:true,place:'fridge'},lans=$i('c-lans');
+  const paintLife=()=>{
+    root.querySelectorAll('#c-life [data-mixed]').forEach(b=>{const on=(b.dataset.mixed==='1')===life.mixed;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
+    root.querySelectorAll('#c-life [data-place]').forEach(b=>{const on=b.dataset.place===life.place;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
+    const r=window.DoseMath.shelfLife({mixed:life.mixed,place:life.place,budDays:root._budDays||28});
+    lans.className='lans '+r.level;
+    lans.innerHTML=`<div class="lh">${esc(r.headline)}</div><div class="lbig">${esc(r.answer)}</div><p>${esc(r.detail)}</p>`;
+  };
+  root.querySelectorAll('#c-life [data-mixed]').forEach(b=>b.addEventListener('click',()=>{life.mixed=b.dataset.mixed==='1';paintLife()}));
+  root.querySelectorAll('#c-life [data-place]').forEach(b=>b.addEventListener('click',()=>{life.place=b.dataset.place;paintLife()}));
+  root.addEventListener('bh-vial',paintLife);paintLife();
   if(window.Tracker)window.Tracker.init(root,{esc,fmtNum,parseHours,findHalf});
 }
 function findHalf(name){
@@ -631,11 +652,11 @@ R.links=()=>{const m=D.master;m.links.forEach(u=>idx('links',host(u),u));return 
 
 /* ---------- shell ---------- */
 const main=$('#main'),nav=$('#nav');
-nav.innerHTML=SECTIONS.map(s=>s.sep?`<div class="sep">${s.sep}</div>`:`<a href="#${s.id}" data-id="${s.id}"${s.modern?' data-modern':''}><span class="ic">${s.ic}</span><span class="nm"${s.id==='home'?' data-m="Home"':''}>${s.name}</span></a>`).join('')+'<div class="navfoot"><button class="uibtn" type="button"></button></div>';
+nav.innerHTML=SECTIONS.map(s=>s.sep?`<div class="sep">${s.sep}</div>`:`<a href="#${s.id}" data-id="${s.id}"${s.modern?' data-modern':''}><span class="ic">${s.ic}</span><span class="nm"${s.id==='home'?' data-m="Home"':s.id==='dosage'?' data-m="Learn &amp; calculate"':''}>${s.name}</span></a>`).join('')+'<div class="navfoot"><button class="uibtn" type="button"></button></div>';
 /* ---- interface switch: modern (default) or classic ---- */
 const root=document.documentElement;
 const isModern=()=>root.dataset.ui==='modern';
-const TOP=[['today','Today'],['home','Home'],['dosage','Dosage'],['schedule','Schedule and log'],['halflife','Half-life'],['vendors','Vendors'],['bac','Testing'],['news','News']];
+const TOP=[['today','Today'],['home','Home'],['dosage','Learn & calculate'],['schedule','My vial & log'],['halflife','Half-life'],['vendors','Vendors'],['bac','Testing'],['news','News']];
 const MORE=['peds','supply','terms','nutrition','medical','roadmap','links'];
 const topnav=document.createElement('nav');topnav.id='topnav';topnav.setAttribute('aria-label','Main');
 topnav.innerHTML=TOP.map(([id,n])=>`<a href="#${id}" data-id="${id}">${n}</a>`).join('')+`<details class="more-nav"><summary>More</summary><div>${MORE.map(id=>`<a href="#${id}" data-id="${id}">${nameOf0(id)}</a>`).join('')}</div></details>`;
@@ -644,7 +665,7 @@ $('.top-in .brand').after(topnav);
 const themeBtn=$('#themeBtn');
 function paintSwitches(){
   const m=isModern();
-  $$('.uibtn').forEach(b=>{b.textContent=m?'Classic interface':'New interface';b.title=m?'Switch back to the classic interface':'Try the new interface'});
+  $$('.uibtn').forEach(b=>{b.innerHTML=m?'<span class="u-l">Classic interface</span><span class="u-s">Classic</span>':'<span class="u-l">New interface</span><span class="u-s">New</span>';b.title=m?'Switch back to the classic interface':'Try the new interface'});
   const dark=root.dataset.theme==='dark';
   themeBtn.innerHTML=m?`<span class="tl-ic" aria-hidden="true">${dark?'\u2600':'\u263E'}</span><span class="tl-t">${dark?'Light':'Dark'}</span>`:'\u25D0';
   $('.top-in .brand').setAttribute('href',m?'#today':'#home');

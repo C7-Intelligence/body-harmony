@@ -166,7 +166,7 @@ html[data-ui=modern] .m-only{display:block}
 html[data-ui=modern] #sec-dosage[data-view=dosage] .m-schedhead{display:none}
 html[data-ui=modern] #sec-dosage[data-view=dosage] #d-tracker{display:none}
 html[data-ui=modern] #sec-dosage[data-view=dosage] .subnav a[href="#dosage/tracker"]{display:none}
-html[data-ui=modern] #sec-dosage[data-view=schedule]>*:not(#d-tracker):not(.m-schedhead){display:none}
+html[data-ui=modern] #sec-dosage[data-view=schedule]>*:not(#d-tracker):not(.m-schedhead):not(.vialbar){display:none}
 html[data-ui=modern] #sec-dosage[data-view=schedule] #d-tracker>.dstep-h{display:none}
 html[data-ui=modern] #sec-dosage[data-view=schedule] #d-tracker{margin-top:0}
 html[data-ui=modern] .m-schedhead h1{margin:6px 0 8px}
@@ -175,6 +175,13 @@ html[data-ui=modern] .m-trackcta{display:flex;flex-wrap:wrap;gap:14px;align-item
 html[data-ui=modern] .m-trackcta div{display:flex;flex-direction:column;gap:2px}
 html[data-ui=modern] .m-trackcta span{color:var(--muted);font-size:14px}
 html[data-ui=modern] .m-seg{display:none}
+html[data-ui=modern] .vialbar{display:flex;align-items:center;gap:12px;min-height:54px;box-sizing:border-box;padding:8px 16px;margin:0 0 12px;background:var(--accent-soft);border:1px solid var(--line);border-radius:14px;text-decoration:none;color:var(--ink)}
+html[data-ui=modern] .vialbar[hidden]{display:none}
+html[data-ui=modern] .vialbar .vb-t{flex:1;min-width:0;display:flex;flex-direction:column}
+html[data-ui=modern] .vialbar .vb-t b{font:600 11px var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--accent)}
+html[data-ui=modern] .vialbar .vb-t span{font-size:13.5px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+html[data-ui=modern] .vialbar .vb-e{font-weight:700;font-size:14px;color:var(--accent)}
+html[data-ui=modern] .m-usebtn{display:block}
 html[data-ui=modern] #sec-dosage .cg{background:var(--surface)}
 html[data-ui=modern] #t-kv{margin:0}
 /* calendar */
@@ -195,7 +202,9 @@ html[data-ui=modern] #t-kv{margin:0}
 @media(max-width:1290px){
   html[data-ui=modern] #topnav{display:none}
   html[data-ui=modern] .menu-btn{display:grid}
-  html[data-ui=modern] #uiBtn{display:none}
+  html[data-ui=modern] #uiBtn{display:inline-flex;align-items:center;height:36px;padding:0 12px;font-size:12.5px}
+  html[data-ui=modern] #uiBtn .u-l{display:none}
+  html[data-ui=modern] #uiBtn .u-s{display:inline}
   html[data-ui=modern] nav.side{position:fixed;inset:62px 0 0 0;align-self:stretch;justify-self:stretch;height:auto;background:var(--bg);z-index:40;padding:10px 20px 24px;display:none;max-height:none;border:0;overflow:auto}
   html[data-ui=modern] nav.side.open{display:block}
   html[data-ui=modern] nav.side a{border-radius:12px;font-size:16px;padding:12px;border-left:0;color:var(--ink)}
@@ -264,7 +273,8 @@ html[data-ui=modern] #t-kv{margin:0}
   html[data-ui=modern] .tri{grid-template-columns:repeat(3,minmax(0,1fr));gap:6px}
   html[data-ui=modern] .tri div{padding:8px 10px}
   /* Schedule and log: one section at a time */
-  html[data-ui=modern] .m-seg{display:flex;gap:3px;background:var(--accent-soft);border-radius:999px;padding:3px;margin:8px 0 12px;position:sticky;top:54px;z-index:20}
+  html[data-ui=modern] .vialbar:not([hidden]){position:sticky;top:54px;z-index:21;margin:0 -14px 8px;border-radius:0;border-left:0;border-right:0}
+  html[data-ui=modern] .m-seg{display:flex;gap:3px;background:var(--accent-soft);border-radius:999px;padding:3px;margin:8px 0 12px;position:sticky;top:108px;z-index:20}
   html[data-ui=modern] .m-seg button{flex:1;border:0;background:transparent;border-radius:999px;padding:9px 0;font:600 13px var(--sans);color:var(--muted);cursor:pointer}
   html[data-ui=modern] .m-seg button.on{background:var(--surface);color:var(--accent);box-shadow:0 1px 3px rgba(0,0,0,.18)}
   html[data-ui=modern] #d-tracker [data-p]{display:none}

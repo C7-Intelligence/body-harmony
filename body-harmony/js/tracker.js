@@ -28,46 +28,62 @@ function guessSched(freq,start){
   if(/week/.test(f))return {type:'weekly',days:[1,4],every:3,start};
   return {type:'daily',days:[1,4],every:3,start};
 }
-const newProfile=(freq)=>({sched:guessSched(freq,todayStr()),sites:['Left abdomen','Right abdomen','Left thigh','Right thigh'],reconDate:'',budDays:28,vialId:'v0',log:[]});
+const newProfile=(freq)=>({sched:guessSched(freq,todayStr()),sites:['Left abdomen','Right abdomen','Left thigh','Right thigh'],reconDate:'',budDays:28,storage:'fridge',vialId:'v0',log:[]});
 
 function html(){return `
 <div id="d-tracker" class="dstep" data-tab="log"><div class="dstep-h"><span class="dnum">4</span><div><h2>Track your doses</h2><p>Set a schedule, log each dose, and see when the vial runs out. Uses the peptide, dose and vial from step 3.</p></div></div>
  <div class="callout warn disclaimer"><p><b>Saved only in this browser.</b> Nothing is uploaded and there are no accounts. Clearing site data erases it, so use Export to keep a copy. This tool only does arithmetic on the numbers you enter. It does not recommend doses and is not medical advice.</p></div>
- <div id="t-none" class="callout bad" hidden><b>Enter a dose first.</b> Choose a peptide with a typical dose, a common dose, or your own dose in step 3.</div>
+ <div id="t-none" class="callout bad" hidden><b>Enter a dose first.</b> Type your dose in My vial below, or choose a peptide that has a typical dose.</div>
  <div class="m-seg m-only" role="tablist" aria-label="Schedule and log sections"><button type="button" role="tab" data-go="log" class="on">Log</button><button type="button" role="tab" data-go="plan">Plan</button><button type="button" role="tab" data-go="cal">Calendar</button><button type="button" role="tab" data-go="lvl">Level</button><button type="button" role="tab" data-go="hist">History</button></div>
  <div class="calc" id="t-main">
   <div class="cg" data-p="log">
    <h4><i>a</i> Today</h4>
-   <p id="t-using" class="note" style="margin-top:0"></p>
+   <p id="t-using" class="note" hidden></p>
    <div class="result"><div class="sub">Next dose</div><div class="big" id="t-next" style="font-size:2rem">—</div><div class="sub" id="t-rel"></div></div>
    <div class="frow" style="margin-top:12px">
     <div class="field"><label for="t-ldate">Dose taken on</label><input id="t-ldate" type="date"></div>
     <div class="field"><label for="t-lsite">Injection site</label><select id="t-lsite"></select></div>
    </div>
    <div class="frow">
-    <div class="field"><label for="t-ldose" id="t-ldose-l">Dose (mcg) <small>blank = step 3</small></label><input id="t-ldose" type="number" min="0" step="any"></div>
+    <div class="field"><label for="t-ldose" id="t-ldose-l">Dose (mcg) <small>blank = your dose below</small></label><input id="t-ldose" type="number" min="0" step="any"></div>
     <div class="field" style="align-self:end"><button class="chip on" id="t-log" type="button" style="width:100%;padding:10px">Log this dose</button></div>
    </div>
+  </div>
+  <div class="cg vcard" data-p="log" id="t-vial">
+   <h4><i>b</i> My vial</h4>
+   <p class="hint" style="margin-top:0">Set this once. The calculator and your schedule both use it.</p>
+   <div class="field"><label for="v-pep">Peptide</label><select id="v-pep"></select></div>
+   <div class="frow">
+    <div class="field"><label for="v-dose" id="v-dose-l">Dose per injection (mcg)</label><input id="v-dose" type="number" min="0" step="any" inputmode="decimal"></div>
+    <div class="field"><label for="v-vial" id="v-vial-l">Powder in vial (mg)</label><select id="v-vial"></select></div>
+   </div>
+   <div class="frow">
+    <div class="field"><label for="v-bac">BAC water added (mL)</label><select id="v-bac"></select></div>
+    <div class="field"><label for="t-recon">Mixed on</label><input id="t-recon" type="date"></div>
+   </div>
+   <p class="hint" style="margin-top:0">Leave &ldquo;Mixed on&rdquo; blank if the vial is still powder.</p>
+   <div class="field"><span class="lbl" id="t-store-l">Stored in</span><div class="opt3" id="t-store" role="group" aria-labelledby="t-store-l"><button type="button" data-st="fridge">Fridge</button><button type="button" data-st="freezer">Freezer</button><button type="button" data-st="shelf">Room temp</button></div></div>
+   <button class="chip" id="t-newvial" type="button">I mixed a new vial today</button>
+   <p style="margin:10px 0 0"><a href="#dosage/calc">Not sure how much water to add? Open the calculator</a></p>
+  </div>
+  <div class="cg" data-p="log" id="t-lifecg">
+   <h4><i>c</i> How long is it good for?</h4>
+   <div id="t-life"></div>
    <div id="t-warn"></div>
-   <h4 style="margin-top:16px"><i>b</i> Your vial</h4>
-   <dl class="kv" id="t-kv"></dl>
+   <div class="field" style="max-width:240px;margin-top:10px"><label for="t-bud">Use within (days) once mixed</label><input id="t-bud" type="number" min="1" max="120" step="1"></div>
+   <p class="hint">28 days is a common limit. Check what applies to yours.</p>
+   <details class="more"><summary>Show the full vial numbers</summary><dl class="kv" id="t-kv"></dl></details>
   </div>
   <div class="cg" data-p="plan">
-   <h4><i>c</i> Your schedule</h4>
+   <h4><i>a</i> Your schedule</h4>
    <div class="frow">
     <div class="field"><label for="t-type">How often</label><select id="t-type"><option value="daily">Every day</option><option value="eod">Every other day</option><option value="days">Certain weekdays</option><option value="weekly">Once a week</option><option value="interval">Every N days</option></select></div>
     <div class="field"><label for="t-start">Starting on</label><input id="t-start" type="date"></div>
    </div>
    <div class="field" id="t-daysw" hidden><label>Which days</label><div class="chips" id="t-days">${DOW.map((l,i)=>`<label class="chip" style="cursor:pointer"><input type="checkbox" value="${i}" style="margin-right:4px">${['Sun','Mon','Tue','Wed','Thu','Fri','Sat'][i]}</label>`).join('')}</div></div>
    <div class="field" id="t-everyw" hidden><label for="t-every">Days between doses</label><input id="t-every" type="number" min="1" max="60" step="1"></div>
-   <h4 style="margin-top:16px"><i>d</i> Vial and sites</h4>
-   <div class="frow">
-    <div class="field"><label for="t-recon">Mixed on</label><input id="t-recon" type="date"></div>
-    <div class="field"><label for="t-bud">Use within (days)</label><input id="t-bud" type="number" min="1" max="120" step="1"></div>
-   </div>
-   <p class="hint">Mixed peptide should not be kept forever. 28 days is a common limit. Check what applies to yours.</p>
+   <h4 style="margin-top:16px"><i>b</i> Injection sites</h4>
    <div class="field"><label for="t-sites">Injection sites, in rotation order <small>(comma separated)</small></label><input id="t-sites" type="text" placeholder="Left abdomen, Right abdomen, ..."></div>
-   <button class="chip" id="t-newvial" type="button">I opened a new vial today</button>
   </div>
  </div>
  <div class="m-only" id="t-calbox" data-p="cal"><h3 style="margin-top:22px">Calendar</h3><div id="t-cal"></div></div>
@@ -107,6 +123,17 @@ function init(root,ctx){
     $i('t-daysw').hidden=s.type!=='days';$i('t-everyw').hidden=s.type!=='interval';
     $i('t-ldate').value=todayStr();
   }
+  /* My vial fields mirror the calculator inputs (#c-*), so there is one source of truth. */
+  const cEl=id=>root.querySelector('#'+id);
+  const fire=(el,type)=>el.dispatchEvent(new Event(type,{bubbles:true}));
+  function syncVial(){
+    const c=root._calc;if(!c||!cEl('c-pep')||!$i('v-pep'))return;
+    const copy=(dst,src)=>{if(dst.innerHTML!==src.innerHTML)dst.innerHTML=src.innerHTML;dst.value=src.value};
+    copy($i('v-pep'),cEl('c-pep'));copy($i('v-vial'),cEl('c-vial'));copy($i('v-bac'),cEl('c-bac'));
+    const IU=c.unit==='IU';
+    $i('v-dose-l').textContent=`Dose per injection (${IU?'IU':'mcg'})`;$i('v-vial-l').textContent=IU?'Powder in vial (IU)':'Powder in vial (mg)';
+    if(document.activeElement!==$i('v-dose'))$i('v-dose').value=c.doseMcg>0?Math.round(c.doseMcg*100)/100:'';
+  }
   function siteOptions(){
     const p=prof(),sel=$i('t-lsite'),planned=M.siteFor(p.sites,p.log.length);
     const cur=sel.value;const opts=p.sites.slice();if(!opts.length)opts.push('');
@@ -116,13 +143,13 @@ function init(root,ctx){
 
   function render(){
     const none=!(calc&&calc.doseMcg>0&&calc.vialMg>0&&calc.bacMl>0);
-    $i('t-none').hidden=!none;$i('t-main').hidden=none;
+    $i('t-none').hidden=!none;root.querySelectorAll('#t-main>.cg:not(.vcard)').forEach(c=>{c.hidden=none});const vb=$i('vialbar');if(vb&&none)vb.hidden=true;
     ['t-pk','t-hist'].forEach(i=>{$i(i).hidden=none});
-    if(none){$i('t-pk').innerHTML='';$i('t-hist').innerHTML='';return}
+    if(none){$i('t-pk').innerHTML='';$i('t-hist').innerHTML='';syncVial();return}
     const p=prof(),s=schedOf(p),today=todayStr();
     const IU=calc.unit==='IU',DU=IU?'IU':'mcg';
     $i('t-ldose-l').firstChild.textContent=`Dose (${DU}) `;
-    $i('t-using').innerHTML=`<b>${esc(calc.name)}</b> · ${fmtNum(calc.doseMcg,2)} ${DU} per dose · ${IU?fmtNum(calc.vialMg*1000,0)+' IU':fmtNum(calc.vialMg,2)+' mg'} vial in ${fmtNum(calc.bacMl,2)} mL`;
+    if($i('t-using'))$i('t-using').innerHTML=`<b>${esc(calc.name)}</b> · ${fmtNum(calc.doseMcg,2)} ${DU} per dose · ${IU?fmtNum(calc.vialMg*1000,0)+' IU':fmtNum(calc.vialMg,2)+' mg'} vial in ${fmtNum(calc.bacMl,2)} mL`;
     const vm=M.vialMath(calc);
     const used=p.log.filter(l=>l.vialId===p.vialId).length,left=Math.max(0,vm.dosesPerVial-used);
     const next=M.nextDose(s,lastLogged(p));
@@ -136,6 +163,21 @@ function init(root,ctx){
     if(left===0)w+=`<div class="callout warn"><b>This vial is used up.</b> Start a new vial when you open the next one.</div>`;
     else if(life.budBeforeEmpty)w+=`<div class="callout warn"><b>Beyond-use date comes first.</b> Only ${life.dosesBeforeBud} of the ${left} remaining doses fall on or before ${long(life.budDate)}. Check the storage guidance and your clinician or pharmacist before using later doses.</div>`;
     $i('t-warn').innerHTML=w;
+    const place=['shelf','fridge','freezer'].includes(p.storage)?p.storage:'fridge',mixed=isDate(p.reconDate);
+    $i('t-store').querySelectorAll('button').forEach(b=>{const on=b.dataset.st===place;b.classList.toggle('on',on);b.setAttribute('aria-pressed',on)});
+    const sl=M.shelfLife({mixed,place,budDays:p.budDays}),budDate=mixed&&p.budDays>0?M.addDays(p.reconDate,p.budDays):null;
+    let lh,status;
+    if(mixed&&place==='fridge'){
+      const over=today>budDate,day=Math.max(1,Math.min(p.budDays,M.diffDays(p.reconDate,today)+1)),pct=Math.round(day/p.budDays*100);
+      status=over?'past its limit':'good until '+long(budDate).replace(/,\s*\d{4}$/,'');
+      lh=`<div class="lifecard ${over?'bad':'ok'}"><div class="lh">Mixed · fridge</div><div class="lbig">${over?'Past its limit':'Good until '+esc(long(budDate))}</div><div class="lbar"><i style="width:${pct}%"></i></div><div class="lf"><span>${over?'Passed on '+esc(long(budDate)):'Day '+day+' of '+p.budDays}</span><span>${p.budDays}-day limit</span></div></div>`;
+    }else{
+      status=mixed?(place==='freezer'?'do not freeze':'move to the fridge'):'not mixed yet';
+      lh=`<div class="lifecard ${sl.level}"><div class="lh">${esc(sl.headline)}</div><div class="lbig">${esc(sl.answer)}</div><p>${esc(sl.detail)}</p></div>`+(mixed?'':'<p class="hint">Not mixed yet. Enter the date you mixed it above and this becomes a countdown.</p>');
+    }
+    $i('t-life').innerHTML=lh;
+    if(vb){vb.hidden=false;vb.innerHTML=`<span class="vb-t"><b>My vial</b><span>${esc(calc.name)} · ${IU?fmtNum(calc.vialMg*1000,0)+' IU':fmtNum(calc.vialMg,2)+' mg'} · ${fmtNum(calc.bacMl,2)} mL · ${esc(status)}</span></span><span class="vb-e">Edit</span>`}
+    root._budDays=p.budDays;syncVial();root.dispatchEvent(new CustomEvent('bh-vial'));
     $i('t-kv').innerHTML=`<dt>Concentration</dt><dd>${IU?fmtNum(vm.concMcgPerMl,1)+' IU/mL':fmtNum(vm.concMcgPerMl/1000,3)+' mg/mL'}</dd><dt>Per dose</dt><dd>${fmtNum(vm.unitsPerDose,2)} units (${fmtNum(vm.mlPerDose,3)} mL)</dd><dt>Doses in a full vial</dt><dd>${vm.dosesPerVial}</dd><dt>Logged from this vial</dt><dd>${used} · ${left} left</dd><dt>Projected last dose</dt><dd>${life.lastDose?long(life.lastDose):'—'}</dd><dt>Beyond-use date</dt><dd>${life.budDate?long(life.budDate):'set a reconstitution date'}</dd>`;
     siteOptions();
     renderPK(p,s,next,today);renderHist(p);renderCal(p,s,next,today);
@@ -194,6 +236,19 @@ function init(root,ctx){
   /* ---- events ---- */
   function snap(){const p=state.profiles[name];if(p&&calc&&calc.doseMcg>0)p.calc={name:calc.name,doseMcg:calc.doseMcg,vialMg:calc.vialMg,bacMl:calc.bacMl,freq:calc.freq||'',unit:calc.unit==='IU'?'IU':'mcg'}}
   function commit(){snap();save(state);render()}
+  $i('v-pep').addEventListener('change',()=>{cEl('c-pep').value=$i('v-pep').value;fire(cEl('c-pep'),'change')});
+  $i('v-vial').addEventListener('change',()=>{cEl('c-vial').value=$i('v-vial').value;fire(cEl('c-vial'),'change')});
+  $i('v-bac').addEventListener('change',()=>{cEl('c-bac').value=$i('v-bac').value;fire(cEl('c-bac'),'change')});
+  $i('v-dose').addEventListener('input',()=>{const n=parseFloat($i('v-dose').value);if(!(n>0))return;
+    const cu=cEl('c-cu');cu.value=calc&&calc.unit==='IU'?'IU':'mcg';cEl('c-des').value='None Selected';cEl('c-cust').value=n;fire(cEl('c-cust'),'input')});
+  $i('t-store').querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{prof().storage=b.dataset.st;commit()}));
+  const vbar=$i('vialbar');
+  if(vbar)vbar.addEventListener('click',e=>{
+    if(root.dataset.view!=='schedule')return; // on the calculator page the link goes to My vial & log
+    e.preventDefault();const t=$i('d-tracker');t.dataset.tab='log';
+    root.querySelectorAll('.m-seg button').forEach(x=>x.classList.toggle('on',x.dataset.go==='log'));
+    $i('t-vial').scrollIntoView({block:'center',behavior:'smooth'});
+  });
   $i('t-type').addEventListener('change',()=>{const p=prof();p.sched.type=$i('t-type').value;$i('t-daysw').hidden=p.sched.type!=='days';$i('t-everyw').hidden=p.sched.type!=='interval';commit()});
   $i('t-start').addEventListener('change',()=>{if(isDate($i('t-start').value)){prof().sched.start=$i('t-start').value;commit()}});
   $i('t-every').addEventListener('input',()=>{prof().sched.every=Math.max(1,Math.min(60,Math.round(num($i('t-every').value,3))));commit()});
@@ -234,7 +289,7 @@ function init(root,ctx){
         clean.profiles[String(n).slice(0,80)]={
           sched:{type:ok.includes(s.type)?s.type:'daily',days:Array.isArray(s.days)?s.days.map(Number).filter(x=>x>=0&&x<=6):[1,4],every:Math.max(1,Math.min(60,Math.round(num(s.every,3)))),start:isDate(s.start)?s.start:todayStr()},
           sites:Array.isArray(p.sites)?p.sites.map(x=>String(x).slice(0,60)).slice(0,20):[],
-          reconDate:isDate(p.reconDate)?p.reconDate:'',budDays:Math.max(1,Math.min(120,Math.round(num(p.budDays,28)))),vialId:String(p.vialId||'v0').slice(0,24),
+          reconDate:isDate(p.reconDate)?p.reconDate:'',budDays:Math.max(1,Math.min(120,Math.round(num(p.budDays,28)))),storage:['shelf','fridge','freezer'].includes(p.storage)?p.storage:'fridge',vialId:String(p.vialId||'v0').slice(0,24),
           log:(Array.isArray(p.log)?p.log:[]).filter(l=>l&&isDate(l.date)&&num(l.doseMcg,0)>0).slice(0,5000).map(l=>({id:String(l.id||uid()).slice(0,20),date:l.date,doseMcg:+l.doseMcg,site:String(l.site||'').slice(0,60),vialId:String(l.vialId||'v0').slice(0,24)}))};
       }
       state=clean;save(state);if(calc&&!state.profiles[calc.name])state.profiles[calc.name]=newProfile(calc.freq);syncForm();render();msg(`Imported ${Object.keys(clean.profiles).length} peptide(s). This replaced the data in this browser.`);
