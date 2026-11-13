@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-13T06:54Z",
+ "generated": "2026-11-13T19:50Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-13T06:54Z",
+   "checked": "2026-11-13T19:50Z",
    "ok": true,
    "new": 44,
-   "seen": 71,
-   "lastOk": "2026-11-13T06:54Z"
+   "seen": 70,
+   "lastOk": "2026-11-13T19:50Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-13T06:54Z",
+   "checked": "2026-11-13T19:50Z",
    "ok": true,
    "new": 28,
    "seen": 45,
-   "lastOk": "2026-11-13T06:54Z"
+   "lastOk": "2026-11-13T19:50Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-13T06:54Z",
+   "checked": "2026-11-13T19:50Z",
    "ok": true,
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-13T06:54Z"
+   "new": 2,
+   "seen": 2,
+   "lastOk": "2026-11-13T19:50Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-13T06:54Z",
+   "checked": "2026-11-13T19:50Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-13T06:54Z"
+   "lastOk": "2026-11-13T19:50Z"
   },
   {
    "id": "gnews-gh",
@@ -55,11 +55,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-13T06:54Z",
+   "checked": "2026-11-13T19:50Z",
    "ok": true,
-   "new": 3,
-   "seen": 7,
-   "lastOk": "2026-11-13T06:54Z"
+   "new": 0,
+   "seen": 6,
+   "lastOk": "2026-11-13T19:50Z"
   }
  ],
  "items": [
@@ -101,6 +101,78 @@ window.FEED_ART={
    "d": "2026-11-13",
    "s": "gnews-gh",
    "x": "Longevity Clinic Palm Beach Gardens FL: How Proactive, Data-Led Care Works South Florida Reporter",
+   "c": "Industry"
+  },
+  {
+   "t": "Warning over peptides after batch contaminated with bacteria - Daily Mail",
+   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWdmMjgzNTlValN5dU9IYkYyTjhrQ25oX0x2d3N5NG5wYl9PS1UyMUxlRWp3aXUtOFJDenFGWGxXZmUtWjlZWTR0ZWNBRkhQV3Z4ODJvdWVoQVB2UC1hZXRpY3Q5OXFUWWh0eGV6SVRzcG1mcVFzMjE1Z3pJdlYwUG1kUTk1TEJLR2Y0TTdwMFI?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-a",
+   "x": "Warning over peptides after batch contaminated with bacteria Daily Mail",
+   "c": "Industry"
+  },
+  {
+   "t": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy - LehighValleyLive.com",
+   "l": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQW1hT090cjBNNkpaeVNsQjhaQ0FIeWp2NTlMbnF5UTBlc3puc0diMGwwVFhlcWpfOFU3SVN4eHUtQVdJUEdHZkFwOEhmTEI1aFZja3FISWZoTUE3NW9OeElKYUMzdTZkbDlNYl9sNXctb1dleUpOLS1KWVpRWEdXYWo3bmktZXpCWUJ0UUJFS0Jib2ZtODRvNDViZXFyMnVid1pLbF9wbWJDUVdBMG1Zc1pQeFMtcC1FcXpRQzVYTGFhZW8?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-a",
+   "x": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy LehighValleyLive.com",
+   "c": "Industry"
+  },
+  {
+   "t": "AMA pushes back on federal peptide policy as doctors warn of limited safety evidence - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVkJSVE9jUWM0NUNfay05U2VSLVJaQzdLVzNxRk9RazBvd1RzdDgtWWN1bkpNc0pqbVlsYXRFUVI5RFZYRXMyN0ZOVEdtVGtnNUUwMmZhSWVKZ0tLRnp1NW5CVUQ3OFBlNlJiVmRLbUwxUV9zZTlvbFdDbFhBVFhXNkdmb2RRYkh6TG1WRXh3?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-a",
+   "x": "AMA pushes back on federal peptide policy as doctors warn of limited safety evidence Medical Daily",
+   "c": "Industry"
+  },
+  {
+   "t": "4 Best Resources for Retatrutide Peptide Research and Clinical Trial Information in 2026 - Business Matters",
+   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbDJYSHZHMzFycDlySGJreWhIZzNVcmg0ZTdxb2hxUy0tQWhtMlZxSjlqdWd0UmZUazFwbUl0UlVxNW1DcUZsLVVPdEkwaUZSSTlBYV9Ia1hKZWJwQzJ1MWRjcmJhdWs5TXFBU3YzN2hwTG1ieVkyd1o5Rnl4MTdvczZRbHd5d2xIOF9jT09vUGhSeUtYWC14aUJTMndjX1pBekttZ2s5T0VNUnF0UVdwVTBCUDFZSmlyc0ZEUFR6aHM?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-a",
+   "x": "4 Best Resources for Retatrutide Peptide Research and Clinical Trial Information in 2026 Business Matters",
+   "c": "Industry"
+  },
+  {
+   "t": "Retatrutide halved knee pain for nearly 2 thirds of participants - NewsBytes",
+   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS1d4QzQ2TGpMNm5LNXl1N3lpYjYxMGFqZEpYNG40UENMSmE3MnVMd1BVNGg2cm52Vm16clV2Y1FiS05CWHh1U0Q4WVNGcEVKaEtiUWpQWDB5WURhd1NkMVRsZV91YTVwTWZncGN1b0JubGNvTVNoSFJqUkF2RDdEaFAxR0R2dTlrRHVjckhmSXBZM3B3aXFQMEpVZmM2UTR5UmFsTThQODNpYkNHM3ZWNA?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-a",
+   "x": "Retatrutide halved knee pain for nearly 2 thirds of participants NewsBytes",
+   "c": "Industry"
+  },
+  {
+   "t": "RFK Jr. eased access to some peptides. Will that pull users away from the gray market? - NBC News",
+   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTlR5dXl5TG8xRjM1S1dVdVg4anlySzZ2WWVwQkNhYmdSYkhnY01CRXZpeEx5dWJYV2VSVENoZTVHSjdyMXVDTDdsVTktVWhkbEROLUd0dUUzWWlmMFl5MGRQLXlLbV9FY3UweFNwVHpwcGtzVmlmdDZMOWJCMnJOaUdaN3ZlVTJfUUtVUjlWY2hrVm8yRVA0TS1mclBKYWRZSUtFdWlhdw?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-a",
+   "x": "RFK Jr. eased access to some peptides. Will that pull users away from the gray market? NBC News",
+   "c": "Industry"
+  },
+  {
+   "t": "Peptide gold rush: US policy shift exposes safety and regulatory gaps. - Personal Care Insights",
+   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOEY2ZldSbkw5UGk1WHc5d1dJYkMtbU1sdG9tOHI4enlaS0pYajRDdXh0SmtrSEU0VGk5cURybFNTZEpUMFBrTTJyOU95akpRLU9iWUdMOWN4Qzd6a2VEZmxvam0tV2NpZzh4M25VWmRicWEwZThjNEFGSlBnWTduOXU2dHBFTTg1bWc?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-a",
+   "x": "Peptide gold rush: US policy shift exposes safety and regulatory gaps. Personal Care Insights",
+   "c": "Industry"
+  },
+  {
+   "t": "STAT+: Pharmalittle: We’re reading about Lilly conflict questions, a DEA OK for a narcolepsy pill, and more",
+   "l": "https://www.statnews.com/pharmalot/2026/11/13/lilly-conflict-questions-dea-okays-takeda-narcolepsy-pill/?utm_campaign=rss",
+   "d": "2026-11-13",
+   "s": "stat",
+   "x": "A deal for smart-ring maker Oura to acquire a telehealth company is raising conflict-of-interest questions for Eli Lilly",
+   "c": "Industry"
+  },
+  {
+   "t": "STAT+: Oura’s acquisition of health tech startup raises conflict-of-interest questions for Eli Lilly, experts say",
+   "l": "https://www.statnews.com/2026/11/13/oura-acquisition-counsel-health-eli-lilly/?utm_campaign=rss",
+   "d": "2026-11-13",
+   "s": "stat",
+   "x": "With a new deal announced this week, the relationship between Eli Lilly and a telehealth company that markets GLP-1s is expected to grow more complicated.",
    "c": "Industry"
   },
   {
@@ -497,60 +569,6 @@ window.FEED_ART={
    "d": "2026-11-07",
    "s": "gnews-gh",
    "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos",
-   "c": "Industry"
-  },
-  {
-   "t": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say - MassLive",
-   "l": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNWE52S0Y1cUhNOU03NGNGeXQxNmNVTjZhS2J0Uy1nSm5ndHdyRUhGYWlqaEZsUXUwS1dTakNRVC1QRl9LMlpBNlctVGZNeVZJaGpWSWhvWWRRYUxIdWxzX1JwYVU3ZXB2QU0tM3N4eHh6TEtOdVFuX0xzSUdBSzJwcVFBS2dCTW5QLXIwQkI3TDk0OVFhSjNzMzh4alBzcE1DYUEzVFJDYmhYSUpmLXpubGhlUHZVVTYzb3pzTW44RGtoN1JqUzFQMXFxYlBXTjVNc0xESw?oc=5",
-   "d": "2026-11-07",
-   "s": "gnews-a",
-   "x": "Westfield Health Bulletin: Gray market peptides: risks, side effects and what experts say MassLive",
-   "c": "Industry"
-  },
-  {
-   "t": "Opinion | Retatrutide Is One Click Away. That Doesn't Make It Safe. - MedPage Today",
-   "l": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAyYnRIa3FvNzFURjk0c0I0eFg4U3Nlak04NFVacl8xM3U1clFpZzVKRkNoR1RRNXBSNG5mS1E1aFdHSXN0Qk9pS25wZTZsZFlEMXBjYUlGR3p3eTk2TTJ4bGhzeWUxM1pYTFB3?oc=5",
-   "d": "2026-11-07",
-   "s": "gnews-a",
-   "x": "Opinion | Retatrutide Is One Click Away. That Doesn't Make It Safe. MedPage Today",
-   "c": "Industry"
-  },
-  {
-   "t": "Buy BPC-157: What Does BPC-157 Do to the Body? - TechBullion",
-   "l": "https://news.google.com/rss/articles/CBMieEFVX3lxTE96bi01WTU5cGFlRm1aYk93bEpYMHR6UVRHc0NqU09iejlRX1JZTGI4LVpIdlY3NURxMzhDaDJGcnlpVFEtdWFRMm91QVVTVmNhcFY3Q0VZeU1rcFVuT0RVSjk1cFotZXhUVzZqME9WRkozMUI3TlN4Wg?oc=5",
-   "d": "2026-11-07",
-   "s": "gnews-a",
-   "x": "Buy BPC-157: What Does BPC-157 Do to the Body? TechBullion"
-  },
-  {
-   "t": "Evaluating HPLC Purity and LC-MS Identification in Research Peptides: A Buyer's Guide - openPR.com",
-   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNNUpCSXBoNjQ3aEJoQnNFQTBQS2Y3aVNBVk90UjZjRWEzRFBqcHMtc2Exdk9Yc2YxLWVHc3ZlTlVick9tbUJoSFZWcTZySE1rTHFGX3hYdHRFODYyX3o1ZWEzd2o2RHpOdDg5eFRPVlJXNndHS0lJM19sQkJzeWNwZmNqMlU4ZmZ6MF9BajE3S2xqZVdTeElId1lsSQ?oc=5",
-   "d": "2026-11-07",
-   "s": "gnews-a",
-   "x": "Evaluating HPLC Purity and LC-MS Identification in Research Peptides: A Buyer's Guide openPR.com",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide could be the biggest selling drug ever, Jonah Lupton says - Traders Union",
-   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONkR2U1pBVXRxaU9UbUE4T1ZQRkRuRnF3OFFUMlVqUUNWUXpMNnBhbXlyREk0RXB3cnRzREpUa0VVd1BEeHYtT1lXUGFjV1VGRHR1T25lZFdpd0J1MHY4VkJPY2txUnZ0aHl5Mk5PNDVfa3JMc2NxOUoybVZwTEw2blhmalgzUFBkaERqWVhYV3phM29xY3c?oc=5",
-   "d": "2026-11-06",
-   "s": "gnews-a",
-   "x": "Retatrutide could be the biggest selling drug ever, Jonah Lupton says Traders Union"
-  },
-  {
-   "t": "What's retatrutide? The illegal weight-loss drug sweeping social media - Sky News",
-   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPbWNrdXdTRllyTWRLYXViUkw3QzVmUmFVYWRaWUlWbXo0WkthSjJMSUNrTGdodU1lQi01TkhEVHBoYXZhU2JvVjhTZEtlY3JDZElZbmdyZ1M3OU1ZNk0zQTFXMXNmUjdCa3d4TlhYY0pYOEh2Y1AxTGh4Xy1MQV9QVHQwUXpvVlFXcWo1MzNYNHpfTmtSVVQ2VzJjVTIxRURHQmNHQ3IxWQ?oc=5",
-   "d": "2026-11-06",
-   "s": "gnews-a",
-   "x": "What's retatrutide? The illegal weight-loss drug sweeping social media Sky News",
-   "c": "Industry"
-  },
-  {
-   "t": "Health Canada warns of bacteria found in unauthorized peptides sold online - National - Global News",
-   "l": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOenNQb1ZMWDhZS0d0cDBvQ0EzNjZ0QVdiTlNpeWtwMVNkc3ZvWHVDZkVVRjYwZkFSOHZBNFM2ei15anZXdTFjWEhzeHNzS3pfZlpvYlBrUmdubC1uVWlHV0w3bDBKV1FaUTEtV3VtLUdTc29pdGhubXZqOWJVQ2hJZnBqNGtYQnlM?oc=5",
-   "d": "2026-11-06",
-   "s": "gnews-a",
-   "x": "Health Canada warns of bacteria found in unauthorized peptides sold online - National Global News",
    "c": "Industry"
   },
   {
