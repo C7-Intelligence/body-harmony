@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-12T20:03Z",
+ "generated": "2026-11-13T06:54Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 44,
-   "seen": 66,
-   "lastOk": "2026-11-12T20:03Z"
+   "seen": 71,
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 28,
    "seen": 45,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "gnews-gh",
@@ -55,18 +55,18 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
-   "new": 1,
-   "seen": 4,
-   "lastOk": "2026-11-12T20:03Z"
+   "new": 3,
+   "seen": 7,
+   "lastOk": "2026-11-13T06:54Z"
   }
  ],
  "items": [
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-12",
+   "d": "2026-11-13",
    "s": "epmc",
    "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
    "c": "Research"
@@ -74,10 +74,34 @@ window.FEED_ART={
   {
    "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
    "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-12",
+   "d": "2026-11-13",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
+  },
+  {
+   "t": "Health Canada flags safety risks of unapproved peptides after bacterial contamination - Firstpost",
+   "l": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNb2U0d1U4bUZTdG1ZRHFVM1k0Vjl6clh0SzhDQjJOTUhHc0dfbF9qcG9yWXUwTEkwOTc5SWJKZDRoenloZGtYdXZET0RSVUtTcjVzNWdzN1drVGViRmpHTGRna3pxYlVIbElXQUFxdnhDcFoxOXBabGtkaE1CVFF2OVNMZG1YUDdJX1NKNXlqMEVRcnBFckJNbDUxeklxclpfdHRfOVV6cDZQNDM2bGFGdHJhaGFFRTE3NFhxWnFqOHNNQUpGYVBOb0kyb9IB0AFBVV95cUxOd3k0cEVENmNJelFBdGpWRjRoTllzOEJDV1hZSGV0a3JMZkFuYThkNWZjY2JhbkdwSTNSVUxuRmNIeFk0dGZTcmRvdndZSWtEcHhqRDVJTzdRVkUwRTV4eGUwTWFUbEtNeE1nc1picDRsVWZ5WDdfVm1YMHhFLXM2QTRTMnJJN3JkZzhJR0h4dTBTUi1TWnQ4QWZTMWFTS1ZRaVRYdUExbmxzQnlCSmlrT1RKd0lxVDNlUXkwVm5JRzBLcXoyclVaX3NoYTViTExf?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-a",
+   "x": "Health Canada flags safety risks of unapproved peptides after bacterial contamination Firstpost",
+   "c": "Industry"
+  },
+  {
+   "t": "Retatrutide’s Mechanism of Action: How It Works for Weight Loss - GoodRx",
+   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSWo1LTVKZTRzQjB6UTFKR3U4OEdwekF3SmsySy04RW4ybDdzdTc2WmRHNHpwbXZ4WWRGOU11amVKSVdwanc3Vm5CdUhhVjhzb05mSUpsdDVvVTF6TEoxVTBHaENyNGJFajdJOUFDaXlFdDAwRjdkU2lDdkFHNHVlY1J3cw?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-a",
+   "x": "Retatrutide’s Mechanism of Action: How It Works for Weight Loss GoodRx",
+   "c": "Industry"
+  },
+  {
+   "t": "Longevity Clinic Palm Beach Gardens FL: How Proactive, Data-Led Care Works - South Florida Reporter",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObktwdEZPa0NoYnRQY3k2NnJJRHhPWDJ5UUVPV19nQUlUTDdmRW4zbEZHMm5ZM2R6YjJhc0FoeDF0T19EZEkwc0UyRjJiaVVUNTR6RHRpZURrcEItSG1od2Y5WjJ4cWQxX2JPZ2FVN2psSFNWVThOaHUzWURkU2xaRmEwS3QyWk80X2VCNDYyU3ZsZWMyVmdEQmlCMHo4ckhESllqYkJ1anktUQ?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-gh",
+   "x": "Longevity Clinic Palm Beach Gardens FL: How Proactive, Data-Led Care Works South Florida Reporter",
+   "c": "Industry"
   },
   {
    "t": "Retatrutide shows knee osteoarthritis pain relief in trials - 디지털투데이",
@@ -117,6 +141,30 @@ window.FEED_ART={
    "d": "2026-11-12",
    "s": "bpd",
    "x": "The deal will support a sprawling Phase 3 program for a monthly GLP-1 shot Pfizer acquired by winning a bidding war for the drug’s previous owner, Metsera.",
+   "c": "Industry"
+  },
+  {
+   "t": "River Peptides sounds off on the risky peptide boom - Rolling Out",
+   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iYzkzWTQxMFJvU0dPc1c5blNxMGZqRnoyX0hxV3dvY1ZETGxidzJ1bkZ5bE1NNzN2U3RzdUhOSGtQSUliMU9Vc19zNXlMT3BBc0NJUTlxc0F3VVp1allJR2NIY2xOLTFuTWNpb0l5YjN2RVVlcjRCbTQyVG4?oc=5",
+   "d": "2026-11-12",
+   "s": "gnews-a",
+   "x": "River Peptides sounds off on the risky peptide boom Rolling Out",
+   "c": "Industry"
+  },
+  {
+   "t": "Diabetes Dialogue: Retatrutide Tops Semaglutide on A1C, Weight in T2D - HCPLive",
+   "l": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbFp2RUlIRXI5cTlWMWpxY1pyaHZ6aWdQX2I0UjNkWWpyd21HdFZ4bkFWSi1kQVZKeWlVbXVCa29mc1lHMUFEblZrOEI1WUJMQWhkWDcxMzJPUE5hX0xHWVBZM19ycS1LOGltLU5Wc2RtNzFRZVdvNmtxRm5Iclhsc2JFUFMtX2l0VUZDaWxNZGh2X2hfMFZKRldGNzU?oc=5",
+   "d": "2026-11-12",
+   "s": "gnews-a",
+   "x": "Diabetes Dialogue: Retatrutide Tops Semaglutide on A1C, Weight in T2D HCPLive",
+   "c": "Industry"
+  },
+  {
+   "t": "Serotonin Anti-Aging Centers Founder Puts a Physician-Led Longevity Clinic Inside New York Sports Club - The Manila Times",
+   "l": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNYUNJdTVfUEhpV3ZKdldkWDFGdlM2UTM2QUhfcWh0Si1lZEZvUlctNksteU8xdGxMTkRQZEZOMEFvb3hvQ3hmZy1RazNCX1FWYkdBN1ZNeXJoM3RPNVFwSDF5ekZzVl9vckxEeGF0bkRjd055TDVWWkxDMXYzU0VTMU8xejZaNHJUMk4yRXlDeVBCMDdkM0VkMlhPZVphdThsZVhndGRrV3gtLXlpMnNNVTlWSkZlaUFNNGFqWmhnX1VobDFnbDdnV2ZuQ2tIcEVZWFNNLXFBNnAwOF9sNGdHRHA5a25yRHNNNWFEWWtRdW5FeUFmQlRyb3pQYjl1TVJ0YWJfUmxRX3NXNHN00gGMAkFVX3lxTE1hQ0l1NV9QSGlXdkp2V2RYMUZ2UzZRMzZBSF9xaHRKLWVkRm9SVy02Sy15TzF0bExORFBkRk4wQW9veG9DeGZnLVFrM0JfUVZiR0E3Vk15cmgzdE81UXBIMXl6RnNWX29yTER4YXRuRGN3TnlMNVZaTEMxdjNTRVMxTzF6Nlo0clQyTjJFeUN5UEIwN2QzRWQyWE9lWmF1OGxlWGd0ZGtXeC0teWkyc01VOVZKRmVpQU00YWpaaGdfVWhsMWdsN2dXZm5Da0hwRVlYU00tcUE2cDA4X2w0Z0dEcDlrbnJEc001YURZa1F1bkV5QWZCVHJvelBiOXVNUnRhYl9SbFFfc1c0c3Q?oc=5",
+   "d": "2026-11-12",
+   "s": "gnews-gh",
+   "x": "Serotonin Anti-Aging Centers Founder Puts a Physician-Led Longevity Clinic Inside New York Sports Club The Manila Times",
    "c": "Industry"
   },
   {
@@ -340,11 +388,11 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Retatrutide ‘Significantly’ Eases Knee Pain in People With Obesity, Studies Show - Everyday Health",
+   "t": "Retatrutide Significantly Eased Knee Pain in Two Major New Trials - Everyday Health",
    "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZXRtbTYzcjRXTEJycDIxMjZBdGJrRXl2MFRtMUQ5OUFCdFlLNHhwNTBDcXN5QkZFSHBiU2JodldOdE1jV3B0UlNsaF8xSEZOSkRORllRM2pyLTFuMGEwbzZvOTVoVWFJeVBIb1NNWmxBdWhQYzU2TkNnMVNyUHgtSGpkOWdFdWdib2tEdE5Ja0lsdUQ4dFF4MDJhOS0yWktNSFpwVjhldw?oc=5",
    "d": "2026-11-09",
    "s": "gnews-a",
-   "x": "Retatrutide ‘Significantly’ Eases Knee Pain in People With Obesity, Studies Show Everyday Health",
+   "x": "Retatrutide Significantly Eased Knee Pain in Two Major New Trials Everyday Health",
    "c": "Industry"
   },
   {
@@ -506,37 +554,6 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Is BPC-157 legal now? What the new HHS peptide policy means if you want it - Nacionale",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQeUJpX1VRSkM5X01rS1ZPWmtkVDMzTldRcXFrdDVxNjNZWktjWm83ZmpnZlpMZUdvSzUyam9FdEdqVkZ3ZGJla0pXOUpLVnpRdFJ4NUp1RmtPQmFJQW9yX3RlWTlBTGlOWTJidjNDbWd5cFR3elhGSkVwTjM2M2NoaUZLWmJ3cE9TYkwxMFA5S1lHSVFuUzN4ckdWRk5EOUVvZGtJdjY0Z3BqdU5Wa1E?oc=5",
-   "d": "2026-11-06",
-   "s": "gnews-a",
-   "x": "Is BPC-157 legal now? What the new HHS peptide policy means if you want it Nacionale"
-  },
-  {
-   "t": "‘Serious risk’: Lab tests on popular peptide revealed - Herald Sun",
-   "l": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUnFVQmpiN1VfS2VFLXloaURkdk1KZ283QzZsNWV2UUZaM0ZqZV8xOTRkVmF1RGY3R2pHZk94OHpOQWloMW13a1Q1SGpNMzM0djMxa1pHZXpUQ2g5U2kyejV1Nm9LWjFUQWxicXJsUm5HRzVaMjVhN0UtSWtkSjFhSkVORHRmN2xKa1hLeGNYWEcyNzA0aHJNSXBzT1E0Nk45SkZiSnF3MWtLWnU5a1paZDFhdzBJMDV6NVpvT1dBc1N4WVNlS1lVWmZ5VndWZktRbXU0d2FOYThVTlViQWhuMFpZMy1LRW5tX2VUVXZob25VR1R5TFQ4VG9n?oc=5",
-   "d": "2026-11-05",
-   "s": "gnews-a",
-   "x": "‘Serious risk’: Lab tests on popular peptide revealed Herald Sun",
-   "c": "Industry"
-  },
-  {
-   "t": "Lilly to showcase new retatrutide, Taltz (ixekizumab) and Zepbound (tirzepatide) data at ACR Convergence 2026, advancing science at the intersection of rheumatologic conditions and obesity - PR…",
-   "l": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxPSmJHN3FaOHJLX012ckVTcjZsVUpLZ1JvdkJwVUdUQUJfTHZzbUpMOXNxVk5NUmVBemR2ejhIWHRVTWpSVm02MFBweWNLWVJHRks4Q3JGMDVKenFRZzNQaEloVC0xcVpjMnFpTEthZDdtYnpKcW1Ob0xFVG5NSmVDS1RUWlYwSTdMNkFMdGg0WENabXVURnh2ZU5XZHpUdm5yVWZfTjZ2NzJCOG1qOE9Va0VXS0RzS0N6aW1SeEhMdE5ETmdyRFlGQjVoczRvLXh3Q0RTNXFmUEpUWG5mVERIeGZ6Q2JPT2MzN0VUUE5tYUc5WXhsdEdTVDVkUk1sZXNuOWtYYWwzQzhwbmFtdzJOamZqdDcyRXhkZU9pZ2hMNjN0cHVOUzE1OFpFQnBDblkwQ01ENVZySTl6ZWQ3dDhGajhmdzR3NlRvMDRkMFRRTExBU3ZBLTE3eElR?oc=5",
-   "d": "2026-11-05",
-   "s": "gnews-a",
-   "x": "Lilly to showcase new retatrutide, Taltz (ixekizumab) and Zepbound (tirzepatide) data at ACR Convergence 2026, advancing science at the intersection of rheumatologic conditions and obesity PR Newswire",
-   "c": "Industry"
-  },
-  {
-   "t": "Lilly to present retatrutide and combo drug data at ACR 2026 - StreetInsider",
-   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZHE5NlctZkU5RGZibmx6UEpaTHN2cG1OUEVrcnpzaDFHZG9QOFpmZTV0OXBYcktfREE3QU9Hall6TWJrLWdaVU0yOFVLXzZaWFRZRnp1QXdoTVN4TDVBVDNSMWlXS3JlaXNqYWZvSU9NQ3otejdCUW9jOEM3RUNMVnBPcUVyODVIOUJZaXEydFZwUTZBSmkwTnRpQmhmcGg1ZWFwVnBWYzdlcms5Y1JDaEpxdGpyZjVUUVk0?oc=5",
-   "d": "2026-11-05",
-   "s": "gnews-a",
-   "x": "Lilly to present retatrutide and combo drug data at ACR 2026 StreetInsider",
-   "c": "Industry"
-  },
-  {
    "t": "Acute coronary thrombosis following anabolic-androgenic steroid use in a female athlete: A case report.",
    "l": "https://doi.org/10.1016/j.ancard.2026.102103",
    "d": "2026-11-05",
@@ -582,6 +599,14 @@ window.FEED_ART={
    "d": "2026-11-02",
    "s": "gnews-gh",
    "x": "Clinic-Delivered Psoriatic Arthritis Biologic: Sun Pharma Expands ILUMYA's U.S. Label Trend Hunter",
+   "c": "Industry"
+  },
+  {
+   "t": "Ageless Health - WILMA magazine",
+   "l": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1aRWxhX1RXOXJjZEFnQVFwWHRmT2xvOFFiVk83enB0aDhtTkhLd3lmMldWdVIwcUJUUlJMLWhwQlNINDFrSHZBM05OblF6dFpaQ3c?oc=5",
+   "d": "2026-11-02",
+   "s": "gnews-gh",
+   "x": "Ageless Health WILMA magazine",
    "c": "Industry"
   },
   {
@@ -680,14 +705,6 @@ window.FEED_ART={
    "d": "2026-10-28",
    "s": "stat",
    "x": "Eli Lilly announced that its investigational drug retatrutide was more effective at lowering blood sugar and cutting weight than Novo Nordisk’s Ozempic in a large diabetes study."
-  },
-  {
-   "t": "What to Know About the 6 Experimental Peptides Kennedy Has Cleared for Use - The New York Times",
-   "l": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBrMVUtRHdha3BkZm5TQnlORHZUYTF5UnA4eFNfZktxeG5kX055YlpjdXVVTDJyYWdJcnJJdVBxRzZHZzdxU1F3aEgyUW45MUZVV1JpSktpLWJTSUR4c0xFVnR2dmVQMVNOQk1qQkxHdVVXRGxI?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-gh",
-   "x": "What to Know About the 6 Experimental Peptides Kennedy Has Cleared for Use The New York Times",
-   "c": "Industry"
   },
   {
    "t": "Gameday Men's Health Sets the Safety Standard as New Federal Policy Expands Peptide Access - PR Newswire",

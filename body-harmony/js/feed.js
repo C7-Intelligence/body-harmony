@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-12T20:03Z",
+ "generated": "2026-11-13T06:54Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "fierce",
@@ -67,11 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "gnews",
@@ -79,11 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
-   "new": 90,
-   "seen": 97,
-   "lastOk": "2026-11-12T20:03Z"
+   "new": 92,
+   "seen": 98,
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "fda-recalls",
@@ -91,11 +91,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "fda-consumer",
@@ -103,7 +103,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -115,11 +115,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "fr-hhs",
@@ -127,11 +127,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "doj",
@@ -139,11 +139,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "usada",
@@ -151,11 +151,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "mhra",
@@ -163,11 +163,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "gnews-state",
@@ -175,11 +175,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
-   "new": 0,
+   "new": 1,
    "seen": 10,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   },
   {
    "id": "gnews-anab",
@@ -187,14 +187,38 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-12T20:03Z",
+   "checked": "2026-11-13T06:54Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 13,
-   "lastOk": "2026-11-12T20:03Z"
+   "lastOk": "2026-11-13T06:54Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/lillys-foundayo-marketing-push-keeps-pace-another-celeb-spokesperson-comedian-leanne",
+   "d": "2026-11-13",
+   "s": "fierce",
+   "x": "The new celebrity partnership is the second for Lilly's oral GLP-1 Foundayo following its recent partnership with lifestyle guru Martha Stewart.",
+   "c": "Industry"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/fda-orders-new-eye-risk-be-listed-ozempic-zepbound-labels",
+   "d": "2026-11-13",
+   "s": "fierce",
+   "x": "After an internal investigation, the FDA is calling for 12 GLP-1s to add a new and rare eye risk to the \"warnings and precautions\" section of their labels.",
+   "c": "Industry"
+  },
+  {
+   "t": "AMA pushes back on federal peptide policy as doctors warn of limited safety evidence - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVkJSVE9jUWM0NUNfay05U2VSLVJaQzdLVzNxRk9RazBvd1RzdDgtWWN1bkpNc0pqbVlsYXRFUVI5RFZYRXMyN0ZOVEdtVGtnNUUwMmZhSWVKZ0tLRnp1NW5CVUQ3OFBlNlJiVmRLbUwxUV9zZTlvbFdDbFhBVFhXNkdmb2RRYkh6TG1WRXh3?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews",
+   "x": "AMA pushes back on federal peptide policy as doctors warn of limited safety evidence Medical Daily",
+   "c": "Industry"
+  },
   {
    "t": "Schedules of Controlled Substances: Placement of Oveporexton in Schedule IV",
    "l": "https://www.federalregister.gov/documents/2026/11/12/2026-23075/schedules-of-controlled-substances-placement-of-oveporexton-in-schedule-iv",
@@ -220,20 +244,12 @@ window.FEED={
    "c": "Regulation"
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/lillys-foundayo-marketing-push-keeps-pace-another-celeb-spokesperson-comedian-leanne",
+   "t": "River Peptides sounds off on the risky peptide boom - Rolling Out",
+   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iYzkzWTQxMFJvU0dPc1c5blNxMGZqRnoyX0hxV3dvY1ZETGxidzJ1bkZ5bE1NNzN2U3RzdUhOSGtQSUliMU9Vc19zNXlMT3BBc0NJUTlxc0F3VVp1allJR2NIY2xOLTFuTWNpb0l5YjN2RVVlcjRCbTQyVG4?oc=5",
    "d": "2026-11-12",
-   "s": "fierce",
-   "x": "The new celebrity partnership is the second for Lilly's oral GLP-1 Foundayo following its recent partnership with lifestyle guru Martha Stewart.",
-   "c": "Industry"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/fda-orders-new-eye-risk-be-listed-ozempic-zepbound-labels",
-   "d": "2026-11-12",
-   "s": "fierce",
-   "x": "After an internal investigation, the FDA is calling for 12 GLP-1s to add a new and rare eye risk to the \"warnings and precautions\" section of their labels.",
-   "c": "Industry"
+   "s": "gnews-state",
+   "x": "River Peptides sounds off on the risky peptide boom Rolling Out",
+   "c": "Regulation"
   },
   {
    "t": "Basildon: Man charged after £67,500 cocaine recovered during warrant - Essex Police",
@@ -250,6 +266,14 @@ window.FEED={
    "s": "gnews-anab",
    "x": "Man charged after £67.5k worth of cocaine found at Basildon home Southend Echo",
    "c": "Safety"
+  },
+  {
+   "t": "Are Peptides Legal Now? What the New HHS Policy Really Means - Hone Health",
+   "l": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5UbXRhU002TlJfUm5WZjB4RWJEaHdkSFZxV0tNLW96SmdiNVd6MlB5NkJZaWo3SzIwY0lSTGlYcXgwTWZibVk5ZG5HX3MwU2tyeGNqczFpY1lJMjQ5?oc=5",
+   "d": "2026-11-11",
+   "s": "gnews",
+   "x": "Are Peptides Legal Now? What the New HHS Policy Really Means Hone Health",
+   "c": "Industry"
   },
   {
    "t": "RFK Jr. loosens access to unapproved peptides: A health law scholar explains what consumers need to know - The Conversation",
@@ -632,13 +656,6 @@ window.FEED={
    "x": "Peptides could soon be easier to get in the United States. Here’s what to know CNN"
   },
   {
-   "t": "RFJ Jr. institutes backdoor approval of 6 peptides - Reason Magazine",
-   "l": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONTlhd2RTQVgyVFIzVXVCdnQzU2FxdVZhWkRBZmtJbWd4eWxWcl9mN3FGVjBMdElnQ2Z0SDlTNkJxTjUyeFdyMmJ2R1Q3aGJtYmJMSURkSHFlS0M3dDlsOHRsRGlPMVU3ZGZETDd5NS0zd1NmakctaC1DM0RUODlLdGViSFVnZWc?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews",
-   "x": "RFJ Jr. institutes backdoor approval of 6 peptides Reason Magazine"
-  },
-  {
    "t": "Coroner links death to unapproved peptides in Aust. first - The Daily Aus",
    "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQYkFDUG5KY2laRmRQNWVwNmFlMnhmRUxjbWFkN05GOGNSN1hfeXpYLVdTc0FZSmNuS1d4WkZuTGkwTWdPUEpQMlU5RElqQXBBa19lRmRBQThoRVhhTERQNEN2ZjlxNkVWWUpwTExsNHpGd1lNNHdZTWFtTnF6QTZoWHR1SlFqekFibk5B?oc=5",
    "d": "2026-10-29",
@@ -668,14 +685,6 @@ window.FEED={
    "s": "gnews-state",
    "x": "Here's How The FDA's Temporary Peptide Compounding Policy Impacts Access, Costs And Safety Blavity News",
    "c": "Regulation"
-  },
-  {
-   "t": "Kennedy to Allow Broad Use of Unapproved Peptide Injections - The New York Times",
-   "l": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5JSWpTV1hKUWtzalplclV0dU96SUJEQURMQVZwSG4ycDZWT01DNDRscUY2b1k4Ykw2SFE1aTVuSkc3ZWxtSFhGZDVhMTlHZEFBb01DX3JUTjJObUxVQ0hmVG5PTHNYaWhucmFMNmFRQzZTTmJtdnc?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews",
-   "x": "Kennedy to Allow Broad Use of Unapproved Peptide Injections The New York Times",
-   "c": "Industry"
   },
   {
    "t": "What Labs Need to Know about Peptides in 2027 - Labcompare",
