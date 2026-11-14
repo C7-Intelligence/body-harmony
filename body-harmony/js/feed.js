@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-14T18:14Z",
+ "generated": "2026-11-14T22:35Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,7 +7,7 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -20,7 +20,7 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -33,7 +33,7 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -46,11 +46,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-14T18:14Z"
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "fr-cbp",
@@ -58,11 +58,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-14T18:14Z"
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "fierce",
@@ -70,7 +70,7 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": false,
    "error": "HTTP Error 403: Forbidden",
    "new": 0,
@@ -83,11 +83,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
-   "new": 92,
-   "seen": 99,
-   "lastOk": "2026-11-14T18:14Z"
+   "new": 90,
+   "seen": 97,
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "fda-recalls",
@@ -95,7 +95,7 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -108,7 +108,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -120,11 +120,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-14T18:14Z"
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "fr-hhs",
@@ -132,11 +132,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-14T18:14Z"
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "doj",
@@ -144,11 +144,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-14T18:14Z"
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "usada",
@@ -156,11 +156,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-14T18:14Z"
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "mhra",
@@ -168,11 +168,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-14T18:14Z"
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "gnews-state",
@@ -180,11 +180,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-14T18:14Z"
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "gnews-anab",
@@ -192,11 +192,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T18:14Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
-   "new": 3,
-   "seen": 13,
-   "lastOk": "2026-11-14T18:14Z"
+   "new": 1,
+   "seen": 14,
+   "lastOk": "2026-11-14T22:35Z"
   }
  ],
  "items": [
@@ -519,6 +519,14 @@ window.FEED={
    "d": "2026-11-02",
    "s": "gnews",
    "x": "Unproven Peptides Opposed by FDA Scientists Could Soon Be Easier to Get Infectious Disease Advisor"
+  },
+  {
+   "t": "Illegal Drug Factory Busted in Zirakpur Residential Area; Banned Injections, Steroids, and Lakhs of Unpacked Pills Seized - drugscontrol.org",
+   "l": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB2TDhMT0pPY1paTmtIdTRwakU2cDB3Tzgyb3EwOUNVbVFWTnFLUU9RdU90Qjd5UmNHSjdhVm11aU1yUnhFZG5uWTRsNjkwX1RHZFFjRm9ZVVZ1VE41bTdwV0tsWQ?oc=5",
+   "d": "2026-11-01",
+   "s": "gnews-anab",
+   "x": "Illegal Drug Factory Busted in Zirakpur Residential Area; Banned Injections, Steroids, and Lakhs of Unpacked Pills Seized drugscontrol.org",
+   "c": "Safety"
   },
   {
    "t": "GLP-1 Compounding After Drug Shortages - The Regulatory Review",

@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-14T18:15Z",
+ "generated": "2026-11-14T22:35Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T18:15Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
-   "new": 48,
-   "seen": 72,
-   "lastOk": "2026-11-14T18:15Z"
+   "new": 51,
+   "seen": 78,
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-14T18:15Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 30,
    "seen": 45,
-   "lastOk": "2026-11-14T18:15Z"
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T18:15Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-14T18:15Z"
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T18:15Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-14T18:15Z"
+   "lastOk": "2026-11-14T22:35Z"
   },
   {
    "id": "gnews-gh",
@@ -55,11 +55,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T18:15Z",
+   "checked": "2026-11-14T22:35Z",
    "ok": true,
    "new": 0,
-   "seen": 6,
-   "lastOk": "2026-11-14T18:15Z"
+   "seen": 7,
+   "lastOk": "2026-11-14T22:35Z"
   }
  ],
  "items": [
@@ -93,6 +93,14 @@ window.FEED_ART={
    "d": "2026-11-14",
    "s": "gnews-a",
    "x": "Peptide stacking explained: can combining GLP-1s and BPC-157 help you lose fat without losing muscle? Men's Fitness",
+   "c": "Industry"
+  },
+  {
+   "t": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale - Eli Lilly",
+   "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONW51WVVma0lWblZtZFBfOVpYa0J6X2NqZnJqbUZrYnlJSWJGLUpEMVl0ZEZUVm5qZWtyeFhtamZfemkteUtSSkw2X25xMEVKM3pXeU5xY2NCZkwtdUlEc0JFeGl6ajFGVjVPeWN4Nm9VeWdnci0tVlp3Z3l6TGlnYU1OZ21MV0hNY3FqcGhiZS1oSnBsRXViRGJ5NkVqbHNYaXRnclN3U3BEak1uT284TGVEVXBpbjdacWlveWlYNA?oc=5",
+   "d": "2026-11-14",
+   "s": "gnews-a",
+   "x": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale Eli Lilly",
    "c": "Industry"
   },
   {
@@ -506,14 +514,6 @@ window.FEED_ART={
    "d": "2026-11-09",
    "s": "stat",
    "x": "Eli Lilly’s GLP-1 pill Foundayo helped alleviate sleep apnea in two late-stage studies, but it doesn’t appear as effective as Lilly’s injectable drug Zepbound.",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide ‘Significantly’ Eases Knee Pain in People With Obesity, Studies Show - Everyday Health",
-   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZXRtbTYzcjRXTEJycDIxMjZBdGJrRXl2MFRtMUQ5OUFCdFlLNHhwNTBDcXN5QkZFSHBiU2JodldOdE1jV3B0UlNsaF8xSEZOSkRORllRM2pyLTFuMGEwbzZvOTVoVWFJeVBIb1NNWmxBdWhQYzU2TkNnMVNyUHgtSGpkOWdFdWdib2tEdE5Ja0lsdUQ4dFF4MDJhOS0yWktNSFpwVjhldw?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "Retatrutide ‘Significantly’ Eases Knee Pain in People With Obesity, Studies Show Everyday Health",
    "c": "Industry"
   },
   {
