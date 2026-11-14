@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-13T19:50Z",
+ "generated": "2026-11-14T06:39Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-13T19:50Z"
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-13T19:50Z"
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-13T19:50Z"
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-13T19:50Z"
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-13T19:50Z"
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "fierce",
@@ -67,12 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-13T19:50Z",
-   "ok": false,
-   "error": "HTTP Error 403: Forbidden",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-13T06:54Z"
+   "checked": "2026-11-14T06:39Z",
+   "ok": true,
+   "new": 3,
+   "seen": 3,
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "gnews",
@@ -80,11 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
-   "new": 92,
-   "seen": 99,
-   "lastOk": "2026-11-13T19:50Z"
+   "new": 90,
+   "seen": 98,
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "fda-recalls",
@@ -92,11 +91,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-13T19:50Z"
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "fda-consumer",
@@ -104,7 +103,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -116,11 +115,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-13T19:50Z"
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "fr-hhs",
@@ -128,11 +127,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-13T19:50Z"
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "doj",
@@ -140,11 +139,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-13T19:50Z"
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "usada",
@@ -152,11 +151,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-13T19:50Z"
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "mhra",
@@ -164,11 +163,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-13T19:50Z"
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "gnews-state",
@@ -176,11 +175,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
-   "new": 1,
-   "seen": 10,
-   "lastOk": "2026-11-13T19:50Z"
+   "new": 0,
+   "seen": 9,
+   "lastOk": "2026-11-14T06:39Z"
   },
   {
    "id": "gnews-anab",
@@ -188,14 +187,38 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-13T19:50Z",
+   "checked": "2026-11-14T06:39Z",
    "ok": true,
-   "new": 0,
-   "seen": 12,
-   "lastOk": "2026-11-13T19:50Z"
+   "new": 1,
+   "seen": 13,
+   "lastOk": "2026-11-14T06:39Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-11-14",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions.",
+   "c": "Industry"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/novo-amps-wegovy-marketing-dj-khaled-spinning-his-weight-loss-tale",
+   "d": "2026-11-14",
+   "s": "fierce",
+   "x": "Novo and DJ Khaled have teamed up to share how the DJ, rapper and record producer has incorporated the GLP-1 drug Wegovy into his weight-loss routine.",
+   "c": "Industry"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/lillys-foundayo-marketing-push-keeps-pace-another-celeb-spokesperson-comedian-leanne",
+   "d": "2026-11-14",
+   "s": "fierce",
+   "x": "The new celebrity partnership is the second for Lilly's oral GLP-1 Foundayo following its recent partnership with lifestyle guru Martha Stewart.",
+   "c": "Industry"
+  },
   {
    "t": "AMA pushes back on federal peptide policy as doctors warn of limited safety evidence - Medical Daily",
    "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVkJSVE9jUWM0NUNfay05U2VSLVJaQzdLVzNxRk9RazBvd1RzdDgtWWN1bkpNc0pqbVlsYXRFUVI5RFZYRXMyN0ZOVEdtVGtnNUUwMmZhSWVKZ0tLRnp1NW5CVUQ3OFBlNlJiVmRLbUwxUV9zZTlvbFdDbFhBVFhXNkdmb2RRYkh6TG1WRXh3?oc=5",
@@ -291,6 +314,14 @@ window.FEED={
    "s": "gnews",
    "x": "Are Peptides Legal Now? What the New HHS Policy Really Means Hone Health",
    "c": "Industry"
+  },
+  {
+   "t": "Man charged after £67.5k worth of cocaine found at Basildon home - Yahoo News UK",
+   "l": "https://news.google.com/rss/articles/CBMickFVX3lxTFBXVnhCSGNnTGVudXB1MmJWYkt6dldyZEYxY2ZYZjduVkNBT3dRUWdMWmJkQURocGUxZk0zZXMyazNaRy1lcW9mYnk0M1A3S3I5RTNrTng2Ym85UnpBSWFZRmtCeHVianZHUlRfUnZfV3FYdw?oc=5",
+   "d": "2026-11-11",
+   "s": "gnews-anab",
+   "x": "Man charged after £67.5k worth of cocaine found at Basildon home Yahoo News UK",
+   "c": "Safety"
   },
   {
    "t": "RFK Jr. loosens access to unapproved peptides: A health law scholar explains what consumers need to know - The Conversation",
