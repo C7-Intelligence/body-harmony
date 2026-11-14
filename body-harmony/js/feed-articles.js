@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-14T06:39Z",
+ "generated": "2026-11-14T18:15Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T06:39Z",
+   "checked": "2026-11-14T18:15Z",
    "ok": true,
    "new": 48,
-   "seen": 79,
-   "lastOk": "2026-11-14T06:39Z"
+   "seen": 72,
+   "lastOk": "2026-11-14T18:15Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-14T06:39Z",
+   "checked": "2026-11-14T18:15Z",
    "ok": true,
-   "new": 28,
+   "new": 30,
    "seen": 45,
-   "lastOk": "2026-11-14T06:39Z"
+   "lastOk": "2026-11-14T18:15Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T06:39Z",
+   "checked": "2026-11-14T18:15Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-14T06:39Z"
+   "lastOk": "2026-11-14T18:15Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T06:39Z",
+   "checked": "2026-11-14T18:15Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-14T06:39Z"
+   "lastOk": "2026-11-14T18:15Z"
   },
   {
    "id": "gnews-gh",
@@ -55,11 +55,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T06:39Z",
+   "checked": "2026-11-14T18:15Z",
    "ok": true,
    "new": 0,
-   "seen": 7,
-   "lastOk": "2026-11-14T06:39Z"
+   "seen": 6,
+   "lastOk": "2026-11-14T18:15Z"
   }
  ],
  "items": [
@@ -78,6 +78,22 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
+  },
+  {
+   "t": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale - PR Newswire",
+   "l": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNcHYyYVFuYjdOT25NV2hrOS1kS3k0cVJYcXhUTUcyLXgxUzl4c1hJeVF1Vkl3MFQ2Wm5haWtXWks0LXdOeS1ocGJQZmp1TkJCTVozT0FCajZBdW1mN3dHYjc1LUNubndjNEROTFp6ckNQa0ZaVDNJQkJrMTZseERDbTRwWXRDUXhwRS1Lb09WbHNieXl5MFVBM0VHYWctQlZXTGFhaVVwbzl3Zk9YUTM2b3pwelk0a1ZrSHVMdkVRcllGcmpqd3piTXhtdzlmanAzYk5rR2hKUWRLX1N0UG5jVm14b3VybGM4TE5jTFRFdzRBNkM5RHVjazE2Vkkxb1duUm5QZTE3Q010XzVlY2RDNDRNZUdwdHM?oc=5",
+   "d": "2026-11-14",
+   "s": "gnews-a",
+   "x": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale PR Newswire",
+   "c": "Industry"
+  },
+  {
+   "t": "Peptide stacking explained: can combining GLP-1s and BPC-157 help you lose fat without losing muscle? - Men's Fitness",
+   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCUU5uOGo5WnB4TlpNVEJlTkdNTTdKSVNoQy1MVTY4WE9LWEVtRS1xNlpHQlN3d2RTM2FJZm1wdjZfX3pOLWEweTZTQVBSa2hZU0hQLUdjRXc2OTU0N0haeEdvWjJZQk1oMXgzYWlQVE1PdEVNeEJDMllzdGk?oc=5",
+   "d": "2026-11-14",
+   "s": "gnews-a",
+   "x": "Peptide stacking explained: can combining GLP-1s and BPC-157 help you lose fat without losing muscle? Men's Fitness",
+   "c": "Industry"
   },
   {
    "t": "Health Canada flags safety risks of unapproved peptides after bacterial contamination - Firstpost",
@@ -189,6 +205,14 @@ window.FEED_ART={
    "d": "2026-11-13",
    "s": "gnews-a",
    "x": "How Research Peptides Are Made: Solid-Phase Synthesis and Analytical Quality Control eHealth Magazine",
+   "c": "Industry"
+  },
+  {
+   "t": "Rogan Says Retatrutide Could Beat GLP-1 Drugs as Peptide Market Faces a Purity Test - BigGo Finance",
+   "l": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1FU2FuODNHZWw3TDBUWUVkMWpMaGR4U3g0djR0Nk1WdDFrM3JaRWlSSmlVbkhiNk1Rb3MtOXVjMDExVUxub3NvTElIZUw2a21HN3cwTVRzTmVMaWs?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-a",
+   "x": "Rogan Says Retatrutide Could Beat GLP-1 Drugs as Peptide Market Faces a Purity Test BigGo Finance",
    "c": "Industry"
   },
   {
@@ -412,7 +436,8 @@ window.FEED_ART={
    "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdnFONUxMWTY5cWxPaDhfQ2VoRjRwbV9kNHZrZFgtUjB6djlfLXU1QjFVVFQxLV9WVUxXZ1hWMm5BSVp6bk5tcFRyRkQyS3BORFdHbkplRTRLdTVDa0t6aHlSaURWbkI0anNRYklGTFphRGFTSWxBRkRMZzg1MV9fVlI1R0s0dlg0ZnJYQ2RHQlo4LUdSOEhlUVcyd3dSZ2kxd1owSHl0STRDNmo4T21xTnRyRUVvWWU1X0h5aA?oc=5",
    "d": "2026-11-09",
    "s": "gnews-a",
-   "x": "Retatrutide reduces knee pain and body weight in osteoarthritis patients News-Medical"
+   "x": "Retatrutide reduces knee pain and body weight in osteoarthritis patients News-Medical",
+   "c": "Industry"
   },
   {
    "t": "Eli Lilly's Retatrutide Reduces Weight, Knee Pain - 조선일보",
@@ -492,14 +517,6 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Retatrutide and knee osteoarthritis: two phase 3 trials - srpske.rs",
-   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNHBQUF83TDl5ZUU3TlVqMG5iLU5WSnZlV0pUTTNxSy1HbDJRS2o5WFFxS0R0UHNla1ZOWWhxQnRjM3JSSE5vUEg4ZTNfS0JlSTE1TU9wcE5DYlZxLWNqaGJpalJsMEJ1Y05oM0Q4dGpnMHVPUG1QRlJVc1BKb3NCclcyVVpWRzY0YzhzaXJSTUZuUjhQaV9qdTZOZF94VlcwRl9B?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "Retatrutide and knee osteoarthritis: two phase 3 trials srpske.rs",
-   "c": "Industry"
-  },
-  {
    "t": "Argenx to buy peptide platform in potentially billion-dollar deal",
    "l": "https://www.biopharmadive.com/news/argenx-unnatural-products-acquisition-deal-peptides-protein-macrocyclic-immune/874119/",
    "d": "2026-11-09",
@@ -524,27 +541,19 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Health Canada finds bacteria in injectable peptides sold online, seizes 11,400 vials - ThinkPol",
-   "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORFBWTVhGTnRrVk1oUndnN254WUswbTJUMmMzZElqWDExb3o2TnJEQTh5c1lKNU8zVTE5REFOSEVzenRZOEdxMGJGcXRfdEJSZF9oMDVWSXNZQzBKLTA0R29Qd2tVWE5DWUE2QXRnX0xOVHUtcGVQZ3FlYXVCWkJyQ0NJMXJocUJtdXc3QnVmUW5qMTF6bEN2cS1BTzRwV0V5eC01Y0tza3RKcGl5emNTdXNn0gG3AUFVX3lxTE01MU1wVXRpdFJTa3NzRVFKMDd3UmdvY0YxMjZxcVpNQ3lHT2J0WkR2bm5raXRLUUhSeGJPZmZYMGVTcmoyZzlmZGp5X3R2aGV6ZjU1MHd3NFFhbEF5QzFSUzVEa0FLSWhta1dTcHY4U3NmY01tUGFuVUZIVTFxd2pDYlBNR1BaNGhhMmpIWVIySWd3OTBkTGJLREVpMzBBenFtYnd1Ym1kcTdiYmxMczlWR2wwcXgtYw?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "Health Canada finds bacteria in injectable peptides sold online, seizes 11,400 vials ThinkPol",
-   "c": "Industry"
-  },
-  {
-   "t": "November 9, 2026: Woman’s cancer returns after taking med spa peptides - Partnership for Safe Medicines",
-   "l": "https://news.google.com/rss/articles/CBMiakFVX3lxTE45YWswR3RyMUM2MnVicU9hTzktUVVPUmJnWXpGYko3UkpxRUFIeUxQQ0ZhQlBfSzJpaFhpQzd0QkM5T2FuRHhEWFhDbTBkM1dGYkZWeURKMlBoR25BQTBMam9pRmNuQXZId2c?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "November 9, 2026: Woman’s cancer returns after taking med spa peptides Partnership for Safe Medicines",
-   "c": "Industry"
-  },
-  {
    "t": "Patients Use Google to Ask Questions About the Structure, Function, and Risks of Peptide Use in Orthopaedic Surgery.",
    "l": "https://doi.org/10.1002/ars2.70084",
    "d": "2026-11-09",
    "s": "epmc",
    "x": "Arthrosc Sports Med Rehabil · Obana KK, Weiss DL, Chen JY, Levine SB, Chen AZ, Luzzi AJ, Trofa DP.",
+   "c": "Research"
+  },
+  {
+   "t": "Role of Extracellular Actin and Its Clearance System in Immune Mechanisms of Disease Development.",
+   "l": "https://doi.org/10.3390/ijms272110049",
+   "d": "2026-11-09",
+   "s": "epmc",
+   "x": "Int J Mol Sci · Sudakov NP, Moskaleva EV, Rychkova LV, Kolesnikov SI, Semenova NV, Kolesnikova LI.",
    "c": "Research"
   },
   {
@@ -947,14 +956,6 @@ window.FEED_ART={
    "d": "2026-09-29",
    "s": "epmc",
    "x": "Diabetes Obes Metab · Amjad MM, Khan MM, Sarwar F, Ali A, Ali M, Bakhash F, Abid H, Ibrahim F, Mustafa K, Ali DE, Fayyaz MMN, Hassan H, Mian SM, Yaseen M, Qamar I, Khan AH, Ullah S, Khan BW.",
-   "c": "Research"
-  },
-  {
-   "t": "Where next for human enhancement and harm reduction? From steroids to peptides.",
-   "l": "https://doi.org/10.1111/add.70625",
-   "d": "2026-09-27",
-   "s": "epmc",
-   "x": "Addiction · Piatkowski T, Nagata JM, Nielsen S.",
    "c": "Research"
   },
   {
