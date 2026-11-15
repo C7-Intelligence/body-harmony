@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-15T06:44Z",
+ "generated": "2026-11-15T18:56Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,10 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-15T06:44Z",
-   "ok": true,
+   "checked": "2026-11-15T18:56Z",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found",
    "new": 0,
-   "seen": 1,
+   "seen": 0,
    "lastOk": "2026-11-15T06:44Z"
   },
   {
@@ -19,10 +20,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-15T06:44Z",
-   "ok": true,
+   "checked": "2026-11-15T18:56Z",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found",
    "new": 0,
-   "seen": 2,
+   "seen": 0,
    "lastOk": "2026-11-15T06:44Z"
   },
   {
@@ -31,10 +33,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T06:44Z",
-   "ok": true,
+   "checked": "2026-11-15T18:56Z",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found",
    "new": 0,
-   "seen": 3,
+   "seen": 0,
    "lastOk": "2026-11-15T06:44Z"
   },
   {
@@ -43,11 +46,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +58,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "fierce",
@@ -67,10 +70,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T06:44Z",
-   "ok": true,
-   "new": 3,
-   "seen": 3,
+   "checked": "2026-11-15T18:56Z",
+   "ok": false,
+   "error": "HTTP Error 403: Forbidden",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-15T06:44Z"
   },
   {
@@ -79,11 +83,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
    "new": 87,
-   "seen": 91,
-   "lastOk": "2026-11-15T06:44Z"
+   "seen": 90,
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "fda-recalls",
@@ -91,10 +95,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T06:44Z",
-   "ok": true,
+   "checked": "2026-11-15T18:56Z",
+   "ok": false,
+   "error": "HTTP Error 404: Not Found",
    "new": 0,
-   "seen": 1,
+   "seen": 0,
    "lastOk": "2026-11-15T06:44Z"
   },
   {
@@ -103,7 +108,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -115,11 +120,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "fr-hhs",
@@ -127,11 +132,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "doj",
@@ -139,11 +144,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "usada",
@@ -151,11 +156,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "mhra",
@@ -163,11 +168,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "gnews-state",
@@ -175,11 +180,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
-   "new": 1,
-   "seen": 9,
-   "lastOk": "2026-11-15T06:44Z"
+   "new": 0,
+   "seen": 8,
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "gnews-anab",
@@ -187,38 +192,14 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
-   "new": 0,
+   "new": 1,
    "seen": 13,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   }
  ],
  "items": [
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-11-15",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions.",
-   "c": "Industry"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/novo-amps-wegovy-marketing-dj-khaled-spinning-his-weight-loss-tale",
-   "d": "2026-11-15",
-   "s": "fierce",
-   "x": "Novo and DJ Khaled have teamed up to share how the DJ, rapper and record producer has incorporated the GLP-1 drug Wegovy into his weight-loss routine.",
-   "c": "Industry"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/lillys-foundayo-marketing-push-keeps-pace-another-celeb-spokesperson-comedian-leanne",
-   "d": "2026-11-15",
-   "s": "fierce",
-   "x": "The new celebrity partnership is the second for Lilly's oral GLP-1 Foundayo following its recent partnership with lifestyle guru Martha Stewart.",
-   "c": "Industry"
-  },
   {
    "t": "AMA pushes back on federal peptide policy as doctors warn of limited safety evidence - Medical Daily",
    "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVkJSVE9jUWM0NUNfay05U2VSLVJaQzdLVzNxRk9RazBvd1RzdDgtWWN1bkpNc0pqbVlsYXRFUVI5RFZYRXMyN0ZOVEdtVGtnNUUwMmZhSWVKZ0tLRnp1NW5CVUQ3OFBlNlJiVmRLbUwxUV9zZTlvbFdDbFhBVFhXNkdmb2RRYkh6TG1WRXh3?oc=5",
@@ -909,6 +890,14 @@ window.FEED={
    "s": "gnews-state",
    "x": "Beyond the peptide hype: Which treatments have FDA approval? deltanews.tv",
    "c": "Regulation"
+  },
+  {
+   "t": "Drug Ring Broken Up: 26 Arrested in Trento and Brescia - italien.news",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ3RFa1c3Smd0T2MtNFVrcU0wUGNIQ05kNVFaY0N0V3JuM3hfVUlRVFk3OWtKbFJJV1FIamd4Y2ZYVWZmN19jTDRvUmRWcG9jQTJyc2dpMWFOSDNJaFdTY0h0aGk2aGxJVUVlZHFjbWx6cHNGRGE2ZlU4ajc3ODE3ZkVVZDZZU3o2cEttTW1qWWU3VkJqbmZ0ckduQQ?oc=5",
+   "d": "2026-10-20",
+   "s": "gnews-anab",
+   "x": "Drug Ring Broken Up: 26 Arrested in Trento and Brescia italien.news",
+   "c": "Safety"
   },
   {
    "t": "Muhamad Aly Rifai, M.D.; Decision and Order",

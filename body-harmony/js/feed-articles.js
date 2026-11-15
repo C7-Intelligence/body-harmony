@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-15T06:44Z",
+ "generated": "2026-11-15T18:56Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
-   "new": 57,
-   "seen": 81,
-   "lastOk": "2026-11-15T06:44Z"
+   "new": 46,
+   "seen": 67,
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
-   "new": 30,
+   "new": 31,
    "seen": 45,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   },
   {
    "id": "gnews-gh",
@@ -55,11 +55,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T06:44Z",
+   "checked": "2026-11-15T18:56Z",
    "ok": true,
    "new": 0,
    "seen": 6,
-   "lastOk": "2026-11-15T06:44Z"
+   "lastOk": "2026-11-15T18:56Z"
   }
  ],
  "items": [
@@ -230,6 +230,14 @@ window.FEED_ART={
    "s": "gnews-a",
    "x": "Rogan Says Retatrutide Could Beat GLP-1 Drugs as Peptide Market Faces a Purity Test BigGo Finance",
    "c": "Industry"
+  },
+  {
+   "t": "Diclofenac in Urine Samples Deactivates the GC/C/IRMS Reactor and Compromises the Determination of δ<sup>13</sup>C Values of Steroids.",
+   "l": "https://doi.org/10.1002/dta.70179",
+   "d": "2026-11-13",
+   "s": "epmc",
+   "x": "Drug Test Anal · Mengmeng Y, Chao W, Kuan Y, Tianshuo Z, Congcong M, Zhanliang W.",
+   "c": "Research"
   },
   {
    "t": "Retatrutide shows knee osteoarthritis pain relief in trials - 디지털투데이",
@@ -589,6 +597,14 @@ window.FEED_ART={
    "c": "Research"
   },
   {
+   "t": "The Lactate-Mitokine Axis in Exercise Adaptation: Linking Glycolytic and Mitochondrial Stress Signaling.",
+   "l": "https://doi.org/10.3390/ijms27219871",
+   "d": "2026-11-04",
+   "s": "epmc",
+   "x": "Int J Mol Sci · Tero-Vescan A, Ștefănescu R, Ősz BE, Buț M, Pușcaș A, Slevin M.",
+   "c": "Research"
+  },
+  {
    "t": "Next-generation incretin therapeutics for polyendocrine metabolic ovarian syndrome: navigating current pipeline and clinical considerations.",
    "l": "https://doi.org/10.1080/14656566.2026.2760042",
    "d": "2026-11-03",
@@ -941,22 +957,6 @@ window.FEED_ART={
    "d": "2026-10-01",
    "s": "epmc",
    "x": "J Diabetes · Bloomgarden ZT, Handelsman Y."
-  },
-  {
-   "t": "Redefining intranasal brain delivery: from nasal entry to meaningful parenchymal and cellular exposure.",
-   "l": "https://doi.org/10.1080/10717544.2026.2738285",
-   "d": "2026-10-01",
-   "s": "epmc",
-   "x": "Drug Deliv · Kim Y, Yun CO, Yoon AR.",
-   "c": "Research"
-  },
-  {
-   "t": "Efficacy and Safety of Dual GLP-1/Glucagon Receptor Agonism in Overweight and Obesity: A Class-Specific Systematic Review and Meta-Analysis.",
-   "l": "https://doi.org/10.1111/dom.71400",
-   "d": "2026-09-29",
-   "s": "epmc",
-   "x": "Diabetes Obes Metab · Amjad MM, Khan MM, Sarwar F, Ali A, Ali M, Bakhash F, Abid H, Ibrahim F, Mustafa K, Ali DE, Fayyaz MMN, Hassan H, Mian SM, Yaseen M, Qamar I, Khan AH, Ullah S, Khan BW.",
-   "c": "Research"
   },
   {
    "t": "FDA PCAC peptide vote: what the 503A recommendations mean",
