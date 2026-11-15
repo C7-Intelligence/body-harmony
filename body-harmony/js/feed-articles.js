@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-14T22:35Z",
+ "generated": "2026-11-15T06:44Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
-   "new": 51,
-   "seen": 78,
-   "lastOk": "2026-11-14T22:35Z"
+   "new": 57,
+   "seen": 81,
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
    "new": 30,
    "seen": 45,
-   "lastOk": "2026-11-14T22:35Z"
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-14T22:35Z"
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-14T22:35Z"
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "gnews-gh",
@@ -55,18 +55,18 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
    "new": 0,
-   "seen": 7,
-   "lastOk": "2026-11-14T22:35Z"
+   "seen": 6,
+   "lastOk": "2026-11-15T06:44Z"
   }
  ],
  "items": [
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-14",
+   "d": "2026-11-15",
    "s": "epmc",
    "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
    "c": "Research"
@@ -74,7 +74,7 @@ window.FEED_ART={
   {
    "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
    "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-14",
+   "d": "2026-11-15",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
@@ -101,6 +101,14 @@ window.FEED_ART={
    "d": "2026-11-14",
    "s": "gnews-a",
    "x": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale Eli Lilly",
+   "c": "Industry"
+  },
+  {
+   "t": "Lilly brings Zepbound teen data and retatrutide sleep apnea and knee pain results to ObesityWeek - MLQ.ai",
+   "l": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaVZsbHZtd0VRZHdJVWhlMVFFVTVfc0hxcVlISUlpTFJJQ0prS01FeHlBUmJtMDhnNWxuRWZEeWU1R0hneGYtSW5DVWJpanJiSFc2Z1dkSnFyOVVGcGRfVFV6T0Y4cDE1ZElWLXd3eEtSM2NGMURLTXBBVG9ZUWNibTl6ZGhPYTAtUnNwa084eTVXeTBXM0ROVkpDUnoyQnU3T3pCYkRPa2VHVEtGV0pvc3pTMUptQlNi?oc=5",
+   "d": "2026-11-14",
+   "s": "gnews-a",
+   "x": "Lilly brings Zepbound teen data and retatrutide sleep apnea and knee pain results to ObesityWeek MLQ.ai",
    "c": "Industry"
   },
   {
@@ -491,14 +499,6 @@ window.FEED_ART={
    "d": "2026-11-09",
    "s": "gnews-a",
    "x": "Retatrutide ‘Significantly’ Eases Knee Pain in People With Obesity, Studies Show Yahoo News Singapore"
-  },
-  {
-   "t": "BPC-157 for Tested Athletes: What a Research Peptide Label Really Means - the5krunner",
-   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOd3p6TWxyeUVSbldDNVV4M2NualIyX3lnemhDcVdtemJNQVh5ZklvbE5GSGxMWmdzZklnQUZvUG1yZ0hMNTVabjBLa1cyZU03VktvTUhSVHNxdkx4aTFuSmd1bVNTMm9PbndOZmlpOFVGcTZGOFVDcU9BTjBEOFRkNm1HQzZCQXpQekxManNabnA1b29meGZRMm5WeTFXcVVkc3ljaENlM3U0QQ?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "BPC-157 for Tested Athletes: What a Research Peptide Label Really Means the5krunner",
-   "c": "Industry"
   },
   {
    "t": "STAT+: FDA warns GLP-1 drugs carry potential risk of rare eye condition",

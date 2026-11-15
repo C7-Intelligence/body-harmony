@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-14T22:35Z",
+ "generated": "2026-11-15T06:44Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,12 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-14T22:35Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-15T06:44Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-14T06:39Z"
+   "seen": 1,
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "fda-drugs",
@@ -20,12 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-14T22:35Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-15T06:44Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-14T06:39Z"
+   "seen": 2,
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "fda-medwatch",
@@ -33,12 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T22:35Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-15T06:44Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-14T06:39Z"
+   "seen": 3,
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "fr-fda",
@@ -46,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-14T22:35Z"
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "fr-cbp",
@@ -58,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-14T22:35Z"
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "fierce",
@@ -70,12 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T22:35Z",
-   "ok": false,
-   "error": "HTTP Error 403: Forbidden",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-14T06:39Z"
+   "checked": "2026-11-15T06:44Z",
+   "ok": true,
+   "new": 3,
+   "seen": 3,
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "gnews",
@@ -83,11 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
-   "new": 90,
-   "seen": 97,
-   "lastOk": "2026-11-14T22:35Z"
+   "new": 87,
+   "seen": 91,
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "fda-recalls",
@@ -95,12 +91,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T22:35Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-15T06:44Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-14T06:39Z"
+   "seen": 1,
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "fda-consumer",
@@ -108,7 +103,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -120,11 +115,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-14T22:35Z"
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "fr-hhs",
@@ -132,11 +127,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-14T22:35Z"
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "doj",
@@ -144,11 +139,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-14T22:35Z"
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "usada",
@@ -156,11 +151,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-14T22:35Z"
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "mhra",
@@ -168,11 +163,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-14T22:35Z"
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "gnews-state",
@@ -180,11 +175,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
-   "new": 0,
+   "new": 1,
    "seen": 9,
-   "lastOk": "2026-11-14T22:35Z"
+   "lastOk": "2026-11-15T06:44Z"
   },
   {
    "id": "gnews-anab",
@@ -192,14 +187,38 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-14T22:35Z",
+   "checked": "2026-11-15T06:44Z",
    "ok": true,
-   "new": 1,
-   "seen": 14,
-   "lastOk": "2026-11-14T22:35Z"
+   "new": 0,
+   "seen": 13,
+   "lastOk": "2026-11-15T06:44Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-11-15",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions.",
+   "c": "Industry"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/novo-amps-wegovy-marketing-dj-khaled-spinning-his-weight-loss-tale",
+   "d": "2026-11-15",
+   "s": "fierce",
+   "x": "Novo and DJ Khaled have teamed up to share how the DJ, rapper and record producer has incorporated the GLP-1 drug Wegovy into his weight-loss routine.",
+   "c": "Industry"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/lillys-foundayo-marketing-push-keeps-pace-another-celeb-spokesperson-comedian-leanne",
+   "d": "2026-11-15",
+   "s": "fierce",
+   "x": "The new celebrity partnership is the second for Lilly's oral GLP-1 Foundayo following its recent partnership with lifestyle guru Martha Stewart.",
+   "c": "Industry"
+  },
   {
    "t": "AMA pushes back on federal peptide policy as doctors warn of limited safety evidence - Medical Daily",
    "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVkJSVE9jUWM0NUNfay05U2VSLVJaQzdLVzNxRk9RazBvd1RzdDgtWWN1bkpNc0pqbVlsYXRFUVI5RFZYRXMyN0ZOVEdtVGtnNUUwMmZhSWVKZ0tLRnp1NW5CVUQ3OFBlNlJiVmRLbUwxUV9zZTlvbFdDbFhBVFhXNkdmb2RRYkh6TG1WRXh3?oc=5",
@@ -717,6 +736,14 @@ window.FEED={
    "d": "2026-10-29",
    "s": "gnews-state",
    "x": "Actor dies suddenly after injecting peptides — despite doctor’s approval New York Post",
+   "c": "Regulation"
+  },
+  {
+   "t": "Recon: FDA approves Stada’s Lucentis biosimilar; Lilly says ‘triple-G’ candidate bests Ozempic in diabetes - RAPS",
+   "l": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOcDlfZEhYbnA4ZFQwUjBzUmF5ZHlEYnZlaUIxcjlDNTRsS0I4WWRRZVVwdW9zTnBEbDVTOWNYSld6ODVRZlpaaUZqXzkwRkh5ckt5RVFETWlxcXBjcy0xQzczNVIyODJvVGZ1T3YxZ3JldmhEWExpbzFKR3JzVENUaTN1NGNHWWVzV0xQcEJ5eV9uUjBqNG5hdlN2SXc3T0xvSkI4ZEdGRUtjUHJIRFo5d2VxQnY0Nmkyc0Q0aHVIaWE3RWNOQlJrX0FaX01MV2ZJMXZv?oc=5",
+   "d": "2026-10-29",
+   "s": "gnews-state",
+   "x": "Recon: FDA approves Stada’s Lucentis biosimilar; Lilly says ‘triple-G’ candidate bests Ozempic in diabetes RAPS",
    "c": "Regulation"
   },
   {
