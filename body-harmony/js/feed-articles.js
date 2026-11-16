@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-16T06:44Z",
+ "generated": "2026-11-16T22:16Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,10 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-16T06:44Z",
-   "ok": true,
-   "new": 44,
-   "seen": 66,
+   "checked": "2026-11-16T22:16Z",
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-16T06:44Z"
   },
   {
@@ -19,11 +20,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
-   "new": 31,
+   "new": 32,
    "seen": 45,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "stat",
@@ -31,11 +32,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
-   "new": 0,
+   "new": 2,
    "seen": 2,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "bpd",
@@ -43,11 +44,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
    "new": 0,
-   "seen": 2,
-   "lastOk": "2026-11-16T06:44Z"
+   "seen": 0,
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "gnews-gh",
@@ -55,11 +56,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
-   "new": 0,
-   "seen": 6,
-   "lastOk": "2026-11-16T06:44Z"
+   "new": 1,
+   "seen": 3,
+   "lastOk": "2026-11-16T22:16Z"
   }
  ],
  "items": [
@@ -94,6 +95,30 @@ window.FEED_ART={
    "s": "gnews-a",
    "x": "ResearchedPeptides.ca Announced as #1 Retatrutide Supplier in Canada by totimes.ca Digital Journal",
    "c": "Industry"
+  },
+  {
+   "t": "STAT+: Expert warns of battleground over global access to newer GLP-1 drugs for obesity",
+   "l": "https://www.statnews.com/pharmalot/2026/11/16/semaglutide-obesity-glp1-access-medicines-low-income-countries/?utm_campaign=rss",
+   "d": "2026-11-16",
+   "s": "stat",
+   "x": "How obesity medications may become the next big battleground over access to medicines in lower-income countries.",
+   "c": "Industry"
+  },
+  {
+   "t": "STAT+: Pharmalittle: We’re reading about GLP-1 use, Covid-19 vaccine investment returns, and more",
+   "l": "https://www.statnews.com/pharmalot/2026/11/16/glp1-use-covid-19-vaccines-return-on-investment/?utm_campaign=rss",
+   "d": "2026-11-16",
+   "s": "stat",
+   "x": "During July and August 2025, approximately 1 in 10 U.S. adults reported taking a GLP-1 medication during the previous year",
+   "c": "Industry"
+  },
+  {
+   "t": "Soft Movable Nanosystems for Synergistic Intervention of Hepatic Injury Induced by Severe Burns Plus Delayed Resuscitation.",
+   "l": "https://doi.org/10.1002/adhm.71936",
+   "d": "2026-11-15",
+   "s": "epmc",
+   "x": "Adv Healthc Mater · Wu Y, Guo J, Qi Q, Liang Z, Wang H, Tao J, Wang R, Wang L.",
+   "c": "Research"
   },
   {
    "t": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale - PR Newswire",
@@ -322,6 +347,14 @@ window.FEED_ART={
   {
    "t": "Serotonin Anti-Aging Centers Founder Puts a Physician-Led Longevity Clinic Inside New York Sports Club - The Manila Times",
    "l": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNYUNJdTVfUEhpV3ZKdldkWDFGdlM2UTM2QUhfcWh0Si1lZEZvUlctNksteU8xdGxMTkRQZEZOMEFvb3hvQ3hmZy1RazNCX1FWYkdBN1ZNeXJoM3RPNVFwSDF5ekZzVl9vckxEeGF0bkRjd055TDVWWkxDMXYzU0VTMU8xejZaNHJUMk4yRXlDeVBCMDdkM0VkMlhPZVphdThsZVhndGRrV3gtLXlpMnNNVTlWSkZlaUFNNGFqWmhnX1VobDFnbDdnV2ZuQ2tIcEVZWFNNLXFBNnAwOF9sNGdHRHA5a25yRHNNNWFEWWtRdW5FeUFmQlRyb3pQYjl1TVJ0YWJfUmxRX3NXNHN00gGMAkFVX3lxTE1hQ0l1NV9QSGlXdkp2V2RYMUZ2UzZRMzZBSF9xaHRKLWVkRm9SVy02Sy15TzF0bExORFBkRk4wQW9veG9DeGZnLVFrM0JfUVZiR0E3Vk15cmgzdE81UXBIMXl6RnNWX29yTER4YXRuRGN3TnlMNVZaTEMxdjNTRVMxTzF6Nlo0clQyTjJFeUN5UEIwN2QzRWQyWE9lWmF1OGxlWGd0ZGtXeC0teWkyc01VOVZKRmVpQU00YWpaaGdfVWhsMWdsN2dXZm5Da0hwRVlYU00tcUE2cDA4X2w0Z0dEcDlrbnJEc001YURZa1F1bkV5QWZCVHJvelBiOXVNUnRhYl9SbFFfc1c0c3Q?oc=5",
+   "d": "2026-11-12",
+   "s": "gnews-gh",
+   "x": "Serotonin Anti-Aging Centers Founder Puts a Physician-Led Longevity Clinic Inside New York Sports Club The Manila Times",
+   "c": "Industry"
+  },
+  {
+   "t": "Serotonin Anti-Aging Centers Founder Puts a Physician-Led Longevity Clinic Inside New York Sports Club - The Manila Times",
+   "l": "https://news.google.com/rss/articles/CBMihwJBVV95cUxPckhKVWhpMXlpNEhvS2RwcXYtVDQ4S3U5Qi1oMWY1WXRCMmhkNkRvSnpNZnB4UnJIX3dscFFpNFBlMHhnOG9Vb3RHTU5UQUNkYnFyd0JTQy01bHdVdnZ0M1l3Zm0xeXBxSTJBeUdoOVMtSDJyMUlfa2tCN2xpbXJPUUVGT3ZVX2Z1UWFFdU1XYVdNTGhqWWZpYjZZZDA4V0VPRHBMOVpEVWJFZFVFNm1Takduek1NV2RWZFNSQ3pSd2czcENWUklqR0Rua0lUcHh3M2gyQ0h3cjg2RUZzb3g4UzgzZ2s2bEh3amJ1VVJxUEdUNEE2cEdvbG04djEzUjhUM3YtZnVfRdIBjAJBVV95cUxNYUNJdTVfUEhpV3ZKdldkWDFGdlM2UTM2QUhfcWh0Si1lZEZvUlctNksteU8xdGxMTkRQZEZOMEFvb3hvQ3hmZy1RazNCX1FWYkdBN1ZNeXJoM3RPNVFwSDF5ekZzVl9vckxEeGF0bkRjd055TDVWWkxDMXYzU0VTMU8xejZaNHJUMk4yRXlDeVBCMDdkM0VkMlhPZVphdThsZVhndGRrV3gtLXlpMnNNVTlWSkZlaUFNNGFqWmhnX1VobDFnbDdnV2ZuQ2tIcEVZWFNNLXFBNnAwOF9sNGdHRHA5a25yRHNNNWFEWWtRdW5FeUFmQlRyb3pQYjl1TVJ0YWJfUmxRX3NXNHN0?oc=5",
    "d": "2026-11-12",
    "s": "gnews-gh",
    "x": "Serotonin Anti-Aging Centers Founder Puts a Physician-Led Longevity Clinic Inside New York Sports Club The Manila Times",
@@ -952,13 +985,6 @@ window.FEED_ART={
    "d": "2026-10-01",
    "s": "epmc",
    "x": "JAMA Netw Open · Sehgal NKR, Tronieri JS, Rader B, Ungar L, Guntuku SC."
-  },
-  {
-   "t": "Kidney Protection, Obesity Treatment, and Multiorgan Biology: When More Therapy Is-And Is Not-Better.",
-   "l": "https://doi.org/10.1111/1753-0407.70284",
-   "d": "2026-10-01",
-   "s": "epmc",
-   "x": "J Diabetes · Bloomgarden ZT, Handelsman Y."
   },
   {
    "t": "FDA PCAC peptide vote: what the 503A recommendations mean",

@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-16T06:44Z",
+ "generated": "2026-11-16T22:16Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
-   "new": 0,
-   "seen": 2,
-   "lastOk": "2026-11-16T06:44Z"
+   "new": 2,
+   "seen": 3,
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "fierce",
@@ -67,7 +67,7 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": false,
    "error": "HTTP Error 403: Forbidden",
    "new": 0,
@@ -80,10 +80,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-16T06:44Z",
-   "ok": true,
-   "new": 90,
-   "seen": 98,
+   "checked": "2026-11-16T22:16Z",
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-16T06:44Z"
   },
   {
@@ -92,11 +93,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "fda-consumer",
@@ -104,7 +105,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -116,11 +117,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "fr-hhs",
@@ -128,11 +129,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "doj",
@@ -140,11 +141,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "usada",
@@ -152,11 +153,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "mhra",
@@ -164,11 +165,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-16T06:44Z"
+   "lastOk": "2026-11-16T22:16Z"
   },
   {
    "id": "gnews-state",
@@ -176,10 +177,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-16T06:44Z",
-   "ok": true,
+   "checked": "2026-11-16T22:16Z",
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests",
    "new": 0,
-   "seen": 8,
+   "seen": 0,
    "lastOk": "2026-11-16T06:44Z"
   },
   {
@@ -188,14 +190,46 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-16T06:44Z",
+   "checked": "2026-11-16T22:16Z",
    "ok": true,
-   "new": 0,
-   "seen": 13,
-   "lastOk": "2026-11-16T06:44Z"
+   "new": 1,
+   "seen": 14,
+   "lastOk": "2026-11-16T22:16Z"
   }
  ],
  "items": [
+  {
+   "t": "What's New Related to Drugs",
+   "l": "http://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
+   "d": "2026-11-16",
+   "s": "fda-drugs",
+   "x": "Want to know what's new on drugs from FDA? This page provides quick links to the latest on a variety of topics including: drug approvals, safety warnings, drug shortages, etc.",
+   "c": "Regulation"
+  },
+  {
+   "t": "Island Kinetics, Inc. d.b.a. CoValence Laboratories - 726379 - 07/16/2026",
+   "l": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/island-kinetics-inc-dba-covalence-laboratories-726379-07162026",
+   "d": "2026-11-16",
+   "s": "fda-drugs",
+   "x": "CGMP/Finished Pharmaceuticals/Unapproved New Drug/Misbranded/Adulterated/OTC",
+   "c": "Regulation"
+  },
+  {
+   "t": "Rohto Pharmaceutical Co., Ltd. - 733215 - 10/14/2026",
+   "l": "http://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/warning-letters/rohto-pharmaceutical-co-ltd-733215-10142026",
+   "d": "2026-11-16",
+   "s": "fda-drugs",
+   "x": "CGMP/Finished Pharmaceuticals/Unapproved New Drug/Misbranded/Adulterated/OTC",
+   "c": "Regulation"
+  },
+  {
+   "t": "Pyrros Dimas’ Brother Odysseas Faces Magistrate Over 871 Seized Preparations - Greek City Times",
+   "l": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUzI2TnJGbEdzUWRNMThFSENlRkhIa25lYnlYWEhlVEpzVlJJQnozWGZ3T09EbTV3TVZDQUNEUlAzV01lY21haDNxTXRNYno4cHVwa1FtWmpTVE1neTJKSkw1R3JPd1h0LWFLTGVQQzBJM21jYmVNZENLSTUwc0J3VTJ6UWtvT2F2Sjl2VHF2R1FVUQ?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-anab",
+   "x": "Pyrros Dimas’ Brother Odysseas Faces Magistrate Over 871 Seized Preparations Greek City Times",
+   "c": "Safety"
+  },
   {
    "t": "AMA pushes back on federal peptide policy as doctors warn of limited safety evidence - Medical Daily",
    "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVkJSVE9jUWM0NUNfay05U2VSLVJaQzdLVzNxRk9RazBvd1RzdDgtWWN1bkpNc0pqbVlsYXRFUVI5RFZYRXMyN0ZOVEdtVGtnNUUwMmZhSWVKZ0tLRnp1NW5CVUQ3OFBlNlJiVmRLbUwxUV9zZTlvbFdDbFhBVFhXNkdmb2RRYkh6TG1WRXh3?oc=5",
@@ -203,14 +237,6 @@ window.FEED={
    "s": "gnews",
    "x": "AMA pushes back on federal peptide policy as doctors warn of limited safety evidence Medical Daily",
    "c": "Industry"
-  },
-  {
-   "t": "What's New Related to Drugs",
-   "l": "http://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
-   "d": "2026-11-13",
-   "s": "fda-drugs",
-   "x": "Want to know what's new on drugs from FDA? This page provides quick links to the latest on a variety of topics including: drug approvals, safety warnings, drug shortages, etc.",
-   "c": "Regulation"
   },
   {
    "t": "Coronavirus Aid, Relief, and Economic Security Act (CARES Act) Drug Shortage Mitigation Efforts",
