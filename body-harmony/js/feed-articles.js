@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-15T18:56Z",
+ "generated": "2026-11-16T06:44Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
-   "new": 46,
-   "seen": 67,
-   "lastOk": "2026-11-15T18:56Z"
+   "new": 44,
+   "seen": 66,
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 31,
    "seen": 45,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "gnews-gh",
@@ -55,18 +55,18 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 6,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   }
  ],
  "items": [
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-15",
+   "d": "2026-11-16",
    "s": "epmc",
    "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
    "c": "Research"
@@ -74,10 +74,26 @@ window.FEED_ART={
   {
    "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
    "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-15",
+   "d": "2026-11-16",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
+  },
+  {
+   "t": "Top 9 Retatrutide OEM Service Companies 2026: Custom Manufacturing and Quality Review Priorities - The National Law Review",
+   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMVRSaFZsemFtN3VHMlktQ1BUR0NrTEZUM3JLM0QzYVo4bjNOTFgzNnVJMzczUkdMWTgybV80S05ER1RVZGJ2SjE3UlgtWGZTS1QxN281a0xlNi1wOWhjS3R2bDdEYVM4RFhLTTF1TEFCanpnT3VXbmhqY1NqclNzMm9VNmZfUmZWYjRWZnJ3TF9Gd1VQbnFYOTV4ZnoxVklpMmZQaXduZU9hUUNPVEE?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-a",
+   "x": "Top 9 Retatrutide OEM Service Companies 2026: Custom Manufacturing and Quality Review Priorities The National Law Review",
+   "c": "Industry"
+  },
+  {
+   "t": "ResearchedPeptides.ca Announced as #1 Retatrutide Supplier in Canada by totimes.ca - Digital Journal",
+   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQczBNV09FOTJhX29nMnpoMHZfekFmRUYzSnZxS3B0YWpxZTczRFhDZUpoR1ZxVF9Gdks5MDREYnhnNnNfVzVzVWhGd3BUdExZUTc4TzBLbXlQdjNuVW1CUWE0dEhtdlFtNVQwTFRFUWxoZl8zY1c3cGFweGFpR1lYaDFHQ3BlOFRaLV9lVnc5ZzZMaWFHR2pac2ptMEpfNXczMXpKOFRlaC0xYVZhYWg5aDhncHpCUjlFeUc4NU5iUlc?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-a",
+   "x": "ResearchedPeptides.ca Announced as #1 Retatrutide Supplier in Canada by totimes.ca Digital Journal",
+   "c": "Industry"
   },
   {
    "t": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale - PR Newswire",
@@ -144,11 +160,11 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy - LehighValleyLive.com",
+   "t": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy - Lehighvalleylive.com",
    "l": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQW1hT090cjBNNkpaeVNsQjhaQ0FIeWp2NTlMbnF5UTBlc3puc0diMGwwVFhlcWpfOFU3SVN4eHUtQVdJUEdHZkFwOEhmTEI1aFZja3FISWZoTUE3NW9OeElKYUMzdTZkbDlNYl9sNXctb1dleUpOLS1KWVpRWEdXYWo3bmktZXpCWUJ0UUJFS0Jib2ZtODRvNDViZXFyMnVid1pLbF9wbWJDUVdBMG1Zc1pQeFMtcC1FcXpRQzVYTGFhZW8?oc=5",
    "d": "2026-11-13",
    "s": "gnews-a",
-   "x": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy LehighValleyLive.com",
+   "x": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy Lehighvalleylive.com",
    "c": "Industry"
   },
   {
@@ -238,6 +254,14 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Drug Test Anal · Mengmeng Y, Chao W, Kuan Y, Tianshuo Z, Congcong M, Zhanliang W.",
    "c": "Research"
+  },
+  {
+   "t": "Follicular Frontiers: Research Peptides and Their Expanding Role in Hair Science - Daily Bruin",
+   "l": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcXBaVDBxMzU3UDJNckVoZ3U1YTlFZzNVMUsxRVNDeEJVZnUwX3NWV1Y5TzNWb3dPQ3dTdHNDcHBCWldLTHN4ZkxDSFFoOE4tUkVsTVB0YXdlQ2ZOTGR1UDdZU3FLVS1sY2xFMC1ZZ1AxZDBCSG1ZQzdvaEczMVdJb1N2c2duNWRrSlJUdV84dWtjekJXcVhkM0hLU05zeXVTVDRmbFJLRjdHRms?oc=5",
+   "d": "2026-11-13",
+   "s": "gnews-a",
+   "x": "Follicular Frontiers: Research Peptides and Their Expanding Role in Hair Science Daily Bruin",
+   "c": "Industry"
   },
   {
    "t": "Retatrutide shows knee osteoarthritis pain relief in trials - 디지털투데이",
@@ -485,28 +509,6 @@ window.FEED_ART={
    "s": "gnews-a",
    "x": "Triple-Action Obesity Drug Retatrutide Shows 21.9% Weight Loss and Blood Sugar Benefits in Phase 3 Trial 헬스조선",
    "c": "Industry"
-  },
-  {
-   "t": "Weekly Retatrutide Reduces Knee Osteoarthritis Pain and Weight - Medical Professionals Reference",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZGxDdmZzU3FodC1CVDhqME9wNVdRX0NfWXdITi1UZFZ2X19Ga08yOWNuUmR1MVlTQXVtams5ZzdxOHJOdjAzbkhVY3hycEJ3ODBUNVdKLTFGVGpyZnNmMDNmVnJfa2xPenQ2UDAxTnBmSjZwcGlDYnNJbXpqNnlIRzZWVFN2OWZzaUE?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "Weekly Retatrutide Reduces Knee Osteoarthritis Pain and Weight Medical Professionals Reference"
-  },
-  {
-   "t": "Retatrutide Improves Knee OA Pain, Physical Function - Medscape",
-   "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPd3p1emJDT0JCUkc1VHNmc2duNnN5bFJmTnpZS0pIYVRVREl5aHA5MlNUUm11UE9lUHR0MDZYaU5OdEVUUGI5M1VWRERoYTktNkFOd3Y1ZGN3OXJjMF9INEJmTGd4a2Z1dWlnMnFzOVRpdXlIbVhMZjBiajM3RThTWjJQQUU1M3VPUTJ1WmRpRXNnVHZZMXZfRXRZelpBdFdQU0ljbUowWmo?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "Retatrutide Improves Knee OA Pain, Physical Function Medscape",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide ‘Significantly’ Eases Knee Pain in People With Obesity, Studies Show - Yahoo News Singapore",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdUQ1aVFmeXotZHE0WHA5WVhQbkR1VVJ0RFZ2Q19CWjE3Tk1xT19IUTFLRk1sN1VhRDZaUFRhbzI0ek9aWDlJNTFja0lpdjNzU05teTJOR0JGWFJZRXNya01FdTJUNDlWQmF5NDR1VzFIV0hGWkVoOUhwRFY2dDZFb01Sck00YThaYWc?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "Retatrutide ‘Significantly’ Eases Knee Pain in People With Obesity, Studies Show Yahoo News Singapore"
   },
   {
    "t": "STAT+: FDA warns GLP-1 drugs carry potential risk of rare eye condition",

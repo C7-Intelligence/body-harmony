@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-15T18:56Z",
+ "generated": "2026-11-16T06:44Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,12 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-15T18:56Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-16T06:44Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-15T06:44Z"
+   "seen": 1,
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "fda-drugs",
@@ -20,12 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-15T18:56Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-16T06:44Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-15T06:44Z"
+   "seen": 2,
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "fda-medwatch",
@@ -33,12 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T18:56Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-16T06:44Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-15T06:44Z"
+   "seen": 3,
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "fr-fda",
@@ -46,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "fr-cbp",
@@ -58,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "fierce",
@@ -70,7 +67,7 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": false,
    "error": "HTTP Error 403: Forbidden",
    "new": 0,
@@ -83,11 +80,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
-   "new": 87,
-   "seen": 90,
-   "lastOk": "2026-11-15T18:56Z"
+   "new": 90,
+   "seen": 98,
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "fda-recalls",
@@ -95,12 +92,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T18:56Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-16T06:44Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-15T06:44Z"
+   "seen": 1,
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "fda-consumer",
@@ -108,7 +104,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -120,11 +116,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "fr-hhs",
@@ -132,11 +128,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "doj",
@@ -144,11 +140,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "usada",
@@ -156,11 +152,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "mhra",
@@ -168,11 +164,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "gnews-state",
@@ -180,11 +176,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
    "new": 0,
    "seen": 8,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   },
   {
    "id": "gnews-anab",
@@ -192,11 +188,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-15T18:56Z",
+   "checked": "2026-11-16T06:44Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 13,
-   "lastOk": "2026-11-15T18:56Z"
+   "lastOk": "2026-11-16T06:44Z"
   }
  ],
  "items": [
@@ -394,7 +390,7 @@ window.FEED={
   {
    "t": "RFK Jr.’s HHS Is Allowing These 6 Unapproved Peptides To Be Sold - Forbes",
    "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZ3JSaERMQUJOOEN2UTlOQVJLVFVSU25PZS1fQXdoc2tNaFRxRFpmeThwMy1iMFVuQzR4aWo4RE1VT0JCMnA1NUlYZG01WDVjM2plQ3g0Q082YzJYVUhuRTFZMlVvY1ZsejhYOW84N2MyRGZsQktEekhqeWJiV2wwdG9VR09uQTJhRW1hdzljTnpSbHBDNUMyc0M5Nm9UV2t0cFdFWVZLWFJvTzZEX19YNTNYekhtZFE?oc=5",
-   "d": "2026-11-08",
+   "d": "2026-11-07",
    "s": "gnews",
    "x": "RFK Jr.’s HHS Is Allowing These 6 Unapproved Peptides To Be Sold Forbes",
    "c": "Industry"
