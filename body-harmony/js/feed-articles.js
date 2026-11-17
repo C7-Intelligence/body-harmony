@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-16T22:16Z",
+ "generated": "2026-11-17T08:03Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,7 +7,7 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-16T22:16Z",
+   "checked": "2026-11-17T08:03Z",
    "ok": false,
    "error": "HTTP Error 429: Too Many Requests",
    "new": 0,
@@ -20,10 +20,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-16T22:16Z",
-   "ok": true,
-   "new": 32,
-   "seen": 45,
+   "checked": "2026-11-17T08:03Z",
+   "ok": false,
+   "error": "HTTP Error 503: ",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-16T22:16Z"
   },
   {
@@ -32,11 +33,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-16T22:16Z",
+   "checked": "2026-11-17T08:03Z",
    "ok": true,
-   "new": 2,
+   "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-16T22:16Z"
+   "lastOk": "2026-11-17T08:03Z"
   },
   {
    "id": "bpd",
@@ -44,11 +45,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-16T22:16Z",
+   "checked": "2026-11-17T08:03Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-16T22:16Z"
+   "lastOk": "2026-11-17T08:03Z"
   },
   {
    "id": "gnews-gh",
@@ -56,11 +57,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-16T22:16Z",
+   "checked": "2026-11-17T08:03Z",
    "ok": true,
    "new": 1,
-   "seen": 3,
-   "lastOk": "2026-11-16T22:16Z"
+   "seen": 4,
+   "lastOk": "2026-11-17T08:03Z"
   }
  ],
  "items": [
@@ -110,6 +111,14 @@ window.FEED_ART={
    "d": "2026-11-16",
    "s": "stat",
    "x": "During July and August 2025, approximately 1 in 10 U.S. adults reported taking a GLP-1 medication during the previous year",
+   "c": "Industry"
+  },
+  {
+   "t": "Specialty Care Linked to Greater Migraine Therapy Progression in US Veterans - Bioengineer.org",
+   "l": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOX1NNMzZQR0RWcXZVdHQzTXZCR1BZWk83QjVSeHI5R0J3eENvMlRvVktkb1plaHI3YXVnY0t4WXpkSmdHNnNrcjVLNEphVUdHX0l6b1M0OXY4Mkhuai16cWlyYWJIdE45RTJNUHZkcGQta1hKOEtnWlJUaXI5QmM0UnpUSmtlaTFuZWtBRlplczBuMGxPNUhPM2ZmRUxKdUxsTVJj?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-gh",
+   "x": "Specialty Care Linked to Greater Migraine Therapy Progression in US Veterans Bioengineer.org",
    "c": "Industry"
   },
   {
