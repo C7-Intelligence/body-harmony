@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-17T08:03Z",
+ "generated": "2026-11-17T21:01Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 0,
-   "seen": 3,
-   "lastOk": "2026-11-17T08:03Z"
+   "seen": 2,
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "fierce",
@@ -67,11 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 2,
    "seen": 2,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "gnews",
@@ -79,7 +79,7 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": false,
    "error": "HTTP Error 429: Too Many Requests",
    "new": 0,
@@ -92,11 +92,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "fda-consumer",
@@ -104,7 +104,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -116,11 +116,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "fr-hhs",
@@ -128,11 +128,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "doj",
@@ -140,11 +140,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "usada",
@@ -152,11 +152,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "mhra",
@@ -164,11 +164,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "gnews-state",
@@ -176,10 +176,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-17T08:03Z",
-   "ok": true,
+   "checked": "2026-11-17T21:01Z",
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests",
    "new": 0,
-   "seen": 8,
+   "seen": 0,
    "lastOk": "2026-11-17T08:03Z"
   },
   {
@@ -188,7 +189,7 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": false,
    "error": "HTTP Error 429: Too Many Requests",
    "new": 0,
@@ -197,22 +198,6 @@ window.FEED={
   }
  ],
  "items": [
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
-   "d": "2026-11-17",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions.",
-   "c": "Industry"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/novo-amps-wegovy-marketing-dj-khaled-spinning-his-weight-loss-tale",
-   "d": "2026-11-17",
-   "s": "fierce",
-   "x": "Novo and DJ Khaled have teamed up to share how the DJ, rapper and record producer has incorporated the GLP-1 drug Wegovy into his weight-loss routine.",
-   "c": "Industry"
-  },
   {
    "t": "Rulemaking To Provide That N-acetyl-L-cysteine Is Not Excluded From the Dietary Supplement Definition",
    "l": "https://www.federalregister.gov/documents/2026/11/17/2026-23351/rulemaking-to-provide-that-n-acetyl-l-cysteine-is-not-excluded-from-the-dietary-supplement",
@@ -224,10 +209,34 @@ window.FEED={
   {
    "t": "What's New Related to Drugs",
    "l": "http://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
-   "d": "2026-11-16",
+   "d": "2026-11-17",
    "s": "fda-drugs",
    "x": "Want to know what's new on drugs from FDA? This page provides quick links to the latest on a variety of topics including: drug approvals, safety warnings, drug shortages, etc.",
    "c": "Regulation"
+  },
+  {
+   "t": "Registered Outsourcing Facilities",
+   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+   "d": "2026-11-17",
+   "s": "fda-drugs",
+   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…",
+   "c": "Regulation"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/manufacturing/usv-private-hit-fda-warning-letter-potential-contamination-issues",
+   "d": "2026-11-17",
+   "s": "fierce",
+   "x": "Indian drug manufacturer USV was hit with a warning letter from the FDA that outlined three major violations. The observations largely centered on a lack of procedures that could lead to microbial and particulate contamination.",
+   "c": "Industry"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-11-17",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions.",
+   "c": "Industry"
   },
   {
    "t": "Island Kinetics, Inc. d.b.a. CoValence Laboratories - 726379 - 07/16/2026",
@@ -514,13 +523,6 @@ window.FEED={
    "s": "fr-fda",
    "x": "The Food and Drug Administration (FDA or we) proposes to amend the regulations on nutrient specifications and labeling for infant formula as part of its phased, comprehensive review of infant formula nutrients. This action, if finalized, would amend the minimum and/or maximum…",
    "c": "Regulation"
-  },
-  {
-   "t": "Registered Outsourcing Facilities",
-   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
-   "d": "2026-11-02",
-   "s": "fda-drugs",
-   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…"
   },
   {
    "t": "Compounding Peptides: What Compounding Pharmacies Need to Know About the HHS Interim Enforcement Discretion Policy for Six Peptides - Buchanan Ingersoll & Rooney PC",

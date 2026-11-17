@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-17T08:03Z",
+ "generated": "2026-11-17T21:01Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,12 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-17T08:03Z",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-16T06:44Z"
+   "checked": "2026-11-17T21:01Z",
+   "ok": true,
+   "new": 45,
+   "seen": 68,
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "epmc",
@@ -20,12 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-17T08:03Z",
-   "ok": false,
-   "error": "HTTP Error 503: ",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-16T22:16Z"
+   "checked": "2026-11-17T21:01Z",
+   "ok": true,
+   "new": 32,
+   "seen": 45,
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "stat",
@@ -33,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 0,
-   "seen": 2,
-   "lastOk": "2026-11-17T08:03Z"
+   "seen": 1,
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "bpd",
@@ -45,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-17T08:03Z"
+   "lastOk": "2026-11-17T21:01Z"
   },
   {
    "id": "gnews-gh",
@@ -57,18 +55,18 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-17T08:03Z",
+   "checked": "2026-11-17T21:01Z",
    "ok": true,
    "new": 1,
-   "seen": 4,
-   "lastOk": "2026-11-17T08:03Z"
+   "seen": 5,
+   "lastOk": "2026-11-17T21:01Z"
   }
  ],
  "items": [
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-16",
+   "d": "2026-11-17",
    "s": "epmc",
    "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
    "c": "Research"
@@ -76,10 +74,50 @@ window.FEED_ART={
   {
    "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
    "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-16",
+   "d": "2026-11-17",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
+  },
+  {
+   "t": "Investigational retatrutide reduced knee osteoarthritis pain and body weight versus placebo in adults with obesity - 2 Minute Medicine",
+   "l": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQUxQb254MjBrNV9jUlFGcTd2NTNPZ0VKb2Z5RUJ4NVVubmRMLTZZWlRDVDJfUnRXMF92UkJoREZtSndOUDV1N19XMW03amlPM0NxRzQzdFhKbXJvRnRlb0d3ZHlYbkJqMXdmUVZIY3Vvb3czbnR2N1RoZGpxdGt3a3o1N0dhdUZGbEpEcWlHZ3hhYUhvY2tsRDNSaXU1N2pkSkswU3Jxdno5dkdiM2xaNWIwckstcnlTeWR0djZwdnVDY0pjTjk0R0pFcXE0WnJVZkxfUkFJSEs2dE5LZzRPcA?oc=5",
+   "d": "2026-11-17",
+   "s": "gnews-a",
+   "x": "Investigational retatrutide reduced knee osteoarthritis pain and body weight versus placebo in adults with obesity 2 Minute Medicine",
+   "c": "Industry"
+  },
+  {
+   "t": "Unapproved Retatrutide: What Researchers Found in Social Media Posts - The Well News",
+   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONUdmaXpvZDFGNGExN3V2X1ZyZlVyWXByc3hGckt0Q0xYN2s4cUFBVngtWWNMcTY0WmtKTFFESWJ0SXlKbmswOVRyZnJMOVNoZ3JqLXNoQkRaTVg2Y1lYZ0NueGdXXzhCd1pzSGRMYlhraHJqZUxiX0lVU0VWOEdlbzBuUWx4WlhkeldFajlVSUtUR1hZWkpnTFRoQnVJQmhobGt2X0xB?oc=5",
+   "d": "2026-11-17",
+   "s": "gnews-a",
+   "x": "Unapproved Retatrutide: What Researchers Found in Social Media Posts The Well News",
+   "c": "Industry"
+  },
+  {
+   "t": "Retatrutide Cut Sleep Apnea Breathing Events Up to 60.6% in Lilly Trial, but the Weekly Shot Remains Unapproved - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Ga2ZNQ1lwYW9tZi1FMHNvUkhwTC11VHY0eTlxUV82eDYzc0RaMWttcTB6MWJ3T05HdkVTN05FT2psMVhjc0QzaFBBdWQyZHlZU3B4YnpiNE9pc2hrNktUelI2d2g3WjZXTXVIcjZYNzZ5MzNLMktHQ0FVRlQwZw?oc=5",
+   "d": "2026-11-17",
+   "s": "gnews-a",
+   "x": "Retatrutide Cut Sleep Apnea Breathing Events Up to 60.6% in Lilly Trial, but the Weekly Shot Remains Unapproved Medical Daily",
+   "c": "Industry"
+  },
+  {
+   "t": "Dong-A ST says DA-1726 shows greater blood sugar reduction and comparable weight loss to retatrutide - 머니투데이",
+   "l": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWRDEyWG5uTXpkejlLVF9CZDVDSmF0UUt0ZE5rS29TU2NfcTctTzJOY1Bvdk5SRDNWTFh6bktic3YzUUpTVHA4YkNvQWU4YWVFbXlDLTJYNkNIQjlMaFFFckh0UzZBeDdfX0FCdUl3?oc=5",
+   "d": "2026-11-17",
+   "s": "gnews-a",
+   "x": "Dong-A ST says DA-1726 shows greater blood sugar reduction and comparable weight loss to retatrutide 머니투데이",
+   "c": "Industry"
+  },
+  {
+   "t": "Celebrating 10 years of helping men and women take control of their health - News4JAX",
+   "l": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUJUUW5aeUd6S3AwNXl3cTdSTkxpZF9ZX29tREsyTy0zNFdEU0VrVWJzMmMtOFRqWHEtQzdHQ2tubkFaaVhRYWdIbDVJWS02RURzbEhlUTQxazkwSTFZYlJ6QnRyOV9pRGVBTThyck9Ja1B2d1VPSk16UjU0T1V1c204VEVXLTNweXZkUHNaSFJlUm1pX19qZG5qXzNRMS1xeUl1U2w5RnJWcnYzdjZPRi1jRmJfWGFoVzBHRDhSX19tVnlTbVE?oc=5",
+   "d": "2026-11-17",
+   "s": "gnews-gh",
+   "x": "Celebrating 10 years of helping men and women take control of their health News4JAX",
+   "c": "Industry"
   },
   {
    "t": "Top 9 Retatrutide OEM Service Companies 2026: Custom Manufacturing and Quality Review Priorities - The National Law Review",
@@ -98,7 +136,7 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "STAT+: Expert warns of battleground over global access to newer GLP-1 drugs for obesity",
+   "t": "STAT+: Newer GLP-1 drugs to combat obesity may be the next global battleground over access to medicines, expert warns",
    "l": "https://www.statnews.com/pharmalot/2026/11/16/semaglutide-obesity-glp1-access-medicines-low-income-countries/?utm_campaign=rss",
    "d": "2026-11-16",
    "s": "stat",
@@ -122,12 +160,36 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "Are peptides legal now? What the new HHS policy really means - Rio Grande Guardian",
+   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQYVNtbklVWUpfMXpKQUJBbk5RUExHMW1qaGljeFQ1NVpQZnBkNmxqOGF2NDNIMXlTY25Jbjl0YWFuSmxZTnM4TmFpTmFZSnVXVl8yREI0LTBmbUFPSXlqTGw4RGxISnhZQmJCM1hnSXdqc3ZHSHloRDhadmdHdHhmZzFfVVdBSzZScGRwVURPaFJxdTR4LXpFcGg3Q1lpeUE0WllXYTVJejBiODNIQm9rcmR6dnpoa2h2YzFn?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-gh",
+   "x": "Are peptides legal now? What the new HHS policy really means Rio Grande Guardian",
+   "c": "Industry"
+  },
+  {
+   "t": "Analytical strategies for distinguishing endogenous and exogenous anabolic androgenic steroids in doping control.",
+   "l": "https://doi.org/10.1039/d6ay01634k",
+   "d": "2026-11-16",
+   "s": "epmc",
+   "x": "Anal Methods · Li J, Zheng Y, Luo L.",
+   "c": "Research"
+  },
+  {
    "t": "Soft Movable Nanosystems for Synergistic Intervention of Hepatic Injury Induced by Severe Burns Plus Delayed Resuscitation.",
    "l": "https://doi.org/10.1002/adhm.71936",
    "d": "2026-11-15",
    "s": "epmc",
    "x": "Adv Healthc Mater · Wu Y, Guo J, Qi Q, Liang Z, Wang H, Tao J, Wang R, Wang L.",
    "c": "Research"
+  },
+  {
+   "t": "I had two doses of black market peptides, now I can't eat protein: Sydney woman tells how she had life-changing reaction and suffered 'worst pain of her life' - Daily Mail",
+   "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUGtLQVVtYkF6MFV5MEc1NmhQcWc0dVNHOWl0amt5c285UFg5dmRtOGlHeTFDRXpaWkliTU1JRHRYQUNmVThUWkF5UFpkdVR4Y0k0RVdRaXd5Yk1sRktUczBfRGc0Wkk3TGREa1BKYnZrTzVrdDliX3ZXZHd2OHFqdzJoZ0Vmb0pTNXZPQWlUR01Kb3N6akRiN3JB0gGfAUFVX3lxTE5Jb2NmMzNnVDBwLWlSVUREWUxoMXY4WjJtVUlSRmZaUnlmN1F5eVk0WTduenF2bWVFRW9Wck9JQlZXcEVmNW04dWZBcjd1TzlLbWxXQXUyaS1RejBGS0RaMXpDUG80TVJMQmpsUUJoWVdpaElYOE1QT3VGQmtIaTVnLVVTRC1RQ3NLRERVcXZaRXlVYWp6NldnU216bzJYaw?oc=5",
+   "d": "2026-11-15",
+   "s": "gnews-a",
+   "x": "I had two doses of black market peptides, now I can't eat protein: Sydney woman tells how she had life-changing reaction and suffered 'worst pain of her life' Daily Mail",
+   "c": "Industry"
   },
   {
    "t": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale - PR Newswire",
@@ -162,6 +224,14 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "Retatrutide vs Semaglutide: What 80-Week Results Show - Diabetes In Control",
+   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVnhRVUVTWlk2Nm80azByNE9CTFMtdEpic3Z4VnVGdkMyeUI0QlBTS21aY1ZuR1RIRC1jX0JYd2FucGdydTR3TkZxa1RDYzBsdlZ5TVRDcmgzNU9rM25wZU13U3FHQ2NDSmtScnpHQkREbDdseXczbFpyREx2bEowRDNHV2YtNEhNM245Wg?oc=5",
+   "d": "2026-11-14",
+   "s": "gnews-a",
+   "x": "Retatrutide vs Semaglutide: What 80-Week Results Show Diabetes In Control",
+   "c": "Industry"
+  },
+  {
    "t": "Health Canada flags safety risks of unapproved peptides after bacterial contamination - Firstpost",
    "l": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNb2U0d1U4bUZTdG1ZRHFVM1k0Vjl6clh0SzhDQjJOTUhHc0dfbF9qcG9yWXUwTEkwOTc5SWJKZDRoenloZGtYdXZET0RSVUtTcjVzNWdzN1drVGViRmpHTGRna3pxYlVIbElXQUFxdnhDcFoxOXBabGtkaE1CVFF2OVNMZG1YUDdJX1NKNXlqMEVRcnBFckJNbDUxeklxclpfdHRfOVV6cDZQNDM2bGFGdHJhaGFFRTE3NFhxWnFqOHNNQUpGYVBOb0kyb9IB0AFBVV95cUxOd3k0cEVENmNJelFBdGpWRjRoTllzOEJDV1hZSGV0a3JMZkFuYThkNWZjY2JhbkdwSTNSVUxuRmNIeFk0dGZTcmRvdndZSWtEcHhqRDVJTzdRVkUwRTV4eGUwTWFUbEtNeE1nc1picDRsVWZ5WDdfVm1YMHhFLXM2QTRTMnJJN3JkZzhJR0h4dTBTUi1TWnQ4QWZTMWFTS1ZRaVRYdUExbmxzQnlCSmlrT1RKd0lxVDNlUXkwVm5JRzBLcXoyclVaX3NoYTViTExf?oc=5",
    "d": "2026-11-13",
@@ -186,19 +256,19 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Warning over peptides after batch contaminated with bacteria - Daily Mail",
+   "t": "Urgent warning over illegal peptides seized in Canada due to contamination with deadly bacteria - Daily Mail",
    "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWdmMjgzNTlValN5dU9IYkYyTjhrQ25oX0x2d3N5NG5wYl9PS1UyMUxlRWp3aXUtOFJDenFGWGxXZmUtWjlZWTR0ZWNBRkhQV3Z4ODJvdWVoQVB2UC1hZXRpY3Q5OXFUWWh0eGV6SVRzcG1mcVFzMjE1Z3pJdlYwUG1kUTk1TEJLR2Y0TTdwMFI?oc=5",
    "d": "2026-11-13",
    "s": "gnews-a",
-   "x": "Warning over peptides after batch contaminated with bacteria Daily Mail",
+   "x": "Urgent warning over illegal peptides seized in Canada due to contamination with deadly bacteria Daily Mail",
    "c": "Industry"
   },
   {
-   "t": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy - Lehighvalleylive.com",
+   "t": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy - lehighvalleylive",
    "l": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQW1hT090cjBNNkpaeVNsQjhaQ0FIeWp2NTlMbnF5UTBlc3puc0diMGwwVFhlcWpfOFU3SVN4eHUtQVdJUEdHZkFwOEhmTEI1aFZja3FISWZoTUE3NW9OeElKYUMzdTZkbDlNYl9sNXctb1dleUpOLS1KWVpRWEdXYWo3bmktZXpCWUJ0UUJFS0Jib2ZtODRvNDViZXFyMnVid1pLbF9wbWJDUVdBMG1Zc1pQeFMtcC1FcXpRQzVYTGFhZW8?oc=5",
    "d": "2026-11-13",
    "s": "gnews-a",
-   "x": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy Lehighvalleylive.com",
+   "x": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy lehighvalleylive",
    "c": "Industry"
   },
   {
@@ -490,14 +560,6 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Who tests the testers? How laboratory verification works for research peptides - Fingerlakes1.com",
-   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOZW4yVUJ6Q05HQllNZzdfUi1Pck95RVpMbTFuN1lhZC1ETkJwYXlGQ0RyWF9pb0I4VExkTGFyRlpZRU5xMm9jRG90bTcyTHNGYlJfWFdqeWk1MHhVWFFVTHlqMnh6Z0tPV1RRSDBkdFprc1puMVU0MkZqRUlkMTR5VV9uMzhUdFhZa05zUElVdjgwWV9BUHFvLXhLV2VtaVJRMDZEZ3R5WS1Gcmh3RmVKeHo5YmZPQ0s0UXc?oc=5",
-   "d": "2026-11-10",
-   "s": "gnews-a",
-   "x": "Who tests the testers? How laboratory verification works for research peptides Fingerlakes1.com",
-   "c": "Industry"
-  },
-  {
    "t": "Tomo Marjanovic to Address Longevity and Medical Tourism in the Gulf at Forbes Middle East Summit - EIN Presswire",
    "l": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbGtuTF96c1dHUUdfbUM1WjB1Y2xhYnNjM253cmNfeVFoYTNBQ3p0LWJKcWRPeU1qd0tSeXhSQXFYTHZHZnFHUlB0QU5NVDRYV2xwUkNHc0xYMHl2aUw5MWdsMzhUZV9ybEpScjFXYVBZbllyMUREOTlNWW9yTW0xX2xzMi1RckJ4ZHYySVlUQU5Fa213UU44Sk9GeEVEZGtjMHg0dnJMaUJQamlyWTB4V0ZCWFh2MWJxWTFIU0VPVmZNanJ6TFctcF80NnJodzNwWVBhemdfRlNXS25p?oc=5",
    "d": "2026-11-10",
@@ -512,45 +574,6 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Aesthet Surg J · Mokhtar J, Lellouch AG.",
    "c": "Research"
-  },
-  {
-   "t": "RFK Jr. loosens access to unapproved peptides: A health law scholar explains what consumers need to know - The Conversation",
-   "l": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNRW1zc2VCV3hRWk0xcERrcnhiTTB4blh4aU9QUVpXeGFwUGNZWm9mdU1Wa0JJLTZ4MGtvb1JZanIxRjlZdVlfcnVGeVFxcjdCZWpRVGYwZDNYRW8weG4wVUZiWjlYLWpMZzBxZkpwZFd4TVBLeHFRajQ3R0t5V0ZTWHRlaXBESjRCdTZpbDVqdkhwYkFCTTNLQmlUNUUyY0RxWG81bkRzc1Awc1l0OEo0RkttajN4dC1jV05QSUdDLXJjeFEyd3lOUFJDWUZIOFdtdFZ3?oc=5",
-   "d": "2026-11-10",
-   "s": "gnews-a",
-   "x": "RFK Jr. loosens access to unapproved peptides: A health law scholar explains what consumers need to know The Conversation",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide reduces knee pain and body weight in osteoarthritis patients - News-Medical",
-   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdnFONUxMWTY5cWxPaDhfQ2VoRjRwbV9kNHZrZFgtUjB6djlfLXU1QjFVVFQxLV9WVUxXZ1hWMm5BSVp6bk5tcFRyRkQyS3BORFdHbkplRTRLdTVDa0t6aHlSaURWbkI0anNRYklGTFphRGFTSWxBRkRMZzg1MV9fVlI1R0s0dlg0ZnJYQ2RHQlo4LUdSOEhlUVcyd3dSZ2kxd1owSHl0STRDNmo4T21xTnRyRUVvWWU1X0h5aA?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "Retatrutide reduces knee pain and body weight in osteoarthritis patients News-Medical",
-   "c": "Industry"
-  },
-  {
-   "t": "Eli Lilly's Retatrutide Reduces Weight, Knee Pain - 조선일보",
-   "l": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbXhZR1h4TnhBdTlFMzZoZ3FtY29mOHk5azNnTWlaWHlVYW9Cdm54TksxeEhybnZDbFNxaVMtSy1WZUNDTmxYc0NGS0tSSWlIeWhrR1VOS3RuLXNJbGV0VEYxYXY2ODk2aTdaTlVzR29PMjk2QjZ4M3FTbFAzWnF6SHQtdWlkS3Y2?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "Eli Lilly's Retatrutide Reduces Weight, Knee Pain 조선일보"
-  },
-  {
-   "t": "Retatrutide reduced knee pain and body weight in trials — News-Medical - UA.NEWS",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNGlPREl5dWdiaUZmaWtWeUJQdDY2c3R6NTJDYVZUWjRnSXk2Uk1iVThha0kwLTZ4Zkl5QXQ2Rlp1cHFnaVVZcHllWklZRmV0aUlJenlpTzVSVmxVUFBodWZZWG8xZGozdFo1dlBCNnpoekJISVhBRVdsaFpkbFBBOHk2b3FhcGlVb1A5UWdkT1VWSXNYQWpudndZQWp3YkN4UlZNcDBqZmFadmhhRlE?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "Retatrutide reduced knee pain and body weight in trials — News-Medical UA.NEWS",
-   "c": "Industry"
-  },
-  {
-   "t": "Triple-Action Obesity Drug Retatrutide Shows 21.9% Weight Loss and Blood Sugar Benefits in Phase 3 Trial - 헬스조선",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQVVlxYkRYb0FrcmItWUtkalZ1Y1FZZk5icjYwSld3MC1WbkJVMk5BM3A3Q21YTTVPQWtwVmpQVW4zcEFuZU5sWThybnBudXozVEVGanVTMzRWbWZYYUhYUlJ5b1doZkN6Z1lJR0xJSE9wb2RFcG84X1g3M0Q3S1V5QkxXbHFFdWo4bHc?oc=5",
-   "d": "2026-11-09",
-   "s": "gnews-a",
-   "x": "Triple-Action Obesity Drug Retatrutide Shows 21.9% Weight Loss and Blood Sugar Benefits in Phase 3 Trial 헬스조선",
-   "c": "Industry"
   },
   {
    "t": "STAT+: FDA warns GLP-1 drugs carry potential risk of rare eye condition",
@@ -987,13 +1010,6 @@ window.FEED_ART={
    "d": "2026-10-01",
    "s": "epmc",
    "x": "Cells · Pînzariu A, Șerban I, Soroceanu R, Vlăsceanu V, Maxim M, Miler A, Leonte S, Atodiresei C, Moscalu M, Manole L, Trandafir L, Șerban D, Timofte D."
-  },
-  {
-   "t": "Self-Reported Adverse Effects Among Social Media Users Taking Nonapproved Retatrutide.",
-   "l": "https://doi.org/10.1001/jamanetworkopen.2026.38929",
-   "d": "2026-10-01",
-   "s": "epmc",
-   "x": "JAMA Netw Open · Sehgal NKR, Tronieri JS, Rader B, Ungar L, Guntuku SC."
   },
   {
    "t": "FDA PCAC peptide vote: what the 503A recommendations mean",
