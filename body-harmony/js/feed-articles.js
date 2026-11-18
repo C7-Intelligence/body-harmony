@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-17T21:01Z",
+ "generated": "2026-11-18T07:40Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-17T21:01Z",
+   "checked": "2026-11-18T07:40Z",
    "ok": true,
-   "new": 45,
-   "seen": 68,
-   "lastOk": "2026-11-17T21:01Z"
+   "new": 41,
+   "seen": 67,
+   "lastOk": "2026-11-18T07:40Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-17T21:01Z",
+   "checked": "2026-11-18T07:40Z",
    "ok": true,
-   "new": 32,
+   "new": 31,
    "seen": 45,
-   "lastOk": "2026-11-17T21:01Z"
+   "lastOk": "2026-11-18T07:40Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-17T21:01Z",
+   "checked": "2026-11-18T07:40Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-17T21:01Z"
+   "lastOk": "2026-11-18T07:40Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-17T21:01Z",
+   "checked": "2026-11-18T07:40Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-17T21:01Z"
+   "lastOk": "2026-11-18T07:40Z"
   },
   {
    "id": "gnews-gh",
@@ -55,18 +55,18 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-17T21:01Z",
+   "checked": "2026-11-18T07:40Z",
    "ok": true,
-   "new": 1,
-   "seen": 5,
-   "lastOk": "2026-11-17T21:01Z"
+   "new": 2,
+   "seen": 8,
+   "lastOk": "2026-11-18T07:40Z"
   }
  ],
  "items": [
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-17",
+   "d": "2026-11-18",
    "s": "epmc",
    "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
    "c": "Research"
@@ -74,10 +74,26 @@ window.FEED_ART={
   {
    "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
    "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-17",
+   "d": "2026-11-18",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
+  },
+  {
+   "t": "Retatrutide Brought Up to Half of Nondiabetic Sleep Apnea Patients to Mild or No Disease in NEJM Trials - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xZGk4NHI5dWNWVW5nM0o4VFB3cGZuYVo5SUlHTDd6bEprRlBiMTI3ZHB6MVF0WXhaWFQtNERfVk9xbk1nU0pac3g0X1V5VGNWaV8wZHlSY0dYYnRuOEFLaERzTVBjdWMzYmF1bGw4MzY2ZXNTaGxmOVh1MFo0dw?oc=5",
+   "d": "2026-11-18",
+   "s": "gnews-a",
+   "x": "Retatrutide Brought Up to Half of Nondiabetic Sleep Apnea Patients to Mild or No Disease in NEJM Trials Medical Daily",
+   "c": "Industry"
+  },
+  {
+   "t": "Atlas-HRT.com Launches Online TRT and Men's Health Platform in Florida, as Men Over 40 Look for Clear Answers on Testosterone Therapy - FinancialContent",
+   "l": "https://news.google.com/rss/articles/CBMinAJBVV95cUxOY0dJNFRCanBDM0czVkNtaUhqQ01jM0ExakY5aXRIM0N5YTVWR3dSUVNfVGFrWi1OLUpGX0V1NFhySk9iemJrOUZSZjBMTmVjbGVOUEQyTkdkRXZmSzNfZlBXT3Mtak1WQjE4RlhKWGhseVJ1SEtwcDNJOXZjNDQ3LXllTmJtcG9uZkk2UDdvVHktYTVUamNacEFWTW5IZjBPU29xYTFubUZVU0k1NG5hcUp0M3VyR2xqeG9STm1pbUlwd3piRmFBUENtM1pSVXpYejJGZUc4Uks3UGRUNWJjVW9Wa0NzSUFzZ1YzT0F5ME1EMFlGenREczRLOHNfN2ZMRkloRjU4LVRPaGN0SS1mNHBPWEFMV2lRdmwtZw?oc=5",
+   "d": "2026-11-18",
+   "s": "gnews-gh",
+   "x": "Atlas-HRT.com Launches Online TRT and Men's Health Platform in Florida, as Men Over 40 Look for Clear Answers on Testosterone Therapy FinancialContent",
+   "c": "Industry"
   },
   {
    "t": "Investigational retatrutide reduced knee osteoarthritis pain and body weight versus placebo in adults with obesity - 2 Minute Medicine",
@@ -117,6 +133,14 @@ window.FEED_ART={
    "d": "2026-11-17",
    "s": "gnews-gh",
    "x": "Celebrating 10 years of helping men and women take control of their health News4JAX",
+   "c": "Industry"
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-11-17",
+   "s": "gnews-gh",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos",
    "c": "Industry"
   },
   {
@@ -174,6 +198,22 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Anal Methods · Li J, Zheng Y, Luo L.",
    "c": "Research"
+  },
+  {
+   "t": "Are peptides legal now? What the new HHS policy really means - The Ponte Vedra Recorder",
+   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN2U5N0FOUzdJZDJIS2t5enJ2eENEWnZZRTcyTjNvNHpzcTB3aTRDdW12cm1tMjhwcEtDWkQwWnFGWUZ4MkxqQl8xZFhlbGhMWnhUeFhseHFWOHJEVU9saW5oU2ZQaVVvNlpxU1ZHenVhN1g2VFp4NVQ0NWkweHhzUmZoQ3FBZ19maU1jZkkwSEtPMVlXRFNBMG9ESzhKUV9ZN01ZWnV4UTllSW10YllsWDg0by1NOUtFUkltNDh3?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-a",
+   "x": "Are peptides legal now? What the new HHS policy really means The Ponte Vedra Recorder",
+   "c": "Industry"
+  },
+  {
+   "t": "Are peptides legal now? What the new HHS policy really means - The Mountain-Ear",
+   "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVhBQlFDRGNOcGI0NmhuQ3RwVUhuT3NVZDVjMlNuVjNybThyUmY5eUl2d1dJdzJiODRlSTVGOWE5V0dqTU1hLVpKQlEtYU5pNWIweVdCY1E2Y1Z6LThydkZSSG9QV1ROQWNqaVZVNUdzSTVWUko5dW4tbTVzakhKRHRSMlNaQXBnMWtQeGdYY2hhalVhR0p4Uk9RMHFPRF9INmt5Vnc3R1ZtYldfWU1MZm9R?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-gh",
+   "x": "Are peptides legal now? What the new HHS policy really means The Mountain-Ear",
+   "c": "Industry"
   },
   {
    "t": "Soft Movable Nanosystems for Synergistic Intervention of Hepatic Injury Induced by Severe Burns Plus Delayed Resuscitation.",
@@ -264,11 +304,11 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy - lehighvalleylive",
+   "t": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy - LehighValleyLive.com",
    "l": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQW1hT090cjBNNkpaeVNsQjhaQ0FIeWp2NTlMbnF5UTBlc3puc0diMGwwVFhlcWpfOFU3SVN4eHUtQVdJUEdHZkFwOEhmTEI1aFZja3FISWZoTUE3NW9OeElKYUMzdTZkbDlNYl9sNXctb1dleUpOLS1KWVpRWEdXYWo3bmktZXpCWUJ0UUJFS0Jib2ZtODRvNDViZXFyMnVid1pLbF9wbWJDUVdBMG1Zc1pQeFMtcC1FcXpRQzVYTGFhZW8?oc=5",
    "d": "2026-11-13",
    "s": "gnews-a",
-   "x": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy lehighvalleylive",
+   "x": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy LehighValleyLive.com",
    "c": "Industry"
   },
   {
@@ -544,22 +584,6 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "How Plans, Clinicians Should Handle Gray-Market Retatrutide - The American Journal of Managed Care",
-   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOC1nNXpLTllSSDJpUElTNG5UZHFlMzQ0Rmc3QzBBcGdzb0JFdEV0bGRnbWVteXlIdjIwSUpWLXZUbDZDNGItLTBKcUo1bDYxSHM5U19HdmRjMlJ2NWVReVBIZlZ1VmV0V0xlVjItOWxRcXlBMEU3ZXZ0SUJXdTFVWmFVc1pqUUZLMkxVWQ?oc=5",
-   "d": "2026-11-10",
-   "s": "gnews-a",
-   "x": "How Plans, Clinicians Should Handle Gray-Market Retatrutide The American Journal of Managed Care",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide Cuts Knee Pain as Trial Participants Lose Weight - JournalArta",
-   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNak5lcGcxRDFON1BKMkIya1dRZXU4bWtKekZMQUx0Zk90ak52aEw4aVhwS3FYdGRQdWpEZnVsLWJmdEU1ZzVudGlpQ2ttTEdPeGtnRk5rS0QtZERnc0JOLVFxWmpoOEViUHpuS1Fsa1ZRMDV5ZTM2MkI2ZmpjaXlxa0RURXBMaE5ZUlN1b21CNTFEY0g5Tlhlam1ONllRY1Bm?oc=5",
-   "d": "2026-11-10",
-   "s": "gnews-a",
-   "x": "Retatrutide Cuts Knee Pain as Trial Participants Lose Weight JournalArta",
-   "c": "Industry"
-  },
-  {
    "t": "Tomo Marjanovic to Address Longevity and Medical Tourism in the Gulf at Forbes Middle East Summit - EIN Presswire",
    "l": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPbGtuTF96c1dHUUdfbUM1WjB1Y2xhYnNjM253cmNfeVFoYTNBQ3p0LWJKcWRPeU1qd0tSeXhSQXFYTHZHZnFHUlB0QU5NVDRYV2xwUkNHc0xYMHl2aUw5MWdsMzhUZV9ybEpScjFXYVBZbllyMUREOTlNWW9yTW0xX2xzMi1RckJ4ZHYySVlUQU5Fa213UU44Sk9GeEVEZGtjMHg0dnJMaUJQamlyWTB4V0ZCWFh2MWJxWTFIU0VPVmZNanJ6TFctcF80NnJodzNwWVBhemdfRlNXS25p?oc=5",
    "d": "2026-11-10",
@@ -646,14 +670,6 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Lancet HIV · Manne-Goehler J, Magodoro I, Ramírez BC, Venter WDF.",
    "c": "Research"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-11-07",
-   "s": "gnews-gh",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos",
-   "c": "Industry"
   },
   {
    "t": "Acute coronary thrombosis following anabolic-androgenic steroid use in a female athlete: A case report.",
