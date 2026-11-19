@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-18T20:39Z",
+ "generated": "2026-11-19T07:35Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,10 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-18T20:39Z",
-   "ok": true,
-   "new": 46,
-   "seen": 70,
+   "checked": "2026-11-19T07:35Z",
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-18T20:39Z"
   },
   {
@@ -19,11 +20,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-18T20:39Z",
+   "checked": "2026-11-19T07:35Z",
    "ok": true,
    "new": 31,
    "seen": 45,
-   "lastOk": "2026-11-18T20:39Z"
+   "lastOk": "2026-11-19T07:35Z"
   },
   {
    "id": "stat",
@@ -31,11 +32,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-18T20:39Z",
+   "checked": "2026-11-19T07:35Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-18T20:39Z"
+   "lastOk": "2026-11-19T07:35Z"
   },
   {
    "id": "bpd",
@@ -43,11 +44,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-18T20:39Z",
+   "checked": "2026-11-19T07:35Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-18T20:39Z"
+   "lastOk": "2026-11-19T07:35Z"
   },
   {
    "id": "gnews-gh",
@@ -55,18 +56,18 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-18T20:39Z",
+   "checked": "2026-11-19T07:35Z",
    "ok": true,
-   "new": 0,
-   "seen": 8,
-   "lastOk": "2026-11-18T20:39Z"
+   "new": 1,
+   "seen": 7,
+   "lastOk": "2026-11-19T07:35Z"
   }
  ],
  "items": [
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-18",
+   "d": "2026-11-19",
    "s": "epmc",
    "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
    "c": "Research"
@@ -74,7 +75,7 @@ window.FEED_ART={
   {
    "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
    "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-18",
+   "d": "2026-11-19",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
@@ -269,6 +270,14 @@ window.FEED_ART={
    "d": "2026-11-16",
    "s": "gnews-a",
    "x": "Are peptides legal now? What the new HHS policy really means Cottage Grove Journal",
+   "c": "Industry"
+  },
+  {
+   "t": "RNs Opening Anti-Aging Clinics: What It Takes - WorldHealth.net",
+   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE10eEdIQXktQklnbWJIY25SSG1iNHd6OFp5OWc3dHk5YktLUnl6ZWk0LUx5TG5sNHI0Y3lSR1VjMVY0RHA1SEMyNHh1MEoxem5NaFZqT0tnN1UtUVczNE9rTnRGY002dVVxYVFtUmJNNXJxVVFMVlFwTnk2T3J4YzA?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-gh",
+   "x": "RNs Opening Anti-Aging Clinics: What It Takes WorldHealth.net",
    "c": "Industry"
   },
   {
@@ -886,6 +895,14 @@ window.FEED_ART={
    "x": "Rev Endocr Metab Disord · Smarkusz-Zarzecka J, Radziszewska M, Gofron KK, Ostrowska L."
   },
   {
+   "t": "Retinal Microvascular Morphometry in Recreational Athletes Using Anabolic-Androgenic Steroids: A Cross-Sectional Study.",
+   "l": "https://doi.org/10.1007/s40123-026-01528-5",
+   "d": "2026-10-22",
+   "s": "epmc",
+   "x": "Ophthalmol Ther · El-Cheikh Mahmoud AA, Thinggaard BS, Hjortebjerg R, Buhl LF, Grauslund J, Christensen LL, Glintborg D, Andersen MS, Lindholt JS, Diederichsen A, Thevis M, Kistorp C, Frystyk J, Pedersen FN.",
+   "c": "Research"
+  },
+  {
    "t": "STAT+: A bipartisan group of lawmakers urges the FDA to close a peptide loophole",
    "l": "https://www.statnews.com/2026/10/20/health-policy-news-bipartisan-group-of-lawmaker-urges-fda-to-close-peptide-loophole/?utm_campaign=rss",
    "d": "2026-10-20",
@@ -1028,13 +1045,6 @@ window.FEED_ART={
    "d": "2026-10-01",
    "s": "epmc",
    "x": "Lancet · Holst JJ."
-  },
-  {
-   "t": "Epitalon and Epithalamin: A Narrative Review of Mechanistic, Preclinical, and Clinical Evidence",
-   "l": "https://europepmc.org/article/PMC/PMC13664938",
-   "d": "2026-10-01",
-   "s": "epmc",
-   "x": "Int J Mol Sci · Jain A, Gallacher D, Issa M, Deer T, Yong R, Diwan S, Lee W, Sayed D, Amirdelfan K, Robinson C."
   },
   {
    "t": "FDA PCAC peptide vote: what the 503A recommendations mean",
