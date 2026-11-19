@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-19T07:35Z",
+ "generated": "2026-11-19T20:46Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,12 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-19T07:35Z",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-18T20:39Z"
+   "checked": "2026-11-19T20:46Z",
+   "ok": true,
+   "new": 96,
+   "seen": 115,
+   "lastOk": "2026-11-19T20:46Z"
   },
   {
    "id": "epmc",
@@ -20,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-19T07:35Z",
+   "checked": "2026-11-19T20:46Z",
    "ok": true,
-   "new": 31,
+   "new": 30,
    "seen": 45,
-   "lastOk": "2026-11-19T07:35Z"
+   "lastOk": "2026-11-19T20:46Z"
   },
   {
    "id": "stat",
@@ -32,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-19T07:35Z",
+   "checked": "2026-11-19T20:46Z",
    "ok": true,
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-19T07:35Z"
+   "new": 1,
+   "seen": 1,
+   "lastOk": "2026-11-19T20:46Z"
   },
   {
    "id": "bpd",
@@ -44,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-19T07:35Z",
+   "checked": "2026-11-19T20:46Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-19T07:35Z"
+   "lastOk": "2026-11-19T20:46Z"
   },
   {
    "id": "gnews-gh",
@@ -56,11 +55,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-19T07:35Z",
+   "checked": "2026-11-19T20:46Z",
    "ok": true,
-   "new": 1,
-   "seen": 7,
-   "lastOk": "2026-11-19T07:35Z"
+   "new": 0,
+   "seen": 6,
+   "lastOk": "2026-11-19T20:46Z"
   }
  ],
  "items": [
@@ -79,6 +78,22 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
+  },
+  {
+   "t": "HHS peptide compounding pathway could curb gray market but broaden demand - Nutrition Insight",
+   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdEw3MUxickJoSlNpYWJjcTdvRVo5U2NOUFpCNkZYVHZuRFdSdG0tNnBYLUdUcTlSOTZidG5JbTFBRzVQTUk5ZUN1d2diVVVTWHNMNHlKUnpvUVRTVmFicHlpeGdzODViVlQwM01pUmUtTTY2eEtvaTR0bjE2QTkxT0h3RUpXUnZvUEVNN2RkRQ?oc=5",
+   "d": "2026-11-19",
+   "s": "gnews-a",
+   "x": "HHS peptide compounding pathway could curb gray market but broaden demand Nutrition Insight",
+   "c": "Industry"
+  },
+  {
+   "t": "STAT+: Peptide market poised to explode with new Hims and Noom launches",
+   "l": "https://www.statnews.com/2026/11/19/hims-noom-enter-peptide-market-mainstream-products-health-risks/?utm_campaign=rss",
+   "d": "2026-11-19",
+   "s": "stat",
+   "x": "Two telehealth giants rolled out peptide programs this week after HHS made it easier for compounding pharmacies to offer drugs like BPC-157.",
+   "c": "Industry"
   },
   {
    "t": "Retatrutide Brought Up to Half of Nondiabetic Sleep Apnea Patients to Mild or No Disease in NEJM Trials - Medical Daily",
@@ -305,6 +320,14 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "Top 9 Retatrutide OEM Service Companies 2026: Custom Manufacturing and Quality Review Priorities - EIN Presswire",
+   "l": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMEhvYVZMcS1lemxsYndIOEVkYVBhYWtIQmgxczJDYV9CX0JCUlB6S1lyUW01cEV1S3FqcnRZeDB5VzMzdmZLby00SFlRVFNaVk5FRmtONHg1LXp1RlZTWE9oY1FzaGowamtVQ2s4UkhYd3otX1pWa1Ftd0RPTXVqNGxWSnNiT2ZPamFpWWRjNnFNb3poSDZfMTd3RVV5NmNXenAwbERlczgtQkMxY3NZUW5aX0l4aGpoUFdDWFI2RUtWQlhpbjFpcUJjUXZWY25XVWw0UFgtSFF5dw?oc=5",
+   "d": "2026-11-15",
+   "s": "gnews-a",
+   "x": "Top 9 Retatrutide OEM Service Companies 2026: Custom Manufacturing and Quality Review Priorities EIN Presswire",
+   "c": "Industry"
+  },
+  {
    "t": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale - PR Newswire",
    "l": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNcHYyYVFuYjdOT25NV2hrOS1kS3k0cVJYcXhUTUcyLXgxUzl4c1hJeVF1Vkl3MFQ2Wm5haWtXWks0LXdOeS1ocGJQZmp1TkJCTVozT0FCajZBdW1mN3dHYjc1LUNubndjNEROTFp6ckNQa0ZaVDNJQkJrMTZseERDbTRwWXRDUXhwRS1Lb09WbHNieXl5MFVBM0VHYWctQlZXTGFhaVVwbzl3Zk9YUTM2b3pwelk0a1ZrSHVMdkVRcllGcmpqd3piTXhtdzlmanAzYk5rR2hKUWRLX1N0UG5jVm14b3VybGM4TE5jTFRFdzRBNkM5RHVjazE2Vkkxb1duUm5QZTE3Q010XzVlY2RDNDRNZUdwdHM?oc=5",
    "d": "2026-11-14",
@@ -513,27 +536,11 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Meet the people who want peptides to be made in America - The Verge",
-   "l": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTXkySEZnU1JudmlEblYxWFZEeURMbHAwWEg2eEkyM3czTVlscmJOMDhIZEFrSGFWY01La21TaHNOMjB0Y3A4V1lQOUJvU0N1YkZMOUQ0SHhBd2pXVjA1bVlCNGVZVExZTDdxZUVfRlF3WjVzcnFVNHE4WW91bi15aGhB?oc=5",
-   "d": "2026-11-12",
-   "s": "gnews-a",
-   "x": "Meet the people who want peptides to be made in America The Verge",
-   "c": "Industry"
-  },
-  {
    "t": "Blackstone bets $1.5B on Pfizer’s obesity drug",
    "l": "https://www.biopharmadive.com/news/blackstone-pfizer-berobenatide-deal/874483/",
    "d": "2026-11-12",
    "s": "bpd",
    "x": "The deal will support a sprawling Phase 3 program for a monthly GLP-1 shot Pfizer acquired by winning a bidding war for the drug’s previous owner, Metsera.",
-   "c": "Industry"
-  },
-  {
-   "t": "River Peptides sounds off on the risky peptide boom - Rolling Out",
-   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9iYzkzWTQxMFJvU0dPc1c5blNxMGZqRnoyX0hxV3dvY1ZETGxidzJ1bkZ5bE1NNzN2U3RzdUhOSGtQSUliMU9Vc19zNXlMT3BBc0NJUTlxc0F3VVp1allJR2NIY2xOLTFuTWNpb0l5YjN2RVVlcjRCbTQyVG4?oc=5",
-   "d": "2026-11-12",
-   "s": "gnews-a",
-   "x": "River Peptides sounds off on the risky peptide boom Rolling Out",
    "c": "Industry"
   },
   {
