@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-19T20:45Z",
+ "generated": "2026-11-20T07:26Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "fierce",
@@ -67,11 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
    "new": 3,
    "seen": 3,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "gnews",
@@ -79,11 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
-   "new": 91,
-   "seen": 95,
-   "lastOk": "2026-11-19T20:45Z"
+   "new": 143,
+   "seen": 151,
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "fda-recalls",
@@ -91,11 +91,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "fda-consumer",
@@ -103,9 +103,9 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": false,
-   "error": "The read operation timed out",
+   "error": "HTTP Error 404: Not Found",
    "new": 0,
    "seen": 0
   },
@@ -115,11 +115,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
-   "new": 19,
+   "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "fr-hhs",
@@ -127,11 +127,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
    "new": 0,
-   "seen": 3,
-   "lastOk": "2026-11-19T20:45Z"
+   "seen": 2,
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "doj",
@@ -139,11 +139,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "usada",
@@ -151,11 +151,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "mhra",
@@ -163,11 +163,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "gnews-state",
@@ -175,11 +175,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-19T20:45Z",
+   "checked": "2026-11-20T07:26Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 7,
-   "lastOk": "2026-11-19T20:45Z"
+   "lastOk": "2026-11-20T07:26Z"
   },
   {
    "id": "gnews-anab",
@@ -187,14 +187,39 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-19T20:45Z",
-   "ok": true,
+   "checked": "2026-11-20T07:26Z",
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests",
    "new": 0,
-   "seen": 13,
+   "seen": 0,
    "lastOk": "2026-11-19T20:45Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/arcera-ponies-1b-innogens-china-approved-glp-1",
+   "d": "2026-11-20",
+   "s": "fierce",
+   "x": "Arcera Life Sciences has agreed to potentially pay more than $1 billion to license Innogen's China-approved GLP-1 in places like Africa, Latin America and the Middle East.",
+   "c": "Industry"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/marketing/novo-expands-dtc-program-novocare-support-wegovy-users-through-holistic-health-journey",
+   "d": "2026-11-20",
+   "s": "fierce",
+   "x": "Members who sign up for Novo's new Novocare can benefit from holistic health services meant to support Wegovy users throughout the entirety of their weight loss journey.",
+   "c": "Industry"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/manufacturing/usv-private-hit-fda-warning-letter-potential-contamination-issues",
+   "d": "2026-11-20",
+   "s": "fierce",
+   "x": "Indian drug manufacturer USV was hit with a warning letter from the FDA that outlined three major violations. The observations largely centered on a lack of procedures that could lead to microbial and particulate contamination.",
+   "c": "Industry"
+  },
   {
    "t": "FDA warning letters target telehealth sellers claiming compounded GLP-1 drugs are the same as Wegovy and Zepbound - Medical Daily",
    "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ2NkMVV6dll1cHEwb0VxOFd2NUlCdDdwMlNVYURPWmJxRkZISnBMVUpoWkVfMFNtbTFad2xiNlRhTHMtY2thRHNnTjhDalE2WXdpQWdadmZWRk5pVGxDalNPMVRLMEZ1Y2VJRUdVMWplUjVoSGR3WkNBcU1CbXYzMHhwY1BXRXUzR3pTUFEzallJWHc?oc=5",
@@ -210,30 +235,6 @@ window.FEED={
    "s": "fda-drugs",
    "x": "Want to know what's new on drugs from FDA? This page provides quick links to the latest on a variety of topics including: drug approvals, safety warnings, drug shortages, etc.",
    "c": "Regulation"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/arcera-ponies-1b-innogens-china-approved-glp-1",
-   "d": "2026-11-19",
-   "s": "fierce",
-   "x": "Arcera Life Sciences has agreed to potentially pay more than $1 billion to license Innogen's China-approved GLP-1 in places like Africa, Latin America and the Middle East.",
-   "c": "Industry"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/marketing/novo-expands-dtc-program-novocare-support-wegovy-users-through-holistic-health-journey",
-   "d": "2026-11-19",
-   "s": "fierce",
-   "x": "Members who sign up for Novo's new Novocare can benefit from holistic health services meant to support Wegovy users throughout the entirety of their weight loss journey.",
-   "c": "Industry"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/manufacturing/usv-private-hit-fda-warning-letter-potential-contamination-issues",
-   "d": "2026-11-19",
-   "s": "fierce",
-   "x": "Indian drug manufacturer USV was hit with a warning letter from the FDA that outlined three major violations. The observations largely centered on a lack of procedures that could lead to microbial and particulate contamination.",
-   "c": "Industry"
   },
   {
    "t": "HHS peptide compounding pathway could curb gray market but broaden demand - Nutrition Insight",
@@ -689,7 +690,8 @@ window.FEED={
    "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOTnlPVy1ieWNSczJSSTltd1l2aUI2dWlYZzNYeWVPcW5jckhseWxzejRTQnpTbWtQQXNXZk5NWkNhMGVzMkgxanJjSUhGNjI5TE1aYjZSeHRqRmtDcnZSUkpwZk5qRzNyeUx2eG1QZ2RmX1ZrQWpSNmxxc2hieURHaGZpUjViZ2V1VTIta1lMWEQ?oc=5",
    "d": "2026-10-31",
    "s": "gnews",
-   "x": "GLP-1 Compounding After Drug Shortages The Regulatory Review"
+   "x": "GLP-1 Compounding After Drug Shortages The Regulatory Review",
+   "c": "Industry"
   },
   {
    "t": "TikTok Calls RAD 140 “Steroids for Your Brain and Biceps.” But There’s Zero Human Data, So If You Take It, You’re the Lab Rat - BoxLife Magazine",

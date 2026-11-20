@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-19T20:46Z",
+ "generated": "2026-11-20T07:27Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-19T20:46Z",
+   "checked": "2026-11-20T07:27Z",
    "ok": true,
-   "new": 96,
-   "seen": 115,
-   "lastOk": "2026-11-19T20:46Z"
+   "new": 47,
+   "seen": 63,
+   "lastOk": "2026-11-20T07:27Z"
   },
   {
    "id": "epmc",
@@ -19,10 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-19T20:46Z",
-   "ok": true,
-   "new": 30,
-   "seen": 45,
+   "checked": "2026-11-20T07:27Z",
+   "ok": false,
+   "error": "The read operation timed out",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-19T20:46Z"
   },
   {
@@ -31,11 +32,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-19T20:46Z",
+   "checked": "2026-11-20T07:27Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-19T20:46Z"
+   "lastOk": "2026-11-20T07:27Z"
   },
   {
    "id": "bpd",
@@ -43,11 +44,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-19T20:46Z",
+   "checked": "2026-11-20T07:27Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-19T20:46Z"
+   "lastOk": "2026-11-20T07:27Z"
   },
   {
    "id": "gnews-gh",
@@ -55,14 +56,30 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-19T20:46Z",
+   "checked": "2026-11-20T07:27Z",
    "ok": true,
    "new": 0,
    "seen": 6,
-   "lastOk": "2026-11-19T20:46Z"
+   "lastOk": "2026-11-20T07:27Z"
   }
  ],
  "items": [
+  {
+   "t": "Black-market peptide use in New Zealand, by the numbers - The Spinoff",
+   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQVE1ZHZqOUtKaURQejU4ZzIwdGplZzk1Z01STmVoVkVSaUxja2JhMXJiZzVHWGluOVZxSE1wOFJKc2hQLU01QXhSaVcteFhRZGRVUVdIT1VsRUhRZDZHSHVNNkUzaXJHZEl3SWx2djQ5NFBCUGV0eC1iV0tSd1BZb2JLZG5CTDNfNGRucTN2X3U0bmhfUWxlNTUyYmpZYWM?oc=5",
+   "d": "2026-11-20",
+   "s": "gnews-a",
+   "x": "Black-market peptide use in New Zealand, by the numbers The Spinoff",
+   "c": "Industry"
+  },
+  {
+   "t": "Assurion Labs Sets a Verified-Lot Standard for Research Peptides - The National Law Review",
+   "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVVrWHpYSUlMZXlTNnhzeTl1X2pHR0NRaGhQVHdzYjl6c0VXdnB5eU1EZ2lwZy03ZXdIX1JzZE96RXZia2tobGJHcnVwT3MwVTFjczVLYU51TWd4RFFLWldCbzFsQzNKZ2tEWERtb3ZrLUo0bk9raThKNXZmcXF1RGItemlNUnRYRDRsRHZlcTU2cW8zeHRYUTQ0UThpZUJvRUEyV0hXUXFoWGY1MEJMM0ZLVQ?oc=5",
+   "d": "2026-11-20",
+   "s": "gnews-a",
+   "x": "Assurion Labs Sets a Verified-Lot Standard for Research Peptides The National Law Review",
+   "c": "Industry"
+  },
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
@@ -93,6 +110,14 @@ window.FEED_ART={
    "d": "2026-11-19",
    "s": "stat",
    "x": "Two telehealth giants rolled out peptide programs this week after HHS made it easier for compounding pharmacies to offer drugs like BPC-157.",
+   "c": "Industry"
+  },
+  {
+   "t": "Eli Lilly Extends Drug Growth With Retatrutide and GLP1 Pipeline - cwibc.co.id",
+   "l": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBRc0g5V1hXZzhvUG02TkJ0LVVqMFFZSHphSnJ1Z1U0eS11Q0pySWlMLVhxZVlXLU9PVjVuQUFxQS1iTnkzQjNWbTIwbUNmRnpKSC1wYkNlM1JDZk1icE9aS2Zadw?oc=5",
+   "d": "2026-11-19",
+   "s": "gnews-a",
+   "x": "Eli Lilly Extends Drug Growth With Retatrutide and GLP1 Pipeline cwibc.co.id",
    "c": "Industry"
   },
   {
@@ -509,30 +534,6 @@ window.FEED_ART={
    "d": "2026-11-13",
    "s": "gnews-a",
    "x": "GLP-1s and peptides: What consumers need to know FOX 10 Phoenix",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide shows knee osteoarthritis pain relief in trials - 디지털투데이",
-   "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUG5JS212ZS1GZHpiSGNRUmU2N21JWV9LUFlZS3kxd3U0NDJpOFFTb3JjZXdlQ2pTOEhDQm4zQ2hWbDEtWXBrWjJYR0JWQ3FNTENscmtneGhZOGlnT0lzLTl6RVdTZGh3amFPQjlFbk5aZnJjUGtCalc4cUJWdkw3QXNqamstSWtmZ0UwcGtCWHdTSU9ncTRxRDRjbWtUanJCcF91ZlFlcno?oc=5",
-   "d": "2026-11-12",
-   "s": "gnews-a",
-   "x": "Retatrutide shows knee osteoarthritis pain relief in trials 디지털투데이",
-   "c": "Industry"
-  },
-  {
-   "t": "After HHS Opens the Door to Six Peptides, Terry Dubrow Launches HealthRX.com With a Warning - StreetInsider",
-   "l": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOMGluX29SejJkZ1lXcWwzZG0tcHF6V3NDNjZTb0J6UFo4TEp0UmpyZ0VXNC1VaEtkanlLTDE2VHhCdE1XYkplTkNYUWNKVlhjTHgyZUlPaHRVWExqMEpjdF8wa3dIdzk1U3psSGlIcWtoM0YyLWdXREN3UGxmV01lRjNhR0RTZVFscHlnWnhkWUd6RTQzWnV5eENyU1lHZ0NibDYwRGlSb2FWNkN4WWhFUC1jQzBmN1U2bTdqamxibFZUSHlVbVFJZ2ZaTlZlZFVaNlpPN25mWlJXaHJ2cjh0MTR0YVZTdw?oc=5",
-   "d": "2026-11-12",
-   "s": "gnews-a",
-   "x": "After HHS Opens the Door to Six Peptides, Terry Dubrow Launches HealthRX.com With a Warning StreetInsider",
-   "c": "Industry"
-  },
-  {
-   "t": "Can Weight Loss Medicines Reduce Chronic Knee Pain? Eli Lilly's Experimental Drug Retatrutide Shows Promise - Health and Me",
-   "l": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxNZXBtUWtwTnQtZmszX3ZUN0lRdjh4UEE1RUkwUXFmM3RSUFlPNkM2UDBIR3NRR3BwWlY2TXRGYXMzaUVJT3B1VnlrclhoRjRsck5uZlltRWExZVlvbjQxTnphdExLWjVHMTB1MkhBY3dnem5ocWwxMHFvZ29FREgyUi13SVRaQUFJM0N2NXRBSXY0bTcyU3ZKQlg5b3JHaUtKWXZ4MzJiazRHRnprbEhOeWc1SWxLNEpuaDI2N2VNWmtSLWUwSFZfZDNUblFETUlOYkNZT18yMUc0RTJGb0d1U1FZTmpFVXRHTUtjMThpQUdSd1A5RGc?oc=5",
-   "d": "2026-11-12",
-   "s": "gnews-a",
-   "x": "Can Weight Loss Medicines Reduce Chronic Knee Pain? Eli Lilly's Experimental Drug Retatrutide Shows Promise Health and Me",
    "c": "Industry"
   },
   {
