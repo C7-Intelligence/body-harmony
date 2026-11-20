@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-20T07:26Z",
+ "generated": "2026-11-20T20:29Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-20T07:26Z"
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-20T07:26Z"
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 0,
-   "seen": 2,
-   "lastOk": "2026-11-20T07:26Z"
+   "seen": 1,
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-20T07:26Z"
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-20T07:26Z"
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "fierce",
@@ -67,11 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 3,
    "seen": 3,
-   "lastOk": "2026-11-20T07:26Z"
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "gnews",
@@ -79,11 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
-   "new": 143,
-   "seen": 151,
-   "lastOk": "2026-11-20T07:26Z"
+   "new": 89,
+   "seen": 95,
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "fda-recalls",
@@ -91,11 +91,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-20T07:26Z"
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "fda-consumer",
@@ -103,7 +103,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -115,11 +115,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-20T07:26Z"
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "fr-hhs",
@@ -127,11 +127,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-20T07:26Z"
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "doj",
@@ -139,11 +139,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-20T07:26Z"
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "usada",
@@ -151,11 +151,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-20T07:26Z"
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "mhra",
@@ -163,11 +163,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-20T07:26Z"
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "gnews-state",
@@ -175,11 +175,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-20T07:26Z",
+   "checked": "2026-11-20T20:29Z",
    "ok": true,
-   "new": 0,
-   "seen": 7,
-   "lastOk": "2026-11-20T07:26Z"
+   "new": 1,
+   "seen": 8,
+   "lastOk": "2026-11-20T20:29Z"
   },
   {
    "id": "gnews-anab",
@@ -187,15 +187,22 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-20T07:26Z",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-19T20:45Z"
+   "checked": "2026-11-20T20:29Z",
+   "ok": true,
+   "new": 2,
+   "seen": 12,
+   "lastOk": "2026-11-20T20:29Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-11-20",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions.",
+   "c": "Industry"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/arcera-ponies-1b-innogens-china-approved-glp-1",
@@ -210,14 +217,6 @@ window.FEED={
    "d": "2026-11-20",
    "s": "fierce",
    "x": "Members who sign up for Novo's new Novocare can benefit from holistic health services meant to support Wegovy users throughout the entirety of their weight loss journey.",
-   "c": "Industry"
-  },
-  {
-   "t": "",
-   "l": "https://www.fiercepharma.com/manufacturing/usv-private-hit-fda-warning-letter-potential-contamination-issues",
-   "d": "2026-11-20",
-   "s": "fierce",
-   "x": "Indian drug manufacturer USV was hit with a warning letter from the FDA that outlined three major violations. The observations largely centered on a lack of procedures that could lead to microbial and particulate contamination.",
    "c": "Industry"
   },
   {
@@ -269,6 +268,14 @@ window.FEED={
    "c": "Regulation"
   },
   {
+   "t": "Two people from Metairie, others indicted in alleged steroid distribution conspiracy - WGNO",
+   "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQUFTNmZqZ1MyVVhPY3d4Y2JJaXRZNEs3OWx0cWdDbkgwWVkwUzRDc0h2elNTRGJRdExNcmM0bTVwRHF5QXZxTTdNdnJLeUYwcGFzTjdMMFZCbjZPZTAwM3Q1bHU0WHNSZkp0azJUXzZuSDlkZVJta25FdnM5OFdTV0Vtdm9aRl9tY2J4X2lvNEMtRU02UEFtdE9PSGxnV19GVzZXZEtKMTBPeG5QVkxyc1hn0gG3AUFVX3lxTE5TZ2hhVDhUVl9HSVVJYXBhLTNJalFMOENMdWNPa2d1STJMd0F0WFR4TXlBc051SF9WYVFsdkNOQ0hpR2t1clM4ZWNaNFdlWTI1RUZ4R3lVTjc2NVFGbzlnY2hpOS1zREZzOVRhZjZVZC1vUFNZWlhXVUNVSG0xMFJ4c2FGVUh2V1FiZU52bHQzZGM4V0g0dF8yQ3pjSXlTWWpVUjlSYmlQXzBDRmV5V1ZiSXRuRENiVQ?oc=5",
+   "d": "2026-11-19",
+   "s": "gnews-anab",
+   "x": "Two people from Metairie, others indicted in alleged steroid distribution conspiracy WGNO",
+   "c": "Safety"
+  },
+  {
    "t": "Gold, silver, cash and drugs seized in police sting - inkl",
    "l": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQXJHWE0xOHZ6RWUzcFJXQ3I2WEZGYUhMYTdIam51LUNtZFJuODN1RUE3YzY3MUNhTnpyc0ZUSjhBYVR3aDVvbDMzVmdUUUNfMmZucVJOeGtoSFVqcnYzT1ItV2lzcUhNVElYbFBqekUwdjFIenZSRzM4blE2c09qZA?oc=5",
    "d": "2026-11-18",
@@ -299,6 +306,14 @@ window.FEED={
    "s": "gnews-anab",
    "x": "Gold, silver, cash and drugs seized in police sting Yahoo News Australia",
    "c": "Safety"
+  },
+  {
+   "t": "FTC Warning Letters And Final Transparency In Coverage Rules Mark Latest Steps In Trump Administration’s Healthcare Price Transparency Push - Legal 500",
+   "l": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPaWFKS2hoUEpEcmZORGZyVC1TMVNTNzlmMHV1WHhPTHA1UjRjLXc0Skd3V0lGbDNmTnZwZGtqRGlTUkxKWjV2Q3ZRVnRFVUxpbnY4aHo2WU53dHp3TWtKcnNCLVZYSGlVUGl3UnpCd1g4cms3X01VU2VvR3VnMDhHQlp1NlVRMHVITUVJTld5cTBsaUVJRWNtYjlIZUdxY25QLUhpOEtzLW9tR0Qwb0ZKUTFiVFRoSHFjX3A5d0VObmdkM0oxdkhWOFlJc0UzeTAtaHRQbWx5MjhsUzRTOVYwV1RJUFRRdndqdWczNk5FVS1xampvaDBvanVkN09kTGx5cDBQdDRuYlJLaXMzenNMczlqbVBpUHAwVkw0VThWYjBoN2NJc29RV19IYjNVcTFnUHE4d2Rnemktb1pRSlNxYkt0NWdtVFRWQ0E?oc=5",
+   "d": "2026-11-18",
+   "s": "gnews-state",
+   "x": "FTC Warning Letters And Final Transparency In Coverage Rules Mark Latest Steps In Trump Administration’s Healthcare Price Transparency Push Legal 500",
+   "c": "Regulation"
   },
   {
    "t": "Rulemaking To Provide That N-acetyl-L-cysteine Is Not Excluded From the Dietary Supplement Definition",
@@ -546,6 +561,14 @@ window.FEED={
    "d": "2026-11-09",
    "s": "gnews-anab",
    "x": "Middletown Police Sergeant Sentenced to Prison Term Two River Times",
+   "c": "Safety"
+  },
+  {
+   "t": "Arms Trends in Ukraine: 02 November - 08 November, 2026 - Ukraine's Arms Monitor",
+   "l": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1GMlBFdldZQXdDaDJJR1FkNXYxU0NydFAwU1MzWmN6a0lzVURFaWNVUE5pc3ZWSzBxMDB0RTdTbjhNVUpGSU9oeVMyLVB1LW9LWUxPbmVYbG9kRjJFT1k1T0dQa2t3ZlpvTldiazQ0X1hpM2pVRWJITUJRdWdDRkU?oc=5",
+   "d": "2026-11-09",
+   "s": "gnews-anab",
+   "x": "Arms Trends in Ukraine: 02 November - 08 November, 2026 Ukraine's Arms Monitor",
    "c": "Safety"
   },
   {
@@ -1114,14 +1137,6 @@ window.FEED={
    "d": "2026-10-15",
    "s": "gnews-anab",
    "x": "‘Trading drugs for weapons’: Police charge CFMEU delegate over union HQ deals SMH.com.au",
-   "c": "Safety"
-  },
-  {
-   "t": "CFMEU delegate charged with drug trafficking - News24",
-   "l": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOOUZMZnlVdEV2cjFnd1p1b1YxY1dLU2E0Ui1hVUIwWWtxWFoxbkR3RDNJR19EVl9sQmxGWEUzbEY0QnkxbTRXRHRGSnBzU0RsaklOenFnOUsxcVZYZkgwNUV3bTRSZlByMzItMURCaVNfeEM4WHFramxXX0dud0prZEVDSEVjY0JvUXhXaU8wSkZvOTMzMEJjMHNhem4xZm9wQU5CRXlHdTE3dTZCZTVmb2ZucnBiRlJ0dnFGaE9kRW1xeUlhQXFINHNoY2ZiN3c3a09MSkE0VWhKbnQ2Unk4S3hsVXpRamVxdTdvbHhKWXh4bTV20gH6AUFVX3lxTE8xSHNhYXRUV3FWejl1ODQyalBhejlsVklEekFwdERRWFZtaTlXU3d1LUxiZ0tEYUpEQldlbGJ0QzlFRlRKVDRUcGw1MlZTRWRxcFNQRGcyUF9FUW5BRWZEN2VLMk01blJTQk8tUzEzeWFzbWVvQUI1TU92Ukk5ZTZFOW55MmJuU2hETkJyajd0V1NWdDZfQ2l0elJYZjRNd0V6OXM4dEo2dlFtME9QTDFCZzd5WmRwNWtvOXJ2d0xtcHJDallKazk4LUg4WGg5M0xBNFhyWWt5ZWRjeVlDX2dmNW9aMmFuN0lSc1dOVFFOSFAydWpuNGQ5N2c?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-anab",
-   "x": "CFMEU delegate charged with drug trafficking News24",
    "c": "Safety"
   },
   {
