@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-21T07:21Z",
+ "generated": "2026-11-21T19:25Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 13,
    "seen": 48,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "fierce",
@@ -67,11 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 3,
    "seen": 3,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "gnews",
@@ -79,11 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 88,
    "seen": 94,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "fda-recalls",
@@ -91,11 +91,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "fda-consumer",
@@ -103,7 +103,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -115,11 +115,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "fr-hhs",
@@ -127,11 +127,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "doj",
@@ -139,11 +139,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "usada",
@@ -151,11 +151,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "mhra",
@@ -163,11 +163,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "gnews-state",
@@ -175,11 +175,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "gnews-anab",
@@ -187,11 +187,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 0,
    "seen": 12,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   }
  ],
  "items": [

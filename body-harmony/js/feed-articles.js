@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-21T07:21Z",
+ "generated": "2026-11-21T19:25Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
-   "new": 42,
-   "seen": 62,
-   "lastOk": "2026-11-21T07:21Z"
+   "new": 43,
+   "seen": 63,
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "epmc",
@@ -19,10 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-21T07:21Z",
-   "ok": true,
-   "new": 27,
-   "seen": 45,
+   "checked": "2026-11-21T19:25Z",
+   "ok": false,
+   "error": "The read operation timed out",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-21T07:21Z"
   },
   {
@@ -31,11 +32,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "bpd",
@@ -43,11 +44,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-21T07:21Z"
+   "lastOk": "2026-11-21T19:25Z"
   },
   {
    "id": "gnews-gh",
@@ -55,11 +56,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-21T07:21Z",
+   "checked": "2026-11-21T19:25Z",
    "ok": true,
-   "new": 0,
-   "seen": 5,
-   "lastOk": "2026-11-21T07:21Z"
+   "new": 1,
+   "seen": 4,
+   "lastOk": "2026-11-21T19:25Z"
   }
  ],
  "items": [
@@ -93,6 +94,14 @@ window.FEED_ART={
    "d": "2026-11-21",
    "s": "gnews-a",
    "x": "Experimental Weight-Loss Drug Retatrutide Cuts Knee Pain in Osteoarthritis Trials SSBCrack",
+   "c": "Industry"
+  },
+  {
+   "t": "Health minister requests parliamentary inquiry into safety of online prescribing practices for peptides - The West Australian",
+   "l": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMV9IYW1PMjEzbTlvWUx6QVMxakJ4aFVTNldvODJRcC1QLTIzcjdFYUNLOUd2VW51eW9Vejdwbll4WXJXdTNGUkpnYVM4d1ZERlMtdDB5b29PYktwZFI2Y2NNTmFLZWYyMVM4TkNoRXNvNHJkY2t0NVNhZGpsdEJJemtvYjA3eGtLbFpib0xmMWRzUE5wbnA4bDIyMXplOWZBbFRGX0V2NXc0WXJESjZLT1FPQW9zRXZHQXJmdmdhaVZGNk1PdW9uSXpQM29fdDBPWmpXRXF6Q25wcUpxdEt2dVlBVFhRZlpOSGVCdEpuMTlQbUEtSEHSAfsBQVVfeXFMT0V3dXJiU3BHYnNhd2hCUDFHQUNLZDQzN0lIWEZheWJuU3lMT1ZMdS1qcF93T0Y0UVpselFncUpNVEVCd3M1VTNMb0YtZGx1cDVWTGpleERBelk3bExtVlZNSEJUMlNhV1gzdlJQNWhCNXY2N3JGSXZzX1JhN3p2TW9xT1RfLVpQUjdLT1NJVHFvZ0JlSU1BRzFhSmtuQ0MxTElQN2RiU3ZyVmZGR3BtajFkbzFZd0FzV0x6NmdLY1hiU05OSHlVMnhWc3RQVnNYcWE5ZmZCUFN1NUtvcDZVUEZfRk1ZV3NpajhhOEYyOHhOeWZ5NGIyZm1TTkk?oc=5",
+   "d": "2026-11-21",
+   "s": "gnews-a",
+   "x": "Health minister requests parliamentary inquiry into safety of online prescribing practices for peptides The West Australian",
    "c": "Industry"
   },
   {
@@ -152,6 +161,22 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "8 Retatrutide Side Effects You Should Know About - GoodRx",
+   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBUcEtMYXQ2bHBuVEZrdFZBWndOTXMtU0tHV1p3d015RWRIekIya1doVzF5b3htU2hybTNvVG00OEdOVXBvUHN0SFhoa19KV3NxUF90RGRSeXNRY0tZbk9IYkJRQmNCUV85M0NTUHpZSm43QnY1UGt3bDhn?oc=5",
+   "d": "2026-11-20",
+   "s": "gnews-a",
+   "x": "8 Retatrutide Side Effects You Should Know About GoodRx",
+   "c": "Industry"
+  },
+  {
+   "t": "Blue Interactive Agency Publishes New Resource on Peptide Therapy SEO as Patient Search Trends Reshape Healthcare Marketing - Milwaukee Journal Sentinel",
+   "l": "https://news.google.com/rss/articles/CBMihwJBVV95cUxONWhsWHNJRzNxVUJ3Zmt2c0NCV0xvS3QxYy11aWhianpfbklkaFdwRV9IX1dVVm1ZUmhxei05YzZwUk9RdHM2cmFMbzQ2TG15ZFdmSmFGVHE0V285dWJHRmlQUE1tOUVRVG9HSWxUWGpxTFRDbUIxSkpyU0h0Si1jaGs2N0dodlNtekdXY0JzMS01ZEExN3J5NE1zSzgycUJIc1VtU01YQVJOWDBwLUtFTkI0cUNYVzVEQ0tmUHdJWEMxZGZXZUpuRFo4YjB1WVFjRzQ5di14ZkJmamdCcE1oSE15czJpLVBQZzdWY0ZZOWFONm1oZnVhb2RvMmpYdzE5ekMtNlJXTQ?oc=5",
+   "d": "2026-11-20",
+   "s": "gnews-gh",
+   "x": "Blue Interactive Agency Publishes New Resource on Peptide Therapy SEO as Patient Search Trends Reshape Healthcare Marketing Milwaukee Journal Sentinel",
+   "c": "Industry"
+  },
+  {
    "t": "HHS peptide compounding pathway could curb gray market but broaden demand - Nutrition Insight",
    "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdEw3MUxickJoSlNpYWJjcTdvRVo5U2NOUFpCNkZYVHZuRFdSdG0tNnBYLUdUcTlSOTZidG5JbTFBRzVQTUk5ZUN1d2diVVVTWHNMNHlKUnpvUVRTVmFicHlpeGdzODViVlQwM01pUmUtTTY2eEtvaTR0bjE2QTkxT0h3RUpXUnZvUEVNN2RkRQ?oc=5",
    "d": "2026-11-19",
@@ -182,6 +207,14 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Morphologie · Campos O, Dias FCR, Melo TNT, Valença MM, Melo EN.",
    "c": "Research"
+  },
+  {
+   "t": "Assurion Labs Sets a Verified-Lot Standard for Research Peptides: ≥99% HPLC Purity, Peptide Net Content and Comprehensive Screening on Every Lot - Yahoo Finance",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMGhYTUkzcy1taUhGZ1FYNmt5TEwyaDVyTVhQU1d1bi1kcENaUkRxUUs3VUpXeFYyVzFKSldiQWZVNVp6Vk9Qblp4a01SR1U2QmFrTVpFaXRZZHpUYmRtZ0p4ZWpwcGlyZ0dabVBZWGRVZDVlRVRXbzhhT2ItZmFGUEhlMVpwVjAxMEVjT3dacWlLNENxWnhj?oc=5",
+   "d": "2026-11-19",
+   "s": "gnews-a",
+   "x": "Assurion Labs Sets a Verified-Lot Standard for Research Peptides: ≥99% HPLC Purity, Peptide Net Content and Comprehensive Screening on Every Lot Yahoo Finance",
+   "c": "Industry"
   },
   {
    "t": "Retatrutide Brought Up to Half of Nondiabetic Sleep Apnea Patients to Mild or No Disease in NEJM Trials - Medical Daily",
@@ -488,11 +521,11 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Urgent warning over illegal peptides seized in Canada due to contamination with deadly bacteria - Daily Mail",
+   "t": "Warning over peptides after batch contaminated with bacteria - Daily Mail",
    "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWdmMjgzNTlValN5dU9IYkYyTjhrQ25oX0x2d3N5NG5wYl9PS1UyMUxlRWp3aXUtOFJDenFGWGxXZmUtWjlZWTR0ZWNBRkhQV3Z4ODJvdWVoQVB2UC1hZXRpY3Q5OXFUWWh0eGV6SVRzcG1mcVFzMjE1Z3pJdlYwUG1kUTk1TEJLR2Y0TTdwMFI?oc=5",
    "d": "2026-11-13",
    "s": "gnews-a",
-   "x": "Urgent warning over illegal peptides seized in Canada due to contamination with deadly bacteria Daily Mail",
+   "x": "Warning over peptides after batch contaminated with bacteria Daily Mail",
    "c": "Industry"
   },
   {
@@ -517,30 +550,6 @@ window.FEED_ART={
    "d": "2026-11-13",
    "s": "gnews-a",
    "x": "4 Best Resources for Retatrutide Peptide Research and Clinical Trial Information in 2026 Business Matters",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide halved knee pain for nearly 2 thirds of participants - NewsBytes",
-   "l": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOS1d4QzQ2TGpMNm5LNXl1N3lpYjYxMGFqZEpYNG40UENMSmE3MnVMd1BVNGg2cm52Vm16clV2Y1FiS05CWHh1U0Q4WVNGcEVKaEtiUWpQWDB5WURhd1NkMVRsZV91YTVwTWZncGN1b0JubGNvTVNoSFJqUkF2RDdEaFAxR0R2dTlrRHVjckhmSXBZM3B3aXFQMEpVZmM2UTR5UmFsTThQODNpYkNHM3ZWNA?oc=5",
-   "d": "2026-11-13",
-   "s": "gnews-a",
-   "x": "Retatrutide halved knee pain for nearly 2 thirds of participants NewsBytes",
-   "c": "Industry"
-  },
-  {
-   "t": "RFK Jr. eased access to some peptides. Will that pull users away from the gray market? - NBC News",
-   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQTlR5dXl5TG8xRjM1S1dVdVg4anlySzZ2WWVwQkNhYmdSYkhnY01CRXZpeEx5dWJYV2VSVENoZTVHSjdyMXVDTDdsVTktVWhkbEROLUd0dUUzWWlmMFl5MGRQLXlLbV9FY3UweFNwVHpwcGtzVmlmdDZMOWJCMnJOaUdaN3ZlVTJfUUtVUjlWY2hrVm8yRVA0TS1mclBKYWRZSUtFdWlhdw?oc=5",
-   "d": "2026-11-13",
-   "s": "gnews-a",
-   "x": "RFK Jr. eased access to some peptides. Will that pull users away from the gray market? NBC News",
-   "c": "Industry"
-  },
-  {
-   "t": "Peptide gold rush: US policy shift exposes safety and regulatory gaps. - Personal Care Insights",
-   "l": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNOEY2ZldSbkw5UGk1WHc5d1dJYkMtbU1sdG9tOHI4enlaS0pYajRDdXh0SmtrSEU0VGk5cURybFNTZEpUMFBrTTJyOU95akpRLU9iWUdMOWN4Qzd6a2VEZmxvam0tV2NpZzh4M25VWmRicWEwZThjNEFGSlBnWTduOXU2dHBFTTg1bWc?oc=5",
-   "d": "2026-11-13",
-   "s": "gnews-a",
-   "x": "Peptide gold rush: US policy shift exposes safety and regulatory gaps. Personal Care Insights",
    "c": "Industry"
   },
   {
