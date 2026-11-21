@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-20T20:29Z",
+ "generated": "2026-11-21T07:21Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-20T20:29Z",
+   "checked": "2026-11-21T07:21Z",
    "ok": true,
    "new": 42,
-   "seen": 59,
-   "lastOk": "2026-11-20T20:29Z"
+   "seen": 62,
+   "lastOk": "2026-11-21T07:21Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-20T20:29Z",
+   "checked": "2026-11-21T07:21Z",
    "ok": true,
-   "new": 33,
+   "new": 27,
    "seen": 45,
-   "lastOk": "2026-11-20T20:29Z"
+   "lastOk": "2026-11-21T07:21Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-20T20:29Z",
+   "checked": "2026-11-21T07:21Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-20T20:29Z"
+   "lastOk": "2026-11-21T07:21Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-20T20:29Z",
+   "checked": "2026-11-21T07:21Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-20T20:29Z"
+   "lastOk": "2026-11-21T07:21Z"
   },
   {
    "id": "gnews-gh",
@@ -55,14 +55,46 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-20T20:29Z",
+   "checked": "2026-11-21T07:21Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 5,
-   "lastOk": "2026-11-20T20:29Z"
+   "lastOk": "2026-11-21T07:21Z"
   }
  ],
  "items": [
+  {
+   "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
+   "l": "https://doi.org/10.1002/rcm.70179",
+   "d": "2026-11-21",
+   "s": "epmc",
+   "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
+   "c": "Research"
+  },
+  {
+   "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
+   "l": "https://doi.org/10.1002/glia.70240",
+   "d": "2026-11-21",
+   "s": "epmc",
+   "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
+   "c": "Research"
+  },
+  {
+   "t": "Semaglutide-Induced Weight Loss Does Not Impair Muscle Function and Improves Endurance Running Capacity in Obese Mice.",
+   "l": "https://doi.org/10.1002/jcsm.70427",
+   "d": "2026-11-21",
+   "s": "epmc",
+   "x": "J Cachexia Sarcopenia Muscle · Minderis P, Cesanelli L, Sviderskis M, Venckunas T, Gray SR, Ratkevicius A.",
+   "c": "Research"
+  },
+  {
+   "t": "Experimental Weight-Loss Drug Retatrutide Cuts Knee Pain in Osteoarthritis Trials - SSBCrack",
+   "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzRieGE5VHlDcF8zWmxtMUZscW5GbU1maTBsLVdCSGFLcDlZNnNsR1UwM3J2V3FqdU5GNzlxbUxyMEdzR215ak5xaUZ2MTNSdkxOdHBHVmlpZ0VyRjd6UXhObmpqWDJpMlI2bWJfeFAyNlBwaU1raVlWMzFKaWo2Q05xbmY0alk4YTE1OC1zTVJ0NVFEc21NcHpPX0VEdEp6N01YZlRTZ0twTnkw?oc=5",
+   "d": "2026-11-21",
+   "s": "gnews-a",
+   "x": "Experimental Weight-Loss Drug Retatrutide Cuts Knee Pain in Osteoarthritis Trials SSBCrack",
+   "c": "Industry"
+  },
   {
    "t": "Black-market peptide use in New Zealand, by the numbers - The Spinoff",
    "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQVE1ZHZqOUtKaURQejU4ZzIwdGplZzk1Z01STmVoVkVSaUxja2JhMXJiZzVHWGluOVZxSE1wOFJKc2hQLU01QXhSaVcteFhRZGRVUVdIT1VsRUhRZDZHSHVNNkUzaXJHZEl3SWx2djQ5NFBCUGV0eC1iV0tSd1BZb2JLZG5CTDNfNGRucTN2X3U0bmhfUWxlNTUyYmpZYWM?oc=5",
@@ -80,22 +112,6 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
-   "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-20",
-   "s": "epmc",
-   "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
-   "c": "Research"
-  },
-  {
-   "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
-   "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-20",
-   "s": "epmc",
-   "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
-   "c": "Research"
-  },
-  {
    "t": "Retatrutide vs Semaglutide for People With Type 2 Diabetes - Medscape",
    "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX1d5YlRpbW1SZk1hTW81emhVVUNGX0FlVTZuZnlWamw5WndmUkxtTXhxbGlxR21Uck8wQlZfZmE3SU5DQ2pWRUJiMkdNTlUxcVRmM29fcU1NMldORmFqaHVUM1pfMEc2TjhDb2E2MzlJMEY1M0RSQXF0Q2RyS2x5Z1JYcW1JRy1kTGlxTHRIcnFqNkZfcXRxejRWWFYwUXpU?oc=5",
    "d": "2026-11-20",
@@ -104,11 +120,11 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Retatrutide helped two-thirds cut knee osteoarthritis pain in half - UA.NEWS",
+   "t": "Experimental drug retatrutide helped two-thirds of participants cut pain in half — ScienceDaily - UA.NEWS",
    "l": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTDEwaERnNUlobEE1VHFLX1hhWDFUZ3BkaGM1SlBHZVU4bjBWcW9ZR0IzbjJvWDZKMHFTRkhDOXJ0VGVTSlJ5cV93TTJlam9ZY1V0ZHdnVEJ3eEd1NDlGQnhkVV9UTE5rbXhibkdkcEh1emlKV2U2OThYLXpVd005ZHpiVFhrSHlQdkNPSUg2NVM0bHBYY1VKUzFveExWMkZtMnVBTDAwXzlHR2g2OFB3M00yZ3M1VGRWSnItdW81dUdDczlSX3I1b1BjR1ZWM2dOQldz?oc=5",
    "d": "2026-11-20",
    "s": "gnews-a",
-   "x": "Retatrutide helped two-thirds cut knee osteoarthritis pain in half UA.NEWS",
+   "x": "Experimental drug retatrutide helped two-thirds of participants cut pain in half — ScienceDaily UA.NEWS",
    "c": "Industry"
   },
   {
@@ -120,19 +136,19 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Semaglutide-Induced Weight Loss Does Not Impair Muscle Function and Improves Endurance Running Capacity in Obese Mice.",
-   "l": "https://doi.org/10.1002/jcsm.70427",
-   "d": "2026-11-20",
-   "s": "epmc",
-   "x": "J Cachexia Sarcopenia Muscle · Minderis P, Cesanelli L, Sviderskis M, Venckunas T, Gray SR, Ratkevicius A.",
-   "c": "Research"
-  },
-  {
    "t": "Blue Interactive Agency Publishes New Resource on Peptide Therapy SEO as Patient Search Trends Reshape Healthcare Marketing - Detroit Free Press",
    "l": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPX2RVaDJKVWFoUndSaUdtLTdibEVWY0o1andLRFRCRXp1MWM3eVpDTnRrYTRNX2k5bi1sYkNWcGRmemJKbl9CNUNuWnRENmlyT0FVOC1fS21lUjk1THUyZTJWYXM0Nkhxb0ttXzlVVjFJcFlxUV9Tc3pLT3dZR2o0UkVPSDc0SG1Vd1g2MTdKem1uWkU2N1RhSGxTRnRoLWdHWllpVGt0MUU5eXRYaEk2M2ZSOF91SXdoYWpvYzNYVG56R01VV3ZXN2RYUXV1akFLNWpLZURZc1dpVzJFaUt2dVQ4QVNJOUx5eUt0eEc5bTdYVmhTMjhtb2Y3U3l6ZEV0UWJJ?oc=5",
    "d": "2026-11-20",
    "s": "gnews-gh",
    "x": "Blue Interactive Agency Publishes New Resource on Peptide Therapy SEO as Patient Search Trends Reshape Healthcare Marketing Detroit Free Press",
+   "c": "Industry"
+  },
+  {
+   "t": "Void Research Peptides Discount Code {〖「BOOST30」〗}: Up to 30% Off — TESAMORELIN: - publika.id",
+   "l": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxPdmxoREIxbTFsU1l3dUtxdkZZS2p0M2pPUXpXQUhPNm5pNkRJNi0yaHU0VWNEVEJRMFlsQ3dBZGZNMldRcy1odFZuUDN5ODl1OVl6c0pHQkVtQjJKQkV3U1J1UE9IUmVOWW92UnZtMmUxXzNQRGJTOUNwWXBfQXYzcm95M0tKWjA0SmREQ25vc1NjQklBWS1uMmROdzh0cVNhRHRkTXpua0hVT3JDWE9QZGhlVG1Vbmh1ODk2LW90dnpWY3JSeER4eUhPSHJwVFd4XzlSOEV0WnVBMldvZWtWVHJRdXV1TXQyU0ZLeDE3NGRXQjB4X3Z3eV9HNmdXb29BUGlld0pFTXZNMXpFeDBXQkF4YjZZQmk4WGZHa2U1dEZjSldEaGhHNkpDZHVVbjhiZnlFTlJqNE1LTUhYWXRDcS1aN1VvZzFUR3NQUEx3SUxHaHRpajYtQ0RtaEdYeWpUcHVSTWRwMHJUajRNdEE?oc=5",
+   "d": "2026-11-20",
+   "s": "gnews-a",
+   "x": "Void Research Peptides Discount Code {〖「BOOST30」〗}: Up to 30% Off — TESAMORELIN: publika.id",
    "c": "Industry"
   },
   {
@@ -541,22 +557,6 @@ window.FEED_ART={
    "d": "2026-11-13",
    "s": "stat",
    "x": "With a new deal announced this week, the relationship between Eli Lilly and a telehealth company that markets GLP-1s is expected to grow more complicated.",
-   "c": "Industry"
-  },
-  {
-   "t": "8 Retatrutide Side Effects You Should Know About - GoodRx",
-   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBUcEtMYXQ2bHBuVEZrdFZBWndOTXMtU0tHV1p3d015RWRIekIya1doVzF5b3htU2hybTNvVG00OEdOVXBvUHN0SFhoa19KV3NxUF90RGRSeXNRY0tZbk9IYkJRQmNCUV85M0NTUHpZSm43QnY1UGt3bDhn?oc=5",
-   "d": "2026-11-13",
-   "s": "gnews-a",
-   "x": "8 Retatrutide Side Effects You Should Know About GoodRx",
-   "c": "Industry"
-  },
-  {
-   "t": "How Research Peptides Are Made: Solid-Phase Synthesis and Analytical Quality Control - eHealth Magazine",
-   "l": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQeU8wNWhkTldxNTJ3MzZNTGZ2NGszZmZFZDVBaDl0UVBpOVFxTlJNVm9IdFJpZWI3Tk1HaVZpVWRTN0lKUFdENUlYSUNyLWM2TTBqSFJUU1RMSjRjaERLVGh3ZkJaNlpsMnJMc2VnRkFmZWk3V0w4TFRGWk9pcThhYmV6NFk3dGh3eFZnVFFscXdKS2RlM0FHOXZmUFFDQUNrSFJEU05DbVQ4cXFLUGhObEZJMGZ0V0oxWjhLUGVWSFlLZw?oc=5",
-   "d": "2026-11-13",
-   "s": "gnews-a",
-   "x": "How Research Peptides Are Made: Solid-Phase Synthesis and Analytical Quality Control eHealth Magazine",
    "c": "Industry"
   },
   {
