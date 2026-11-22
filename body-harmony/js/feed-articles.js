@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-21T19:25Z",
+ "generated": "2026-11-22T07:01Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,10 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-21T19:25Z",
-   "ok": true,
-   "new": 43,
-   "seen": 63,
+   "checked": "2026-11-22T07:01Z",
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-21T19:25Z"
   },
   {
@@ -19,9 +20,9 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-21T19:25Z",
+   "checked": "2026-11-22T07:01Z",
    "ok": false,
-   "error": "The read operation timed out",
+   "error": "HTTP Error 503: ",
    "new": 0,
    "seen": 0,
    "lastOk": "2026-11-21T07:21Z"
@@ -32,11 +33,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-21T19:25Z",
+   "checked": "2026-11-22T07:01Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-21T19:25Z"
+   "lastOk": "2026-11-22T07:01Z"
   },
   {
    "id": "bpd",
@@ -44,11 +45,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-21T19:25Z",
+   "checked": "2026-11-22T07:01Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-21T19:25Z"
+   "lastOk": "2026-11-22T07:01Z"
   },
   {
    "id": "gnews-gh",
@@ -56,11 +57,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-21T19:25Z",
+   "checked": "2026-11-22T07:01Z",
    "ok": true,
-   "new": 1,
-   "seen": 4,
-   "lastOk": "2026-11-21T19:25Z"
+   "new": 0,
+   "seen": 3,
+   "lastOk": "2026-11-22T07:01Z"
   }
  ],
  "items": [
