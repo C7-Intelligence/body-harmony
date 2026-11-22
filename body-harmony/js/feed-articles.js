@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-22T07:01Z",
+ "generated": "2026-11-22T19:48Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,12 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-22T07:01Z",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-21T19:25Z"
+   "checked": "2026-11-22T19:48Z",
+   "ok": true,
+   "new": 50,
+   "seen": 66,
+   "lastOk": "2026-11-22T19:48Z"
   },
   {
    "id": "epmc",
@@ -20,12 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-22T07:01Z",
-   "ok": false,
-   "error": "HTTP Error 503: ",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-21T07:21Z"
+   "checked": "2026-11-22T19:48Z",
+   "ok": true,
+   "new": 28,
+   "seen": 45,
+   "lastOk": "2026-11-22T19:48Z"
   },
   {
    "id": "stat",
@@ -33,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-22T07:01Z",
+   "checked": "2026-11-22T19:48Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-22T07:01Z"
+   "lastOk": "2026-11-22T19:48Z"
   },
   {
    "id": "bpd",
@@ -45,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-22T07:01Z",
+   "checked": "2026-11-22T19:48Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-22T07:01Z"
+   "lastOk": "2026-11-22T19:48Z"
   },
   {
    "id": "gnews-gh",
@@ -57,18 +55,18 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-22T07:01Z",
+   "checked": "2026-11-22T19:48Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-22T07:01Z"
+   "lastOk": "2026-11-22T19:48Z"
   }
  ],
  "items": [
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-21",
+   "d": "2026-11-22",
    "s": "epmc",
    "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
    "c": "Research"
@@ -76,7 +74,7 @@ window.FEED_ART={
   {
    "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
    "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-21",
+   "d": "2026-11-22",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
@@ -84,10 +82,18 @@ window.FEED_ART={
   {
    "t": "Semaglutide-Induced Weight Loss Does Not Impair Muscle Function and Improves Endurance Running Capacity in Obese Mice.",
    "l": "https://doi.org/10.1002/jcsm.70427",
-   "d": "2026-11-21",
+   "d": "2026-11-22",
    "s": "epmc",
    "x": "J Cachexia Sarcopenia Muscle · Minderis P, Cesanelli L, Sviderskis M, Venckunas T, Gray SR, Ratkevicius A.",
    "c": "Research"
+  },
+  {
+   "t": "Government launches inquiry into peptides amid surge in hospital visits - ABC News & Headlines – Australian Broadcasting Corporation",
+   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1BmMGpwVERxdkhvQ0pRaWIzNHB5UmlOTmtXcHpvMHBZdmdfbnN3dF95S2ttV180Zjg3T0c3bXUzRWk1VXdHLVU4SzhPZ1BjaWV6REg1M1BCb1U5MjNxbTdqUGJfcmZaRTFWeURtaEt5SU9zQ3N0OFdoTGhsbVJ3NVY3VTRFZTVnODlTc0RKM191UjNnTHpnWlV4Vl9zZFVi?oc=5",
+   "d": "2026-11-22",
+   "s": "gnews-a",
+   "x": "Government launches inquiry into peptides amid surge in hospital visits ABC News & Headlines – Australian Broadcasting Corporation",
+   "c": "Industry"
   },
   {
    "t": "Experimental Weight-Loss Drug Retatrutide Cuts Knee Pain in Osteoarthritis Trials - SSBCrack",
@@ -103,6 +109,14 @@ window.FEED_ART={
    "d": "2026-11-21",
    "s": "gnews-a",
    "x": "Health minister requests parliamentary inquiry into safety of online prescribing practices for peptides The West Australian",
+   "c": "Industry"
+  },
+  {
+   "t": "$100M Gray-Market Peptide Trade Runs on Crypto, Chainalysis Reports - CoinMarketCap",
+   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeUZ3Y0phek1CR0hCc295bnVCQWZocWlGZDVDVjRLZW5FWHUzNk1Qd3Y0SjFid2s2SUpNREpueVNkM2V4UEVVelJOb3NCMTlXSUhhcU1XVlZYWGZPSExJdXF4dmI0Z3BRRmZFLUZYMExjd0pNOVpKWkpxRmQ0blludHEyMURzYTdVblc5d1JIZnh5RV9OM1E?oc=5",
+   "d": "2026-11-21",
+   "s": "gnews-a",
+   "x": "$100M Gray-Market Peptide Trade Runs on Crypto, Chainalysis Reports CoinMarketCap",
    "c": "Industry"
   },
   {
@@ -175,6 +189,14 @@ window.FEED_ART={
    "d": "2026-11-20",
    "s": "gnews-gh",
    "x": "Blue Interactive Agency Publishes New Resource on Peptide Therapy SEO as Patient Search Trends Reshape Healthcare Marketing Milwaukee Journal Sentinel",
+   "c": "Industry"
+  },
+  {
+   "t": "Peptide boom in Australia fuelled by illegal Chinese imports - AFR",
+   "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORVZYNGF3b1lkYkxLcXVucGtjdXN5VVpBVjlYZ2hVUmRYOE1YRG15YnNMRHJpZGdIRHAxV2JIdkFlaXdJRVZYZG1oWHAtWEZyZ1dRRkVtQ29NMUVzRzU2ckNxVW9hNmhfam12S0pMR0ttSFBfTk8xcG5VQ3RPeV9EYllhXzRnUFd1Vm5POGx4UWxBWC02YzFfaE42TjlURDFRT1B4ek9yM0tNRVM0cDE2X1FDLXJWSjJ2VDItM3pob3dTRzBPc1Q4M2xXNEZkUQ?oc=5",
+   "d": "2026-11-20",
+   "s": "gnews-a",
+   "x": "Peptide boom in Australia fuelled by illegal Chinese imports AFR",
    "c": "Industry"
   },
   {
@@ -418,6 +440,30 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "Health Canada seizes unauthorized peptide vials six days apart - Benefits and Pensions Monitor",
+   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOckRNWG1PdmdGZDRaVHZhTThJZlFmV1pXUXd3SmladE9WdXpSanhBaGtpZi1JYXE1dVA5MjEyUy1ueEJQMGUzdnVJMEZEVWRrR19ZVndJUTAyeE1JV3hyUTcyTUVTcHZnaHo1dXRSVXdWR19Mb2FoVmh0Q2VfQnhxeGlTdE44aUEtUWJqMHNrcDRRaEhUS3lxVktEd0h4dlZ2VWZXM2V5WFhwT3k1YUZUU1FueUlnNW1WTWRBeTN1RTRpUXl4TDFn?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-a",
+   "x": "Health Canada seizes unauthorized peptide vials six days apart Benefits and Pensions Monitor",
+   "c": "Industry"
+  },
+  {
+   "t": "Are peptides legal now? What the new HHS policy really means - KMZU.com",
+   "l": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdU5SSjNCOS03Z3hWM19nbFN3a0dvX2FNSkNVMGxraWNXVzI1QlhfR0Jmakt3Y19OYUtqZnF6NHc0TWFSRHcwOUZJZFVyYWcyNHdUbzNodThPNTNZS1hWVno5NFY1eVFMUm9lZnV4bFBYRkYwODMxZThMZ2Rqcjh0aXZqOGE1N213QTBIc2RXZUhqSmRSbEtxbjdBb2Fjek96WFpVczBiQWliNTJ4bW9KTjAxWHB5c0RaR2I1aU5FNHd3d2ZkRk9FbzUtdWhycWc0c1VXTWdCWnpNTXBtZHlIQy1n?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-a",
+   "x": "Are peptides legal now? What the new HHS policy really means KMZU.com",
+   "c": "Industry"
+  },
+  {
+   "t": "Are peptides legal now? What the new HHS policy really means - Building Indiana Business",
+   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMURFYllJRXFzUUFnQzNxZG1oTG9XOFdodmVxd0xkZXd0dmdudF9tSWlYaDJUdGt2ZXR0XzU3ZUV2ZndENjF0VXlKbWJHTzRtU2hjMVFBODVsVUxJZ0c0REdpWEhfZDVqUjRHWkg4R3NfNFFLWGxFZ29XYmZOS1ExTEJHaVhJLTZOaTV1SXA0b0JleGxIY3Rza2ZFR0JLUk8xOUFLLWlrZXBsMFR6WkoweWFrYUxEOW1SLXc?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-a",
+   "x": "Are peptides legal now? What the new HHS policy really means Building Indiana Business",
+   "c": "Industry"
+  },
+  {
    "t": "Soft Movable Nanosystems for Synergistic Intervention of Hepatic Injury Induced by Severe Burns Plus Delayed Resuscitation.",
    "l": "https://doi.org/10.1002/adhm.71936",
    "d": "2026-11-15",
@@ -498,59 +544,11 @@ window.FEED_ART={
    "c": "Research"
   },
   {
-   "t": "Health Canada flags safety risks of unapproved peptides after bacterial contamination - Firstpost",
-   "l": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNb2U0d1U4bUZTdG1ZRHFVM1k0Vjl6clh0SzhDQjJOTUhHc0dfbF9qcG9yWXUwTEkwOTc5SWJKZDRoenloZGtYdXZET0RSVUtTcjVzNWdzN1drVGViRmpHTGRna3pxYlVIbElXQUFxdnhDcFoxOXBabGtkaE1CVFF2OVNMZG1YUDdJX1NKNXlqMEVRcnBFckJNbDUxeklxclpfdHRfOVV6cDZQNDM2bGFGdHJhaGFFRTE3NFhxWnFqOHNNQUpGYVBOb0kyb9IB0AFBVV95cUxOd3k0cEVENmNJelFBdGpWRjRoTllzOEJDV1hZSGV0a3JMZkFuYThkNWZjY2JhbkdwSTNSVUxuRmNIeFk0dGZTcmRvdndZSWtEcHhqRDVJTzdRVkUwRTV4eGUwTWFUbEtNeE1nc1picDRsVWZ5WDdfVm1YMHhFLXM2QTRTMnJJN3JkZzhJR0h4dTBTUi1TWnQ4QWZTMWFTS1ZRaVRYdUExbmxzQnlCSmlrT1RKd0lxVDNlUXkwVm5JRzBLcXoyclVaX3NoYTViTExf?oc=5",
-   "d": "2026-11-13",
-   "s": "gnews-a",
-   "x": "Health Canada flags safety risks of unapproved peptides after bacterial contamination Firstpost",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide’s Mechanism of Action: How It Works for Weight Loss - GoodRx",
-   "l": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQSWo1LTVKZTRzQjB6UTFKR3U4OEdwekF3SmsySy04RW4ybDdzdTc2WmRHNHpwbXZ4WWRGOU11amVKSVdwanc3Vm5CdUhhVjhzb05mSUpsdDVvVTF6TEoxVTBHaENyNGJFajdJOUFDaXlFdDAwRjdkU2lDdkFHNHVlY1J3cw?oc=5",
-   "d": "2026-11-13",
-   "s": "gnews-a",
-   "x": "Retatrutide’s Mechanism of Action: How It Works for Weight Loss GoodRx",
-   "c": "Industry"
-  },
-  {
    "t": "Longevity Clinic Palm Beach Gardens FL: How Proactive, Data-Led Care Works - South Florida Reporter",
    "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxObktwdEZPa0NoYnRQY3k2NnJJRHhPWDJ5UUVPV19nQUlUTDdmRW4zbEZHMm5ZM2R6YjJhc0FoeDF0T19EZEkwc0UyRjJiaVVUNTR6RHRpZURrcEItSG1od2Y5WjJ4cWQxX2JPZ2FVN2psSFNWVThOaHUzWURkU2xaRmEwS3QyWk80X2VCNDYyU3ZsZWMyVmdEQmlCMHo4ckhESllqYkJ1anktUQ?oc=5",
    "d": "2026-11-13",
    "s": "gnews-gh",
    "x": "Longevity Clinic Palm Beach Gardens FL: How Proactive, Data-Led Care Works South Florida Reporter",
-   "c": "Industry"
-  },
-  {
-   "t": "Warning over peptides after batch contaminated with bacteria - Daily Mail",
-   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOUWdmMjgzNTlValN5dU9IYkYyTjhrQ25oX0x2d3N5NG5wYl9PS1UyMUxlRWp3aXUtOFJDenFGWGxXZmUtWjlZWTR0ZWNBRkhQV3Z4ODJvdWVoQVB2UC1hZXRpY3Q5OXFUWWh0eGV6SVRzcG1mcVFzMjE1Z3pJdlYwUG1kUTk1TEJLR2Y0TTdwMFI?oc=5",
-   "d": "2026-11-13",
-   "s": "gnews-a",
-   "x": "Warning over peptides after batch contaminated with bacteria Daily Mail",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy - LehighValleyLive.com",
-   "l": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQW1hT090cjBNNkpaeVNsQjhaQ0FIeWp2NTlMbnF5UTBlc3puc0diMGwwVFhlcWpfOFU3SVN4eHUtQVdJUEdHZkFwOEhmTEI1aFZja3FISWZoTUE3NW9OeElKYUMzdTZkbDlNYl9sNXctb1dleUpOLS1KWVpRWEdXYWo3bmktZXpCWUJ0UUJFS0Jib2ZtODRvNDViZXFyMnVid1pLbF9wbWJDUVdBMG1Zc1pQeFMtcC1FcXpRQzVYTGFhZW8?oc=5",
-   "d": "2026-11-13",
-   "s": "gnews-a",
-   "x": "Retatrutide, hot new diet drug, will fatten this Pa. region’s economy LehighValleyLive.com",
-   "c": "Industry"
-  },
-  {
-   "t": "AMA pushes back on federal peptide policy as doctors warn of limited safety evidence - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPVkJSVE9jUWM0NUNfay05U2VSLVJaQzdLVzNxRk9RazBvd1RzdDgtWWN1bkpNc0pqbVlsYXRFUVI5RFZYRXMyN0ZOVEdtVGtnNUUwMmZhSWVKZ0tLRnp1NW5CVUQ3OFBlNlJiVmRLbUwxUV9zZTlvbFdDbFhBVFhXNkdmb2RRYkh6TG1WRXh3?oc=5",
-   "d": "2026-11-13",
-   "s": "gnews-a",
-   "x": "AMA pushes back on federal peptide policy as doctors warn of limited safety evidence Medical Daily",
-   "c": "Industry"
-  },
-  {
-   "t": "4 Best Resources for Retatrutide Peptide Research and Clinical Trial Information in 2026 - Business Matters",
-   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbDJYSHZHMzFycDlySGJreWhIZzNVcmg0ZTdxb2hxUy0tQWhtMlZxSjlqdWd0UmZUazFwbUl0UlVxNW1DcUZsLVVPdEkwaUZSSTlBYV9Ia1hKZWJwQzJ1MWRjcmJhdWs5TXFBU3YzN2hwTG1ieVkyd1o5Rnl4MTdvczZRbHd5d2xIOF9jT09vUGhSeUtYWC14aUJTMndjX1pBekttZ2s5T0VNUnF0UVdwVTBCUDFZSmlyc0ZEUFR6aHM?oc=5",
-   "d": "2026-11-13",
-   "s": "gnews-a",
-   "x": "4 Best Resources for Retatrutide Peptide Research and Clinical Trial Information in 2026 Business Matters",
    "c": "Industry"
   },
   {
