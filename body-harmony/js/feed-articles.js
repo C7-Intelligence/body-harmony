@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-22T19:48Z",
+ "generated": "2026-11-23T07:50Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-22T19:48Z",
+   "checked": "2026-11-23T07:50Z",
    "ok": true,
-   "new": 50,
-   "seen": 66,
-   "lastOk": "2026-11-22T19:48Z"
+   "new": 76,
+   "seen": 97,
+   "lastOk": "2026-11-23T07:50Z"
   },
   {
    "id": "epmc",
@@ -19,10 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-22T19:48Z",
-   "ok": true,
-   "new": 28,
-   "seen": 45,
+   "checked": "2026-11-23T07:50Z",
+   "ok": false,
+   "error": "The read operation timed out",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-22T19:48Z"
   },
   {
@@ -31,11 +32,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-22T19:48Z",
+   "checked": "2026-11-23T07:50Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-22T19:48Z"
+   "lastOk": "2026-11-23T07:50Z"
   },
   {
    "id": "bpd",
@@ -43,11 +44,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-22T19:48Z",
+   "checked": "2026-11-23T07:50Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-22T19:48Z"
+   "lastOk": "2026-11-23T07:50Z"
   },
   {
    "id": "gnews-gh",
@@ -55,11 +56,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-22T19:48Z",
+   "checked": "2026-11-23T07:50Z",
    "ok": true,
    "new": 0,
-   "seen": 3,
-   "lastOk": "2026-11-22T19:48Z"
+   "seen": 2,
+   "lastOk": "2026-11-23T07:50Z"
   }
  ],
  "items": [
@@ -96,6 +97,22 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "Dodgy gym peptides: Hospital emergency cases surge - The Daily Telegraph",
+   "l": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOckVmZnp4bTdVaHg4ZmJPSEFYWVZscmxtelktUDlkZVN4MmdMVU5SY2R4R0gwQ0RhbmpJbV9wUGN6cS1lRmMtUjRqRi1YZFNZSDM4UXFkVWVEQzdVb1lCSDFCVjVpY1NCcXhwN0R0VjFPWXEtUzVMS1JCOGxYR0tsZEw4ak50NzVqWDIwZVRFN0FUZVRrS1oxeDRrYk1MZi1lR3IteGlvaUJuVVhsUlJ1ZUZzMkhkUjR5a0gxODFpWkZYRDBFVkpVYVhKYWR0V3hFMUxNTjBtYzQteFJYbEZhUmNCX29weXo4czhZaXZFYWdmbEZoZXdZVEkxckN2MkJ0cnNmdTBucnJBSEt3eXFtNHp1cnpXbXRYR2UzeG5VU1BVdFNjQWNTTGV2RGZhVUNj?oc=5",
+   "d": "2026-11-22",
+   "s": "gnews-a",
+   "x": "Dodgy gym peptides: Hospital emergency cases surge The Daily Telegraph",
+   "c": "Industry"
+  },
+  {
+   "t": "Eli Lilly's Next Obesity Drug Isn't Approved Yet, but Peptide Tracker Users Already Log It - The Globe and Mail",
+   "l": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUTVYLTF2dmhfTy1EMGhUZGZRMGpjS2d6a1RMeEF0WEtxYWE4eDhncFprd2dHT0tzMXhTVzdEb2t4T0QzbkNTZU9HckhpUjZHNVBDckMybW9wMXlrUFpnZ0NjaEl1YUNCRUx3R0pma2JHNjItOU1sYUd4TjNjdllIc3lUbnFWWVA5RlNjSXJtb0NQVXRiSG5GWGltRnMwZ2lieG1McENNeHlzMU5Lbmk4VjRTV0JhUVdrLVp3VWRqbEI2UnJTc3VmcjVISEliSEZKVVJaSldxU0xJZjlSYnBpdjh6NTFHOG96SF93SmZOY2NwU1RLRG1ZX1BwejEyUmds?oc=5",
+   "d": "2026-11-22",
+   "s": "gnews-a",
+   "x": "Eli Lilly's Next Obesity Drug Isn't Approved Yet, but Peptide Tracker Users Already Log It The Globe and Mail",
+   "c": "Industry"
+  },
+  {
    "t": "Experimental Weight-Loss Drug Retatrutide Cuts Knee Pain in Osteoarthritis Trials - SSBCrack",
    "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzRieGE5VHlDcF8zWmxtMUZscW5GbU1maTBsLVdCSGFLcDlZNnNsR1UwM3J2V3FqdU5GNzlxbUxyMEdzR215ak5xaUZ2MTNSdkxOdHBHVmlpZ0VyRjd6UXhObmpqWDJpMlI2bWJfeFAyNlBwaU1raVlWMzFKaWo2Q05xbmY0alk4YTE1OC1zTVJ0NVFEc21NcHpPX0VEdEp6N01YZlRTZ0twTnkw?oc=5",
    "d": "2026-11-21",
@@ -117,6 +134,22 @@ window.FEED_ART={
    "d": "2026-11-21",
    "s": "gnews-a",
    "x": "$100M Gray-Market Peptide Trade Runs on Crypto, Chainalysis Reports CoinMarketCap",
+   "c": "Industry"
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-11-21",
+   "s": "gnews-a",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos",
+   "c": "Industry"
+  },
+  {
+   "t": "Australia’s big move on peptides sold online - News24",
+   "l": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQY0llR2dVQkpySnR3UHVHYWVSelZpVDBGQmpiS0V4QjNyeVdoN0liOTRJSDR2SkFDc1hDa0dYaENBb3VQS1ExNGtrOWlWamdSMTJPSmZhQURqSTMyVEZMRUozNzhVNkFncmFHX3p5UVozLVZ5LXUyTkUtRjZDZlE5WkVESDBmeEp4amdiR0RyMEpVdjlpNy1TM1lHUm5FRlNHYmFaZjh0bHQ5ZE9NUmF6bzBXT3pubnZXbnVvLW0tSm9pOHhMbGJUcElpSVQ1NTZPN2VIQ0NVWk9ZZjdoYTk5TUxlX0hHdjRzTGY4RGNidkhQMkpRS1Y5TVY4T0dkeklqRmxORFNzeXZXNEs0cnkw0gGPAkFVX3lxTFBjSWVHZ1VCSnJKdHdQdUdhZVJ6VmlUMEZCamJLRXhCM3J5V2g3SWI5NElINHZKQUNzWENrR1hoQ0FvdVBLUTE0a2s5aVZqZ1IxMk9KZmFBRGpJMzJURkxFSjM3OFU2QWdyYUdfenlRWjMtVnktdTJORS1GNkNmUTlaRURIMGZ4SnhqZ2JHRHIwSlV2OWk3LVMzWUdSbkVGU0diYVpmOHRsdDlkT01SYXpvMFdPem5udldudW8tbS1Kb2k4eExsYlRwSWlJVDU1Nk83ZUhDQ1VaT1lmN2hhOTlNTGVfSEd2NHNMZjhEY2J2SFAySlFLVjlNVjhPR2R6SWpGbE5EU3N5dlc0SzRyeTA?oc=5",
+   "d": "2026-11-21",
+   "s": "gnews-a",
+   "x": "Australia’s big move on peptides sold online News24",
    "c": "Industry"
   },
   {
@@ -240,6 +273,14 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "Peptide market poised to explode with new Hims and Noom launches - STAT",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOG9MNnp0dzVHOGh6WFV1clhhaXlxTGpKZllpUTN4TUNma2duQTZMNVc4TWZKd2xGZkxfN0dQdHlQSEFicjFDTl9PV21VWXRPTm5RY1FmbEFXNmNTRXZXbFJGT1FsR3J4X2JpRUlHdFdVZVYwYkFGY1Q1UVM0WHJncWczSDNtcWhTeV9BMzI0RExTRUtFb2FVdmJSank0X2FnaGc?oc=5",
+   "d": "2026-11-19",
+   "s": "gnews-a",
+   "x": "Peptide market poised to explode with new Hims and Noom launches STAT",
+   "c": "Industry"
+  },
+  {
    "t": "Retatrutide Brought Up to Half of Nondiabetic Sleep Apnea Patients to Mild or No Disease in NEJM Trials - Medical Daily",
    "l": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xZGk4NHI5dWNWVW5nM0o4VFB3cGZuYVo5SUlHTDd6bEprRlBiMTI3ZHB6MVF0WXhaWFQtNERfVk9xbk1nU0pac3g0X1V5VGNWaV8wZHlSY0dYYnRuOEFLaERzTVBjdWMzYmF1bGw4MzY2ZXNTaGxmOVh1MFo0dw?oc=5",
    "d": "2026-11-18",
@@ -325,14 +366,6 @@ window.FEED_ART={
    "d": "2026-11-17",
    "s": "gnews-gh",
    "x": "Celebrating 10 years of helping men and women take control of their health News4JAX",
-   "c": "Industry"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-11-17",
-   "s": "gnews-gh",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos",
    "c": "Industry"
   },
   {
@@ -493,46 +526,6 @@ window.FEED_ART={
    "d": "2026-11-15",
    "s": "gnews-a",
    "x": "Top 9 Retatrutide OEM Service Companies 2026: Custom Manufacturing and Quality Review Priorities EIN Presswire",
-   "c": "Industry"
-  },
-  {
-   "t": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale - PR Newswire",
-   "l": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNcHYyYVFuYjdOT25NV2hrOS1kS3k0cVJYcXhUTUcyLXgxUzl4c1hJeVF1Vkl3MFQ2Wm5haWtXWks0LXdOeS1ocGJQZmp1TkJCTVozT0FCajZBdW1mN3dHYjc1LUNubndjNEROTFp6ckNQa0ZaVDNJQkJrMTZseERDbTRwWXRDUXhwRS1Lb09WbHNieXl5MFVBM0VHYWctQlZXTGFhaVVwbzl3Zk9YUTM2b3pwelk0a1ZrSHVMdkVRcllGcmpqd3piTXhtdzlmanAzYk5rR2hKUWRLX1N0UG5jVm14b3VybGM4TE5jTFRFdzRBNkM5RHVjazE2Vkkxb1duUm5QZTE3Q010XzVlY2RDNDRNZUdwdHM?oc=5",
-   "d": "2026-11-14",
-   "s": "gnews-a",
-   "x": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale PR Newswire",
-   "c": "Industry"
-  },
-  {
-   "t": "Peptide stacking explained: can combining GLP-1s and BPC-157 help you lose fat without losing muscle? - Men's Fitness",
-   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBCUU5uOGo5WnB4TlpNVEJlTkdNTTdKSVNoQy1MVTY4WE9LWEVtRS1xNlpHQlN3d2RTM2FJZm1wdjZfX3pOLWEweTZTQVBSa2hZU0hQLUdjRXc2OTU0N0haeEdvWjJZQk1oMXgzYWlQVE1PdEVNeEJDMllzdGk?oc=5",
-   "d": "2026-11-14",
-   "s": "gnews-a",
-   "x": "Peptide stacking explained: can combining GLP-1s and BPC-157 help you lose fat without losing muscle? Men's Fitness",
-   "c": "Industry"
-  },
-  {
-   "t": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale - Eli Lilly",
-   "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONW51WVVma0lWblZtZFBfOVpYa0J6X2NqZnJqbUZrYnlJSWJGLUpEMVl0ZEZUVm5qZWtyeFhtamZfemkteUtSSkw2X25xMEVKM3pXeU5xY2NCZkwtdUlEc0JFeGl6ajFGVjVPeWN4Nm9VeWdnci0tVlp3Z3l6TGlnYU1OZ21MV0hNY3FqcGhiZS1oSnBsRXViRGJ5NkVqbHNYaXRnclN3U3BEak1uT284TGVEVXBpbjdacWlveWlYNA?oc=5",
-   "d": "2026-11-14",
-   "s": "gnews-a",
-   "x": "Lilly to present new data across Zepbound, Foundayo, EloraTZP and retatrutide at ObesityWeek 2026, moving obesity care beyond the scale Eli Lilly",
-   "c": "Industry"
-  },
-  {
-   "t": "Lilly brings Zepbound teen data and retatrutide sleep apnea and knee pain results to ObesityWeek - MLQ.ai",
-   "l": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQaVZsbHZtd0VRZHdJVWhlMVFFVTVfc0hxcVlISUlpTFJJQ0prS01FeHlBUmJtMDhnNWxuRWZEeWU1R0hneGYtSW5DVWJpanJiSFc2Z1dkSnFyOVVGcGRfVFV6T0Y4cDE1ZElWLXd3eEtSM2NGMURLTXBBVG9ZUWNibTl6ZGhPYTAtUnNwa084eTVXeTBXM0ROVkpDUnoyQnU3T3pCYkRPa2VHVEtGV0pvc3pTMUptQlNi?oc=5",
-   "d": "2026-11-14",
-   "s": "gnews-a",
-   "x": "Lilly brings Zepbound teen data and retatrutide sleep apnea and knee pain results to ObesityWeek MLQ.ai",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide vs Semaglutide: What 80-Week Results Show - Diabetes In Control",
-   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVnhRVUVTWlk2Nm80azByNE9CTFMtdEpic3Z4VnVGdkMyeUI0QlBTS21aY1ZuR1RIRC1jX0JYd2FucGdydTR3TkZxa1RDYzBsdlZ5TVRDcmgzNU9rM25wZU13U3FHQ2NDSmtScnpHQkREbDdseXczbFpyREx2bEowRDNHV2YtNEhNM245Wg?oc=5",
-   "d": "2026-11-14",
-   "s": "gnews-a",
-   "x": "Retatrutide vs Semaglutide: What 80-Week Results Show Diabetes In Control",
    "c": "Industry"
   },
   {
