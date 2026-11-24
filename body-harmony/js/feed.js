@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-24T10:02Z",
+ "generated": "2026-11-24T22:33Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,12 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-24T10:02Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-24T22:33Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-24T00:00Z"
+   "seen": 1,
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "fda-drugs",
@@ -20,12 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-24T10:02Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-24T22:33Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-24T00:00Z"
+   "seen": 2,
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "fda-medwatch",
@@ -33,12 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-24T10:02Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-24T22:33Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-24T00:00Z"
+   "seen": 2,
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "fr-fda",
@@ -46,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-11-24T10:02Z"
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "fr-cbp",
@@ -58,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-24T10:02Z"
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "fierce",
@@ -70,12 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T10:02Z",
-   "ok": false,
-   "error": "HTTP Error 403: Forbidden",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-24T00:00Z"
+   "checked": "2026-11-24T22:33Z",
+   "ok": true,
+   "new": 1,
+   "seen": 1,
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "gnews",
@@ -83,11 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
-   "new": 110,
-   "seen": 138,
-   "lastOk": "2026-11-24T10:02Z"
+   "new": 142,
+   "seen": 148,
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "fda-recalls",
@@ -95,12 +91,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-24T10:02Z",
-   "ok": false,
-   "error": "HTTP Error 404: Not Found",
+   "checked": "2026-11-24T22:33Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-24T00:00Z"
+   "seen": 1,
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "fda-consumer",
@@ -108,7 +103,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -120,11 +115,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-24T10:02Z"
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "fr-hhs",
@@ -132,11 +127,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-24T10:02Z"
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "doj",
@@ -144,11 +139,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-24T10:02Z"
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "usada",
@@ -156,11 +151,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-24T10:02Z"
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "mhra",
@@ -168,11 +163,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-24T10:02Z"
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "gnews-state",
@@ -180,11 +175,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 21,
-   "lastOk": "2026-11-24T10:02Z"
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "gnews-anab",
@@ -192,11 +187,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
-   "new": 2,
+   "new": 0,
    "seen": 11,
-   "lastOk": "2026-11-24T10:02Z"
+   "lastOk": "2026-11-24T22:33Z"
   }
  ],
  "items": [
@@ -219,10 +214,26 @@ window.FEED={
   {
    "t": "What's New Related to Drugs",
    "l": "http://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
-   "d": "2026-11-23",
+   "d": "2026-11-24",
    "s": "fda-drugs",
    "x": "Want to know what's new on drugs from FDA? This page provides quick links to the latest on a variety of topics including: drug approvals, safety warnings, drug shortages, etc.",
    "c": "Regulation"
+  },
+  {
+   "t": "Registered Outsourcing Facilities",
+   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
+   "d": "2026-11-24",
+   "s": "fda-drugs",
+   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…",
+   "c": "Regulation"
+  },
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-11-24",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions.",
+   "c": "Industry"
   },
   {
    "t": "Guidance: GLP-1 medicines for weight loss and diabetes: what you need to know",
@@ -273,11 +284,11 @@ window.FEED={
    "c": "Safety"
   },
   {
-   "t": "Compounded GLP-1 Sellers Face Dozens of FDA Warning Letters Over Claims Their Drugs Match Wegovy and Zepbound - Medical Daily",
+   "t": "FDA warning letters target telehealth sellers claiming compounded GLP-1 drugs are the same as Wegovy and Zepbound - Medical Daily",
    "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ2NkMVV6dll1cHEwb0VxOFd2NUlCdDdwMlNVYURPWmJxRkZISnBMVUpoWkVfMFNtbTFad2xiNlRhTHMtY2thRHNnTjhDalE2WXdpQWdadmZWRk5pVGxDalNPMVRLMEZ1Y2VJRUdVMWplUjVoSGR3WkNBcU1CbXYzMHhwY1BXRXUzR3pTUFEzallJWHc?oc=5",
    "d": "2026-11-19",
    "s": "gnews",
-   "x": "Compounded GLP-1 Sellers Face Dozens of FDA Warning Letters Over Claims Their Drugs Match Wegovy and Zepbound Medical Daily",
+   "x": "FDA warning letters target telehealth sellers claiming compounded GLP-1 drugs are the same as Wegovy and Zepbound Medical Daily",
    "c": "Industry"
   },
   {
@@ -366,14 +377,6 @@ window.FEED={
    "d": "2026-11-17",
    "s": "fr-hhs",
    "x": "The Food and Drug Administration (FDA or we) is proposing to issue a regulation finding that N-acetyl-L-cysteine (NAC) is not excluded from the dietary supplement definition in the Federal Food, Drug, and Cosmetic Act (FD&C Act). This action, if finalized, would allow products…",
-   "c": "Regulation"
-  },
-  {
-   "t": "Registered Outsourcing Facilities",
-   "l": "http://www.fda.gov/drugs/human-drug-compounding/registered-outsourcing-facilities",
-   "d": "2026-11-17",
-   "s": "fda-drugs",
-   "x": "Discover FDA's comprehensive list of registered outsourcing facilities engaged in human drug compounding. Get the latest updates, compliance guidelines, and resources to ensure safe, high-quality compounded medications. Explore regulations and stay informed with verified…",
    "c": "Regulation"
   },
   {

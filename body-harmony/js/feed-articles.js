@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-24T10:02Z",
+ "generated": "2026-11-24T22:33Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
-   "new": 70,
-   "seen": 90,
-   "lastOk": "2026-11-24T10:02Z"
+   "new": 51,
+   "seen": 71,
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "epmc",
@@ -19,7 +19,7 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": false,
    "error": "The read operation timed out",
    "new": 0,
@@ -32,11 +32,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-24T10:02Z"
+   "new": 1,
+   "seen": 1,
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "bpd",
@@ -44,11 +44,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-24T10:02Z"
+   "lastOk": "2026-11-24T22:33Z"
   },
   {
    "id": "gnews-gh",
@@ -56,20 +56,20 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T10:02Z",
+   "checked": "2026-11-24T22:33Z",
    "ok": true,
-   "new": 0,
-   "seen": 2,
-   "lastOk": "2026-11-24T10:02Z"
+   "new": 6,
+   "seen": 11,
+   "lastOk": "2026-11-24T22:33Z"
   }
  ],
  "items": [
   {
-   "t": "Health Canada cracks down on Toronto peptide shop, warns of health risks of unregulated market - CBC",
+   "t": "Health Canada seizes peptides from Toronto shop, warns of health risks of unregulated market - CBC",
    "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVjhMUXpjaUp4OWRSMGZVM0RKLXpYLUFyM0tseFZEZnFrU3o2THJ2SDZJVGRFcWxSUU1QYWJoeGdTWVVVYko2R0RXQTh3UGtGOU1QYjRIMmlmYXdXQUhrbTU2c2FlbmdteWNVNEFBczVfNU9NTE9lX3EyNGd1bWZ4UGFLaXQ?oc=5",
    "d": "2026-11-24",
    "s": "gnews-a",
-   "x": "Health Canada cracks down on Toronto peptide shop, warns of health risks of unregulated market CBC",
+   "x": "Health Canada seizes peptides from Toronto shop, warns of health risks of unregulated market CBC",
    "c": "Industry"
   },
   {
@@ -86,6 +86,70 @@ window.FEED_ART={
    "d": "2026-11-24",
    "s": "gnews-a",
    "x": "Hyderabad Decoy Buy Exposes Online Sale of Unapproved Retatrutide Injections Hyderabad Mail",
+   "c": "Industry"
+  },
+  {
+   "t": "A Queen West peptides seller had its products seized by Health Canada - Toronto Life",
+   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOd2d3aThYU1hCNUJlS1p0NXZmQmFvUkpzTG1zY2phS1NtWU9HcXNBQnFVUXRTMGhkamdNd29PM3o5dko4V3hWMENtd0FFV0hqLU9fcVVEREJuQk1kNWd2dHF6a2hxQ1Q3T1pCSE9KX1c2dThJNThtdzM0LTU1VjNLLUFjYnhTZXdlS0s0VWw1Nld6ZVFxaUJMVjNzSlVVUndn?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "A Queen West peptides seller had its products seized by Health Canada Toronto Life",
+   "c": "Industry"
+  },
+  {
+   "t": "Retatrutide reduced apnea–hypopnea index and body weight in adults with obesity without diabetes: TRIUMPH-1 - 2 Minute Medicine",
+   "l": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN3p6VVI3ekdwV2VlMnhBamhLWDJWVXA3LVYyYzlCdUlGSkFqV2dpUlM4Z0xva0JtS28weVF5UzQwTzQ0TlV0X3dlZ2Z3aW1fc2lORl9maHRKS3kzbWRxV1o3RUQzMUZWOEVacVlxOU9taE5Zd3BFUXcxRE5JckFHTU1aeWc0bDNKYTZHNzdKRFJSWmM0cUZMS1l1bG5BNms2YzdVR0xVRF9JVnJmNGdKOFdCUF95QlZtbUxzR1k1aDM2d0dXYWE5SjdpQzQ2ZTByMHF5SDFB?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "Retatrutide reduced apnea–hypopnea index and body weight in adults with obesity without diabetes: TRIUMPH-1 2 Minute Medicine",
+   "c": "Industry"
+  },
+  {
+   "t": "Retatrutide: how effective is 'reta' for weight loss? - British Heart Foundation",
+   "l": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUGRSZ1VzNDE3T0JTSkZEX2ZxUG5uMkdGQ004d0c4cEZmN3BTck4wZXNONzVjOVJBblBSc3NDREZTb0NucHRNVHU2R0VPNFAyQjBsX3hORlF3WVlBc3UzV0Nmb0twT1kyRTJuS3hnM0REMzV3blBfd1F1NEwyWWxQVjNGSmg3bDhySkcwTDdxSVQyaU0zOFY4aUVzaHlZTEJ4SWpmNw?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "Retatrutide: how effective is 'reta' for weight loss? British Heart Foundation",
+   "c": "Industry"
+  },
+  {
+   "t": "Forget Zepbound: Lilly's Retatrutide Just Cut Sleep Apnea Severity by Up to 60% - Yahoo Finance",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPRDVpRXNkdFAzZFpFZVRUaWNRN01pMjA5SUFJVnhDRm50Rm1BczhHZjdMb0FJQWxyUlQ2c24taEIxMnJCSF9yRFJNVjBBWnRzUHdzbEk1czhuVUpaNWFyU0NwZU9NQ3FJZkdIMzRfR19HQ2ZBdUYyQzhJSFJmcG5OdTN2R0NkT0oxdFdwSy10bWJSWmRjWFlpR3FidzZOZjhQY1E?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "Forget Zepbound: Lilly's Retatrutide Just Cut Sleep Apnea Severity by Up to 60% Yahoo Finance",
+   "c": "Industry"
+  },
+  {
+   "t": "Forget Zepbound: Lilly's Retatrutide Just Cut Sleep Apnea Severity by Up to 60% - The Motley Fool",
+   "l": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOQVBJc0lON0kwbFVialB5MW55RVpmV0VVYUdzZGtNUDJRa0thODQzU3ZUS3hBRWh0SDNvbjRFY3hNRmxQUWJUWXh4NGFnRGJFdU1IeERFMFpmd2pHM2hKclRKVUt3d0tuaFhEM05FRVRvN2ZKWngzaUhrUkJMbWk4UjFNSVFuejBVYno2eGZTZXJlaHl1OWFoeFJQNG9ZSW9Ib1NTM2Q5cE1GQmhKTzBWRjZCOXBNWlZFTEZV?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "Forget Zepbound: Lilly's Retatrutide Just Cut Sleep Apnea Severity by Up to 60% The Motley Fool",
+   "c": "Industry"
+  },
+  {
+   "t": "Eli Lilly Shares Rise Following Retatrutide Clinical Results : 기업주식정보 : JKN - 재경일보",
+   "l": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE8zNkdiLXplV25LTUxWbEYxOWFRYUlKdWViUnllMk1VUUQ0blU4cmdLeHlZVmM1cXFpcTJuQnJZYzBTMF9sX3k5S1l4WW8wMEo4TmpNSDhOQkhFWHhHOWJXb3Zn?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "Eli Lilly Shares Rise Following Retatrutide Clinical Results : 기업주식정보 : JKN 재경일보",
+   "c": "Industry"
+  },
+  {
+   "t": "STAT+: Alaskan hospitals use AI to improve stroke care, peptides go mainstream, and RSNA 2026",
+   "l": "https://www.statnews.com/2026/11/24/alaskan-hospitals-using-ai-rsna-2026-peptides-health-tech/?utm_campaign=rss",
+   "d": "2026-11-24",
+   "s": "stat",
+   "x": "In this edition of STAT Health Tech: Alaskan hospitals using AI to improve stroke care, a look ahead at RSNA 2026, and peptides go mainstream.",
+   "c": "Industry"
+  },
+  {
+   "t": "Supplement brands look to physician-led clinics as personalized medicine expands - NutraIngredients.com",
+   "l": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUVRiZVRSS3ZxRmtJdDRvMnBzYlVUTWhNZHJDYU90WWVDX2FkNHdZd2ZnUDkwbUpBTk1WUTZYS3V0UnA2QmJMUm1XSWlGQ0UzYlhwYVFKRzRHTDNwX1Y2OWhJa1hXWHM3c2FjWWVVamFmMGhCd1pqNF9GRS0wdGVjUHlrVGtTTG1rdjVva2NrdE14bUNjTUQ0alNEbldKNjZkWko2TnVMRk1BWnJRSzRwTXc2dVVfd3JncmhCenUzUVMyOHhyYnB5eVA5RVJPUQ?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-gh",
+   "x": "Supplement brands look to physician-led clinics as personalized medicine expands NutraIngredients.com",
    "c": "Industry"
   },
   {
@@ -169,6 +233,22 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "Humanaut Health Plans Six Longevity Clinics in U.S., Mexico - L’Express Franchise",
+   "l": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd3lNRE9QVUpQVi0tZERnaHVrc3JuUFdsTmlZcUc2NWJ3SVoxLVdGVVktWlpYOHpKZWpqbWV2SGZoQ2Q0b3hxMm1WSC1tNGExTDczX1ZQcXJRUENKWjc2WFB6SnBHQTQ2RGI3dkNITDJQa0tqNmdIdXk1aloxWmgzdlhINklXcUdNenVCX0I2ZDNSbzlLUzR2VWs4UQ?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-gh",
+   "x": "Humanaut Health Plans Six Longevity Clinics in U.S., Mexico L’Express Franchise",
+   "c": "Industry"
+  },
+  {
+   "t": "Ozari Health Launches Prescription Peptides Online: BPC-157 - GlobeNewswire",
+   "l": "https://news.google.com/rss/articles/CBMivAJBVV95cUxPbVRRZFBYR3JWa0dFYWluMXFzY1ZNUzU2Ulk5Nk00YXAxUkktc3R5dDQ2LWxMS1c1VVZkRXJKNTJDbXdwZWF4aFBBMlR2d2ptZUlGcENUaWNFNUl1QjdRdVVsRFFYa2RPVm1XaE9PcWlndDNBWkZhY0U5M2ZGSDJ3QTFPemY4SFFXT3k2ZGlXRmZVWG55b1BDNVM3SERmRTYwOGVZbzJDbTlvdEhUUWZWVkp6X1hPNkVIemVEMzdyY1JoRW5wOUh6Ym1uZERUSWtCQTNsNU5kMW44azlpY3NsTEo1eUJ5amwzc3pkSFhGRFVlQ0N4VFpWWmFaTFRBN3ZYcGJHNlBnMXNnXy1zOUQxUlRvTW0yY29QYzB6Smk3YnhnSEJCdmFLTjlmTURvck5kalF5RGQ2YTJBZWoz?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-gh",
+   "x": "Ozari Health Launches Prescription Peptides Online: BPC-157 GlobeNewswire",
+   "c": "Industry"
+  },
+  {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
    "d": "2026-11-22",
@@ -214,6 +294,14 @@ window.FEED_ART={
    "d": "2026-11-22",
    "s": "gnews-a",
    "x": "Eli Lilly's Next Obesity Drug Isn't Approved Yet, but Peptide Tracker Users Already Log It The Globe and Mail",
+   "c": "Industry"
+  },
+  {
+   "t": "Arkansas Health & Aesthetics Announces Three Clinics Under One Roof in Bentonville - EIN News",
+   "l": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQSWZNaUlXMHBjNmZzZHl0SENoc2hocloySnNob1ZPTzBsVzJDeFljbHA3aHhhTWJHQ3J3Wm8xVzhkNnkxNkZ5VzJqcVdQZnlwMjZydnA3VktUcmM3NWNhSURrcnA0b2xlSGhwRjNNN2pER1FNVmRRbllHcGtMXzBlS21DbzhGMzVKWEVMNmNEQ3hNb083Tjc5Wmx0N1YtNm9sWnctMUdidWRqTHpqSVBDUEExbVhNNzU1OWhvT0RtTQ?oc=5",
+   "d": "2026-11-22",
+   "s": "gnews-gh",
+   "x": "Arkansas Health & Aesthetics Announces Three Clinics Under One Roof in Bentonville EIN News",
    "c": "Industry"
   },
   {
@@ -401,30 +489,6 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Hims and Hers Launches Five Compounded Peptide Treatments - cwibc.co.id",
-   "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9nckVXYXpTVVVCZ1ozLUs4OURJdEZUclByM2hBR0RmNmFzb29JZ2pGeW5lbFltTkRqVUtOQnZtVm1KbXJQNVdia2gwMWlDa2NJYS1FdEw5UUNjWHlOaC0zWkNlYVJSd0c4?oc=5",
-   "d": "2026-11-18",
-   "s": "gnews-a",
-   "x": "Hims and Hers Launches Five Compounded Peptide Treatments cwibc.co.id",
-   "c": "Industry"
-  },
-  {
-   "t": "How BPC-157 and the Wolverine Stack Became Podcast and Gym Talking Points - The Hype Magazine",
-   "l": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTkMxUW9sNElDeFFjN05hVDljUG5LU25VNnBsbnJtaVlUZFYwdmtIdW9RTGJTaG14ZXdiWjA0TTZUeFA2TkVjWTN0bDlnSjJ2TDFMMVBsWXFlbFlnMFZ6REZpb240Z1V5eUR5aEEyT3p6cmktNUt5cHJBYW5QSWt1RWtR?oc=5",
-   "d": "2026-11-18",
-   "s": "gnews-a",
-   "x": "How BPC-157 and the Wolverine Stack Became Podcast and Gym Talking Points The Hype Magazine",
-   "c": "Industry"
-  },
-  {
-   "t": "Rugiet Adds Additional Physician-Prescribed, Pharmaceutical-Grade Peptides for Patients - Business Wire",
-   "l": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOS19PajcxZDB5eFJkcHNTZm1ocFFVeXpIX0wwcTd3V0RqWHFHRWFyQUgtbDZJTGZxOU9OLTBYRnJjYlB5TTZpZFJCbkttcmcxekR0N1ppTjk3MUg3bVo4QUJzdkxFQVota2liYmhUWGhvWHpTNFpyNzl4S3VuNG5kWlUtZjkzSHVtZU1JVDRFMEZ2N1lxQ1FCaHJlZFo3YU9UUUJLMmNjLXQ5NXE0WC1Gb0wzT1psU0FSdTM4X3A2b0N3RWd4aVFqQWRuRm95RlJDeG1zWkRyZW92R2M?oc=5",
-   "d": "2026-11-18",
-   "s": "gnews-a",
-   "x": "Rugiet Adds Additional Physician-Prescribed, Pharmaceutical-Grade Peptides for Patients Business Wire",
-   "c": "Industry"
-  },
-  {
    "t": "‘Selling and marketing snake oil’: The debate over compounded GLP-1s",
    "l": "https://www.biopharmadive.com/news/compounded-glp-1s-telehealth-debate-snake-oil-fda/875065/",
    "d": "2026-11-18",
@@ -433,27 +497,19 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Investigational retatrutide reduced knee osteoarthritis pain and body weight versus placebo in adults with obesity - 2 Minute Medicine",
-   "l": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNQUxQb254MjBrNV9jUlFGcTd2NTNPZ0VKb2Z5RUJ4NVVubmRMLTZZWlRDVDJfUnRXMF92UkJoREZtSndOUDV1N19XMW03amlPM0NxRzQzdFhKbXJvRnRlb0d3ZHlYbkJqMXdmUVZIY3Vvb3czbnR2N1RoZGpxdGt3a3o1N0dhdUZGbEpEcWlHZ3hhYUhvY2tsRDNSaXU1N2pkSkswU3Jxdno5dkdiM2xaNWIwckstcnlTeWR0djZwdnVDY0pjTjk0R0pFcXE0WnJVZkxfUkFJSEs2dE5LZzRPcA?oc=5",
-   "d": "2026-11-17",
-   "s": "gnews-a",
-   "x": "Investigational retatrutide reduced knee osteoarthritis pain and body weight versus placebo in adults with obesity 2 Minute Medicine",
+   "t": "Hims & Hers Launches Peptides+, a New Clinically-Guided Specialty for Access to Personalized, Proactive Health - HIMS investor relations",
+   "l": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPQ09hS0Nsei1OUk9hT0lzcUNOYkxaXzJWbi1lU2NpYVBxX0ZvdkU1V2Zld3EwYm9wcmFkU2t5RUxBQkl3X2lva2l3LUo2WGVUSUtOdVhsMVpCLTR6aW8yZGR1S2cxQ0M3NzM1STF5cTVfem1lT2ExSnZJMGJ2aVJqMUl4aDJrNVlTdFk0cGdkYWNvV2VySVIzamFjbkZhX2FXZXMzR3ptcmR0RkRtR1JfXzYtR0VaUmxKNFNQRVNsX3pjTUcyeFRnMmpkTFg0bWhyd3ZJcUM2S2E5UzNVa0Z3ZjFWMlVIU3Z3RFRQUk1Hd1p3ZTFsVlJXUWdlUy1adw?oc=5",
+   "d": "2026-11-18",
+   "s": "gnews-gh",
+   "x": "Hims & Hers Launches Peptides+, a New Clinically-Guided Specialty for Access to Personalized, Proactive Health HIMS investor relations",
    "c": "Industry"
   },
   {
-   "t": "Unapproved Retatrutide: What Researchers Found in Social Media Posts - The Well News",
-   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONUdmaXpvZDFGNGExN3V2X1ZyZlVyWXByc3hGckt0Q0xYN2s4cUFBVngtWWNMcTY0WmtKTFFESWJ0SXlKbmswOVRyZnJMOVNoZ3JqLXNoQkRaTVg2Y1lYZ0NueGdXXzhCd1pzSGRMYlhraHJqZUxiX0lVU0VWOEdlbzBuUWx4WlhkeldFajlVSUtUR1hZWkpnTFRoQnVJQmhobGt2X0xB?oc=5",
-   "d": "2026-11-17",
-   "s": "gnews-a",
-   "x": "Unapproved Retatrutide: What Researchers Found in Social Media Posts The Well News",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide Cut Sleep Apnea Breathing Events Up to 60.6% in Lilly Trial, but the Weekly Shot Remains Unapproved - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Ga2ZNQ1lwYW9tZi1FMHNvUkhwTC11VHY0eTlxUV82eDYzc0RaMWttcTB6MWJ3T05HdkVTN05FT2psMVhjc0QzaFBBdWQyZHlZU3B4YnpiNE9pc2hrNktUelI2d2g3WjZXTXVIcjZYNzZ5MzNLMktHQ0FVRlQwZw?oc=5",
-   "d": "2026-11-17",
-   "s": "gnews-a",
-   "x": "Retatrutide Cut Sleep Apnea Breathing Events Up to 60.6% in Lilly Trial, but the Weekly Shot Remains Unapproved Medical Daily",
+   "t": "Wellness peptides explained: why the research gap makes them risky - WHOOP",
+   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PTWVtZUtkbEV1RmR0aWtYamoxN1dtOFBZRmhzVURfTUZaTlhKaU9MRnp0TWtraUwyWWlkLVJiYVFXUzc3aUNSUkRfWjdpellxdkpQZE5zNGhqTVJ0QW9qZE1RTlhIT0lvdUItWnhkM1AzaE5oZ1dpeUdR?oc=5",
+   "d": "2026-11-18",
+   "s": "gnews-gh",
+   "x": "Wellness peptides explained: why the research gap makes them risky WHOOP",
    "c": "Industry"
   },
   {
