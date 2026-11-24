@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-23T07:50Z",
+ "generated": "2026-11-24T00:00Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-23T07:50Z",
+   "checked": "2026-11-24T00:00Z",
    "ok": true,
-   "new": 76,
-   "seen": 97,
-   "lastOk": "2026-11-23T07:50Z"
+   "new": 108,
+   "seen": 123,
+   "lastOk": "2026-11-24T00:00Z"
   },
   {
    "id": "epmc",
@@ -19,7 +19,7 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-23T07:50Z",
+   "checked": "2026-11-24T00:00Z",
    "ok": false,
    "error": "The read operation timed out",
    "new": 0,
@@ -32,11 +32,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-23T07:50Z",
+   "checked": "2026-11-24T00:00Z",
    "ok": true,
    "new": 0,
-   "seen": 1,
-   "lastOk": "2026-11-23T07:50Z"
+   "seen": 0,
+   "lastOk": "2026-11-24T00:00Z"
   },
   {
    "id": "bpd",
@@ -44,11 +44,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-23T07:50Z",
+   "checked": "2026-11-24T00:00Z",
    "ok": true,
    "new": 0,
-   "seen": 1,
-   "lastOk": "2026-11-23T07:50Z"
+   "seen": 0,
+   "lastOk": "2026-11-24T00:00Z"
   },
   {
    "id": "gnews-gh",
@@ -56,14 +56,79 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-23T07:50Z",
-   "ok": true,
+   "checked": "2026-11-24T00:00Z",
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests",
    "new": 0,
-   "seen": 2,
+   "seen": 0,
    "lastOk": "2026-11-23T07:50Z"
   }
  ],
  "items": [
+  {
+   "t": "Watch A Current Affair - Season 2026 - Ali took peptides in a bid to regain strength. It almost killed her - 9Now",
+   "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0NSbVBzb2pVd3g3UzFEcS0taFdnR1cyVmJCSno4RDlhM0Y2U2lpeWV5THRob1l1Z1g4VGZKOTZXazU5blFKWmo5Q0twQ1NEWWhaMXNteWItTnNhNkJzT2ZOc1p2NTdHbXJFM1RRbHRYWGlzcWlZRW5VaHlBLXBvb0hJd3FmbVA3ZHZj?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "Watch A Current Affair - Season 2026 - Ali took peptides in a bid to regain strength. It almost killed her 9Now",
+   "c": "Industry"
+  },
+  {
+   "t": "Health Canada seizes nearly 4,000 vials of unauthorized injectable peptides from New Brunswick company - ThinkPol",
+   "l": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbmIwS0ZoU2ZlRlZDdFk4YWoyT0hPUVRKYi1zWHV3cXNTdnQ4UlB1MWhseHAzU3JLMFpwbGpyMDNjQnRwM1ZjSTdyVWM4bmxJZTNNdkdKcHpyN1YxTHJKTmcxQ3ctZ1JOTFEzWUtfWHRUTC0tSEFtd19FZXJaV1U1UEFJcGtaN0Q3dTgyWGQxY0N0anFQa2lrTUxHNTRZOU03WkRObXJzRGFEZllOSUdKZFgxRXVSQzZOMEwySHJoNTJVaXZhamZrVlE5WmpDWFU?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "Health Canada seizes nearly 4,000 vials of unauthorized injectable peptides from New Brunswick company ThinkPol",
+   "c": "Industry"
+  },
+  {
+   "t": "Retatrutide Reduces Pain, Body Weight in Knee OA With Obesity - Clinical Pain Advisor",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcVp5TnJuUXFHNldvRlNkOE1LUWF1ZUFHeDFJeUZGN0lxYTZnQXNRRzZJSmJzV1RoTERXdjV0UVp5ZVlrWFQ0bjZQOEJOY1EycXVhMDFlRVJUNUtSbm5wZGZxbThESTNpWXBDSlVXTU5iYmFLTWNyaGF4WnVvQzNDemE5SWppVFlXUGwtOGlzWHpNb0p6X2hoVmk3N29xOV90MWN2TTV6QjVXQQ?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "Retatrutide Reduces Pain, Body Weight in Knee OA With Obesity Clinical Pain Advisor",
+   "c": "Industry"
+  },
+  {
+   "t": "Ozari Health Launches Prescription Peptides Online: BPC-157 Capsules and Injection, MOTS-C, Epithalon, TB-500 and Semax Nasal Spray From $209 a Month - WBOC TV",
+   "l": "https://news.google.com/rss/articles/CBMiqwJBVV95cUxPMmIyVFBEWWQyekRYd0FwN1hjaXdvYVZTMkhRdTlyNF8wUTVwTmREM3YzdVoyaE03bmtYOFRMcHFnbXlTLXBYcHJFc3BXckMxMmswYW1XX0g5OFVHVi1qeHJhbl9OLUhtaGRkUGdpeGlxVWs2YVctSEV5cWNEbVdjVDNDNldLMzcwNk4wVEpPckdRYlhicl9sdXVocWs2Z2VrNDNvMW5GQ1c3a1pHdGwySjV0Z3U3dnpKSVM2enA0dElCb1RZRG1DV1JvUllvTVJPYlBXN0Jhc1NGc1hhTEppck5oWlQzdnlFOFRQS1JVU2hqLXRZekluN0FYeDR5T0UzSUpKWDJlMWc0b0RfaWhuUFBWU25CMUNEUjBkMjkxSC1fcjdDbDFWMzFCMA?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "Ozari Health Launches Prescription Peptides Online: BPC-157 Capsules and Injection, MOTS-C, Epithalon, TB-500 and Semax Nasal Spray From $209 a Month WBOC TV",
+   "c": "Industry"
+  },
+  {
+   "t": "Weekly Recap: 28.7% retatrutide weight loss and $88B drug sales forecast - TradingView",
+   "l": "https://news.google.com/rss/articles/CBMiywFBVV95cUxONlRFbWlURmE3T2RqZ0FiakRQWXd0X2lQYm93cTZWWDUwMGg3WFpLM1hBNFNRWXVWaU0xdXItZlhwZGhRWWEya2RnVHlERy1BdFBzTVZPdTJ4SVhHTlk4ZDc0VUd1VFR3dUcxa1VEUDdBUGJEQzJXd2VCcW5wSkx6WFJGYkJLaktDSk5mbHRzdWdwQkdmN1BuZ0laTHctTUxqdF9MdnIxaFFWb1pfeWZHbWxuWFgwTHFuZEI0NmQtUVYxMXpfcGxGR1p0NA?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "Weekly Recap: 28.7% retatrutide weight loss and $88B drug sales forecast TradingView",
+   "c": "Industry"
+  },
+  {
+   "t": "MetaVia’s DA-1726 matches retatrutide in mouse study - Longevity.Technology",
+   "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS3Z0UHlXQjZKWHZlYjdueExiM1VMR21mX25oXzdRQWVUWkU5bk1oNGExR0w4QU43WWtYWllLaW15bTRxcmhtcG5haVhkd1FtV1lIT3dEM2ZvUXhQR045Y2Y5YmxnSG1RaEhIM3lHT2RhSHIwNDZSNnFrRFBwTHJpN1pDYWJfYTVwVTZqSEpNaw?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "MetaVia’s DA-1726 matches retatrutide in mouse study Longevity.Technology",
+   "c": "Industry"
+  },
+  {
+   "t": "Pharmacist: People are injecting ‘research use only’ peptides from random websites - Fortune",
+   "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNjZLTllMc1JCWXNUNklRbVJ6bVdfU0k0VUJYOUJ2TFpoRm0zVmhzTklXRFdETWM4TFVMbDFqNlZTNVYwUGVQWDlSdzRoUmpULWNRWmQ2RXJsZjV3b1lfcHA2RnRoMU9ZenBrM3luZ3lieEQ0LWk0OUlpTnlzZ3pKdDJWejhfMkVhNWtmT3FkNF9MWWxnNk1fWTdlNU9WUQ?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "Pharmacist: People are injecting ‘research use only’ peptides from random websites Fortune",
+   "c": "Industry"
+  },
+  {
+   "t": "The Gray Market for Peptides Explained - Drug Topics",
+   "l": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBjbUtlSHR3YmtJbDRaUmxxQnAzY0pmdFN5RUd1X1RSVGhROWRkSjQ1TExTMVVHbGxoYnpBSEsxMC1zbFVqQzN6Tm1pc2lLempMN2t0R1VXRmxyNkhfd3o1bENqVk9vVm1VUUEtSEhaUWluMDRsSDZxU1VaM1o?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "The Gray Market for Peptides Explained Drug Topics",
+   "c": "Industry"
+  },
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
@@ -377,6 +442,14 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "Certified-PEP and Black Friday Peptide Deals Announce Buy One, Get One Free Sale on Research Peptides, Running November 20 Through November 29 - FinancialContent",
+   "l": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOeGp2ZC1lU28yWjVLUjBxMElHMFFYNENTTDZSR0ZQNVItZ3pTMGk3RjZCQlYyWDNCSWU2WXNvZHJnWjN5TzA4MUs4RGtLVkN4blZNVVVBQVNpQUE0TlhXdWhpTWwwU2hydTYyZ0ZaRk1XYjU2T1JWVUlHR19vclo3OWN0Z0FmRUlQNUhralVnZXNVb3BjeTdpeFBVX29sSGxScTVUYzgzeElpMktBSk9GNElaXzdSZ2ZrZTNMSTQzVmprN05mTHdqclktY0tCMzl3RUs2WC1LSEN6RzZZOWtVTXRSTXBPeHJFdGE3TVljUG4tTzlIV3MtcVZhakFQWk8wSTgxbmdpRnV1MjhibXZ2RFBlRTJHSTdMelVyVVNiVDlnRF8ybUxsc29KQmJNbEtF?oc=5",
+   "d": "2026-11-17",
+   "s": "gnews-a",
+   "x": "Certified-PEP and Black Friday Peptide Deals Announce Buy One, Get One Free Sale on Research Peptides, Running November 20 Through November 29 FinancialContent",
+   "c": "Industry"
+  },
+  {
    "t": "Top 9 Retatrutide OEM Service Companies 2026: Custom Manufacturing and Quality Review Priorities - The National Law Review",
    "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMVRSaFZsemFtN3VHMlktQ1BUR0NrTEZUM3JLM0QzYVo4bjNOTFgzNnVJMzczUkdMWTgybV80S05ER1RVZGJ2SjE3UlgtWGZTS1QxN281a0xlNi1wOWhjS3R2bDdEYVM4RFhLTTF1TEFCanpnT3VXbmhqY1NqclNzMm9VNmZfUmZWYjRWZnJ3TF9Gd1VQbnFYOTV4ZnoxVklpMmZQaXduZU9hUUNPVEE?oc=5",
    "d": "2026-11-16",
@@ -433,35 +506,11 @@ window.FEED_ART={
    "c": "Research"
   },
   {
-   "t": "Are peptides legal now? What the new HHS policy really means - The Ponte Vedra Recorder",
-   "l": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQN2U5N0FOUzdJZDJIS2t5enJ2eENEWnZZRTcyTjNvNHpzcTB3aTRDdW12cm1tMjhwcEtDWkQwWnFGWUZ4MkxqQl8xZFhlbGhMWnhUeFhseHFWOHJEVU9saW5oU2ZQaVVvNlpxU1ZHenVhN1g2VFp4NVQ0NWkweHhzUmZoQ3FBZ19maU1jZkkwSEtPMVlXRFNBMG9ESzhKUV9ZN01ZWnV4UTllSW10YllsWDg0by1NOUtFUkltNDh3?oc=5",
-   "d": "2026-11-16",
-   "s": "gnews-a",
-   "x": "Are peptides legal now? What the new HHS policy really means The Ponte Vedra Recorder",
-   "c": "Industry"
-  },
-  {
    "t": "Are peptides legal now? What the new HHS policy really means - The Mountain-Ear",
    "l": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNVhBQlFDRGNOcGI0NmhuQ3RwVUhuT3NVZDVjMlNuVjNybThyUmY5eUl2d1dJdzJiODRlSTVGOWE5V0dqTU1hLVpKQlEtYU5pNWIweVdCY1E2Y1Z6LThydkZSSG9QV1ROQWNqaVZVNUdzSTVWUko5dW4tbTVzakhKRHRSMlNaQXBnMWtQeGdYY2hhalVhR0p4Uk9RMHFPRF9INmt5Vnc3R1ZtYldfWU1MZm9R?oc=5",
    "d": "2026-11-16",
    "s": "gnews-gh",
    "x": "Are peptides legal now? What the new HHS policy really means The Mountain-Ear",
-   "c": "Industry"
-  },
-  {
-   "t": "Hundreds of parcels containing suspected illegal peptides seized at border - RNZ",
-   "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcnlSS2dPNmpiTVZqY0RidS0weU81SkV6bk5Wa1M2V2F3ZV9BM3preXAzRklCT1FEUkI5ckhrcU82LTBiRnJSamJ0cTVBQzRxZDFUZ3NfLW53ZmtxVmpmbDFtNzNqNGpRXzFOdndNZ0hKc3JmQWlHRVh3RHdFbUl3TFNYYXJkWVVMbU92VTdTcG8yZFV4WlpaV1dJU0h1SU5nc2NVZnFjVTJsWnd6NERXb1lXNjE4SzA?oc=5",
-   "d": "2026-11-16",
-   "s": "gnews-a",
-   "x": "Hundreds of parcels containing suspected illegal peptides seized at border RNZ",
-   "c": "Industry"
-  },
-  {
-   "t": "Are peptides legal now? What the new HHS policy really means - Cottage Grove Journal",
-   "l": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSWl1NzRadUk5MDJpemZYV2lrSTdkdy04dEF6ZjV4Z3JRRGRwRExFZzJjM2U0UWRCaTNWSkNiSndHOTNYa0t1aHNQdEhYRzFTUGtFekhyZ2dDaUlWenc4eW50Y09zdFUxT001QU5DRmxUYlRkWkZQb25qMHZKRzl6cEZrUG9BY2l2bXpYNTA3MDJXd2hmdWh5T0RGVzZzUzhOSVJyMUc2am5tSjBER0RuM0tJdUZXQ3llRVZlNUhNY0NaOHp2YkE?oc=5",
-   "d": "2026-11-16",
-   "s": "gnews-a",
-   "x": "Are peptides legal now? What the new HHS policy really means Cottage Grove Journal",
    "c": "Industry"
   },
   {
@@ -473,60 +522,12 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Health Canada seizes unauthorized peptide vials six days apart - Benefits and Pensions Monitor",
-   "l": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOckRNWG1PdmdGZDRaVHZhTThJZlFmV1pXUXd3SmladE9WdXpSanhBaGtpZi1JYXE1dVA5MjEyUy1ueEJQMGUzdnVJMEZEVWRrR19ZVndJUTAyeE1JV3hyUTcyTUVTcHZnaHo1dXRSVXdWR19Mb2FoVmh0Q2VfQnhxeGlTdE44aUEtUWJqMHNrcDRRaEhUS3lxVktEd0h4dlZ2VWZXM2V5WFhwT3k1YUZUU1FueUlnNW1WTWRBeTN1RTRpUXl4TDFn?oc=5",
-   "d": "2026-11-16",
-   "s": "gnews-a",
-   "x": "Health Canada seizes unauthorized peptide vials six days apart Benefits and Pensions Monitor",
-   "c": "Industry"
-  },
-  {
-   "t": "Are peptides legal now? What the new HHS policy really means - KMZU.com",
-   "l": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPdU5SSjNCOS03Z3hWM19nbFN3a0dvX2FNSkNVMGxraWNXVzI1QlhfR0Jmakt3Y19OYUtqZnF6NHc0TWFSRHcwOUZJZFVyYWcyNHdUbzNodThPNTNZS1hWVno5NFY1eVFMUm9lZnV4bFBYRkYwODMxZThMZ2Rqcjh0aXZqOGE1N213QTBIc2RXZUhqSmRSbEtxbjdBb2Fjek96WFpVczBiQWliNTJ4bW9KTjAxWHB5c0RaR2I1aU5FNHd3d2ZkRk9FbzUtdWhycWc0c1VXTWdCWnpNTXBtZHlIQy1n?oc=5",
-   "d": "2026-11-16",
-   "s": "gnews-a",
-   "x": "Are peptides legal now? What the new HHS policy really means KMZU.com",
-   "c": "Industry"
-  },
-  {
-   "t": "Are peptides legal now? What the new HHS policy really means - Building Indiana Business",
-   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMURFYllJRXFzUUFnQzNxZG1oTG9XOFdodmVxd0xkZXd0dmdudF9tSWlYaDJUdGt2ZXR0XzU3ZUV2ZndENjF0VXlKbWJHTzRtU2hjMVFBODVsVUxJZ0c0REdpWEhfZDVqUjRHWkg4R3NfNFFLWGxFZ29XYmZOS1ExTEJHaVhJLTZOaTV1SXA0b0JleGxIY3Rza2ZFR0JLUk8xOUFLLWlrZXBsMFR6WkoweWFrYUxEOW1SLXc?oc=5",
-   "d": "2026-11-16",
-   "s": "gnews-a",
-   "x": "Are peptides legal now? What the new HHS policy really means Building Indiana Business",
-   "c": "Industry"
-  },
-  {
    "t": "Soft Movable Nanosystems for Synergistic Intervention of Hepatic Injury Induced by Severe Burns Plus Delayed Resuscitation.",
    "l": "https://doi.org/10.1002/adhm.71936",
    "d": "2026-11-15",
    "s": "epmc",
    "x": "Adv Healthc Mater · Wu Y, Guo J, Qi Q, Liang Z, Wang H, Tao J, Wang R, Wang L.",
    "c": "Research"
-  },
-  {
-   "t": "I had two doses of black market peptides, now I can't eat protein: Sydney woman tells how she had life-changing reaction and suffered 'worst pain of her life' - Daily Mail",
-   "l": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUGtLQVVtYkF6MFV5MEc1NmhQcWc0dVNHOWl0amt5c285UFg5dmRtOGlHeTFDRXpaWkliTU1JRHRYQUNmVThUWkF5UFpkdVR4Y0k0RVdRaXd5Yk1sRktUczBfRGc0Wkk3TGREa1BKYnZrTzVrdDliX3ZXZHd2OHFqdzJoZ0Vmb0pTNXZPQWlUR01Kb3N6akRiN3JB0gGfAUFVX3lxTE5Jb2NmMzNnVDBwLWlSVUREWUxoMXY4WjJtVUlSRmZaUnlmN1F5eVk0WTduenF2bWVFRW9Wck9JQlZXcEVmNW04dWZBcjd1TzlLbWxXQXUyaS1RejBGS0RaMXpDUG80TVJMQmpsUUJoWVdpaElYOE1QT3VGQmtIaTVnLVVTRC1RQ3NLRERVcXZaRXlVYWp6NldnU216bzJYaw?oc=5",
-   "d": "2026-11-15",
-   "s": "gnews-a",
-   "x": "I had two doses of black market peptides, now I can't eat protein: Sydney woman tells how she had life-changing reaction and suffered 'worst pain of her life' Daily Mail",
-   "c": "Industry"
-  },
-  {
-   "t": "New rules set once-radical 'miracle' peptide treatments mainstream - Daily Mail",
-   "l": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTTBycXhNb3NjcDZHcUtVZGJ0SFFwb3d3UXgxX29rZnd6eC00OElDQmhtN0JuMm0wc1pSaTBNS0ZsaTEwMlhIRFhwdWplc1FRcTdxY2cwanV1Q1BVdGctbG1sT0U2LVRYZzYwd1NOMDNaV1NaYy1HaDdCR2hhS29LcC11ZWw3RmpjTTY2ag?oc=5",
-   "d": "2026-11-15",
-   "s": "gnews-a",
-   "x": "New rules set once-radical 'miracle' peptide treatments mainstream Daily Mail",
-   "c": "Industry"
-  },
-  {
-   "t": "Top 9 Retatrutide OEM Service Companies 2026: Custom Manufacturing and Quality Review Priorities - EIN Presswire",
-   "l": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQMEhvYVZMcS1lemxsYndIOEVkYVBhYWtIQmgxczJDYV9CX0JCUlB6S1lyUW01cEV1S3FqcnRZeDB5VzMzdmZLby00SFlRVFNaVk5FRmtONHg1LXp1RlZTWE9oY1FzaGowamtVQ2s4UkhYd3otX1pWa1Ftd0RPTXVqNGxWSnNiT2ZPamFpWWRjNnFNb3poSDZfMTd3RVV5NmNXenAwbERlczgtQkMxY3NZUW5aX0l4aGpoUFdDWFI2RUtWQlhpbjFpcUJjUXZWY25XVWw0UFgtSFF5dw?oc=5",
-   "d": "2026-11-15",
-   "s": "gnews-a",
-   "x": "Top 9 Retatrutide OEM Service Companies 2026: Custom Manufacturing and Quality Review Priorities EIN Presswire",
-   "c": "Industry"
   },
   {
    "t": "Quantitative proteomic approaches to studying redox post-translational modifications in skeletal muscle.",
