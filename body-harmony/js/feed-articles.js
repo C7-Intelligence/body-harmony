@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-24T00:00Z",
+ "generated": "2026-11-24T10:02Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T00:00Z",
+   "checked": "2026-11-24T10:02Z",
    "ok": true,
-   "new": 108,
-   "seen": 123,
-   "lastOk": "2026-11-24T00:00Z"
+   "new": 70,
+   "seen": 90,
+   "lastOk": "2026-11-24T10:02Z"
   },
   {
    "id": "epmc",
@@ -19,7 +19,7 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-24T00:00Z",
+   "checked": "2026-11-24T10:02Z",
    "ok": false,
    "error": "The read operation timed out",
    "new": 0,
@@ -32,11 +32,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T00:00Z",
+   "checked": "2026-11-24T10:02Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-24T00:00Z"
+   "lastOk": "2026-11-24T10:02Z"
   },
   {
    "id": "bpd",
@@ -44,11 +44,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T00:00Z",
+   "checked": "2026-11-24T10:02Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-24T00:00Z"
+   "lastOk": "2026-11-24T10:02Z"
   },
   {
    "id": "gnews-gh",
@@ -56,15 +56,38 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T00:00Z",
-   "ok": false,
-   "error": "HTTP Error 429: Too Many Requests",
+   "checked": "2026-11-24T10:02Z",
+   "ok": true,
    "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-23T07:50Z"
+   "seen": 2,
+   "lastOk": "2026-11-24T10:02Z"
   }
  ],
  "items": [
+  {
+   "t": "Health Canada cracks down on Toronto peptide shop, warns of health risks of unregulated market - CBC",
+   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQVjhMUXpjaUp4OWRSMGZVM0RKLXpYLUFyM0tseFZEZnFrU3o2THJ2SDZJVGRFcWxSUU1QYWJoeGdTWVVVYko2R0RXQTh3UGtGOU1QYjRIMmlmYXdXQUhrbTU2c2FlbmdteWNVNEFBczVfNU9NTE9lX3EyNGd1bWZ4UGFLaXQ?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "Health Canada cracks down on Toronto peptide shop, warns of health risks of unregulated market CBC",
+   "c": "Industry"
+  },
+  {
+   "t": "Why Health Canada seized 'unauthorized injectable peptides' from Toronto shop - Yahoo News Canada",
+   "l": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMWlyY2pXWTBheEVZamFsZXgzMTN0RVE1WU5vZjVEdVJQX0lEY0pRYWFsNUFOS3VINHlPZlJJeUg5NWxmMElYMHBwMUFESTRyT09HamlkcjBXd2JuZm1uczdfZHVvRDVzazkxdko0RHZkdlp2UGt3Wm5VYWVxZVl1OFUzNEs?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "Why Health Canada seized 'unauthorized injectable peptides' from Toronto shop Yahoo News Canada",
+   "c": "Industry"
+  },
+  {
+   "t": "Hyderabad Decoy Buy Exposes Online Sale of Unapproved Retatrutide Injections - Hyderabad Mail",
+   "l": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNOHNnUkJzekUwejdiNGZWcVVzWGMzS2pDUVBrTVdzWUdad1hsZVZFbU9jSGNLT3VyNFpjODBiYzJldWdQLTZEWVUweTlXUEEwOFk2dEdJNDFXRUFWcDZDSWp3SFBlWG9vTTdKS2hDZkhHQnhaRjBkZzhzZlVXVnFXcVBIZmgzVnNzSUdyMDRYMVU?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "Hyderabad Decoy Buy Exposes Online Sale of Unapproved Retatrutide Injections Hyderabad Mail",
+   "c": "Industry"
+  },
   {
    "t": "Watch A Current Affair - Season 2026 - Ali took peptides in a bid to regain strength. It almost killed her - 9Now",
    "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0NSbVBzb2pVd3g3UzFEcS0taFdnR1cyVmJCSno4RDlhM0Y2U2lpeWV5THRob1l1Z1g4VGZKOTZXazU5blFKWmo5Q0twQ1NEWWhaMXNteWItTnNhNkJzT2ZOc1p2NTdHbXJFM1RRbHRYWGlzcWlZRW5VaHlBLXBvb0hJd3FmbVA3ZHZj?oc=5",
@@ -127,6 +150,22 @@ window.FEED_ART={
    "d": "2026-11-23",
    "s": "gnews-a",
    "x": "The Gray Market for Peptides Explained Drug Topics",
+   "c": "Industry"
+  },
+  {
+   "t": "Public Advisory - Unauthorized drugs, including prescription drugs and injectable peptides, seized from Canada Biogenix as they may pose serious health risks - PR Newswire Canada",
+   "l": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPMThsbU5aajBnNEdlYUFMYVgyR3Y4ZjRGcmV4Qk44ZTlaTS00MXZPTzM5bmVWMl9PSkl3cG9JbVRHTzY1X0xFT1ptbXVwM05CR2U5ejEzQ3V1WnpOeXdJMzVRYWV5MDFFVVI0LWJTeWRPZmtnb1dIMXkxdVI2dXJudGlIUEhBTnhiTjNqbjZYZ2NHYVRyWlM0enVGSjRCU1kwRXNOdmw2VmczMG94YkphYzQxVEd0TkVCamdPUk1XbnJ4bDBaT1pnUHd4bW52bTdoOFZ3djZQZ253U21NNXVXOGFzdUlwYzg2NDBxbWs1TW1teUpOUFhycVpfOC0zTG51NnR1TEtrR0xiLU5kcVdwU1IzUERfSERid3A3djBrdmJUOUpOY0FZTksyQXI5UWs?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "Public Advisory - Unauthorized drugs, including prescription drugs and injectable peptides, seized from Canada Biogenix as they may pose serious health risks PR Newswire Canada",
+   "c": "Industry"
+  },
+  {
+   "t": "Health Canada seizes unauthorized peptides from New Brunswick company - CP24",
+   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdG9NM3hGNGlhQS1rdUM1MmJWTVkyaG12YmJWSkZIOGt0bWdzb2JHbmo4aDk2MVh5WEp0S0RYZm1ORUtUeE9lakdRS0RXbC1hUDBoZzBJa09FZVNDSEk1SDhjckU0N2M3QWdaaDUyUjA1bkFBMGxpUG16ak1ZYy1OMkktM3FhTFdudjBOU3lfVUZVcC16WVJrTy1uM25odEc0RGRBRW4taGhqTmc5THJOQmcwTVM?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "Health Canada seizes unauthorized peptides from New Brunswick company CP24",
    "c": "Industry"
   },
   {
@@ -418,51 +457,11 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Dong-A ST says DA-1726 shows greater blood sugar reduction and comparable weight loss to retatrutide - 머니투데이",
-   "l": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBWRDEyWG5uTXpkejlLVF9CZDVDSmF0UUt0ZE5rS29TU2NfcTctTzJOY1Bvdk5SRDNWTFh6bktic3YzUUpTVHA4YkNvQWU4YWVFbXlDLTJYNkNIQjlMaFFFckh0UzZBeDdfX0FCdUl3?oc=5",
-   "d": "2026-11-17",
-   "s": "gnews-a",
-   "x": "Dong-A ST says DA-1726 shows greater blood sugar reduction and comparable weight loss to retatrutide 머니투데이",
-   "c": "Industry"
-  },
-  {
    "t": "Celebrating 10 years of helping men and women take control of their health - News4JAX",
    "l": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUJUUW5aeUd6S3AwNXl3cTdSTkxpZF9ZX29tREsyTy0zNFdEU0VrVWJzMmMtOFRqWHEtQzdHQ2tubkFaaVhRYWdIbDVJWS02RURzbEhlUTQxazkwSTFZYlJ6QnRyOV9pRGVBTThyck9Ja1B2d1VPSk16UjU0T1V1c204VEVXLTNweXZkUHNaSFJlUm1pX19qZG5qXzNRMS1xeUl1U2w5RnJWcnYzdjZPRi1jRmJfWGFoVzBHRDhSX19tVnlTbVE?oc=5",
    "d": "2026-11-17",
    "s": "gnews-gh",
    "x": "Celebrating 10 years of helping men and women take control of their health News4JAX",
-   "c": "Industry"
-  },
-  {
-   "t": "Health Canada seized bacteria-contaminated peptides but hasn't pulled COVID shots over DNA 'impurities' - Rebel News",
-   "l": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNSUV5RkdKZ190MVh2aXhreFpUM0VRd2xFWWdsR1dVZGIwLVI2UmtIX3hNQWpCd08zczVlT2FYYTl4bU9wcHZMZ1lDQzRKbm45ODZFOS1UbWdvZEZmeEJRR0J1T3o3bHBqS1lzZktmSUdCeDNITnRNQXh3c0VOR3FvVHkxaTREeF9jcEV5dUk2cVdpQ0p2RXJUM25sdHU3cjBfZ05uQUwxVTU3WGxUT3dlU0NfZHM1RjBnV2JlcnhqNGlXa0xUMEE?oc=5",
-   "d": "2026-11-17",
-   "s": "gnews-a",
-   "x": "Health Canada seized bacteria-contaminated peptides but hasn't pulled COVID shots over DNA 'impurities' Rebel News",
-   "c": "Industry"
-  },
-  {
-   "t": "Certified-PEP and Black Friday Peptide Deals Announce Buy One, Get One Free Sale on Research Peptides, Running November 20 Through November 29 - FinancialContent",
-   "l": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOeGp2ZC1lU28yWjVLUjBxMElHMFFYNENTTDZSR0ZQNVItZ3pTMGk3RjZCQlYyWDNCSWU2WXNvZHJnWjN5TzA4MUs4RGtLVkN4blZNVVVBQVNpQUE0TlhXdWhpTWwwU2hydTYyZ0ZaRk1XYjU2T1JWVUlHR19vclo3OWN0Z0FmRUlQNUhralVnZXNVb3BjeTdpeFBVX29sSGxScTVUYzgzeElpMktBSk9GNElaXzdSZ2ZrZTNMSTQzVmprN05mTHdqclktY0tCMzl3RUs2WC1LSEN6RzZZOWtVTXRSTXBPeHJFdGE3TVljUG4tTzlIV3MtcVZhakFQWk8wSTgxbmdpRnV1MjhibXZ2RFBlRTJHSTdMelVyVVNiVDlnRF8ybUxsc29KQmJNbEtF?oc=5",
-   "d": "2026-11-17",
-   "s": "gnews-a",
-   "x": "Certified-PEP and Black Friday Peptide Deals Announce Buy One, Get One Free Sale on Research Peptides, Running November 20 Through November 29 FinancialContent",
-   "c": "Industry"
-  },
-  {
-   "t": "Top 9 Retatrutide OEM Service Companies 2026: Custom Manufacturing and Quality Review Priorities - The National Law Review",
-   "l": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMVRSaFZsemFtN3VHMlktQ1BUR0NrTEZUM3JLM0QzYVo4bjNOTFgzNnVJMzczUkdMWTgybV80S05ER1RVZGJ2SjE3UlgtWGZTS1QxN281a0xlNi1wOWhjS3R2bDdEYVM4RFhLTTF1TEFCanpnT3VXbmhqY1NqclNzMm9VNmZfUmZWYjRWZnJ3TF9Gd1VQbnFYOTV4ZnoxVklpMmZQaXduZU9hUUNPVEE?oc=5",
-   "d": "2026-11-16",
-   "s": "gnews-a",
-   "x": "Top 9 Retatrutide OEM Service Companies 2026: Custom Manufacturing and Quality Review Priorities The National Law Review",
-   "c": "Industry"
-  },
-  {
-   "t": "ResearchedPeptides.ca Announced as #1 Retatrutide Supplier in Canada by totimes.ca - Digital Journal",
-   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQczBNV09FOTJhX29nMnpoMHZfekFmRUYzSnZxS3B0YWpxZTczRFhDZUpoR1ZxVF9Gdks5MDREYnhnNnNfVzVzVWhGd3BUdExZUTc4TzBLbXlQdjNuVW1CUWE0dEhtdlFtNVQwTFRFUWxoZl8zY1c3cGFweGFpR1lYaDFHQ3BlOFRaLV9lVnc5ZzZMaWFHR2pac2ptMEpfNXczMXpKOFRlaC0xYVZhYWg5aDhncHpCUjlFeUc4NU5iUlc?oc=5",
-   "d": "2026-11-16",
-   "s": "gnews-a",
-   "x": "ResearchedPeptides.ca Announced as #1 Retatrutide Supplier in Canada by totimes.ca Digital Journal",
    "c": "Industry"
   },
   {
