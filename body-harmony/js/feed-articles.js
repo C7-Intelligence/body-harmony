@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-24T22:33Z",
+ "generated": "2026-11-25T08:46Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T22:33Z",
+   "checked": "2026-11-25T08:46Z",
    "ok": true,
-   "new": 51,
-   "seen": 71,
-   "lastOk": "2026-11-24T22:33Z"
+   "new": 117,
+   "seen": 142,
+   "lastOk": "2026-11-25T08:46Z"
   },
   {
    "id": "epmc",
@@ -19,7 +19,7 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-24T22:33Z",
+   "checked": "2026-11-25T08:46Z",
    "ok": false,
    "error": "The read operation timed out",
    "new": 0,
@@ -32,11 +32,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T22:33Z",
+   "checked": "2026-11-25T08:46Z",
    "ok": true,
-   "new": 1,
+   "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-24T22:33Z"
+   "lastOk": "2026-11-25T08:46Z"
   },
   {
    "id": "bpd",
@@ -44,11 +44,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T22:33Z",
+   "checked": "2026-11-25T08:46Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-24T22:33Z"
+   "lastOk": "2026-11-25T08:46Z"
   },
   {
    "id": "gnews-gh",
@@ -56,11 +56,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-24T22:33Z",
+   "checked": "2026-11-25T08:46Z",
    "ok": true,
-   "new": 6,
+   "new": 0,
    "seen": 11,
-   "lastOk": "2026-11-24T22:33Z"
+   "lastOk": "2026-11-25T08:46Z"
   }
  ],
  "items": [
@@ -150,6 +150,22 @@ window.FEED_ART={
    "d": "2026-11-24",
    "s": "gnews-gh",
    "x": "Supplement brands look to physician-led clinics as personalized medicine expands NutraIngredients.com",
+   "c": "Industry"
+  },
+  {
+   "t": "8 things patients should know about peptides - American Medical Association | AMA",
+   "l": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPMlZBbWFHQkxSSk1uRlFIWEpMU0tzSHl3Y3Y3aWxCTk9UcEVWWVp1dXRNa3dKS2R2MXltUktGeXBXQVFyQnJVSkN0Ylg4Y05uT3RYc1pDWVZkTWUzWDBHYTlQX0JJTmdmbFE1N0laNnJVSDB5Z25CYWVTZlFpUmY3ZlQ2akZCT0Zsa2lEVi1oQkNPekJQeS0xVnpEZUl6djFhMThlMV93?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "8 things patients should know about peptides American Medical Association | AMA",
+   "c": "Industry"
+  },
+  {
+   "t": "Peptide Regulations: What Beauty Brands Need to Know - BeautyMatter",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQYWVTbmVEMnJ0WUhWQ1RIaUpIUWx3UUkwUEhvRHhFTmJueEJMMzZlNll2YS1ocGdhNzdRdVpHVEpSeEJ2WWNmdXJJYkVmcU5iUVZUWm56bkxaUklzQzg5a0NaN0JQcl83c3VNZFN2bGNuLUR0emJPOEhaLXdTVnlabFhPUUdycGhPcTNoYjYyak1DMUZyWFRB?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "Peptide Regulations: What Beauty Brands Need to Know BeautyMatter",
    "c": "Industry"
   },
   {
@@ -462,22 +478,6 @@ window.FEED_ART={
    "d": "2026-11-19",
    "s": "gnews-a",
    "x": "Assurion Labs Sets a Verified-Lot Standard for Research Peptides: ≥99% HPLC Purity, Peptide Net Content and Comprehensive Screening on Every Lot Yahoo Finance",
-   "c": "Industry"
-  },
-  {
-   "t": "Peptide market poised to explode with new Hims and Noom launches - STAT",
-   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQOG9MNnp0dzVHOGh6WFV1clhhaXlxTGpKZllpUTN4TUNma2duQTZMNVc4TWZKd2xGZkxfN0dQdHlQSEFicjFDTl9PV21VWXRPTm5RY1FmbEFXNmNTRXZXbFJGT1FsR3J4X2JpRUlHdFdVZVYwYkFGY1Q1UVM0WHJncWczSDNtcWhTeV9BMzI0RExTRUtFb2FVdmJSank0X2FnaGc?oc=5",
-   "d": "2026-11-19",
-   "s": "gnews-a",
-   "x": "Peptide market poised to explode with new Hims and Noom launches STAT",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide Brought Up to Half of Nondiabetic Sleep Apnea Patients to Mild or No Disease in NEJM Trials - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xZGk4NHI5dWNWVW5nM0o4VFB3cGZuYVo5SUlHTDd6bEprRlBiMTI3ZHB6MVF0WXhaWFQtNERfVk9xbk1nU0pac3g0X1V5VGNWaV8wZHlSY0dYYnRuOEFLaERzTVBjdWMzYmF1bGw4MzY2ZXNTaGxmOVh1MFo0dw?oc=5",
-   "d": "2026-11-18",
-   "s": "gnews-a",
-   "x": "Retatrutide Brought Up to Half of Nondiabetic Sleep Apnea Patients to Mild or No Disease in NEJM Trials Medical Daily",
    "c": "Industry"
   },
   {
