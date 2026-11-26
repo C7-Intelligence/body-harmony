@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-25T21:48Z",
+ "generated": "2026-11-26T08:32Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
-   "new": 128,
-   "seen": 154,
-   "lastOk": "2026-11-25T21:48Z"
+   "new": 44,
+   "seen": 68,
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "epmc",
@@ -19,10 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-25T21:48Z",
-   "ok": true,
-   "new": 31,
-   "seen": 45,
+   "checked": "2026-11-26T08:32Z",
+   "ok": false,
+   "error": "The read operation timed out",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-25T21:48Z"
   },
   {
@@ -31,11 +32,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "bpd",
@@ -43,11 +44,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "gnews-gh",
@@ -55,14 +56,22 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
-   "new": 0,
-   "seen": 2,
-   "lastOk": "2026-11-25T21:48Z"
+   "new": 1,
+   "seen": 10,
+   "lastOk": "2026-11-26T08:32Z"
   }
  ],
  "items": [
+  {
+   "t": "BPC-157 Prices in the UK: What a Fair Price per mg Looks Like - theflaremagazine.co.uk",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZVpKem02bnNYcnd1WE5QRWpUeUxLOGRWaUdKN2xVUmIxQlFuemVwM2pWWVNDTktIT282U2hIZ2RzMWk3UC04Ql9jRi1SVFFpSFBhZVBaN1VQcnpVRURIWkZHaGk0aERkT2lCcklRYXlBSE40QS1YOVJtc3p1NVVFWHpfNGJDTjB2Vk5NbU83NVlVOTdmbFpR?oc=5",
+   "d": "2026-11-26",
+   "s": "gnews-a",
+   "x": "BPC-157 Prices in the UK: What a Fair Price per mg Looks Like theflaremagazine.co.uk",
+   "c": "Industry"
+  },
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
@@ -126,6 +135,38 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Diabetes · Valencia AP, Brandao AF, Melhorn SJ, De Leon MRB, Marcinek DJ, Schur EA.",
    "c": "Research"
+  },
+  {
+   "t": "8 Retatrutide Side Effects You Should Know About - GoodRx",
+   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBUcEtMYXQ2bHBuVEZrdFZBWndOTXMtU0tHV1p3d015RWRIekIya1doVzF5b3htU2hybTNvVG00OEdOVXBvUHN0SFhoa19KV3NxUF90RGRSeXNRY0tZbk9IYkJRQmNCUV85M0NTUHpZSm43QnY1UGt3bDhn?oc=5",
+   "d": "2026-11-25",
+   "s": "gnews-a",
+   "x": "8 Retatrutide Side Effects You Should Know About GoodRx",
+   "c": "Industry"
+  },
+  {
+   "t": "CCS Probes Sale of Unapproved Weight-Loss Drug Retatrutide After Decoy Bust - Deccan Chronicle",
+   "l": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPUmlURFpack9Sd1BNcWJnaERWM1Z1ZlE1a3ZDMEtqYXU5OWtTcDdlN0V0bEkwUkJwUGdlVGdzU1VZQUlodUtFekY1ODI4V2NIcmwtcV9GTWF5ck9idlgyOFhZQ2lhY2VqdWxCZ25zRjU5S0hHN0s4amlzbDZ5ZXZFTlZSdGRyM0FSbjBockg5bE9yS2dhY2Y5Qm0yRmhCV1FXUXNCMko2eVE1VVFRN081TWxfamVBRHZfOVUzaVpZWl9INDRnRmhlVWJpU2l3OE43SFQ0eDdCRWvSAd4BQVVfeXFMT2lBQndOT0tBT1otY2ZrUDBZUGR1RmRhWjlvX3ZSWWlzenN6S0w5a2xLSi13aHE0LUNOa1l2N3F5QWRFLUJ1ZGVIMmJwd3JfQmhQTW85VEJNaXJQSVM5cUpvVGRfakxDNEtWUWQ5Qllka1B2VTFLVEVLdm5ZcVplN0dSQk1uX2cwNVVtMXFDWjlLZjVzRFBJMXo3emVMRlRoSGd3R05Lb1FxdGpvVHVDeVJLcEQxSlpoNGlMOXA5bUZiVDBoaURJUVNhV0VsZEtNdkI4MlhzaTl6N3pRejJB?oc=5",
+   "d": "2026-11-25",
+   "s": "gnews-a",
+   "x": "CCS Probes Sale of Unapproved Weight-Loss Drug Retatrutide After Decoy Bust Deccan Chronicle",
+   "c": "Industry"
+  },
+  {
+   "t": "The Weight-Loss Drug That Isn’t One Yet: Making Sense of the Retatrutide Buzz - cuindependent",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONE8xajd4ZExlNUtTYnVRU2M2bFZWbTRwTGJyMkVhajFUNjRmZ0FGTVlLRUgzelRxLUFMb2M0cEFfcjdZOWhCNHoyM0tRY3FfbEVPc0oxdXIxYWxMQ1ZhTFNrSkVwejVscmZWWno3RnpoM0dwSWNyUllOWnh1X01fbDd1TV9hNW9GamZkZlhuSDhnM1NlOUVmZFBhUmtnSi1RWWlFWVZKYl9GZw?oc=5",
+   "d": "2026-11-25",
+   "s": "gnews-a",
+   "x": "The Weight-Loss Drug That Isn’t One Yet: Making Sense of the Retatrutide Buzz cuindependent",
+   "c": "Industry"
+  },
+  {
+   "t": "Living Better, Longer - City Lifestyle",
+   "l": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9VQ0VJaDdWLWV1eE5MQUZIX0VrTDIzNF9MY1VfaDZyQjRpQjZLYWhvY1lHWEN6U0Rnei0ta3pWRUhHckphaDYwSnFzVlBaRUVNc0R4d3lpRUJaM09takpzdFc1YURhUQ?oc=5",
+   "d": "2026-11-25",
+   "s": "gnews-gh",
+   "x": "Living Better, Longer City Lifestyle",
+   "c": "Industry"
   },
   {
    "t": "Health Canada seizes peptides from Toronto shop, warns of health risks of unregulated market - CBC",
@@ -229,14 +270,6 @@ window.FEED_ART={
    "d": "2026-11-24",
    "s": "gnews-a",
    "x": "Peptide Regulations: What Beauty Brands Need to Know BeautyMatter",
-   "c": "Industry"
-  },
-  {
-   "t": "8 Retatrutide Side Effects You Should Know About - GoodRx",
-   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBUcEtMYXQ2bHBuVEZrdFZBWndOTXMtU0tHV1p3d015RWRIekIya1doVzF5b3htU2hybTNvVG00OEdOVXBvUHN0SFhoa19KV3NxUF90RGRSeXNRY0tZbk9IYkJRQmNCUV85M0NTUHpZSm43QnY1UGt3bDhn?oc=5",
-   "d": "2026-11-24",
-   "s": "gnews-a",
-   "x": "8 Retatrutide Side Effects You Should Know About GoodRx",
    "c": "Industry"
   },
   {
@@ -344,6 +377,14 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "Eli Lilly's Next Obesity Drug Isn't Approved Yet, but Peptide Tracker Users Already Log It - The Globe and Mail",
+   "l": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUTVYLTF2dmhfTy1EMGhUZGZRMGpjS2d6a1RMeEF0WEtxYWE4eDhncFprd2dHT0tzMXhTVzdEb2t4T0QzbkNTZU9HckhpUjZHNVBDckMybW9wMXlrUFpnZ0NjaEl1YUNCRUx3R0pma2JHNjItOU1sYUd4TjNjdllIc3lUbnFWWVA5RlNjSXJtb0NQVXRiSG5GWGltRnMwZ2lieG1McENNeHlzMU5Lbmk4VjRTV0JhUVdrLVp3VWRqbEI2UnJTc3VmcjVISEliSEZKVVJaSldxU0xJZjlSYnBpdjh6NTFHOG96SF93SmZOY2NwU1RLRG1ZX1BwejEyUmds?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "Eli Lilly's Next Obesity Drug Isn't Approved Yet, but Peptide Tracker Users Already Log It The Globe and Mail",
+   "c": "Industry"
+  },
+  {
    "t": "Government launches inquiry into peptides amid surge in hospital visits - ABC News & Headlines – Australian Broadcasting Corporation",
    "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1BmMGpwVERxdkhvQ0pRaWIzNHB5UmlOTmtXcHpvMHBZdmdfbnN3dF95S2ttV180Zjg3T0c3bXUzRWk1VXdHLVU4SzhPZ1BjaWV6REg1M1BCb1U5MjNxbTdqUGJfcmZaRTFWeURtaEt5SU9zQ3N0OFdoTGhsbVJ3NVY3VTRFZTVnODlTc0RKM191UjNnTHpnWlV4Vl9zZFVi?oc=5",
    "d": "2026-11-22",
@@ -357,14 +398,6 @@ window.FEED_ART={
    "d": "2026-11-22",
    "s": "gnews-a",
    "x": "Dodgy gym peptides: Hospital emergency cases surge The Daily Telegraph",
-   "c": "Industry"
-  },
-  {
-   "t": "Eli Lilly's Next Obesity Drug Isn't Approved Yet, but Peptide Tracker Users Already Log It - The Globe and Mail",
-   "l": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUTVYLTF2dmhfTy1EMGhUZGZRMGpjS2d6a1RMeEF0WEtxYWE4eDhncFprd2dHT0tzMXhTVzdEb2t4T0QzbkNTZU9HckhpUjZHNVBDckMybW9wMXlrUFpnZ0NjaEl1YUNCRUx3R0pma2JHNjItOU1sYUd4TjNjdllIc3lUbnFWWVA5RlNjSXJtb0NQVXRiSG5GWGltRnMwZ2lieG1McENNeHlzMU5Lbmk4VjRTV0JhUVdrLVp3VWRqbEI2UnJTc3VmcjVISEliSEZKVVJaSldxU0xJZjlSYnBpdjh6NTFHOG96SF93SmZOY2NwU1RLRG1ZX1BwejEyUmds?oc=5",
-   "d": "2026-11-22",
-   "s": "gnews-a",
-   "x": "Eli Lilly's Next Obesity Drug Isn't Approved Yet, but Peptide Tracker Users Already Log It The Globe and Mail",
    "c": "Industry"
   },
   {
@@ -448,35 +481,11 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Experimental drug retatrutide helped two-thirds of participants cut pain in half — ScienceDaily - UA.NEWS",
-   "l": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPTDEwaERnNUlobEE1VHFLX1hhWDFUZ3BkaGM1SlBHZVU4bjBWcW9ZR0IzbjJvWDZKMHFTRkhDOXJ0VGVTSlJ5cV93TTJlam9ZY1V0ZHdnVEJ3eEd1NDlGQnhkVV9UTE5rbXhibkdkcEh1emlKV2U2OThYLXpVd005ZHpiVFhrSHlQdkNPSUg2NVM0bHBYY1VKUzFveExWMkZtMnVBTDAwXzlHR2g2OFB3M00yZ3M1VGRWSnItdW81dUdDczlSX3I1b1BjR1ZWM2dOQldz?oc=5",
-   "d": "2026-11-20",
-   "s": "gnews-a",
-   "x": "Experimental drug retatrutide helped two-thirds of participants cut pain in half — ScienceDaily UA.NEWS",
-   "c": "Industry"
-  },
-  {
-   "t": "Assurion Labs Sets a Verified-Lot Standard for Research Peptides: ≥99% HPLC Purity, Peptide Net Content and Comprehensive Screening on Every Lot - BioSpace",
-   "l": "https://news.google.com/rss/articles/CBMijAJBVV95cUxOZjlXdlk5a3UxaVgtSGtUd0NPNWhIaEU5a1hiTW1BUVVfYlJ0dF9rZnc1aFZlM0pWbUFTTF92U2N6N1NVTHdMcVJEVmRUOVc3dklTb1dOZmIwTGRSc2tOSTFEZDh2eExnRHc0R3NwWnBMRkhreTVvNHB1dUkwTWVpc1VSZmJYYklKRFFOZDFrSWZubWxqX0hadC1mcVNwYWFVOFFoeU5nV3g1TzlmbWlXeHBiY0RuZ2duNkw2SzBQNVBYOEhZN0M5cWRqbU4wdGowT1lzOHFmbVhZeDlsSEVoNWVwUFNSS2ZiNDB1cXZWcUpadlJwZXZsaTQ4Q0gzRDFKX3FQSjd0VzRHNUdF?oc=5",
-   "d": "2026-11-20",
-   "s": "gnews-a",
-   "x": "Assurion Labs Sets a Verified-Lot Standard for Research Peptides: ≥99% HPLC Purity, Peptide Net Content and Comprehensive Screening on Every Lot BioSpace",
-   "c": "Industry"
-  },
-  {
    "t": "Blue Interactive Agency Publishes New Resource on Peptide Therapy SEO as Patient Search Trends Reshape Healthcare Marketing - Detroit Free Press",
    "l": "https://news.google.com/rss/articles/CBMigwJBVV95cUxPX2RVaDJKVWFoUndSaUdtLTdibEVWY0o1andLRFRCRXp1MWM3eVpDTnRrYTRNX2k5bi1sYkNWcGRmemJKbl9CNUNuWnRENmlyT0FVOC1fS21lUjk1THUyZTJWYXM0Nkhxb0ttXzlVVjFJcFlxUV9Tc3pLT3dZR2o0UkVPSDc0SG1Vd1g2MTdKem1uWkU2N1RhSGxTRnRoLWdHWllpVGt0MUU5eXRYaEk2M2ZSOF91SXdoYWpvYzNYVG56R01VV3ZXN2RYUXV1akFLNWpLZURZc1dpVzJFaUt2dVQ4QVNJOUx5eUt0eEc5bTdYVmhTMjhtb2Y3U3l6ZEV0UWJJ?oc=5",
    "d": "2026-11-20",
    "s": "gnews-gh",
    "x": "Blue Interactive Agency Publishes New Resource on Peptide Therapy SEO as Patient Search Trends Reshape Healthcare Marketing Detroit Free Press",
-   "c": "Industry"
-  },
-  {
-   "t": "Void Research Peptides Discount Code {〖「BOOST30」〗}: Up to 30% Off — TESAMORELIN: - publika.id",
-   "l": "https://news.google.com/rss/articles/CBMi7gJBVV95cUxPdmxoREIxbTFsU1l3dUtxdkZZS2p0M2pPUXpXQUhPNm5pNkRJNi0yaHU0VWNEVEJRMFlsQ3dBZGZNMldRcy1odFZuUDN5ODl1OVl6c0pHQkVtQjJKQkV3U1J1UE9IUmVOWW92UnZtMmUxXzNQRGJTOUNwWXBfQXYzcm95M0tKWjA0SmREQ25vc1NjQklBWS1uMmROdzh0cVNhRHRkTXpua0hVT3JDWE9QZGhlVG1Vbmh1ODk2LW90dnpWY3JSeER4eUhPSHJwVFd4XzlSOEV0WnVBMldvZWtWVHJRdXV1TXQyU0ZLeDE3NGRXQjB4X3Z3eV9HNmdXb29BUGlld0pFTXZNMXpFeDBXQkF4YjZZQmk4WGZHa2U1dEZjSldEaGhHNkpDZHVVbjhiZnlFTlJqNE1LTUhYWXRDcS1aN1VvZzFUR3NQUEx3SUxHaHRpajYtQ0RtaEdYeWpUcHVSTWRwMHJUajRNdEE?oc=5",
-   "d": "2026-11-20",
-   "s": "gnews-a",
-   "x": "Void Research Peptides Discount Code {〖「BOOST30」〗}: Up to 30% Off — TESAMORELIN: publika.id",
    "c": "Industry"
   },
   {
@@ -597,6 +606,14 @@ window.FEED_ART={
    "d": "2026-11-16",
    "s": "gnews-gh",
    "x": "RNs Opening Anti-Aging Clinics: What It Takes WorldHealth.net",
+   "c": "Industry"
+  },
+  {
+   "t": "Are peptides legal now? What the new HHS policy really means - Building Indiana Business",
+   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMURFYllJRXFzUUFnQzNxZG1oTG9XOFdodmVxd0xkZXd0dmdudF9tSWlYaDJUdGt2ZXR0XzU3ZUV2ZndENjF0VXlKbWJHTzRtU2hjMVFBODVsVUxJZ0c0REdpWEhfZDVqUjRHWkg4R3NfNFFLWGxFZ29XYmZOS1ExTEJHaVhJLTZOaTV1SXA0b0JleGxIY3Rza2ZFR0JLUk8xOUFLLWlrZXBsMFR6WkoweWFrYUxEOW1SLXc?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-gh",
+   "x": "Are peptides legal now? What the new HHS policy really means Building Indiana Business",
    "c": "Industry"
   },
   {
@@ -999,14 +1016,6 @@ window.FEED_ART={
    "d": "2026-10-28",
    "s": "stat",
    "x": "Eli Lilly announced that its investigational drug retatrutide was more effective at lowering blood sugar and cutting weight than Novo Nordisk’s Ozempic in a large diabetes study."
-  },
-  {
-   "t": "Gameday Men's Health Sets the Safety Standard as New Federal Policy Expands Peptide Access - PR Newswire",
-   "l": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPWmF6SjdIV28wQmRTYXBITFQyeEpmTTlNc2E0R3VwRWZpVTNCVHljQ2h0bW8tTlRBdXJSdGZ4WTJEMmRjbjVaZmhDZ2pxRnY0NzhOdy1ISWZsbklPaThQMU9iYm0zU1JVSFBoaDJSMzM1SXdabTB6NzBQcHZxU3B4Z2cxUjBISUdMa1hGMUFLQ0hKMnpaNXRzZUtxTFRWQWR5amNLX21xekZMYjJEcGZoOWVLU05IQkhjd3luSHR2cDFrdUxkQlVoNnBjaGp4bVl1R1BlUVp2bG1ZQzQ0MHc?oc=5",
-   "d": "2026-10-28",
-   "s": "gnews-gh",
-   "x": "Gameday Men's Health Sets the Safety Standard as New Federal Policy Expands Peptide Access PR Newswire",
-   "c": "Industry"
   },
   {
    "t": "Tissue engineering strategies from regional functional units to integrated functional reconstruction for intervertebral disc regeneration.",

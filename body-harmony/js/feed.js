@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-25T21:48Z",
+ "generated": "2026-11-26T08:32Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
-   "seen": 1,
-   "lastOk": "2026-11-25T21:48Z"
+   "seen": 0,
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "fierce",
@@ -67,11 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "gnews",
@@ -79,11 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
-   "new": 87,
-   "seen": 91,
-   "lastOk": "2026-11-25T21:48Z"
+   "new": 169,
+   "seen": 195,
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "fda-recalls",
@@ -91,11 +91,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "fda-consumer",
@@ -103,7 +103,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -115,11 +115,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "fr-hhs",
@@ -127,11 +127,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "doj",
@@ -139,11 +139,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "usada",
@@ -151,11 +151,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "mhra",
@@ -163,11 +163,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "gnews-state",
@@ -175,11 +175,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
-   "new": 0,
+   "new": 1,
    "seen": 20,
-   "lastOk": "2026-11-25T21:48Z"
+   "lastOk": "2026-11-26T08:32Z"
   },
   {
    "id": "gnews-anab",
@@ -187,14 +187,30 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-25T21:48Z",
+   "checked": "2026-11-26T08:32Z",
    "ok": true,
    "new": 0,
-   "seen": 11,
-   "lastOk": "2026-11-25T21:48Z"
+   "seen": 10,
+   "lastOk": "2026-11-26T08:32Z"
   }
  ],
  "items": [
+  {
+   "t": "",
+   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "d": "2026-11-26",
+   "s": "fierce",
+   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions.",
+   "c": "Industry"
+  },
+  {
+   "t": "The Peptide Boom Comes to New Orleans: What “Research Use Only” Means and How to Judge Peptide Quality in 2026 - Big Easy Magazine",
+   "l": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPN1BhaUc1Z3Y2anpfcDdOd3Z5U0Vxak5DdDZFSTFHSDBjM0lmQndLV0ZLNDQ4dGJ2bEs0WlRrUkJYRGxfc0RrOXpDWUdkS3NmaFQ1aVNXak5vSUk5cEJxUUFrUThrZnpTcXZGbEMwMERiZVFPMC1yd012NldObVdYbTlIWTBiT1llUVRGdlVxYnQ4ODZibmtyckpGZ0w1R3V3NWx5YnRISjZ2akJrQWV6R0wtVjdGSjZsNjdodVlzdTRvYWlPWEVESUQwR0hXa2x0QnBSSDRvcDJnM21VaFJaQw?oc=5",
+   "d": "2026-11-26",
+   "s": "gnews-state",
+   "x": "The Peptide Boom Comes to New Orleans: What “Research Use Only” Means and How to Judge Peptide Quality in 2026 Big Easy Magazine",
+   "c": "Regulation"
+  },
   {
    "t": "Compounding Animal Drugs From Bulk Drug Substances: Compounding Under CGMP in Federally-Registered Facilities; Draft Guidance for Industry; Extension of Comment Period",
    "l": "https://www.federalregister.gov/documents/2026/11/25/2026-23995/compounding-animal-drugs-from-bulk-drug-substances-compounding-under-cgmp-in-federally-registered",
@@ -220,12 +236,12 @@ window.FEED={
    "c": "Regulation"
   },
   {
-   "t": "",
-   "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
+   "t": "FDA Recalls and Warnings: Ibuprofen and Blood Pressure Drug May Contain Metal; Sterility Issues With Compounded GLP-1s - MedShadow Foundation",
+   "l": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdXN2VHNpX0Q4ZmNGT2RNb0UtSWowd2pFck1icUZuMUFQVl94c010TmFlR3UxZ1ppdDRtemhaaVd4emFuNEVFRU9SaGlKSk9SYlB6aVFXLTB2dWJXakRiU2VzQ1BGQ0FnOXlYNlA1THpTN3FlMjQwb1pnM1JrTkwwT2RGU3ZINjByd1h5YW1yZGVkdE5Cdi1CWWFER1FYQkZwRzRyWjN6azNOaU1BQ3NXNmYyaU05RGtZdVRwaFpwbHdPb00?oc=5",
    "d": "2026-11-25",
-   "s": "fierce",
-   "x": "Fierce Pharma is launching the weekly Oral GLP-1 Tracker, leveraging analysts’ notes and IQVIA data to monitor prescription trends and shifting market shares as Novo Nordisk's Wegovy pill and Eli Lilly's Foundayo vie to become the go-to oral weight-loss solution for millions.",
-   "c": "Industry"
+   "s": "gnews-state",
+   "x": "FDA Recalls and Warnings: Ibuprofen and Blood Pressure Drug May Contain Metal; Sterility Issues With Compounded GLP-1s MedShadow Foundation",
+   "c": "Regulation"
   },
   {
    "t": "Not So Fast: Kentucky Holds The Line On Peptide Compounding - JD Supra",
@@ -396,20 +412,20 @@ window.FEED={
    "c": "Industry"
   },
   {
-   "t": "Gold, silver, cash and drugs seized in police sting - Yahoo News Australia",
-   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45dmU2OWF2VDhnX25IVFNjYUpoLXBfaDZQbVNRb1ZtMzRpSmN0MU5XWm9fczByMW9iRkU4eExmZDRKSnludVEyS0lTNHFWWFNkM3Q5V1kwd19HS1lHYzZsaktwWU9YZnB3T2lPeFFwQ2FSVXpNWDBNcG1R?oc=5",
-   "d": "2026-11-18",
-   "s": "gnews-anab",
-   "x": "Gold, silver, cash and drugs seized in police sting Yahoo News Australia",
-   "c": "Safety"
-  },
-  {
    "t": "FTC Warning Letters And Final Transparency In Coverage Rules Mark Latest Steps In Trump Administration’s Healthcare Price Transparency Push - Legal 500",
    "l": "https://news.google.com/rss/articles/CBMiygJBVV95cUxPaWFKS2hoUEpEcmZORGZyVC1TMVNTNzlmMHV1WHhPTHA1UjRjLXc0Skd3V0lGbDNmTnZwZGtqRGlTUkxKWjV2Q3ZRVnRFVUxpbnY4aHo2WU53dHp3TWtKcnNCLVZYSGlVUGl3UnpCd1g4cms3X01VU2VvR3VnMDhHQlp1NlVRMHVITUVJTld5cTBsaUVJRWNtYjlIZUdxY25QLUhpOEtzLW9tR0Qwb0ZKUTFiVFRoSHFjX3A5d0VObmdkM0oxdkhWOFlJc0UzeTAtaHRQbWx5MjhsUzRTOVYwV1RJUFRRdndqdWczNk5FVS1xampvaDBvanVkN09kTGx5cDBQdDRuYlJLaXMzenNMczlqbVBpUHAwVkw0VThWYjBoN2NJc29RV19IYjNVcTFnUHE4d2Rnemktb1pRSlNxYkt0NWdtVFRWQ0E?oc=5",
    "d": "2026-11-18",
    "s": "gnews-state",
    "x": "FTC Warning Letters And Final Transparency In Coverage Rules Mark Latest Steps In Trump Administration’s Healthcare Price Transparency Push Legal 500",
    "c": "Regulation"
+  },
+  {
+   "t": "Gold, silver, cash and drugs seized in police sting - Yahoo News Australia",
+   "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTE45dmU2OWF2VDhnX25IVFNjYUpoLXBfaDZQbVNRb1ZtMzRpSmN0MU5XWm9fczByMW9iRkU4eExmZDRKSnludVEyS0lTNHFWWFNkM3Q5V1kwd19HS1lHYzZsaktwWU9YZnB3T2lPeFFwQ2FSVXpNWDBNcG1R?oc=5",
+   "d": "2026-11-17",
+   "s": "gnews-anab",
+   "x": "Gold, silver, cash and drugs seized in police sting Yahoo News Australia",
+   "c": "Safety"
   },
   {
    "t": "Rulemaking To Provide That N-acetyl-L-cysteine Is Not Excluded From the Dietary Supplement Definition",
@@ -425,6 +441,14 @@ window.FEED={
    "d": "2026-11-17",
    "s": "gnews-anab",
    "x": "Fourth Hanceville police officer pleads guilty in corruption case, sentenced WHNT News 19",
+   "c": "Safety"
+  },
+  {
+   "t": "Hundreds of parcels containing suspected illegal peptides seized at border - RNZ",
+   "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcnlSS2dPNmpiTVZqY0RidS0weU81SkV6bk5Wa1M2V2F3ZV9BM3preXAzRklCT1FEUkI5ckhrcU82LTBiRnJSamJ0cTVBQzRxZDFUZ3NfLW53ZmtxVmpmbDFtNzNqNGpRXzFOdndNZ0hKc3JmQWlHRVh3RHdFbUl3TFNYYXJkWVVMbU92VTdTcG8yZFV4WlpaV1dJU0h1SU5nc2NVZnFjVTJsWnd6NERXb1lXNjE4SzA?oc=5",
+   "d": "2026-11-17",
+   "s": "gnews-anab",
+   "x": "Hundreds of parcels containing suspected illegal peptides seized at border RNZ",
    "c": "Safety"
   },
   {
@@ -458,14 +482,6 @@ window.FEED={
    "s": "gnews",
    "x": "Are Peptides Legal Now? What the New HHS Policy Really Means Hone Health",
    "c": "Industry"
-  },
-  {
-   "t": "Hundreds of parcels containing suspected illegal peptides seized at border - RNZ",
-   "l": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcnlSS2dPNmpiTVZqY0RidS0weU81SkV6bk5Wa1M2V2F3ZV9BM3preXAzRklCT1FEUkI5ckhrcU82LTBiRnJSamJ0cTVBQzRxZDFUZ3NfLW53ZmtxVmpmbDFtNzNqNGpRXzFOdndNZ0hKc3JmQWlHRVh3RHdFbUl3TFNYYXJkWVVMbU92VTdTcG8yZFV4WlpaV1dJU0h1SU5nc2NVZnFjVTJsWnd6NERXb1lXNjE4SzA?oc=5",
-   "d": "2026-11-16",
-   "s": "gnews-anab",
-   "x": "Hundreds of parcels containing suspected illegal peptides seized at border RNZ",
-   "c": "Safety"
   },
   {
    "t": "Are peptides legal now? What the new HHS policy really means - Shelbyville Times-Gazette",
@@ -513,6 +529,22 @@ window.FEED={
    "d": "2026-11-16",
    "s": "gnews",
    "x": "Are peptides legal now? What the new HHS policy really means North Country Now",
+   "c": "Industry"
+  },
+  {
+   "t": "Are peptides legal now? What the new HHS policy really means - Coastal Breeze News",
+   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY0tIcHprUU42N1BfM21lOS12dVJNSFZRV0trT2VnQ1U3cVJORW91UTNudnZacnVIWXJrczBWbUtmMldoUDlwT1pEX2hFZm9QNEFOakZOQzE4QUtUbzFfS1VjbklkWTFwRVAyMDQtWWVhSk8wbDBRdDJYcFpYcllVeXBsc1dNbWRVeG1wRWZiSUZ4ejhOZFZIVlRpUU1oUkk5X3JBX2JoWWV0ZXJwYTdjdEJmMjAzcG96eHZTSUlmZkk?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews",
+   "x": "Are peptides legal now? What the new HHS policy really means Coastal Breeze News",
+   "c": "Industry"
+  },
+  {
+   "t": "Are peptides legal now? What the new HHS policy really means - easttexasnews.com",
+   "l": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNY0k5aXR5a0FIU21ZNXZCSlFGMXNsUUJ5cjNqem5mclBseUN6bUg4Z1BpUzJsTXgtY3NoeXhMeEYyQmV4U0VXdTdlUDlQUGx5eVluVDFtOGtnLUVxdThCWXF2aU4wYXBxQ25SMElXMVR0RDFNTTZLUV9zQ0FqeF9DT0JCUGRJWHQ2VFlRazBXN3BXNmRTNUpSQmdFNXZMVm5LM0FJelNLQXdyMFNfcHoyeWptbzhORkRzNmcybA?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews",
+   "x": "Are peptides legal now? What the new HHS policy really means easttexasnews.com",
    "c": "Industry"
   },
   {
@@ -926,20 +958,6 @@ window.FEED={
    "s": "gnews-state",
    "x": "Richard Norton's Doctor Cautioned as Coroner Urges Peptide Review in Australia Around Prague",
    "c": "Regulation"
-  },
-  {
-   "t": "U.S. eases restrictions on six unapproved peptides despite FDA safety concerns - Qazinform",
-   "l": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOVFIzdUtsM0VaYzVfM3g1SjRiYUNEOUZnWnNxU04yRV9jTkMxVEQ3VkpPWjJaLXNOdEo2dDRycERzdTAyN19ya3lxVXdRMktLTzhXUGVxMVBmRTRDRHdxS3pLaVNWUVk0N21VQ1NzQy1KSUlvTkpJNzk5V1BlZ0tUVEtCZHBSOE9sNGxNV2k0Y2JyNU5MLWc5ck12T29ZWktJdHBtZzNaNFk5Q3ZaYmVz0gGvAUFVX3lxTE5UUjN1S2wzRVpjNV8zeDVKNGJhQ0Q5Rmdac3FTTjJFX2NOQzFURDdWSk9aMlotc050SjZ0NHJwRHN1MDI3X3JreXFVd1EyS0tPOFdQZXExUGZFNENEd3FLektpU1ZRWTQ3bVVDU3NDLUpJSW9OSkk3OTlXUGVnS1RUS0JkcFI4T2w0bE1XaTRjYnI1TkwtZzlyTXZPb1laS0l0cG1nM1o0WTlDdlpiZXM?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews",
-   "x": "U.S. eases restrictions on six unapproved peptides despite FDA safety concerns Qazinform"
-  },
-  {
-   "t": "6 Experimental Peptides Just Became Legal to Get in the US (But the FDA Still Hasn't Approved Them for Safety) - BoxLife Magazine",
-   "l": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5zVmpSSWp4MU5Db0N2UHh3RHFsT3o3bnZDeW1vNmxPQ2d4emI5eklkLXJiTjNodHFpaW1zOEdoRWpOaDQ4SFhkSkliY3dUS2dQQU1FaThLelIzMWp0NExuSEw5dWRsZjdF?oc=5",
-   "d": "2026-10-30",
-   "s": "gnews",
-   "x": "6 Experimental Peptides Just Became Legal to Get in the US (But the FDA Still Hasn't Approved Them for Safety) BoxLife Magazine"
   },
   {
    "t": "Schedules of Controlled Substances: Placement of Centanafadine in Schedule III",
