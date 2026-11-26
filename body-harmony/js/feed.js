@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-26T08:32Z",
+ "generated": "2026-11-26T21:41Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "fierce",
@@ -67,11 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "gnews",
@@ -79,10 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-26T08:32Z",
-   "ok": true,
-   "new": 169,
-   "seen": 195,
+   "checked": "2026-11-26T21:41Z",
+   "ok": false,
+   "error": "HTTP Error 429: Too Many Requests",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-26T08:32Z"
   },
   {
@@ -91,11 +92,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "fda-consumer",
@@ -103,7 +104,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -115,11 +116,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "fr-hhs",
@@ -127,11 +128,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "doj",
@@ -139,11 +140,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "usada",
@@ -151,11 +152,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "mhra",
@@ -163,11 +164,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "gnews-state",
@@ -175,11 +176,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
-   "new": 1,
-   "seen": 20,
-   "lastOk": "2026-11-26T08:32Z"
+   "new": 0,
+   "seen": 13,
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "gnews-anab",
@@ -187,14 +188,22 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
-   "new": 0,
-   "seen": 10,
-   "lastOk": "2026-11-26T08:32Z"
+   "new": 1,
+   "seen": 9,
+   "lastOk": "2026-11-26T21:41Z"
   }
  ],
  "items": [
+  {
+   "t": "The Peptide Boom Comes to New Orleans: What “Research Use Only” Means and How to Judge Peptide Quality in 2026 - Big Easy Magazine",
+   "l": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPN1BhaUc1Z3Y2anpfcDdOd3Z5U0Vxak5DdDZFSTFHSDBjM0lmQndLV0ZLNDQ4dGJ2bEs0WlRrUkJYRGxfc0RrOXpDWUdkS3NmaFQ1aVNXak5vSUk5cEJxUUFrUThrZnpTcXZGbEMwMERiZVFPMC1yd012NldObVdYbTlIWTBiT1llUVRGdlVxYnQ4ODZibmtyckpGZ0w1R3V3NWx5YnRISjZ2akJrQWV6R0wtVjdGSjZsNjdodVlzdTRvYWlPWEVESUQwR0hXa2x0QnBSSDRvcDJnM21VaFJaQw?oc=5",
+   "d": "2026-11-26",
+   "s": "gnews-state",
+   "x": "The Peptide Boom Comes to New Orleans: What “Research Use Only” Means and How to Judge Peptide Quality in 2026 Big Easy Magazine",
+   "c": "Regulation"
+  },
   {
    "t": "",
    "l": "https://www.fiercepharma.com/pharma/oral-glp-1-tracker-launch-trajectories-lilly-foundayo-novo-wegovy-pill",
@@ -204,12 +213,12 @@ window.FEED={
    "c": "Industry"
   },
   {
-   "t": "The Peptide Boom Comes to New Orleans: What “Research Use Only” Means and How to Judge Peptide Quality in 2026 - Big Easy Magazine",
-   "l": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPN1BhaUc1Z3Y2anpfcDdOd3Z5U0Vxak5DdDZFSTFHSDBjM0lmQndLV0ZLNDQ4dGJ2bEs0WlRrUkJYRGxfc0RrOXpDWUdkS3NmaFQ1aVNXak5vSUk5cEJxUUFrUThrZnpTcXZGbEMwMERiZVFPMC1yd012NldObVdYbTlIWTBiT1llUVRGdlVxYnQ4ODZibmtyckpGZ0w1R3V3NWx5YnRISjZ2akJrQWV6R0wtVjdGSjZsNjdodVlzdTRvYWlPWEVESUQwR0hXa2x0QnBSSDRvcDJnM21VaFJaQw?oc=5",
+   "t": "Nutrition Shop Raided For Illegally Storing Steroids - Rediff.com",
+   "l": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcDRMeWxzalByQi1mQWVrM1R4eVh6SFBJQjdfS0swdkNMRWhWYlFwaWVNT1JVOFctd0JuRXA1WG9MZDRxdExBaklfQVFzY2E5QmFLY3RHLUU0NW1jY3gzdk1lSlhVWGg3MnRNSDhXOVZibmF0emtCOUdqVjBZVU9uU1RkTEpmR3pscHltVVEwOEpzZFR2WVlZN0Nja0owcnoxaVHSAaQBQVVfeXFMTjl6ZjFSZUM0T0xPQ09OSTJaOGg0NWYtYXp0dEZsT0l6cjNUTWNjQ2Z5S2Q1R0hMaEFibjEtZ2lBcWJYQ3ZlWUUxdHFhT3BJRWRvMWhmNmx1Z2VSTkZyTkxMSE5qRWNIMjVDcU45YmV3UUZ4YUxRSzJOQmhNNWxuX3ZtV0NJaVhCeF9qZmVLX0NhUDZYdEdBNHBiX1pIS2RzY21YM1E?oc=5",
    "d": "2026-11-26",
-   "s": "gnews-state",
-   "x": "The Peptide Boom Comes to New Orleans: What “Research Use Only” Means and How to Judge Peptide Quality in 2026 Big Easy Magazine",
-   "c": "Regulation"
+   "s": "gnews-anab",
+   "x": "Nutrition Shop Raided For Illegally Storing Steroids Rediff.com",
+   "c": "Safety"
   },
   {
    "t": "Compounding Animal Drugs From Bulk Drug Substances: Compounding Under CGMP in Federally-Registered Facilities; Draft Guidance for Industry; Extension of Comment Period",
@@ -1280,14 +1289,6 @@ window.FEED={
    "d": "2026-10-16",
    "s": "gnews-anab",
    "x": "Suspected steroids, drugs seized on Norfolk Island Canberra CityNews",
-   "c": "Safety"
-  },
-  {
-   "t": "Long Suspension for Swiss Amateur Handball Player - blue News",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWFBwWlIzNlJ3aDA0ZkVqdE10blVhT1p6R3NaRW5vaV9ma2xkY3F1WUlIbGM3RHpxTU83M2VYMkV6SnRicGJ6YTFnNWY5TzRVSkIyQ1RKcXlpZHB1X2pkSmk4NU95U2xJeE9WdDc4bm04MjEtZWtnaUQwb2xXd2FRMTROaXhST3N2TWtCSWJfdVJWby1fbURR?oc=5",
-   "d": "2026-10-15",
-   "s": "gnews-anab",
-   "x": "Long Suspension for Swiss Amateur Handball Player blue News",
    "c": "Safety"
   },
   {

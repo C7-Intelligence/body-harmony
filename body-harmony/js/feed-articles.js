@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-26T08:32Z",
+ "generated": "2026-11-26T21:41Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
-   "new": 44,
-   "seen": 68,
-   "lastOk": "2026-11-26T08:32Z"
+   "new": 98,
+   "seen": 119,
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "epmc",
@@ -19,12 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-26T08:32Z",
-   "ok": false,
-   "error": "The read operation timed out",
-   "new": 0,
-   "seen": 0,
-   "lastOk": "2026-11-25T21:48Z"
+   "checked": "2026-11-26T21:41Z",
+   "ok": true,
+   "new": 32,
+   "seen": 45,
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "stat",
@@ -32,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "bpd",
@@ -44,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   },
   {
    "id": "gnews-gh",
@@ -56,11 +55,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-26T08:32Z",
+   "checked": "2026-11-26T21:41Z",
    "ok": true,
    "new": 1,
    "seen": 10,
-   "lastOk": "2026-11-26T08:32Z"
+   "lastOk": "2026-11-26T21:41Z"
   }
  ],
  "items": [
@@ -75,7 +74,7 @@ window.FEED_ART={
   {
    "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
    "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-25",
+   "d": "2026-11-26",
    "s": "epmc",
    "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
    "c": "Research"
@@ -83,7 +82,7 @@ window.FEED_ART={
   {
    "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
    "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-25",
+   "d": "2026-11-26",
    "s": "epmc",
    "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
    "c": "Research"
@@ -91,10 +90,26 @@ window.FEED_ART={
   {
    "t": "Semaglutide-Induced Weight Loss Does Not Impair Muscle Function and Improves Endurance Running Capacity in Obese Mice.",
    "l": "https://doi.org/10.1002/jcsm.70427",
-   "d": "2026-11-25",
+   "d": "2026-11-26",
    "s": "epmc",
    "x": "J Cachexia Sarcopenia Muscle · Minderis P, Cesanelli L, Sviderskis M, Venckunas T, Gray SR, Ratkevicius A.",
    "c": "Research"
+  },
+  {
+   "t": "Reduction in T-Cell Mitochondrial Respiratory Capacity After Reaching a Weight Loss Plateau.",
+   "l": "https://doi.org/10.2337/db26-0304",
+   "d": "2026-11-26",
+   "s": "epmc",
+   "x": "Diabetes · Valencia AP, Brandao AF, Melhorn SJ, De Leon MRB, Marcinek DJ, Schur EA.",
+   "c": "Research"
+  },
+  {
+   "t": "Health Canada seizes semaglutide among unauthorized peptides - Benefits and Pensions Monitor",
+   "l": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYWNfazBkWU5JR3lKazAzNTBydEdDNGJkVkpyb3JHcjI0Y0U5amFHOUcxc1VMLUw4OWRRZGMyUERvM3QxNk9YQ2VUYlJIMVU2ZVpxQTNUUW1SM2FBWElKSTlSWVJYeDFrN0dpM2lzWUFrSWhzRktzTmtCblA0Vk1Wa0ZBMkw0aXA1QWZhZFY4Q2p2Y2lDU0pNemc1YmVfeTNTWGptWWh3blpTR1MxNGJzUmxIX1liUG1pcVBTYTRGa181X0st?oc=5",
+   "d": "2026-11-26",
+   "s": "gnews-a",
+   "x": "Health Canada seizes semaglutide among unauthorized peptides Benefits and Pensions Monitor",
+   "c": "Industry"
   },
   {
    "t": "Fears US “peptide party” craze could spread to Britain amid safety concerns - Deadline News",
@@ -129,14 +144,6 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Reduction in T-Cell Mitochondrial Respiratory Capacity After Reaching a Weight Loss Plateau.",
-   "l": "https://doi.org/10.2337/db26-0304",
-   "d": "2026-11-25",
-   "s": "epmc",
-   "x": "Diabetes · Valencia AP, Brandao AF, Melhorn SJ, De Leon MRB, Marcinek DJ, Schur EA.",
-   "c": "Research"
-  },
-  {
    "t": "8 Retatrutide Side Effects You Should Know About - GoodRx",
    "l": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBUcEtMYXQ2bHBuVEZrdFZBWndOTXMtU0tHV1p3d015RWRIekIya1doVzF5b3htU2hybTNvVG00OEdOVXBvUHN0SFhoa19KV3NxUF90RGRSeXNRY0tZbk9IYkJRQmNCUV85M0NTUHpZSm43QnY1UGt3bDhn?oc=5",
    "d": "2026-11-25",
@@ -167,6 +174,22 @@ window.FEED_ART={
    "s": "gnews-gh",
    "x": "Living Better, Longer City Lifestyle",
    "c": "Industry"
+  },
+  {
+   "t": "Sexual Health and Intentions to Use Anabolic-Androgenic Steroids Among Boys and Men.",
+   "l": "https://doi.org/10.1007/s10508-026-03568-1",
+   "d": "2026-11-25",
+   "s": "epmc",
+   "x": "Arch Sex Behav · Ganson KT, Testa A, Piatkowski T, Nagata JM.",
+   "c": "Research"
+  },
+  {
+   "t": "Prevalence and Correlates of Appearance- and Performance-Enhancing Drugs and Substances Use among a Population-Based Sample of Canadians: A Cross-Sectional Survey, 2026.",
+   "l": "https://doi.org/10.1016/j.annepidem.2026.110323",
+   "d": "2026-11-25",
+   "s": "epmc",
+   "x": "Ann Epidemiol · Ganson KT, Canada MHR, Obied N, Piatkowski T, Testa A, Nagata JM.",
+   "c": "Research"
   },
   {
    "t": "Health Canada seizes peptides from Toronto shop, warns of health risks of unregulated market - CBC",
@@ -385,6 +408,14 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
+   "t": "Ozari Health Launches Prescription Peptides Online: BPC-157 Capsules and Injection, MOTS-C, Epithalon, TB-500 and Semax Nasal Spray From $209 a Month - Yahoo Finance",
+   "l": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZHlIcmJfd0QwSGpQSTI1bENmcUs4MlpTTDY3WEZ5Tm41VnNUblFSaDhydk85S0dSdlhkZ1J3a21TS2dKYnpRWGNLdWI0UUUxVGkwUzZ4dENLcUlmTVdHOFZyZF9iMzI3Tm5QVldzVTlmNXpDUllzNXhqUXBqUXhuQzBsZU9Qb3RBZlNYWTRlbXVfcm1QYVk1MGVzR3Y0MVBOVk4xXzRfaw?oc=5",
+   "d": "2026-11-23",
+   "s": "gnews-a",
+   "x": "Ozari Health Launches Prescription Peptides Online: BPC-157 Capsules and Injection, MOTS-C, Epithalon, TB-500 and Semax Nasal Spray From $209 a Month Yahoo Finance",
+   "c": "Industry"
+  },
+  {
    "t": "Government launches inquiry into peptides amid surge in hospital visits - ABC News & Headlines – Australian Broadcasting Corporation",
    "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1BmMGpwVERxdkhvQ0pRaWIzNHB5UmlOTmtXcHpvMHBZdmdfbnN3dF95S2ttV180Zjg3T0c3bXUzRWk1VXdHLVU4SzhPZ1BjaWV6REg1M1BCb1U5MjNxbTdqUGJfcmZaRTFWeURtaEt5SU9zQ3N0OFdoTGhsbVJ3NVY3VTRFZTVnODlTc0RKM191UjNnTHpnWlV4Vl9zZFVi?oc=5",
    "d": "2026-11-22",
@@ -462,22 +493,6 @@ window.FEED_ART={
    "d": "2026-11-20",
    "s": "gnews-a",
    "x": "Black-market peptide use in New Zealand, by the numbers The Spinoff",
-   "c": "Industry"
-  },
-  {
-   "t": "Assurion Labs Sets a Verified-Lot Standard for Research Peptides - The National Law Review",
-   "l": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZVVrWHpYSUlMZXlTNnhzeTl1X2pHR0NRaGhQVHdzYjl6c0VXdnB5eU1EZ2lwZy03ZXdIX1JzZE96RXZia2tobGJHcnVwT3MwVTFjczVLYU51TWd4RFFLWldCbzFsQzNKZ2tEWERtb3ZrLUo0bk9raThKNXZmcXF1RGItemlNUnRYRDRsRHZlcTU2cW8zeHRYUTQ0UThpZUJvRUEyV0hXUXFoWGY1MEJMM0ZLVQ?oc=5",
-   "d": "2026-11-20",
-   "s": "gnews-a",
-   "x": "Assurion Labs Sets a Verified-Lot Standard for Research Peptides The National Law Review",
-   "c": "Industry"
-  },
-  {
-   "t": "Retatrutide vs Semaglutide for People With Type 2 Diabetes - Medscape",
-   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNX1d5YlRpbW1SZk1hTW81emhVVUNGX0FlVTZuZnlWamw5WndmUkxtTXhxbGlxR21Uck8wQlZfZmE3SU5DQ2pWRUJiMkdNTlUxcVRmM29fcU1NMldORmFqaHVUM1pfMEc2TjhDb2E2MzlJMEY1M0RSQXF0Q2RyS2x5Z1JYcW1JRy1kTGlxTHRIcnFqNkZfcXRxejRWWFYwUXpU?oc=5",
-   "d": "2026-11-20",
-   "s": "gnews-a",
-   "x": "Retatrutide vs Semaglutide for People With Type 2 Diabetes Medscape",
    "c": "Industry"
   },
   {
@@ -614,6 +629,14 @@ window.FEED_ART={
    "d": "2026-11-16",
    "s": "gnews-gh",
    "x": "Are peptides legal now? What the new HHS policy really means Building Indiana Business",
+   "c": "Industry"
+  },
+  {
+   "t": "Are peptides legal now? What the new HHS policy really means - Coastal Breeze News",
+   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY0tIcHprUU42N1BfM21lOS12dVJNSFZRV0trT2VnQ1U3cVJORW91UTNudnZacnVIWXJrczBWbUtmMldoUDlwT1pEX2hFZm9QNEFOakZOQzE4QUtUbzFfS1VjbklkWTFwRVAyMDQtWWVhSk8wbDBRdDJYcFpYcllVeXBsc1dNbWRVeG1wRWZiSUZ4ejhOZFZIVlRpUU1oUkk5X3JBX2JoWWV0ZXJwYTdjdEJmMjAzcG96eHZTSUlmZkk?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews-gh",
+   "x": "Are peptides legal now? What the new HHS policy really means Coastal Breeze News",
    "c": "Industry"
   },
   {
@@ -935,6 +958,22 @@ window.FEED_ART={
    "c": "Research"
   },
   {
+   "t": "Mitochondrial Bioenergetics in Acute Tubular Injury: Metabolic Plasticity, Cell Fate, and Translational Opportunities",
+   "l": "https://europepmc.org/article/PMC/PMC13801589",
+   "d": "2026-11-01",
+   "s": "epmc",
+   "x": "Curr Issues Mol Biol · Vega Batista F, Carrera L, Sutihar A, Lorenzo Capps M, Tousif M, Iglesias J.",
+   "c": "Research"
+  },
+  {
+   "t": "Hormonal Regulation of Spermatogenesis: Why Cellular Context Matters",
+   "l": "https://europepmc.org/article/PMC/PMC13802304",
+   "d": "2026-11-01",
+   "s": "epmc",
+   "x": "Curr Issues Mol Biol · Kaltsas A, Markou E, Symeonidis A, Dung M, Hoang N, Hung T, Morizane S, Sofikitis N, Zachariou A, Dimitriadis F.",
+   "c": "Research"
+  },
+  {
    "t": "Pharmacist Clinics Raise Heart Failure Therapy Rates to 95% - Medscape",
    "l": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORXBrNW5JU2VSWDBmRXV3a1ZNZjBDSS1USHB1RUJPb2FhRGtINHVZdXEtVEVjdFFzcTctVHgwMWlBX1F2QkZnTG9sRWFUbkNOOUlRVHVfYnoyR2NtWlpfQ080Q1luUk9LWUI4VlBVamNRc1AtY1EtQ0FWWFN2cm1TNzdEVTgzRkxOY0VpbXlxTWFGQmNxNnVaUFB3SVJvelVXbVBoYWxnM0c?oc=5",
    "d": "2026-10-30",
@@ -996,14 +1035,6 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Stem Cells vs. Peptides: BioRestore Health Explores the Science Behind the Future of Anti-Aging Medicine - The Des Moines Register",
-   "l": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPeFVDd0hONHdMRENnUFlLUmtZZmtKaVp3RHRDU05hYkN2VmhuT0RxYjVEdHlwUmwxbm9zbUZhUWdZVno3MWZXb1lHODhRdFYzSVM2X2Juc0U0eHJaMmo3QnRIODIwdzBVUS1lSHJGbHFiUWlsOXRUWHAxYU1NRHJrQzhPUUtob2o3OHdkTFhod1ZSM3I3ZkJsZExCVUpPUy13TEdtQmdFRzc1SnUyWkozbWNqYWhmMnhkS0hOTm0xNG5OUHI5d0hYMEVWeWlJR1NLSzhuMC0xX09oYUFqMUdzVThJbFYxS3JkcXNRN0JGeUNlY2pzTjFR?oc=5",
-   "d": "2026-10-29",
-   "s": "gnews-gh",
-   "x": "Stem Cells vs. Peptides: BioRestore Health Explores the Science Behind the Future of Anti-Aging Medicine The Des Moines Register",
-   "c": "Industry"
-  },
-  {
    "t": "STAT+: HHS moves to allow compounding of some unapproved peptides",
    "l": "https://www.statnews.com/2026/10/28/hhs-enforcement-discretion-policy-allows-peptide-compounding/?utm_campaign=rss",
    "d": "2026-10-28",
@@ -1023,6 +1054,14 @@ window.FEED_ART={
    "d": "2026-10-26",
    "s": "epmc",
    "x": "J Orthop Translat · Li Z, Zhang Y, Gong J, Zhang H, Zhao Q, Tian Y, Liu Y, Pang Z, Chen S, Wang R, Yang Q.",
+   "c": "Research"
+  },
+  {
+   "t": "Paracrine TMSB4X signaling from oligodendrocytes promotes diffuse glioma dissemination.",
+   "l": "https://doi.org/10.1038/s41388-026-04029-8",
+   "d": "2026-10-26",
+   "s": "epmc",
+   "x": "Oncogene · Chai KM, Tsai CH, Lin MY, Teng TC, Chen YS, Liu SJ, Chang CR, Wang CY.",
    "c": "Research"
   },
   {
@@ -1084,48 +1123,11 @@ window.FEED_ART={
    "x": "U.S. health officials are moving ahead with a plan to allow specialty pharmacies to produce certain peptides, a class of largely unregulated injections favored by health secretary Robert F. Kennedy…"
   },
   {
-   "t": "Retatrutide treatment in streptozotocin-induced diabetic rats: renal inflammatory cytokines, HIF‑1α expression, and histopathological injury profile.",
-   "l": "https://doi.org/10.1007/s10735-026-11013-9",
-   "d": "2026-10-15",
-   "s": "epmc",
-   "x": "J Mol Histol · Keskin U, Altın E, Özatik FY, Sezgin AK, Gündoğdu AÇ, Arı NS, Kara MK."
-  },
-  {
    "t": "New study examines GLP-1 impact on interactions with criminal justice system, employment, housing stability",
    "l": "https://www.statnews.com/2026/10/14/health-news-glp-1-study-impact-interactions-with-criminal-justice-system-employment/?utm_campaign=rss",
    "d": "2026-10-14",
    "s": "stat",
    "x": "A wave of clinical trials have begun to test the ability of GLP-1 weight loss drugs to quell various substance use disorders, with some promising results. A new trial announced…"
-  },
-  {
-   "t": "GLP-1 receptor agonists and hair loss: adverse effect, epiphenomenon, or therapeutic paradox?",
-   "l": "https://doi.org/10.1007/s00592-026-02812-3",
-   "d": "2026-10-14",
-   "s": "epmc",
-   "x": "Acta Diabetol · Leite Júnior AC, Ribeiro Junior HL."
-  },
-  {
-   "t": "The pharmacotherapy for pediatric obesity: insights and challenges from adult weight-loss medications.",
-   "l": "https://doi.org/10.1007/s40200-026-02110-3",
-   "d": "2026-10-12",
-   "s": "epmc",
-   "x": "J Diabetes Metab Disord · Chen Z, Zhou Y, Li G, Muthanna A, d'Arqom A, Tham CL, Ho YC, Lee MT.",
-   "c": "Research"
-  },
-  {
-   "t": "Weight loss and blood pressure lowering with GLP-1 receptor agonists and multi-hormone receptor modulators in overweight and obesity: a systematic review and meta-regression of phase 3 clinical trials",
-   "l": "https://europepmc.org/article/PMC/PMC13682070",
-   "d": "2026-10-12",
-   "s": "epmc",
-   "x": "EClinicalMedicine · Nardone M, Kugathasan L, Daunt L, Parikh E, River Zhang H, Pasricha S, Orchanian-Cheff A, Cherney D, Odutayo A, Muskiet M."
-  },
-  {
-   "t": "Weight loss and blood pressure lowering with GLP-1 receptor agonists and multi-hormone receptor modulators in overweight and obesity: a systematic review and meta-regression of phase 3 clinical…",
-   "l": "https://doi.org/10.1016/j.eclinm.2026.104251",
-   "d": "2026-10-12",
-   "s": "epmc",
-   "x": "EClinicalMedicine · Nardone M, Kugathasan L, Daunt L, Parikh EJ, River Zhang HY, Pasricha SV, Orchanian-Cheff A, Cherney DZI, Odutayo A, Muskiet MHA.",
-   "c": "Research"
   },
   {
    "t": "STAT+: Are stem cell treatments about to have their day?",
