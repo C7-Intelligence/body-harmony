@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-26T21:41Z",
+ "generated": "2026-11-27T08:45Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-26T21:41Z",
+   "checked": "2026-11-27T08:45Z",
    "ok": true,
-   "new": 98,
-   "seen": 119,
-   "lastOk": "2026-11-26T21:41Z"
+   "new": 119,
+   "seen": 151,
+   "lastOk": "2026-11-27T08:45Z"
   },
   {
    "id": "epmc",
@@ -19,10 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-26T21:41Z",
-   "ok": true,
-   "new": 32,
-   "seen": 45,
+   "checked": "2026-11-27T08:45Z",
+   "ok": false,
+   "error": "The read operation timed out",
+   "new": 0,
+   "seen": 0,
    "lastOk": "2026-11-26T21:41Z"
   },
   {
@@ -31,11 +32,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-26T21:41Z",
+   "checked": "2026-11-27T08:45Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-26T21:41Z"
+   "lastOk": "2026-11-27T08:45Z"
   },
   {
    "id": "bpd",
@@ -43,11 +44,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-26T21:41Z",
+   "checked": "2026-11-27T08:45Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-26T21:41Z"
+   "lastOk": "2026-11-27T08:45Z"
   },
   {
    "id": "gnews-gh",
@@ -55,14 +56,30 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-26T21:41Z",
+   "checked": "2026-11-27T08:45Z",
    "ok": true,
-   "new": 1,
-   "seen": 10,
-   "lastOk": "2026-11-26T21:41Z"
+   "new": 0,
+   "seen": 1,
+   "lastOk": "2026-11-27T08:45Z"
   }
  ],
  "items": [
+  {
+   "t": "FDA Advisory No.2026-1793 || Public Health Warning Against the Purchase and Use of the Unregistered Drug Product “Luhilo High and Low Molecular Weight HA, Amino Acids and Peptides Syringe x 2.5ml” -…",
+   "l": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPc0VtamY2dUdFNi1reE8wT0YxSjBrRXp6X0FDQmpxVHpDSnlQZHlVTnVWSnM2cGMxY2JnX052Rk44dHhEOUtIZHQ3SW9CNHp6MldyU01OY1dVRzBTdDJNU0l1bGlEMDNlZmNDV1h3cVBxZDIwWGc5TmVOUEEtMU9xLUFKZ3o3UnFoZGJteFBpeXBpYVVXTTJkczEwYXhJUVQ3dDd4S196eW1pc05PYzlPU2txOE03LVJyQXZMTEpnYzRrTnRuSkYyeGJkZDEtSF9EWXM2MHN6dU9rLUxZSFVFYldDSmsyQU15TDhuSWNSWWsyajVGeGFUS3NTRy1pOWtKREtuVDBYZ1NhWXdsT2hNOTRtejBJSG41QmJfMk9hZlI5cXJMQVlVaG15SzRlN1Jxc1U4cg?oc=5",
+   "d": "2026-11-27",
+   "s": "gnews-a",
+   "x": "FDA Advisory No.2026-1793 || Public Health Warning Against the Purchase and Use of the Unregistered Drug Product “Luhilo High and Low Molecular Weight HA, Amino Acids and Peptides Syringe x 2.5ml” - Food and Drug Administration https://www.fda.gov.ph/",
+   "c": "Industry"
+  },
+  {
+   "t": "UK Peptides Publishes 31 Batch-Specific Lab Certificates for Its Research Peptides - openPR.com",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOSEFkZUw0RTQ2clQ3YmNWN1hBTnpVWTZScU5VQml6aVZBeWJ3a0ozZlF0cFJPc2wxZEs2bTJhU3VUaVRUVUs4aHBOdEpXa0ZtdnhWdkQ1b0JzZ0xSOHRZVXRVdFhfVnBfQ3hiMkNzUzVEaUM5V01MVllaWk0xMmdVSTRYaHF4X0FmNlF3c0dpVk90UWZJZWZv?oc=5",
+   "d": "2026-11-27",
+   "s": "gnews-a",
+   "x": "UK Peptides Publishes 31 Batch-Specific Lab Certificates for Its Research Peptides openPR.com",
+   "c": "Industry"
+  },
   {
    "t": "BPC-157 Prices in the UK: What a Fair Price per mg Looks Like - theflaremagazine.co.uk",
    "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZVpKem02bnNYcnd1WE5QRWpUeUxLOGRWaUdKN2xVUmIxQlFuemVwM2pWWVNDTktIT282U2hIZ2RzMWk3UC04Ql9jRi1SVFFpSFBhZVBaN1VQcnpVRURIWkZHaGk0aERkT2lCcklRYXlBSE40QS1YOVJtc3p1NVVFWHpfNGJDTjB2Vk5NbU83NVlVOTdmbFpR?oc=5",
@@ -109,6 +126,14 @@ window.FEED_ART={
    "d": "2026-11-26",
    "s": "gnews-a",
    "x": "Health Canada seizes semaglutide among unauthorized peptides Benefits and Pensions Monitor",
+   "c": "Industry"
+  },
+  {
+   "t": "How BPC-157 and the Wolverine Stack Became Podcast and Gym Talking Points - The Hype Magazine",
+   "l": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNTkMxUW9sNElDeFFjN05hVDljUG5LU25VNnBsbnJtaVlUZFYwdmtIdW9RTGJTaG14ZXdiWjA0TTZUeFA2TkVjWTN0bDlnSjJ2TDFMMVBsWXFlbFlnMFZ6REZpb240Z1V5eUR5aEEyT3p6cmktNUt5cHJBYW5QSWt1RWtR?oc=5",
+   "d": "2026-11-26",
+   "s": "gnews-a",
+   "x": "How BPC-157 and the Wolverine Stack Became Podcast and Gym Talking Points The Hype Magazine",
    "c": "Industry"
   },
   {
@@ -190,6 +215,22 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Ann Epidemiol · Ganson KT, Canada MHR, Obied N, Piatkowski T, Testa A, Nagata JM.",
    "c": "Research"
+  },
+  {
+   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
+   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
+   "d": "2026-11-25",
+   "s": "gnews-a",
+   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos",
+   "c": "Industry"
+  },
+  {
+   "t": "FDA Recalls and Warnings: Ibuprofen and Blood Pressure Drug May Contain Metal; Sterility Issues With Compounded GLP-1s - MedShadow Foundation",
+   "l": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdXN2VHNpX0Q4ZmNGT2RNb0UtSWowd2pFck1icUZuMUFQVl94c010TmFlR3UxZ1ppdDRtemhaaVd4emFuNEVFRU9SaGlKSk9SYlB6aVFXLTB2dWJXakRiU2VzQ1BGQ0FnOXlYNlA1THpTN3FlMjQwb1pnM1JrTkwwT2RGU3ZINjByd1h5YW1yZGVkdE5Cdi1CWWFER1FYQkZwRzRyWjN6azNOaU1BQ3NXNmYyaU05RGtZdVRwaFpwbHdPb00?oc=5",
+   "d": "2026-11-25",
+   "s": "gnews-a",
+   "x": "FDA Recalls and Warnings: Ibuprofen and Blood Pressure Drug May Contain Metal; Sterility Issues With Compounded GLP-1s MedShadow Foundation",
+   "c": "Industry"
   },
   {
    "t": "Health Canada seizes peptides from Toronto shop, warns of health risks of unregulated market - CBC",
@@ -304,6 +345,14 @@ window.FEED_ART={
    "c": "Research"
   },
   {
+   "t": "The Ozempic phenomenon: Health Canada seizes unauthorized peptides in Toronto - elcentronews.net",
+   "l": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNdXVLOVFacWttLXVCX1p1T2NyNzN5NjdneHFiVDNOc0lCS3YxT2lndkl3QlJoNG5qOVJSUXhHbFp2b01fX3ZEenJ5Y2tRQUdXSUh4VkVrYzJjVFdoLTlCUTZQZk9GSUI2X0tiZFQ1bGt2UXdzaFhsZU4yNW96R2JCVE9zaWJzek05S1NCU0R3a0NiUFQwWGtfMDdzY2IyLXNHY2VsU2NIeTcyZw?oc=5",
+   "d": "2026-11-24",
+   "s": "gnews-a",
+   "x": "The Ozempic phenomenon: Health Canada seizes unauthorized peptides in Toronto elcentronews.net",
+   "c": "Industry"
+  },
+  {
    "t": "Watch A Current Affair - Season 2026 - Ali took peptides in a bid to regain strength. It almost killed her - 9Now",
    "l": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNV0NSbVBzb2pVd3g3UzFEcS0taFdnR1cyVmJCSno4RDlhM0Y2U2lpeWV5THRob1l1Z1g4VGZKOTZXazU5blFKWmo5Q0twQ1NEWWhaMXNteWItTnNhNkJzT2ZOc1p2NTdHbXJFM1RRbHRYWGlzcWlZRW5VaHlBLXBvb0hJd3FmbVA3ZHZj?oc=5",
    "d": "2026-11-23",
@@ -416,19 +465,19 @@ window.FEED_ART={
    "c": "Industry"
   },
   {
-   "t": "Government launches inquiry into peptides amid surge in hospital visits - ABC News & Headlines – Australian Broadcasting Corporation",
-   "l": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQb1BmMGpwVERxdkhvQ0pRaWIzNHB5UmlOTmtXcHpvMHBZdmdfbnN3dF95S2ttV180Zjg3T0c3bXUzRWk1VXdHLVU4SzhPZ1BjaWV6REg1M1BCb1U5MjNxbTdqUGJfcmZaRTFWeURtaEt5SU9zQ3N0OFdoTGhsbVJ3NVY3VTRFZTVnODlTc0RKM191UjNnTHpnWlV4Vl9zZFVi?oc=5",
-   "d": "2026-11-22",
+   "t": "Does Retatrutide Outperform Existing Options A Direct Comparison Of Local Weight Guide - Derby - Diocese",
+   "l": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPd1dmVVR0WWd6d0V6X0ViQjJndVZqUy1TUVRxVDBOdmtzSnZfZFRDZmpiMUtVRUlfY0pmTzVHY1hxSVo0LXo4RFNvTGdfMlJoS3JwaGVrN19UUnZ0RVhOTzJvTWNtLUxlOXBDMkRSanBKbVpXWmxvMGNweGVEMDRYRzBpY2ZINWxNWGpLTUhlSlI3Q1JQTlcxR3pORE90UzFMWHJZalRiQ1JlQXJuY1R6UUszMFQ?oc=5",
+   "d": "2026-11-23",
    "s": "gnews-a",
-   "x": "Government launches inquiry into peptides amid surge in hospital visits ABC News & Headlines – Australian Broadcasting Corporation",
+   "x": "Does Retatrutide Outperform Existing Options A Direct Comparison Of Local Weight Guide Derby - Diocese",
    "c": "Industry"
   },
   {
-   "t": "Dodgy gym peptides: Hospital emergency cases surge - The Daily Telegraph",
-   "l": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOckVmZnp4bTdVaHg4ZmJPSEFYWVZscmxtelktUDlkZVN4MmdMVU5SY2R4R0gwQ0RhbmpJbV9wUGN6cS1lRmMtUjRqRi1YZFNZSDM4UXFkVWVEQzdVb1lCSDFCVjVpY1NCcXhwN0R0VjFPWXEtUzVMS1JCOGxYR0tsZEw4ak50NzVqWDIwZVRFN0FUZVRrS1oxeDRrYk1MZi1lR3IteGlvaUJuVVhsUlJ1ZUZzMkhkUjR5a0gxODFpWkZYRDBFVkpVYVhKYWR0V3hFMUxNTjBtYzQteFJYbEZhUmNCX29weXo4czhZaXZFYWdmbEZoZXdZVEkxckN2MkJ0cnNmdTBucnJBSEt3eXFtNHp1cnpXbXRYR2UzeG5VU1BVdFNjQWNTTGV2RGZhVUNj?oc=5",
-   "d": "2026-11-22",
+   "t": "Ozari Health Launches Prescription Peptides Online: BPC-157 Capsules and Injection, MOTS-C, Epithalon, TB-500 and Semax Nasal Spray From $209 a Month - The Manila Times",
+   "l": "https://news.google.com/rss/articles/CBMivwJBVV95cUxPc3FkMV9FbVVTV2NwZk0wY1pBSmNzaUI1dmhwN0ZyMkdjcE10WUVWN21tbzlKV2RiejBSSjNDcDlacDZZWkZYRmJUUnhZdEszdm9vblNERzRtVklfZkdrYjlBTGtELUJEYnM1RjJuYmRZakZHcDJ3SzlQSEVyTXVnQ0pzZ2NJWVo2Z05IZlJ3N1pteGxFYUhTbThJZWI1UkxhWk5QT1J4b3pRejg4NEpZMTV2VUpYdlZWaENsMmRJajRrMUtCTjd4dmZsUUNfSEc5Tkh0d2VsNHd2cHFJeG91T0F5dkkzRmlZRmszQ1MxT0R6QUlxS3lJanFRZTA0a3dwcjNXajhCaV8yYjJkVlZCdVdvWV95ZnlZVzZ1R0lEaUkyZjItYklTQlFhVFNib3JoWVNOOThOS2ttcE40cnVB0gHEAkFVX3lxTE05UVRkLVMxNXd3TWVmaVAwREg4RWo3djVnVEowdTU1dTBieXlaYlJhcVAtY2ltTkE4bWl2WG05RlZISzQwSDUtV2JjbVRFVUtTOVoxRGRPNkJIUTlGMkRkbnlqYV9iaWVpSDZ5ekRscGl4aTUwdGNuUUU4NFZxX3lLRjFtVUNQWUo1Q0JWc3FPTThHclBibjN2WGNLaE95dWRlVTVGYlJ6UHFGLTd5NWJ0TkhIb1pVZDlQZzFCVldkam9oUlplRUZNcWRYNm96TWlQbGJrQ2VkODBaVW9iYWxzeGN6bzJ3R0hLT05hblVkSXEtckFfMWhjM3ZYam5QZnc3UkVYVXpjMVh1RjB1VFgtbkpEVWNjeWNYODVIVnFlOFdJS2RpS0lSYnVMZHg3RGlXQndRalZxd0JxZ1JBSW0tZVI2Xw?oc=5",
+   "d": "2026-11-23",
    "s": "gnews-a",
-   "x": "Dodgy gym peptides: Hospital emergency cases surge The Daily Telegraph",
+   "x": "Ozari Health Launches Prescription Peptides Online: BPC-157 Capsules and Injection, MOTS-C, Epithalon, TB-500 and Semax Nasal Spray From $209 a Month The Manila Times",
    "c": "Industry"
   },
   {
@@ -446,54 +495,6 @@ window.FEED_ART={
    "s": "epmc",
    "x": "Future Cardiol · Farzam K.",
    "c": "Research"
-  },
-  {
-   "t": "Experimental Weight-Loss Drug Retatrutide Cuts Knee Pain in Osteoarthritis Trials - SSBCrack",
-   "l": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOdzRieGE5VHlDcF8zWmxtMUZscW5GbU1maTBsLVdCSGFLcDlZNnNsR1UwM3J2V3FqdU5GNzlxbUxyMEdzR215ak5xaUZ2MTNSdkxOdHBHVmlpZ0VyRjd6UXhObmpqWDJpMlI2bWJfeFAyNlBwaU1raVlWMzFKaWo2Q05xbmY0alk4YTE1OC1zTVJ0NVFEc21NcHpPX0VEdEp6N01YZlRTZ0twTnkw?oc=5",
-   "d": "2026-11-21",
-   "s": "gnews-a",
-   "x": "Experimental Weight-Loss Drug Retatrutide Cuts Knee Pain in Osteoarthritis Trials SSBCrack",
-   "c": "Industry"
-  },
-  {
-   "t": "Health minister requests parliamentary inquiry into safety of online prescribing practices for peptides - The West Australian",
-   "l": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOMV9IYW1PMjEzbTlvWUx6QVMxakJ4aFVTNldvODJRcC1QLTIzcjdFYUNLOUd2VW51eW9Vejdwbll4WXJXdTNGUkpnYVM4d1ZERlMtdDB5b29PYktwZFI2Y2NNTmFLZWYyMVM4TkNoRXNvNHJkY2t0NVNhZGpsdEJJemtvYjA3eGtLbFpib0xmMWRzUE5wbnA4bDIyMXplOWZBbFRGX0V2NXc0WXJESjZLT1FPQW9zRXZHQXJmdmdhaVZGNk1PdW9uSXpQM29fdDBPWmpXRXF6Q25wcUpxdEt2dVlBVFhRZlpOSGVCdEpuMTlQbUEtSEHSAfsBQVVfeXFMT0V3dXJiU3BHYnNhd2hCUDFHQUNLZDQzN0lIWEZheWJuU3lMT1ZMdS1qcF93T0Y0UVpselFncUpNVEVCd3M1VTNMb0YtZGx1cDVWTGpleERBelk3bExtVlZNSEJUMlNhV1gzdlJQNWhCNXY2N3JGSXZzX1JhN3p2TW9xT1RfLVpQUjdLT1NJVHFvZ0JlSU1BRzFhSmtuQ0MxTElQN2RiU3ZyVmZGR3BtajFkbzFZd0FzV0x6NmdLY1hiU05OSHlVMnhWc3RQVnNYcWE5ZmZCUFN1NUtvcDZVUEZfRk1ZV3NpajhhOEYyOHhOeWZ5NGIyZm1TTkk?oc=5",
-   "d": "2026-11-21",
-   "s": "gnews-a",
-   "x": "Health minister requests parliamentary inquiry into safety of online prescribing practices for peptides The West Australian",
-   "c": "Industry"
-  },
-  {
-   "t": "$100M Gray-Market Peptide Trade Runs on Crypto, Chainalysis Reports - CoinMarketCap",
-   "l": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOeUZ3Y0phek1CR0hCc295bnVCQWZocWlGZDVDVjRLZW5FWHUzNk1Qd3Y0SjFid2s2SUpNREpueVNkM2V4UEVVelJOb3NCMTlXSUhhcU1XVlZYWGZPSExJdXF4dmI0Z3BRRmZFLUZYMExjd0pNOVpKWkpxRmQ0blludHEyMURzYTdVblc5d1JIZnh5RV9OM1E?oc=5",
-   "d": "2026-11-21",
-   "s": "gnews-a",
-   "x": "$100M Gray-Market Peptide Trade Runs on Crypto, Chainalysis Reports CoinMarketCap",
-   "c": "Industry"
-  },
-  {
-   "t": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? - ABC News - Breaking News, Latest News and Videos",
-   "l": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQc0JqS2lhR293UDllbDRWTkpwNkdiSjN5MkpCeUtSME5oTUR5WmMzSnpmRmZTUG8wWVVxQlJidEd3ZU5fWUNBbmdYZ3lnbFJyOUUwZnNUUUNtUUhvZXphNGpMV2EwMElSSUEtNVVjRFNjQlpJYXV6bEswSGV6NWpoeTJTbkFYOFRNQ09FOHg4aHJXUm1qTzl30gGcAUFVX3lxTFA0dnZEd3pIbXJlZHVsRWlJVFVjMUk5U2N5NmFIQ1VvVzl3Qk45b0owZkJqUklqalF5cXJ5QUhoRlYwNzQ2bFkxVEc4dTR1VDNGY3YzbXJ6YV9YTmRLZDI5QWNkVld2aUx1QXNFTXBvQTdEMXpYVGJSY1daLW1VQ3JiSGdodkRCUHBBY0s2N2lHUXlJT1RaUE9oblp1Ug?oc=5",
-   "d": "2026-11-21",
-   "s": "gnews-a",
-   "x": "FDA advisers narrowly vote to add 6 peptides to a drug compounding list. What's next? ABC News - Breaking News, Latest News and Videos",
-   "c": "Industry"
-  },
-  {
-   "t": "Australia’s big move on peptides sold online - News24",
-   "l": "https://news.google.com/rss/articles/CBMijwJBVV95cUxQY0llR2dVQkpySnR3UHVHYWVSelZpVDBGQmpiS0V4QjNyeVdoN0liOTRJSDR2SkFDc1hDa0dYaENBb3VQS1ExNGtrOWlWamdSMTJPSmZhQURqSTMyVEZMRUozNzhVNkFncmFHX3p5UVozLVZ5LXUyTkUtRjZDZlE5WkVESDBmeEp4amdiR0RyMEpVdjlpNy1TM1lHUm5FRlNHYmFaZjh0bHQ5ZE9NUmF6bzBXT3pubnZXbnVvLW0tSm9pOHhMbGJUcElpSVQ1NTZPN2VIQ0NVWk9ZZjdoYTk5TUxlX0hHdjRzTGY4RGNidkhQMkpRS1Y5TVY4T0dkeklqRmxORFNzeXZXNEs0cnkw0gGPAkFVX3lxTFBjSWVHZ1VCSnJKdHdQdUdhZVJ6VmlUMEZCamJLRXhCM3J5V2g3SWI5NElINHZKQUNzWENrR1hoQ0FvdVBLUTE0a2s5aVZqZ1IxMk9KZmFBRGpJMzJURkxFSjM3OFU2QWdyYUdfenlRWjMtVnktdTJORS1GNkNmUTlaRURIMGZ4SnhqZ2JHRHIwSlV2OWk3LVMzWUdSbkVGU0diYVpmOHRsdDlkT01SYXpvMFdPem5udldudW8tbS1Kb2k4eExsYlRwSWlJVDU1Nk83ZUhDQ1VaT1lmN2hhOTlNTGVfSEd2NHNMZjhEY2J2SFAySlFLVjlNVjhPR2R6SWpGbE5EU3N5dlc0SzRyeTA?oc=5",
-   "d": "2026-11-21",
-   "s": "gnews-a",
-   "x": "Australia’s big move on peptides sold online News24",
-   "c": "Industry"
-  },
-  {
-   "t": "Black-market peptide use in New Zealand, by the numbers - The Spinoff",
-   "l": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQVE1ZHZqOUtKaURQejU4ZzIwdGplZzk1Z01STmVoVkVSaUxja2JhMXJiZzVHWGluOVZxSE1wOFJKc2hQLU01QXhSaVcteFhRZGRVUVdIT1VsRUhRZDZHSHVNNkUzaXJHZEl3SWx2djQ5NFBCUGV0eC1iV0tSd1BZb2JLZG5CTDNfNGRucTN2X3U0bmhfUWxlNTUyYmpZYWM?oc=5",
-   "d": "2026-11-20",
-   "s": "gnews-a",
-   "x": "Black-market peptide use in New Zealand, by the numbers The Spinoff",
-   "c": "Industry"
   },
   {
    "t": "Blue Interactive Agency Publishes New Resource on Peptide Therapy SEO as Patient Search Trends Reshape Healthcare Marketing - Detroit Free Press",
@@ -629,14 +630,6 @@ window.FEED_ART={
    "d": "2026-11-16",
    "s": "gnews-gh",
    "x": "Are peptides legal now? What the new HHS policy really means Building Indiana Business",
-   "c": "Industry"
-  },
-  {
-   "t": "Are peptides legal now? What the new HHS policy really means - Coastal Breeze News",
-   "l": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPY0tIcHprUU42N1BfM21lOS12dVJNSFZRV0trT2VnQ1U3cVJORW91UTNudnZacnVIWXJrczBWbUtmMldoUDlwT1pEX2hFZm9QNEFOakZOQzE4QUtUbzFfS1VjbklkWTFwRVAyMDQtWWVhSk8wbDBRdDJYcFpYcllVeXBsc1dNbWRVeG1wRWZiSUZ4ejhOZFZIVlRpUU1oUkk5X3JBX2JoWWV0ZXJwYTdjdEJmMjAzcG96eHZTSUlmZkk?oc=5",
-   "d": "2026-11-16",
-   "s": "gnews-gh",
-   "x": "Are peptides legal now? What the new HHS policy really means Coastal Breeze News",
    "c": "Industry"
   },
   {
