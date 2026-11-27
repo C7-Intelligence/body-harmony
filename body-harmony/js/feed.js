@@ -1,5 +1,5 @@
 window.FEED={
- "generated": "2026-11-27T08:45Z",
+ "generated": "2026-11-27T21:25Z",
  "sources": [
   {
    "id": "fda-press",
@@ -7,11 +7,11 @@ window.FEED={
    "home": "https://www.fda.gov/news-events/fda-newsroom/press-announcements",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "fda-drugs",
@@ -19,11 +19,11 @@ window.FEED={
    "home": "https://www.fda.gov/drugs/news-events-human-drugs/whats-new-related-drugs",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "fda-medwatch",
@@ -31,11 +31,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 0,
    "seen": 2,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "fr-fda",
@@ -43,11 +43,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/food-and-drug-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 14,
    "seen": 48,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "fr-cbp",
@@ -55,11 +55,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/u-s-customs-and-border-protection",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "fierce",
@@ -67,11 +67,11 @@ window.FEED={
    "home": "https://www.fiercepharma.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 1,
    "seen": 1,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "gnews",
@@ -79,11 +79,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
-   "new": 164,
+   "new": 165,
    "seen": 195,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "fda-recalls",
@@ -91,11 +91,11 @@ window.FEED={
    "home": "https://www.fda.gov/safety/recalls-market-withdrawals-safety-alerts",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "fda-consumer",
@@ -103,7 +103,7 @@ window.FEED={
    "home": "https://www.fda.gov/consumers/consumer-updates",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": false,
    "error": "HTTP Error 404: Not Found",
    "new": 0,
@@ -115,11 +115,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/drug-enforcement-administration",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 18,
    "seen": 33,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "fr-hhs",
@@ -127,11 +127,11 @@ window.FEED={
    "home": "https://www.federalregister.gov/agencies/health-and-human-services-department",
    "type": "fr_api",
    "cat": "Regulation",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 0,
    "seen": 3,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "doj",
@@ -139,11 +139,11 @@ window.FEED={
    "home": "https://www.justice.gov/news",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "usada",
@@ -151,11 +151,11 @@ window.FEED={
    "home": "https://www.usada.org/news/",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 0,
    "seen": 9,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "mhra",
@@ -163,11 +163,11 @@ window.FEED={
    "home": "https://www.gov.uk/government/organisations/medicines-and-healthcare-products-regulatory-agency",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-27T08:45Z"
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "gnews-state",
@@ -175,11 +175,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Regulation",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 0,
-   "seen": 19,
-   "lastOk": "2026-11-27T08:45Z"
+   "seen": 18,
+   "lastOk": "2026-11-27T21:25Z"
   },
   {
    "id": "gnews-anab",
@@ -187,11 +187,11 @@ window.FEED={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Safety",
-   "checked": "2026-11-27T08:45Z",
+   "checked": "2026-11-27T21:25Z",
    "ok": true,
    "new": 0,
-   "seen": 8,
-   "lastOk": "2026-11-27T08:45Z"
+   "seen": 9,
+   "lastOk": "2026-11-27T21:25Z"
   }
  ],
  "items": [
@@ -364,14 +364,6 @@ window.FEED={
    "c": "Safety"
   },
   {
-   "t": "FDA warning letters target telehealth sellers claiming compounded GLP-1 drugs are the same as Wegovy and Zepbound - Medical Daily",
-   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ2NkMVV6dll1cHEwb0VxOFd2NUlCdDdwMlNVYURPWmJxRkZISnBMVUpoWkVfMFNtbTFad2xiNlRhTHMtY2thRHNnTjhDalE2WXdpQWdadmZWRk5pVGxDalNPMVRLMEZ1Y2VJRUdVMWplUjVoSGR3WkNBcU1CbXYzMHhwY1BXRXUzR3pTUFEzallJWHc?oc=5",
-   "d": "2026-11-19",
-   "s": "gnews",
-   "x": "FDA warning letters target telehealth sellers claiming compounded GLP-1 drugs are the same as Wegovy and Zepbound Medical Daily",
-   "c": "Industry"
-  },
-  {
    "t": "HHS peptide compounding pathway could curb gray market but broaden demand - Nutrition Insight",
    "l": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQdEw3MUxickJoSlNpYWJjcTdvRVo5U2NOUFpCNkZYVHZuRFdSdG0tNnBYLUdUcTlSOTZidG5JbTFBRzVQTUk5ZUN1d2diVVVTWHNMNHlKUnpvUVRTVmFicHlpeGdzODViVlQwM01pUmUtTTY2eEtvaTR0bjE2QTkxT0h3RUpXUnZvUEVNN2RkRQ?oc=5",
    "d": "2026-11-19",
@@ -410,6 +402,14 @@ window.FEED={
    "s": "gnews-anab",
    "x": "Two people from Metairie, others indicted in alleged steroid distribution conspiracy WGNO",
    "c": "Safety"
+  },
+  {
+   "t": "Compounded GLP-1 Sellers Face Dozens of FDA Warning Letters Over Claims Their Drugs Match Wegovy and Zepbound - Medical Daily",
+   "l": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZ2NkMVV6dll1cHEwb0VxOFd2NUlCdDdwMlNVYURPWmJxRkZISnBMVUpoWkVfMFNtbTFad2xiNlRhTHMtY2thRHNnTjhDalE2WXdpQWdadmZWRk5pVGxDalNPMVRLMEZ1Y2VJRUdVMWplUjVoSGR3WkNBcU1CbXYzMHhwY1BXRXUzR3pTUFEzallJWHc?oc=5",
+   "d": "2026-11-18",
+   "s": "gnews",
+   "x": "Compounded GLP-1 Sellers Face Dozens of FDA Warning Letters Over Claims Their Drugs Match Wegovy and Zepbound Medical Daily",
+   "c": "Industry"
   },
   {
    "t": "Gold, silver, cash and drugs seized in police sting - inkl",
@@ -577,6 +577,14 @@ window.FEED={
    "d": "2026-11-16",
    "s": "gnews",
    "x": "Are peptides legal now? What the new HHS policy really means Las Cruces Bulletin",
+   "c": "Industry"
+  },
+  {
+   "t": "Are peptides legal now? What the new HHS policy really means - شبكة تواصل الإخبارية",
+   "l": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB5MGdaVVBYZ3RqUWl1M1BmaW5uVWNRY21OeDd6czFKZzgyaVMtemVIR0VKTU41cG55WXV6Wi0yTDdhNERQRThuUThVVEp2YjZGbWJ3?oc=5",
+   "d": "2026-11-16",
+   "s": "gnews",
+   "x": "Are peptides legal now? What the new HHS policy really means شبكة تواصل الإخبارية",
    "c": "Industry"
   },
   {
@@ -935,13 +943,6 @@ window.FEED={
    "s": "gnews",
    "x": "HHS Announces Draft Enforcement Discretion Policy Paving Way for Pharmacies to Compound Certain Peptides While FDA Rulemaking Is Pending Arnold & Porter",
    "c": "Industry"
-  },
-  {
-   "t": "Unproven Peptides Opposed by FDA Scientists Could Soon Be Easier to Get - Infectious Disease Advisor",
-   "l": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQMEtVX1hSSXNOVExkdXpYb2UtTXpLemg2T200eWJ2N0tZdndRNkF0NW9TZFh0cEJEOVE4Q29NU29rekJWWG83SzVyMUtIRVZpMDJfOE1vX3FKdGktVE1BWnRWel9sYkxPcnU0TzNzMHpFOFJRYjd1TnhVN1U4NE9YQVpvRmV1X2E4bkFPYmR5c0ZpbWZyZVoxR1NiR2IwVXZpWmVMVWpxOENiQlNNaEFRVEhSNmRyRFNtRVE?oc=5",
-   "d": "2026-11-02",
-   "s": "gnews",
-   "x": "Unproven Peptides Opposed by FDA Scientists Could Soon Be Easier to Get Infectious Disease Advisor"
   },
   {
    "t": "Illegal Drug Factory Busted in Zirakpur Residential Area; Banned Injections, Steroids, and Lakhs of Unpacked Pills Seized - drugscontrol.org",
