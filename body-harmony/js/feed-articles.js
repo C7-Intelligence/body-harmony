@@ -1,5 +1,5 @@
 window.FEED_ART={
- "generated": "2026-11-27T21:25Z",
+ "generated": "2026-11-28T07:59Z",
  "sources": [
   {
    "id": "gnews-a",
@@ -7,11 +7,11 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-27T21:25Z",
+   "checked": "2026-11-28T07:59Z",
    "ok": true,
-   "new": 70,
-   "seen": 95,
-   "lastOk": "2026-11-27T21:25Z"
+   "new": 40,
+   "seen": 64,
+   "lastOk": "2026-11-28T07:59Z"
   },
   {
    "id": "epmc",
@@ -19,11 +19,11 @@ window.FEED_ART={
    "home": "https://europepmc.org",
    "type": "epmc",
    "cat": "Research",
-   "checked": "2026-11-27T21:25Z",
+   "checked": "2026-11-28T07:59Z",
    "ok": true,
    "new": 30,
    "seen": 45,
-   "lastOk": "2026-11-27T21:25Z"
+   "lastOk": "2026-11-28T07:59Z"
   },
   {
    "id": "stat",
@@ -31,11 +31,11 @@ window.FEED_ART={
    "home": "https://www.statnews.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-27T21:25Z",
+   "checked": "2026-11-28T07:59Z",
    "ok": true,
    "new": 0,
    "seen": 1,
-   "lastOk": "2026-11-27T21:25Z"
+   "lastOk": "2026-11-28T07:59Z"
   },
   {
    "id": "bpd",
@@ -43,11 +43,11 @@ window.FEED_ART={
    "home": "https://www.biopharmadive.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-27T21:25Z",
+   "checked": "2026-11-28T07:59Z",
    "ok": true,
    "new": 0,
    "seen": 0,
-   "lastOk": "2026-11-27T21:25Z"
+   "lastOk": "2026-11-28T07:59Z"
   },
   {
    "id": "gnews-gh",
@@ -55,14 +55,54 @@ window.FEED_ART={
    "home": "https://news.google.com",
    "type": "rss",
    "cat": "Industry",
-   "checked": "2026-11-27T21:25Z",
+   "checked": "2026-11-28T07:59Z",
    "ok": true,
-   "new": 1,
-   "seen": 7,
-   "lastOk": "2026-11-27T21:25Z"
+   "new": 0,
+   "seen": 3,
+   "lastOk": "2026-11-28T07:59Z"
   }
  ],
  "items": [
+  {
+   "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
+   "l": "https://doi.org/10.1002/rcm.70179",
+   "d": "2026-11-28",
+   "s": "epmc",
+   "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
+   "c": "Research"
+  },
+  {
+   "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
+   "l": "https://doi.org/10.1002/glia.70240",
+   "d": "2026-11-28",
+   "s": "epmc",
+   "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
+   "c": "Research"
+  },
+  {
+   "t": "Semaglutide-Induced Weight Loss Does Not Impair Muscle Function and Improves Endurance Running Capacity in Obese Mice.",
+   "l": "https://doi.org/10.1002/jcsm.70427",
+   "d": "2026-11-28",
+   "s": "epmc",
+   "x": "J Cachexia Sarcopenia Muscle · Minderis P, Cesanelli L, Sviderskis M, Venckunas T, Gray SR, Ratkevicius A.",
+   "c": "Research"
+  },
+  {
+   "t": "Reduction in T-Cell Mitochondrial Respiratory Capacity After Reaching a Weight Loss Plateau.",
+   "l": "https://doi.org/10.2337/db26-0304",
+   "d": "2026-11-28",
+   "s": "epmc",
+   "x": "Diabetes · Valencia AP, Brandao AF, Melhorn SJ, De Leon MRB, Marcinek DJ, Schur EA.",
+   "c": "Research"
+  },
+  {
+   "t": "Opinion | Our Patients May Already Be Using Peptides. Counseling Matters. - MedPage Today",
+   "l": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9RcTA0X0NYejBoZnRzWGsydXItMjBWZnl1eVcxSlEtcTd6NDlFN0JtZ1Jqb0tNMXpiMldFcnowNmZFRDVGQVJaQzU0Nm1BSXJldjNpdFdVTFFOWnVWMHU3cnQ4RG5zVVYwaDc4?oc=5",
+   "d": "2026-11-28",
+   "s": "gnews-a",
+   "x": "Opinion | Our Patients May Already Be Using Peptides. Counseling Matters. MedPage Today",
+   "c": "Industry"
+  },
   {
    "t": "FDA Advisory No.2026-1793 || Public Health Warning Against the Purchase and Use of the Unregistered Drug Product “Luhilo High and Low Molecular Weight HA, Amino Acids and Peptides Syringe x 2.5ml” -…",
    "l": "https://news.google.com/rss/articles/CBMitAJBVV95cUxPc0VtamY2dUdFNi1reE8wT0YxSjBrRXp6X0FDQmpxVHpDSnlQZHlVTnVWSnM2cGMxY2JnX052Rk44dHhEOUtIZHQ3SW9CNHp6MldyU01OY1dVRzBTdDJNU0l1bGlEMDNlZmNDV1h3cVBxZDIwWGc5TmVOUEEtMU9xLUFKZ3o3UnFoZGJteFBpeXBpYVVXTTJkczEwYXhJUVQ3dDd4S196eW1pc05PYzlPU2txOE03LVJyQXZMTEpnYzRrTnRuSkYyeGJkZDEtSF9EWXM2MHN6dU9rLUxZSFVFYldDSmsyQU15TDhuSWNSWWsyajVGeGFUS3NTRy1pOWtKREtuVDBYZ1NhWXdsT2hNOTRtejBJSG41QmJfMk9hZlI5cXJMQVlVaG15SzRlN1Jxc1U4cg?oc=5",
@@ -78,38 +118,6 @@ window.FEED_ART={
    "s": "gnews-a",
    "x": "UK Peptides Publishes 31 Batch-Specific Lab Certificates for Its Research Peptides openPR.com",
    "c": "Industry"
-  },
-  {
-   "t": "Detection and Excretion Profile of Retatrutide in Human Plasma and Urine by LC-HRMS: Implications for Antidoping Analysis.",
-   "l": "https://doi.org/10.1002/rcm.70179",
-   "d": "2026-11-27",
-   "s": "epmc",
-   "x": "Rapid Commun Mass Spectrom · Carneiro GRA, da Costa Nunes IK, Dos Santos Cardoso GR, Dos Santos PF, Padilha MC, Nogueira FCS, Pereira HMG.",
-   "c": "Research"
-  },
-  {
-   "t": "Microglial Labeling in Mouse Spinal Cord Injury: A Review of Timing, Efficacy, and Specificity.",
-   "l": "https://doi.org/10.1002/glia.70240",
-   "d": "2026-11-27",
-   "s": "epmc",
-   "x": "Glia · Colbert R, Di Stefano J, Dooley D.",
-   "c": "Research"
-  },
-  {
-   "t": "Semaglutide-Induced Weight Loss Does Not Impair Muscle Function and Improves Endurance Running Capacity in Obese Mice.",
-   "l": "https://doi.org/10.1002/jcsm.70427",
-   "d": "2026-11-27",
-   "s": "epmc",
-   "x": "J Cachexia Sarcopenia Muscle · Minderis P, Cesanelli L, Sviderskis M, Venckunas T, Gray SR, Ratkevicius A.",
-   "c": "Research"
-  },
-  {
-   "t": "Reduction in T-Cell Mitochondrial Respiratory Capacity After Reaching a Weight Loss Plateau.",
-   "l": "https://doi.org/10.2337/db26-0304",
-   "d": "2026-11-27",
-   "s": "epmc",
-   "x": "Diabetes · Valencia AP, Brandao AF, Melhorn SJ, De Leon MRB, Marcinek DJ, Schur EA.",
-   "c": "Research"
   },
   {
    "t": "The Precision Peptide Company Sends 40,000 Needle-Free Weight-Management Patches Into U.S. Production as Tirzepatide and GLP3 Clear Testing - TradingView",
@@ -174,6 +182,14 @@ window.FEED_ART={
    "s": "gnews-a",
    "x": "Nuritas and 10X Health draw the line between food-derived and compounded peptides Nutrition Insight",
    "c": "Industry"
+  },
+  {
+   "t": "Pectoralis major tendon repair demonstrates good clinical outcomes and satisfaction, though lingering strength deficits at 12 months post-surgery: A case series.",
+   "l": "https://doi.org/10.1016/j.jisako.2026.101257",
+   "d": "2026-11-26",
+   "s": "epmc",
+   "x": "J ISAKOS · Ebert JR, Edwards PK, Malik SS, D'Alessandro PA.",
+   "c": "Research"
   },
   {
    "t": "Fears US “peptide party” craze could spread to Britain amid safety concerns - Deadline News",
@@ -461,14 +477,6 @@ window.FEED_ART={
    "d": "2026-11-23",
    "s": "gnews-a",
    "x": "MetaVia’s DA-1726 matches retatrutide in mouse study Longevity.Technology",
-   "c": "Industry"
-  },
-  {
-   "t": "Pharmacist: People are injecting ‘research use only’ peptides from random websites - Fortune",
-   "l": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNjZLTllMc1JCWXNUNklRbVJ6bVdfU0k0VUJYOUJ2TFpoRm0zVmhzTklXRFdETWM4TFVMbDFqNlZTNVYwUGVQWDlSdzRoUmpULWNRWmQ2RXJsZjV3b1lfcHA2RnRoMU9ZenBrM3luZ3lieEQ0LWk0OUlpTnlzZ3pKdDJWejhfMkVhNWtmT3FkNF9MWWxnNk1fWTdlNU9WUQ?oc=5",
-   "d": "2026-11-23",
-   "s": "gnews-a",
-   "x": "Pharmacist: People are injecting ‘research use only’ peptides from random websites Fortune",
    "c": "Industry"
   },
   {
@@ -1078,14 +1086,6 @@ window.FEED_ART={
    "d": "2026-10-26",
    "s": "epmc",
    "x": "Oncogene · Chai KM, Tsai CH, Lin MY, Teng TC, Chen YS, Liu SJ, Chang CR, Wang CY.",
-   "c": "Research"
-  },
-  {
-   "t": "Mots-c attenuates diabetic nephropathy by downregulating LARS1 to promote lipophagy and suppress tubular senescence.",
-   "l": "https://doi.org/10.1016/j.bcp.2026.118572",
-   "d": "2026-10-23",
-   "s": "epmc",
-   "x": "Biochem Pharmacol · Wang J, Luo S, Han Y, Li L, Wei L, Chen W, Yang M.",
    "c": "Research"
   },
   {
